@@ -7,7 +7,7 @@ print(p1.x)
 class Person:
     def __init__(self, name, age):
 
-        # assigning values to object properties:
+        # assigning values to the object properties of the person class:
         self.name = name
         self.age = age
 
