@@ -3,8 +3,8 @@
 Practising with a few example cases, with regard to:
 - Classes and Objects in Python.
 - Conducting a simple Unit Testing case.
-- Difference between lists, sets, and tuples in Python data types
-- Some examples using *args and **kwargs in functions
+- Difference between lists, sets, and tuples in Python data types.
+- Some examples using *args and **kwargs in functions.
 -------
 
 # Sources
@@ -25,3 +25,5 @@ https://www.geeksforgeeks.org/python-tuples/?ref=lbp
 https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20passes%20variable%20number%20of,kwargs%20make%20the%20function%20flexible
 
 https://www.geeksforgeeks.org/args-kwargs-python/?ref=lbp
+
+https://towardsdatascience.com/10-examples-to-master-args-and-kwargs-in-python-6f1e8cc30749
