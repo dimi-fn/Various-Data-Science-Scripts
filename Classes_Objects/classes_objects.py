@@ -25,6 +25,5 @@ print(Identity.__doc__)
 x = Identity("Peter", "Dosh", 41)
 x.output_function()
 
-# the above is equal to this in one line:
+# the above is equal to that in one line:
 Identity("Peter", "Dosh", 41).output_function()
-
