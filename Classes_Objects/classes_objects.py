@@ -1,15 +1,19 @@
-class my_class:
-  x = 3
+class Identity:
+    '''
+    Creating a class named "Identity"
+    Properties: first name, last name, age
+    Method: a function printing the output based on attributes given
+    '''
 
-p1 = my_class()
-print(p1.x)
-
-class Person:
-    def __init__(self, name, age):
-
-        # assigning values to the object properties of the person class:
-        self.name = name
+    # assigning values to the object properties of the class "Identity"
+    def __init__(self, first_name, last_name, age):
+        self.first_name = first_name
+        self.last_name= last_name
         self.age = age
 
-p1 = Person("Peter", 41)
-print("Name: {}, Age: {}".format(p1.name, p1.age))
+    # Creating a method (function) belonging to the objects of the "Identity" class:
+    def output_function(self):
+        print("First Name: {} \nLast Name: {} \nAge: {}".format(self.first_name, self.last_name, self.age))
+
+x = Identity("Peter", "Dosh", 41)
+x.output_function()

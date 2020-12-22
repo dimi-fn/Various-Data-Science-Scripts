@@ -2,4 +2,4 @@
 
 Practising with a few example cases, with regard to:
 - Classes and Objects in Python
-- Conducting Unit Testing
+- Conducting a simple Unit Testing case
