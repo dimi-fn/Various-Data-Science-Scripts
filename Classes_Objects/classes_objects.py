@@ -27,3 +27,4 @@ x.output_function()
 
 # the above is equal to this in one line:
 Identity("Peter", "Dosh", 41).output_function()
+
