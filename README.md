@@ -16,11 +16,10 @@ https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
 https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
-
-https://www.geeksforgeeks.org/difference-between-list-vs-set-vs-tuple-in-python/
-
 ## Data Types
 https://www.geeksforgeeks.org/python-tuples/?ref=lbp
+
+https://www.geeksforgeeks.org/difference-between-list-vs-set-vs-tuple-in-python/
 
 ## Functions
 https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20passes%20variable%20number%20of,kwargs%20make%20the%20function%20flexible
