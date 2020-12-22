@@ -27,3 +27,5 @@ https://www.programiz.com/python-programming/args-and-kwargs#:~:text=*args%20pas
 https://www.geeksforgeeks.org/args-kwargs-python/?ref=lbp
 
 https://towardsdatascience.com/10-examples-to-master-args-and-kwargs-in-python-6f1e8cc30749
+
+https://www.digitalocean.com/community/tutorials/how-to-use-args-and-kwargs-in-python-3
