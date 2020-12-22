@@ -9,7 +9,7 @@ Practising with a few example cases, with regard to:
 ----------
 
 # Sources
-## * Classes & Objects
+## Classes & Objects
 https://www.w3schools.com/python/python_classes.asp
 ## Unit Testing
 https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
