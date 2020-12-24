@@ -2,7 +2,7 @@
 
 Practising with a few example cases, with regard to:
 - Classes and Objects in Python.
-- Conducting a simple Unit Testing case.
+- Solving problems via Unit Testing.
 - Difference between lists, sets, and tuples in Python data types.
 - Some examples using *args and **kwargs in functions.
 
