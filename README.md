@@ -17,6 +17,8 @@ https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
 https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
+https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence
+
 ## Data Types
 https://www.geeksforgeeks.org/python-tuples/?ref=lbp
 
