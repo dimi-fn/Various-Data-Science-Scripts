@@ -1,6 +1,6 @@
-# It is a good practise the name of file to start with "test_"
+# It is a good practise the name of the file to start with "test_"
 
-# @ https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
+# https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
 import unittest
 
