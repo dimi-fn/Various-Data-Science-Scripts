@@ -8,7 +8,7 @@ Testing that any two given numbers will give the right result for the operations
 
 2) folder: **"Smallest_Positive_Number"**: 
 
-*smallest_positive.py*: A task to be solved provided by [Codility](https://app.codility.com/programmers/), described as followed:
+*smallest_positive.py*: A task to be solved provided by [Codility](https://app.codility.com/programmers/), in which totally 7 tests are conducted. The problem is described as followed:
 
 Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
 For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
