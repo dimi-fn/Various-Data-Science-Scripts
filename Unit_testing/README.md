@@ -12,9 +12,9 @@ Testing that any two given numbers will give the right result for the operations
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective subfolders and coding solutions.
 
-Subfolders: 
-
 * **"Smallest_Positive_Number.py":**  The smallest positive number which is not appeared in an array of numbers.
+
+Subfolders: 
 
 ## Iterations
 * **"binary_gap.py":** Finding the largest binary gap in numbers.
