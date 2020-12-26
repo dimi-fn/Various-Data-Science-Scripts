@@ -20,4 +20,4 @@ Subfolders:
 * **"binary_gap.py":** Finding the largest binary gap in numbers.
 
 ## Arrays
-* **Arrays_Cyclic_Rotation:** Given an array A consisting of N integers and an integer K, return the array A rotated K times.
+* **Arrays_Cyclic_Rotation.py:** Given an array A consisting of N integers and an integer K, return the array A rotated K times.
