@@ -1,4 +1,4 @@
-Two tests are conducted here:
+The tests conducted in this directory:
 
 1) folder: **"Operations"**: 
 
@@ -6,14 +6,9 @@ Testing that any two given numbers will give the right result for the operations
 * _"unit_test_sample.py"_ contains the sample to be tested, the testing of which is conducted via Unit Testing in the _"test_sample.py"_ file.
 * Thus, a total number of 4 tests are conducted, with 3 testing methods for each case except for the division case where one more method is added for checking the occurrence of dividing with zero.
 
-2) folder: **"Smallest_Positive_Number"**: 
+2) folder: "Codility"
 
-*smallest_positive.py*: A task to be solved provided by [Codility](https://app.codility.com/programmers/), in which totally 7 tests are conducted. The problem is described as followed:
+Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective coding solutions.
 
-Given an array A of N integers, returns the smallest positive integer (greater than 0) that does not occur in A.
-For example, given A = [1, 3, 6, 4, 1, 2], the function should return 5.
-Given A = [1, 2, 3], the function should return 4.
-Given A = [−1, −3], the function should return 1.
-Write an efficient algorithm for the following assumptions:
-* N is an integer within the range [1..100,000];
-* each element of array A is an integer within the range [−1,000,000..1,000,000]
+* **"Smallest_Positive_Number"**:  The smallest positive number which is not appeared in an array of numbers
+* **"binary gap"**: Finding the largest binary gap in numbers 
