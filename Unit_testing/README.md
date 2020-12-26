@@ -10,6 +10,8 @@ Testing that any two given numbers will give the right result for the operations
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective coding solutions.
 
+Subfolders: 
+
 * **"Smallest_Positive_Number.py":**  The smallest positive number which is not appeared in an array of numbers.
 * **"binary_gap.py":** Finding the largest binary gap in numbers.
 * **Arrays_Cyclic_Rotation:** Given an array A consisting of N integers and an integer K, return the array A rotated K times.
