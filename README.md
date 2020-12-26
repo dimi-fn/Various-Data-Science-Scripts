@@ -2,7 +2,7 @@
 
 Practising with a few example cases, with regard to:
 - Classes and Objects in Python.
-- Solving problems via Unit Testing (the majority of the problem tasks are derived from [Codility](https://www.codility.com/).
+- Solving problems via Unit Testing (the majority of the problem tasks are derived from [Codility](https://www.codility.com/)).
 - Difference between lists, sets, and tuples in Python data types.
 - Some examples with functions, e.g. using arguments (*args and **kwargs), lambda, map functions, etc.
 
