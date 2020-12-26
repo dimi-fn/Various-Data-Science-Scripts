@@ -30,37 +30,37 @@ def solution(x):
 # Testing:
 class Test_solution(unittest.TestCase):
 
-    def test_case1(self):
+    def test_case_one_negative(self):
         given_input = [-10]
         validation= solution(given_input)
         self.assertEqual(validation, 1)
 
-    def test_case2(self):
+    def test_case_negatives(self):
         given_input = [-100, -5]
         validation= solution(given_input)
         self.assertEqual(validation, 1)
 
-    def test_case3(self):
+    def test_case_negatives_zero(self):
         given_input = [-133, -52, 0]
         validation= solution(given_input)
         self.assertEqual(validation, 1)
     
-    def test_case4(self):
+    def test_case_single_positiveOne(self):
         given_input = [1]
         validation= solution(given_input)
         self.assertEqual(validation, 2)
 
-    def test_case5(self):
+    def test_case_One_Two(self):
         given_input = [1, 2]
         validation= solution(given_input)
         self.assertEqual(validation, 3)
 
-    def test_case6(self):
+    def test_case_postives_negatives(self):
         given_input = [-10, 3, 6, 4, 1, 2]
         validation= solution(given_input)
         self.assertEqual(validation, 5)
 
-    def test_case7(self):
+    def test_case_large_number_mix(self):
         given_input = [-1, 3000, 6000, 4000, 1000, 2000]
         validation= solution(given_input)
         self.assertEqual(validation, 1)
