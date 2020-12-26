@@ -13,5 +13,9 @@ Several taks to be solved provided by [Codility](https://app.codility.com/progra
 Subfolders: 
 
 * **"Smallest_Positive_Number.py":**  The smallest positive number which is not appeared in an array of numbers.
+
+## Iterations
 * **"binary_gap.py":** Finding the largest binary gap in numbers.
+
+## Arrays
 * **Arrays_Cyclic_Rotation:** Given an array A consisting of N integers and an integer K, return the array A rotated K times.
