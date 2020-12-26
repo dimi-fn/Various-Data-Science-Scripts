@@ -4,8 +4,7 @@ Practising with a few example cases, with regard to:
 - Classes and Objects in Python.
 - Solving problems via Unit Testing.
 - Difference between lists, sets, and tuples in Python data types.
-- Some examples using *args and **kwargs in functions.
-
+- Some examples with functions, e.g. using arguments (*args and **kwargs), lambda, map functions, etc.
 ----------
 
 # Sources
