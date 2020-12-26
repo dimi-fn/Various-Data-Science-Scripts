@@ -17,13 +17,13 @@ https://www.w3schools.com/python/python_classes.asp
 ## Unit Testing
 https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
-**Smallest-not appeared Positive Problem**
+**Smallest-not appeared Positive Problem:**
 
 https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
 https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence
 
-### Binary Gap
+**Binary Gap:**
 
 https://markpetherbridge.co.uk/blog/codility-binary-gap-positive-integer-solution/
 
