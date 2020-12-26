@@ -29,6 +29,12 @@ https://markpetherbridge.co.uk/blog/codility-binary-gap-positive-integer-solutio
 
 https://github.com/mgoldsmith1/Codility/blob/master/binaryGap.py
 
+**Arrays - Cyclic Rotation**
+
+https://medium.com/@sichangpark/codility-2-2-arrays-cyclicrotation-4215350decb1
+
+https://gist.github.com/NicholusMuwonge/b4792af7f592c171a901d1a21560e6c0
+
 ## Data Types
 https://www.geeksforgeeks.org/python-tuples/?ref=lbp
 
