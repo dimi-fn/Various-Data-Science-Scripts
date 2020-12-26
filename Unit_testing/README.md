@@ -5,7 +5,7 @@ The tests conducted in this directory:
 Testing that any two given numbers will give the right result for the operations of addition, subtraction, multiplication, and division via Unit Testing.
 * _"unit_test_sample.py"_ contains the sample to be tested, the testing of which is conducted via Unit Testing in the _"test_sample.py"_ file.
 * Thus, a total number of 4 tests are conducted, with 3 testing methods for each case except for the division case where one more method is added for checking the occurrence of dividing with zero.
-======================
+---
 
 2) folder: 
 # Codility
