@@ -41,39 +41,47 @@ def solution(x):
 class Test_solution(unittest.TestCase):
 
     def test_case_one_negative(self):
+
+        # with 3 lines
         given_input = [-10]
         validation= solution(given_input)
         self.assertEqual(validation, 1)
 
-    def test_case_negatives(self):
-        given_input = [-100, -5]
-        validation= solution(given_input)
+        # with 2 lines
+        validation = solution([-10])
         self.assertEqual(validation, 1)
+
+        # with 1 line
+        self.assertEqual(solution([-10]), 1)
+
+    def test_case_negatives(self):
+        self.assertEqual(solution([-111,-222,-333]), 1)
+        self.assertEqual(solution([-555,-666,-777]), 1)
+        self.assertEqual(solution([-800,-900,-657]), 1)
 
     def test_case_negatives_zero(self):
-        given_input = [-133, -52, 0]
-        validation= solution(given_input)
-        self.assertEqual(validation, 1)
+        self.assertEqual(solution([-5,-3,0]), 1)
+        self.assertEqual(solution([-10,0,-26]), 1)
+        self.assertEqual(solution([0,-5,-2]), 1)
     
     def test_case_single_positiveOne(self):
-        given_input = [1]
-        validation= solution(given_input)
-        self.assertEqual(validation, 2)
+        self.assertEqual(solution([1]), 2)
 
     def test_case_One_Two(self):
-        given_input = [1, 2]
-        validation= solution(given_input)
-        self.assertEqual(validation, 3)
+        self.assertEqual(solution([1,2]), 3)
 
-    def test_case_postives_negatives(self):
-        given_input = [-10, 3, 6, 4, 1, 2]
-        validation= solution(given_input)
-        self.assertEqual(validation, 5)
+    def test_case_mix(self):
+        self.assertEqual(solution([1, 3, 6, 4, 1, 2]), 5)
+        self.assertEqual(solution([1, 2, 3]), 4)
+        self.assertEqual(solution([7,-5,-2]), 1)
+        self.assertEqual(solution([-3,15,-6]), 1)
+        self.assertEqual(solution([0,-63,89]), 1)
+        
 
     def test_case_large_number_mix(self):
-        given_input = [-1, 3000, 6000, 4000, 1000, 2000]
-        validation= solution(given_input)
-        self.assertEqual(validation, 1)
+        self.assertEqual(solution([1, 2, 20569, 654795, 6560662]), 3)
+        self.assertEqual(solution([5659595, 65959595, 5959, 959, 59989875]), 1)
+        self.assertEqual(solution([10015444, 6594162, 6649, 959877896]), 1)
 
 if __name__ == "__main__":
     unittest.main()
