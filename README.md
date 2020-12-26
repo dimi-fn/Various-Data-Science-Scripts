@@ -2,9 +2,11 @@
 
 Practising with a few example cases, with regard to:
 - Classes and Objects in Python.
-- Solving problems via Unit Testing.
+- Solving problems via Unit Testing (the majority of the problem tasks are derived from [Codility](https://www.codility.com/).
 - Difference between lists, sets, and tuples in Python data types.
 - Some examples with functions, e.g. using arguments (*args and **kwargs), lambda, map functions, etc.
+
+More details can be found on each folder respectively.
 ----------
 
 # Sources
@@ -14,9 +16,17 @@ https://www.w3schools.com/python/python_classes.asp
 ## Unit Testing
 https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
+### Smallest-not appeared Positive Problem
+
 https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
 https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence
+
+### Binary Gap
+
+https://markpetherbridge.co.uk/blog/codility-binary-gap-positive-integer-solution/
+
+https://github.com/mgoldsmith1/Codility/blob/master/binaryGap.py
 
 ## Data Types
 https://www.geeksforgeeks.org/python-tuples/?ref=lbp
