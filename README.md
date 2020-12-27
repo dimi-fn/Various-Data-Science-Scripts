@@ -35,6 +35,10 @@ https://medium.com/@sichangpark/codility-2-2-arrays-cyclicrotation-4215350decb1
 
 https://gist.github.com/NicholusMuwonge/b4792af7f592c171a901d1a21560e6c0
 
+** Arrays - Odd Occurrences**
+
+https://medium.com/@sichangpark/codility-2-1-arrays-oddoccurrencesinarray-cf4c1f7d7caf
+
 ## Data Types
 https://www.geeksforgeeks.org/python-tuples/?ref=lbp
 

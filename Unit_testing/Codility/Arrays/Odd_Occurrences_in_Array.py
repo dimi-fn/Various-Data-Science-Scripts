@@ -50,6 +50,24 @@ def solution (N):
             if frequency_value % 2 ==1:
                 return num
 
+'''
+Although the above solution can be generalized for unlimited pairs of elements (e.g. N= [1,1,1,1,2,2,3,3,3,4] and not just N=[1,1,2,2,3,3,4]), 
+it faces time performance issues when a very long array is given.
+
+Therefore, another solution can be as followed:
+'''
+
+def solution_2(N):     
+
+    if len(N) == 1:
+         return N[0]
+
+    N = sorted(N) 
+    for i in range(0 , len (N) , 2): 
+         if i+1 == len(N):
+             return N[i]
+         if N[i] != N[i+1]:
+             return N[i]
 
 # Testing:
 class Test_solution(unittest.TestCase):
@@ -59,6 +77,12 @@ class Test_solution(unittest.TestCase):
         self.assertEqual(solution([1, 1, 2, 2, 3, 3, 4, 4, 5]), 5)
         self.assertEqual(solution([30, 30, 40, 40, 50, 50, 60]), 60)
         self.assertEqual(solution([122, 122, 166, 166, 188, 188, 188, 190, 190]), 188)
+
+    def test_array_2(self):
+        self.assertEqual(solution_2([1, 1, 2, 2, 3, 3, 4]), 4)
+        self.assertEqual(solution_2([1, 1, 2, 2, 3, 3, 4, 4, 5]), 5)
+        self.assertEqual(solution_2([30, 30, 40, 40, 50, 50, 60]), 60)
+        self.assertEqual(solution_2([122, 122, 166, 166, 188, 188, 188, 190, 190]), 188)
 
 
 if __name__ == "__main__":
