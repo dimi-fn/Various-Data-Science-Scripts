@@ -72,8 +72,11 @@ class Test_solution(unittest.TestCase):
     def test_case_no_special(self):
         self.assertEqual(solution(["FooBar123"]), "Not_valid")
 
-    def test_case_no_capital(self):
+    def test_case_no_capital_no_special(self):
         self.assertEqual(solution(["foobar123"]), "Not_valid")
+
+    def test_case_less_than_six(self):
+        self.assertEqual(solution(["FoB1!"]), "Not_valid")
 
     def test_case_has_spaces(self):
         self.assertEqual(solution(["foob ar123!!!"]), "Not_valid")
