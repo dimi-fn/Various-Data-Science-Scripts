@@ -26,8 +26,8 @@ def solution(password):
     has_upper=False
     has_space= False
 
-    # assume pass is wrong
-    result = False
+    # assume password is wrong
+    pass_validation = False
 
     # count password characters
     count_char=0
@@ -52,16 +52,16 @@ def solution(password):
             has_space= True
     
         if (has_special_char == True and has_digit== True and has_lower== True and has_upper== True and (count_char>=min_char_required) and has_space==False):
-            result= True
+            pass_validation= True
         else:
-            result= False
+            pass_validation= False
 
-    if result == True:
-        result= "Valid"
+    if pass_validation == True:
+        pass_validation= "Valid"
     else:
-        result= "Not_valid"
+        pass_validation= "Not_valid"
 
-    return result
+    return pass_validation
 
 
 class Test_solution(unittest.TestCase):
