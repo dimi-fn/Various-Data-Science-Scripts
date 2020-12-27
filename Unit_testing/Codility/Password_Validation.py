@@ -51,7 +51,7 @@ def solution(password):
         if " " in password:
             has_space= True
     
-        if (has_special_char == True and has_digit== True and has_lower== True and has_upper== True and (count_char>=min_char_required) and has_space==False):
+        if has_special_char == True and has_digit== True and has_lower== True and has_upper== True and count_char>=min_char_required and has_space==False:
             pass_validation= True
         else:
             pass_validation= False
