@@ -38,7 +38,7 @@ def solution (N):
 
     # storing the frequency of each element
     count_frequency = 0
-    
+
     for num in N:
 
         count_frequency+=1
@@ -55,10 +55,10 @@ def solution (N):
 class Test_solution(unittest.TestCase):
 
     def test_array(self):
-        self.assertEqual(solution([1,1,2,2,3,3,4]), 4)
-        self.assertEqual(solution([1,1,2,2,3,3,4,4,5]), 5)
-        self.assertEqual(solution([30,30,40,40,50,50,60]), 60)
-        self.assertEqual(solution([122,122,166,166,188,188,188,190,190]), 188)
+        self.assertEqual(solution([1, 1, 2, 2, 3, 3, 4]), 4)
+        self.assertEqual(solution([1, 1, 2, 2, 3, 3, 4, 4, 5]), 5)
+        self.assertEqual(solution([30, 30, 40, 40, 50, 50, 60]), 60)
+        self.assertEqual(solution([122, 122, 166, 166, 188, 188, 188, 190, 190]), 188)
 
 
 if __name__ == "__main__":
