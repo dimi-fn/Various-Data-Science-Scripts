@@ -14,6 +14,8 @@ Several taks to be solved provided by [Codility](https://app.codility.com/progra
 
 * **"Smallest_Positive_Number.py":**  The smallest positive number which is not appeared in an array of numbers.
 
+* **"Password_Validation.py:** Creating a function for password validation.
+
 Subfolders: 
 
 ## Iterations
