@@ -19,7 +19,9 @@ Several taks to be solved provided by [Codility](https://app.codility.com/progra
 Subfolders: 
 
 ## Iterations
-* **"binary_gap.py":** Finding the largest binary gap in numbers.
+* **"binary_gap.py":** Find longest sequence of zeros in binary representation of an integer.
 
 ## Arrays
-* **Arrays_Cyclic_Rotation.py:** Given an array A consisting of N integers and an integer K, return the array A rotated K times.
+* **Arrays_Cyclic_Rotation.py:** Rotate an array to the right by a given number of steps.
+
+* **Odd_Occurrences_in_Array:** Find value that occurs in odd numbers of elements.
