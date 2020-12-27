@@ -6,7 +6,7 @@ Password should have:
 * no empty character space
 * six or more characters totally
 
-Assume that special characters are [!,@,#,$,%,^,&,*,(,),_]
+Assume that special characters are [!,@,#,$,%,^,&,*,(,),_].
 '''
 
 import unittest
