@@ -12,7 +12,7 @@ Testing that any two given numbers will give the right result for the operations
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective subfolders and coding solutions.
 
-* [**"Smallest_Positive_Number.py"](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/smallest_positive.py):**  The smallest positive number which is not appeared in an array of numbers.
+* [**"Smallest_Positive_Number.py"**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/smallest_positive.py):  The smallest positive number which is not appeared in an array of numbers.
 
 * [**"Password_Validation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Password_Validation.py): Creating a function for password validation.
 
