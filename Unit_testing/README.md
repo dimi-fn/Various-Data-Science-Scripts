@@ -26,4 +26,4 @@ Subfolders:
 
 * [**Odd_Occurrences_in_Array**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Odd_Occurrences_in_Array.py): Find value that occurs in odd numbers of elements.
 
-* [**Perm_Missing_Element**]:(https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
+* [**Perm_Missing_Element**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
