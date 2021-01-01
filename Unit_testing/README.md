@@ -24,10 +24,6 @@ Subfolders:
 ## Arrays
 * [**Arrays_Cyclic_Rotation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Arrays_Cyclic_Rotation.py): Rotate an array to the right by a given number of steps.
 
-<<<<<<< HEAD
 * **Odd_Occurrences_in_Array:** Find value that occurs in odd numbers of elements.
 
-* [**Perm_Missing_Element**]:(): 
-=======
-* [**Odd_Occurrences_in_Array**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Odd_Occurrences_in_Array.py): Find value that occurs in odd numbers of elements.
->>>>>>> b5dd7b1ff55f3a56f501c3ad9981ca6610201bbc
+* [**Perm_Missing_Element**]:(https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
