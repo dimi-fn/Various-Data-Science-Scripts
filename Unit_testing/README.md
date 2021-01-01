@@ -28,4 +28,4 @@ Subfolders:
 
 * [**Perm_Missing_Element.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
 
-* [**permutation_check.py**](): Check whether array A is a permutation.
+* [**permutation_check.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Counting_Elements/permutation_check.py): Check whether array A is a permutation.
