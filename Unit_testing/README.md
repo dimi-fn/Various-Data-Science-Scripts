@@ -12,16 +12,16 @@ Testing that any two given numbers will give the right result for the operations
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective subfolders and coding solutions.
 
-* **"Smallest_Positive_Number.py":**  The smallest positive number which is not appeared in an array of numbers.
+* [**"Smallest_Positive_Number.py"](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/smallest_positive.py):**  The smallest positive number which is not appeared in an array of numbers.
 
-* **"Password_Validation.py:** Creating a function for password validation.
+* [**"Password_Validation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Password_Validation.py): Creating a function for password validation.
 
 Subfolders: 
 
 ## Iterations
-* **"binary_gap.py":** Find longest sequence of zeros in binary representation of an integer.
+* [**"binary_gap.py"**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Iterations/Binary_gap.py): Find longest sequence of zeros in binary representation of an integer.
 
 ## Arrays
-* **Arrays_Cyclic_Rotation.py:** Rotate an array to the right by a given number of steps.
+* [**Arrays_Cyclic_Rotation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Arrays_Cyclic_Rotation.py): Rotate an array to the right by a given number of steps.
 
-* **Odd_Occurrences_in_Array:** Find value that occurs in odd numbers of elements.
+* [**Odd_Occurrences_in_Array**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Odd_Occurrences_in_Array.py): Find value that occurs in odd numbers of elements.
