@@ -28,7 +28,7 @@ https://towardsdatascience.com/three-functions-to-know-in-python-4f2d27a4d05
 ## Unit Testing
 https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
 
-**Smallest-not appeared Positive Problem:**:
+**Smallest-not appeared Positive Problem**:
 
 https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 
@@ -51,6 +51,7 @@ https://gist.github.com/NicholusMuwonge/b4792af7f592c171a901d1a21560e6c0
 https://medium.com/@sichangpark/codility-2-1-arrays-oddoccurrencesinarray-cf4c1f7d7caf
 
 **Time Complexity**:
+
 https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codility
 
 ## Data Types
