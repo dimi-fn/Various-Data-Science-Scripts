@@ -57,7 +57,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Prefix Sums
 
-* [**Prefix_sums.py**](): Count the number of passing cars on the road.
+* [**Prefix_sums.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Prefix_sums/Prefix_sums.py): Count the number of passing cars on the road.
     * Sources:
 
         https://stackoverflow.com/questions/23774985/codility-passing-car?page=1&tab=votes#tab-top
