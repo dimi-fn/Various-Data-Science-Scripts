@@ -13,6 +13,9 @@ Testing that any two given numbers will give the right result for the operations
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/). The problem details are described inside the respective subfolders and coding solutions.
 
 * [**"Smallest_Positive_Number.py"**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/smallest_positive.py):  The smallest positive number which is not appeared in an array of numbers.
+    * Sources: 
+            https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
+            https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence
 
 * [**"Password_Validation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Password_Validation.py): Creating a function for password validation.
 
@@ -29,3 +32,7 @@ Subfolders:
 * [**Perm_Missing_Element.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
 
 * [**permutation_check.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Counting_Elements/permutation_check.py): Check whether array A is a permutation.
+
+-----------
+## Sources
+
