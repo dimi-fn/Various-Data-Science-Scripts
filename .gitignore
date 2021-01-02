@@ -1,1 +1,16 @@
 .settings.json
+
+.vscode
+
+..vscode
+
+.vscode/
+
+vscode/
+
+vscode
+
+.vscode/
+settings.json/
+
+**.vscode
