@@ -55,6 +55,13 @@ Sources:
 
 https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codility
 
+## Prefix Sums
+
+* [**Prefix_sums.py**](): Count the number of passing cars on the road.
+    * Sources:
+
+        https://stackoverflow.com/questions/23774985/codility-passing-car?page=1&tab=votes#tab-top
+
 -----------
 ## General Sources
 
