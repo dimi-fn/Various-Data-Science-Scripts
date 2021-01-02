@@ -59,5 +59,3 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 ## General Sources
 
 https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
-
-
