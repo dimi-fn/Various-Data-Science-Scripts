@@ -64,7 +64,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Sorting
 
-[**distinct.py**](): Compute number of distinct values in an array.
+[**distinct.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Sorting/distinct.py): Compute number of distinct values in an array.
 
 -----------
 ## General Sources
