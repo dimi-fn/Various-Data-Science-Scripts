@@ -27,7 +27,6 @@ def solution(A):
     return count
 
 
-
 # Testing:
 import unittest
 
