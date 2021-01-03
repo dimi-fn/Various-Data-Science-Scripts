@@ -62,6 +62,10 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
         https://stackoverflow.com/questions/23774985/codility-passing-car?page=1&tab=votes#tab-top
 
+## Sorting
+
+[**distinct.py**](): Compute number of distinct values in an array.
+
 -----------
 ## General Sources
 
