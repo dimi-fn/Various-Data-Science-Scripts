@@ -12,7 +12,7 @@ Write a function
 
 def solution(A)
 
-that, given an array A consisting of N integers, returns index of any element of array A in which the dominator of A occurs. The function should return −1 if array A does not have a dominator.
+that, given an array A consisting of N integers, returns index of any element of array A in which the dominator of A occurs. The function should return -1 if array A does not have a dominator.
 
 For example, given array A such that
 
@@ -24,13 +24,13 @@ the function may return 0, 2, 4, 6 or 7, as explained above.
 Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [0..100,000];
-each element of array A is an integer within the range [−2,147,483,648..2,147,483,647].
+each element of array A is an integer within the range [-2,147,483,648..2,147,483,647].
 '''
 
 from collections import Counter
 
 def solution(A):
-    
+
     # finding the numbers and its frequency values
     sorted_counting_elemenents = Counter(A).most_common()
 
@@ -44,9 +44,15 @@ def solution(A):
     # the dominator's frequency
     frequency_of_dominator = potential_dominator[1]
 
-    # if dominator appears less than half of the total number of elements in A, return -1, otherwise return one of the dominator's indices
-    if frequency_of_dominator < (len(A)//2):
+    # if dominator appears less than half of the total number of elements in A or if
+    # array A is empty => return -1
+    #  otherwise return one of the dominator's indices
+    if frequency_of_dominator <= (len(A)/2) or len(A)==0 :
         return -1
+
+    # return 0 if array has only one element (index=0)
+    elif len(A)==1:
+        return 0
     else:
         for index, num in enumerate(A):
             if num == dominator:
