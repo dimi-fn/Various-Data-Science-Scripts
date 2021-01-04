@@ -68,7 +68,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Leader
 
-[**dominator.py**](): Find an index of an array such that its value occurs at more than half of indices in the array.
+[**dominator.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Leader/dominator.py): Find an index of an array such that its value occurs at more than half of indices in the array.
 
 -----------
 ## General Sources
