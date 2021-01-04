@@ -65,7 +65,6 @@ class Test_solution(unittest.TestCase):
     if array A has a dominator, then based on the function solution, the first index
     of the dominant number appearance should be returned, otherwise -1
     '''
-
     def test_dominator(self):
 
         self.assertEqual(solution([3,4,3,2,3,-1,3,3]), 0)
