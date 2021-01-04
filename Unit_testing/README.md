@@ -66,6 +66,10 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 [**distinct.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Sorting/distinct.py): Compute number of distinct values in an array.
 
+## Leader
+
+[**dominator.py**](): Find an index of an array such that its value occurs at more than half of indices in the array.
+
 -----------
 ## General Sources
 
