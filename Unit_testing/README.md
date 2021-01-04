@@ -70,6 +70,10 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 [**dominator.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Leader/dominator.py): Find an index of an array such that its value occurs at more than half of indices in the array.
 
+## Maximum Slice Problem
+
+[**Max_Profit.py**](): Given a log of stock prices compute the maximum possible earning.
+
 -----------
 ## General Sources
 
