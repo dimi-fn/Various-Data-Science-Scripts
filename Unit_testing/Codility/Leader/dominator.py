@@ -30,8 +30,7 @@ each element of array A is an integer within the range [−2,147,483,648..2,147,
 from collections import Counter
 
 def solution(A):
-    '''
-    '''
+    
     # finding the numbers and its frequency values
     sorted_counting_elemenents = Counter(A).most_common()
 
