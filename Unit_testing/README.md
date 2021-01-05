@@ -72,7 +72,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Maximum Slice Problem
 
-[**Max_Profit.py**](): Given a log of stock prices compute the maximum possible earning.
+[**Max_Profit.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Maximum_Slice_Problem/Max_Profit.py): Given a log of stock prices compute the maximum possible earning.
 
 -----------
 ## General Sources
