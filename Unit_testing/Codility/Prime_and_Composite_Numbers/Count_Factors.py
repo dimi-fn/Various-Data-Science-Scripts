@@ -27,7 +27,9 @@ def solution_1(n):
     return len(factors)
 
 '''
-Although the above solutions catches 100% correctness on Codility, however it has 57% total result because of timeout errors and time performance
+Although the above solutions catches 100% correctness on Codility, however it has 57% total result because of timeout errors and time performance.
+
+Therefore, below a better solution is suggested:
 '''
 
 import math
@@ -55,17 +57,14 @@ class Test_solution(unittest.TestCase):
     def test_solution_1(self):
 
         # factors of 24: [1,2,3,4,6,8,12,24] --> 8 factors
-        self.assertEqual(solution_1([24]), 5)
+        self.assertEqual(solution_1([24]), 8)
 
-        # factors of 75: [3,5,15,25,75] --> 5 factors
-        self.assertEqual(solution_1([75]), 5)
+        # factors of 75: [1,3,5,15,25,75] --> 6 factors
+        self.assertEqual(solution_1([75]), 6)
 
     def test_solution_2(self):
 
-        # factors of 24: [1,2,3,4,6,8,12,24] --> 8 factors
         self.assertEqual(solution_2([24]), 5)
-
-        # factors of 75: [3,5,15,25,75] --> 5 factors
         self.assertEqual(solution_2([75]), 5)
 
         
