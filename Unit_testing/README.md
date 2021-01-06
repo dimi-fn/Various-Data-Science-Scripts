@@ -74,6 +74,14 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 [**Max_Profit.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Maximum_Slice_Problem/Max_Profit.py): Given a log of stock prices compute the maximum possible earning.
 
+## Prime & Composite Numbers
+
+[**Count_Factors**](): Count factors of given number n.
+    * Sources:
+        https://www.tutorialspoint.com/How-to-Find-Factors-of-Number-using-Python
+        
+        https://www.mathsisfun.com/prime-composite-number.html
+
 -----------
 ## General Sources
 
