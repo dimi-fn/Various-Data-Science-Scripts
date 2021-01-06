@@ -77,7 +77,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 ## Prime & Composite Numbers
 
 [**Count_Factors**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Prime_and_Composite_Numbers/Count_Factors.py): Count factors of given number n.
-
+    
 * Sources:
 
     https://www.tutorialspoint.com/How-to-Find-Factors-of-Number-using-Python
