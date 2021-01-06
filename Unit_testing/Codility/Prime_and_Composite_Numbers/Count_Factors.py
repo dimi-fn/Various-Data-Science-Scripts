@@ -27,7 +27,7 @@ def solution_1(n):
     return len(factors)
 
 '''
-Although the above solutions catches 100% correctness on Codility, however it has 57% total result because of timeout errors and time performance.
+Although the above solution catches 100% correctness on Codility, however, it has a total result of 57% because of timeout errors and time performance.
 
 Therefore, below a better solution is suggested:
 '''
