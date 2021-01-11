@@ -76,7 +76,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Prime & Composite Numbers
 
-[**Count_Factors**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Prime_and_Composite_Numbers/Count_Factors.py): Count factors of given number n.
+[**Count_Factors.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Prime_and_Composite_Numbers/Count_Factors.py): Count factors of given number n.
     
 * Sources:
 
@@ -88,7 +88,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Caterpillar method
 
-[** **](): Compute number of distinct absolute values of sorted array elements.
+[** Number of Distinct Absolute Values**](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing/Codility/Caterpillar_method): Compute number of distinct absolute values of sorted array elements.
 
 -----------
 ## General Sources
