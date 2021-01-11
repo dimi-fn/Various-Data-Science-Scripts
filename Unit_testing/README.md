@@ -86,6 +86,10 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
     https://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python#answer-6800214
 
+## Caterpillar method
+
+[** **](): Compute number of distinct absolute values of sorted array elements.
+
 -----------
 ## General Sources
 
