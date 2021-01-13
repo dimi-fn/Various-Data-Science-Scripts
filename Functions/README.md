@@ -11,3 +11,7 @@
 * https://towardsdatascience.com/three-functions-to-know-in-python-4f2d27a4d05
 
 * https://book.pythontips.com/en/latest/map_filter.html
+
+* https://stackoverflow.com/questions/51994148/recursive-vs-iterative-functions-python
+
+* https://techdifferences.com/difference-between-recursion-and-iteration-2.html
