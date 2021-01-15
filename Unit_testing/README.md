@@ -88,7 +88,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Caterpillar method
 
-[** Number of Distinct Absolute Values**](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing/Codility/Caterpillar_method): Compute number of distinct absolute values of sorted array elements.
+[**Number of Distinct Absolute Values**](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing/Codility/Caterpillar_method): Compute number of distinct absolute values of sorted array elements.
 
 -----------
 ## General Sources
