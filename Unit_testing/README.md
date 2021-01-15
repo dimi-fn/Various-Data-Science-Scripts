@@ -90,6 +90,10 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 [**Number of Distinct Absolute Values**](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing/Codility/Caterpillar_method): Compute number of distinct absolute values of sorted array elements.
 
+## Tasks_from_Indeed_Prime_2016_College_Coders_Challenge
+
+[****](): Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
+
 -----------
 ## General Sources
 
