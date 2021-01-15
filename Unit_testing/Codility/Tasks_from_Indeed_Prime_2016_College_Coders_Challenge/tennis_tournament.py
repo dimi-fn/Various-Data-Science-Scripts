@@ -23,8 +23,6 @@ In your solution, focus on correctness. The performance of your solution will no
 
 def solution(P,C):
 
-    #max_possible_games = 0
-
     if P> C*2:
         if P//2 >=C:
             max_possible_games = C
@@ -38,3 +36,12 @@ def solution(P,C):
 
 # Testing
 import unittest
+
+class Test_solution(unittest.TestCase):
+    
+    def test_max_games(self):
+        self.assertEqual(solution([5,3]), 2)
+        self.assertEqual(solution([10,3]), 3)
+        
+if __name__ == "__main__":
+    unittest.main()
