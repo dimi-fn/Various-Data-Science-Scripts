@@ -92,7 +92,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 ## Tasks_from_Indeed_Prime_2016_College_Coders_Challenge
 
-[****](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Tasks_from_Indeed_Prime_2016_College_Coders_Challenge/tennis_tournament.py): Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
+[**tennis_tournament.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Tasks_from_Indeed_Prime_2016_College_Coders_Challenge/tennis_tournament.py): Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
 
 -----------
 ## General Sources
