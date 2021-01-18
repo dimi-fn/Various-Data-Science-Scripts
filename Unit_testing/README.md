@@ -90,7 +90,7 @@ https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codi
 
 [**Number of Distinct Absolute Values**](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing/Codility/Caterpillar_method): Compute number of distinct absolute values of sorted array elements.
 
-## Tasks_from_Indeed_Prime_2016_College_Coders_Challenge
+## Tasks from Indeed Prime 2016 College Coders Challenge
 
 [**tennis_tournament.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Tasks_from_Indeed_Prime_2016_College_Coders_Challenge/tennis_tournament.py): Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
 
