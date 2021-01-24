@@ -20,7 +20,7 @@ Several taks to be solved provided by [Codility](https://app.codility.com/progra
 Subfolders: 
 
 ## Iterations
-* [**binary_gap.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Iterations/Binary_gap.py): Find longest sequence of zeros in binary representation of an integer [[3](https://markpetherbridge.co.uk/blog/codility-binary-gap-positive-integer-solution/),[4](https://github.com/mgoldsmith1/Codility/blob/master/binaryGap.py)).             
+* [**binary_gap.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Iterations/Binary_gap.py): Find longest sequence of zeros in binary representation of an integer [[3](https://markpetherbridge.co.uk/blog/codility-binary-gap-positive-integer-solution/),[4](https://github.com/mgoldsmith1/Codility/blob/master/binaryGap.py)].             
 
 
 ## Arrays
