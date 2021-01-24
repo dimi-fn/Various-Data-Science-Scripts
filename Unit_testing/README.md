@@ -26,7 +26,7 @@ Subfolders:
 ## Arrays
 * [**Arrays_Cyclic_Rotation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Arrays_Cyclic_Rotation.py): Rotate an array to the right by a given number of steps [[5](https://medium.com/@sichangpark/codility-2-2-arrays-cyclicrotation-4215350decb1),[6](https://gist.github.com/NicholusMuwonge/b4792af7f592c171a901d1a21560e6c0)].       
 
-* [**Odd_Occurrences_in_Array.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Odd_Occurrences_in_Array.py): Find value that occurs in odd numbers of elements [[7]](https://medium.com/@sichangpark/codility-2-1-arrays-oddoccurrencesinarray-cf4c1f7d7caf)
+* [**Odd_Occurrences_in_Array.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Arrays/Odd_Occurrences_in_Array.py): Find value that occurs in odd numbers of elements [[7]](https://medium.com/@sichangpark/codility-2-1-arrays-oddoccurrencesinarray-cf4c1f7d7caf).
 
 ## Time Complexity
 
