@@ -22,8 +22,10 @@ Have python installed on your system.
 of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir project).
 
 - Create your virtual environment: being in the above path (i.e. C:\Users\the path you choose\project), type in the cmd: 
-python -m venv "your_venv_name"
-Let's suppose you want the name of your venv project to be called "venv1", then: via cmd C:\Users\the path you chose\Virtual_project --> python -m venv venv1
+    
+    python -m venv "your_venv_name"
+
+    Let's suppose you want the name of your venv project to be called "venv1", then: via cmd C:\Users\the path you chose\Virtual_project --> python -m venv venv1
     * You can now notice that 3 folders ("Include", "Lib", "Scripts") and one file ("pyenv.cfg") were created inside the venv directory.
 
 - To activate your virtual environment: 
