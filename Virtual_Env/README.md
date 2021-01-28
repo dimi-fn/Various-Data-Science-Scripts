@@ -4,7 +4,6 @@ Contents
 * [Reasons to Use venv](#reason)
 * [Requirements](#requirements)
 * [Set Up](#set-up)
-* [Supported Cars](#supported-cars)
 * [Requirements.txt](#requirements.txt)
 * [General Notes](#general-notes)
 * [Sources](#sources)
