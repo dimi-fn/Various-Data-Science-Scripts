@@ -59,7 +59,7 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 Same rationale exists with that of the set up on windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
 
 Main differences here are:
-- Instead of the directory "Scripts", activate the venv through the "bin" folder via the command: "source <path to project>/<name of venv>/bin/activate, i.e. for the example on windows do: $ source <the path you have chosen>/project/venv1/bin/activate
+- Instead of the directory "Scripts", activate the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the example on windows do: $ source 'the path you have chosen'/project/venv1/bin/activate
 
 - To deactivate: $ deactivate
 
