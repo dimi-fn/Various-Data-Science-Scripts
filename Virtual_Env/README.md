@@ -3,7 +3,8 @@ Contents
 
 * [Reasons to Use Virtual Environment (venv)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reasons-to-use-virtual-environment-venv)
 * [Requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements)
-* [Set up (on Windows)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
+* [Set up on Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
+* [Set up on Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-linux)
 * [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
 * [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
@@ -14,16 +15,16 @@ Different projects require different packages and sometimes different versions o
 
 ### Requirements
 
-Have python installed on your system.
+Have python installed on your system. On linux you will firstly need to install via terminal: "sudo apt-get install python3-venv".
 
-### Set up (on Windows)
+### Set up on Windows
 
 - Create your project environment: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
 of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir project).
 
 - Create your virtual environment: being in the above path (i.e. C:\Users\the path you have chosen\project), type in the cmd: 
     
-    python -m venv "your_venv_name"
+    **python -m venv "your_venv_name"**
 
     Let's suppose you want the name of your venv project to be called "venv1", then: via cmd C:\Users\the path you have chosen\Virtual_project --> python -m venv venv1
     * You can now notice that 3 folders ("Include", "Lib", "Scripts") and one file ("pyenv.cfg") were created inside the venv directory.
@@ -53,9 +54,14 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 - To delete your venv:
     * delete the directory with rmdir "project" /s, or just delete the virtual environment folder manually.
 
+### Set up on Linux
 
+Same rationale exists with that of the set up on windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
 
+Main differences here are:
+- Instead of the directory "Scripts", activate the venv through the "bin" folder via the command: "source <path to project>/<name of venv>/bin/activate, i.e. for the example on windows do: $ source <the path you have chosen>/project/venv1/bin/activate
 
+- To deactivate: $ deactivate
 
 ### requirements.txt
 
