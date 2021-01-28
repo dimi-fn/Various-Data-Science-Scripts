@@ -104,3 +104,5 @@ After having created your project directory at which the venv will take place, t
 [2] https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list
 
 [3] https://note.nkmk.me/en/python-pip-install-requirements
+
+[4] https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
