@@ -11,15 +11,15 @@ Contents
 
 ### Reasons to Use Virtual Environment (venv)
 
-Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in virtual environment where the above can be achieved, maintained and scaled for other developers.
+Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in a virtual environment where the above can be achieved, maintained, and scaled for other developers.
 
 ### Requirements
 
-Have python installed at your system.
+Have python installed on your system.
 
 ### Set up (on Windows)
 
-- Create a folder somewhere at your system where your virtual env project will take place. Let's suppose the creation 
+- Create a folder somewhere in your system where your virtual env project will take place. Let's suppose the creation 
 of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir Virtual_project)
 
 - Create venv: go to the directory of your "Virtual_project" folder, and create a subfolder where your virtual environment project will take place. Suppose subfolder "my_venv_project" (i.e., via cmd C:\Users\the path you chose\Virtual_project --> mkdir my_venv_project)
@@ -34,16 +34,16 @@ of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choos
 * Now you will notice the change in the start of your path in the cmd (it starts with "(my_venv_project) C:\Users\..\").
         
     * If you type "where python", the 1st will be the venv path.
-    * If you do pip list, you will only see pips of the venv.
-    * If you do pip freeze, you will only see the pips of the venv that you will be installing from now on.
+    * If you type "pip list", you will only see pips of the venv.
+    * If you type pip freeze, you will only see the pips of the venv that you will be installing from now on.
 
-- Now you can install pip packages, which will only be installed here, with pip instal "new package"
+- Now you can install pip packages, which will only be installed here, with pip install "new package"
 
 * Look at the very left part of the path, to make sure you are navigating in the venv environment
 
 * Suppose you type "pip install pandas", installing the pandas packages being in your venv project (C:\Users\the path you chose\Virtual_project\my_venv_project  --> pip install pandas). This will install pandas only in this virtual environment.
 
-- To deactive your venv:
+- To deactivate your venv:
 * deactivate.bat
 
 - To delete your venv:
@@ -59,11 +59,11 @@ with the right format of "package"=="version_number")
 * In order to "paste" those into another project:
 	* copy that txt called "requirements.txt" into the folder of the new project (e.g. a new venv-environment project), in the "Scripts" subfolder
 	* pip install -r requirements.txt
-		* this will install the particular packages and their specific versions of the previous developer
+		* This will install the particular packages and their specific versions of the previous developer
 
 ### General Notes:
 
-- You should not commit the venv in github.
+- You should not commit the venv on Github.
 
 - You should not put project files, i.e. python scripts in the venv folders.
 
