@@ -1,15 +1,15 @@
 Contents
 =======================
 
-* [Reasons to Use venv](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reason)
+* [Reasons to Use Virtual Environment (venv)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reason)
 * [Requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements)
-* [Set Up](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
-* [Requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
+* [Set up (on Windows)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
+* [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
 * [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
 
 
-### Reason
+### Reasons to Use Virtual Environment (venv)
 
 Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in virtual environment where the above can be achieved, maintained and scaled for other developers.
 
