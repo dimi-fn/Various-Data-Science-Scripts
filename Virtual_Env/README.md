@@ -15,12 +15,11 @@ Contents
 Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in virtual environment where the above can be achieved, maintained and scaled for other developers.
 
 ### Requirements
-------
 
 Have python installed at your system.
 
 ### Set up (on Windows)
-------
+
 - create a folder somewhere at your system where your virtual env project will take place. Let's suppose the creation 
 of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir Virtual_project)
 
@@ -49,7 +48,7 @@ of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choos
 * delete the directory with rmdir "directoy_name" /s, or just delete the virtual environment folder manually.
 
 ### requirements.txt
-------
+
 * in order to create requirements.txt: be in the path inside the venv
 * check your installed-only for this project packages with "pip freeze"
 * save those with "pip freeze > requirements.txt" (this grabs the packages created in this venv project
@@ -61,7 +60,7 @@ with the right format of "package"=="version_number")
 		* this will install the particular packages and their specific versions of the previous developer
 
 ### General Notes:
-------
+
 - You should not commit the venv in github
 - You should not put project files, i.e. python scripts in the venv folders
 - You should commit the requirements.txt
@@ -70,7 +69,6 @@ after having created an empty folder at which the virtual env project will take 
 * After this, whatever package you install will not affect (neither add nor remove your global-system packages), you just began your project with installed your already installed packages from your system.
 
 ### Sources
-------
 
 [1] https://www.youtube.com/watch?v=APOPm01BVrk&ab_channel=CoreySchafer
 
