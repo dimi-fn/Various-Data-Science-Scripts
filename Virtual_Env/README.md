@@ -1,7 +1,7 @@
 Contents
 =======================
 
-* [Reasons to Use Virtual Environment (venv)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reason)
+* [Reasons to Use Virtual Environment (venv)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reasons-to-use-virtual-environment-venv)
 * [Requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements)
 * [Set up (on Windows)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
 * [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
