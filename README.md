@@ -10,6 +10,6 @@ Practising with a few example cases, with regard to:
 
 - [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
 
-- [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env): How to set up virtual environment.
+- [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env): How to set up a virtual environment and generate a requirements.txt file with all the packages and dependencies installed.
 
 More details can be found on each folder respectively, via their own readme files and/or coding notebooks/scripts.
