@@ -9,7 +9,7 @@ Contents
 * [General Notes](#general-notes)
 * [Sources](#sources)
 
-------
+---
 
 ### Reason
 
