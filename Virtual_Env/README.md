@@ -22,26 +22,27 @@ Have python installed on your system.
 - Create a folder somewhere in your system where your virtual env project will take place. Let's suppose the creation 
 of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir Virtual_project)
 
-- Create venv: go to the directory of your "Virtual_project" folder, and create a subfolder where your virtual environment project will take place. Suppose subfolder "my_venv_project" (i.e., via cmd C:\Users\the path you chose\Virtual_project --> mkdir my_venv_project)
-
-- Being in the above path, type: python -m venv "your_project_name", hence in this case let's suppose --> python -m venv my_first_venv_project
-    * You will now see the 3 folders created ("Include", "Lib", "Scripts") and one file ("pyenv.cfg").
+- Being in the above path, type in the cmd: python -m venv "your_project_name". Let's suppose you want the name of your venv project to be "my_venv_project", then: via cmd C:\Users\the path you chose\Virtual_project --> python -m venv my_venv_project
+    * You will now see that 3 folders were created ("Include", "Lib", "Scripts") and one file ("pyenv.cfg").
 
 - To activate your virtual environment: 
-* navigate inside the project path (C:\Users\the path you chose\Virtual_project\my_venv_project).
-* Navigate inside "Scripts" (cd Scripts).
-* Type: activate.bat
-* Now you will notice the change in the start of your path in the cmd (it starts with "(my_venv_project) C:\Users\..\").
+    * navigate inside the project path (C:\Users\the path you chose\Virtual_project\my_venv_project).
+    * Navigate inside "Scripts" (cd Scripts).
+    * Type: activate.bat
+    * Now you will notice the change in the start of your path in the cmd (it starts with "(my_venv_project) C:\Users\..\"), and the venv environment is now activated.
         
-    * If you type "where python", the 1st will be the venv path.
-    * If you type "pip list", you will only see pips of the venv.
-    * If you type pip freeze, you will only see the pips of the venv that you will be installing from now on.
+        * If you type "where python", the 1st will be the venv path.
+        * If you type "*pip list*", you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
+        * If you type "*pip freeze*", you will only see the pips of the venv that you will be installing from now on. In this case, you will see nothing, since you haven't installed any packages on this new venv.
 
 - Now you can install pip packages, which will only be installed here, with pip install "new package"
 
 * Look at the very left part of the path, to make sure you are navigating in the venv environment
 
-* Suppose you type "pip install pandas", installing the pandas packages being in your venv project (C:\Users\the path you chose\Virtual_project\my_venv_project  --> pip install pandas). This will install pandas only in this virtual environment.
+* Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you chose\Virtual_project\my_venv_project  --> pip install pandas). This will install pandas only in this virtual environment.
+    * Now, if you "pip list" you will also see pandas installed (along with the default 2 pips).
+    * If you "pip freeze", you will only see the pandas package, as this was the only pip executed in this very virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt*.
+    * The above explains the *difference between pip list and pip freeze*.
 
 - To deactivate your venv:
 * deactivate.bat
@@ -51,15 +52,17 @@ of a folder called: "Virtual_project" (i.e., via cmd C:\Users\the path you choos
 
 ### requirements.txt
 
-* In order to create requirements.txt: be in the path inside the venv
-* Check your installed-only for this project packages with "pip freeze"
-* Save those with "pip freeze > requirements.txt" (this grabs the packages created in this venv project
-with the right format of "package"=="version_number")
+In order to create requirements.txt: 
+
+* Go to your venv project path.
+* Check your installed-only for this project packages via: "pip freeze"
+* Save those with the command **"pip freeze > requirements.txt"** (this grabs the packages created in this venv project
+with the right format of "package"=="version_number", and it creates a txt file with those requirements).
 
 * In order to "paste" those into another project:
-	* copy that txt called "requirements.txt" into the folder of the new project (e.g. a new venv-environment project), in the "Scripts" subfolder
-	* pip install -r requirements.txt
-		* This will install the particular packages and their specific versions of the previous developer
+	* copy that txt called "requirements.txt" into the folder of the new project (e.g. a new venv-environment project), in the "Scripts" subfolder.
+	* cmd: *pip install -r requirements.txt*
+		* This will install the particular packages along with their specific versions of the previous developer.
 
 ### General Notes:
 
