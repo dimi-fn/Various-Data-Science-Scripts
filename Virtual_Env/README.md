@@ -13,7 +13,7 @@ Contents
 
 Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in virtual environment where the above can be achieved, maintained and scaled for other developers.
 
-# Requirements
+### Requirements
 
 Have python installed at your system.
 
