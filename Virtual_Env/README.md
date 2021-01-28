@@ -1,4 +1,4 @@
-Table of Contents
+Contents
 =======================
 
 * [Reasons to Use venv](#reason)
@@ -9,7 +9,6 @@ Table of Contents
 * [General Notes](#general-notes)
 * [Sources](#sources)
 
----
 
 ### Reason
 ------
