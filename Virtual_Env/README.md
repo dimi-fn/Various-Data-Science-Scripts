@@ -1,12 +1,12 @@
 Contents
 =======================
 
-* [Reasons to Use venv](#reason)
-* [Requirements](#requirements)
-* [Set Up](#set-up)
-* [Requirements.txt](#requirements.txt)
-* [General Notes](#general-notes)
-* [Sources](#sources)
+* [Reasons to Use venv](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reason)
+* [Requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements)
+* [Set Up](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
+* [Requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
+* [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
+* [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
 
 ---
 
