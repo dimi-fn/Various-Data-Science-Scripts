@@ -8,7 +8,6 @@ Contents
 * [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
 
-
 ### Reasons to Use Virtual Environment (venv)
 
 Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in a virtual environment where the above can be achieved, maintained, and scaled for other developers.
@@ -19,10 +18,10 @@ Have python installed on your system.
 
 ### Set up (on Windows)
 
-- Create your project environmnet: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
+- Create your project environment: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
 of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir project).
 
-- Create your virtual evnivornent: being in the above path (i.e. C:\Users\the path you choose\project), type in the cmd: python -m venv "your_venv_name". Let's suppose you want the name of your venv project name to be called "venv1", then: via cmd C:\Users\the path you chose\Virtual_project --> python -m venv venv1
+- Create your virtual environment: being in the above path (i.e. C:\Users\the path you choose\project), type in the cmd: python -m venv "your_venv_name". Let's suppose you want the name of your venv project name to be called "venv1", then: via cmd C:\Users\the path you chose\Virtual_project --> python -m venv venv1
     * You can now notice that 3 folders ("Include", "Lib", "Scripts") and one file ("pyenv.cfg") were created inside the venv directory.
 
 - To activate your virtual environment: 
@@ -50,12 +49,16 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 - To delete your venv:
     * delete the directory with rmdir "project" /s, or just delete the virtual environment folder manually.
 
+
+
+
+
 ### requirements.txt
 
 In order to create requirements.txt: 
 
 * Go to your venv project path.
-* Check your installed-only for this project packages via: "pip freeze"
+* Check your installed-only for this project packages via: "pip freeze".
 * Save those with the command **"pip freeze > requirements.txt"** (this grabs the packages created in this venv project
 with the right format of "package"=="version_number", and it creates a requirements.txt text file with those requirements).
 
@@ -65,7 +68,7 @@ with the right format of "package"=="version_number", and it creates a requireme
 	* paste that txt file called "requirements.txt" into the folder of the new project, in its "Scripts" subfolder.
 	* cmd: *pip install -r requirements.txt* to install the packages.
 		* This will install the particular packages along with their specific versions of the previous developer.
-        * If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been tranferred and installed.
+        * If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been transferred and installed.
 
 ### General Notes:
 
