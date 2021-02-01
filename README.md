@@ -9,7 +9,7 @@ Contents
 
 * [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
 
-* [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing): Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some those from [CodinGame](https://www.codingame.com/) as well.
+* [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing): Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some those are coming from [CodinGame](https://www.codingame.com/) as well.
   
 * [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env): How to set up a virtual environment and generate a requirements.txt file with all the packages and dependencies installed.
 
