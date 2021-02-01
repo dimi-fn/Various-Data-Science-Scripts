@@ -12,7 +12,6 @@ Your ship crashes into a mountain
 You provide incorrect output or your program times out
 '''
 
-
 # My solution
 while True:
     heights=[]
