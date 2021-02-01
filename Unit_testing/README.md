@@ -67,6 +67,11 @@ Subfolders:
 
 ## Future Training
 [**Array_Inversion_Count.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Future_Training/Array_Inversion_Count.py): Compute number of inversion in an array [[13](https://www.geeksforgeeks.org/counting-inversions/)].
+
+3) folder: 
+# CodinGame
+
+* [**The_Descent.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/CodinGame/The%20Descent/The_Descent.py): a game for loops.
     
 -----------
 ## Sources
@@ -96,11 +101,6 @@ Subfolders:
 [12] https://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python#answer-6800214
 
 [13] https://www.geeksforgeeks.org/counting-inversions/
-
-3) folder: 
-# CodinGame
-
-* [**The_Descent.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/CodinGame/The%20Descent/The_Descent.py): a game for loops.
 
 ### General Sources
 
