@@ -100,7 +100,7 @@ Subfolders:
 3) folder: 
 # CodinGame
 
-* [**The_Descent.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/P?????): ?????
+* [**The_Descent.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/CodinGame/The%20Descent/The_Descent.py): a game for loops.
 
 ### General Sources
 
