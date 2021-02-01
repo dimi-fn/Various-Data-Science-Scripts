@@ -8,6 +8,7 @@ The default code, given in all CodinGame puzzles, already parses the stdin and p
 
 You can use the stderr for debug purposes. Debug messages will show in the console output (at the bottom left).
 
+------------
 
 You can notice a infinite while loop in the default code. It's the game loop.
 
@@ -19,9 +20,12 @@ It's really important to continue reading all input data on the stdin each turn;
 
 With the same idea, if you start reading the input data of turn n+1 on the stdin without having sent a response in the stdout at turn n, the referee program will consider that your program did not respond in due time (timeout).
 
+--------
 - Each turn, you must compare the heights of the mountains (given in stdin) to find the highest.
 - You should not send in stdout the height of the highest mountain but its index.
 - Mountain heights are given in the order of their index. The first height therefore corresponds to the mountain of index 0.
+
+------------
 
 At each game turn:
 - Reset to 0 the variables containing the height of the highest mountain and its index
@@ -29,6 +33,8 @@ At each game turn:
     - Read the height of the mountain (mountainH variable) on stdin
     - If it's higher than the highest known mountain, save its index and height
 - Send the index of the highest mountain on stdout
+
+------------
 
 Pseudo-code
 Here's what your code should do at every turn of the game:
