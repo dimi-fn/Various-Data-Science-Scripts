@@ -8,19 +8,25 @@ Please reload the page until the content can be displayed (sometimes it loads af
 Contents
 =======================
 
-* [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects)
+* [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects):
 
-Classes and Objects in Python.
+ Classes and Objects in Python.
 
-* [Data_Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data_Structures)
+* [Data_Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data_Structures): 
 
 Investigating data types, understanding the difference between lists, sets, and tuples in Python data structure and data types.
 
-* [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
+* [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions):
 
-* [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing): Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some those are coming from [CodinGame](https://www.codingame.com/) as well.
+ Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
+
+* [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing): 
+
+Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some those are coming from [CodinGame](https://www.codingame.com/) as well.
   
-* [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env): How to set up a virtual environment and generate a requirements.txt file with all the packages and dependencies installed.
+* [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env): 
+
+How to set up a virtual environment and generate a requirements.txt file with all the packages and dependencies installed.
 
 * Machine Learning
     * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Machine_Learning/Maths_for_ML)
