@@ -8,9 +8,13 @@ Please reload the page until the content can be displayed (sometimes it loads af
 Contents
 =======================
 
-* [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects): Classes and Objects in Python.
+* [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects)
 
-* [Data_Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data_Structures): Investigating data types, understanding the difference between lists, sets, and tuples in Python data structure and data types.
+Classes and Objects in Python.
+
+* [Data_Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data_Structures)
+
+Investigating data types, understanding the difference between lists, sets, and tuples in Python data structure and data types.
 
 * [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
 
