@@ -16,5 +16,5 @@ Contents
 
 More details can be found on each folder respectively, via their own readme files and/or coding notebooks/scripts.
 
-## Note:
+### *Note:
 Due to a Github bug ([issue #3555](https://github.com/jupyter/notebook/issues/3555)) the notebook files (files with .ipynb) may not render sometimes. Please update the webpage until it does (sometimes it loads after one reload, some other times it might need a persistent refresh of the page until the content can be displayed).
