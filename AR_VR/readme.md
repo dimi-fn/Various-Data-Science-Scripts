@@ -1,0 +1,1 @@
+The notes include important theoritical concepts from the first course ([Intoduction to Virtual Reality](https://www.coursera.org/learn/introduction-virtual-reality?specialization=virtual-reality)), out of the totally [4 specialization courses](https://www.coursera.org/specializations/virtual-reality#courses).
