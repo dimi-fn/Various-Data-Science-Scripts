@@ -21,9 +21,10 @@ Contents
 * Machine Learning
     * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Machine_Learning/Maths_for_ML)
 
-* [AWS](): Notes on Amazon Web Systems Servives
+* [AWS](): Notes on Amazon Web Systems Servives.
 
 * [AR/VR](): Personal notes related to Augmented Reality and Virtual Reality constructed through the [Virtual Reality Specialization](https://www.coursera.org/specializations/virtual-reality) course on [Coursera](https://www.coursera.org/).
+
 
 
 More details can be found on each folder respectively, via their own readme files and/or coding notebooks/scripts.
