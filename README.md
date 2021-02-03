@@ -23,7 +23,7 @@ Contents
 
 * [AWS](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AWS): Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](https://www.coursera.org/specializations/aws-fundamentals) on [Coursera](https://www.coursera.org/).
 
-* [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR_VR): Notes with reference to Augmented Reality and Virtual Reality constructed through the [Virtual Reality Specialization](https://www.coursera.org/specializations/virtual-reality) course on [Coursera](https://www.coursera.org/).
+* [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR_VR): Notes with reference to Augmented Reality (AR) and Virtual Reality (VR) constructed through the [Virtual Reality Specialization](https://www.coursera.org/specializations/virtual-reality) course on [Coursera](https://www.coursera.org/).
 
 
 
