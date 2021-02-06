@@ -1,3 +1,6 @@
+### *Note:
+Due to a Github bug ([issue #3555](https://github.com/jupyter/notebook/issues/3555)), sometimes the notebook files (files with .ipynb) may not render. Please reload the page until the content can be displayed. If that is not possible, then shared google colab notebook links are provided to directories that include .ipynb files.
+
 # Various-Data-Science-Scripts
 
 ### *Note:
