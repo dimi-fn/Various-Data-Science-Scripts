@@ -3,7 +3,7 @@ Due to a GitHub bug (issue [#3035](https://github.com/jupyter/notebook/issues/30
 
 # Various-Data-Science-Scripts
 
-**Purpose**: Practicing some code along with documentation of various programming consepts.
+**Purpose**: Practicing code along with some documentation of various programming concepts.
 
 Contents
 =======================
