@@ -11,8 +11,8 @@ Contents
 * [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects): Classes and Objects in Python.
 
 * Algorithms & Data Structures
-    * [Algorithms]()
-    * [Data Structures]()
+    * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Algorithms)
+    * [Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_structures)
 
 * [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
 
