@@ -1,6 +1,6 @@
 ## Algorithms
 
-https://drive.google.com/file/d/1iREPkOJqTVr8DpnUw6x9kexWshIXyAwX/view?usp=sharing
+https://colab.research.google.com/drive/1iREPkOJqTVr8DpnUw6x9kexWshIXyAwX
 
 
 ### Sources
