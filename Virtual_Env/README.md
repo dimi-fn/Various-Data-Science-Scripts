@@ -69,7 +69,7 @@ In order to create requirements.txt:
 
 * Go to your venv project path.
 * Check your installed-only for this project packages via: "pip freeze".
-* Save those with the command **"pip freeze > requirements.txt"** (this grabs the packages created in this venv project
+* Save those with the command `"pip freeze > requirements.txt"` (this grabs the packages created in this venv project
 with the right format of "package"=="version_number", and it creates a requirements.txt text file with those requirements).
 
 * In order to "paste" those into another project:
