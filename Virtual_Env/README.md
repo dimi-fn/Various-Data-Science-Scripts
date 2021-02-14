@@ -41,7 +41,7 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 
 - Now you can install pip packages, which will only be installed here, with pip install "package".
 
-* Look at the very left part of the path, to make sure you are navigating in the venv environment.
+* You can always make sure you are navigating in the venv environment by looking at the very left part of the path
 
 * Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\project\venv --> pip install pandas). This will install pandas only in this virtual environment.
     * Now, if you "pip list" you will also see pandas installed (along with the default 2 pips).
