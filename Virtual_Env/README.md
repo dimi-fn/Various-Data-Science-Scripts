@@ -69,7 +69,7 @@ In order to create requirements.txt:
 
 * Go to your venv project path.
 * Check your installed-only for this project packages via: "pip freeze".
-* Save those with the command `"pip freeze > requirements.txt"` (this grabs the packages created in this venv project
+* Save those with the command "`pip freeze > requirements.txt`" (this grabs the packages created in this venv project
 with the right format of "package"=="version_number", and it creates a requirements.txt text file with those requirements).
 
 * In order to "paste" those into another project:
@@ -106,3 +106,5 @@ After having created your project directory at which the venv will take place, t
 [3] https://note.nkmk.me/en/python-pip-install-requirements
 
 [4] https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
+
+[5] https://docs.microsoft.com/en-us/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2019#use-virtual-environments
