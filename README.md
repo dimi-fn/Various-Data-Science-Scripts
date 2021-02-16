@@ -29,4 +29,4 @@ Contents
 
 
 
-More details can be found on each folder respectively, via their own readme files and/or coding notebooks/scripts.
+More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
