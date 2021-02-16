@@ -12,7 +12,7 @@ Contents
 
 * Algorithms & Data Structures
     * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Algorithms)
-    * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_structures)
+    * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_Types_%26_Structures)
 
 * [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions): Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
 
