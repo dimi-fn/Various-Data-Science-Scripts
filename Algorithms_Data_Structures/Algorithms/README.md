@@ -11,3 +11,5 @@ https://colab.research.google.com/drive/1iREPkOJqTVr8DpnUw6x9kexWshIXyAwX
 [3] https://towardsdatascience.com/the-big-o-notation-d35d52f38134
 
 [4] https://en.wikipedia.org/wiki/Binary_search_algorithm
+
+[5] https://www.linkedin.com/learning/programming-foundations-data-structures-2/what-are-arrays
