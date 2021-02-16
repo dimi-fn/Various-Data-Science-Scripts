@@ -10,7 +10,7 @@ Contents
 
 * [Classes_Objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Classes_Objects): Classes and Objects in Python.
 
-* Algorithms & Data Structures
+* [Algorithms & Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures)
     * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Algorithms)
     * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_Types_%26_Structures)
 
