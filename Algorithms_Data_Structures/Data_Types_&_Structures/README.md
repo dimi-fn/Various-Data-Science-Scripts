@@ -20,3 +20,5 @@ Investigating data types and data structures in programming with a focus on Pyth
 [6] https://towardsdatascience.com/15-examples-to-master-python-lists-vs-sets-vs-tuples-d4ffb291cf07
 
 [7] https://blog.usejournal.com/variables-and-primitive-built-in-types-in-python-fd31eaf939f
+
+[8] https://stackabuse.com/stacks-and-queues-in-python/
