@@ -44,5 +44,5 @@ Notes with reference to Augmented Reality (AR) and Virtual Reality (VR) construc
 Practising code from LinkedIn learning courses.
 
 
-
+-----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
