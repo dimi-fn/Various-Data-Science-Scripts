@@ -40,6 +40,7 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 Notes with reference to Augmented Reality (AR) and Virtual Reality (VR) constructed through the [Virtual Reality Specialization](https://www.coursera.org/specializations/virtual-reality) course on [Coursera](https://www.coursera.org/).
 
 * [LinkedIn Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/LinkedIn_Learning)
+    * [Python Essential Training](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/LinkedIn_Learning/Python_Essential_Training.ipynb)
 
 Practising code from LinkedIn learning courses.
 
