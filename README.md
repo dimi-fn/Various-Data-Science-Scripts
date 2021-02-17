@@ -27,6 +27,8 @@ Contents
 
 * [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR_VR): Notes with reference to Augmented Reality (AR) and Virtual Reality (VR) constructed through the [Virtual Reality Specialization](https://www.coursera.org/specializations/virtual-reality) course on [Coursera](https://www.coursera.org/).
 
+* [LinkedIn Learning](): Practising code from LinkedIn learning courses.
+
 
 
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
