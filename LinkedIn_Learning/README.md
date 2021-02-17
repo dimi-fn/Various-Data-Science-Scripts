@@ -2,7 +2,7 @@
 
 ### Python Essential Training
 
-
+https://colab.research.google.com/drive/1qkI5oA6sFYO5gwOgB77b3s46fspg156f?usp=sharing
 
 
 
