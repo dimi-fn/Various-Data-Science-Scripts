@@ -18,7 +18,7 @@ Classes and Objects in Python.
 
 * [Functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functions)
 
-Demonstrating some concepts in functional programming in Python (e.g. *args and **kwargs, lambda, map functions, etc).
+Demonstrating several concepts in functional programming with Python (e.g. *args and **kwargs, generators, decorators, lambda and map functions).
 
 * [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing)
 
