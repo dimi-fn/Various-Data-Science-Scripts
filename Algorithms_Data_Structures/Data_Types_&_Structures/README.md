@@ -22,3 +22,5 @@ Investigating data types and data structures in programming with a focus on Pyth
 [7] https://blog.usejournal.com/variables-and-primitive-built-in-types-in-python-fd31eaf939f
 
 [8] https://stackabuse.com/stacks-and-queues-in-python/
+
+[9] https://www.linkedin.com/learning/python-essential-training-2018/
