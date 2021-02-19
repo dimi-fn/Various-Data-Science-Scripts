@@ -39,11 +39,5 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 
 Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
-* [LinkedIn Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/LinkedIn_Learning)
-    * [Python Essential Training](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/LinkedIn_Learning/Python_Essential_Training.ipynb)
-
-Practising code from LinkedIn learning courses.
-
-
 -----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
