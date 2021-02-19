@@ -21,3 +21,5 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 [8] https://techdifferences.com/difference-between-recursion-and-iteration-2.html
 
 [9] https://pymbook.readthedocs.io/en/latest/igd.html
+
+[10] https://www.linkedin.com/learning/python-essential-training-2018/
