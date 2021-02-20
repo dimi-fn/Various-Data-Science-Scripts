@@ -26,3 +26,5 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 [10] https://www.linkedin.com/learning/python-essential-training-2018/
 
 [11] https://docs.python.org/3/howto/functional.html
+
+[12] https://renanmf.com/the-python-guide-for-beginners/
