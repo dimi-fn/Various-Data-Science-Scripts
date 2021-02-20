@@ -35,7 +35,7 @@ How to set up a virtual environment and generate a requirements.txt file with al
 
 Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](https://www.coursera.org/specializations/aws-fundamentals) on [Coursera](https://www.coursera.org/).
 
-* [SQL](????????)
+* [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SQL)
 
 Various commands and notes on SQL.
 
