@@ -3,7 +3,7 @@ Due to a GitHub bug (issue [#3035](https://github.com/jupyter/notebook/issues/30
 
 # Various-Data-Science-Scripts
 
-**Purpose**: Practicing code along with some documentation of various programming concepts and foundations.
+**Purpose**: Practicing code along with some documentation of various programming concepts and foundations. This repository is actively maintained and developed.
 
 Contents
 =======================
@@ -20,11 +20,11 @@ Classes and Objects in Python.
 
 Demonstrating several concepts in functional programming with Python, such as: *args and **kwargs, iterators, generators, decorators, list comprehensions, and build-in functions.
 
-* [Unit_testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing)
+* [Unit Testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing)
 
 Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some of those are coming from [CodinGame](https://www.codingame.com/) as well.
   
-* [Virtual_Env](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env)
+* [Virtual Environment](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env)
 
 How to set up a virtual environment and generate a requirements.txt file with all the packages and dependencies installed.
 
