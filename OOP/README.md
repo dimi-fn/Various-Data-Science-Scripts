@@ -10,7 +10,7 @@ https://colab.research.google.com/drive/1CvScZsapdQuZeYbP0KXReNCsJkMbE_fY?usp=sh
 
 * car.py and get_car_details.py: they show that the example "2.3" in OOP.ipynb can be done with two files:
 the class "Car" is created in the file called `car.py`, hence now `car` is a module that can be imported in another file
-(`get_car_details.py`) with `from car import Car` since we have car.py and the name of the class was "Car".
+(`get_car_details.py`) with "`from car import Car`" command since we have car.py file (`from car`) and the name of the class was "Car" (`import Car`).
     
 ------------    
 ### Sources
