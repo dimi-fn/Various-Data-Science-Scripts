@@ -4,6 +4,7 @@ https://colab.research.google.com/drive/1CvScZsapdQuZeYbP0KXReNCsJkMbE_fY?usp=sh
 
 ### OOP.ipynb
 * Classes & Objects
+* Encapsulation
 
 ### Other files
 
