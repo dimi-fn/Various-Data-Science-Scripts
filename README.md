@@ -15,7 +15,7 @@ Contents
 
 * [Object-Oriented Programming (OOP)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/OOP)
 
-Classes and Objects in Python.
+Classes and Objects, encapsulation in Python.
 
 
 * [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional_Programming)
