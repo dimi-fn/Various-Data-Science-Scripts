@@ -1,7 +1,8 @@
 class Car:
   '''
   * Creating a class called "Car"
-  * Properties/attributes: brand, colour, horses, country production, current speed
+  * Properties/attributes: brand, colour, horses, country production, current speed 
+    * "current_speed" is set 0, unless other value is assigned
   * Method definition: 
     * def move_car() moves the car by 10
     * def accelerate_car() accelerates the car by the given value and adds speed to "current_speed"
@@ -9,7 +10,7 @@ class Car:
     * def car_details returns the properties of the "Car" class
   '''
 
-  def __init__(self, brand, colour, horses, current_speed, country_production = "Germany"):
+  def __init__(self, brand, colour, horses, country_production, current_speed = 0):
     self.brand = brand
     self.colour= colour
     self.horses = horses
