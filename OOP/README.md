@@ -3,8 +3,9 @@ https://colab.research.google.com/drive/1CvScZsapdQuZeYbP0KXReNCsJkMbE_fY?usp=sh
 ## Object-Oriented Programming (OOP)
 
 ### OOP.ipynb
-* Classes & Objects
-* Encapsulation
+* `Classes & Objects`
+* `def __init__(self, )`
+* `Encapsulation`
 
 ### Other files
 
