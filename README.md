@@ -43,7 +43,7 @@ Various commands and notes on SQL.
 
 * [APIs](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs)
 
-Notes on APIs
+Notes on APIs.
 
 
 * [AWS](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AWS)
