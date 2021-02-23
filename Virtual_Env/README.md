@@ -24,15 +24,15 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 
 - Create your virtual environment: being in the above path (i.e. C:\Users\the path you have chosen\project), type in the cmd: 
     
-    **python -m venv "your_venv_name"**
+    `python -m venv` "**your_venv_name**"
 
     Let's suppose you want the name of your venv project to be called "venv1", then: via cmd C:\Users\the path you have chosen\Virtual_project --> python -m venv venv1
     * You can now notice that 3 folders ("Include", "Lib", "Scripts") and one file ("pyenv.cfg") were created inside the venv directory.
 
-- To activate your virtual environment: 
+- To **activate** your virtual environment: 
     * navigate inside the project path (C:\Users\the path you have chosen\project\venv1)
     * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\project\venv1\Scripts)
-    * Type: activate.bat
+    * Type: `activate.bat`
     * You will now notice the change in the start of your path in the cmd (it starts with "(venv1) C:\Users\..\"), and the virtual environment is now activated.
         
         * If you type "*where python*", the 1st will be the venv path.
@@ -44,8 +44,8 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 * You can always make sure you are navigating in the venv environment by looking at the very left part of the path
 
 * Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\project\venv --> pip install pandas). This will install pandas only in this virtual environment.
-    * Now, if you "pip list" you will also see pandas installed (along with the default 2 pips).
-    * If you "pip freeze", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file.
+    * Now, if you "*pip list*" you will also see pandas installed (along with the two default pips).
+    * If you "*pip freeze*", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file.
     * The above explains the main *difference between pip list and pip freeze*.
 
 - To *deactivate* your venv:
