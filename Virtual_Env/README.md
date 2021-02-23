@@ -6,8 +6,8 @@ Contents
 * [Set up on Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
 * [Set up on Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-linux)
 * [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
-    [How to generate a requirements.txt for other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#How to generate a requirements.txt for other developers)
-    [How to install a requirements.txt file from other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#How to install a requirements.txt file from other developers)
+    * [How to generate a requirements.txt for other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#how-to-generate-a-requirementstxt-for-other-developers)
+    * [How to install a requirements.txt file from other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#how-to-install-a-requirementstxt-file-from-other-developers)
 * [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
 
