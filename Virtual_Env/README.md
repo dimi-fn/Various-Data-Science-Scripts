@@ -35,9 +35,9 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
     * Type: activate.bat
     * You will now notice the change in the start of your path in the cmd (it starts with "(venv1) C:\Users\..\"), and the virtual environment is now activated.
         
-        * If you type "where python", the 1st will be the venv path.
-        * If you type "*pip list*", you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
-        * If you type "*pip freeze*", you will only see the pips of the venv that you will be installing from now on. In this case, you would now be seeing nothing since you haven't installed any packages on this venv yet.
+        * If you type "*where python*", the 1st will be the venv path.
+        * If you type "`pip list`", you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
+        * If you type "`pip freeze`", you will only see the pips of the venv that you will be installing from now on. In this case, you would now be seeing nothing since you haven't installed any packages on this venv yet.
 
 - Now you can install pip packages, which will only be installed here, with pip install "package".
 
@@ -48,10 +48,10 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
     * If you "pip freeze", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file.
     * The above explains the main *difference between pip list and pip freeze*.
 
-- To deactivate your venv:
+- To *deactivate* your venv:
     * deactivate.bat (C:\Users\the path you have chosen\project\venv1\Scripts\deactivate.bat)
 
-- To delete your venv:
+- To *delete* your venv:
     * delete the directory with rmdir "project" /s, or just delete the virtual environment folder manually.
 
 ### Set up on Linux
