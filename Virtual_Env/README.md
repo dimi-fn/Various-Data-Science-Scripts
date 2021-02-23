@@ -20,13 +20,11 @@ Have python installed on your system. On linux you will firstly need to install 
 ### Set up on Windows
 
 1. Create your **project environment**: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
-of a folder called: "venv_project", then cmd C:\Users\the path you choose\ --> mkdir venv_project).
+of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->type--> `mkdir venv_project`
 
-2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type-->
+2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type--> "python -m venv your_venv_name"
 
-    `python -m venv` "**your_venv_name**"
-
-    Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\Virtual_project -->type--> 
+Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\Virtual_project -->type--> 
     
     `python -m venv venv1`
 
