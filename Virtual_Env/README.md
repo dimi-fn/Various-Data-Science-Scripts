@@ -6,18 +6,20 @@ Contents
 * [Set up on Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
 * [Set up on Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-linux)
 * [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
+    [How to generate a requirements.txt for other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#How to generate a requirements.txt for other developers)
+    [How to install a requirements.txt file from other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#How to install a requirements.txt file from other developers)
 * [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
 
-### Reasons to Use Virtual Environment (venv)
+## Reasons to Use Virtual Environment (venv)
 
 Different projects require different packages and sometimes different versions of packages, therefore it is highly recommended to set up your projects in a virtual environment where the above can be achieved, maintained, and scaled for other developers.
 
-### Requirements
+## Requirements
 
 Have python installed on your system. On linux you will firstly need to install via terminal: "sudo apt-get install python3-venv".
 
-### Set up on Windows
+## Set up on Windows
 
 1. Create your **project environment**: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
 of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->type-->
@@ -59,7 +61,7 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
 - To **delete** your venv:
     * delete the directory with rmdir "project" /s (being outside that path in the terminal), or just delete the virtual environment folder manually.
 
-### Set up on Linux
+## Set up on Linux
 
 Same rationale exists with that of the set up on windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
 
@@ -68,31 +70,41 @@ Main differences here are:
 
 - To **deactivate**: $ deactivate
 
-### requirements.txt
 
-In order to **create requirements.txt**: 
+## requirements.txt
 
-* Go to your venv project path.
+### How to generate a requirements.txt for other developers
+
+In order to **generate a requirements.txt file** which could potentially be used by other developers to run your project: 
+
+* Go to your venv project path, cd to Scripts: i.e. C:\Users\the path you have chosen\venv_project\venv1\Scripts
 * Check your installed-only for this project packages via: "`pip freeze`".
-* Save those with the command:
+* Extract those to a txt file via the command:
 
-        `pip freeze > requirements.txt` 
+        pip freeze > requirements.txt
  
- This will grab the packages created only in this venv project, it will write them in the right format of the type: "package"=="version_number", and it will generate a requirements.txt text file with those requirements.
+ This will grab the packages created only in this venv project, it will write them in the right format of the type: "package"=="version_number", and it will generate a requirements.txt text file with the packages and its versions installed only on that venv project.
 
-* In order to "paste" those into another project:
+### How to install a requirements.txt file from other developers
 
-    * You might want to transfer all packages and dependencies from one project to another project or machine automatically and not just manually. After creating a new venv to the new project/machine, if you do "pip freeze" you won't see any pip installed as expected.
-	* paste the "requirements.txt" into the folder of the new project, in its "Scripts" subfolder.
-	* to **install the packages** cmd:
+* You might want to transfer all packages and dependencies from one project to another project or machine automatically and not just manually. After creating a new venv to the new project/machine, if you do "pip freeze" you won't see any pip installed as expected (since you just created the venv).
 
-            `pip install -r requirements.txt` 
+* paste the "requirements.txt" of the developer into the folder of your venv project, in its "Scripts" subfolder, i.e. at C:\Users\the path you have chosen\venv_project\venv1\Scripts
+
+* to **install the packages** cmd:
+
+            pip install -r requirements.txt
 
 
-* This will install the particular packages along with their specific versions of the previous developer.
-* If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been transferred and installed.
+    * if you chose not to copy paste the requirements.txt into your venv project, then you just have to specify the path where the requirmenets.txt is located:
 
-### General Notes:
+            pip install -r path\requirements.txt
+
+
+* This will install on your system the particular packages along with their specific versions with regard to the project that the developer has used.
+* If you now type "pip freeze", you will notice that all packages with their respective versions have successfully been transferred and installed.
+
+## General Notes:
 
 - You may want to put your venv inside your project folder, but you **don't** want to **put any of your project files into the venv**.
     * You should not put project files, e.g. python scripts, in the venv folders.
@@ -109,7 +121,10 @@ After having created your project directory at which the venv will take place, t
     * Use "**pip list --local**" for the same use as "pip list" previously.
     * Use "**pip freeze --local**" for the same use as "pip freeze" previously.
 
-### Sources
+
+------
+
+## Sources
 
 [1] https://www.youtube.com/watch?v=APOPm01BVrk&ab_channel=CoreySchafer
 
@@ -120,3 +135,5 @@ After having created your project directory at which the venv will take place, t
 [4] https://linuxize.com/post/how-to-create-python-virtual-environments-on-ubuntu-18-04/
 
 [5] https://docs.microsoft.com/en-us/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2019#use-virtual-environments
+
+[6] https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e
