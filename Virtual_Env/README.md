@@ -27,16 +27,16 @@ of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->ty
 
 2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type--> "python -m venv your_venv_name"
 
-Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\Virtual_project -->type--> 
+Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\venv_project -->type--> 
     
 
     python -m venv venv1
 
-3. You will have successfully created your virtual environment if you are seeing three folders named "**Include**", "**Lib**", "**Scripts**", and one "**pyenv.cfg**" file created inside the venv directory.
+3. You will now have successfully created your virtual environment if you are seeing three folders named "**Include**", "**Lib**", "**Scripts**", and one "**pyenv.cfg**" file created inside the venv directory.
 
 - To **activate** your virtual environment: 
-    * navigate inside the project path (C:\Users\the path you have chosen\project\venv1)
-    * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\project\venv1\Scripts)
+    * navigate inside the project path (C:\Users\the path you have chosen\venv_project\venv1)
+    * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\venv_project\venv1\Scripts)
     * Type: `activate.bat`
     * You will now notice the change in the start of your path in the cmd (it starts with "(venv1) C:\Users\..\"), and the virtual environment is now activated.
         
@@ -54,40 +54,47 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
     * The above explains the main *difference between pip list and pip freeze*.
 
 - To **deactivate** your venv:
-    * deactivate.bat (C:\Users\the path you have chosen\project\venv1\Scripts\deactivate.bat)
+    * deactivate.bat (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
 
 - To **delete** your venv:
-    * delete the directory with rmdir "project" /s, or just delete the virtual environment folder manually.
+    * delete the directory with rmdir "project" /s (being outside that path in the terminal), or just delete the virtual environment folder manually.
 
 ### Set up on Linux
 
 Same rationale exists with that of the set up on windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
 
 Main differences here are:
-- Instead of the directory "Scripts", activate the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the example on windows do: $ source 'the path you have chosen'/project/venv1/bin/activate
+- Instead of the directory "Scripts", **activate** the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the same example on that of windows type: `$ source 'the path you have chosen'/venv_project/venv1/bin/activate`
 
-- To deactivate: $ deactivate
+- To **deactivate**: $ deactivate
 
 ### requirements.txt
 
-In order to create requirements.txt: 
+In order to **create requirements.txt**: 
 
 * Go to your venv project path.
 * Check your installed-only for this project packages via: "`pip freeze`".
-* Save those with the command "`pip freeze > requirements.txt`" (this grabs the packages created in this venv project
-with the right format of "package"=="version_number", and it creates a requirements.txt text file with those requirements).
+* Save those with the command:
+
+        `pip freeze > requirements.txt` 
+ 
+ This will grab the packages created only in this venv project, it will write them in the right format of the type: "package"=="version_number", and it will generate a requirements.txt text file with those requirements.
 
 * In order to "paste" those into another project:
 
     * You might want to transfer all packages and dependencies from one project to another project or machine automatically and not just manually. After creating a new venv to the new project/machine, if you do "pip freeze" you won't see any pip installed as expected.
-	* paste that txt file called "requirements.txt" into the folder of the new project, in its "Scripts" subfolder.
-	* cmd: `pip install -r requirements.txt` to **install the packages**.
-		* This will install the particular packages along with their specific versions of the previous developer.
-        * If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been transferred and installed.
+	* paste the "requirements.txt" into the folder of the new project, in its "Scripts" subfolder.
+	* to **install the packages** cmd:
+
+            `pip install -r requirements.txt` 
+
+
+* This will install the particular packages along with their specific versions of the previous developer.
+* If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been transferred and installed.
 
 ### General Notes:
 
-- You may want to put your venv inside your project folder, but you don't want to put any of your project files into the venv.
+- You may want to put your venv inside your project folder, but you **don't** want to **put any of your project files into the venv**.
     * You should not put project files, e.g. python scripts, in the venv folders.
 
 - You should not commit the venv on Github.
