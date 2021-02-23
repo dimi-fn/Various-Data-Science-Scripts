@@ -19,15 +19,18 @@ Have python installed on your system. On linux you will firstly need to install 
 
 ### Set up on Windows
 
-- Create your project environment: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
-of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> mkdir project).
+1. Create your **project environment**: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
+of a folder called: "venv_project", then cmd C:\Users\the path you choose\ --> mkdir venv_project).
 
-- Create your virtual environment: being in the above path (i.e. C:\Users\the path you have chosen\project), type in the cmd: 
-    
+2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type-->
+
     `python -m venv` "**your_venv_name**"
 
-    Let's suppose you want the name of your venv project to be called "venv1", then: via cmd C:\Users\the path you have chosen\Virtual_project --> python -m venv venv1
-    * You can now notice that 3 folders ("Include", "Lib", "Scripts") and one file ("pyenv.cfg") were created inside the venv directory.
+    Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\Virtual_project -->type--> 
+    
+    `python -m venv venv1`
+
+3. You will have successfully created your virtual environment if you are seeing three folders named "**Include**", "**Lib**", "**Scripts**", and one "**pyenv.cfg**" file created inside the venv directory.
 
 - To **activate** your virtual environment: 
     * navigate inside the project path (C:\Users\the path you have chosen\project\venv1)
@@ -45,13 +48,13 @@ of a folder called: "project" (i.e., via cmd C:\Users\the path you choose\ --> m
 
 * Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\project\venv --> pip install pandas). This will install pandas only in this virtual environment.
     * Now, if you "*pip list*" you will also see pandas installed (along with the two default pips).
-    * If you "*pip freeze*", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file.
+    * If you "*pip freeze*", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file creation and extraction.
     * The above explains the main *difference between pip list and pip freeze*.
 
-- To *deactivate* your venv:
+- To **deactivate** your venv:
     * deactivate.bat (C:\Users\the path you have chosen\project\venv1\Scripts\deactivate.bat)
 
-- To *delete* your venv:
+- To **delete** your venv:
     * delete the directory with rmdir "project" /s, or just delete the virtual environment folder manually.
 
 ### Set up on Linux
