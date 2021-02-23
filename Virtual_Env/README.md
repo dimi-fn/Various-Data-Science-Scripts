@@ -68,7 +68,7 @@ Main differences here are:
 In order to create requirements.txt: 
 
 * Go to your venv project path.
-* Check your installed-only for this project packages via: "pip freeze".
+* Check your installed-only for this project packages via: "`pip freeze`".
 * Save those with the command "`pip freeze > requirements.txt`" (this grabs the packages created in this venv project
 with the right format of "package"=="version_number", and it creates a requirements.txt text file with those requirements).
 
@@ -76,7 +76,7 @@ with the right format of "package"=="version_number", and it creates a requireme
 
     * You might want to transfer all packages and dependencies from one project to another project or machine automatically and not just manually. After creating a new venv to the new project/machine, if you do "pip freeze" you won't see any pip installed as expected.
 	* paste that txt file called "requirements.txt" into the folder of the new project, in its "Scripts" subfolder.
-	* cmd: *pip install -r requirements.txt* to install the packages.
+	* cmd: `pip install -r requirements.txt` to **install the packages**.
 		* This will install the particular packages along with their specific versions of the previous developer.
         * If you now type "pip freeze", you will notice that all packages with their respective versions of the previous project/developer have successfully been transferred and installed.
 
