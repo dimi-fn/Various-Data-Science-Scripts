@@ -54,7 +54,7 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
     * The above explains the main *difference between pip list and pip freeze*.
 
 - To **deactivate** your venv:
-    * deactivate.bat (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
+    * `deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
 
 - To **delete** your venv:
     * delete the directory with rmdir "project" /s (being outside that path in the terminal), or just delete the virtual environment folder manually.
