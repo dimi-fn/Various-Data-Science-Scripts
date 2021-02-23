@@ -94,8 +94,8 @@ with the right format of "package"=="version_number", and it creates a requireme
 After having created your project directory at which the venv will take place, type:
 "**python -m venv 'my_venv_name' --system-site-packages**"
     * After that, whichever packages you install will not affect (neither add nor remove your global-system packages). In other words, you will begin your project by "borrowing" the packages that are already installed at your system, without altering them globally if you do changes locally at a later stage.
-    * Use "**pip list --local**" for the same use as "pip list" earlier.
-    * Use "**pip freeze --local**" for the same use as "pip freeze" earlier.
+    * Use "**pip list --local**" for the same use as "pip list" previously.
+    * Use "**pip freeze --local**" for the same use as "pip freeze" previously.
 
 ### Sources
 
