@@ -48,9 +48,9 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
 
 - Now you can install pip packages, which will only be installed here, with pip install "package".
 
-* You can always make sure you are navigating in the venv environment by looking at the very left part of the path
+* You can always make sure you are navigating in the venv environment by looking at the very left part of the path.
 
-* Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\project\venv --> pip install pandas). This will install pandas only in this virtual environment.
+* Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\venv_project\venv1\ --> pip install pandas). This will install pandas only in this virtual environment.
     * Now, if you "*pip list*" you will also see pandas installed (along with the two default pips).
     * If you "*pip freeze*", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file creation and extraction.
     * The above explains the main *difference between pip list and pip freeze*.
@@ -59,14 +59,16 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
     * `deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
 
 - To **delete** your venv:
-    * delete the directory with rmdir "project" /s (being outside that path in the terminal), or just delete the virtual environment folder manually.
+    * delete the directory with rmdir "venv_project" /s (being outside of that path in the terminal), or just delete the virtual environment folder manually.
 
 ## Set up on Linux
 
-Same rationale exists with that of the set up on windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
+Same rationale exists with that of the set up on Windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
 
 Main differences here are:
-- Instead of the directory "Scripts", **activate** the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the same example on that of windows type: `$ source 'the path you have chosen'/venv_project/venv1/bin/activate`
+- Instead of the directory "Scripts", **activate** the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the same example on that of windows type: 
+
+        $ source 'the path you have chosen'/venv_project/venv1/bin/activate
 
 - To **deactivate**: $ deactivate
 
@@ -83,7 +85,7 @@ In order to **generate a requirements.txt file** which could potentially be used
 
         pip freeze > requirements.txt
  
- This will grab the packages created only in this venv project, it will write them in the right format of the type: "package"=="version_number", and it will generate a requirements.txt text file with the packages and its versions installed only on that venv project.
+ This will grab the packages created only in this venv project, it will write them in the right format of the type: `"package"=="version_number"`, and it will generate a requirements.txt text file with the packages and its versions installed only on that venv project.
 
 ### How to install a requirements.txt file from other developers
 
@@ -112,7 +114,7 @@ In order to **generate a requirements.txt file** which could potentially be used
 - You should not commit the venv on Github.
     * you can use .gitignore 
 
-- You should commit the "requirements.txt", which would help other developers create the necessary environment to run your project (there is no need to commit the entire env, as written above).
+- You should commit the "requirements.txt", which would help other developers create the necessary environment to run your project (there is no need to commit the entire venv, as written above).
 
 - To create a venv workspace with your existing installed global-system packages:
 After having created your project directory at which the venv will take place, type:
