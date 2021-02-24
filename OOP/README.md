@@ -24,3 +24,5 @@ the class "Car" is created in the file called `car.py`, hence now `car` is a mod
 [2] https://www.linkedin.com/learning/python-essential-training-2018/
 
 [3] https://renanmf.com/classes-objects-python/
+
+[4] https://renanmf.com/handling-exceptions-python/
