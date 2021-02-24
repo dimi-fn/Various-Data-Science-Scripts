@@ -15,7 +15,7 @@ Contents
 
 * [Object-Oriented Programming (OOP)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/OOP)
 
-Classes and objects, encapsulation, inheritance, and polymorphism in Python.
+Classes and objects, encapsulation, inheritance, polymorphism, and exceptions in Python.
 
 
 * [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional_Programming)
