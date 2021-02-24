@@ -8,6 +8,7 @@ https://colab.research.google.com/drive/1CvScZsapdQuZeYbP0KXReNCsJkMbE_fY?usp=sh
 * `Encapsulation`
 * `Inheritance`
 * `Polymorphism`
+* `Exceptions`
 
 ### Other files
 
@@ -22,4 +23,4 @@ the class "Car" is created in the file called `car.py`, hence now `car` is a mod
 
 [2] https://www.linkedin.com/learning/python-essential-training-2018/
 
-[3] https://renanmf.com/the-python-guide-for-beginners/
+[3] https://renanmf.com/classes-objects-python/
