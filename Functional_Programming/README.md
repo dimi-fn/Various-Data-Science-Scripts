@@ -8,9 +8,7 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 * `iterators - generators - decorators`
 * `def __init__(self, )`
 * ` List comprehensions`
-* `Lambda functions`
-* `Map functions`
-* `Reduce()`
+* **Functions**: `Lambda` / `Map` / `Reduce()` / `Zip`
 * `Recursive vs Iterative functions`
 
 
