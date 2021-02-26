@@ -1,12 +1,13 @@
 # Databases
 
-https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
+
 
 ## SQL
 
 * `sqlite3`
-    * `Connect` | `Create` | `Insert` & `Commit` | `Drop` | `Close`
-    * Creating a `database interface` with `SQLlite`
+    * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
+        * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
+        * Creating a `database interface` with `SQLlite`
 
 * `SQL cheat sheet`
 
