@@ -9,7 +9,7 @@
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
         * Creating a `database interface` with `SQLlite`
 
-* `SQL cheat sheet`
+* `SQL cheat sheet` [1]
 
     * Various commands on SQL
 
