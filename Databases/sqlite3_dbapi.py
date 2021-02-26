@@ -31,14 +31,13 @@ def main():
         INSERT INTO test (string, number) VALUES ('BMW', 20000)
         """)
     cursor_handle.execute("""
-        INSERT INTO test (string, number) VALUES ('Audi', 18000)
+        INSERT INTO test (string, number) VALUES ('Audi', 15000)
         """)
-    
-    # Commit
+    # Commit inserts
     print('Inserts were committed')
     db.commit()
 
-    # Query - count rows
+    # Read | Query - count rows
     cursor_handle.execute("SELECT COUNT(*) FROM test")
     count = cursor_handle.fetchone()[0]
     print(f'There are {count} rows in the table')
