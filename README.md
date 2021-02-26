@@ -61,10 +61,3 @@ Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
 -----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
-
-
-
-
-
-
-
