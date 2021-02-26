@@ -10,13 +10,13 @@ def main():
     print('Connecting...')
     print("**************************************************************\n")
     db = sqlite3.connect('db-api.db')
-    cur = db.cursor()
+    cursor_handle = db.cursor()
     
     ''' Create table '''
     print('Creating tables:\n')
     # first check if table exists
-    cur.execute("DROP TABLE IF EXISTS test")
-    cur.execute("""
+    cursor_handle.execute("DROP TABLE IF EXISTS test")
+    cursor_handle.execute("""
         CREATE TABLE test (
             id INTEGER PRIMARY KEY, string TEXT, number INTEGER
         )
@@ -24,13 +24,13 @@ def main():
     
     # Insert rows
     print('Inserting 3 rows')
-    cur.execute("""
+    cursor_handle.execute("""
         INSERT INTO test (string, number) VALUES ('Mercedes', 25000)
         """)
-    cur.execute("""
+    cursor_handle.execute("""
         INSERT INTO test (string, number) VALUES ('BMW', 20000)
         """)
-    cur.execute("""
+    cursor_handle.execute("""
         INSERT INTO test (string, number) VALUES ('Audi', 18000)
         """)
     
@@ -39,19 +39,19 @@ def main():
     db.commit()
 
     # Query - count rows
-    cur.execute("SELECT COUNT(*) FROM test")
-    count = cur.fetchone()[0]
+    cursor_handle.execute("SELECT COUNT(*) FROM test")
+    count = cursor_handle.fetchone()[0]
     print(f'There are {count} rows in the table')
 
     # Query - print rows
     print("\nPrinting the table's rows:")
-    for row in cur.execute("SELECT * FROM test"):
+    for row in cursor_handle.execute("SELECT * FROM test"):
         print(row)
 
     # drop table  
     print("**************************************************************\n")  
     print("Dropping the 'test' table")
-    cur.execute("DROP TABLE test")
+    cursor_handle.execute("DROP TABLE test")
 
     # Closing db
     db.close()
