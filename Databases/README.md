@@ -11,7 +11,7 @@
 
 * `SQL cheat sheet`
 
-Various commands on SQL
+    * Various commands on SQL
 
 ----
 ### Sources
