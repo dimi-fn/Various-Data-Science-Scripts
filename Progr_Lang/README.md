@@ -23,7 +23,7 @@ Some of the main differences between Python and JavaScript:
 | for i in range(n): () | for (var i=0; i<n; i++) {}|
 | for x in iterable: | for (var x of iterable) {}|
 | def function_name(): | function function_name() {}|
-| class > def __init__(self, arguments ) > self.argument=argument  | class --> constructor(arguments) > this.argument=argument |
+| class --> def __init__(self, arguments ) --> self.argument=argument  | class --> constructor(arguments) --> this.argument=argument |
 
 
 
