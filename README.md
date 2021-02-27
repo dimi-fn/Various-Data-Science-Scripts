@@ -43,6 +43,8 @@ Various commands and notes on SQL.
 
 * [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting)
 
+Shell scripting, bash, terminal.
+
 
 * [APIs](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs)
 
