@@ -1,6 +1,8 @@
-## Programming Languages
+# Programming Languages
 
-### Python vs JavaScript
+## Python vs JavaScript
+
+Some of the main differences between Python and JavaScript:
 
 | **Python**        | **JavaScript**    | 
 | ------------- |:-------------:| 
