@@ -1,0 +1,31 @@
+## Programming Languages
+
+### Python vs JavaScript
+
+| **Python**        | **JavaScript**    | 
+| ------------- |:-------------:| 
+| back-end      | back-end & front-end | 
+| Numeric Data Types: int, float, complex     | Numeric Data Types: Number, BigInt      | 
+| Primitive Data Types (4): `int`, `float`, `bool`, `str`  | Primitive Data Types (6): `undefined`, `boolean`, `string`, `number`, `BigInt`, `Symbol`       | 
+| x = a specific value | var x;      | 
+| # comment | // comment      | 
+| ''' multi-line comment''' | /* multi-line comment*/ |
+| `lists`     | `arrays` |
+| `tuple` exists | `no tuple`. But there are other ways |
+| `dictionaries` | `no dictionaries` But there are other ways|
+| floor division: 10//3 | Math.floor(10/3)|
+| `==` | ``===``|
+| `and`, `or`, `not` | `&&`, `||`, `!`|
+| type(x) | typeof(x)|
+| if - elif - else (with "()") | if - else if - else (with {})|
+| for i in range(n): () | for (var i=0; i<n; i++) {}|
+| for x in iterable: | for (var x of iterable) {}|
+| def function_name(): | function function_name() {}|
+
+
+
+----
+
+### Sources
+
+[1] https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/?fbclid=IwAR0i8i0l0LxsAjIFlau_AC2Faq_yy63iE2uYEcmj4uiIoXLhK7TMegjn_dg
