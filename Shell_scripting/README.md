@@ -12,20 +12,20 @@
 
 * terminal (in order to run the .sh file):
     1) go the path of the bash script (where the bashfilename.`sh` is located)
-    2) `chmod +x shell_bash_script.sh`
-    3) `./shell_bash_script.sh`    
+    2) `chmod +x bashfilename.sh`
+    3) `./bashfilename.sh`    
 
-* no spaces among code, it is like typing the terminal
+* no spaces among code, it is like typing in the terminal
 
 * `-eq` : To check if two numbers are equal
 
 * `-ne` : To check if two number are not equal
 
-* `-gt` : To check if num1 is greater than num2
+* `-gt` : To check if num1 > num2
 
-* `-lt` : To check if num1 is less than num2
+* `-lt` : To check if num1 < num2
 
-* `-le` : For less than equal to
+* `-le` : less than equal to
 
 
 
