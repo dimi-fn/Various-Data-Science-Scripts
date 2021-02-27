@@ -6,7 +6,8 @@
 
 ## Bash - Commands
 
-* `which bash` : to know where is your bash ==> this will be the first line of code in the script, e.g. #!/bin/bash
+* `which bash` : to know where is your bash ==> this will be the first line of code in the script after `#!`
+    * e.g. if after typing "which bash" the result is "/bin/bash" then the 1st line of code should be: `#!/bin/bash`
     * in case permission is required: `chmod +x 'bash_script'.sh`
 
 * terminal (in order to run the .sh file):
@@ -16,8 +17,22 @@
 
 * no spaces among code, it is like typing the terminal
 
+* `-eq` : To check if two numbers are equal
 
-## Notes
+* `-ne` : To check if two number are not equal
+
+* `-gt` : To check if num1 is greater than num2
+
+* `-lt` : To check if num1 is less than num2
+
+* `-le` : For less than equal to
+
+
+
+
+
+
+## Hashbang 
 
 `#!/usr/bin/env/ python3` ==> the **shebang line**, or **hashbang**
 
