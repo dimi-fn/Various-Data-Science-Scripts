@@ -8,6 +8,8 @@
 
 # Search Engine Optimization (SEO)
 
+**Contents**
+
 * [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
 * []()
@@ -20,6 +22,7 @@
 * []()
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 
+----
 
 ## General & Metrics
 
@@ -76,7 +79,7 @@ Recall in the context of Information Retrieval:
 
 * It tells us how **complete** the results are (*completeness*).
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
-* Preference for higher recall than precision: e.g. youtube, seeking scientific articles: There is need for quantity of information/documents/results even if some of may be irrelevant more or less.
+* Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
 -----
 
 ## Keywords
@@ -95,10 +98,6 @@ Recall in the context of Information Retrieval:
 
 <p style="text-align:center; border:1px solid black
 <span><font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
-</p>
-
-<p style="text-align:center; border:1px solid black
-<font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a>
 </p>
 
 
