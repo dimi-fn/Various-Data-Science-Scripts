@@ -36,7 +36,9 @@ It is determined by various factors such as:
 
 
 
-
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
+</p>
 
 
 
