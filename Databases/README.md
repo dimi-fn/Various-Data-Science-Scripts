@@ -4,12 +4,12 @@ One of the main differences between SQL and NoSQL is that the former is a relati
 
 ## SQL
 
-* `[sqlite3]()`
+* `[sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/sqlite3)`
     * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
         * Creating a `database interface` with `SQLlite`
 
-* `[SQL cheat sheet]()` [1]
+* `[SQL cheat sheet](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/sql_cheat_sheet.pdf)` [1]
 
     * Various commands on SQL
 
