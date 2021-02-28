@@ -4,7 +4,8 @@
 
 * The terminal can be used on Linux and Mac, the git bash on Windows
 
-## Bash - Commands
+## Bash 
+### Commands
 
 * `which bash` : to know where is your bash ==> this will be the first line of code in the script after `#!`
     * e.g. if after typing "which bash" the result is "/bin/bash" then the 1st line of code should be: `#!/bin/bash`
@@ -27,12 +28,7 @@
 
 * `-le` : less than equal to
 
-
-
-
-
-
-## Hashbang 
+### Hashbang 
 
 `#!/usr/bin/env/ python3` ==> the **shebang line**, or **hashbang**
 
@@ -50,9 +46,9 @@
     * on linux of course it will not be ignored since it is Unix based, same on Mac because it is based on the BSD Unix
 
 
-## Terminal - General
+# Terminal - General
 
-**Linux**:
+## Linux
 
 - updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
@@ -77,7 +73,7 @@
 - disc space `ncdu`
 
 
-**Windows**:
+## Windows
 
 - cd / cd .. / dir
 
