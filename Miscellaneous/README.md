@@ -47,7 +47,7 @@ It is determined by various factors such as:
 </p>
 
 * `PR(p)`: pagerank score of page p
-* `d`: probability a surfer will continue clicking from this current website (85%), rather than jumping to new location (15%).
+* `d`: the probability a surfer will continue clicking from this current website (85%), rather than jumping to new location (15%).
 I.e., the user will go from website x to website y via the website x (website x recommended that) with a probability of 85%, rather than visiting website y directly by
 navigating to another page of the browser (15%)
 * `N`: total number of pages in collection
@@ -83,7 +83,7 @@ Recall in the context of Information Retrieval:
 * Understanding the user's intent is important for constructing the right keywords. What the user would type to the search query box in order to find you?
 * Keywords research plan regarding: `volume`, `relevance`, `competition`
 * Getting insights about your website: [Google Search Console](https://search.google.com/search-console/about)
-* **Keyword expansion tools**: The can give potential useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
+* **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
 
 
 
@@ -93,7 +93,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"Data Science" Search Queries: Questions, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"**Data Science**" Search Queries: `Questions`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -102,7 +102,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"Data Science" Search Queries: Prepositions, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"**Data Science**" Search Queries: `Prepositions`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -111,7 +111,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"Data Science" Search Queries: Comparisons, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"**Data Science**" Search Queries: `Comparisons`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -120,7 +120,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"Data Science" Search Queries: Related, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"**Data Science**" Search Queries: `Related`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 
