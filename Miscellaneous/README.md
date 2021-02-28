@@ -93,7 +93,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"**Data Science**" Search Queries: `Questions`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Questions</code>, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -102,7 +102,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"**Data Science**" Search Queries: `Prepositions`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"<b>Data Science</b>**" Search Queries: <code>Prepositions</code>, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -111,7 +111,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"**Data Science**" Search Queries: `Comparisons`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Comparisons</code>, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 ---
@@ -120,7 +120,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
 </p>
 <p align="center">
-<span><font size="-2"><i>"**Data Science**" Search Queries: `Related`, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+<span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Related</code>, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 
