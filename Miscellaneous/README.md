@@ -1,6 +1,14 @@
 # Miscellaneous
 
+## Contents
+
+* [Search Engine Optimization (SEO)]()
+
+---
+
 ## Search Engine Optimization (SEO)
+
+A successful SEO campaign can be achieved by optimizing for both a `search engine` and surfers/`consumers`
 
 Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites give are relevant and authenticative.
 
@@ -39,9 +47,9 @@ Precision in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG" alt="Precision"/>
 </p>
 
-* It tells us how **useful** the results are (*homogeneity* of results)
-* A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>
-* Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results
+* It tells us how **useful** the results are (*homogeneity* of results).
+* A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
+* Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
 
 ### Recall
@@ -50,10 +58,20 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
 </p>
 
-* It tells us how **complete** the results are (*completeness*)
+* It tells us how **complete** the results are (*completeness*).
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
 * Preference for higher recall than precision: e.g. youtube, seeking scientific articles: There is need for quantity of information/documents/results even if some of may be irrelevant more or less.
 
+
+----
+
+### Terminologies
+
+`Paid Listing`: e.g. to pay google and be displayed in search results as a sponsored link
+
+`Intent`: what users are looking for and how they search
+
+`Web Analytics` Web analytics let you see how successful you are in attracting users, and the return on your financial investment.
 
 
 -----
