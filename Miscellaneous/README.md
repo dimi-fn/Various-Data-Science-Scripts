@@ -6,9 +6,24 @@
 
 ---
 
-## Search Engine Optimization (SEO)
+# Search Engine Optimization (SEO)
 
-A successful SEO campaign can be achieved by optimizing for both a `search engine` and surfers/`consumers`
+* [General & Metrics]()
+* [Keywords]()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* []()
+* [Terminologies]()
+
+
+## General & Metrics
+
+A successful SEO campaign can be achieved by optimizing for both a `search engine` and surfers/`consumers`.
 
 Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites give are relevant and authenticative.
 
@@ -19,7 +34,7 @@ It is determined by various factors such as:
 
 
 
-**Authenticity**
+**Authenticity**:
 * links pointing to you from other websites
 * reviews - sentiment
 
@@ -58,20 +73,62 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
 </p>
 
+
 * It tells us how **complete** the results are (*completeness*).
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
 * Preference for higher recall than precision: e.g. youtube, seeking scientific articles: There is need for quantity of information/documents/results even if some of may be irrelevant more or less.
+-----
+## Keywords
+* Understanding the user's intent is important for constructing the right keywords. What the user would type to the search query box in order to find you?
+* Keywords research plan regarding: `volume`, `relevance`, `competition`
+* Getting insights about your website: [Google Search Console](https://search.google.com/search-console/about)
+* **Keyword expansion tools**: The can give potential useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
+
+
+
+
+
+
+
+
+
+
+
+<div style="text-align: center;" display:inline-block>
+<span><font size="-2"> <i>Photo by</i> </font><a href="https://unsplash.com/@clarktibbs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank"><font size="-2">Clark Tibbs </font></a><font size="-2"><i>on</i> </font><a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank"><font size="-2">Unsplash</font></a></span>
+</div>
+
+
+
+
+
+
+
+## Content Optimization
+How search engines and consumers view webpages
+
+## Technical Content Optimization
+
+## Content Planning
+
+## Links Strategy
+
+## SEO Effectiveness Metrics
+
+
+
+
 
 
 ----
 
-### Terminologies
+# Terminologies
 
 `Paid Listing`: e.g. to pay google and be displayed in search results as a sponsored link
 
 `Intent`: what users are looking for and how they search
 
-`Web Analytics` Web analytics let you see how successful you are in attracting users, and the return on your financial investment.
+`Web Analytics`: Web analytics let you see how successful you are in attracting users, and the return on your financial investment.
 
 
 -----
@@ -81,3 +138,6 @@ Recall in the context of Information Retrieval:
 [1] https://www.linkedin.com/learning/seo-foundations/
 
 [2] Various notes from the *CS976 Information Retrieval* class at Strathclyde University during the academic year 2019-2020: https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/#coursecontent
+
+
+
