@@ -93,9 +93,7 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science "/>
 </p>
 <div style="text-align: center;" display:inline-block>
-<span>
-<font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="-2">answerthepublic.com</font></a><font size="-2"><i><a>
-<span>
+<span><font size="-4"> <i>Photo by</i> </font><a href="https://answerthepublic.com/"><font size="-4">answerthepublic.com</font></a><span>
 </div>
 
 
