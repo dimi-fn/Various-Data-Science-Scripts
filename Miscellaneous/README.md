@@ -97,6 +97,9 @@ Recall in the context of Information Retrieval:
 <span><font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
+<p style="text-align:center; border:1px solid black
+<font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a>
+</p>
 
 
 
