@@ -29,8 +29,9 @@ It is determined by various factors such as:
 ![img](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG)
 
 
-
+<p align ="center">
 ![img](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG)
+</p>
 
 
 
