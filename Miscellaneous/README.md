@@ -92,7 +92,7 @@ Recall in the context of Information Retrieval:
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science "/>
 </p>
-<p style="text-align: center;" >
+<p style="text-align: center;" display:inline-block >
 <span><font size="-14"> <i>Photo by</i> </font><a href="https://answerthepublic.com/"><font size="-14">answerthepublic.com</font></a><span>
 </p>
 
