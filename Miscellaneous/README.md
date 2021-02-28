@@ -42,8 +42,6 @@ It is determined by various factors such as:
 * reviews - sentiment
 
 
-
---------------------------------------------------------------------------
 ### Pagerank
 
 <p align="center">
@@ -100,6 +98,9 @@ Recall in the context of Information Retrieval:
 <span><font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
+<div style="text-align: center;" display:inline-block>
+<span><font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+</div>
 
 
 
