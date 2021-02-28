@@ -18,7 +18,7 @@
 * []()
 * []()
 * []()
-* [Terminologies]()
+* [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 
 
 ## General & Metrics
