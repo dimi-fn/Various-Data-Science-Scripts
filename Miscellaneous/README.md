@@ -121,8 +121,7 @@ Recall in the context of Information Retrieval:
 </p>
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Related__answer_the_public.PNG
-" alt="How users ask about Data Science: related "/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"Data Science" Search Queries: Related, Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
