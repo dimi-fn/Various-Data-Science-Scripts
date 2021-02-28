@@ -35,8 +35,6 @@ It is determined by various factors such as:
 * content and code implementation
 * thematic and semantic (metadata) connections between query and your website
 
-
-
 **Authenticity**:
 * links pointing to you from other websites
 * reviews - sentiment
@@ -49,11 +47,12 @@ It is determined by various factors such as:
 </p>
 
 * `PR(p)`: pagerank score of page p
-* `d`: probability a surfer will continue clicking from this current website (85%) rather than jumping to new location (15%)
+* `d`: probability a surfer will continue clicking from this current website (85%), rather than jumping to new location (15%).
+I.e., the user will go from website x to website y via the website x (website x recommended that) with a probability of 85%, rather than visiting website y directly by
+navigating to another page of the browser (15%)
 * `N`: total number of pages in collection
 * `pjEM(p)`: set of all pages linked to p
 * `L(pj)`: total number of links from page j
-
 
 
 ### Precision
@@ -79,13 +78,6 @@ Recall in the context of Information Retrieval:
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
 * Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
 -----
-
-
-
-
-
-
-
 
 ## Keywords
 * Understanding the user's intent is important for constructing the right keywords. What the user would type to the search query box in order to find you?
