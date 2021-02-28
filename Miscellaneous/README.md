@@ -8,8 +8,8 @@
 
 # Search Engine Optimization (SEO)
 
-* [General & Metrics]()
-* [Keywords]()
+* [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
+* [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
 * []()
 * []()
 * []()
@@ -78,6 +78,7 @@ Recall in the context of Information Retrieval:
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
 * Preference for higher recall than precision: e.g. youtube, seeking scientific articles: There is need for quantity of information/documents/results even if some of may be irrelevant more or less.
 -----
+
 ## Keywords
 * Understanding the user's intent is important for constructing the right keywords. What the user would type to the search query box in order to find you?
 * Keywords research plan regarding: `volume`, `relevance`, `competition`
@@ -88,14 +89,13 @@ Recall in the context of Information Retrieval:
 
 
 
-
-
-
-
-
-
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science "/>
+</p>
 <div style="text-align: center;" display:inline-block>
-<span><font size="-2"> <i>Photo by</i> </font><a href="https://unsplash.com/@clarktibbs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank"><font size="-2">Clark Tibbs </font></a><font size="-2"><i>on</i> </font><a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank"><font size="-2">Unsplash</font></a></span>
+<span>
+<font size="-2"> <i>Photo by</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="-2">answerthepublic.com</font></a><font size="-2"><i><a>
+<span>
 </div>
 
 
