@@ -52,6 +52,8 @@
 
 - updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
+- `cd` / `cd ..` / `ls`
+
 - Ubuntu version: `lsb_release -a` 
 
 - create folder/directory: `mkdir "dirname"`
@@ -75,9 +77,9 @@
 
 ## Windows
 
-- cd / cd .. / dir
+- `cd` / `cd ..` / `dir`
 
-- clear terminal --> cls
+- clear terminal: `cls`
 
 - create folder/directory : `mkdir "directory name"`
 
