@@ -86,6 +86,12 @@ Recall in the context of Information Retrieval:
 * **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
 
 
+The following eight images depict 2 search queries examples behind the scene. The first four photos are with regard to the search query "*Data Science*", and the rest for "Machine Learning". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
+* `Questions`: how users ask a question
+* `Prepositions`: what prepositions users use for aksing that query
+* `Comparisons`: what comparisons do users think of when they type their query
+* `Related`: 
+
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
