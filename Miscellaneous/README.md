@@ -11,9 +11,14 @@
 **Contents**
 
 * [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
+  * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
+  * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
+  * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
-* []()
-* []()
+  * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
+  * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
+  * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
+* [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * []()
 * []()
 * []()
@@ -112,7 +117,7 @@ The following twelve images depict three search queries examples with four image
 
 ---
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
 </p>
 <p align="center">
@@ -131,6 +136,7 @@ The following twelve images depict three search queries examples with four image
 ---
 
 ### Machine Learning
+
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Questions_answer_the_public.png" alt="How users ask about Machine Learning: Questions">
 </p>
@@ -140,7 +146,7 @@ The following twelve images depict three search queries examples with four image
 
 ----
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Prepositions_answer_the_public.png" alt="How users ask about Machine Learning: Prepositions">
 </p>
 <p align="center">
@@ -149,7 +155,7 @@ The following twelve images depict three search queries examples with four image
 
 ----
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Comparisons_answer_the_public.png" alt="How users ask about Machine Learning: Comparisons">
 </p>
 <p align="center">
@@ -178,7 +184,7 @@ The following twelve images depict three search queries examples with four image
 
 ----
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
 </p>
 <p align="center">
@@ -187,7 +193,7 @@ The following twelve images depict three search queries examples with four image
 
 -----
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
 </p>
 <p align="center">
