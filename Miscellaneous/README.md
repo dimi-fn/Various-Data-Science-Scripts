@@ -86,7 +86,7 @@ Recall in the context of Information Retrieval:
 * **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
 
 
-The following 12 images depict 3 search queries examples with 4 images per query, giving analytics insights in the context of SEO. The first 4 photos are with regard to the search query "**Data Science**", the following 4 regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
+The following twelve images depict three search queries examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for aksing that query
 * `Comparisons`: what comparisons do users think of when they type their query
