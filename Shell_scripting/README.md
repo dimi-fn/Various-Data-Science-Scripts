@@ -1,3 +1,13 @@
+**Contents**
+
+* [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#shell-scripting)
+    * [Bash](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash)
+        * [Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#commands)
+        * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
+* [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
+    * [Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#linux)
+    * [Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows)
+
 # Shell Scripting
 
 `Shell scripting` is a program to run on UNIX shell, and `Bash` is a Unix shell and command language.
@@ -51,6 +61,8 @@
 ## Linux
 
 - updates: `sudo apt-get update` | `sudo apt-get upgrade`
+
+- `reboot` / `shutdown now`
 
 - `cd` / `cd ..` / `ls`
 
