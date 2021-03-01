@@ -26,7 +26,7 @@
 
 ## General & Metrics
 
-A successful SEO campaign can be achieved by optimizing for both a `search engine` and surfers/`consumers`.
+A successful SEO campaign can be achieved by optimizing for both the `search engine` and the surfers/`consumers`.
 
 Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites give are relevant and authenticative.
 
@@ -202,6 +202,7 @@ The following twelve images depict three search queries examples with four image
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
+
 -----
 
 
@@ -240,5 +241,4 @@ How search engines and consumers view webpages
 
 [2] Various notes from the *CS976 Information Retrieval* class at Strathclyde University during the academic year 2019-2020: https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/#coursecontent
 
-
-
+[3] https://answerthepublic.com/
