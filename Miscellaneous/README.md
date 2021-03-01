@@ -18,6 +18,8 @@
   * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
   * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
   * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
+  * [Data Science vs Machine Learning vs AI](??)
+  
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * []()
 * []()
@@ -234,6 +236,8 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 </p>
 
 -----
+
+### Data Science vs Machine Learning vs AI
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/google_trends/google_trends.PNG" alt="Search Interest Rate among Data Science, Machine Learning, and Artificiall Intelligence, Google Trends">
