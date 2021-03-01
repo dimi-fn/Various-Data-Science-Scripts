@@ -5,8 +5,8 @@
         * [Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#commands)
         * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
 * [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
-    * [Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#linux)
-    * [Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows)
+    * [Bash Commands (Linux - MacOS - WSL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#linux)
+    * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows)
 
 ----
 
@@ -60,7 +60,7 @@
 
 # Terminal - General
 
-## Linux
+## Bash Commands (Linux - MacOS - WSL)
 
 - updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
@@ -89,7 +89,7 @@
 - disc space `ncdu`
 
 
-## Windows
+## Windows Terminal Commands
 
 - `cd` / `cd ..` / `dir`
 
