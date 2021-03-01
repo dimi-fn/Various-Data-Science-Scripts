@@ -18,7 +18,7 @@
   * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
   * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
   * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
-  * [Data Science vs Machine Learning vs AI](??)
+  * [Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science-vs-machine-learning-vs-ai)
   
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * []()
@@ -236,7 +236,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 </p>
 
 -----
-
+<br>
 ### Data Science vs Machine Learning vs AI
 
 <p align="center">
