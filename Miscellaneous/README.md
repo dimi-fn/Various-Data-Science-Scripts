@@ -95,7 +95,7 @@ Recall in the context of Information Retrieval:
 
 
 ### Keywords Research
-1. **Brainstorming**: *What products/services do you offer?* ==> Do it from the customer's percpectives (and not business's)
+1. **Brainstorming**: *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's)
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about)
 
@@ -111,29 +111,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br>
 The following twelve images depict three search queries examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for aksing that query
