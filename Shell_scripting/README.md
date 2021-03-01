@@ -1,4 +1,4 @@
-**Contents**
+# Contents
 
 * [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#shell-scripting)
     * [Bash](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash)
@@ -7,6 +7,8 @@
 * [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
     * [Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#linux)
     * [Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows)
+
+----
 
 # Shell Scripting
 
