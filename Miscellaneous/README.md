@@ -237,6 +237,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 -----
 <br>
+
 ### Data Science vs Machine Learning vs AI
 
 <p align="center">
