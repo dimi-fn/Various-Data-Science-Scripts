@@ -14,7 +14,7 @@
   * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
   * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
   * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
-* [Keywords & Keywords Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords--keywords-research)
+* [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
   * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
   * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
@@ -143,7 +143,7 @@ The following twelve images depict three search queries examples with four image
 
 ### Data Science 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Questions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -152,7 +152,7 @@ The following twelve images depict three search queries examples with four image
 ---
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Prepositions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -161,7 +161,7 @@ The following twelve images depict three search queries examples with four image
 ---
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Comparisons</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -170,7 +170,7 @@ The following twelve images depict three search queries examples with four image
 ---
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -181,7 +181,7 @@ The following twelve images depict three search queries examples with four image
 ### Machine Learning
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Questions_answer_the_public.png" alt="How users ask about Machine Learning: Questions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Questions_answer_the_public.png" alt="How users ask about Machine Learning: Questions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Questions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -190,7 +190,7 @@ The following twelve images depict three search queries examples with four image
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Prepositions_answer_the_public.png" alt="How users ask about Machine Learning: Prepositions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Prepositions_answer_the_public.png" alt="How users ask about Machine Learning: Prepositions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Prepositions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -199,7 +199,7 @@ The following twelve images depict three search queries examples with four image
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Comparisons_answer_the_public.png" alt="How users ask about Machine Learning: Comparisons">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Comparisons_answer_the_public.png" alt="How users ask about Machine Learning: Comparisons">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Comprarisons</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -208,7 +208,7 @@ The following twelve images depict three search queries examples with four image
 ----
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/ML_Related_answer_the_public.png" alt="How users ask about Machine Learning: Related">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Related_answer_the_public.png" alt="How users ask about Machine Learning: Related">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -219,7 +219,7 @@ The following twelve images depict three search queries examples with four image
 ### Artificial Intelligence
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Questions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Questions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Questions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Questions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Questions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -228,7 +228,7 @@ The following twelve images depict three search queries examples with four image
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Prepositions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -237,7 +237,7 @@ The following twelve images depict three search queries examples with four image
 -----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Comprarisons</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -246,7 +246,7 @@ The following twelve images depict three search queries examples with four image
 -----
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Related_answerthepublic.png" alt="How users ask about Artificial Intelligence: Related">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Related_answerthepublic.png" alt="How users ask about Artificial Intelligence: Related">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
