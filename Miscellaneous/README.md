@@ -15,6 +15,7 @@
   * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
   * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
+  * [Keywords Attributes ###################################################](????)
   * [Keywords Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords-research)
     * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
     * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
@@ -22,11 +23,8 @@
     * [Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science-vs-machine-learning-vs-ai)
     
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
-* []()
-* []()
-* []()
-* []()
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
+* [Rules of thumb ######################](?????????????????)
 
 ----
 
@@ -92,7 +90,84 @@ Recall in the context of Information Retrieval:
 
 ## Keywords
 * Understanding the user's `intent` is important for constructing the right keywords. What the user would type to the search query box in order to find you?
-* Keywords **research plan** regarding: `volume`, `relevance`, `competition`
+
+### Keywords Attributes
+* Keywords **research plan** regarding: **search volume**, **relevance**, **competition**
+
+`Relevance`: Relevant Keywords: Put yourself in the customer's shoes to discover their intent ==> in this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes.
+
+
+`Search volume`: The number of searches of a particular keyword per month. The tricky fact here is that on the one hand some keywords might theoritically lead to your website targetfully and successfully, however they might not be popular queries. 
+
+Tool for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+
+
+
+`Competition`: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around keywords that describe your product.
+
+When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many website (i.e. not so many sellers). The ooposite happens for when the difficalty is **high**.
+
+**SERP**(Search Engine Results Page) **Analysis** here is the process of analyzing the top web pages that rank for a specific keyword or topic
+
+
+<br>For example, if for a search term/group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### Keywords Research
@@ -247,6 +322,8 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 -----
 
+<br>
+
 ## Content Optimization
 How search engines and consumers view webpages
 
@@ -288,6 +365,11 @@ How search engines and consumers view webpages
 
 `Web Analytics`: Web analytics let you see how successful you are in attracting users, and the return on your financial investment
 
+# Rules of thumb
+
+
+
+
 
 -----
 
@@ -298,3 +380,5 @@ How search engines and consumers view webpages
 [2] Various notes from the *CS976 Information Retrieval* class at Strathclyde University during the academic year 2019-2020: https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/#coursecontent
 
 [3] https://answerthepublic.com/
+
+[4] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
