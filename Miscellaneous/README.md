@@ -103,7 +103,7 @@ The following twelve images depict three search queries examples with four image
 
 ---
 
-<p align="center">
+<br><p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
 </p>
 <p align="center">
