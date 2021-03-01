@@ -86,7 +86,7 @@ Recall in the context of Information Retrieval:
 * **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. what keywords have users been using for finding out a specifim item? In this way you can get to know your target audience better: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/) 
 
 
-The following eight images depict 2 search queries examples behind the scene. The first four photos are with regard to the search query "*Data Science*", and the rest for "Machine Learning". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
+The following 12 images depict 3 search queries examples with 4 images per query, giving analytics insights in the context of SEO. The first 4 photos are with regard to the search query "**Data Science**", the following 4 regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for aksing that query
 * `Comparisons`: what comparisons do users think of when they type their query
@@ -159,6 +159,39 @@ The following eight images depict 2 search queries examples behind the scene. Th
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+</p>
+
+----
+
+
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Questions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Questions">
+</p>
+<p align="center">
+<span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Questions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+</p>
+
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
+</p>
+<p align="center">
+<span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Prepositions</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
+</p>
+<p align="center">
+<span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Comprarisons</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/AI_Related_answerthepublic.png" alt="How users ask about Artificial Intelligence: Related">
+</p>
+<p align="center">
+<span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Related</code>, Image from</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
 </p>
 
 
