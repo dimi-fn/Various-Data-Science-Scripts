@@ -117,3 +117,5 @@
 [2] https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391
 
 [3] https://help.ubuntu.com/community/Beginners/BashScripting
+
+[4] https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo
