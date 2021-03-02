@@ -88,7 +88,9 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 * A large number of words appear <u>each</u> in a small number of documents (`low frequency words`)
 
-<br>Other main terminlogies, topics and sections around the above content are:
+-----
+
+<br>Other main terminlogies, topics, and sections around the above contents are:
 * term weighting (t<sub>w</sub>)
   * term frequency (t<sub>f</sub>), inverse document frequency (idf)
 * retrieval models
