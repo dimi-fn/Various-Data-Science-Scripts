@@ -195,9 +195,9 @@ Precision in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG" alt="Precision"/>
 </p>
 
-* It tells us how **useful** the results are (*effectiveness* of results).
-* A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
-* Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
+* It tells us how **useful** the results are (*effectiveness* in the terms of the given results).
+  * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
+  * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
 
 ### Recall
@@ -206,12 +206,11 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
 </p>
 
+* It tells us how **complete** the results are (*completeness* in the terms of the given results).
+  * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
+  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
-* It tells us how **complete** the results are (*completeness*).
-* A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
-* Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
-
-
+<br>Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity
 -----
 
 # Keywords
@@ -462,3 +461,5 @@ How search engines and consumers view webpages
 [7] http://infolab.stanford.edu/~backrub/google.html
 
 [8] https://www.researchgate.net/publication/227634540_RELEVANCE_A_Review_of_and_a_Framework_for_the_Thinking_on_the_Notion_in_Information_Science
+
+[9] https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
