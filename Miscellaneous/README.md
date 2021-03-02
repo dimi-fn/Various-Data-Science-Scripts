@@ -17,12 +17,13 @@
   * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
   * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
-  * [Keywords Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords-attributes)
+  * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
   * [Keywords Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords-research)
     * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
     * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
     * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
     * [Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science-vs-machine-learning-vs-ai)
+  * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
     
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
@@ -30,7 +31,7 @@
 
 ----
 
-## General & Metrics
+# General & Metrics
 
 A successful SEO campaign can be achieved by optimizing for both the `search engine` and the surfers/`consumers`.
 
@@ -46,7 +47,7 @@ It is determined by various factors such as:
 * reviews - sentiment
 
 
-### Pagerank
+## Pagerank
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/pagerank.PNG" alt="Pagerank"/>
@@ -61,7 +62,7 @@ navigating to another page of the browser (15%)
 * `L(pj)`: total number of links from page j
 
 
-### Precision
+## Precision
 Precision in the context of Information Retrieval:
 
 <p align="center">
@@ -73,7 +74,7 @@ Precision in the context of Information Retrieval:
 * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
 
-### Recall
+## Recall
 Recall in the context of Information Retrieval:
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
@@ -85,37 +86,30 @@ Recall in the context of Information Retrieval:
 * Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
 -----
 
-## Keywords
+# Keywords
 * Understanding the user's `intent` is important for constructing the right keywords. What the user would type to the search query box in order to find you?
 
-### Keywords Attributes
+## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**Relevance**: 
-
-Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
 
 <br>
 
-**Search volume**:
-
-The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 <br>
 
-**Competition / Difficulty**:
+**3) Competition / Difficulty**: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product. When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
 
-Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product.
+**SERP**(Search Engine Results Page) **Analysis** Report: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
 
-When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
+For example, if for a group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that. 
 
-**SERP**(Search Engine Results Page) **Analysis** here is the process of analyzing the top web pages that rank for a specific keyword or topic
+<br>
 
-<br>For example, if for a search term/group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that
-
-
-### Keywords Research
-1. **Brainstorming**: *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's)
+## Keywords Research
+**1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's)
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about)
 
@@ -123,13 +117,13 @@ When **difficulty** is **low** => competition low => the product that users are 
 
 <br>
 
-2. **Search Volume Metrics**: *What is the current state of **demand** for those keywords?* ==> Long tail keywords, descriptive keywords.
+**2) Search Volume Metrics**: *What is the current state of **demand** for those keywords?* ==> Long tail keywords, descriptive keywords.
 
 For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g. bmw black cars, sports fast cars, electric cars, cars for sale in germany, red ferrari in netherlands etc. Focusing on those *long tail keywords* might give you better probabilities of higher ranking than focusing on the very competitive query "car".
 
 <br>
 
-3. **Keyword Categorization**: *Clustering* of your keywords by categorizing them into topics/themes in order to group them.
+**3) Keyword Categorization**: *Clustering* of your keywords by categorizing them into topics/themes in order to group them.
 
 ----
 <br>The following twelve images (derived from https://answerthepublic.com/) depict three search queries examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
@@ -267,6 +261,9 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 <br>
 
+
+## Keyword Distribution
+
 ## Content Optimization
 How search engines and consumers view webpages
 
@@ -310,7 +307,9 @@ How search engines and consumers view webpages
 
 # Rules of thumb
 
-* If search volume is high and competition/difficulty is low ==> demand is high and supply is low ==> market opportunity
+* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through keywords research)
+
+* If search volume is high and competition/difficulty is low ==> large potential traffic at the lowest levels of competition ==> demand is high and supply is low ==> market opportunity
 
 
 
