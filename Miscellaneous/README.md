@@ -13,9 +13,9 @@
 **Contents**
 
 * [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#acronyms)
-* [SEO in the context of IR ############](???????????)
-  * [Information Behaviour & Indexing #######################](???????????)   
-  * [Zipfian Distribution - Stopwords - Stemming #######################](???????????)
+* [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#seo-in-the-context-of-ir)
+  * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#information-behaviour--indexing)   
+  * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#zipfian-distribution---stopwords---stemming)
 
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
   * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
@@ -74,9 +74,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 </p>
 
 
-
-
-Words exhibit a Zipfian distribution across documents. By that it is meant that:
+<br>Words exhibit a Zipfian distribution across documents. By that it is meant that:
 
 * A small number of words appear <u>each</u> in a lot of documents (high frequency words)
 
