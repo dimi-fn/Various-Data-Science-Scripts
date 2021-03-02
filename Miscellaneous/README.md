@@ -74,13 +74,17 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 </p>
 
 
-<br>Words exhibit a Zipfian distribution across documents. By that it is meant that:
+<br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that it is meant that:
 
-* A small number of words appear <u>each</u> in a lot of documents (high frequency words)
+* A small number of words appear <u>each</u> in a lot of documents (`high frequency words`)
+  * Here the **stopword** list of words belongs: stopwords are useless in finding an individual document ==> they offer little *semantic* content
+    * Stopwords removal achieves **discrimation**: procedure of words removal that are common to most of the docs (words like "and", "are", "do", "am", "but")
+    * While stopwords removal emphasizes on discrimination, stemming emphasizes on document's **description** ==> applying a common concept across words that can take different forms (e.g. information -> inform, political -> polit)
 
-* A medium number of words appear <u>each</u> in a medium number of documents (medium frequency words) 
+* A medium number of words appear <u>each</u> in a medium number of documents (`medium frequency words`) 
+  * They are the "**best**" words in the IR context ==> they represent some recognisable concept that doesn't seem to be meaningless
 
-* A large number of words appear <u>each</u> in a small number of documents (low frequency words)
+* A large number of words appear <u>each</u> in a small number of documents (`low frequency words`)
 
 
 
@@ -129,7 +133,7 @@ It is determined by various factors such as:
 * content and code implementation
 * thematic and semantic (metadata) connections between query and your website
 
-A tricky concept about relevance in IR is that `we want at the same time a document to have a good description regarding its content (description), but also to be discriminated from other documents (discrimination)`.
+A tricky concept about *relevance* in IR is that `we want our document to have a good description regarding its content (description), but at the same time we also want that document to be discriminated from other documents (discrimination)`. The problem here is that if we try to describe our document with 'common sense' (i.e. in the way everybody would describe it) then we probably don't achive good document descrimination because this is how everybody described a similar document as well!
 
 
 **Relevance Levels**:
@@ -426,10 +430,12 @@ How search engines and consumers view webpages
 
 [1] https://www.linkedin.com/learning/seo-foundations/
 
-[2] Various notes from the *CS976 Information Retrieval* class at Strathclyde University during the academic year 2019-2020: https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/#coursecontent
+[2] Dr Martin Halvey, 2019, *CS976 Information Retrieval*, lecture notes, University of Strathclyde, delivered at the 1st semester of the academic year 2019-2020, https://www.strath.ac.uk/courses/postgraduatetaught/informationmanagement/#coursecontent
 
 [3] https://answerthepublic.com/
 
 [4] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
 
 [5] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
+
+[6] https://www.ranks.nl/stopwords
