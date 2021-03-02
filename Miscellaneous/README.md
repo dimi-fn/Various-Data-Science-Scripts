@@ -4,7 +4,7 @@
 
 ## Contents
 
-* [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
+* [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo--information-retrieval-ir)
 
 ---
 
