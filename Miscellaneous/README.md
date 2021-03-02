@@ -18,7 +18,7 @@
   * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#zipfian-distribution---stopwords---stemming)
 
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
-  * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
+  * [Recommender Systems Evaluation Metrics #####################](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
     * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
@@ -91,9 +91,9 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 -----
 
 <br>Other main terminlogies, topics, and sections around the above contents are:
-* term weighting (t<sub>w</sub>)
+* Term Weighting (t<sub>w</sub>)
   * term frequency (t<sub>f</sub>), inverse document frequency (idf)
-* retrieval models
+* Retrieval Models
   * Boolean model
     * Best match retrieval
   * Vector space models
@@ -170,7 +170,7 @@ Some of the main relevance level categories comprised of the: System, Topical, a
 
 -----
 
-## Metrics
+## Recommender Systems Evaluation Metrics
 ### PageRank
 
 PageRank measures how likely a surfer is to visit a web page:
@@ -210,6 +210,8 @@ Recall in the context of Information Retrieval:
 * It tells us how **complete** the results are (*completeness*).
 * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
 * Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
+
+
 -----
 
 # Keywords
