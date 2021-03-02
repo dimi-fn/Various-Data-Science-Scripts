@@ -4,11 +4,11 @@
 
 ## Contents
 
-* [Search Engine Optimization (SEO)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
+* [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
 
 ---
 
-# Search Engine Optimization (SEO)
+# Search Engine Optimization (SEO) & Information Retrieval (IR)
 
 **Contents**
 
@@ -33,7 +33,7 @@
 
 # General & Metrics
 
-A successful SEO campaign can be achieved by optimizing for both the `search engine` and the surfers/`consumers`.
+A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/`consumers`.
 
 Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites give are relevant and authenticative.
 
