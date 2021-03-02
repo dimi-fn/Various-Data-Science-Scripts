@@ -102,44 +102,6 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
   * Language models
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Relevance & Authenticity
 Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticative.
 
@@ -210,14 +172,17 @@ Recall in the context of Information Retrieval:
   * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
   * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
-<br>
+<br><br>
 
 Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity
 
 -----
 
 # Keywords
-* Understanding the user's `intent` is important for constructing the right keywords. What the user would type to the search query box in order to find you?
+* Understanding user's `intent` is important for constructing the right keywords. 
+What keywords would the user have to type in order to find your specific web page?
+
+What the user would type to the search query box in order to find you?
 
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
