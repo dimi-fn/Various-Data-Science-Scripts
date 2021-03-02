@@ -89,23 +89,27 @@ Recall in the context of Information Retrieval:
 * Understanding the user's `intent` is important for constructing the right keywords. What the user would type to the search query box in order to find you?
 
 ### Keywords Attributes
-* Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
+Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
+**Relevance**: 
 
+Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
 
-**Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. 
+<br>
 
-Tool for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+**Search volume**:
 
+The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
+<br>
 
-**Competition** (*difficulty*): Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product.
+**Competition / Difficulty**:
 
-When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query and availability about the respective product/service that query is referring to.
+Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product.
+
+When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
 
 **SERP**(Search Engine Results Page) **Analysis** here is the process of analyzing the top web pages that rank for a specific keyword or topic
-
 
 <br>For example, if for a search term/group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that
 
@@ -117,11 +121,13 @@ When **difficulty** is **low** => competition low => the product that users are 
 
 * **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. How people are searching for products/services on the web and what keywords are they using for finding out a specifim item? In this way you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
 
+<br>
 
 2. **Search Volume Metrics**: *What is the current state of **demand** for those keywords?* ==> Long tail keywords, descriptive keywords.
 
 For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g. bmw black cars, sports fast cars, electric cars, cars for sale in germany, red ferrari in netherlands etc. Focusing on those *long tail keywords* might give you better probabilities of higher ranking than focusing on the very competitive query "car".
 
+<br>
 
 3. **Keyword Categorization**: *Clustering* of your keywords by categorizing them into topics/themes in order to group them.
 
@@ -132,10 +138,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 * `Comparisons`: what comparisons do users think of when they type their query
 * `Related`: Related queries to the main query's subject
 
-
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries above. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
-
-
 
 ### Data Science 
 <p align="center">
@@ -307,7 +310,7 @@ How search engines and consumers view webpages
 
 # Rules of thumb
 
-
+* If search volume is high and competition/difficulty is low ==> demand is high and supply is low ==> market opportunity
 
 
 
