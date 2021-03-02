@@ -12,10 +12,12 @@
 
 **Contents**
 
-* [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
+* [Acronyms #######][???]
+* [SEO in the context of IR ############](???????????)
+  * [Information Behaviour & Indexing #######################](???????????)   
+  * [Zipfian Distribution - Stopwords - Stemming #######################](???????????)
+
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
-    * [Relevance](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance)
-    * [Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#authenticity)
   * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
     * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
@@ -35,20 +37,75 @@
 
 ----
 
-# General & Metrics
+# Acronyms
 
-A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/.
+| SEO  | Search Engine Optimization |
+|------| -------------------------|
+| IR| Information Retrieval|
+| | |
+
+
+
+# SEO in the context of IR
+
+A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/`consumers`.
 
 * **search engine** ==> technical perspective ==> `Information Retrieval`
 
 * **consumers** ==> human perspective ==> `Information Seeking`
 
 
-**Information Seeking & Behaviour**:
+## Information Behaviour & Indexing
+### Information Seeking & Behaviour
 
 * How do people start a search?
 * How people seek information and how do they utilize it?
 * What makes people search differently?
+
+
+## Zipfian Distribution - Stopwords - Stemming
+
+Words exhibit a Zipfian distribution across documents
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -64,7 +121,10 @@ It is determined by various factors such as:
 
 A tricky concept about relevance in IR is that `we want at the same time a document to have a good description regarding its content (description), but also to be discriminated from other documents (discrimination)`.
 
-Some of the main `relevance levels` categories are: System, Topical, and Cognitive relevance levels:
+
+**Relevance Levels**:
+
+Some of the main relevance level categories comprised of the: System, Topical, and the Cognitive relevance level:
 
 * **System relevance level**: the relationship between query and document
 
