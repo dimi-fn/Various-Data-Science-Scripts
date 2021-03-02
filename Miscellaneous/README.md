@@ -19,7 +19,7 @@
 
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
   * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
-    * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
+    * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
@@ -82,7 +82,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
     * While stopwords removal emphasizes on discrimination, stemming emphasizes on document's **description** ==> applying a common concept across words that can take different forms (e.g. information -> inform, political -> polit)
 
 * A medium number of words appear <u>each</u> in a medium number of documents (`medium frequency words`) 
-  * They are the "**best**" words in the IR context ==> they represent some recognisable concept that doesn't seem to be meaningless
+  * These are the "**best**" words in the IR context ==> they represent some recognisable concept (satisfactory *description* level) that doesn't seem to be meaningless (satisfactory *discrimination* level)
 
 * A large number of words appear <u>each</u> in a small number of documents (`low frequency words`)
 
@@ -156,7 +156,9 @@ Some of the main relevance level categories comprised of the: System, Topical, a
 -----
 
 ## Metrics
-### Pagerank
+### PageRank
+
+PageRank measures how likely a surfer is to visit a web page:
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/pagerank.PNG" alt="Pagerank"/>
@@ -178,7 +180,7 @@ Precision in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG" alt="Precision"/>
 </p>
 
-* It tells us how **useful** the results are (*homogeneity* of results).
+* It tells us how **useful** the results are (*effectiveness* of results).
 * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
 * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
@@ -439,3 +441,5 @@ How search engines and consumers view webpages
 [5] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
 
 [6] https://www.ranks.nl/stopwords
+
+[7] http://infolab.stanford.edu/~backrub/google.html
