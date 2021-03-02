@@ -39,11 +39,11 @@
 
 # Acronyms
 
-| SEO  | Search Engine Optimization |
+| Acronym  | Description |
 |------| -------------------------|
 | IR| Information Retrieval|
-| | |
-
+|SEO |Search Engine Optimization |
+|SERP |Search Engine Resuts Page|
 
 
 # SEO in the context of IR
