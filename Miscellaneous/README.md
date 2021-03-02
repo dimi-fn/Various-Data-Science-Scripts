@@ -57,10 +57,12 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 ## Information Behaviour & Indexing
 ### Information Seeking & Behaviour
+<i><b>Information Behaviour</b></i> describes the ways through which people seek and utilize information. It is a broader term than that of <i><b>information seeking</b></i> because through Information Behaviour we want to give answers to questions such as:
 
 * How do people start a search?
 * How people seek information and how do they utilize it?
 * What makes people search differently?
+* What types of search engines require different solutions?
 
 
 ## Zipfian Distribution - Stopwords - Stemming
@@ -77,9 +79,9 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 <br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that it is meant that:
 
 * A small number of words appear <u>each</u> in a lot of documents (`high frequency words`)
-  * Here the **stopword** list of words belongs: stopwords are useless in finding an individual document ==> they offer little *semantic* content
+  * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
     * Stopwords removal achieves **discrimation**: procedure of words removal that are common to most of the docs (words like "and", "are", "do", "am", "but")
-    * While stopwords removal emphasizes on discrimination, stemming emphasizes on document's **description** ==> applying a common concept across words that can take different forms (e.g. information -> inform, political -> polit)
+    * While stopwords removal emphasizes on discrimination, stemming emphasizes on document's **description** ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
 
 * A medium number of words appear <u>each</u> in a medium number of documents (`medium frequency words`) 
   * These are the "**best**" words in the IR context ==> they represent some recognisable concept (satisfactory *description* level) that doesn't seem to be meaningless (satisfactory *discrimination* level)
@@ -138,7 +140,7 @@ A tricky concept about *relevance* in IR is that `we want our document to have a
 
 **Relevance Levels**:
 
-Some of the main relevance level categories comprised of the: System, Topical, and the Cognitive relevance level:
+Some of the main relevance level categories comprised of the: System, Topical, and the Cognitive relevance level (*Tefko Saracevic*):
 
 * **System relevance level**: the relationship between query and document
 
@@ -443,3 +445,5 @@ How search engines and consumers view webpages
 [6] https://www.ranks.nl/stopwords
 
 [7] http://infolab.stanford.edu/~backrub/google.html
+
+[8] https://www.researchgate.net/publication/227634540_RELEVANCE_A_Review_of_and_a_Framework_for_the_Thinking_on_the_Notion_in_Information_Science
