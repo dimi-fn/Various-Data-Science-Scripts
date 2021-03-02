@@ -18,7 +18,7 @@
   * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#zipfian-distribution---stopwords---stemming)
 
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
-  * [Recommender Systems Evaluation Metrics #####################](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
+  * [Recommender Systems Evaluation Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recommender-systems-evaluation-metrics)
     * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
@@ -210,7 +210,10 @@ Recall in the context of Information Retrieval:
   * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
   * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
-<br>Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity
+<br>
+
+Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity
+
 -----
 
 # Keywords
