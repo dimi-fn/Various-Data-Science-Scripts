@@ -62,13 +62,24 @@ It is determined by various factors such as:
 * content and code implementation
 * thematic and semantic (metadata) connections between query and your website
 
+A tricky concept about relevance in IR is that `we want at the same time a document to have a good description regarding its content (description), but also to be discriminated from other documents (discrimination)`.
+
+Some of the main `relevance levels` categories are: System, Topical, and Cognitive relevance levels:
+
+* **System relevance level**: the relationship between query and document
+
+* **Topical relevance levels**: the relationship between topic of query and topic of document (i.e. not just keyword matching)
+
+* **Cognitive relevance level**: the relationship between user's state of knowledge and texts (i.e. the ability to undestand the information given)
+
+
 ### Authenticity
 * links pointing to you from other websites
 * reviews - sentiment
 
 
 
-
+-----
 
 ## Metrics
 ### Pagerank
@@ -287,6 +298,8 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 
 ## Keyword Distribution
+
+----
 
 ## Content Optimization
 How search engines and consumers view webpages
