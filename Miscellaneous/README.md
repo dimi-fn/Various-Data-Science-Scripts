@@ -12,7 +12,7 @@
 
 **Contents**
 
-* [Acronyms][https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#acronyms]
+* [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#acronyms)
 * [SEO in the context of IR ############](???????????)
   * [Information Behaviour & Indexing #######################](???????????)   
   * [Zipfian Distribution - Stopwords - Stemming #######################](???????????)
@@ -65,12 +65,22 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 ## Zipfian Distribution - Stopwords - Stemming
 
-Words exhibit a Zipfian distribution across documents
+
+<p align="center">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/zipfian_distrib_law/zipf.PNG" alt="Zipfian Distribution of words">
+</p>
+<p align="center">
+<span><font size="-2"><i>Zipfian Distribution (Zipf's Law)</i> </font><a href="https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
+</p>
 
 
+Words exhibit a Zipfian distribution across documents. By that it is meant that:
 
+* A small number of words appear <u>each</u> in a lot of documents (high frequency words)
 
+* A medium number of words appear <u>each</u> in a medium number of documents (medium frequency words) 
 
+* A large number of words appear <u>each</u> in a small number of documents (low frequency words)
 
 
 
@@ -421,3 +431,5 @@ How search engines and consumers view webpages
 [3] https://answerthepublic.com/
 
 [4] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
+
+[5] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
