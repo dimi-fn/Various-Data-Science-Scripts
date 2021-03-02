@@ -63,7 +63,7 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
     * [Python vs. JavaScript](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr_Lang)
 
 * Miscellaneous
-    * [Search Engine Optimization (SEO)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
+    * [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
 
 
 * [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR_VR)
