@@ -12,7 +12,7 @@
 
 **Contents**
 
-* [Acronyms #######][???]
+* [Acronyms][https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#acronyms]
 * [SEO in the context of IR ############](???????????)
   * [Information Behaviour & Indexing #######################](???????????)   
   * [Zipfian Distribution - Stopwords - Stemming #######################](???????????)
