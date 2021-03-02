@@ -13,9 +13,13 @@
 **Contents**
 
 * [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
-  * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
-  * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
-  * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
+  * [Relevance & Authenticity############################](??????????)
+    * [Relevance](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance)
+    * [Authenticity](authenticity)
+  * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
+    * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
+    * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
+    * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
   * [Keywords Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords-research)
@@ -33,21 +37,41 @@
 
 # General & Metrics
 
-A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/`consumers`.
+A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/.
 
-Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites give are relevant and authenticative.
+* **search engine** ==> technical perspective ==> `Information Retrieval`
 
-**Relevance**: 
+* **consumers** ==> human perspective ==> `Information Seeking`
+
+
+**Information Seeking & Behaviour**:
+
+* How do people start a search?
+* How people seek information and how do they utilize it?
+* What makes people search differently?
+
+
+
+
+
+## Relevance & Authenticity
+Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticative.
+
+### Relevance
 It is determined by various factors such as:
 * content and code implementation
 * thematic and semantic (metadata) connections between query and your website
 
-**Authenticity**:
+### Authenticity
 * links pointing to you from other websites
 * reviews - sentiment
 
 
-## Pagerank
+
+
+
+## Metrics
+### Pagerank
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/pagerank.PNG" alt="Pagerank"/>
@@ -62,7 +86,7 @@ navigating to another page of the browser (15%)
 * `L(pj)`: total number of links from page j
 
 
-## Precision
+### Precision
 Precision in the context of Information Retrieval:
 
 <p align="center">
@@ -74,7 +98,7 @@ Precision in the context of Information Retrieval:
 * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
 
-## Recall
+### Recall
 Recall in the context of Information Retrieval:
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
