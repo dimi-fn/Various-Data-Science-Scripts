@@ -85,91 +85,29 @@ Recall in the context of Information Retrieval:
 * Preference for higher recall than precision: e.g. youtube recommendations, online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some point.
 -----
 
-
-
-
-
-
 ## Keywords
 * Understanding the user's `intent` is important for constructing the right keywords. What the user would type to the search query box in order to find you?
 
 ### Keywords Attributes
-* Keywords **research plan** regarding: **search volume**, **relevance**, **competition**
+* Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-`Relevance`: Relevant Keywords: Put yourself in the customer's shoes to discover their intent ==> in this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes.
+**Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
 
 
-`Search volume`: The number of searches of a particular keyword per month. The tricky fact here is that on the one hand some keywords might theoritically lead to your website targetfully and successfully, however they might not be popular queries. 
+**Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. 
 
 Tool for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 
 
-`Competition`: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around keywords that describe your product.
+**Competition** (*difficulty*): Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product.
 
-When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many website (i.e. not so many sellers). The ooposite happens for when the difficalty is **high**.
+When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query and availability about the respective product/service that query is referring to.
 
 **SERP**(Search Engine Results Page) **Analysis** here is the process of analyzing the top web pages that rank for a specific keyword or topic
 
 
 <br>For example, if for a search term/group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ### Keywords Research
