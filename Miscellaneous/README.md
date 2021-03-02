@@ -13,9 +13,9 @@
 **Contents**
 
 * [General & Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#general--metrics)
-  * [Relevance & Authenticity############################](??????????)
+  * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
     * [Relevance](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance)
-    * [Authenticity](authenticity)
+    * [Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#authenticity)
   * [Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#metrics)
     * [Pagerank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
