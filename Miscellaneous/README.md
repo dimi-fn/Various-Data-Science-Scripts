@@ -36,7 +36,7 @@
 
 
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
-  * [Optimizing Textual Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-textual-elements)
+  * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-textual-elements)
 
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
@@ -413,7 +413,7 @@ There is a need for:
 
 * Good website **structure** and layout: categorize and clarify your content in and across your web pages clearly both from business's and customer's perspective
 
-## Optimizing Textual Elements
+## Optimizing Text & Non-Text Elements
 
 Focus on URL, title, description, headers, body text, and images:
 
@@ -430,10 +430,12 @@ Focus on URL, title, description, headers, body text, and images:
 
 * make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
+  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhane ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 
 
 
+<br>
 
 **Tools**: https://moz.com/learn/seo/title-tag
 
@@ -562,3 +564,7 @@ Focus on URL, title, description, headers, body text, and images:
 [12] https://econsultancy.com/what-paid-search-ppc/
 
 [13] https://www.wordstream.com/organic-search
+
+[14] https://developers.google.com/search/docs/guides/intro-structured-data
+
+[15] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
