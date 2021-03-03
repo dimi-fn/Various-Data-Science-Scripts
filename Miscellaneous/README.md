@@ -21,8 +21,6 @@
     * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
-
-    
 * [Organic Search vs. PPC](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#organic-search-vs-ppc)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
@@ -31,12 +29,10 @@
     * [Query: Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-machine-learning)
     * [Query: Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-artificial-intelligence)
     * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-data-science-vs-machine-learning-vs-ai)
-
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
 
-
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
-  * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-textual-elements)
+  * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-text--non-text-elements)
 
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
@@ -425,15 +421,14 @@ Focus on URL, title, description, headers, body text, and images:
   * *meta* <i>**title**</i> *tag* optimization
     * make sure your <title_description> tag is successful (*"title" tag in html"*), and that it contains (some of) your target keywords for the best SEO results
   * <i>**headers**</i>: html `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
+      * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing.
 
 * optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
 
 * make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
-  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhane ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
-
-
-
+  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases.  
+    * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhane ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 <br>
 
@@ -444,64 +439,75 @@ Focus on URL, title, description, headers, body text, and images:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Technical Content Optimization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Content Planning
 
