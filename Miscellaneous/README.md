@@ -21,6 +21,9 @@
     * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
+
+    
+* [Organic Search vs. PPC ###################################](??)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
   * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-research)
@@ -42,10 +45,11 @@
 
 | Acronym  | Description |
 |------| -------------------------|
+| CPC| Cost-Per-Click|
 | IR| Information Retrieval|
+|PPC |Pay-Per-Clicking|
 |SEO |Search Engine Optimization |
 |SERP |Search Engine Resuts Page|
-
 
 # SEO in the context of IR
 
@@ -104,7 +108,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 
 ## Relevance & Authenticity
-Two important topics that determine *Search Engine Resuts Pages* (`SERPs`) and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticative.
+Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticative.
 
 ### Relevance
 It is determined by various factors such as:
@@ -126,7 +130,10 @@ Some of the main relevance level categories comprised of the: System, Topical, a
 
 
 ### Authenticity
-* links pointing to you from other websites
+Authenticity in the context of SEO is know as <i>**Domain Authority**</i>. Essentially, it is a measure of how authoritative your domain is. 
+
+Contributing factors include:
+* the quantity and quality of links (hyperlinks) pointing to you from other websites (third-party domains), known as **inbound links**
 * reviews - sentiment
 
 
@@ -179,6 +186,13 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 -----
 
+# Organic Search vs. PPC
+
+* Organic search (*natural search*) refers to unpaid search results which are generated based on: inbound links targeting your website, your domain authority, the relevance to user's search query, and other organic ranking factors
+
+* Pay-per-click advertising (PPC) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
+
+
 # Keywords
 * Understanding user's `intent` is important for constructing the right keywords. 
 What keywords would the user have to type in order to find your specific web page?
@@ -192,7 +206,7 @@ Keywords *research plan* regarding: `search volume`, `relevance`, and `competiti
 
 <br>
 
-**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody really would type it to find your product.
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
 Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 <br>
@@ -206,7 +220,10 @@ For example, if for a group of keywords at moz.com the search volume is high but
 <br>
 
 ## Keyword Research
-**1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's)
+
+Keyword research has to be conducted iteratively through the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords
+
+**1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about)
 
@@ -223,6 +240,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 **3) Keyword Categorization**: *Clustering* of your keywords by categorizing them into topics/themes in order to group them.
 
 ----
+
 <br>The following twelve images (derived from https://answerthepublic.com/) depict three search queries examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for aksing that query
@@ -358,11 +376,8 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 <br>
 
-
 ## Keyword Distribution
-
 It is the procedure of how you will asign and distribute your specific keywords across your website's pages.
-
 
 In this way:
 * you can <i>**map**</i> keywords to pages: you can enhance your targeted keywords by figuring out which keywords you should asign to which pages
@@ -373,7 +388,6 @@ In this way:
 what keyword you are targeting on, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful.
 * you can <i>**adapt**</i> quickly: you can come back to this speadsheet and add or redefine your keywords, as well as review the other metadata.
 
-
 ## Keyword Distribution Diagram
 
 | Structure  | Keywords | URL (of specific page)| The title tag| Meta-description| the h1 header title|
@@ -383,6 +397,7 @@ what keyword you are targeting on, and then you would write the relevant content
 | Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz in Germany|
 | BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
 | AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
+
 
 
 
@@ -469,6 +484,7 @@ How search engines and consumers view webpages
 
 * If search volume is high and competition/difficulty is low ==> large potential traffic at the lowest levels of competition ==> demand is high and supply is low ==> market opportunity
 
+* Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
 
 
 -----
@@ -492,3 +508,11 @@ How search engines and consumers view webpages
 [8] https://www.researchgate.net/publication/227634540_RELEVANCE_A_Review_of_and_a_Framework_for_the_Thinking_on_the_Notion_in_Information_Science
 
 [9] https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
+
+[10] https://www.wordstream.com/domain-authority
+
+[11] https://www.wordstream.com/inbound-links
+
+[12] https://econsultancy.com/what-paid-search-ppc/
+
+[13] https://www.wordstream.com/organic-search
