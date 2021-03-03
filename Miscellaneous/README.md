@@ -1,4 +1,4 @@
-**(Under construction*)**
+**Work on progress*
 
 # Miscellaneous
 
@@ -16,7 +16,6 @@
 * [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#seo-in-the-context-of-ir)
   * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#information-behaviour--indexing)   
   * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#zipfian-distribution---stopwords---stemming)
-
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
   * [Recommender Systems Evaluation Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recommender-systems-evaluation-metrics)
     * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
@@ -24,13 +23,12 @@
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
-  * [Keywords Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords-research)
+  * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-research)
     * [Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science)
     * [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#machine-learning)
     * [Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#artificial-intelligence)
     * [Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#data-science-vs-machine-learning-vs-ai)
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
-    
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#rules-of-thumb)
@@ -203,7 +201,7 @@ For example, if for a group of keywords at moz.com the search volume is high but
 
 <br>
 
-## Keywords Research
+## Keyword Research
 **1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's)
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about)
