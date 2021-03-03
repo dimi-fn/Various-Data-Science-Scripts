@@ -31,7 +31,7 @@
 
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
 
-  
+
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#rules-of-thumb)
@@ -360,6 +360,88 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 
 ## Keyword Distribution
+
+It is the procedure of how you will asign and distribute your specific keywords across your website's pages.
+
+
+In this way:
+* you can <i>**map**</i> keywords to pages: you can enhance your targeted keywords by figuring out which keywords you should asign to which pages
+* remember to have one keyword per page
+* you can <i>**keep track**</i> of keywords that need pages (or pages that need keyword if there was no keyword asignment)
+* you can detect and avoid keyword <i>**duplicates**</i> (search engine algorithms "prefer" unique and relevant information across your pages)
+* you can reverse engineer the <i>**creation of the content**</i> of a new page to your website by first filling out the keyword distribution file. In this way, you would first decide on 
+what keyword you are targeting on, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful.
+* you can <i>**adapt**</i> quickly: you can come back to this speadsheet and add or redefine your keywords, as well as review the other metadata.
+
+
+
+
+
+
+
+
+
+
+
+## Keyword Distribution diagram
+
+
+
+| your url  | keywords | URL of specifi page| <title>| <meta-description>|
+|---------| -------------------------|----------|--------|-----------------|
+| your url  | keywords | URL of specifi page| <title>| <meta-description>|
+| your url  | keywords | URL of specifi page| <title>| <meta-description>|
+| your url  | keywords | URL of specifi page| <title>| <meta-description>|
+
+
+
+| Acronym  | Description |
+|------| -------------------------|
+| IR| Information Retrieval|
+|SEO |Search Engine Optimization |
+|SERP |Search Engine Resuts Page|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----
 
