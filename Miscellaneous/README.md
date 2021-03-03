@@ -406,7 +406,7 @@ what keyword you are targeting on, and then you would write the relevant content
 
 # Content Optimization
 
-It all about how search engines and consumers view webpages, including yours
+It is all about how search engines and consumers view webpages, including yours.
 
 There is a need for:
 * Clarity and quality: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
@@ -415,7 +415,27 @@ There is a need for:
 
 ## Optimizing Textual Elements
 
+Focus on URL, title, description, headers, body text, and images
 
+
+* <i>**URL**</i>: the keyword phrase that you are targeting should be included in URL if that is possible 
+  * construction of a *good URL*: descriptive but short, and concise as possible
+
+* metadata
+  * *meta* <i>**title**</i> *tag* optimization
+    * make sure your <title_description> tag is successful (*"title" tag in html"*), and that it contains (some of) your target keywords for the best SEO results
+  * <i>**headers**</i>: html `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
+
+* optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
+
+* make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding photos, unless specified:   
+  * improve your `"src"` and `alt` html variable with reference to your *images*
+
+
+
+
+
+**Tools**: https://moz.com/learn/seo/title-tag
 
 
 
