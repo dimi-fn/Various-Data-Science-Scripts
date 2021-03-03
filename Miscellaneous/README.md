@@ -1,14 +1,8 @@
 **Work on progress*
 
-# Miscellaneous
+# SEO
 
-## Contents
-
-* [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo--information-retrieval-ir)
-
----
-
-# Search Engine Optimization (SEO) & Information Retrieval (IR)
+Search Engine Optimization (SEO) & Information Retrieval (IR)
 
 **Contents**
 
