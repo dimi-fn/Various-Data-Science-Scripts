@@ -29,6 +29,10 @@
 
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
+  * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
+
+
+  
 
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
@@ -430,72 +434,14 @@ Focus on URL, title, description, headers, body text, and images:
 
 **Tools**: https://moz.com/learn/seo/title-tag
 
-
-
-
-
-
 ## Technical Content Optimization
 
 
+* Construct HTML and XML sitemap: https://www.sitemaps.org/index.html
+  * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page
+  * however if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
 
 
@@ -570,3 +516,5 @@ Focus on URL, title, description, headers, body text, and images:
 [14] https://developers.google.com/search/docs/guides/intro-structured-data
 
 [15] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
+
+[16] https://developers.google.com/search/docs/advanced/sitemaps/overview
