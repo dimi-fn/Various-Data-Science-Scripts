@@ -415,7 +415,7 @@ There is a need for:
 
 ## Optimizing Textual Elements
 
-Focus on URL, title, description, headers, body text, and images
+Focus on URL, title, description, headers, body text, and images:
 
 
 * <i>**URL**</i>: the keyword phrase that you are targeting should be included in URL if that is possible 
@@ -428,8 +428,8 @@ Focus on URL, title, description, headers, body text, and images
 
 * optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
 
-* make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding photos, unless specified:   
-  * improve your `"src"` and `alt` html variable with reference to your *images*
+* make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
+  * improve your `"src"` and `"alt"` html attributes with reference to your *images*
 
 
 
