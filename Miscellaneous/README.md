@@ -36,6 +36,9 @@
 
 
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
+  * [Optimizing Textual Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-textual-elements)
+
+
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#rules-of-thumb)
 
@@ -381,7 +384,6 @@ It is the procedure of how you will asign and distribute your specific keywords 
 
 In this way:
 * you can <i>**map**</i> keywords to pages: you can enhance your targeted keywords by figuring out which keywords you should asign to which pages
-* remember to have one keyword per page
 * you can <i>**keep track**</i> of keywords that need pages (or pages that need keyword if there was no keyword asignment)
 * you can detect and avoid keyword <i>**duplicates**</i> (search engine algorithms "prefer" unique and relevant information across your pages)
 * you can reverse engineer the <i>**creation of the content**</i> of a new page to your website by first filling out the keyword distribution file. In this way, you would first decide on 
@@ -402,13 +404,18 @@ what keyword you are targeting on, and then you would write the relevant content
 
 
 
-## Content Optimization
+# Content Optimization
 
-* How search engines and consumers view webpages
+It all about how search engines and consumers view webpages, including yours
 
+There is a need for:
 * Clarity and quality: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
 
-* Good website **structure**: categorize and clarify your content in and across your web pages
+* Good website **structure** and layout: categorize and clarify your content in and across your web pages clearly both from business's and customer's perspective
+
+## Optimizing Textual Elements
+
+
 
 
 
