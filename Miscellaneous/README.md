@@ -23,7 +23,7 @@
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
 
     
-* [Organic Search vs. PPC ###################################](??)
+* [Organic Search vs. PPC](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#organic-search-vs-ppc)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
   * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-research)
@@ -188,9 +188,9 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 # Organic Search vs. PPC
 
-* Organic search (*natural search*) refers to unpaid search results which are generated based on: inbound links targeting your website, your domain authority, the relevance to user's search query, and other organic ranking factors
+* **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links targeting your website, your domain authority, the relevance to user's search query, and other organic ranking factors
 
-* Pay-per-click advertising (PPC) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
+* **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
 
 
 # Keywords
@@ -221,7 +221,7 @@ For example, if for a group of keywords at moz.com the search volume is high but
 
 ## Keyword Research
 
-Keyword research has to be conducted iteratively through the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords
+Keyword research has to be conducted iteratively through the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords.
 
 **1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
 
@@ -398,47 +398,64 @@ what keyword you are targeting on, and then you would write the relevant content
 | BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
 | AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----
 
+
+
 ## Content Optimization
-How search engines and consumers view webpages
+
+* How search engines and consumers view webpages
+
+* Clarity and quality: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
+
+* Good website **structure**: categorize and clarify your content in and across your web pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -485,6 +502,8 @@ How search engines and consumers view webpages
 * If search volume is high and competition/difficulty is low ==> large potential traffic at the lowest levels of competition ==> demand is high and supply is low ==> market opportunity
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
+
+* If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
 
 -----
