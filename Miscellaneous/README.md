@@ -28,7 +28,10 @@
     * [Query: Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-machine-learning)
     * [Query: Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-artificial-intelligence)
     * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-data-science-vs-machine-learning-vs-ai)
+
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
+
+  
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#rules-of-thumb)
@@ -74,17 +77,17 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 </p>
 
 
-<br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that it is meant that:
+<br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that, it is meant that:
 
-* A small number of words appear <u>each</u> in a lot of documents (`high frequency words`)
+* A small number of words appear <u>each</u> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
     * **Stopwords** removal achieves <i><b>discrimation</b></i>: procedure of words removal that are common to most of the docs (words like "and", "are", "do", "am", "but")
     * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
 
-* A medium number of words appear <u>each</u> in a medium number of documents (`medium frequency words`) 
+* A medium number of words appear <u>each</u> in a medium number of documents (`medium-frequency words`) 
   * These are the "**best**" words in the IR context ==> they represent some recognisable concept (satisfactory *description* level) that doesn't seem to be meaningless (satisfactory *discrimination* level)
 
-* A large number of words appear <u>each</u> in a small number of documents (`low frequency words`)
+* A large number of words appear <u>each</u> in a small number of documents (`low-frequency words`)
 
 -----
 
@@ -108,7 +111,7 @@ It is determined by various factors such as:
 * content and code implementation
 * thematic and semantic (metadata) connections between query and your website
 
-A tricky concept about *relevance* in IR is that `we want our document to have a good description regarding its content (description), but at the same time we also want that document to be discriminated from other documents (discrimination)`. The problem here is that if we try to describe our document with 'common sense' (i.e. in the way everybody would describe it) then we probably would not achive satisfactory document descrimination because this is how everybody described a similar document as well!
+A tricky concept about *relevance* in IR is that `we want our document to have a good description regarding its content (description), but at the same time we also want that document to be discriminated from other documents (discrimination)`. The problem here is that if we tried to describe our document with 'common sense' (i.e. in the way everybody would describe it) then we would probably not achive a satisfactory document descrimination because this is how everybody described similar documents as well!
 
 
 **Relevance Levels**:
@@ -155,7 +158,7 @@ Precision in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG" alt="Precision"/>
 </p>
 
-* It tells us how **useful** the results are (*effectiveness* in the terms of the given results).
+* It tells us how **useful** the results are (*effectiveness* in terms of the given results).
   * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
   * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
@@ -166,13 +169,13 @@ Recall in the context of Information Retrieval:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
 </p>
 
-* It tells us how **complete** the results are (*completeness* in the terms of the given results).
+* It tells us how **complete** the results are (*completeness* in terms of the given results).
   * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
   * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
 <br><br>
 
-Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity
+Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity.
 
 -----
 
@@ -185,15 +188,16 @@ What the user would type to the search query box in order to find you?
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevante to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
 
 <br>
 
-**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody really would type it to find your product.
+Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 <br>
 
-**3) Competition / Difficulty**: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product. When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am typing it but I'm not finding it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
+**3) Competition / Difficulty**: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product. When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am googling it but I can't find it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
 
 **SERP**(Search Engine Results Page) **Analysis** Report: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
 
