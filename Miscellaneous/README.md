@@ -374,24 +374,15 @@ what keyword you are targeting on, and then you would write the relevant content
 * you can <i>**adapt**</i> quickly: you can come back to this speadsheet and add or redefine your keywords, as well as review the other metadata.
 
 
-
-
-
-
-
-
-
-
-
 ## Keyword Distribution Diagram
 
 | Structure  | Keywords | URL (of specific page)| The title tag| Meta-description| the h1 header title|
 |---------| -------------------------|----------|--------|-----------------|-------------------------|
 | **home**  |  || ||  |
 | *Cars*  |  || ||  |
-| Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz|
-| BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Best BMW |
-| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi  |
+| Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz in Germany|
+| BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
+| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
 
 
 
