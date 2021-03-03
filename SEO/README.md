@@ -1,10 +1,6 @@
 **Work on progress*
 
-# Miscellaneous
-
-## Contents
-
-* [Search Engine Optimization (SEO) & Information Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo--information-retrieval-ir)
+# SEO
 
 ---
 
@@ -12,31 +8,31 @@
 
 **Contents**
 
-* [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#acronyms)
-* [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#seo-in-the-context-of-ir)
-  * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#information-behaviour--indexing)   
-  * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#zipfian-distribution---stopwords---stemming)
-  * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#relevance--authenticity)
-  * [Recommender Systems Evaluation Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recommender-systems-evaluation-metrics)
-    * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#pagerank)
-    * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#precision)
-    * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#recall)
-* [Organic Search vs. PPC](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#organic-search-vs-ppc)
-* [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keywords)
-  * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-attributes)
-  * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-research)
-    * [Query: Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-data-science)
-    * [Query: Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-machine-learning)
-    * [Query: Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-artificial-intelligence)
-    * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#query-data-science-vs-machine-learning-vs-ai)
-  * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#keyword-distribution)
+* [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#acronyms)
+* [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-ir)
+  * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#information-behaviour--indexing)   
+  * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#zipfian-distribution---stopwords---stemming)
+  * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity)
+  * [Recommender Systems Evaluation Metrics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#recommender-systems-evaluation-metrics)
+    * [PageRank](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#pagerank)
+    * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#precision)
+    * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#recall)
+* [Organic Search vs. PPC](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#organic-search-vs-ppc)
+* [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keywords)
+  * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes)
+  * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research)
+    * [Query: Data Science](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-data-science)
+    * [Query: Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-machine-learning)
+    * [Query: Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-artificial-intelligence)
+    * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-data-science-vs-machine-learning-vs-ai)
+  * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution)
 
-* [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#content-optimization)
-  * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#optimizing-text--non-text-elements)
+* [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
+  * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
 
 
-* [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#terminologies)
-* [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#rules-of-thumb)
+* [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
+* [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 
 ----
 
@@ -145,7 +141,7 @@ Contributing factors include:
 PageRank measures how likely a surfer is to visit a web page:
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/pagerank.PNG" alt="Pagerank"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/pagerank.PNG" alt="Pagerank"/>
 </p>
 
 * `PR(p)`: pagerank score of page p
@@ -161,7 +157,7 @@ navigating to another page of the browser (15%)
 Precision in the context of Information Retrieval:
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/precision_IR.PNG" alt="Precision"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/precision_IR.PNG" alt="Precision"/>
 </p>
 
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
@@ -172,7 +168,7 @@ Precision in the context of Information Retrieval:
 ### Recall
 Recall in the context of Information Retrieval:
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/recall_IR.PNG" alt="Recall in Information Retrieval"/>
 </p>
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
@@ -250,7 +246,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 
 ### Query: Data Science 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Questions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -259,7 +255,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ---
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/Data_Science_Prepositions__answer_the_public.PNG" alt="How users ask about Data Science: Prepositions"/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Prepositions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -268,7 +264,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ---
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/Data_Science_Comparisons__answer_the_public.PNG" alt="How users ask about Data Science: comparisons "/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Comparisons</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -277,7 +273,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ---
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/Data_Science_Related__answer_the_public.PNG" alt="How users ask about Data Science: related "/>
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Data Science</b>" Search Queries: <code>Related</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -288,7 +284,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ### Query: Machine Learning
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Questions_answer_the_public.png" alt="How users ask about Machine Learning: Questions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/ML_Questions_answer_the_public.png" alt="How users ask about Machine Learning: Questions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Questions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -297,7 +293,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Prepositions_answer_the_public.png" alt="How users ask about Machine Learning: Prepositions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/ML_Prepositions_answer_the_public.png" alt="How users ask about Machine Learning: Prepositions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Prepositions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -306,7 +302,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Comparisons_answer_the_public.png" alt="How users ask about Machine Learning: Comparisons">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/ML_Comparisons_answer_the_public.png" alt="How users ask about Machine Learning: Comparisons">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Comprarisons</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -315,7 +311,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ----
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/ML_Related_answer_the_public.png" alt="How users ask about Machine Learning: Related">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/ML_Related_answer_the_public.png" alt="How users ask about Machine Learning: Related">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Related</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -326,7 +322,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ### Query: Artificial Intelligence
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Questions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Questions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/AI_Questions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Questions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Questions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -335,7 +331,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/AI_Prepositions_answerthepublic.png" alt="How users ask about Artificial Intelligence: Prepositions">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Prepositions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -344,7 +340,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 -----
 
 <br><p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/AI_Comparisons_answerthepublic.png" alt="How users ask about Artificial Intelligence: Comparisons">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Comprarisons</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -353,7 +349,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 -----
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/answerthepublic/AI_Related_answerthepublic.png" alt="How users ask about Artificial Intelligence: Related">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/AI_Related_answerthepublic.png" alt="How users ask about Artificial Intelligence: Related">
 </p>
 <p align="center">
 <span><font size="-2"><i>"<b>Artificial Intelligence</b>" Search Queries: <code>Related</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
@@ -365,7 +361,7 @@ The last graph (derived from [Google Trends](https://trends.google.com/trends/?g
 ### Query: Data Science vs Machine Learning vs AI
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Miscellaneous/img/google_trends/google_trends.PNG" alt="Search Interest Rate among Data Science, Machine Learning, and Artificiall Intelligence, Google Trends">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/google_trends/google_trends.PNG" alt="Search Interest Rate among Data Science, Machine Learning, and Artificiall Intelligence, Google Trends">
 </p>
 <p align="center">
 <span><font size="-2"><i>Search Interest Rate: Data Science (blue) vs Machine Learning (red) vs AI (yellow), Worldwide, Jan 2004 - Feb 2021, Credits:</i> </font><a href="https://trends.google.com/trends/?geo=US" target="_blank"><font size="1.8">Google Trends</font></a></span>
