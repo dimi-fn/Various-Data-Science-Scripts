@@ -385,7 +385,7 @@ what keyword you are targeting on, and then you would write the relevant content
 
 ## Keyword Distribution diagram
 
-| structure  | keywords | URL (of specific page)| <title>: the title tag| meta-description| h1|
+| Structure  | Keywords | URL (of specific page)| <title>: the title tag| <meta-description>: the description| <h1>: the header title|
 |---------| -------------------------|----------|--------|-----------------|-------------------------|
 | **home**  |  || ||  |
 | *Cars*  |  || ||  |
