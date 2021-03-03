@@ -385,27 +385,13 @@ what keyword you are targeting on, and then you would write the relevant content
 
 ## Keyword Distribution diagram
 
-
-
-| your url  | keywords | URL of specifi page| <title>| <meta-description>|
-|---------| -------------------------|----------|--------|-----------------|
-| your url  | keywords | URL of specifi page| <title>| <meta-description>|
-| your url  | keywords | URL of specifi page| <title>| <meta-description>|
-| your url  | keywords | URL of specifi page| <title>| <meta-description>|
-
-
-
-| Acronym  | Description |
-|------| -------------------------|
-| IR| Information Retrieval|
-|SEO |Search Engine Optimization |
-|SERP |Search Engine Resuts Page|
-
-
-
-
-
-
+| structure  | keywords | URL (of specific page)| <title>: the title tag| <meta-description>| <h1>|
+|---------| -------------------------|----------|--------|-----------------|-------------------------|
+| **home**  |  || ||  |
+| *Cars*  |  || ||  |
+| Mercedes  | mercedes-benz |/home/mercedes.html| The best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world (..)|  Best Mercedes-Benz|
+| BMW | bmw car |/home/bmw.html| The best bwm cars in the world| Here is why you will find the best BMW cars in the world (..) | Best BMW |
+| AUDI | audi car |/home/audi.html|  The best audi cars in the world| Here is why you will find the audi BMW cars in the world (..)| Best Audi  |
 
 
 
