@@ -62,7 +62,7 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 * Programming Languages
     * [Python vs. JavaScript](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr_Lang)
 
-* [SEO](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Miscellaneous#search-engine-optimization-seo)
+* [SEO](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
 
 Search Engine Optimization (SEO) & Information Retrieval (IR)
 
