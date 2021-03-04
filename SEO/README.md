@@ -437,11 +437,37 @@ Focus on URL, title, description, headers, body text, and images:
 ## Technical Content Optimization
 
 
-* Construct HTML and XML sitemap: https://www.sitemaps.org/index.html
+* Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them
 
 * Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page
-  * however if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
+  * however, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
+
+* although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <u>you do not want different url adresses to provide the same content</u> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same
+  * use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links
+    * another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+
+* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <u>temporary</u> or <u>permanent</u>, and you should use `redirect rules` after moving content across your web page:
+  * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
+  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one
+
+  * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
