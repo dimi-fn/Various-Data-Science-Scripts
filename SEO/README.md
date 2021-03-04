@@ -30,9 +30,9 @@
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
   * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
-    * [Content & Links ########################](??????????????????????)
-    * [Server-side ######################](??????????????????????)
-
+    * [Content & Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)
+    * [Server-side](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#server-side)
+    * [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console)
 
 
   
@@ -232,7 +232,7 @@ Keyword research has to be conducted iteratively through the year, and *keyword 
 
 **1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
 
-* Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about)
+* Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about) (former Google Webmaster Tools)
 
 * **Keyword expansion tools**: The can give potentially useful keywords regarding a topic. E.g. How people are searching for products/services on the web and what keywords are they using for finding out a specifim item? In this way you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
 
@@ -482,6 +482,37 @@ Serving up your website's pages fast and reliably => *quality experience*
 * `Cashing`: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the servel will "remember" the content for a period of time at a future and subsequent load request)
 
 * Server <i>**reliability**</i>: prefer `HTTPs` and not the HTTP protocol, not only because it is safer but also because it can boost your ranking compared to using http ([http deprecation](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure))
+
+### Google Search Console
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
