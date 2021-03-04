@@ -436,6 +436,7 @@ Focus on URL, title, description, headers, body text, and images:
 
 ## Technical Content Optimization
 
+Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them
@@ -451,7 +452,24 @@ Focus on URL, title, description, headers, body text, and images:
   * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
   * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one
 
-  * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
+* When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
+
+* <i>**Microformats**</i> and <i>**Microdata**</i>: Semantic attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax that can be used in order to help search engines identify specific content and characteristic attributes of that content across your webpages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
