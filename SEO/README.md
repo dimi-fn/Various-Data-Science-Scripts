@@ -30,6 +30,9 @@
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
   * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
+    * [Content & Links ########################](??????????????????????)
+    * [Server-side ######################](??????????????????????)
+
 
 
   
@@ -44,11 +47,16 @@
 
 | Acronym  | Description |
 |------| -------------------------|
+| CDN| Content Delivery Network|
 | CPC| Cost-Per-Click|
 | IR| Information Retrieval|
+|JSON-LD |JavaScript Object Notation for Linked Data|
 |PPC |Pay-Per-Clicking|
+|RDFa|Resource Description Framework in Attributes|
 |SEO |Search Engine Optimization |
 |SERP |Search Engine Resuts Page|
+
+ 
 
 # SEO in the context of IR
 
@@ -427,7 +435,7 @@ Focus on URL, title, description, headers, body text, and images:
 
 * make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
-  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases.  
+  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases.  
     * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhane ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 <br>
@@ -436,26 +444,44 @@ Focus on URL, title, description, headers, body text, and images:
 
 ## Technical Content Optimization
 
+### Content & Links
+
 Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html
-  * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them
+  * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
 
-* Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page
-  * however, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
+* Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
+  * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
-* although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <u>you do not want different url adresses to provide the same content</u> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same
-  * use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links
-    * another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+* Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <u>you do not want different url adresses to provide the same content</u> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
+  * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links
+    * Another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <u>temporary</u> or <u>permanent</u>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
-  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one
+  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one.
 
-* When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
+* When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
 
-* <i>**Microformats**</i> and <i>**Microdata**</i>: Semantic attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax that can be used in order to help search engines identify specific content and characteristic attributes of that content across your webpages
+* <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
+  * **Microformatting**:
+    * `JSON-LD` (JavaScript Object Notation for Linked Data)
+    * `Embedded or inline Microdata`
+    * `RDFa` (Resource Description Framework in Attributes)
 
+### Server-side   
+Serving up your website's pages fast and reliably => *quality experience*
+
+* <i>**Visibility**</i> of your website: physical `location` of the web server that hosts your website ==> loading time for visitors that are far away from that location
+  * you want to geographically locate your web server to a place that would be relatively near to the majority of your clients
+    * if your clients are spead all-over the world relatively equally: use a web host that can distribute requests for your website pages globally
+      * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users.
+
+
+* `Cashing`: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the servel will "remember" the content for a period of time at a future and subsequent load request)
+
+* Server <i>**reliability**</i>: prefer `HTTPs` and not the HTTP protocol, not only because it is safer but also because it can boost your ranking compared to using http ([http deprecation](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure))
 
 
 
@@ -562,3 +588,7 @@ Ways to leverage SEO from a technical perspective:
 [15] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
 
 [16] https://developers.google.com/search/docs/advanced/sitemaps/overview
+
+[17] https://schema.org/docs/gs.html
+
+[18] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
