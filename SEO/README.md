@@ -48,6 +48,7 @@
 | Acronym  | Description |
 |------| -------------------------|
 | CDN| Content Delivery Network|
+| CTR|Clickthrough rate |
 | CPC| Cost-Per-Click|
 | IR| Information Retrieval|
 |JSON-LD |JavaScript Object Notation for Linked Data|
@@ -55,6 +56,8 @@
 |RDFa|Resource Description Framework in Attributes|
 |SEO |Search Engine Optimization |
 |SERP |Search Engine Resuts Page|
+
+
 
  
 
@@ -485,11 +488,20 @@ Serving up your website's pages fast and reliably => *quality experience*
 
 ### Google Search Console
 
+https://search.google.com/search-console/about
 
 
+* add property => URL prefix => verification of domain => website verification
 
+* through the "*Search results*" you can view your *total clicks, total imperssions, average clickthrough rate (CTR)*, and much more
 
+* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. duplicate content, block content, content no more relevant).
 
+* via the "`Sitemaps`" section, you can upload your XML site maps
+
+* via "`[Removals]`(https://support.google.com/webmasters/answer/9689846?hl=en)" you can put the website parts of your websites that you do not want to be indexed by search engines (see about robots.txt [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
+  * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
+  * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
 
 
