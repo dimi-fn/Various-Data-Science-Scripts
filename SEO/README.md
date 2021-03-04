@@ -34,8 +34,17 @@
     * [Server-side](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#server-side)
     * [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console)
 
+  * [Content Planning & Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-planning--strategy)  
+
 
   
+
+
+
+
+
+
+
 
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
@@ -438,8 +447,8 @@ Focus on URL, title, description, headers, body text, and images:
 
 * make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
-  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases.  
-    * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhane ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
+  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
+    * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhance ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 <br>
 
@@ -458,7 +467,8 @@ Ways to leverage SEO from a technical perspective:
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
 * Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <u>you do not want different url adresses to provide the same content</u> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
-  * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links
+  * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
+  indicate which is the primary URL for dublicate content across you website pages.
     * Another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <u>temporary</u> or <u>permanent</u>, and you should use `redirect rules` after moving content across your web page:
@@ -499,11 +509,11 @@ https://search.google.com/search-console/about
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
-* via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en) you can put the website parts of your websites that you do not want to be indexed by search engines (see about robots.txt [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
+* via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en) you can put the website parts of your websites that you do not want to be indexed by search engines (see about *robots.txt* or *noindex meta tag* [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
   * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
-## Content Planning
+## Content Planning & Strategy
 
 
 
