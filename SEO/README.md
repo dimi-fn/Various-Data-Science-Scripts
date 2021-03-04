@@ -499,7 +499,7 @@ https://search.google.com/search-console/about
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
-* via "`[Removals]`(https://support.google.com/webmasters/answer/9689846?hl=en)" you can put the website parts of your websites that you do not want to be indexed by search engines (see about robots.txt [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
+* via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en) you can put the website parts of your websites that you do not want to be indexed by search engines (see about robots.txt [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
   * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
