@@ -592,7 +592,7 @@ https://search.google.com/search-console/about
 
 -----
 
-[Go to contents]()
+[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
 
 -----
 
