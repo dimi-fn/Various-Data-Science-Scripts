@@ -592,7 +592,7 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 
 
-### Links Strategy
+#### Links Strategy
 
 
 * Use anchor text links instead of just "click here"
