@@ -268,6 +268,8 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries above. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
+Lastly, the data describing the images can be integrated into [CSV files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv) that are provided by both respective sources.
+
 ### Query: Data Science 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/answerthepublic/Data_Science_Questions__answer_the_public.PNG" alt="How users ask about Data Science: questions"/>
@@ -422,7 +424,7 @@ what keyword you are targeting on, and then you would write the relevant content
 
 # Content Optimization
 
-It is all about how search engines and consumers view webpages, including yours.
+It is about how search engines and consumers view webpages, including yours.
 
 There is a need for:
 * Clarity and quality: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
@@ -514,6 +516,73 @@ https://search.google.com/search-console/about
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
 ## Content Planning & Strategy
+
+It is all about *planning*, *creating*, and *managing* a useful* and usable content
+
+1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
+
+
+2. `Creating`: Quality of content > quantity of content, and with relevant and useful sources to provide
+
+3. `Managing`: Through [keyword attributes planning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes), [keyword research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research), [keyword distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution), and [content optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
+
+### Content Strategy
+
+* Clear definition of goals and objectives
+  * what *keywords* you chose to target
+  * what your customers are *searching* for
+  * how you want them to *behave* when they *visit your website*
+
+* Comprehend your customers' *needs*
+  * demographic and psychographic information, interests, behaviours
+
+* Monitoring trends
+  * your customer audience and competitors might change rapidly
+    * this also means reviewing, redefining, and refining your keywords research 
+
+* Make an editorial calendar (who writes what content in which page and section page at your website and social media)
+
+<br>
+
+**Content types**:
+* text, files (word, pdf, ppt), infographics, newsletters, images, videos, Augmented Reality, Virtual Reality
+
+<br>
+
+**Subject content**:
+* Educational
+* Statistical
+* Technical / Procedurar 
+* Informational 
+* News
+
+<br>
+
+**Content Measurement**
+* *popular content*: what content do your customers view and like the most? 
+* *customer engagement*: do your customer share your content?
+  * Tools to analyze customers' behaviour upon your content, e.g.: [Google Analytics](https://analytics.google.com/analytics/web/provision/#/provision)
+
+<br>
+
+**Customer Engagement Metrics**:
+* Average time on site 
+* Pages view per visit
+* Bounce rate (when a customer visits your website but leaves right away without engaging) / the lower the bounce rate the better
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
