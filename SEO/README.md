@@ -49,6 +49,7 @@
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
+* [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
 ----
 
@@ -515,9 +516,24 @@ https://search.google.com/search-console/about
   * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Content Planning & Strategy
 
-It is all about *planning*, *creating*, and *managing* a useful* and usable content
+It is all about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
 
@@ -576,6 +592,13 @@ It is all about *planning*, *creating*, and *managing* a useful* and usable cont
 
 
 
+### Links Strategy
+
+
+* Use anchor text links instead of just "click here"
+
+* You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
+  * however, the more relative those links to your content are, the better (*thematic connections*)
 
 
 
@@ -629,7 +652,29 @@ It is all about *planning*, *creating*, and *managing* a useful* and usable cont
 
 
 
-## Links Strategy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## SEO Effectiveness Metrics
 
@@ -658,10 +703,6 @@ It is all about *planning*, *creating*, and *managing* a useful* and usable cont
 
 * If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
-
------
-
-[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
 
 -----
 
@@ -704,3 +745,7 @@ It is all about *planning*, *creating*, and *managing* a useful* and usable cont
 [18] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
 [19] https://support.google.com/webmasters/answer/9689846?hl=en
+
+-----
+
+[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
