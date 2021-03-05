@@ -6,7 +6,7 @@
 
 # Search Engine Optimization (SEO) & Information Retrieval (IR)
 
-**Contents**
+## Contents
 
 * [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#acronyms)
 * [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-ir)
@@ -525,6 +525,41 @@ https://search.google.com/search-console/about
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Links Strategy
 
 ## SEO Effectiveness Metrics
@@ -554,6 +589,10 @@ https://search.google.com/search-console/about
 
 * If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
+
+-----
+
+[Go to contents]()
 
 -----
 
