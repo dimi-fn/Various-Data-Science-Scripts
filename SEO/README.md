@@ -48,6 +48,11 @@
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
+
+
+
+## SEO Effectiveness Evaluation
+
 ----
 
 # Acronyms
@@ -585,7 +590,8 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 #### External vs. Internal Links
 
 **Internal Links**
-Via the internal links of website, search engines can get a good idea about the structure of your web pages
+
+Via the internal links of your website, search engines can get a good idea of the structure of your web pages across your website.
 
 1. <i>**Navigational Links**</i>:
 * The links for your main sections (pages) and subsections of your website
@@ -596,16 +602,19 @@ Via the internal links of website, search engines can get a good idea about the 
 
 <br>
 
+
 **External Links**
+
 Links that point towards your website.
 
 * web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
-  * e.g. links from non-profit organizations can be quite trustworthy
+  * e.g. links from non-profit or educational organizations can be quite trustworthy
 
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer)
 * you want backlinks with high page and domain authority
   * you can examine the backlinks of other popular websites with similar content to you
+  * by filling content gaps with your own content, you can build a series of websites network pointing at your website and referencing your product/services
 
 
 
@@ -688,7 +697,7 @@ Links that point towards your website.
 
 
 
-## SEO Effectiveness Metrics
+## SEO Effectiveness Evaluation
 
 
 
