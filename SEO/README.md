@@ -26,7 +26,6 @@
     * [Query: Artificial Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-artificial-intelligence)
     * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-data-science-vs-machine-learning-vs-ai)
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution)
-
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
   * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
@@ -34,17 +33,15 @@
     * [Server-side](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#server-side)
     * [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console)
 
-  * [Content Planning & Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-planning--strategy)  
+
+
+
+  * [Content Planning & Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-planning--strategy)
+    * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
+      * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
 
 
   
-
-
-
-
-
-
-
 
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
@@ -517,22 +514,7 @@ https://search.google.com/search-console/about
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Content Planning & Strategy
-
 It is all about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
@@ -593,20 +575,39 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 
 ### Links Strategy
-
-
-* Use anchor *text links* o insteadf just "click here"
+* Use anchor *text links* o instead of just "click here" links, with meaningful text upon the links
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
   * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
 
-#### External vs Internal Links
 
 
-##### External Links
+#### External vs. Internal Links
+
+**Internal Links**
+Via the internal links of website, search engines can get a good idea about the structure of your web pages
+
+1. <i>**Navigational Links**</i>:
+* The links for your main sections (pages) and subsections of your website
 
 
-**Internal Links** 
+2. <i>**Contextual Links**</i>:
+* When e.g. a viewer clicks to a link embedded in some content, and jumbs e.g. from page one to the second page, i.e. when the content of some page references content of another page from the same website
+
+<br>
+
+**External Links**
+Links that point towards your website.
+
+* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content 
+
+
+
+
+
+
+
+
 
 
 
