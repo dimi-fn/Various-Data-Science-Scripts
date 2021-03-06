@@ -620,7 +620,7 @@ Indicative **KPIs**:
 
 <br>
 
-If your business organization is <u>E-commerce</u>, then other KPIs might be:
+If your business organization is <ins>E-commerce</ins>, then other KPIs might be:
 * Revenue
 * Average order values
 * Transcactions
