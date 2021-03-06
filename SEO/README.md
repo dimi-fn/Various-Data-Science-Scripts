@@ -36,6 +36,7 @@
     * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
 
+* [SEO Effectiveness Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation-1)
 
   
 
@@ -46,8 +47,6 @@
 
 
 
-
-## SEO Effectiveness Evaluation
 
 ----
 
@@ -570,18 +569,11 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 * Bounce rate (when a customer visits your website but leaves right away without engaging) / the lower the bounce rate the better
 
 
-
-
-
-
-
 ### Links Strategy
 * Use anchor *text links* o instead of just "click here" links, with meaningful text upon the links
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
   * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
-
-
 
 #### External vs. Internal Links
 
@@ -598,14 +590,12 @@ Via the internal links of your website, search engines can get a good idea of th
 
 <br>
 
-
 **External Links**
 
 Links that point towards your website.
 
 * web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
   * e.g. links from non-profit or educational organizations can be quite trustworthy
-
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer)
 * you want backlinks with high page and domain authority
@@ -621,6 +611,7 @@ Links that point towards your website.
 
 
 
+## SEO Performance Evaluation
 
 
 
@@ -663,37 +654,6 @@ Links that point towards your website.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## SEO Effectiveness Evaluation
 
 
 
