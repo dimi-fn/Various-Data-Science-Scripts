@@ -696,7 +696,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [19] https://support.google.com/webmasters/answer/9689846?hl=en
 
-And various hyperlinks that can be found across the script
+<i>And various hyperlinks that can be found across the script.</i>
 
 -----
 
