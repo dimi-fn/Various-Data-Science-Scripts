@@ -36,15 +36,10 @@
     * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
 * [SEO Performance Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation)
-
-  
-
+  * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
-
-
-
 
 ----
 
@@ -63,9 +58,6 @@
 |SEO |Search Engine Optimization |
 |SERP |Search Engine Resuts Page|
 
-
-
- 
 
 # SEO in the context of IR
 
@@ -621,7 +613,7 @@ Indicative **KPIs**:
 * Tools: [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics)
 
 
-## E-commerce
+## E-Commerce
 
 If your business organization is <ins>E-commerce</ins>, then other KPIs might be:
 * Revenue
