@@ -711,6 +711,9 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 * If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
+----
+
+[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
 
 -----
 
@@ -756,4 +759,4 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 -----
 
-[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
+[Go to the main page](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
