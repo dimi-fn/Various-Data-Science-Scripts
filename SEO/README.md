@@ -599,10 +599,13 @@ Via the internal links of website, search engines can get a good idea about the 
 **External Links**
 Links that point towards your website.
 
-* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content 
+* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
+  * e.g. links from non-profit organizations can be quite trustworthy
 
 
-
+**Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer)
+* you want backlinks with high page and domain authority
+  * you can examine the backlinks of other popular websites with similar content to you
 
 
 
