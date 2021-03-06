@@ -607,14 +607,14 @@ Links that point towards your website.
 
 # SEO Performance Evaluation
 
-SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (KPIs)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens.
+SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (KPIs)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens. (But first of all you should define your business goals and KPIs)
 
 <br>
 
 Indicative KPIs:
 * The delta rate in organic search over time
 * Keyword (branded or not) search queries and ranking
-  * you can merge your [Google Analytics 360](https://marketingplatform.google.com/about/) account along with your [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console), and get various insights
+  * you can merge your [Google Analytics 360](https://marketingplatform.google.com/about/) account along with your [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console), and get various insights from that combination.
 * Number of newsletters subscribers and various signups
 * Social followers
 
@@ -636,6 +636,36 @@ If your business organization is <u>E-commerce</u>, then other KPIs might be:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----
+
+# E-commerce
 
 
 
