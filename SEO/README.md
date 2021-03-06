@@ -35,11 +35,9 @@
   * [Content Planning & Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-planning--strategy)
     * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
-
 * [SEO Performance Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation)
 
   
-
 
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
@@ -101,15 +99,15 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 <br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that, it is meant that:
 
-* A small number of words appear <u>each</u> in a lot of documents (`high-frequency words`)
+* A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
     * **Stopwords** removal achieves <i><b>discrimation</b></i>: procedure of words removal that are common to most of the docs (words like "and", "are", "do", "am", "but")
     * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
 
-* A medium number of words appear <u>each</u> in a medium number of documents (`medium-frequency words`) 
+* A medium number of words appear <ins>each</ins> in a medium number of documents (`medium-frequency words`) 
   * These are the "**best**" words in the IR context ==> they represent some recognisable concept (satisfactory *description* level) that doesn't seem to be meaningless (satisfactory *discrimination* level)
 
-* A large number of words appear <u>each</u> in a small number of documents (`low-frequency words`)
+* A large number of words appear <ins>each</ins> in a small number of documents (`low-frequency words`)
 
 -----
 
@@ -467,18 +465,18 @@ Ways to leverage SEO from a technical perspective:
 * Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
-* Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <u>you do not want different url adresses to provide the same content</u> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
+* Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different url adresses to provide the same content</ins> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
   * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
   indicate which is the primary URL for dublicate content across you website pages.
     * Another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
-* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <u>temporary</u> or <u>permanent</u>, and you should use `redirect rules` after moving content across your web page:
+* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
   * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one.
 
 * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
 
-* <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
+* <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata markup](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
   * **Microformatting**:
     * `JSON-LD` (JavaScript Object Notation for Linked Data)
     * `Embedded or inline Microdata`
@@ -595,7 +593,7 @@ Via the internal links of your website, search engines can get a good idea of th
 
 Links that point towards your website.
 
-* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
+* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <ins>relevant</ins> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
   * e.g. links from non-profit or educational organizations can be quite trustworthy
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)
@@ -620,107 +618,22 @@ Indicative **KPIs**:
 
 <br>
 
+* Tools: [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics)
+
+
+## E-commerce
+
 If your business organization is <ins>E-commerce</ins>, then other KPIs might be:
 * Revenue
 * Average order values
 * Transcactions
 
-<br>
 
-* Tools: [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics)
+* In e-commerce it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/docs/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
+)
+  * also to take care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
------
-
-# E-commerce
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Google business listing](https://www.google.com/business/) for enhancing local business SEO (e.g. to appear on maps locally)
 
 ----
 
@@ -744,8 +657,6 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
 
 * If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
-
-
 
 ----
 
@@ -792,6 +703,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 [18] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
 [19] https://support.google.com/webmasters/answer/9689846?hl=en
+
+And various hyperlinks that can be found across the script
 
 -----
 
