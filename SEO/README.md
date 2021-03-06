@@ -32,10 +32,6 @@
     * [Content & Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)
     * [Server-side](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#server-side)
     * [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console)
-
-
-
-
   * [Content Planning & Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-planning--strategy)
     * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
