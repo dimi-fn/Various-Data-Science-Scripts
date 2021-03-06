@@ -55,7 +55,7 @@
 | Acronym  | Description |
 |------| -------------------------|
 | CDN| Content Delivery Network|
-| CTR|Clickthrough rate |
+| CTR|Click-Through Rate |
 | CPC| Cost-Per-Click|
 | IR| Information Retrieval|
 |JSON-LD |JavaScript Object Notation for Linked Data|
@@ -598,7 +598,7 @@ Links that point towards your website.
 * web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <u>relevant</u> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
   * e.g. links from non-profit or educational organizations can be quite trustworthy
 
-**Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer)
+**Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)
 * you want backlinks with high page and domain authority
   * you can examine the backlinks of other popular websites with similar content to you
   * by filling content gaps with your own content, you can build a series of websites network pointing at your website and referencing your product/services
@@ -607,23 +607,30 @@ Links that point towards your website.
 
 # SEO Performance Evaluation
 
-* Traffic from **organic search traffic** and **business outcomes** after defining your business objectives and *Key Performance Indicators (KPIs)*
-  * e.g. you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens
+SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (KPIs)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens.
+
+<br>
+
+Indicative KPIs:
 * The delta rate in organic search over time
 * Keyword (branded or not) search queries and ranking
-* Newsletters subscribers and various signups
+  * you can merge your [Google Analytics 360](https://marketingplatform.google.com/about/) account along with your [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console), and get various insights
+* Number of newsletters subscribers and various signups
 * Social followers
 
+<br>
 
-
-If your business organization is <u>e-commerce</u>, then other KPIs might be:
+If your business organization is <u>E-commerce</u>, then other KPIs might be:
 * Revenue
 * Average order values
 * Transcactions
 
-
+<br>
 
 * Tools: [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics)
+
+
+
 
 
 
@@ -697,13 +704,18 @@ If your business organization is <u>e-commerce</u>, then other KPIs might be:
 
 # Rules of thumb
 
-* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through keywords research)
+* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through keywords research).
 
-* If search volume is high and competition/difficulty is low ==> large potential traffic at the lowest levels of competition ==> demand is high and supply is low ==> market opportunity
+
+* If you have high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
+
+* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which suggests market opportunity.
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
 
 * If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
+
+
 
 ----
 
