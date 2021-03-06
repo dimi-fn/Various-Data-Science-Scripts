@@ -36,7 +36,7 @@
     * [Content Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-strategy)
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
 
-* [SEO Effectiveness Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation-1)
+* [SEO Performance Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation)
 
   
 
@@ -59,6 +59,7 @@
 | CPC| Cost-Per-Click|
 | IR| Information Retrieval|
 |JSON-LD |JavaScript Object Notation for Linked Data|
+|KPI |Key Performance Indicator|
 |PPC |Pay-Per-Clicking|
 |RDFa|Resource Description Framework in Attributes|
 |SEO |Search Engine Optimization |
@@ -205,7 +206,7 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 # Organic Search vs. PPC
 
-* **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links targeting your website, your domain authority, the relevance to user's search query, and other organic ranking factors
+* **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links pointing to your website, your domain authority, the relevance to user's search query, and other organic ranking factors
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
 
@@ -602,6 +603,27 @@ Links that point towards your website.
   * you can examine the backlinks of other popular websites with similar content to you
   * by filling content gaps with your own content, you can build a series of websites network pointing at your website and referencing your product/services
 
+----
+
+# SEO Performance Evaluation
+
+* Traffic from **organic search traffic** and **business outcomes** after defining your business objectives and *Key Performance Indicators (KPIs)*
+  * e.g. you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens
+* The delta rate in organic search over time
+* Keyword (branded or not) search queries and ranking
+* Newsletters subscribers and various signups
+* Social followers
+
+
+
+If your business organization is <u>e-commerce</u>, then other KPIs might be:
+* Revenue
+* Average order values
+* Transcactions
+
+
+
+* Tools: [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics)
 
 
 
@@ -611,7 +633,10 @@ Links that point towards your website.
 
 
 
-## SEO Performance Evaluation
+
+
+
+
 
 
 
