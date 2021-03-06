@@ -592,13 +592,21 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 
 
-#### Links Strategy
+### Links Strategy
 
 
-* Use anchor text links instead of just "click here"
+* Use anchor *text links* o insteadf just "click here"
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
-  * however, the more relative those links to your content are, the better (*thematic connections*)
+  * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
+
+#### External vs Internal Links
+
+
+##### External Links
+
+
+##### Internal Links
 
 
 
