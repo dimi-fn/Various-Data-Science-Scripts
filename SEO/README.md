@@ -606,7 +606,7 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 ##### External Links
 
 
-##### Internal Links
+**Internal Links** 
 
 
 
