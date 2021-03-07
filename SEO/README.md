@@ -684,6 +684,9 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
 
+
+[Keyword Research Strategies, backlinko.com](https://backlinko.com/hub/seo/keyword-difficulty)
+
 [Moz.com Community](https://moz.com/community)
 
 [The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
@@ -699,8 +702,12 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |------|------|
 | test| * test <hr> * test |
 |Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
+| Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
+|Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 |How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |test | test |
+|Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
+| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
 
 
 
