@@ -37,7 +37,6 @@
       * [Links Strategy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#links-strategy)
 * [SEO Performance Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation)
   * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
-* [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 * [More to Read](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
@@ -203,7 +202,7 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 
 # Keywords
-* Understanding user's `intent` is important for constructing the right keywords. 
+* Understanding user's `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
 What keywords would the user have to type in order to find your specific web page?
 
 What the user would type to the search query box in order to find you?
@@ -630,13 +629,6 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 ----
 
-# Terminologies
-
-`Paid Listing`: e.g. to pay google and be displayed in search results as a sponsored link
-
-`Intent`: what users are looking for and how they search
-
-`Web Analytics`: Web analytics let you see how successful you are in attracting users, and the return on your financial investment
 
 # Rules of thumb
 
