@@ -39,6 +39,7 @@
   * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
 * [Terminologies](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#terminologies)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
+* [More to Read](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
 ----
@@ -652,6 +653,13 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 ----
 
+# More to Read
+
+[How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
+
+
+----
+
 [Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
 
 -----
@@ -695,6 +703,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 [18] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
 [19] https://support.google.com/webmasters/answer/9689846?hl=en
+
+[20] https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design
 
 <i>And various hyperlinks that can be found across the script.</i>
 
