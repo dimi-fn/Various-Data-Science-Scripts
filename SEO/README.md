@@ -649,6 +649,10 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
 
+[Moz.com Community](https://moz.com/community)
+
+[The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
+
 
 ----
 
