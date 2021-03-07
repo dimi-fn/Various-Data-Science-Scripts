@@ -1,9 +1,5 @@
 **Work on progress*
 
-(to do: 
-* put links to table appendix
-* check all content)
-
 # SEO
 
 ---
@@ -32,11 +28,7 @@
     * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-data-science-vs-machine-learning-vs-ai)
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution)
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
-  * ["Inner" vs. "External" SEO](?????????????????)
-
-
-
-
+  * ["Inner" vs. "External" SEO](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#inner-vs-external-seo)
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
   * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
     * [Content & Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)
@@ -157,8 +149,6 @@ Authenticity in the context of SEO is know as <i>**Domain Authority**</i>. Essen
 Contributing factors include:
 * the quantity and quality of links (hyperlinks) pointing to you from other websites (third-party domains), known as **inbound links**
 * reviews - sentiment
-
-
 
 -----
 
@@ -441,8 +431,6 @@ what keyword you are targeting on, and then you would write the relevant content
 
 ----
 
-
-
 # Content Optimization
 
 It is about how search engines and consumers view webpages, including yours.
@@ -453,6 +441,28 @@ There is a need for:
 * Good website **structure** and layout: categorize and clarify your content in and across your web pages clearly both from business's and customer's perspective
 
 ## "Inner" vs. "External" SEO
+
+The SEO procedures could generally be categorized into actions taken inside the website (*on-page SEO*), and optimizations undertaken off-page so that the website can get traffic.
+
+<br>
+
+**On-Page SEO**:
+* Title tag of page
+* Headings (h1..h5)
+* Keyword Optimization
+* Images
+* Meta tags and meta descriptions
+* URL
+* Loading time of website (page speed)
+* Quality of content () and informativeness (to keep your content up-to-date)
+* Internal Links
+
+<br>
+
+**Off-Page SEO**:
+* Social Media
+* Link Building: getting backlinks from other sources (authoritative and popular)
+* Creating quality and sharable content regularly
 
 ## Optimizing Text & Non-Text Elements
 
@@ -539,7 +549,6 @@ https://search.google.com/search-console/about
 * via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en) you can put the website parts of your websites that you do not want to be indexed by search engines (see about *robots.txt* or *noindex meta tag* [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
   * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
-
 
 ## Content Planning & Strategy
 It is about *planning*, *creating*, and *managing* a useful and usable content.
@@ -715,18 +724,6 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
