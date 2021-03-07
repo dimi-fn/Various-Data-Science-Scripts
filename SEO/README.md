@@ -217,31 +217,9 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 | **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness|
 | **Domain-level Brand Features**| offline usage of domain name/brand, mentions of domain name in news|
 | **Traffic & Query Data**| usage signals from browsers, clickstream, CTR of queries|
-| `Social Metrics`| quantity and quality of links and sharings from social media|
-| `Domain-level Keyword Usage`| exact and partial keyword matches|
-| `Domain-level Keyword-Agnostic Features`| domain name length, TLD, HTTP responses|
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| **Social Metrics**| quantity and quality of links and sharings from social media|
+| **Domain-level Keyword Usage**| exact and partial keyword matches|
+| **Domain-level Keyword-Agnostic Features**| domain name length, TLD, HTTP responses|
 
 # Keywords
 * Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
