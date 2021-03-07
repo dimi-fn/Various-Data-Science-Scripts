@@ -208,47 +208,18 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity) section, and although search ranking algorithms change over time, it can be safely claimed that good ranking results align with **high quality** and **relevant information**. Hence, some of the most important ranking factors can be found aggregately and hierarchically on importance as followed:
 
-* **Domain-Level & Link Authority Features**
-  * quantity of links to the domain, quality of links to domain, domain-level PageRank
 
-* **Page-Level Link Features**
-  * PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources
-
-* **Page-Level Keywords & Content Features**
-  * Term Weighting ( TF * IDF), topic modelling content score, content relevance
-
-* **Page-Level Keyword Agnostic Features**
-  * content length, load speed, readability, uniqueness
-
-* **Domain-level Brand Features**
-  * offline usage of domain name/brand, mentions of domain name in news
-
-* **Traffic & Query Data**
-  * usage signals from browsers, clickstream, CTR of queries
-
-* **Social Metrics**
-  * quantity and quality of links and sharings from social media
-
-* **Domain-level Keyword Usage**
-  * exact and partial keyword matches
-
-* **Domain-level Keyword-Agnostic Features**
-  * domain name length, TLD, HTTP responses
-
-
-
- | Structure  | Keywords | URL (of specific page)| The title tag| Meta-description| the h1 header title|
-|---------| -------------------------|----------|--------|-----------------|-------------------------|
-| **home**  |  || ||  |
-| *Cars*  |  || ||  |
-| Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz in Germany|
-| BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
-| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
-
-
-| Ranking Factor | Description/Examples |
+| `Ranking Factor` | `Description/Examples` |
 |---------------|----------------------|
-| bla | bla |
+| Domain-Level & Link Authority Features | quantity of links to the domain, quality of links to domain, domain-level PageRank |
+| Page-Level Link Features| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
+| Page-Level Keywords & Content Features| Term Weighting ( TF * IDF), topic modelling content score, content relevance|
+| Page-Level Keyword Agnostic Features| content length, load speed, readability, uniqueness|
+| Domain-level Brand Features| offline usage of domain name/brand, mentions of domain name in news|
+| Traffic & Query Data| usage signals from browsers, clickstream, CTR of queries|
+| Social Metrics| quantity and quality of links and sharings from social media|
+| Domain-level Keyword Usage| exact and partial keyword matches|
+| Domain-level Keyword-Agnostic Features| domain name length, TLD, HTTP responses|
 
 
 
