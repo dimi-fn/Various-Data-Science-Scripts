@@ -51,6 +51,7 @@
 | CDN| Content Delivery Network|
 | CTR|Click-Through Rate |
 | CPC| Cost-Per-Click|
+| IDF| Inverse Document Frequency|
 | IR| Information Retrieval|
 |JSON-LD |JavaScript Object Notation for Linked Data|
 |KPI |Key Performance Indicator|
@@ -58,6 +59,8 @@
 |RDFa|Resource Description Framework in Attributes|
 |SEO |Search Engine Optimization |
 |SERP |Search Engine Resuts Page|
+|TF|Term Frequency|
+|TLD|Top Level Domains|
 
 
 # SEO in the context of IR
@@ -203,23 +206,34 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 # Ranking Factors on Search Results
 
+Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity) section, and although search ranking algorithms change over time, it can be safely claimed that good ranking results align with **high quality** and **relevant information**. Hence, some of the most important ranking factors can be found aggregately and hierarchically on importance as followed:
 
+* **Domain-Level & Link Authority Features**
+  * quantity of links to the domain, quality of links to domain, domain-level PageRank
 
+* **Page-Level Link Features**
+  * PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources
 
+* **Page-Level Keywords & Content Features**
+  * Term Weighting ( TF * IDF), topic modelling content score, content relevance
 
+* **Page-Level Keyword Agnostic Features**
+  * content length, load speed, readability, uniqueness
 
+* **Domain-level Brand Features**
+  * offline usage of domain name/brand, mentions of domain name in news
 
+* **Traffic & Query Data**
+  * usage signals from browsers, clickstream, CTR of queries
 
+* **Social Metrics**
+  * quantity and quality of links and sharings from social media
 
+* **Domain-level Keyword Usage**
+  * exact and partial keyword matches
 
-
-
-
-
-
-
-
-
+* **Domain-level Keyword-Agnostic Features**
+  * domain name length, 
 
 # Keywords
 * Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
