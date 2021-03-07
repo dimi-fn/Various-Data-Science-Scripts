@@ -221,6 +221,8 @@ Tools for researching the **potential monthly search volume** of keywords: [moz 
 
 **3) Competition / Difficulty**: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product. When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am googling it but I can't find it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
 
+<br>
+
 <ins>**SERP**(Search Engine Results Page) **Analysis** Report</ins>: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
 
 For example, if for a group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that. 
@@ -416,7 +418,7 @@ what keyword you are targeting on, and then you would write the relevant content
 It is about how search engines and consumers view webpages, including yours.
 
 There is a need for:
-* Clarity and quality: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
+* **Clarity** and **quality**: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
 
 * Good website **structure** and layout: categorize and clarify your content in and across your web pages clearly both from business's and customer's perspective
 
@@ -428,15 +430,15 @@ Focus on URL, title, description, headers, body text, and images:
 * <i>**URL**</i>: the keyword phrase that you are targeting should be included in URL if that is possible 
   * construction of a *good URL*: descriptive but short, and concise as possible
 
-* metadata
+* <i>**Metadata**</i>
   * *meta* <i>**title**</i> *tag* optimization
     * make sure your <title_description> tag is successful (*"title" tag in html"*), and that it contains (some of) your target keywords for the best SEO results
   * <i>**headers**</i>: html `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
       * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing.
 
-* optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
+* Optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
 
-* make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
+* Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
   * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
     * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhance ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
@@ -444,6 +446,8 @@ Focus on URL, title, description, headers, body text, and images:
 <br>
 
 **Tools**: https://moz.com/learn/seo/title-tag
+
+<br>
 
 ## Technical Content Optimization
 
@@ -483,7 +487,7 @@ Serving up your website's pages fast and reliably => *quality experience*
       * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users.
 
 
-* `Cashing`: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the servel will "remember" the content for a period of time at a future and subsequent load request)
+* <i>**Cashing**</i>: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the servel will "remember" the content for a period of time at a future and subsequent load request)
 
 * Server <i>**reliability**</i>: prefer `HTTPs` and not the HTTP protocol, not only because it is safer but also because it can boost your ranking compared to using http ([http deprecation](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure))
 
@@ -506,7 +510,7 @@ https://search.google.com/search-console/about
 
 
 ## Content Planning & Strategy
-It is all about *planning*, *creating*, and *managing* a useful and usable content.
+It is about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
 
@@ -517,15 +521,15 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 
 ### Content Strategy
 
-* Clear definition of goals and objectives
+* Clear <ins>definition</ins> of **goals** and **objectives**
   * what *keywords* you chose to target
   * what your customers are *searching* for
   * how you want them to *behave* when they *visit your website*
 
-* Comprehend your customers' *needs*
+* Comprehend your customers' **needs**
   * demographic and psychographic information, interests, behaviours
 
-* Monitoring trends
+* Monitoring **trends**
   * your customer audience and competitors might change rapidly
     * this also means reviewing, redefining, and refining your keywords research 
 
@@ -559,9 +563,10 @@ It is all about *planning*, *creating*, and *managing* a useful and usable conte
 * Pages view per visit
 * Bounce rate (when a customer visits your website but leaves right away without engaging) / the lower the bounce rate the better
 
+<br>
 
 ### Links Strategy
-* Use anchor *text links* o instead of just "click here" links, with meaningful text upon the links
+* Use anchor *text links* instead of just "click here" links, with meaningful text upon the links
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
   * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
@@ -632,12 +637,12 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 # Rules of thumb
 
-* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through keywords research).
+* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through [keywords research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research) and more).
 
 
 * If you have high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
 
-* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which suggests market opportunity.
+* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest market opportunity.
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
 
