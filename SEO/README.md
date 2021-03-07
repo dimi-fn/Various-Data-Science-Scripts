@@ -211,15 +211,15 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 
 | `Ranking Factor` | `Description/Examples` |
 |---------------|----------------------|
-| Domain-Level & Link Authority Features | quantity of links to the domain, quality of links to domain, domain-level PageRank |
-| Page-Level Link Features| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
-| Page-Level Keywords & Content Features| Term Weighting ( TF * IDF), topic modelling content score, content relevance|
-| Page-Level Keyword Agnostic Features| content length, load speed, readability, uniqueness|
-| Domain-level Brand Features| offline usage of domain name/brand, mentions of domain name in news|
-| Traffic & Query Data| usage signals from browsers, clickstream, CTR of queries|
-| Social Metrics| quantity and quality of links and sharings from social media|
-| Domain-level Keyword Usage| exact and partial keyword matches|
-| Domain-level Keyword-Agnostic Features| domain name length, TLD, HTTP responses|
+| **Domain-Level & Link Authority Features** | quantity of links to the domain, quality of links to domain, domain-level PageRank |
+| **Page-Level Link Features**| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
+| **Page-Level Keywords & Content Features**| Term Weighting ( TF * IDF), topic modelling content score, content relevance|
+| **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness|
+| **Domain-level Brand Features**| offline usage of domain name/brand, mentions of domain name in news|
+| **Traffic & Query Data**| usage signals from browsers, clickstream, CTR of queries|
+| `Social Metrics`| quantity and quality of links and sharings from social media|
+| `Domain-level Keyword Usage`| exact and partial keyword matches|
+| `Domain-level Keyword-Agnostic Features`| domain name length, TLD, HTTP responses|
 
 
 
