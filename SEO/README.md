@@ -18,6 +18,7 @@
     * [Precision](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#precision)
     * [Recall](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#recall)
 * [Organic Search vs. PPC](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#organic-search-vs-ppc)
+* [Ranking Factors on Search Results](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#ranking-factors-on-search-results)
 * [Keywords](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keywords)
   * [Keyword Attributes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes)
   * [Keyword Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research)
@@ -200,9 +201,28 @@ Further research on Recommender System metrics include: Mean Average Precision a
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
 
+# Ranking Factors on Search Results
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Keywords
-* Understanding user's `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
+* Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
 What keywords would the user have to type in order to find your specific web page?
 
 What the user would type to the search query box in order to find you?
@@ -652,11 +672,17 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 # More to Read
 
-[How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
+
+
+[How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
+
+[How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
 
 [Moz.com Community](https://moz.com/community)
 
 [The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
+
+[How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
 
 
 ----
@@ -706,6 +732,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 [19] https://support.google.com/webmasters/answer/9689846?hl=en
 
 [20] https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design
+
+[21] https://www.wordstream.com/blog/ws/2015/04/30/seo-basics#_What_is_SEO
 
 <i>And various hyperlinks that can be found across the script.</i>
 
