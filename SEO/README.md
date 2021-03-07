@@ -32,6 +32,11 @@
     * [Query: Data Science vs Machine Learning vs AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#query-data-science-vs-machine-learning-vs-ai)
   * [Keyword Distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution)
 * [Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
+  * ["Inner" vs. "External" SEO](?????????????????)
+
+
+
+
   * [Optimizing Text & Non-Text Elements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements)
   * [Technical Content Optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#technical-content-optimization)
     * [Content & Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)
@@ -227,10 +232,10 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 | **Domain-level Keyword-Agnostic Features**| domain name length, TLD, HTTP responses|
 
 # Keywords
-* Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
-What keywords would the user have to type in order to find your specific web page?
+Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
 
-What the user would type to the search query box in order to find you?
+What would a user type to find a product/service similar to that that you are selling?
+What keywords would the user have to type in order to find your specific web page? 
 
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
@@ -446,6 +451,8 @@ There is a need for:
 * **Clarity** and **quality**: people tend to share with other people content that they *like*, find *useful* and *relevant*, and content that they *trust*
 
 * Good website **structure** and layout: categorize and clarify your content in and across your web pages clearly both from business's and customer's perspective
+
+## "Inner" vs. "External" SEO
 
 ## Optimizing Text & Non-Text Elements
 
@@ -813,6 +820,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 [20] https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design
 
 [21] https://www.wordstream.com/blog/ws/2015/04/30/seo-basics#_What_is_SEO
+
+[22] https://www.wordstream.com/blog/ws/2018/06/13/off-page-seo
 
 <i>And various hyperlinks that can be found across the script.</i>
 
