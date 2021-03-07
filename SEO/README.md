@@ -233,7 +233,44 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
   * exact and partial keyword matches
 
 * **Domain-level Keyword-Agnostic Features**
-  * domain name length, 
+  * domain name length, TLD, HTTP responses
+
+
+
+ | Structure  | Keywords | URL (of specific page)| The title tag| Meta-description| the h1 header title|
+|---------| -------------------------|----------|--------|-----------------|-------------------------|
+| **home**  |  || ||  |
+| *Cars*  |  || ||  |
+| Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz in Germany|
+| BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
+| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
+
+
+| Ranking Factor | Description/Examples |
+|---------------|----------------------|
+| bla | bla |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Keywords
 * Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
