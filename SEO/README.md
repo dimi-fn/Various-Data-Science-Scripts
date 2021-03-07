@@ -40,6 +40,10 @@
   * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 * [More to Read](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
+* [Appendix: Table of Useful Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
+
+
+
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
 ----
@@ -214,7 +218,7 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 | **Domain-Level & Link Authority Features** | quantity of links to the domain, quality of links to domain, domain-level PageRank |
 | **Page-Level Link Features**| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
 | **Page-Level Keywords & Content Features**| Term Weighting ( TF * IDF), topic modelling content score, content relevance|
-| **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness|
+| **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness vs dublicate content|
 | **Domain-level Brand Features**| offline usage of domain name/brand, mentions of domain name in news|
 | **Traffic & Query Data**| usage signals from browsers, clickstream, CTR of queries|
 | **Social Metrics**| quantity and quality of links and sharings from social media|
@@ -684,6 +688,10 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
 
+
+----
+
+# Appendix: Table of Useful Links
 
 ----
 
