@@ -210,7 +210,7 @@ What the user would type to the search query box in order to find you?
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customer's shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
 
 <br>
 
@@ -221,7 +221,7 @@ Tools for researching the **potential monthly search volume** of keywords: [moz 
 
 **3) Competition / Difficulty**: Keyword competition/difficulty: if what you are selling is already on the web and sold by others as well, this inevitably means that there is already a lot of content around a group of keywords describing your product. When **difficulty** is **low** => competition low => the product that users are typing (query) to find does not lead to many websites, i.e. there are not so many sellers available for that product. It is like "I am googling it but I can't find it anywhere". The opposite happens when the difficulty rate is **high**, this means there is a lot of competition around that query as well as availability about the respective product/service that query is referring to.
 
-**SERP**(Search Engine Results Page) **Analysis** Report: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
+<ins>**SERP**(Search Engine Results Page) **Analysis** Report<ins>: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
 
 For example, if for a group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that. 
 
@@ -706,4 +706,4 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 -----
 
-[Go to the main page](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
+[Go to main page](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
