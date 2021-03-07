@@ -1,5 +1,9 @@
 **Work on progress*
 
+(to do: 
+* put links to table appendix
+* check all content)
+
 # SEO
 
 ---
@@ -40,10 +44,7 @@
   * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
 * [More to Read](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
-* [Appendix: Table of Useful Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
-
-
-
+* [Appendix: Table of Useful Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#appendix-table-of-useful-links)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
 ----
@@ -239,7 +240,7 @@ Keywords *research plan* regarding: `search volume`, `relevance`, and `competiti
 <br>
 
 **2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, some keywords might theoritically lead to your website targetfully and successfully, however, they might not be popular queries. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
-Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 <br>
 
@@ -537,6 +538,7 @@ https://search.google.com/search-console/about
 It is about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
+  * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates)
 
 
 2. `Creating`: Quality of content > quantity of content, and with relevant and useful sources to provide
@@ -692,6 +694,68 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 ----
 
 # Appendix: Table of Useful Links
+
+| Content| Link |
+|------|------|
+| test| * test <hr> * test |
+|Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
+|How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
+|test | test |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----
 
