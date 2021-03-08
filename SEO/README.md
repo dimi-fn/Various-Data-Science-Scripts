@@ -608,7 +608,8 @@ It is about *planning*, *creating*, and *managing* a useful and usable content.
 <br>
 
 ### Links Strategy
-* Use anchor *text links* instead of just "click here" links, with meaningful text upon the links
+
+* Use **anchor text** at the links instead of just "click here" links, with meaningful text description upon the links
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
   * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
@@ -630,7 +631,7 @@ Via the internal links of your website, search engines can get a good idea of th
 
 **External Links**
 
-Links that point towards your website.
+Links from external sources that point towards your website are perceived as confidence votes by the search engines.
 
 * web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <ins>relevant</ins> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
   * e.g. links from non-profit or educational organizations can be quite trustworthy
