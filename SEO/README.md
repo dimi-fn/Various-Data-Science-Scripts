@@ -453,7 +453,9 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Images
 * Meta tags and meta descriptions
 * URL
+* Header Response Code
 * Loading time of website (page speed)
+* Mobile Friendliness
 * Quality of content () and informativeness (to keep your content up-to-date)
 * Internal Links
 
@@ -511,6 +513,7 @@ Ways to leverage SEO from a technical perspective:
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
   * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one.
+    * `Apart from the above 301 and 302 redirect issues you always want your pages to return the status code of 200, and you never want the status code of 403 (page is forbidden), 404 (page not found), and 500 (application error)`.
 
 * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
 
@@ -724,6 +727,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
 |Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
+| Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
+| Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
