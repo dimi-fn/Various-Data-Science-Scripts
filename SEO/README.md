@@ -637,7 +637,7 @@ Links from external sources that point towards your website are perceived as con
   * e.g. links from non-profit or educational organizations can be quite trustworthy
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)
-* you want backlinks with high page and domain authority
+* you want **backlinks** with high page and domain authority
   * you can examine the backlinks of other popular websites with similar content to you
   * by filling content gaps with your own content, you can build a series of websites network pointing at your website and referencing your product/services
 
@@ -721,10 +721,14 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
 |Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
-|How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
+| Link Building |  [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
+|How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
+
+
+
 
 
 
