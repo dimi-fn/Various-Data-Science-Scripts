@@ -446,17 +446,18 @@ The SEO procedures could generally be categorized into actions taken inside the 
 
 <br>
 
-**On-Page SEO**:
+**On-Page SEO features**:
 * Title tag of page
 * Headings (h1..h5)
 * Keyword Optimization
-* Images
+* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1))
+* Images (e.g. using good alt descriptions)
 * Meta tags and meta descriptions
-* URL
-* Header Response Code
+* URL (good descriptive url but not too long)
+* Header Response Code (http statuses)
 * Loading time of website (page speed)
 * Mobile Friendliness
-* Quality of content () and informativeness (to keep your content up-to-date)
+* Quality of content and informativeness (to keep your content up-to-date)
 * Internal Links
 
 <br>
@@ -499,7 +500,7 @@ Focus on URL, title, description, headers, body text, and images:
 
 Ways to leverage SEO from a technical perspective:
 
-* Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html
+* Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html, https://www.xml-sitemaps.com/, [Google Code Sitemap](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki)
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
 
 * Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
@@ -545,7 +546,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total imperssions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. duplicate content, block content, content no more relevant).
+* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1), block content, content no more relevant).
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
@@ -729,6 +730,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
 | Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
+| Http Status  | [httpstatus.io](https://httpstatus.io/)|
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
@@ -831,6 +833,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 [21] https://www.wordstream.com/blog/ws/2015/04/30/seo-basics#_What_is_SEO
 
 [22] https://www.wordstream.com/blog/ws/2018/06/13/off-page-seo
+
+[23] https://www.gsqi.com/marketing-blog/hidden-seo-danger-wrong-header-response-code/
 
 <i>And various hyperlinks that can be found across the script.</i>
 
