@@ -502,8 +502,9 @@ Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html, https://www.xml-sitemaps.com/, [Google Code Sitemap](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki)
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
+    * Alternatively, use [meta noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing?hl=en&visit_id=637508015695898157-1502138530&rd=1) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
 
-* Control how easy or difficult is your site to be crawled: Have a "[<i>**robots.txt**</i>]((http://www.robotstxt.org/))" file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
+* Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by [search engines](https://developers.google.com/search/docs/advanced/robots/intro?hl=en&visit_id=637508015940119615-4275805846&rd=1) by setting *rules* of how the search engine will crawl, read, and navigate your web page.
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
 * Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different url adresses to provide the same content</ins> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
@@ -728,6 +729,16 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
 |Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | Generate Sitemaps | [Sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki) |
+
+
+
+
+| Robots.txt, meta NoIndex, meta NoFollow    |    | 
+
+
+
+
+
 | Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
 | Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
