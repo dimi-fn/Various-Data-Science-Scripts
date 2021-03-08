@@ -710,6 +710,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
 
+[Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
+
 
 ----
 
@@ -721,7 +723,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
 |Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
-| Link Building |  [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
+| Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
