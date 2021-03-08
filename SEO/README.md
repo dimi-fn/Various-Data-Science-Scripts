@@ -841,7 +841,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [23] https://www.gsqi.com/marketing-blog/hidden-seo-danger-wrong-header-response-code/
 
-<i>And various hyperlinks that can be found across the script.</i>
+<i>And various other sources found on hyperlinks across the script.</i>
 
 -----
 
