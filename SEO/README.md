@@ -799,41 +799,41 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [3] https://answerthepublic.com/
 
-[4] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
+[4] https://www.wordstream.com/blog/ws/2015/04/30/seo-basics#_What_is_SEO
 
-[5] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
+[5] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
 
-[6] https://www.ranks.nl/stopwords
+[6] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
 
-[7] http://infolab.stanford.edu/~backrub/google.html
+[7] https://www.ranks.nl/stopwords
 
-[8] https://www.researchgate.net/publication/227634540_RELEVANCE_A_Review_of_and_a_Framework_for_the_Thinking_on_the_Notion_in_Information_Science
+[8] http://infolab.stanford.edu/~backrub/google.html
 
-[9] https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
+[9] https://www.researchgate.net/publication/227634540_RELEVANCE_A_Review_of_and_a_Framework_for_the_Thinking_on_the_Notion_in_Information_Science
 
-[10] https://www.wordstream.com/domain-authority
+[10] https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
 
-[11] https://www.wordstream.com/inbound-links
+[11] https://www.wordstream.com/domain-authority
 
-[12] https://econsultancy.com/what-paid-search-ppc/
+[12] https://www.wordstream.com/inbound-links
 
-[13] https://www.wordstream.com/organic-search
+[13] https://econsultancy.com/what-paid-search-ppc/
 
-[14] https://developers.google.com/search/docs/guides/intro-structured-data
+[14] https://www.wordstream.com/organic-search
 
-[15] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
+[15] https://developers.google.com/search/docs/guides/intro-structured-data
 
-[16] https://developers.google.com/search/docs/advanced/sitemaps/overview
+[16] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
 
-[17] https://schema.org/docs/gs.html
+[17] https://developers.google.com/search/docs/advanced/sitemaps/overview
 
-[18] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
+[18] https://schema.org/docs/gs.html
 
-[19] https://support.google.com/webmasters/answer/9689846?hl=en
+[19] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
-[20] https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design
+[20] https://support.google.com/webmasters/answer/9689846?hl=en
 
-[21] https://www.wordstream.com/blog/ws/2015/04/30/seo-basics#_What_is_SEO
+[21] https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design
 
 [22] https://www.wordstream.com/blog/ws/2018/06/13/off-page-seo
 
