@@ -147,7 +147,7 @@ Some of the main relevance level categories comprised of the: System, Topical, a
 Authenticity in the context of SEO is know as <i>**Domain Authority**</i>. Essentially, it is a measure of how authoritative your domain is. 
 
 Contributing factors include:
-* the quantity and quality of links (hyperlinks) pointing to you from other websites (third-party domains), known as **inbound links**
+* the quantity and quality of links (hyperlinks) pointing to you from other websites (third-party domains), known as **inbound links** (or else **backlinks)
 * reviews - sentiment
 
 -----
@@ -708,6 +708,8 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 
 [Keyword Research Strategies, backlinko.com](https://backlinko.com/hub/seo/keyword-difficulty)
+
+[Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
 
 [Moz.com Community](https://moz.com/community)
 
