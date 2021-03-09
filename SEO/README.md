@@ -450,7 +450,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Title tag of page
 * Headings (h1..h5)
 * Keyword Optimization
-* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/documents/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1))
+* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
 * Images (e.g. using good alt descriptions)
 * Meta tags and meta descriptions
 * URL (good descriptive url but not too long)
@@ -502,7 +502,7 @@ Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html, https://www.xml-sitemaps.com/, [Google Code Sitemap](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps from Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
-    * Alternatively, use [meta noindex](https://developers.google.com/search/documents/advanced/crawling/block-indexing?hl=en&visit_id=637508015695898157-1502138530&rd=1) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
+    * Alternatively, use [meta noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
 
 * Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
@@ -547,7 +547,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total imperssions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/documents/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1), block content, content no more relevant).
+* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant).
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
@@ -730,15 +730,15 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |Keywords Explorer | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Search Volume | [Moz explorer](https://moz.com/explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
-|Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
+|Schema Markup - Microdata| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | Construct Sitemaps | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
-| Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/documents/advanced/crawling/block-indexing?hl=en&visit_id=637508019437039274-4207304253&rd=1),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
+| Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
 | Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
 | Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | Http Status  | [httpstatus.io](https://httpstatus.io/)|
 |Search your competitors' keywords and other attributes by URL | [Spyfu](https://www.spyfu.com/) |
-| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/documents/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
+| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
 |How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 
 
@@ -827,7 +827,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [16] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
 
-[17] https://developers.google.com/search/documents/advanced/sitemaps/overview
+[17] https://developers.google.com/search/docs/advanced/sitemaps/overview
 
 [18] https://schema.org/documents/gs.html
 
