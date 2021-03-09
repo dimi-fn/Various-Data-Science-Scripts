@@ -727,18 +727,18 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | Content| Link |
 |------|------|
 | test| * test <hr> * test |
-|Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
+|Keywords Explorer | [Moz explorer](https://moz.com/explorer), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Search Volume | [Moz explorer](https://moz.com/explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
 |Test your Schema & Markup| [schema.org documentation](https://schema.org/documents/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | Generate Sitemaps | [Sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps from Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
 | Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta noindex](https://developers.google.com/search/documents/advanced/crawling/block-indexing?hl=en&visit_id=637508019437039274-4207304253&rd=1),  [meta nofollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
-| Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
+| Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
 | Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | Http Status  | [httpstatus.io](https://httpstatus.io/)|
 |test | test |
-|Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
+|Search your competitors' keywords and other attributes by URL | [Spyfu](https://www.spyfu.com/) |
 | Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/documents/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
 |How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 
