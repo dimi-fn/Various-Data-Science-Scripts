@@ -99,7 +99,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
-    * **Stopwords** removal achieves <i><b>discrimation</b></i>: procedure of words removal that are common to most of the docs (words like "and", "are", "do", "am", "but")
+    * **Stopwords** removal achieves <i><b>discrimation</b></i>: it is the removal of words that are common to most of the documents (words like "and", "are", "do", "am", "but")
     * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
 
 * A medium number of words appear <ins>each</ins> in a medium number of documents (`medium-frequency words`) 
@@ -178,7 +178,7 @@ Precision in the context of Information Retrieval:
 </p>
 
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
-  * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant docs were retrieved</ins>.
+  * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>.
   * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
 
 
@@ -189,7 +189,7 @@ Recall in the context of Information Retrieval:
 </p>
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
-  * A perfect recall score of 1 means that all relevant docs were retrieved, but <ins>it says nothing about how many irrelevant docs were also retrieved</ins>.
+  * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>.
   * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
 <br><br>
@@ -450,7 +450,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Title tag of page
 * Headings (h1..h5)
 * Keyword Optimization
-* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1))
+* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/documents/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1))
 * Images (e.g. using good alt descriptions)
 * Meta tags and meta descriptions
 * URL (good descriptive url but not too long)
@@ -485,8 +485,8 @@ Focus on URL, title, description, headers, body text, and images:
 
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` html attributes with reference to your *images*
-  * embrace [**structured data**](https://developers.google.com/search/docs/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
-    * You can use websites like [schema.org](https://schema.org/docs/gs.html) to enhance ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
+  * embrace [**structured data**](https://developers.google.com/search/documents/guides/intro-structured-data) with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
+    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 <br>
 
@@ -502,9 +502,9 @@ Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html, https://www.xml-sitemaps.com/, [Google Code Sitemap](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps from Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)
   * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
-    * Alternatively, use [meta noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing?hl=en&visit_id=637508015695898157-1502138530&rd=1) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
+    * Alternatively, use [meta noindex](https://developers.google.com/search/documents/advanced/crawling/block-indexing?hl=en&visit_id=637508015695898157-1502138530&rd=1) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
 
-* Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by [search engines](https://developers.google.com/search/docs/advanced/robots/intro?hl=en&visit_id=637508015940119615-4275805846&rd=1) by setting *rules* of how the search engine will crawl, read, and navigate your web page.
+* Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by [search engines](https://developers.google.com/search/documents/advanced/robots/intro?hl=en&visit_id=637508015940119615-4275805846&rd=1) by setting *rules* of how the search engine will crawl, read, and navigate your web page.
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
 * Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different url adresses to provide the same content</ins> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
@@ -519,7 +519,7 @@ Ways to leverage SEO from a technical perspective:
 
 * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
 
-* <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata markup](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
+* <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata markup](https://schema.org/documents/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
   * **Microformatting**:
     * `JSON-LD` (JavaScript Object Notation for Linked Data)
     * `Embedded or inline Microdata`
@@ -547,7 +547,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total imperssions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1), block content, content no more relevant).
+* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/documents/advanced/guidelines/duplicate-content?hl=en&visit_id=637508002069249304-2953204183&rd=1), block content, content no more relevant).
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
@@ -674,7 +674,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 * Transcactions
 
 
-* In e-commerce it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/docs/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
+* In e-commerce it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
 )
   * also to take care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
@@ -729,16 +729,16 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | test| * test <hr> * test |
 |Keywords Explorer | [moz explorer](https://moz.com/explorer), [google trends](https://trends.google.com/trends/?geo=US), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
-|Test your Schema & Markup| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
+|Test your Schema & Markup| [schema.org documentation](https://schema.org/documents/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/structured-data/testing-tool), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | Generate Sitemaps | [Sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps from Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
-| Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing?hl=en&visit_id=637508019437039274-4207304253&rd=1),  [meta nofollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
+| Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta noindex](https://developers.google.com/search/documents/advanced/crawling/block-indexing?hl=en&visit_id=637508019437039274-4207304253&rd=1),  [meta nofollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
 | Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)|
 | Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | Http Status  | [httpstatus.io](https://httpstatus.io/)|
 |test | test |
 |Search your competitors' keywords and other attributes by URL | [spyfu.com](https://www.spyfu.com/) |
-| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/docs/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
+| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/search/documents/beginner/seo-starter-guide?hl=en&visit_id=637507377795503726-1034507158&rd=3) |
 |How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 
 
@@ -823,13 +823,13 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 [14] https://www.wordstream.com/organic-search
 
-[15] https://developers.google.com/search/docs/guides/intro-structured-data
+[15] https://developers.google.com/search/documents/guides/intro-structured-data
 
 [16] https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message
 
-[17] https://developers.google.com/search/docs/advanced/sitemaps/overview
+[17] https://developers.google.com/search/documents/advanced/sitemaps/overview
 
-[18] https://schema.org/docs/gs.html
+[18] https://schema.org/documents/gs.html
 
 [19] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
