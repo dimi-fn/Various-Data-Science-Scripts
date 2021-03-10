@@ -4,7 +4,7 @@
 
 ---
 
-# Search Engine Optimization (SEO) & Information Retrieval (IR)
+# Search Engine Optimization (SEO) & Information Retrieval (IR) Handbook
 
 ## Contents
 
@@ -739,7 +739,6 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 |Search your competitors' keywords and other attributes by URL | [Spyfu](https://www.spyfu.com/) |
 | **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
-
 
 
 ----
