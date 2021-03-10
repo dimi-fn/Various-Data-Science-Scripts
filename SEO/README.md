@@ -1,8 +1,6 @@
 **Work on progress*
 
-# SEO
-
----
+----
 
 # Search Engine Optimization (SEO) Handbook
 
