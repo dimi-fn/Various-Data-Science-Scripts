@@ -559,12 +559,12 @@ https://search.google.com/search-console/about
 It is about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
-  * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates)
+   * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates).
 
 
-2. `Creating`: Quality of content > quantity of content, and with relevant and useful sources to provide
+2. `Creating`: Quality of content should be greater than the quantity of content, the latter of which should be relevant and with useful sources to provide.
 
-3. `Managing`: Through [keyword attributes planning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes), [keyword research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research), [keyword distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution), and [content optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
+3. `Managing`: Through [keyword attributes planning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes), [keyword research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research), [keyword distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution), and [content optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization).
 
 ### Content Strategy
 
@@ -657,7 +657,7 @@ SEO effectiveness can be evaluated both from the traffic derived from the **orga
 Indicative **KPIs**:
 * The delta rate in organic search over time
 * Keyword (branded or not) search queries and ranking
-  * you can merge your [Google Analytics 360](https://marketingplatform.google.com/about/) account along with your [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console), and get various insights from that combination.
+  * you can merge your [Google Analytics 360](https://marketingplatform.google.com/about/) account along with your [Google Search Console](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#google-search-console) and get various insights from that combination.
 * Number of newsletters subscribers and various signups
 * Social followers
 
@@ -694,7 +694,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
 
-* If a specific keyword is being aggressively bid on in CPC markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
+* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
 ----
 
@@ -726,64 +726,19 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 | Content| Link |
 |------|------|
-| test| * test <hr> * test |
-|Keywords Explorer | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
+| **Keywords Explorer** | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | Search Volume | [Moz explorer](https://moz.com/explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
-| Measure site's Search Traffic & Performance | [Google Search Console](https://search.google.com/search-console/about) |
+| **Measure Site's Search Traffic & Performance** | [Google Search Console](https://search.google.com/search-console/about) |
 |Schema Markup - Microdata| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
-| Construct Sitemaps | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
-| Robots.txt, meta NoIndex, meta NoFollow    | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
-| Link Building | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
-| Page Speed | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
-| Mobile Friendliness Checker | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
-| Http Status  | [httpstatus.io](https://httpstatus.io/)|
+| **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
+| **Robots.txt, Meta NoIndex, Meta NoFollow** | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
+| **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
+| **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
+| **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
+| **Http Status**  | [httpstatus.io](https://httpstatus.io/)|
 |Search your competitors' keywords and other attributes by URL | [Spyfu](https://www.spyfu.com/) |
-| Learn SEO from Google Developers | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
-|How to segment your customers | [Persona Templates](https://offers.hubspot.com/persona-templates) |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
+| **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 
 
 
