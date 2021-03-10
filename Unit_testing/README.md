@@ -10,7 +10,6 @@
 
 -----
 
-
 ## Codility
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/) via unit testing. The problem details are described inside the respective subfolders and coding solutions.
@@ -36,7 +35,6 @@ Subfolders:
 * [**Perm_Missing_Element.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
 
 * [**permutation_check.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Counting_Elements/permutation_check.py): Check whether array A is a permutation [[8]](https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codility).
-
 
 ### Prefix Sums
 
@@ -70,12 +68,6 @@ Subfolders:
 
 ### Future Training
 [**Array_Inversion_Count.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Future_Training/Array_Inversion_Count.py): Compute number of inversion in an array [[13](https://www.geeksforgeeks.org/counting-inversions/)].
-
-
-
-
-
-
 
 
 ------
