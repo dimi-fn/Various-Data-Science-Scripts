@@ -4,12 +4,12 @@
 
 ---
 
-# Search Engine Optimization (SEO) & Information Retrieval (IR) Handbook
+# Search Engine Optimization (SEO) Handbook
 
 ## Contents
 
 * [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#acronyms)
-* [SEO in the context of IR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-ir)
+* [SEO in the context of Informational Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-ir)
   * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#information-behaviour--indexing)   
   * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#zipfian-distribution---stopwords---stemming)
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity)
@@ -65,7 +65,7 @@
 |TLD|Top Level Domains|
 
 
-# SEO in the context of IR
+# SEO in the context of Informational Retrieval (IR)
 
 A successful SEO strategy can be achieved by optimizing both for the `search engine` and the surfers/`consumers`.
 
