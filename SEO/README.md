@@ -9,7 +9,7 @@
 ## Contents
 
 * [Acronyms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#acronyms)
-* [SEO in the context of Informational Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-ir)
+* [SEO in the context of Informational Retrieval (IR)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-in-the-context-of-informational-retrieval-ir)
   * [Information Behaviour & Indexing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#information-behaviour--indexing)   
   * [Zipfian Distribution - Stopwords - Stemming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#zipfian-distribution---stopwords---stemming)
   * [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity)
