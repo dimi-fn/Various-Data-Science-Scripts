@@ -1,19 +1,12 @@
 # Unit Testing
 
+## Contents
 
-## Operations:
+* [Codility]()
+* [CodinGame]()
+* [Operations]()
 
-Testing that any two given numbers will give the right result for the operations of addition, subtraction, multiplication, and division via Unit Testing.
-* _"unit_test_sample.py"_ contains the sample to be tested, the testing of which is conducted via Unit Testing in the _"test_sample.py"_ file.
-* Thus, a total number of 4 tests are conducted, with 3 testing methods for each case except for the division case where one more method is added for checking the occurrence of dividing with zero.
-
----
-`if __name__ == '__main__':`
-
-* when a program is executed directly, the variable `name` is defined as `main` by default.
-* when it is imported as a module, the value of name is the name of the module.
-
----
+-----
 
 
 ## Codility
@@ -76,12 +69,36 @@ Subfolders:
 ### Future Training
 [**Array_Inversion_Count.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/Codility/Future_Training/Array_Inversion_Count.py): Compute number of inversion in an array [[13](https://www.geeksforgeeks.org/counting-inversions/)].
 
-3) folder: 
+
+
+
+
+
+
+
+------
+
 ## CodinGame
 
 * [**The_Descent.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit_testing/CodinGame/The%20Descent/The_Descent.py): a game for loops.
-    
------------
+
+-----
+
+## Operations:
+
+Testing that any two given numbers will give the right result for the operations of addition, subtraction, multiplication, and division via Unit Testing.
+* _"unit_test_sample.py"_ contains the sample to be tested, the testing of which is conducted via Unit Testing in the _"test_sample.py"_ file.
+* Thus, a total number of 4 tests are conducted, with 3 testing methods for each case except for the division case where one more method is added for checking the occurrence of dividing with zero.
+
+<br>
+
+`if __name__ == '__main__':`
+
+* when a program is executed directly, the variable `name` is defined as `main` by default.
+* when it is imported as a module, the value of name is the name of the module.
+
+---------
+
 ## Sources
 
 [1] https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
@@ -109,7 +126,5 @@ Subfolders:
 [12] https://stackoverflow.com/questions/6800193/what-is-the-most-efficient-way-of-finding-all-the-factors-of-a-number-in-python#answer-6800214
 
 [13] https://www.geeksforgeeks.org/counting-inversions/
-
-### General Sources
 
 [14] https://docs.python.org/3/library/unittest.html#unittest.TestCase.debug
