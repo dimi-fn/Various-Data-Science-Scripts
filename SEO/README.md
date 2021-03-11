@@ -441,7 +441,7 @@ There is a need for:
 
 ## "Inner" vs. "External" SEO
 
-The SEO procedures could generally be categorized into actions taken inside the website (*on-page SEO*), and optimizations undertaken off-page so that the website can get traffic.
+The SEO procedures could generally be categorized into actions taken inside the website (*on-page SEO*), and optimizations that are undertaken off-page so that the website can get traffic.
 
 <br>
 
