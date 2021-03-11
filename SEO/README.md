@@ -158,11 +158,11 @@ PageRank measures how likely a surfer is to visit a web page:
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/pagerank.PNG" alt="Pagerank"/>
 </p>
 
-* `PR(p)`: pagerank score of page p
-* `d`: the probability a surfer will continue clicking from this current website (85%), rather than jumping to new location (15%).
+* `PR(p)`: PageRank score of page p
+* `d`: the probability a surfer will continue clicking from this current website (85%), rather than jumping to a new location (15%).
 I.e., the user will go from website x to website y via the website x (website x recommended that) with a probability of 85%, rather than visiting website y directly by
 navigating to another page of the browser (15%)
-* `N`: total number of pages in collection
+* `N`: total number of pages in the collection
 * `pjEM(p)`: set of all pages linked to p
 * `L(pj)`: total number of links from page j
 
@@ -187,17 +187,17 @@ Recall in the context of Information Retrieval:
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
   * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>.
-  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is need for plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
+  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
 
 <br><br>
 
-Further research on Recommender System metrics include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity.
+Further research on Recommender System metrics may include: Mean Average Precision at K (MAP@K), Mean Average Recall at K (MAR@K), Coverage, Personalization, and Intra-list Similarity.
 
 -----
 
 # Organic Search vs. PPC
 
-* **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links pointing to your website, your domain authority, the relevance to user's search query, and other organic ranking factors
+* **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links pointing to your website, your domain authority, the relevance to the user's search query, and other organic ranking factors
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
 
@@ -227,7 +227,7 @@ What keywords would the user have to type in order to find your specific web pag
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website highter than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
 
 <br>
 
