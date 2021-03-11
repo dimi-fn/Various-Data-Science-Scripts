@@ -231,7 +231,7 @@ Keywords *research plan* regarding: `search volume`, `relevance`, and `competiti
 
 <br>
 
-**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or group of keywords might theoretically lead to your website successfully, they might not be popular queries from users. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
 Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
 
 <br>
@@ -240,9 +240,9 @@ Tools for researching the **potential monthly search volume** of keywords: [moz 
 
 <br>
 
-<ins>**SERP**(Search Engine Results Page) **Analysis** Report</ins>: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
+<ins>**SERP** (Search Engine Results Page) **Analysis** Report</ins>: It is the process of analyzing the top web pages that rank for a specific keyword or topic. For instance, let's say you sell cars and you think that if someone types "buy a car" will find you. You can type that at the SERP Report and find out. How your website would rank bases on a series of given keywords?
 
-For example, if for a group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding to that. 
+For example, if for a group of keywords at moz.com the search volume is high but the difficulty grade is low, this means that a lot of users have searched for that query but not too many websites are suitably responding based on that query. 
 
 <br>
 
