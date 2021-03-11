@@ -77,10 +77,9 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 <i><b>Information Behaviour</b></i> describes the ways through which people seek and utilize information. It is a broader term than that of <i><b>Information Seeking</b></i> because through Information Behaviour we want to give answers to questions such as:
 
 * How do people start a search?
-* How people seek information and how do they utilize it?
+* How do users seek information and how do they utilize it?
 * What makes people search differently?
 * What types of search engines require different solutions?
-
 
 ## Zipfian Distribution - Stopwords - Stemming
 
@@ -97,17 +96,17 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
-    * **Stopwords** removal achieves <i><b>discrimation</b></i>: it is the removal of words that are common to most of the documents (words like "and", "are", "do", "am", "but")
+    * **Stopwords** removal achieves <i><b>discrimination</b></i>: it is the removal of words that are common to most of the documents (words like "and", "are", "do", "am", "but")
     * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
 
 * A medium number of words appear <ins>each</ins> in a medium number of documents (`medium-frequency words`) 
-  * These are the "**best**" words in the IR context ==> they represent some recognisable concept (satisfactory *description* level) that doesn't seem to be meaningless (satisfactory *discrimination* level)
+  * These are the "**best**" words in the IR context ==> they represent some recognizable concept (satisfactory *description* level) that does not seem to be meaningless (satisfactory *discrimination* level)
 
 * A large number of words appear <ins>each</ins> in a small number of documents (`low-frequency words`)
 
 -----
 
-<br>Other main terminlogies, topics, and sections around the above contents are:
+<br>Other main terminologies, topics, and sections around the above contents are:
 * Term Weighting (t<sub>w</sub>)
   * term frequency (t<sub>f</sub>), inverse document frequency (idf)
 * Retrieval Models
@@ -120,14 +119,14 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 
 ## Relevance & Authenticity
-Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **pagerank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticative.
+Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank ** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticated.
 
 ### Relevance
 It is determined by various factors such as:
 * content and code implementation
-* thematic and semantic (metadata) connections between query and your website
+* thematic and semantic (metadata) connections between the query and website's content
 
-A tricky concept about *relevance* in IR is that `we want our document to have a good description regarding its content (description), but at the same time we also want that document to be discriminated from other documents (discrimination)`. The problem here is that if we tried to describe our document with 'common sense' (i.e. in the way everybody would describe it) then we would probably not achive a satisfactory document descrimination because this is how everybody described similar documents as well!
+A tricky concept about *relevance* in IR is that `we want our document to have a good description regarding its content (description), but at the same time we also want that document to be discriminated against other documents (discrimination)`. The problem here is that if we tried to describe our document with 'common sense' (i.e. in the way everybody would describe it) then we would probably not achieve satisfactory document discrimination because this is how everybody described similar documents as well!
 
 
 **Relevance Levels**:
@@ -136,13 +135,13 @@ Some of the main relevance level categories comprised of the: System, Topical, a
 
 * **System relevance level**: the relationship between query and document
 
-* **Topical relevance levels**: the relationship between topic of query and topic of document (i.e. not just keyword matching)
+* **Topical relevance levels**: the relationship between the topic of query and topic of document (i.e. not just keyword matching)
 
-* **Cognitive relevance level**: the relationship between user's state of knowledge and texts (i.e. the ability to undestand the information given)
+* **Cognitive relevance level**: the relationship between user's state of knowledge and texts (i.e. the ability to understand the information given)
 
 
 ### Authenticity
-Authenticity in the context of SEO is know as <i>**Domain Authority**</i>. Essentially, it is a measure of how authoritative your domain is. 
+Authenticity in the context of SEO is known as <i>**Domain Authority**</i>. Essentially, it is a measure of how authoritative your domain is. 
 
 Contributing factors include:
 * the quantity and quality of links (hyperlinks) pointing to you from other websites (third-party domains), known as **inbound links** (or else **backlinks)
