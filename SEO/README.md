@@ -250,17 +250,19 @@ For example, if for a group of keywords at moz.com the search volume is high but
 
 Keyword research has to be conducted iteratively through the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords.
 
-**1) Brainstorming** : *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
+**1) Brainstorming**: *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about) (former Google Webmaster Tools)
 
-* **Keyword expansion tools**: They can give potentially useful keywords regarding a topic. E.g. How people are searching for products/services on the web and what keywords are they using for finding out a specifim item? In this way you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
+* **Keyword expansion tools**: They can give potentially useful keywords regarding a topic. E.g. How people are searching for products/services on the web and what keywords are they using for finding out a specific item? In this way, you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
 
 <br>
 
-**2) Search Volume Metrics**: *What is the current state of **demand** for those keywords?* ==> Long tail keywords, descriptive keywords.
+**2) Search Volume Metrics**: *What is the current state of **demand** for those keywords?*
 
-For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g. bmw black cars, sports fast cars, electric cars, cars for sale in germany, red ferrari in netherlands etc. Focusing on those *long tail keywords* might give you better probabilities of higher ranking than focusing on the very competitive query "car".
+You should also focus on long-tail keywords, i.e. the descriptive keywords.
+
+For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g. BMW black cars, sports fast cars, electric cars, cars for sale in Germany, red Ferrari in the Netherlands, etc. Focusing on those long-tail keywords might give you better probabilities of higher ranking than focusing on the very competitive query "car".
 
 <br>
 
@@ -268,9 +270,9 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 
 ----
 
-<br>The following twelve images (derived from https://answerthepublic.com/) depict three search queries examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query there are four analytics insights: questions, prepositions, comparisons, and related. 
+<br>The following twelve images (derived from https://answerthepublic.com/) depict three search query examples with four images per query, giving analytics insights in the context of SEO. The first four photos are with regard to the search query "**Data Science**", the following four regarding "**Machine Learning**", and the rest of the images with respect to query "**Artificial Intelligence**". For every search query, there are four analytics insights: questions, prepositions, comparisons, and related. 
 * `Questions`: how users ask a question
-* `Prepositions`: what prepositions users use for aksing that query
+* `Prepositions`: what prepositions users use for asking that query
 * `Comparisons`: what comparisons do users think of when they type their query
 * `Related`: Related queries to the main query's subject
 
@@ -406,15 +408,15 @@ Lastly, the data describing the images can be integrated into [CSV files](https:
 <br>
 
 ## Keyword Distribution
-It is the procedure of how you will asign and distribute your specific keywords across your website's pages.
+It is the procedure of how you will assign and distribute your specific keywords across your website's pages.
 
 In this way:
-* you can <i>**map**</i> keywords to pages: you can enhance your targeted keywords by figuring out which keywords you should asign to which pages
-* you can <i>**keep track**</i> of keywords that need pages (or pages that need keyword if there was no keyword asignment)
+* you can <i>**map**</i> keywords to pages: you can enhance your targeted keywords by figuring out which keywords you should assign to which pages
+* you can <i>**keep track**</i> of keywords that need pages (or pages that need keyword if there was no keyword assignment)
 * you can detect and avoid keyword <i>**duplicates**</i> (search engine algorithms "prefer" unique and relevant information across your pages)
 * you can reverse engineer the <i>**creation of the content**</i> of a new page to your website by first filling out the keyword distribution file. In this way, you would first decide on 
-what keyword you are targeting on, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful.
-* you can <i>**adapt**</i> quickly: you can come back to this speadsheet and add or redefine your keywords, as well as review the other metadata.
+what keyword you are targeting, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful.
+* you can <i>**adapt**</i> quickly: you can come back to this spreadsheet and add or redefine your keywords, as well as review the other metadata.
 
 ## Keyword Distribution Diagram
 
@@ -424,7 +426,7 @@ what keyword you are targeting on, and then you would write the relevant content
 | *Cars*  |  || ||  |
 | Mercedes  | mercedes-benz |/home/mercedes.html| Find and buy the best mercedes-benz cars in the world| Here is why you will find the best mercedes-benz cars in the world on my website (..)|  Best Mercedes-Benz in Germany|
 | BMW | bmw car |/home/bmw.html| Find and buy the best bwm cars in the world| Here is why you will find the best BMW cars in the world on my website (..) | Fastest BMW cars in Austria |
-| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the audi BMW cars in the world on my website (..)| Best Audi cars in Italia |
+| AUDI | audi car |/home/audi.html|  Find and buy the best audi cars in the world| Here is why you will find the best audi cars in the world on my website (..)| Best Audi cars in Italy |
 
 ----
 
