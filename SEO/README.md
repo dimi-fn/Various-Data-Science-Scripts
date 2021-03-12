@@ -175,8 +175,8 @@ Precision in the context of Information Retrieval:
 </p>
 
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
-  * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>.
-  * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results.
+  * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>
+  * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results
 
 
 ### Recall
@@ -186,8 +186,8 @@ Recall in the context of Information Retrieval:
 </p>
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
-  * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>.
-  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent.
+  * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>
+  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent
 
 <br><br>
 
@@ -232,7 +232,7 @@ Keywords *research plan* regarding: `search volume`, `relevance`, and `competiti
 <br>
 
 **2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
-Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US)
+Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US).
 
 <br>
 
@@ -415,10 +415,10 @@ In this way:
 * you can <i>**keep track**</i> of keywords that need pages (or pages that need keyword if there was no keyword assignment)
 * you can detect and avoid keyword <i>**duplicates**</i> (search engine algorithms "prefer" unique and relevant information across your pages)
 * you can reverse engineer the <i>**creation of the content**</i> of a new page to your website by first filling out the keyword distribution file. In this way, you would first decide on 
-what keyword you are targeting, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful.
-* you can <i>**adapt**</i> quickly: you can come back to this spreadsheet and add or redefine your keywords, as well as review the other metadata.
+what keyword you are targeting, and then you would write the relevant content based on that keyword. In such a way, your content is more likely to be SEO successful
+* you can <i>**adapt**</i> quickly: you can come back to this spreadsheet and add or redefine your keywords, as well as review the other metadata
 
-## Keyword Distribution Diagram
+## Keyword Distribution Diagram - Example
 
 | Structure  | Keywords | URL (of specific page)| The title tag| Meta-description| the h1 header title|
 |---------| -------------------------|----------|--------|-----------------|-------------------------|
@@ -478,14 +478,14 @@ Focus on URL, title, description, headers, body text, and images:
   * *meta* <i>**title**</i> *tag* optimization
     * make sure your <title_description> tag is successful (*"title" tag in HTML"*), and that it contains (some of) your target keywords for the best SEO results
   * <i>**headers**</i>: HTML `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
-      * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing.
+      * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing
 
-* Optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
+* Optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time)
 
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
-  * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
-    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
+  * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
+    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
 
 <br>
 
@@ -500,23 +500,23 @@ Focus on URL, title, description, headers, body text, and images:
 Ways to leverage SEO from a technical perspective:
 
 * Construct HTML and <i>**XML sitemap**</i>: https://www.sitemaps.org/index.html, https://www.xml-sitemaps.com/, [Google Code Sitemap](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps from Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom)
-  * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.
+  * A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them
     * Alternatively, use [meta noindex](https://developers.google.com/search/docs/advanced/crawling/block-indexing) / [meta nofollow tags](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)
 
-* Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
+* Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
 * Although every separate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different URL addresses to provide the same content</ins> because this would lead to *confusion* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
   * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
-  indicate which is the primary URL for duplicate content across your website pages.
+  indicate which is the primary URL for duplicate content across your website pages
     * Another way to indicate that is directly via the *crawl URL parameters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g. when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
-  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way, you tell search engines to apply all the necessary transformations to the content that moved from the old URL to the new one.
-    * `Apart from the above 301 and 302 redirect issues you always want your pages to return the status code of 200, and you never want the status code of 403 (page is forbidden), 404 (page not found), and 500 (application error)`.
+  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way, you tell search engines to apply all the necessary transformations to the content that moved from the old URL to the new one
+    * `Apart from the above 301 and 302 redirect issues you always want your pages to return the status code of 200, and you never want the status code of 403 (page is forbidden), 404 (page not found), and 500 (application error)`
 
-* When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
+* When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
 
 * <i>**Microformats**</i> and <i>**Microdata**</i> with `schema`: `Semantic` attributes of content can be more efficiently translated by search engines with microdata ==> [schema.org Microdata markup](https://schema.org/docs/gs.html) ==> it provides documentation for specific mark up code syntax for several types of content that can be used in order to help search engines identify specific content as well as the characteristic attributes and metadata of that content across your web pages.
   * **Microformatting**:
@@ -530,8 +530,7 @@ Serving up your website's pages fast and reliably => *quality experience*
 * <i>**Visibility**</i> of your website: physical `location` of the web server that hosts your website ==> loading time for visitors that are far away from that location
   * you want to geographically locate your web server to a place that would be relatively near to the majority of your clients
     * if your clients are spread all-over the world relatively equally: use a web host that can distribute requests for your website pages globally
-      * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users.
-
+      * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users
 
 * <i>**Cashing**</i>: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the server will "remember" the content for a period of time at a future and subsequent load request)
 
@@ -546,7 +545,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total impressions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant).
+* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant)
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
@@ -558,11 +557,11 @@ https://search.google.com/search-console/about
 It is about *planning*, *creating*, and *managing* a useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested in your product/services
-   * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates).
+   * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates)
 
-2. `Creating`: Quality of content should be greater than the quantity of content, the latter of which should be relevant and with useful sources to provide.
+2. `Creating`: Quality of content should be greater than the quantity of content, the latter of which should be relevant and with useful sources to provide
 
-3. `Managing`: Through [keyword attributes planning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes), [keyword research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research), [keyword distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution), and [content optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization).
+3. `Managing`: Through [keyword attributes planning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-attributes), [keyword research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research), [keyword distribution](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-distribution), and [content optimization](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization)
 
 ### Content Strategy
 
@@ -673,9 +672,9 @@ If your business organization is E-commerce, then other KPIs might be:
 
 <br>
 
-* In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
+In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
 )
-  * also to take care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
+* take, also, care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
 * [Google business listing](https://www.google.com/business/) for enhancing local business SEO (e.g. to appear on maps locally)
 
