@@ -666,13 +666,14 @@ Indicative **KPIs**:
 
 ## E-Commerce
 
-If your business organization is <ins>E-commerce</ins>, then other KPIs might be:
+If your business organization is E-commerce, then other KPIs might be:
 * Revenue
 * Average order values
-* Transcactions
+* Transactions
 
+<br>
 
-* In e-commerce it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
+* In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
 )
   * also to take care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
@@ -683,16 +684,15 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 # Rules of thumb
 
-* You probably won't have your webpage optimized if you first don't know at which group of keywords you should be focusing on (through [keywords research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research) and more).
+* You probably won't have your webpage optimized if you first don't know which group of keywords you should be focusing on (through [keywords research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#keyword-research) and more).
 
+* If you have a high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
 
-* If you have high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
+* If the search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
 
-* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest market opportunity.
+* Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
-* Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated if there is a lot of competition around those keywords).
-
-* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that a significant competition from paid ads exists, and developing an alternative keyword might be necessary.
+* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
 ----
 
@@ -732,12 +732,10 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
-| **Http Status**  | [httpstatus.io](https://httpstatus.io/)|
+| **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
 | **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
-
-
 
 ----
 
