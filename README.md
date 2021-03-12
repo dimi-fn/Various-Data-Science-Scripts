@@ -38,7 +38,7 @@ How to set up a virtual environment and generate a `requirements.txt` file with 
 
 -----
 
-* Machine Learning
+* [Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Machine_Learning)
     * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Machine_Learning/Maths_for_ML)
 
 ------
@@ -73,8 +73,8 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 
 -------
 
-* Programming Languages
-    * [Python vs. JavaScript](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr_Lang)
+* [Programming Languages](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr_Lang)
+    * Python vs. JavaScript
 
 ------
 
