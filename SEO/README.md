@@ -725,6 +725,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | **Keywords Explorer** | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | **Search Volume** | [Moz explorer](https://moz.com/explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
 | **Measure Site's Search Traffic & Performance** | [Google Search Console](https://search.google.com/search-console/about) |
+|**SEO Performance Evaluation** | [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics) |
 |**Schema Markup - Microdata**| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
 | **Robots.txt, Meta NoIndex, Meta NoFollow** | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
@@ -732,9 +733,10 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | **Http Status**  | [httpstatus.io](https://httpstatus.io/)|
+| **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
 | **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
-| **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
+
 
 
 ----
