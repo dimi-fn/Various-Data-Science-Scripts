@@ -529,13 +529,13 @@ Serving up your website's pages fast and reliably => *quality experience*
 
 * <i>**Visibility**</i> of your website: physical `location` of the web server that hosts your website ==> loading time for visitors that are far away from that location
   * you want to geographically locate your web server to a place that would be relatively near to the majority of your clients
-    * if your clients are spead all-over the world relatively equally: use a web host that can distribute requests for your website pages globally
+    * if your clients are spread all-over the world relatively equally: use a web host that can distribute requests for your website pages globally
       * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users.
 
 
-* <i>**Cashing**</i>: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the servel will "remember" the content for a period of time at a future and subsequent load request)
+* <i>**Cashing**</i>: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the server will "remember" the content for a period of time at a future and subsequent load request)
 
-* Server <i>**reliability**</i>: prefer `HTTPs` and not the HTTP protocol, not only because it is safer but also because it can boost your ranking compared to using http ([http deprecation](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure))
+* Server <i>**reliability**</i>: prefer `HTTPS` and not the HTTP protocol, not only because it is safer but also because it can boost your ranking compared to using HTTP ([HTTP deprecation](https://www.chromium.org/Home/chromium-security/marking-http-as-non-secure))
 
 ### Google Search Console
 
@@ -544,22 +544,21 @@ https://search.google.com/search-console/about
 
 * add property => URL prefix => verification of domain => website verification
 
-* through the "*Search results*" you can view your *total clicks, total imperssions, average clickthrough rate (CTR)*, and much more
+* through the "*Search results*" you can view your *total clicks, total impressions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the google search console, you can reduce search engine crawl errors, adress your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist at your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant).
+* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant).
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
-* via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en) you can put the website parts of your websites that you do not want to be indexed by search engines (see about *robots.txt* or *noindex meta tag* [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
+* via [Removals](https://support.google.com/webmasters/answer/9689846?hl=en), you can put the website parts of your websites that you do not want to be indexed by search engines (see about *robots.txt* or *noindex meta tag* [here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links))
   * submit specified directories: do not put your root domain URL as this will make your whole website gone from the search indexing perspective
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
 ## Content Planning & Strategy
 It is about *planning*, *creating*, and *managing* a useful and usable content.
 
-1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested to your product/services
+1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested in your product/services
    * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates).
-
 
 2. `Creating`: Quality of content should be greater than the quantity of content, the latter of which should be relevant and with useful sources to provide.
 
@@ -591,7 +590,7 @@ It is about *planning*, *creating*, and *managing* a useful and usable content.
 **Subject content**:
 * Educational
 * Statistical
-* Technical / Procedurar 
+* Technical / Procedural 
 * Informational 
 * News
 
@@ -616,7 +615,7 @@ It is about *planning*, *creating*, and *managing* a useful and usable content.
 * Use **anchor text** at the links instead of just "click here" links, with meaningful text description upon the links
 
 * You want qualitative links pointing back to your website, i.e. from authoritative and popular websites
-  * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sence a non-relative website to provide a link towards your website
+  * however, the more relative those links to your content are, the better (*thematic connections*), i.e. it would not make much sense for a non-relative website to provide a link towards your website
 
 #### External vs. Internal Links
 
@@ -629,7 +628,7 @@ Via the internal links of your website, search engines can get a good idea of th
 
 
 2. <i>**Contextual Links**</i>:
-* When e.g. a viewer clicks to a link embedded in some content, and jumbs e.g. from page one to the second page, i.e. when the content of some page references content of another page from the same website
+* When e.g. a viewer clicks on a link embedded in some content and jumps e.g. from page one to the second page, i.e. when the content of some page references the content of another page from the same website
 
 <br>
 
@@ -637,7 +636,7 @@ Via the internal links of your website, search engines can get a good idea of th
 
 Links from external sources that point towards your website are perceived as confidence votes by the search engines.
 
-* web directories (selectively and trustworthy, after an approved review) / local business directories / social media / websites with <ins>relevant</ins> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
+* web directories (selectively and trustworthy, after an approved review) / local business directories / social media/ websites with <ins>relevant</ins> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
   * e.g. links from non-profit or educational organizations can be quite trustworthy
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)
@@ -649,7 +648,7 @@ Links from external sources that point towards your website are perceived as con
 
 # SEO Performance Evaluation
 
-SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (**KPIs**)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens. (But first of all, you should define your business goals and KPIs)
+SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (**KPIs**)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens. (But first of all, you should define your business goals and KPIs).
 
 <br>
 
