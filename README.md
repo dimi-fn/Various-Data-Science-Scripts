@@ -11,9 +11,11 @@ Contents
 * [Algorithms & Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures)
     * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Algorithms)
     * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_Types_%26_Structures)
+
 * [Object-Oriented Programming (OOP)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/OOP)
 
 Classes and objects, encapsulation, inheritance, polymorphism, and exceptions in Python.
+
 
 * [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional_Programming)
 
