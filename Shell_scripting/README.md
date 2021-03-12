@@ -6,6 +6,7 @@
         * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
 * [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
+    * [Hard vs Soft (Symbolic) Copy]()
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
@@ -139,6 +140,33 @@
 
 * python version: `python3 --version`
 
+----
+
+
+### Hard vs Soft (Symbolic) Copy
+
+Files on Unix file systems are stored via `inodes`. An inode is a number that the filesystem  uses to *map* a file name to a particular location on the physical hard drive.
+
+
+| **Hard Copy** | **Soft (Symbolic) Copy** |
+| ------ | -------------------------- |
+| mirror copy of the original file | actual link to the original file |
+| if you delete the original file, the hard link will still  carry the data | if you delete the file, the soft link has no value because it points to a non-existent file |
+| they are pointers to the same location of the disc | they work like shortcuts|
+| it cannot cross the file system: it works only on the same filesystem, you cannot link to external filesystems (disks) | it can cross the file system|
+| it allows to link to directories| cannot link directories|
+| same inode number and permissions with those of original file| inode number and file permissions are different from the original file, hence permission will not be updated |
+| it carries the actual contents of original file even if the original file is moved or removed| it carries only the path, not the contents of original file |
+
+**Creating a hard copy**
+
+`ln <original> <link>`, e.g. `ln vehicles.txt cars.txt` ==> Content will be updated for both. If origin file is deleted and you do `$ cat cars.txt`, the link will still contain the original file
+
+<br>
+
+**Creating a soft link**
+
+`ln -s <original> <link>`, e.g. `ln -s vehicles.txt cars.txt`  ==> link will have the '@' ==> if original file is deleted and you do `$ cat cars.txt`, the soft link will be broken (it will give 'No such file or directory')
 
 
 
@@ -160,16 +188,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+-----
 
 ## Windows Terminal Commands
 
@@ -193,10 +212,14 @@
 
 ### Sources
 
-[1] https://www.linkedin.com/learning/python-essential-training-2018/
+[1] https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo
 
 [2] https://medium.com/@saswat.sipun/shell-scripting-cheat-sheet-c0ecfb80391
 
 [3] https://help.ubuntu.com/community/Beginners/BashScripting
 
-[4] https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo
+[4] https://www.linkedin.com/learning/python-essential-training-2018/ 
+
+[5] https://askubuntu.com/questions/432284/are-hard-links-equivalent-to-windows-shortcuts?newreg=bedfb396262d490d86f7fab8bd8fe0f2
+
+[6] https://ostechnix.com/explaining-soft-link-and-hard-link-in-linux-with-examples/
