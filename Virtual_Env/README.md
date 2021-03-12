@@ -24,7 +24,7 @@ Have python installed on your system. On linux you will firstly need to install 
 1. Create your **project environment**: create a folder somewhere in your system where your project will take place. Let's suppose the creation 
 of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->type-->
 
-        mkdir venv_project
+        $ mkdir venv_project
 
 
 2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type--> "python -m venv your_venv_name"
