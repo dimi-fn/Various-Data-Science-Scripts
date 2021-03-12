@@ -32,19 +32,19 @@ of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->ty
 Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\venv_project -->type--> 
     
 
-    python -m venv venv1
+    $ python -m venv venv1
 
 3. You will now have successfully created your virtual environment if you are seeing three folders named "**Include**", "**Lib**", "**Scripts**", and one "**pyenv.cfg**" file created inside the venv directory.
 
 - To **activate** your virtual environment: 
     * navigate inside the project path (C:\Users\the path you have chosen\venv_project\venv1)
     * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\venv_project\venv1\Scripts)
-    * Type: `activate.bat`
+    * Type: `$ activate.bat`
     * You will now notice the change in the start of your path in the cmd (it starts with "(venv1) C:\Users\..\"), and the virtual environment is now activated.
         
         * If you type "*where python*", the 1st will be the venv path.
-        * If you type "`pip list`", you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
-        * If you type "`pip freeze`", you will only see the pips of the venv that you will be installing from now on. In this case, you would now be seeing nothing since you haven't installed any packages on this venv yet.
+        * If you type `$ pip list`, you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
+        * If you type `$ pip freeze`, you will only see the pips of the venv that you will be installing from now on. In this case, you would now be seeing nothing since you haven't installed any packages on this venv yet.
 
 - Now you can install pip packages, which will only be installed here, with pip install "package".
 
@@ -56,7 +56,7 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
     * The above explains the main *difference between pip list and pip freeze*.
 
 - To **deactivate** your venv:
-    * `deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
+    * `$ deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
 
 - To **delete** your venv:
     * delete the directory with rmdir "venv_project" /s (being outside of that path in the terminal), or just delete the virtual environment folder manually.
@@ -83,7 +83,7 @@ In order to **generate a requirements.txt file** which could potentially be used
 * Check your installed-only for this project packages via: "`pip freeze`".
 * Extract those to a txt file via the command:
 
-        pip freeze > requirements.txt
+        $ pip freeze > requirements.txt
  
  This will grab the packages created only in this venv project, it will write them in the right format of the type: `"package"=="version_number"`, and it will generate a requirements.txt text file with the packages and its versions installed only on that venv project.
 
@@ -95,12 +95,12 @@ In order to **generate a requirements.txt file** which could potentially be used
 
 * to **install the packages** cmd:
 
-            pip install -r requirements.txt
+            $ pip install -r requirements.txt
 
 
     * if you chose not to copy paste the requirements.txt into your venv project, then you just have to specify the path where the requirmenets.txt is located:
 
-            pip install -r path\requirements.txt
+            $ pip install -r path\requirements.txt
 
 
 * This will install on your system the particular packages along with their specific versions with regard to the project that the developer has used.
