@@ -452,8 +452,8 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
 * Images (e.g. using good alt descriptions)
 * Meta tags and meta descriptions
-* URL (good descriptive url but not too long)
-* Header Response Code (http statuses)
+* URL (good descriptive URL but not too long)
+* Header Response Code (HTTP statuses)
 * Loading time of website (page speed)
 * Mobile Friendliness
 * Quality of content and informativeness (to keep your content up-to-date)
@@ -471,21 +471,21 @@ The SEO procedures could generally be categorized into actions taken inside the 
 Focus on URL, title, description, headers, body text, and images:
 
 
-* <i>**URL**</i>: the keyword phrase that you are targeting should be included in URL if that is possible 
+* <i>**URL**</i>: the keyword phrase that you are targeting should be included in the URL if that is possible 
   * construction of a *good URL*: descriptive but short, and concise as possible
 
 * <i>**Metadata**</i>
   * *meta* <i>**title**</i> *tag* optimization
-    * make sure your <title_description> tag is successful (*"title" tag in html"*), and that it contains (some of) your target keywords for the best SEO results
-  * <i>**headers**</i>: html `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
+    * make sure your <title_description> tag is successful (*"title" tag in HTML"*), and that it contains (some of) your target keywords for the best SEO results
+  * <i>**headers**</i>: HTML `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
       * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing.
 
 * Optimize your content (<i>**body text**</i>) first for your *customers* and then for *search engines* (since the Natural Language Progress (NLP) has tremendously improved, search engines can comprehend text like human beings better and better over time). 
 
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
-  * improve your `"src"` and `"alt"` html attributes with reference to your *images*
-  * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
-    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance ycour schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
+  * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
+  * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more.
+    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message).
 
 <br>
 
@@ -506,14 +506,14 @@ Ways to leverage SEO from a technical perspective:
 * Control how easy or difficult is your site to be crawled: Have a [robots.txt](http://www.robotstxt.org/) file on your main root directory for content you don't want to be discovered by search engines by setting *rules* of how the search engine will crawl, read, and navigate your web page.
   * However, if you don't want that "hidden" content to affect your ranking (i.e. to be ranked higher because of that undesired content that might crosscheck you with undesired user queries), then instead of robots.txt use "`meta name="robots" content="noindex"`"
 
-* Although every seperate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different url adresses to provide the same content</ins> because this would lead to *confusions* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
+* Although every separate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different URL addresses to provide the same content</ins> because this would lead to *confusion* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
   * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
-  indicate which is the primary URL for dublicate content across you website pages.
-    * Another way to indicate that is directly via the *crawl URL paremeters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+  indicate which is the primary URL for duplicate content across your website pages.
+    * Another way to indicate that is directly via the *crawl URL parameters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
-* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however this might not update directly the search engines. These kind of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
-  * Temporary redirections: e.g. when you want to display a temporaral content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
-  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way you tell search engines to apply all the necessary tranformations to the content that moved from the old URL to the new one.
+* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
+  * Temporary redirections: e.g. when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
+  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way, you tell search engines to apply all the necessary transformations to the content that moved from the old URL to the new one.
     * `Apart from the above 301 and 302 redirect issues you always want your pages to return the status code of 200, and you never want the status code of 403 (page is forbidden), 404 (page not found), and 500 (application error)`.
 
 * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines.
@@ -699,7 +699,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 # More to Read
 
-* [Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo)
+* [Beginner's Guide to SEO by Moz](https://moz.com/beginners-guide-to-seo)
 
 * [Moz.com Community](https://moz.com/community)
 
@@ -733,7 +733,7 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | **Http Status**  | [httpstatus.io](https://httpstatus.io/)|
-|**Search your competitors' keywords and other attributes by URL** | [Spyfu](https://www.spyfu.com/) |
+|**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
 | **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 
