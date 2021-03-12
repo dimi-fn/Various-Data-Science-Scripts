@@ -62,51 +62,122 @@
 
 ## Bash Commands (Linux - MacOS - WSL)
 
-- updates: `sudo apt-get update` | `sudo apt-get upgrade`
+* updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
-- `reboot` / `shutdown now`
+* `reboot` / `shutdown now` / `systemctl suspend` / `systemctl hibernate`
 
-- `cd` / `cd ..` / `ls`
+* Ubuntu version: `df-h` `lsb_release -a` 
 
-- Ubuntu version: `lsb_release -a` 
+* `cd` / `cd ..` 
 
-- create folder/directory: `mkdir "dirname"`
+* `ls`
+    * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
+    * recursive output: `ls -R`
 
-- delete file `rm "filename"`
+* the manual page of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
+    * `tldr <command>`: quick guidance info for commands, e.g. '$ tldr ls'
 
-- remove folder/directory:
-    * if empty: `rmdir "foldername"`
-    * if non-empty: `rm -r "foldername"`
+* locate where you are: `pwd`
 
-- open file: `xdg-open "filename"`
+* clear terminal: `clear`
 
-- python version: `python3 --version`
+* disc space / hard drive: `ncdu`
 
-- clear terminal: `clear`
+* ip details `nmcli device show`
 
-- ip details `nmcli device show`
 
-- disc space `ncdu`
+<br>
+
+* open file/directory/application `open <file_name>` `open <dir_name>` `open <app_name>`
+
+
+<br>
+
+
+* create directory (folder): `mkdir "dirname"`
+    * create two folders in one command: `mkdir <dir1> <dir2>` 
+    * create folder and nested subfolders: `mkdir -p <main_folder>/<subfolder>`
+
+* delete directory
+    * if dir is empty: `rmdir <dirname>` / `rmdir <dir1> <dir2>`
+    * if dir is not empty: `rm -rf <non_empty_folder>` / `rm -rf <non_empty_folder> <another_non_empty_folder>`
+
+* copy a folder: `cp -r <folder_to_be_copied> <renamed_copied_and_pasted_folder>`: 
+
+
+
+<br>
+
+* create file: `touch <filename>`
+
+* copy a file: `cp <file_to_be_copied> <renamed_copied_and_pasted_file>`
+
+* move file (like cut and paste): `mv <file_to_be_moved> <dir_destination>`
+
+* delete file: `rm <filename>`
+
+* open file: `xdg-open <filename>`
+
+
+<br>
+
+
+* find files based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
+
+
+<br>
+
+* python version: `python3 --version`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Windows Terminal Commands
 
-- `cd` / `cd ..` / `dir`
+* `cd` / `cd ..` / `dir`
 
-- clear terminal: `cls`
+* clear terminal: `cls`
 
-- create folder/directory : `mkdir "directory name"`
+* create folder/directory : `mkdir "directory name"`
 
-- cut and paste file `move "doc.txt" C:\path`
+* cut and paste file `move "doc.txt" C:\path`
 
-- delete folder:
+* delete folder:
     * `rmdir ""`
     * `rmdir ""` /s (if it has files inside)
 
-- delete file: `del /f "filename"`
+* delete file: `del /f "filename"`
 
-- ip details: `ipconfig`
-
+* ip details: `ipconfig`
 
 -----
 
