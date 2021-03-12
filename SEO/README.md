@@ -699,25 +699,23 @@ If your business organization is <ins>E-commerce</ins>, then other KPIs might be
 
 # More to Read
 
+* [Beginner's Guide to SEO](https://moz.com/beginners-guide-to-seo)
 
+* [Moz.com Community](https://moz.com/community)
 
-[How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
+* [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
 
-[How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
+* [How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
 
+* [Keyword Research Strategies, backlinko.com](https://backlinko.com/hub/seo/keyword-difficulty)
 
-[Keyword Research Strategies, backlinko.com](https://backlinko.com/hub/seo/keyword-difficulty)
+* [Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
 
-[Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
+* [The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
 
-[Moz.com Community](https://moz.com/community)
+* [How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
 
-[The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
-
-[How to improve SEO with web design](https://www.editorx.com/shaping-design/article/how-to-improve-seo-with-design)
-
-[Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
-
+* [Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
 
 ----
 
