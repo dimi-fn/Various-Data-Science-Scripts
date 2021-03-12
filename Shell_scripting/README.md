@@ -86,12 +86,12 @@
 * ip details `nmcli device show`
 
 
-<br>
+-------
 
 * open file/directory/application `open <file_name>` `open <dir_name>` `open <app_name>`
 
 
-<br>
+-----
 
 
 * create directory (folder): `mkdir "dirname"`
@@ -105,8 +105,7 @@
 * copy a folder: `cp -r <folder_to_be_copied> <renamed_copied_and_pasted_folder>`: 
 
 
-
-<br>
+------
 
 * create file: `touch <filename>`
 
@@ -119,13 +118,24 @@
 * open file: `xdg-open <filename>`
 
 
-<br>
+------
+
+**Find**:
+
+* find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
+
+* find **files** that exist in many directories: `find folder1 folder2 -name <file_name>`
+    * use 'iname' for case-insensitive search: `find folder1 folder2 -iname <file_name>` 
+
+* find **directories** under current tree matching the searched directory: `find . -type d -name <dir_name>`
+    * `type -f` for files
+    * `type-l` for symbolic (soft) links
+
+* find **directories** under current tree matching a name: `find . -type d -name <dirname>`
 
 
-* find files based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
 
-
-<br>
+-----
 
 * python version: `python3 --version`
 
