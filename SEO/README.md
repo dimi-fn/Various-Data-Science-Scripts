@@ -672,9 +672,8 @@ If your business organization is E-commerce, then other KPIs might be:
 
 <br>
 
-In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements
-)
-* take, also, care of the mobile navigation of your website: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
+In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
+* take, also, care of the mobile navigation of your website, e.g.: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
 * [Google business listing](https://www.google.com/business/) for enhancing local business SEO (e.g. to appear on maps locally)
 
@@ -687,7 +686,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 * If you have a high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
 
-* If the search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
+* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
