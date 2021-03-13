@@ -8,10 +8,9 @@
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
         * [General](#general)
         * [Directories](#directories)
-        * [Files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#files)
+        * [Files](#files)
         * [Find](#find)
         * [Compression](#compression)
-        
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
@@ -113,7 +112,7 @@
     * if dir is empty: `rmdir <dirname>` / `rmdir <dir1> <dir2>`
     * if dir is not empty: `rm -rf <non_empty_folder>` / `rm -rf <non_empty_folder> <another_non_empty_folder>`
 
-* copy a directory: `cp -r <dir_to_be_copied> <renamed_copied_and_pasted_dir>`: 
+* copy a directory: `cp -r <dir_to_be_copied> <renamed_copied_and_pasted_dir>`
 
 ### Files
 
