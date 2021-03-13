@@ -152,12 +152,11 @@
 * [.zip == (usually) compressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
 * [.gz == file (archive or not) compressed using gzip](https://itsfoss.com/tar-vs-zip-vs-gz/)
 
-
-<br>
+-----
 
 * [.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054)
 
-<br>
+------
 
 So, essentially it is about **tar.gz vs. zip**:
 
@@ -173,9 +172,7 @@ So, essentially it is about **tar.gz vs. zip**:
 * [Compresses each file individually, then consolidates the individually compressed files in one file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
 * [Includes a file table at the end of the file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441) 
 
-
-
-<br>
+------
 
 * [tar in itself just bundles files together (the result is called a tarball), while zip applies compression as well.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
 
@@ -187,9 +184,7 @@ So, essentially it is about **tar.gz vs. zip**:
 
 * [The caveat of a .tar.gz is that you must decompress the whole archive to access files contained therein (as the files are within the tarball); the advantage is that the compression can take advantage of similarities among the files (as it compresses the whole tarball).](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
 
-
-
-<br><br>
+-----
 
 * **compress** a file: `gzip <filename>`
     * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
