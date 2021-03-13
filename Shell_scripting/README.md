@@ -69,27 +69,31 @@
 
 * Ubuntu version: `df-h` `lsb_release -a` 
 
+* Python version: `python3 --version`
+
 * `cd` / `cd ..` 
 
 * `ls`
     * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
     * recursive output: `ls -R`
 
-* the manual page of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
-    * `tldr <command>`: quick guidance info for commands, e.g. '$ tldr ls'
+* the **manual page** of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
+    * **quick guidance information** for commands: `tldr <command>`, e.g.: `$ tldr ls`
 
 * locate where you are: `pwd`
 
 * clear terminal: `clear`
 
 * disc space / hard drive: `ncdu`
+    * navigate via the arrows, you can also press enter and see the space allocated inside sub-directories
+    * press `q` for exit
 
 * ip details `nmcli device show`
 
 
 -------
 
-* open file/directory/application `open <file_name>` `open <dir_name>` `open <app_name>`
+* open file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
 
 
 -----
@@ -103,7 +107,7 @@
     * if dir is empty: `rmdir <dirname>` / `rmdir <dir1> <dir2>`
     * if dir is not empty: `rm -rf <non_empty_folder>` / `rm -rf <non_empty_folder> <another_non_empty_folder>`
 
-* copy a folder: `cp -r <folder_to_be_copied> <renamed_copied_and_pasted_folder>`: 
+* copy a directory: `cp -r <dir_to_be_copied> <renamed_copied_and_pasted_dir>`: 
 
 
 ------
@@ -135,10 +139,12 @@
 * find **directories** under current tree matching a name: `find . -type d -name <dirname>`
 
 
-
 -----
 
-* python version: `python3 --version`
+* compress a file: `gzip <filename>`
+    * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command
+        * for instance if you just `gzip <filename>`, then this will compress but also replace the file
+            * if you want to compress the file without replacing it, then do: `gzip -c <filename_to_be_compressed> > <compressed_file>`
 
 ----
 
