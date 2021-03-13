@@ -147,11 +147,10 @@
 
 **tar vs zip vs gz**
 
-[
-<p>tar == uncompressed archive file</p>
+
+[<p>tar == uncompressed archive file</p>
 <p>.zip == (usually) compressed archive file</p>
-<p>.gz == file (archive or not) compressed using gzip</p>
-](https://itsfoss.com/tar-vs-zip-vs-gz/)
+<p>.gz == file (archive or not) compressed using gzip</p>](https://itsfoss.com/tar-vs-zip-vs-gz/)
 
 
 
