@@ -7,6 +7,11 @@
 * [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
         * [General](#general)
+        * [Directories](#directories)
+        * [Files](#files)
+        * [Find](#find)
+        * [Compression](#compression)
+        
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
@@ -98,9 +103,7 @@
 
 * **open** file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
 
-
------
-**Directories**
+### Directories
 
 * create directory (folder): `mkdir "dirname"`
     * create two folders in one command: `mkdir <dir1> <dir2>` 
@@ -112,10 +115,7 @@
 
 * copy a directory: `cp -r <dir_to_be_copied> <renamed_copied_and_pasted_dir>`: 
 
-
-------
-
-**Files**
+### Files
 
 * create file: `touch <filename>`
 
@@ -130,7 +130,7 @@
 
 ------
 
-**Find**:
+### Find
 
 * find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
 
@@ -143,13 +143,9 @@
 
 * find **directories** under current tree matching a name: `find . -type d -name <dirname>`
 
-
------
-
-**Compression**
+### Compression
 
 **tar vs zip vs gz**
-
 
 * [tar == uncompressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
 * [.zip == (usually) compressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
