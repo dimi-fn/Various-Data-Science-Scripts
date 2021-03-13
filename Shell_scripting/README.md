@@ -155,12 +155,23 @@
 
 <br>
 
-[.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054)
+* [.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054)
 
+<br>
 
+So, essentially it is about **tar.gz vs. zip**:
 
+**tar.gz**:
 
+* [Stores unix file attributes: uid, gid, permissions (most notably executable). The default may depend on your distribution, and can be toggled with options.](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
+* [Consolidates all files to be archived in one file ("Tape ARchive").](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
+* [Actual compression is done by GZIP, on the one .tar file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
 
+**zip**
+
+* [Stores MSDOS attributes. (Archive, Readonly, Hidden, System)](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
+* [Compresses each file individually, then consolidates the individually compressed files in one file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
+* [Includes a file table at the end of the file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441) 
 
 * **compress** a file: `gzip <filename>`
     * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
@@ -276,3 +287,5 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 [8] https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054
 
 [9] https://itsfoss.com/tar-vs-zip-vs-gz/
+
+[10] https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441
