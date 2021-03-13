@@ -147,8 +147,15 @@
 
 **tar vs zip vs gz**
 
+[
+<p>tar == uncompressed archive file</p>
+<p>.zip == (usually) compressed archive file</p>
+<p>.gz == file (archive or not) compressed using gzip</p>
+](https://itsfoss.com/tar-vs-zip-vs-gz/)
 
-[.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they)
+
+
+[.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054)
 
 
 
@@ -265,3 +272,7 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 [6] https://ostechnix.com/explaining-soft-link-and-hard-link-in-linux-with-examples/
 
 [7] https://unix.stackexchange.com/questions/57013/zip-all-files-in-directory
+
+[8] https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they#answer-20765054
+
+[9] https://itsfoss.com/tar-vs-zip-vs-gz/
