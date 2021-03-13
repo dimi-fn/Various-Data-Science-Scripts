@@ -14,7 +14,8 @@
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
         * [Alias](#alias)
-        * [cat | less](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#cat--less)
+        * [cat | less | tail](#cat--less--tail)
+        * [wc](#wc)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
@@ -245,7 +246,9 @@ you can use your own command (alias) replacing one of the official UNIX commands
 
 -----
 
-### cat | less
+### cat | less | tail
+
+**cat**
 
 * it prints a file's content
 * you can also concatenate the content of multiple files into one file
@@ -258,6 +261,28 @@ you can use your own command (alias) replacing one of the official UNIX commands
 * concatenate: `cat file1 file2 > file3`, e.g.  `cat a.txt b.txt > c.txt` => c.txt will have the content of "a" and "b"
 
 Use `man cat` or `tldr cat` for more options
+
+----
+
+**less**
+
+* it prints content of file in an interactive UI way
+
+`less <filename>`
+
+* man or tldr for more
+
+-----
+
+**tail**
+
+e.g. print last 2 lines of a file: `tail -n 2 <filename>`
+
+* much more, use man or tldr
+
+-----
+
+### wc
 
 
 
