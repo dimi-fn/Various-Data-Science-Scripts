@@ -7,6 +7,7 @@
 * [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
         * [General](#general)
+        * [Open](#open)
         * [Directories](#directories)
         * [Files](#file)
         * [Find](#find)
@@ -98,6 +99,8 @@
 * ip details `nmcli device show`
 
 -------
+
+### Open
 
 * **open** file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
 
@@ -196,7 +199,7 @@ So, essentially it is about **tar.gz vs. zip**:
 * **gzip**: compress a file specifying the output filename: 
 `gzip -c <file_tobe_compressed> > <choosename>.gz`
     * so, after creating a `tar` file, then apply `gzip` to compress
-        * e.g. `tar cf foo.tar <file1> <file2>` => and then => `gzip -c foo.tar > foo.gz> `
+        * e.g. `tar cf foo.tar <file1> <file2>` => and then => `gzip -c foo.tar > foo.gz`
 
 * `gunzip` ==> equivalent to `gzip -d`
 
