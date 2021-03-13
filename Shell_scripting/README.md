@@ -97,10 +97,11 @@
 
 * ip details `nmcli device show`
 
-
 -------
 
 * **open** file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
+
+----
 
 ### Directories
 
@@ -113,6 +114,8 @@
     * if dir is not empty: `rm -rf <non_empty_folder>` / `rm -rf <non_empty_folder> <another_non_empty_folder>`
 
 * copy a directory: `cp -r <dir_to_be_copied> <renamed_copied_and_pasted_dir>`
+
+-----
 
 ### Files
 
@@ -141,6 +144,9 @@
     * `type-l` for symbolic (soft) links
 
 * find **directories** under current tree matching a name: `find . -type d -name <dirname>`
+
+----
+
 
 ### Compression
 
