@@ -13,6 +13,8 @@
         * [Find](#find)
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
+        * [Alias](#alias)
+        * [cat](#cat)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
@@ -70,6 +72,8 @@
 ## Bash Commands (Linux - MacOS - WSL)
 
 ### General
+
+Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
 
 * updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
@@ -232,6 +236,30 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 **Creating a soft link**
 
 `ln -s <original> <link>`, e.g. `ln -s vehicles.txt cars.txt`  ==> link will have the '@' ==> if original file is deleted and you do `$ cat cars.txt`, the soft link will be broken (it will give 'No such file or directory')
+
+-----
+
+### Alias
+
+you can use your own command (alias) replacing one of the official UNIX commands. E.g. `ls -ltr` displays a long format list of all files, sorted by modification date (oldest first). Let's say we want to create an alias called "my_alias" instead of typing "ls -ltr" => then `alias my_alias="ls -ltr"`
+
+-----
+
+### cat | less
+
+* it prints a file's content
+* you can also concatenate the content of multiple files into one file
+* cat command can often be used in combination with the pipe operator "|" to feed a file's content as input to another command: `cat file1 | anothercommand`.
+
+<br>
+
+* print content of a file: `cat <filename>` | `cat <file1> <file2>`
+
+* concatenate: `cat file1 file2 > file3`, e.g.  `cat a.txt b.txt > c.txt` => c.txt will have the content of "a" and "b"
+
+Use `man cat` or `tldr cat` for more options
+
+
 
 
 
