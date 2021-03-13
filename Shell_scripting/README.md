@@ -14,7 +14,7 @@
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
         * [Alias](#alias)
-        * [cat](#cat)
+        * [cat | less](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#cat--less)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
