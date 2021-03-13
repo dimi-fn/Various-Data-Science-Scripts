@@ -97,13 +97,13 @@
 
 
 -----
-
+**Directories**
 
 * create directory (folder): `mkdir "dirname"`
     * create two folders in one command: `mkdir <dir1> <dir2>` 
     * create folder and nested subfolders: `mkdir -p <main_folder>/<subfolder>`
 
-* delete directory
+* delete/remove directory
     * if dir is empty: `rmdir <dirname>` / `rmdir <dir1> <dir2>`
     * if dir is not empty: `rm -rf <non_empty_folder>` / `rm -rf <non_empty_folder> <another_non_empty_folder>`
 
@@ -112,13 +112,15 @@
 
 ------
 
+**Files**
+
 * create file: `touch <filename>`
 
 * copy a file: `cp <file_to_be_copied> <renamed_copied_and_pasted_file>`
 
 * move file (like cut and paste): `mv <file_to_be_moved> <dir_destination>`
 
-* delete file: `rm <filename>`
+* delete/remove file: `rm <filename>`
 
 * open file: `xdg-open <filename>`
 
@@ -141,10 +143,12 @@
 
 -----
 
-* compress a file: `gzip <filename>`
-    * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command
+* **compress** a file: `gzip <filename>`
+    * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
         * for instance if you just `gzip <filename>`, then this will compress but also replace the file
             * if you want to compress the file without replacing it, then do: `gzip -c <filename_to_be_compressed> > <compressed_file>`
+
+* **compress/zip** all files inside directory recursively: `zip -r <filename.zip> <dirname_tobe_zipped>`
 
 ----
 
@@ -229,3 +233,5 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 [5] https://askubuntu.com/questions/432284/are-hard-links-equivalent-to-windows-shortcuts?newreg=bedfb396262d490d86f7fab8bd8fe0f2
 
 [6] https://ostechnix.com/explaining-soft-link-and-hard-link-in-linux-with-examples/
+
+[7] https://unix.stackexchange.com/questions/57013/zip-all-files-in-directory
