@@ -16,6 +16,7 @@
         * [Alias](#alias)
         * [cat | less | tail](#cat--less--tail)
         * [wc](#wc)
+        * [grep](#grep)
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
@@ -278,11 +279,35 @@ Use `man cat` or `tldr cat` for more options
 
 e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
-* much more, use man or tldr
+* man or tldr for more
 
 -----
 
 ### wc
+
+* e.g. count number of lines in file: `wc -l <filename>`
+
+* count lines, words, and characters (bytes), e.g. `ls -all | wc` => will give output of lines words, and bytes
+
+* man or tldr for more
+
+-----
+
+### grep
+
+It stands for "*global regular expression print*"
+
+* e.g. `grep ok file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
+
+
+
+
+
+
+
+
+
+
 
 
 
