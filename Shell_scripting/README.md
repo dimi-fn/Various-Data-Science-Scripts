@@ -173,6 +173,24 @@ So, essentially it is about **tar.gz vs. zip**:
 * [Compresses each file individually, then consolidates the individually compressed files in one file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441)
 * [Includes a file table at the end of the file](https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441) 
 
+
+
+<br>
+
+* [tar in itself just bundles files together (the result is called a tarball), while zip applies compression as well.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+
+* [Usually you use gzip along with tar to compress the resulting tarball, thus achieving similar results as with zip.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+
+[For reasonably large archives there are important differences though. A zip archive is a collection of compressed files. A gzipped tar is a compressed collection (of uncompressed files). Thus a zip archive is a randomly accessible list of concatenated compressed items, and a .tar.gz is an archive that must be fully expanded before the catalog is accessible.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+
+* [The caveat of a zip is that you don't get compression across files (because each file is compressed independent of the others in the archive, the compression cannot take advantage of similarities among the contents of different files); the advantage is that you can access any of the files contained within by looking at only a specific (target file dependent) section of the archive (as the "catalog" of the collection is separate from the collection itself).](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+
+* [The caveat of a .tar.gz is that you must decompress the whole archive to access files contained therein (as the files are within the tarball); the advantage is that the compression can take advantage of similarities among the files (as it compresses the whole tarball).](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+
+
+
+<br><br>
+
 * **compress** a file: `gzip <filename>`
     * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
         * for instance if you just `gzip <filename>`, then this will compress but also replace the file
@@ -289,3 +307,5 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 [9] https://itsfoss.com/tar-vs-zip-vs-gz/
 
 [10] https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441
+
+[11] https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952
