@@ -117,6 +117,7 @@
 
 -----
 
+
 ### Files
 
 * create file: `touch <filename>`
@@ -128,7 +129,6 @@
 * delete/remove file: `rm <filename>`
 
 * open file: `xdg-open <filename>`
-
 
 ------
 
