@@ -93,7 +93,7 @@
 
 -------
 
-* open file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
+* **open** file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
 
 
 -----
@@ -143,12 +143,43 @@
 
 -----
 
+**Compression**
+
+**tar vs zip vs gz**
+
+<code>
+[.zip is an archive format using, usually, the Deflate compression method. The .gz gzip format is for single files, also using the Deflate compression method. Often gzip is used in combination with tar to make a compressed archive format, .tar.gz. The zlib library provides Deflate compression and decompression code for use by zip, gzip, png (which uses the zlib wrapper on deflate data), and many other applications.](https://stackoverflow.com/questions/20762094/how-are-zlib-gzip-and-zip-related-what-do-they-have-in-common-and-how-are-they)
+</code>
+
+
+
+
+
+
 * **compress** a file: `gzip <filename>`
     * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
         * for instance if you just `gzip <filename>`, then this will compress but also replace the file
             * if you want to compress the file without replacing it, then do: `gzip -c <filename_to_be_compressed> > <compressed_file>`
 
 * **compress/zip** all files inside directory recursively: `zip -r <filename.zip> <dirname_tobe_zipped>`
+
+
+* `gunzip` ==> equivalent to `gzip -d`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----
 
