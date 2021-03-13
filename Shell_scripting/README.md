@@ -8,7 +8,7 @@
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
         * [General](#general)
         * [Directories](#directories)
-        * [Files](#files)
+        * [Files](#filess)
         * [Find](#find)
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
@@ -117,7 +117,7 @@
 
 -----
 
-### Files
+### Filess
 
 * create file: `touch <filename>`
 
