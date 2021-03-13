@@ -179,7 +179,7 @@ So, essentially it is about **tar.gz vs. zip**:
 
 * [tar in itself just bundles files together (the result is called a tarball), while zip applies compression as well.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
 
-* [Usually you use gzip along with tar to compress the resulting tarball, thus achieving similar results as with zip.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
+* ====> !!!!! [Usually you use gzip along with tar to compress the resulting tarball, thus achieving similar results as with zip.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
 
 [For reasonably large archives there are important differences though. A zip archive is a collection of compressed files. A gzipped tar is a compressed collection (of uncompressed files). Thus a zip archive is a randomly accessible list of concatenated compressed items, and a .tar.gz is an archive that must be fully expanded before the catalog is accessible.](https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952)
 
@@ -195,21 +195,10 @@ So, essentially it is about **tar.gz vs. zip**:
 
 * **gzip**: compress a file specifying the output filename: 
 `gzip -c <file_tobe_compressed> > <choosename>.gz`
+    * so, after creating a `tar` file, then apply `gzip` to compress
+        * e.g. `tar cf foo.tar <file1> <file2>` => and then => `gzip -c foo.tar > foo.gz> `
 
 * `gunzip` ==> equivalent to `gzip -d`
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
