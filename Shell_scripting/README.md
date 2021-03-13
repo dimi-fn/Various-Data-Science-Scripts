@@ -149,7 +149,7 @@
 
 ### Compression
 
-**tar vs zip vs gz**
+**tar vs zip vs gz (gzip)**
 
 * [tar == uncompressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
 * [.zip == (usually) compressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
@@ -189,13 +189,12 @@ So, essentially it is about **tar.gz vs. zip**:
 
 -----
 
-* **compress** a file: `gzip <filename>`
-    * always make use of the `man` or `tldr` command. E.g., if you `tldr gzip` you can see in which other ways you can use the `gzip` command, such as decompression and compression levels
-        * for instance if you just `gzip <filename>`, then this will compress but also replace the file
-            * if you want to compress the file without replacing it, then do: `gzip -c <filename_to_be_compressed> > <compressed_file>`
+* **tar**: create an archive from files: `tar cf <choosename.tar> <file1> <file2>`
 
-* **compress/zip** all files inside directory recursively: `zip -r <filename.zip> <dirname_tobe_zipped>`
+* **zip** compress dir and its contents [r]ecursively: `zip -r <filename.zip> <dirname_tobe_zipped>`
 
+* **gzip**: compress a file specifying the output filename: 
+`gzip -c <file_tobe_compressed> > <choosename>.gz`
 
 * `gunzip` ==> equivalent to `gzip -d`
 
