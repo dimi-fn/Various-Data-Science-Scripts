@@ -8,7 +8,7 @@
     * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
         * [General](#general)
         * [Directories](#directories)
-        * [Files](#files)
+        * [Files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#files)
         * [Find](#find)
         * [Compression](#compression)
         
