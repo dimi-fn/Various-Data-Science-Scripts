@@ -12,6 +12,7 @@
     * [Files](#file)
     * [$ find](#-find)
     * [Compression](#compression)
+        * [tar vs. zip vs. gz (gzip)](#tar-vs-zip-vs-gz-gzip)
     * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
     * [$ alias](#-alias)
     * [$ cat | less | tail](#-cat--less--tail)
