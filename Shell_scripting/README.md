@@ -10,7 +10,7 @@
         * [Open](#open)
         * [Directories](#directories)
         * [Files](#file)
-        * [$ find](#find)
+        * [$ find](#-find)
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
         * [alias](#alias)
