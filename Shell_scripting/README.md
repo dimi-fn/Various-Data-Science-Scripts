@@ -4,7 +4,6 @@
     * [Bash](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash)
         * [Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#commands)
         * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
-
 * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
     * [General](#general)
     * [Open](#open)
@@ -23,10 +22,13 @@
     * [$ chmod | chown | unmask](#-chmod--chown--unmask)
     * [$ xargs](#-xargs)
     * [$ env](#-env)
-
-
     * [Miscellaneous](#miscellaneous)
         * [Disk Usage](#disk-usage)
+        * [Paths](#paths)
+        * [Running Processes](#running-processes)
+        * [Editors](#editors)
+        * [logs/ users/ accounts/ passwords/ networks/ packets]()
+        * [Various](#various)
 
 
 * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
@@ -450,7 +452,7 @@ env USER=<your_username> node app.js
 
 
 
-----------
+--------------
 
 ## Miscellaneous
 
@@ -463,15 +465,15 @@ env USER=<your_username> node app.js
 * [overview of the filesystem disk space usage](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-df-command): `df` 
     *  `df -h` human readable form
 
----------
+--------------
 
-Interrelated with **paths**:
+### Paths
 
 * `basename` | `dirname`
 
 --------------
 
-**Running processes**:
+### Running Processes
 
 | Information/State | Description |
 |----|----|
@@ -528,13 +530,14 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 -------------
 
+### Editors
 
-* **editors**: `vi` / `vim`, `emacs`
+* `vi` / `vim`, `emacs`
     * `nano`
 
 ------
 
-**logs/ users/ accounts/ passwords/ networks/ packets**
+### logs/ users/ accounts/ passwords/ networks/ packets
 
 * logging info: `who` `whoami`
 
@@ -544,47 +547,12 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 ----------------
 
-**Various** useful commands:
+### Various
 
 * `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
 * `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
------
+------------
 
 # Windows Terminal Commands
 
