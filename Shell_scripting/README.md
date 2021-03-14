@@ -20,6 +20,7 @@
         * [diff](#diff)
         * [echo](#echo)
         * [chmod](#chmod)
+        * [xargs](#xargs)
 
 
         * [Miscellaneous](#miscellaneous)
@@ -105,7 +106,12 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * locate where you are: `pwd`
 
-* clear terminal: `clear`
+* clear terminal: `clear` 
+    * `clear -x` (clear the screen but keep terminal's scrollback buffer)
+
+* history of terminal commands used: `history` `history 20`
+    * search for the history of specific commands: `history | grep <command>` e.g. `history | grep git`
+    * clear all history: `history -c`
 
 * disc space / hard drive: `ncdu`
     * navigate via the arrows, you can also press enter and see the space allocated inside sub-directories
@@ -143,7 +149,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * move file (like cut and paste): `mv <file_to_be_moved> <dir_destination>`
 
-* delete/remove file: `rm <filename>`
+* delete/remove file: `rm <filename>` `rm <file1> <file2>` 
 
 * open file: `xdg-open <filename>`
 
@@ -369,8 +375,20 @@ E.g.
 * `chmod a+r <filename>` means that [a]ll can now [r]ead 
 *  `chmod og-r <filename>` means that you removed (-) the [r]ead permission from [o]thers and [g]roup
 
+-----------
+
+### xargs
 
 
+Execute a command with piped *arguments* coming from another command, file, etc
+
+
+Let's say we have multiple files we want to delete. On some cases it might be more convenient to e.g. display the file names into one file, and then invoke that file that will delete all other files. 
+
+Let's say we have a txt file called "to_delete.txt" with two lines written: 1st line "file1.txt" and 2nd line "file2.txt". Let's suppose unter current tree we have 2 txt files called "file1.txt" and "file2.txt"
+
+Then, via `cat to_delete.txt | xargs rm` we can remove all the files that are called via the "to_delete.txt", which in this case were file1.txt and file2.txt
+    * if you `cat to_delete.txt | xargs -p rm` then will also be asked from the shell if you indeed want to remove those files!
 
 
 
@@ -483,12 +501,39 @@ Interrelated with **paths**:
 * resume jobs that have been suspended: `bg`
 * run jobs in foreground: `fg`
 
+<br>
+
+* display the kind of command the shell will execute: `type`
+
+* locate a program in the user's path: `which`
+
+
+
+<br>
+
+[Handle processes on remote machines and make a command run even after you log out or close the session to a server](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-nohup-command):
+
+Allows for a process to live when the terminal gets killed: `nohup`
+    * usage: `nohup <command>`
 
 
 
 
+-------------------------
+
+**Various**
+ 
+* logging info: `who` `whoami`
+
+* editors: `vi` / `vim`, `emacs`
+    * `nano`
 
 
+* users/account/passwords: `su` `sudo` | `passwd`
+
+
+
+* networks / packets: `ping`, `traceroute`
 
 
 
