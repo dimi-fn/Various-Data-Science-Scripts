@@ -22,6 +22,7 @@
     * [$ echo](#-echo)
     * [$ chmod](#-chmod)
     * [$ xargs](#-xargs)
+    * [$ env](#-env)
 
 
     * [Miscellaneous](#miscellaneous)
@@ -401,21 +402,21 @@ Then, via `cat to_delete.txt | xargs rm` we can remove all the files that are ca
     * if you `cat to_delete.txt | xargs -p rm` then will also be asked from the shell if you indeed want to remove those files!
 
 
+## $ env
+
+* show the environment: `env`
+
+Usage: [The env command can be used to pass environment variables without setting them on the outer environment (the current shell). Suppose you want to run a Node.js app and set the "USER" variable to it.](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-env-command). Then you can:
+
+env USER=<your_username> node app.js
 
 
+[and the USER environment variable will be accessible from the Node.js app via the Node process.env interface.](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-env-command
+)
 
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
+* Alse see `printenv`
 
 
 
@@ -445,13 +446,6 @@ Then, via `cat to_delete.txt | xargs rm` we can remove all the files that are ca
 ----------
 
 ## Miscellaneous
-
-Various useful commands:
-
-* `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
-* `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
-
-----------------
 
 Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#chmod) command:
 * `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
@@ -531,27 +525,28 @@ Allows for a process to live when the terminal gets killed: `nohup`
 `crontab`: [Cron jobs are jobs that are scheduled to run at specific intervals. They can be used on servers to perform maintenance and automations](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-crontab-command)
 
 
--------------------------
+-------------
 
-**Various**
- 
-* logging info: `who` `whoami`
 
-* editors: `vi` / `vim`, `emacs`
+* **editors**: `vi` / `vim`, `emacs`
     * `nano`
 
+------
+
+**logs/ users/ accounts/ passwords/ networks/ packets**
+
+* logging info: `who` `whoami`
 
 * users/account/passwords: `su` `sudo` | `passwd`
 
-
-
 * networks / packets: `ping`, `traceroute`
 
+----------------
 
+**Various** useful commands:
 
-
-
-
+* `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
+* `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
 
 
 
