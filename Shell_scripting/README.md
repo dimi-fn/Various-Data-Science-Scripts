@@ -314,10 +314,22 @@ It compares files and shows the difference in the content
 * E.g. `diff -y <file1> <file2>` will dipslay the differences side by side
 
 ### echo
-* print something `echo "hello world!"
+* print something to terminal: `echo "hello world!"
+
+* print a range of number, e.g.: `echo {1..5}`   
 
 * create some content and insert it into a file, e.g.: `echo "I will put this text to a file >> <filename.txt>`
 
+* `echo $(ls)` == `ls`
+    * `echo "$(ls)"` (vertical output)
+
+* `echo *` == `ls`
+
+* display all files that start with some letter: `echo <letter>*`
+
+* print path variable with a message: `echo "The path variable is: $PATH`
+
+* print home path: `echo ~`
 
 
 
