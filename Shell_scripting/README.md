@@ -27,7 +27,7 @@
         * [Paths](#paths)
         * [Running Processes](#running-processes)
         * [Editors](#editors)
-        * [logs/ users/ accounts/ passwords/ networks/ packets]()
+        * [logs/ users/ accounts/ passwords/ networks/ packets](#logs-users-accounts-passwords-networks-packets)
         * [Various](#various)
 
 
