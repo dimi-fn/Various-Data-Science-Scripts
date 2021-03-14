@@ -19,6 +19,7 @@
         * [grep](#grep)
         * [diff](#diff)
         * [echo](#echo)
+        * [chmod](#chmod)
 
 
         * [Miscellaneous](#miscellaneous)
@@ -237,6 +238,8 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 | same inode number and permissions with those of original file| inode number and file permissions are different from the original file, hence permission will not be updated |
 | it carries the actual contents of original file even if the original file is moved or removed| it carries only the path, not the contents of original file |
 
+* you will probably use hard copies barely
+
 **Creating a hard copy**
 
 `ln <original> <link>`, e.g. `ln vehicles.txt cars.txt` ==> Content will be updated for both. If origin file is deleted and you do `$ cat cars.txt`, the link will still contain the original file
@@ -314,7 +317,7 @@ It compares files and shows the difference in the content
 * E.g. `diff -y <file1> <file2>` will dipslay the differences side by side
 
 ### echo
-* print something to terminal: `echo "hello world!"
+* print something to terminal: `echo "hello world!"`
 
 * print a range of number, e.g.: `echo {1..5}`   
 
@@ -331,6 +334,40 @@ It compares files and shows the difference in the content
 
 * print home path: `echo ~`
 
+-------
+
+### chmod
+
+<ins>It is used to access and change the permissions of a file or directory<ins>
+
+Take the ouput of  `ls -al` and see the output.
+
+* In Unix, every file has **read** (`r`), **write** (`w`), and **execute** (`x`) 
+permissions
+    * `-`: normal file
+    * `d`: dir
+    * `l`: link
+
+Noticing the output of `ls -al` you can see 3 sets of values:
+* 1st set: permissions of the owner
+* 2nd set: permissions of the members of the group that the file is associated with
+* 3rd set: permissions of everyone else
+
+E.g.: `rwx` means read-write-execute persmission
+
+<br>
+
+chmod followed by a space and a letter:
+* `a`: all
+* `u`: user
+* `g`: group
+* `o`: others
+
+Then by `+` or `-` you can add or remove a permission
+
+E.g. 
+* `chmod a+r <filename>` means that [a]ll can now [r]ead 
+*  `chmod og-r <filename>` means that you removed (-) the [r]ead permission from [o]thers and [g]roup
 
 
 
@@ -377,15 +414,22 @@ It compares files and shows the difference in the content
 
 
 
-
-
+----------
 
 ### Miscellaneous
 
 Various useful commands:
 
-* `sort` 
-* `uniq`
+* `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
+* `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
+
+
+<br>
+
+* `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
+
+
+
 
 
 
