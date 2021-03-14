@@ -20,12 +20,13 @@
     * [$ grep](#-grep)
     * [$ diff](#-diff)
     * [$ echo](#-echo)
-    * [$ chmod](#-chmod)
+    * [$ chmod | chown | unmask](#-chmod--chown--unmask)
     * [$ xargs](#-xargs)
     * [$ env](#-env)
 
 
     * [Miscellaneous](#miscellaneous)
+        * [Disk Usage](#disk-usage)
 
 
 * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
@@ -127,6 +128,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 * disc space / hard drive: `ncdu`
     * navigate via the arrows, you can also press enter and see the space allocated inside sub-directories
     * press `q` for exit
+    * [more here](#disk-usage)
 
 * machine and OS info: `uname`    
 
@@ -392,11 +394,9 @@ Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Sc
 * `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
 * `unmask` ([control/modify default file permissions](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-umask-command))
 
-
-
+-------------
 
 ## $ xargs
-
 
 Execute a command with piped *arguments* coming from another command, file, etc
 
@@ -454,7 +454,7 @@ env USER=<your_username> node app.js
 
 ## Miscellaneous
 
-**Disk** usage:
+### Disk Usage
 
 * disk usage analyzer: `ncdu`
 * [estimate and summarize file and dir space usage](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-du-command): `du`
