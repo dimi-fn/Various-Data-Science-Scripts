@@ -82,18 +82,6 @@
     * on Windows this line will be considered a comment and hence will be completely ignored
     * on linux of course it will not be ignored since it is Unix based, same on Mac because it is based on the BSD Unix
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Bash Commands (Linux - MacOS - WSL)
 
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
@@ -240,9 +228,7 @@ So, essentially it is about **tar.gz vs. zip**:
 
 * `gunzip` ==> equivalent to `gzip -d`
 
-
-
-----
+------
 
 ## Hard vs Soft (Symbolic) Copy
 
@@ -410,7 +396,6 @@ Let's say we have a txt file called "to_delete.txt" with two lines written: 1st 
 Then, via `cat to_delete.txt | xargs rm` we can remove all the files that are called via the "to_delete.txt", which in this case were file1.txt and file2.txt
     * if you `cat to_delete.txt | xargs -p rm` then will also be asked from the shell if you indeed want to remove those files!
 
-
 ## $ env
 
 * show the environment: `env`
@@ -426,31 +411,6 @@ env USER=<your_username> node app.js
 <br>
 
 * Alse see `printenv`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 --------------
 
