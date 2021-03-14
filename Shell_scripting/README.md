@@ -17,6 +17,14 @@
         * [cat | less | tail](#cat--less--tail)
         * [wc](#wc)
         * [grep](#grep)
+        * [diff](#diff)
+        * [echo](#echo)
+
+
+        * [Miscellaneous](#miscellaneous)
+
+
+        
     * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
@@ -267,7 +275,7 @@ Use `man cat` or `tldr cat` for more options
 
 **less**
 
-* it prints content of file in an interactive UI way
+* it prints the content of file in an interactive UI way
 
 `less <filename>`
 
@@ -299,6 +307,16 @@ It stands for "*global regular expression print*"
 
 * e.g. `grep ok file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
 
+### diff
+
+It compares files and shows the difference in the content
+
+* E.g. `diff -y <file1> <file2>` will dipslay the differences side by side
+
+### echo
+* print something `echo "hello world!"
+
+* create some content and insert it into a file, e.g.: `echo "I will put this text to a file >> <filename.txt>`
 
 
 
@@ -336,6 +354,26 @@ It stands for "*global regular expression print*"
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Miscellaneous
+
+Various useful commands:
+
+* `sort` 
+* `uniq`
 
 
 
