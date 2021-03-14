@@ -353,7 +353,7 @@ It compares files and shows the difference in the content
 
 -------
 
-## $ chmod
+## $ chmod | chown | unmask
 
 <ins>It is used to access and change the permissions of a file or directory<ins>
 
@@ -387,6 +387,13 @@ E.g.
 *  `chmod og-r <filename>` means that you removed (-) the [r]ead permission from [o]thers and [g]roup
 
 -----------
+
+Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#chmod) command:
+* `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
+* `unmask` ([control/modify default file permissions](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-umask-command))
+
+
+
 
 ## $ xargs
 
@@ -446,12 +453,6 @@ env USER=<your_username> node app.js
 ----------
 
 ## Miscellaneous
-
-Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#chmod) command:
-* `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
-* `unmask` ([control/modify default file permissions](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-umask-command))
-
------------------
 
 **Disk** usage:
 
