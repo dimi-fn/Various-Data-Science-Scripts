@@ -10,10 +10,10 @@
         * [Open](#open)
         * [Directories](#directories)
         * [Files](#file)
-        * [Find](#find)
+        * [$ find](#find)
         * [Compression](#compression)
         * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
-        * [Alias](#alias)
+        * [alias](#alias)
         * [cat | less | tail](#cat--less--tail)
         * [wc](#wc)
         * [grep](#grep)
@@ -158,7 +158,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ------
 
-### Find
+### $ find
 
 * find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
 
@@ -261,7 +261,7 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 
 -----
 
-### Alias
+### alias
 
 you can use your own command (alias) replacing one of the official UNIX commands. E.g. `ls -ltr` displays a long format list of all files, sorted by modification date (oldest first). Let's say we want to create an alias called "my_alias" instead of typing "ls -ltr" => then `alias my_alias="ls -ltr"`
 
