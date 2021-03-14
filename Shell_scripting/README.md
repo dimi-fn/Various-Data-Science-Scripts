@@ -4,30 +4,29 @@
     * [Bash](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash)
         * [Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#commands)
         * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
-* [Terminal - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#terminal---general)
-    * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
-        * [General](#general)
-        * [Open](#open)
-        * [Directories](#directories)
-        * [Files](#file)
-        * [$ find](#-find)
-        * [Compression](#compression)
-        * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
-        * [$ alias](#-alias)
-        * [$ cat | less | tail](#-cat--less--tail)
-        * [$ wc](#-wc)
-        * [$ grep](#-grep)
-        * [$ diff](#-diff)
-        * [$ echo](#-echo)
-        * [$ chmod](#-chmod)
-        * [$ xargs](#-xargs)
+
+* [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
+    * [General](#general)
+    * [Open](#open)
+    * [Directories](#directories)
+    * [Files](#file)
+    * [$ find](#-find)
+    * [Compression](#compression)
+    * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
+    * [$ alias](#-alias)
+    * [$ cat | less | tail](#-cat--less--tail)
+    * [$ wc](#-wc)
+    * [$ grep](#-grep)
+    * [$ diff](#-diff)
+    * [$ echo](#-echo)
+    * [$ chmod](#-chmod)
+    * [$ xargs](#-xargs)
 
 
-        * [Miscellaneous](#miscellaneous)
+    * [Miscellaneous](#miscellaneous)
 
 
-        
-    * [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
+* [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 
 ----
 
@@ -79,13 +78,22 @@
     * on linux of course it will not be ignored since it is Unix based, same on Mac because it is based on the BSD Unix
 
 
-# Terminal - General
 
-## Bash Commands (Linux - MacOS - WSL)
+
+
+
+
+
+
+
+
+
+
+# Bash Commands (Linux - MacOS - WSL)
 
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
 
-### General
+## General
 
 * updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
@@ -124,13 +132,13 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 -------
 
-### Open
+## Open
 
 * **open** file/directory/application: `open <file_name>` `open <dir_name>` `open <app_name>` (this is likely to work only on macOS, for linux use `xdg-open <filename>`)
 
 ----
 
-### Directories
+## Directories
 
 * create directory (folder): `mkdir "dirname"`
     * create two folders in one command: `mkdir <dir1> <dir2>` 
@@ -144,7 +152,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 -----
 
-### File
+## File
 
 * create file: `touch <filename>`
 
@@ -158,7 +166,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ------
 
-### $ find
+## $ find
 
 * find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
 
@@ -173,8 +181,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ----
 
-
-### Compression
+## Compression
 
 **tar vs zip vs gz (gzip)**
 
@@ -231,8 +238,7 @@ So, essentially it is about **tar.gz vs. zip**:
 
 ----
 
-
-### Hard vs Soft (Symbolic) Copy
+## Hard vs Soft (Symbolic) Copy
 
 Files on Unix file systems are stored via `inodes`. An inode is a number that the filesystem  uses to *map* a file name to a particular location on the physical hard drive.
 
@@ -261,7 +267,7 @@ Files on Unix file systems are stored via `inodes`. An inode is a number that th
 
 -----
 
-### $ alias
+## $ alias
 
 you can use your own command (alias) replacing one of the official UNIX commands. E.g. `ls -ltr` displays a long format list of all files, sorted by modification date (oldest first). Let's say we want to create an alias called "my_alias" instead of typing "ls -ltr" => then `alias my_alias="ls -ltr"`
 
@@ -303,7 +309,7 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 -----
 
-### $ wc
+## $ wc
 
 * e.g. count number of lines in file: `wc -l <filename>`
 
@@ -313,19 +319,19 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 -----
 
-### $ grep
+## $ grep
 
 It stands for "*global regular expression print*"
 
 * e.g. `grep ok file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
 
-### $ diff
+## $ diff
 
 It compares files and shows the difference in the content
 
 * E.g. `diff -y <file1> <file2>` will dipslay the differences side by side
 
-### $ echo
+## $ echo
 * print something to terminal: `echo "hello world!"`
 
 * print a range of number, e.g.: `echo {1..5}`   
@@ -345,7 +351,7 @@ It compares files and shows the difference in the content
 
 -------
 
-### $ chmod
+## $ chmod
 
 <ins>It is used to access and change the permissions of a file or directory<ins>
 
@@ -380,7 +386,7 @@ E.g.
 
 -----------
 
-### $ xargs
+## $ xargs
 
 
 Execute a command with piped *arguments* coming from another command, file, etc
@@ -437,7 +443,7 @@ Then, via `cat to_delete.txt | xargs rm` we can remove all the files that are ca
 
 ----------
 
-### Miscellaneous
+## Miscellaneous
 
 Various useful commands:
 
@@ -583,7 +589,7 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 -----
 
-## Windows Terminal Commands
+# Windows Terminal Commands
 
 * `cd` / `cd ..` / `dir`
 
