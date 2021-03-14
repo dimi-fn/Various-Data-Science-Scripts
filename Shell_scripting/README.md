@@ -118,6 +118,8 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * navigate via the arrows, you can also press enter and see the space allocated inside sub-directories
     * press `q` for exit
 
+* machine and OS info: `uname`    
+
 * ip details `nmcli device show`
 
 -------
@@ -512,12 +514,14 @@ Interrelated with **paths**:
 
 <br>
 
-[Handle processes on remote machines and make a command run even after you log out or close the session to a server](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-nohup-command):
+* [Handle processes on remote machines and make a command run even after you log out or close the session to a server](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-nohup-command):
 
 Allows for a process to live when the terminal gets killed: `nohup`
-    * usage: `nohup <command>`
+* usage: `nohup <command>`
 
+<br>
 
+`crontab`: [Cron jobs are jobs that are scheduled to run at specific intervals. They can be used on servers to perform maintenance and automations](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-crontab-command)
 
 
 -------------------------
