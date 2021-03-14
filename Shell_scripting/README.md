@@ -104,6 +104,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 * the **manual page** of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
     * **quick guidance information** for commands: `tldr <command>`, e.g.: `$ tldr ls`
 
+
 * locate where you are: `pwd`
 
 * clear terminal: `clear` 
