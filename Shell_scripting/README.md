@@ -183,7 +183,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ## Compression
 
-**tar vs zip vs gz (gzip)**
+### tar vs. zip vs. gz (gzip)
 
 * [tar == uncompressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
 * [.zip == (usually) compressed archive file](https://itsfoss.com/tar-vs-zip-vs-gz/)
