@@ -82,9 +82,9 @@
 
 ## Bash Commands (Linux - MacOS - WSL)
 
-### General
-
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
+
+### General
 
 * updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
@@ -441,6 +441,47 @@ Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Sc
         *  `du -h <dirname> | sort -nr` 
 * [overview of the filesystem disk space usage](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-df-command): `df` 
     *  `df -h` human readable form
+
+<br>
+
+Interrelated with **paths**:
+
+* `basename` | `dirname`
+
+<br> 
+
+**Running processes**:
+
+| Information/State | Description |
+|----|----|
+| **PID** | Process Id |
+| **TT** | Terminal Id is used |
+| **STAT** | State of process |
+|`I`| idle (sleeping for longer than 20 sec.)|
+|`R`| runnable process|
+|`S`| sleeping for less than 20 sec.|
+|`T`| a stopped process|
+|`U`| a process in uninterruptible wait|
+|`R`| runnable process|
+|`R`| runnable process|
+|`Z`| a zombie: a dead process|
+
+<br>
+
+* `ps`
+    * e.g.: `ps auxww` will list all running processes including the full commanding string
+        * you can do it for specific applications, e.g.: `ps axww | grep "Visual Studio Code"`
+
+* `top`
+
+
+
+
+
+
+
+
+
 
 
 
