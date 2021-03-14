@@ -423,15 +423,13 @@ Various useful commands:
 * `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
 * `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
 
-
-
-<br>
+----------------
 
 Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#chmod) command:
 * `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
 * `unmask` ([control/modify default file permissions](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-umask-command))
 
-<br>
+-----------------
 
 **Disk** usage:
 
@@ -442,13 +440,13 @@ Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Sc
 * [overview of the filesystem disk space usage](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-df-command): `df` 
     *  `df -h` human readable form
 
-<br>
+---------
 
 Interrelated with **paths**:
 
 * `basename` | `dirname`
 
-<br> 
+--------------
 
 **Running processes**:
 
@@ -465,6 +463,8 @@ Interrelated with **paths**:
 |`R`| runnable process|
 |`R`| runnable process|
 |`Z`| a zombie: a dead process|
+|**+**| process is in the foreground|
+|**s**| process is a session leader|
 
 <br>
 
@@ -472,8 +472,16 @@ Interrelated with **paths**:
     * e.g.: `ps auxww` will list all running processes including the full commanding string
         * you can do it for specific applications, e.g.: `ps axww | grep "Visual Studio Code"`
 
-* `top`
+* display dynamic real-time informartion about running processes: `top` 
 
+* `kill`
+    * `kill <PID>`
+* `killall`     
+    * `killall <name>` 
+
+* display status of jobs in current session: `jobs`
+* resume jobs that have been suspended: `bg`
+* run jobs in foreground: `fg`
 
 
 
