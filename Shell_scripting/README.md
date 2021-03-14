@@ -79,7 +79,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * updates: `sudo apt-get update` | `sudo apt-get upgrade`
 
-* `reboot` / `shutdown now` / `systemctl suspend` / `systemctl hibernate`
+* `reboot` / `shutdown now` / `systemctl suspend` (like "sleep" on Windows)/ `systemctl hibernate`
 
 * Ubuntu version: `df-h` `lsb_release -a` 
 
@@ -298,6 +298,31 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 It stands for "*global regular expression print*"
 
 * e.g. `grep ok file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
