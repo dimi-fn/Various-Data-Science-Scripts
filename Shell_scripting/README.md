@@ -426,7 +426,9 @@ Various useful commands:
 
 <br>
 
+Interrelated with the [chmod](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#chmod) command:
 * `chown` ([change user and group ownership of files and directories](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-chown-command))
+* `unmask` ([control/modify default file permissions](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-umask-command))
 
 
 
