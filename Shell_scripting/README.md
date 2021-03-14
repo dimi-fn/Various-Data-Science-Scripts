@@ -104,7 +104,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * `reboot` / `shutdown now` / `systemctl suspend` (like "sleep" on Windows)/ `systemctl hibernate`
 
-* Ubuntu version: `df-h` `lsb_release -a` 
+* Ubuntu version: `lsb_release -a`
 
 * Python version: `python3 --version`
 
@@ -541,9 +541,9 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 * logging info: `who` `whoami`
 
-* users/account/passwords: `su` `sudo` | `passwd`
+* users/account/passwords: `su` | `sudo` | `passwd`
 
-* networks / packets: `ping`, `traceroute`
+* networks / packets: `ping` | `traceroute`
 
 ----------------
 
