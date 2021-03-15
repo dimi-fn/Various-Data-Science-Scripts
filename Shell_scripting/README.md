@@ -37,7 +37,7 @@
 
 # Shell Scripting
 
-`Shell scripting` is a program to run on UNIX shell, and `Bash` (Bourne Again SHell) is a Unix shell and interactive command line command language and interpreter, which is the default shell on Linux and Mac OS.
+`Shell scripting` is a program to run on UNIX shell, and `Bash` (Bourne Again SHell) is a Unix shell and interactive command line language and interpreter. It refers to the whole shell, and it is the default shell on Linux and Mac OS.
 
 * The terminal can be used on Linux and Mac, the git bash on Windows
 
@@ -49,9 +49,11 @@
     * in case permission is required: `chmod +x 'bash_script'.sh`
 
 * terminal (in order to run the .sh file):
-    1) go the path of the bash script (where the bashfilename.`sh` is located)
-    2) `chmod +x bashfilename.sh`
-    3) `./bashfilename.sh`    
+    1) go the path of the bash script (where the filename`.sh` is located)
+    2) `chmod +x filename.sh`
+    3) `./filename.sh`   
+
+Or just `$ bash filename.sh`
 
 * no spaces among code, it is like typing in the terminal
 
@@ -67,9 +69,17 @@
 
 ### Hashbang 
 
-`#!/usr/bin/env/ python3` ==> the **shebang line**, or **hashbang**
+Scripts start with an interpretive directive which is called the "**Hashbang**" or "**Shebang**"
 
-* `#!` --> ("hash" + "bang") 
+* `#!` ==> ("hash" + "bang" ==> the hashbang (or shebang)) 
+* /bin/bash ==> the path to the Bash executable
+    * `#!/bin/bash` altogether
+
+The above will tell the shell that this is a Bash script, and that it should be run as such.
+
+----
+
+* `#!/usr/bin/env/ python3` 
 
 * `usr/bin/env python3` --> the path to the executable that will run the script along with any other optional arguments
 
@@ -312,6 +322,8 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 * e.g. count number of lines in file: `wc -l <filename>`
 
+* number of files: `ls -1 | wc -l`
+
 * count lines, words, and characters (bytes), e.g. `ls -all | wc` => will give output of lines words, and bytes
 
 * man or tldr for more
@@ -322,7 +334,12 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 It stands for "*global regular expression print*"
 
-* e.g. `grep ok file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
+* e.g. `grep "ok" file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
+
+* `ping google.com`
+    * run only 2 times: `ping -c 2 google.com`
+        * grap content containing "bytes from": `ping -c 2 google.com | grep "bytes from"`
+            * cut content, search for the [4]th [f]ield based on the "=" [d]elimeter to slice up lines based on that particular criteria `ping -c 2 google.com | grep "bytes from" | cut -d = -f 4` => this will give only the response time!
 
 ## $ diff
 
