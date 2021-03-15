@@ -18,7 +18,7 @@
     * [$ wc](#-wc)
     * [$ grep](#-grep)
     * [$ diff](#-diff)
-    * [$ echo](#-echo)
+    * [$ echo](#-echo--printf)
     * [$ chmod | chown | unmask](#-chmod--chown--unmask)
     * [$ xargs](#-xargs)
     * [$ env](#-env)
@@ -37,7 +37,7 @@
 
 # Shell Scripting
 
-`Shell scripting` is a program to run on UNIX shell, and `Bash` is a Unix shell and command language.
+`Shell scripting` is a program to run on UNIX shell, and `Bash` (Bourne Again SHell) is a Unix shell and interactive command line command language and interpreter, which is the default shell on Linux and Mac OS.
 
 * The terminal can be used on Linux and Mac, the git bash on Windows
 
@@ -85,6 +85,7 @@
 # Bash Commands (Linux - MacOS - WSL)
 
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
+* `q` for exit | `h` for displaying the reference
 
 ## General
 
@@ -101,6 +102,9 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 * `ls`
     * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
     * recursive output: `ls -R`
+    * output with permissions and file types:
+        * `ls -l`
+        * `ls -l <directory>`
 
 * the **manual page** of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
     * **quick guidance information** for commands: `tldr <command>`, e.g.: `$ tldr ls`
@@ -108,7 +112,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * locate where you are: `pwd`
 
-* clear terminal: `clear` 
+* clear terminal: `clear` | `cntl + l`
     * `clear -x` (clear the screen but keep terminal's scrollback buffer)
 
 * history of terminal commands used: `history` `history 20`
@@ -148,13 +152,14 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ## File
 
-* create file: `touch <filename>`
+* create file: `touch <filename>` | `touch {file1,file2,file3}.txt` (brace expansion without spaces) | for many files: `touch {1..100}.txt` => will create 100 txt files
 
 * copy a file: `cp <file_to_be_copied> <renamed_copied_and_pasted_file>`
 
 * move file (like cut and paste): `mv <file_to_be_moved> <dir_destination>`
 
 * delete/remove file: `rm <filename>` `rm <file1> <file2>` 
+    * remove everything under current tree: `rm *`
 
 * open file: `xdg-open <filename>`
 
@@ -269,7 +274,7 @@ you can use your own command (alias) replacing one of the official UNIX commands
 
 **cat**
 
-* it prints a file's content
+* it prints a file's content (*it makes only sense for txt files, not binary like images*)
 * you can also concatenate the content of multiple files into one file
 * cat command can often be used in combination with the pipe operator "|" to feed a file's content as input to another command: `cat file1 | anothercommand`.
 
@@ -279,7 +284,9 @@ you can use your own command (alias) replacing one of the official UNIX commands
 
 * concatenate: `cat file1 file2 > file3`, e.g.  `cat a.txt b.txt > c.txt` => c.txt will have the content of "a" and "b"
 
-Use `man cat` or `tldr cat` for more options
+<br>
+
+* you can also use `more <txtfile>` and read the content more easily by pressing space bar for navigation through the content.
 
 ----
 
@@ -323,12 +330,14 @@ It compares files and shows the difference in the content
 
 * E.g. `diff -y <file1> <file2>` will dipslay the differences side by side
 
-## $ echo
+## $ echo | printf
 * print something to terminal: `echo "hello world!"`
 
 * print a range of number, e.g.: `echo {1..5}`   
 
 * create some content and insert it into a file, e.g.: `echo "I will put this text to a file >> <filename.txt>`
+
+* `printf "1\n2\n3"` <--> this will not work with echo as desired
 
 * `echo $(ls)` == `ls`
     * `echo "$(ls)"` (vertical output)
@@ -458,6 +467,7 @@ env USER=<your_username> node app.js
         * you can do it for specific applications, e.g.: `ps axww | grep "Visual Studio Code"`
 
 * display dynamic real-time informartion about running processes: `top` 
+    * `htop`
 
 * `kill`
     * `kill <PID>`
@@ -557,3 +567,7 @@ Allows for a process to live when the terminal gets killed: `nohup`
 [10] https://superuser.com/questions/146754/on-linux-unix-does-tar-gz-versus-zip-matter#answer-1257441
 
 [11] https://stackoverflow.com/questions/10540935/what-is-the-difference-between-tar-and-zip#:~:text=1%20Answer&text=tar%20in%20itself%20just%20bundles,zip%20applies%20compression%20as%20well.&text=A%20zip%20archive%20is%20a,collection%20(of%20uncompressed%20files).#answer-10540952
+
+[12] https://www.linkedin.com/learning/learning-bash-scripting-2013/
+
+[13] https://www.youtube.com/watch?v=s3ii48qYBxA&ab_channel=DistroTube
