@@ -120,7 +120,8 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * **quick guidance information** for commands: `tldr <command>`, e.g.: `$ tldr ls`
 
 
-* locate where you are: `pwd`
+* locate where your current path is: `pwd`
+    * go to home directory: `cd` | `cd ~` | `cd /home/<user>`
 
 * clear terminal: `clear` | `cntl + l`
     * `clear -x` (clear the screen but keep terminal's scrollback buffer)
@@ -538,6 +539,13 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 * `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
 * `uniq` ([has to do with output](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-uniq-command))
+
+* which / whereis
+    * whereis, additionaly to "which", will give you the path to the binary, the path to the libraries, and the path for "man" page of the respective program you are searching for
+
+* download files from the web: `wget`
+
+* calendar: `cal` | calculator: `bc`
 
 ------------
 
