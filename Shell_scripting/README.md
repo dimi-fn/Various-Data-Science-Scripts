@@ -18,7 +18,7 @@
     * [$ wc](#-wc)
     * [$ grep](#-grep)
     * [$ diff](#-diff)
-    * [$ echo](#-echo--printf)
+    * [$ echo | printf](#-echo--printf)
     * [$ chmod | chown | unmask](#-chmod--chown--unmask)
     * [$ xargs](#-xargs)
     * [$ env](#-env)
