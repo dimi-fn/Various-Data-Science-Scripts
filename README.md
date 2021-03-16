@@ -51,7 +51,7 @@ Various commands and notes on SQL.
 
 * [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting)
 
-Unix, shell scripting, bash commands, terminal.
+Unix, Shell scripting, Bash, terminal.
 
 ------
 
