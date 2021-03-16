@@ -13,3 +13,11 @@ https://colab.research.google.com/drive/1iREPkOJqTVr8DpnUw6x9kexWshIXyAwX
 [4] https://en.wikipedia.org/wiki/Binary_search_algorithm
 
 [5] https://www.linkedin.com/learning/programming-foundations-data-structures-2/what-are-arrays
+
+[6] https://stackoverflow.com/questions/4317414/polynomial-time-and-exponential-time
+
+[7] https://en.wikipedia.org/wiki/Big_O_notation#Orders_of_common_functions
+
+[8] https://web.mit.edu/16.070/www/lecture/big_o.pdf
+
+[9] https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/
