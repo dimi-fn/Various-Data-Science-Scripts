@@ -31,7 +31,8 @@
         * [Various](#various)
 
 
-* [Windows Terminal Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
+* [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
+* [To Explore Further](#to-explore-further)
 
 ----
 
@@ -568,6 +569,15 @@ Allows for a process to live when the terminal gets killed: `nohup`
 * ip details: `ipconfig`
 
 -----
+
+# To Explore Further 
+
+[LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
+
+[Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html)
+
+[learnshell.org](https://www.learnshell.org/)
+
 
 ### Sources
 
