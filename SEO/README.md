@@ -796,6 +796,8 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 <i>And various other sources found on hyperlinks across the script.</i>
 
------
+--------
 
-[Go to main page](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
+<br><p align="center">
+<a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO">Go to Main Page</a>
+</p><br>
