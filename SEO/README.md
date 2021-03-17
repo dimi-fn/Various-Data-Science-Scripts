@@ -739,14 +739,15 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Video Generation by Lumen5](https://lumen5.com/)|
 
 ----
-<p align="center"><span>[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)</span></p>
+<p align="center"><span><a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents"></span></a></p>
+
 
 
 <br>
 
-<p align="center">
-<span><font size="-2"><i>"<b>Machine Learning</b>" Search Queries: <code>Prepositions</code>, Credits:</i> </font><a href="https://answerthepublic.com/" target="_blank"><font size="1.8">answerthepublic.com</font></a></span>
-</p>
+
+[Go to contents](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents)
+
 
 -----
 
