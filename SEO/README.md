@@ -694,7 +694,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 ----
 
-# More to Read
+# More to Read / Explore
 
 * [Beginner's Guide to SEO by Moz](https://moz.com/beginners-guide-to-seo)
 
@@ -711,8 +711,6 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 * [Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
 
 * [How to Get Backlinks in 2020](https://moz.com/blog/how-to-get-backlinks?utm_source=hubspot&utm_medium=email&utm_campaign=092020-lecomm&_hsenc=p2ANqtz-823A8ZW8O9t9fVqxD86PvO3B1-wtOR8QYvCB5Kt5jbIRWBGO-TobZhLmHzx5sPItyRXvTSxi9aMI2_mDR4ZsZ8IpZu2wChUwV4ioQDvCGhjrM_TSU&_hsmi=95404439&hsCtaTracking=70f2af25-e7ff-4e53-8219-5f55252903a3%7C11308ab0-9c32-4a47-9350-e627f04fc501)
-
-* [Content Research by Frase](https://www.frase.io/content/)
 
 * [The Art of SEO, Mastering Search Engine Optimization (book)](https://www.amazon.com/Art-SEO-Mastering-Search-Optimization/dp/1491948965)
 
@@ -737,7 +735,8 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
-| **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/speed/pagespeed/insights/) |
+| **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/search/docs) |
+| **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Video Generation by Lumen5](https://lumen5.com/)|
 
 ----
 
