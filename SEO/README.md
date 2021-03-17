@@ -740,8 +740,9 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 ----
 
-<p align="center"><span>Go to Contents<a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents"></span></a></p>
-
+<p align="center">
+<a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents">Go to Contents</a>
+</p>
 
 
 
