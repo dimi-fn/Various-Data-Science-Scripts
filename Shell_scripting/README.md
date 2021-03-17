@@ -572,11 +572,11 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 # To Further Explore
 
-[LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
+* [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 
-[Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html)
+* [Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html)
 
-[learnshell.org](https://www.learnshell.org/)
+* [learnshell.org](https://www.learnshell.org/)
 
 --------
 
