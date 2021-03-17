@@ -8,6 +8,8 @@
 
 * [Test API with Postman](https://www.freecodecamp.org/news/learn-how-to-use-postman-to-test-apis/?fbclid=IwAR0ps6WF5bp9_YFxlHBejuJ_K1YUMf2iLJucWNmvKcoSjl-EqM7UKj80bgk)
 
+* [Turn Google Sheets into a REST API with a React Application](https://www.freecodecamp.org/news/react-and-googlesheets/?fbclid=IwAR3yvMKSOqNK9lvj6Yb_TFprpKO2iJ9LwWgkv42zd771tp-WfEWGgL5paAQ)
+
 ### Sources
 
 [1] https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/
