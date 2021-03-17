@@ -32,7 +32,7 @@
 
 
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
-* [To Explore Further](#to-explore-further)
+* [To Further Explore](#to-further-explore)
 
 ----
 
@@ -570,7 +570,7 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 -----
 
-# To Explore Further 
+# To Further Explore
 
 [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 
@@ -578,6 +578,7 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 [learnshell.org](https://www.learnshell.org/)
 
+--------
 
 ### Sources
 
