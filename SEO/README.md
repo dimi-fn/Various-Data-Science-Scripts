@@ -736,7 +736,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
 | **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/search/docs) |
-| **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Video Generation by Lumen5](https://lumen5.com/)<hr>* [Auto Transcribe - Speech to Text by AWS](https://aws.amazon.com/transcribe/)<hr>* [Image Optimization](https://ahrefs.com/blog/image-seo/) | [Automate Meta Descriptions](https://www.searchenginejournal.com/titles-meta-descriptions-automatically-python-javascript/360108/#close)|
+| **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Video Generation by Lumen5](https://lumen5.com/)<hr>* [Auto Transcribe - Speech to Text by AWS](https://aws.amazon.com/transcribe/)<hr>* [Image Optimization](https://ahrefs.com/blog/image-seo/) / [Automate Meta Descriptions](https://www.searchenginejournal.com/titles-meta-descriptions-automatically-python-javascript/360108/#close)|
 
 ----
 
