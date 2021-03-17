@@ -694,7 +694,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 ----
 
-# More to Read / Explore
+# More to Read 
 
 * [Beginner's Guide to SEO by Moz](https://moz.com/beginners-guide-to-seo)
 
