@@ -739,6 +739,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Video Generation by Lumen5](https://lumen5.com/)|
 
 ----
+
 <p align="center"><span><a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#contents"></span></a></p>
 
 
