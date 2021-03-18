@@ -119,7 +119,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 
 ## Relevance & Authenticity
-Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank ** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticated.
+Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticated.
 
 ### Relevance
 It is determined by various factors such as:
