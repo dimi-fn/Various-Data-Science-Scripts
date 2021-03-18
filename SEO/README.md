@@ -276,7 +276,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 * `Comparisons`: what comparisons do users think of when they type their query
 * `Related`: Related queries to the main query's subject
 
-The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries above. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
+The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries aforementioned. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
 Lastly, the data describing the images can be integrated into [CSV files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv) that are provided by both respective sources.
 
@@ -402,6 +402,12 @@ Lastly, the data describing the images can be integrated into [CSV files](https:
 <p align="center">
 <span><font size="-2"><i>Search Interest Rate: Data Science (blue) vs Machine Learning (red) vs AI (yellow), Worldwide, Jan 2004 - Feb 2021, Credits:</i> </font><a href="https://trends.google.com/trends/?geo=US" target="_blank"><font size="1.8">Google Trends</font></a></span>
 </p>
+
+
+<br>
+
+The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles in your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume with medium or low competition (i.e., the case in which users are looking for something that does not seem to be provided by many sellers).
+* * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 -----
 
@@ -701,6 +707,8 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 * [Moz.com Community](https://moz.com/community)
 
 * [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
+
+* [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 * [Learn SEO from Google Developers, Documentation by Google Search Central](https://developers.google.com/search/docs)
 
