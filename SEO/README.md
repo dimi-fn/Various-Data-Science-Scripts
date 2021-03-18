@@ -406,12 +406,12 @@ Lastly, the data describing the images can be integrated into [CSV files](https:
 
 <br>
 
-The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles in your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume with medium or low competition (i.e., the case in which users are looking for something that does not seem to be provided by many sellers).
+The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles on your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume (the greener the dot the higher the search volume) with medium or low competition (i.e., the case in which users are looking for something that does not seem to be provided by many sellers).
 * * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 -----
 
-<br>
+<br><br>
 
 ## Keyword Distribution
 It is the procedure of how you will assign and distribute your specific keywords across your website's pages.
