@@ -38,7 +38,7 @@
 * [SEO Performance Evaluation](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#seo-performance-evaluation)
   * [E-Commerce](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#e-commerce)
 * [Rules of thumb](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#rules-of-thumb)
-* [More to Read](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#more-to-read)
+* [Recommended Reading & Additional Research](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#recommended-reading--and-additional-research)
 * [Appendix: Table of Useful Links](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#appendix-table-of-useful-links)
 * [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#sources)
 
@@ -700,7 +700,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 ----
 
-# More to Read 
+# Recommended Reading & Additional Research
 
 * [Beginner's Guide to SEO by Moz](https://moz.com/beginners-guide-to-seo)
 
