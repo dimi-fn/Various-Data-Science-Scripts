@@ -274,7 +274,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for asking that query
 * `Comparisons`: what comparisons do users think of when they type their query
-* `Related`: Related queries to the main query's subject
+* `Related`: Related queries to the main query's subject (e.g. in Google they would be the top suggestions marked as "Related Searches")
 
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries aforementioned. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
