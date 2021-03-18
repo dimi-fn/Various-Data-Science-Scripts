@@ -706,19 +706,19 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 * [Moz.com Community](https://moz.com/community)
 
+* [How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
+
+* [Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
+
 * [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
 
 * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 * [Learn SEO from Google Developers, Documentation by Google Search Central](https://developers.google.com/search/docs)
 
-* [How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
-
 * [Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
 
 * [Keyword Research Strategies, backlinko.com](https://backlinko.com/hub/seo/keyword-difficulty)
-
-* [Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
 
 * [How to Get Backlinks in 2020](https://moz.com/blog/how-to-get-backlinks?utm_source=hubspot&utm_medium=email&utm_campaign=092020-lecomm&_hsenc=p2ANqtz-823A8ZW8O9t9fVqxD86PvO3B1-wtOR8QYvCB5Kt5jbIRWBGO-TobZhLmHzx5sPItyRXvTSxi9aMI2_mDR4ZsZ8IpZu2wChUwV4ioQDvCGhjrM_TSU&_hsmi=95404439&hsCtaTracking=70f2af25-e7ff-4e53-8219-5f55252903a3%7C11308ab0-9c32-4a47-9350-e627f04fc501)
 
