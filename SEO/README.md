@@ -702,6 +702,8 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 * [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
 
+* [Learn SEO from Google Developers, Documentation by Google Search Central](https://developers.google.com/search/docs)
+
 * [How Search Engines Work: Crawling, Indexing, and Ranking (moz.com)](https://moz.com/beginners-guide-to-seo/how-search-engines-operate)
 
 * [Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
@@ -735,7 +737,6 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
-| **Learn SEO from Google Developers** | [Google Search Central SEO guide](https://developers.google.com/search/docs) |
 | **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Image Optimization](https://ahrefs.com/blog/image-seo/) / [Automate Meta Descriptions](https://www.searchenginejournal.com/titles-meta-descriptions-automatically-python-javascript/360108/#close)<hr>* [Video Generation by Lumen5](https://lumen5.com/)<hr>* [Auto Transcribe - Speech to Text by AWS](https://aws.amazon.com/transcribe/)|
 ----
 
