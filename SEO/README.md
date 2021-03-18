@@ -97,7 +97,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
     * **Stopwords** removal achieves <i><b>discrimination</b></i>: it is the removal of words that are common to most of the documents (words like "and", "are", "do", "am", "but")
-    * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g. information -> inform, political -> polit)
+    * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g., information -> inform, political -> polit)
 
 * A medium number of words appear <ins>each</ins> in a medium number of documents (`medium-frequency words`) 
   * These are the "**best**" words in the IR context ==> they represent some recognizable concept (satisfactory *description* level) that does not seem to be meaningless (satisfactory *discrimination* level)
@@ -160,7 +160,7 @@ PageRank measures how likely a surfer is to visit a web page:
 
 * `PR(p)`: PageRank score of page p
 * `d`: the probability a surfer will continue clicking from this current website (85%), rather than jumping to a new location (15%).
-I.e., the user will go from website x to website y via the website x (website x recommended that) with a probability of 85%, rather than visiting website y directly by
+i.e. the user will go from website x to website y via the website x (website x recommended that) with a probability of 85%, rather than visiting website y directly by
 navigating to another page of the browser (15%)
 * `N`: total number of pages in the collection
 * `pjEM(p)`: set of all pages linked to p
@@ -176,7 +176,7 @@ Precision in the context of Information Retrieval:
 
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
   * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>
-  * Preference for higher precision than recall: e.g. legal and medical queries where there is a substantial need for high precision and correct results
+  * Preference for higher precision than recall: e.g., legal and medical queries where there is a substantial need for high precision and correct results
 
 
 ### Recall
@@ -187,7 +187,7 @@ Recall in the context of Information Retrieval:
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
   * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>
-  * Preference for higher recall than precision: e.g. youtube recommendations, seeking online library collections/scientific articles: There is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent
+  * Preference for higher recall than precision: e.g., youtube recommendations, seeking online library collections/scientific articles: There is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent
 
 <br><br>
 
@@ -227,11 +227,11 @@ What keywords would the user have to type in order to find your specific web pag
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. E.g. if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. e.g., if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
 
 <br>
 
-**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. I.e., it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. i.e. it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
 Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US).
 
 <br>
@@ -254,7 +254,7 @@ Keyword research has to be conducted iteratively through the year, and *keyword 
 
 * Getting **insights** about your website: [Google Search Console](https://search.google.com/search-console/about) (former Google Webmaster Tools)
 
-* **Keyword expansion tools**: They can give potentially useful keywords regarding a topic. E.g. How people are searching for products/services on the web and what keywords are they using for finding out a specific item? In this way, you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
+* **Keyword expansion tools**: They can give potentially useful keywords regarding a topic. e.g., How people are searching for products/services on the web and what keywords are they using for finding out a specific item? In this way, you can get to know your target audience better, and generate a list of *potential keywords*. Tools: [Google Trends](https://trends.google.com/trends/?geo=US), [Answer the Public](https://answerthepublic.com/), [moz.com](https://moz.com/)
 
 <br>
 
@@ -262,7 +262,7 @@ Keyword research has to be conducted iteratively through the year, and *keyword 
 
 You should also focus on long-tail keywords, i.e. the descriptive keywords.
 
-For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g. BMW black cars, sports fast cars, electric cars, cars for sale in Germany, red Ferrari in the Netherlands, etc. Focusing on those long-tail keywords might give you better probabilities of higher ranking than focusing on the very competitive query "car".
+For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g., BMW black cars, sports fast cars, electric cars, cars for sale in Germany, red Ferrari in the Netherlands, etc. Focusing on those long-tail keywords might give you better probabilities of higher ranking than focusing on the very competitive query "car".
 
 <br>
 
@@ -274,7 +274,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 * `Questions`: how users ask a question
 * `Prepositions`: what prepositions users use for asking that query
 * `Comparisons`: what comparisons do users think of when they type their query
-* `Related`: Related queries to the main query's subject (e.g. in Google they would be the top suggestions marked as "Related Searches")
+* `Related`: Related queries to the main query's subject (e.g., in Google they would be the top suggestions marked as "Related Searches")
 
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries aforementioned. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
@@ -406,7 +406,7 @@ Lastly, the data describing the images can be integrated into [CSV files](https:
 
 <br>
 
-The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles on your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume (the greener the dot the higher the search volume) with medium or low competition (i.e., the case in which users are looking for something that does not seem to be provided by many sellers).
+The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles on your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume (the greener the dot the higher the search volume) with medium or low competition (i.e. the case in which users are looking for something that does not seem to be provided by many sellers).
 * * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 -----
@@ -456,7 +456,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Headings (h1..h5)
 * Keyword Optimization
 * Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
-* Images (e.g. using good alt descriptions)
+* Images (e.g., using good alt descriptions)
 * Meta tags and meta descriptions
 * URL (good descriptive URL but not too long)
 * Header Response Code (HTTP statuses)
@@ -491,7 +491,7 @@ Focus on URL, title, description, headers, body text, and images:
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
   * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
-    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g. the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
+    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
 
 <br>
 
@@ -517,9 +517,9 @@ Ways to leverage SEO from a technical perspective:
   indicate which is the primary URL for duplicate content across your website pages
     * Another way to indicate that is directly via the *crawl URL parameters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
-* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g. to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
-  * Temporary redirections: e.g. when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
-  * Permanent redirections: e.g. when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way, you tell search engines to apply all the necessary transformations to the content that moved from the old URL to the new one
+* <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g., to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
+  * Temporary redirections: e.g., when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
+  * Permanent redirections: e.g., when you moved a part of your content to another location ==> use `301 (Permanent Redirect)`. In this way, you tell search engines to apply all the necessary transformations to the content that moved from the old URL to the new one
     * `Apart from the above 301 and 302 redirect issues you always want your pages to return the status code of 200, and you never want the status code of 403 (page is forbidden), 404 (page not found), and 500 (application error)`
 
 * When redirecting URLs with *JavaScript* or *meta refresh tags* this may not be suitably processed by search engines
@@ -551,7 +551,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total impressions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g. [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g. [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant)
+* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g., [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)), or from a non-technical perspective (e.g., [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant)
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
@@ -633,7 +633,7 @@ Via the internal links of your website, search engines can get a good idea of th
 
 
 2. <i>**Contextual Links**</i>:
-* When e.g. a viewer clicks on a link embedded in some content and jumps e.g. from page one to the second page, i.e. when the content of some page references the content of another page from the same website
+* When a viewer clicks on a link embedded in some content and jumps e.g., from page one to the second page, i.e. when the content of some page references the content of another page from the same website.
 
 <br>
 
@@ -641,8 +641,8 @@ Via the internal links of your website, search engines can get a good idea of th
 
 Links from external sources that point towards your website are perceived as confidence votes by the search engines.
 
-* web directories (selectively and trustworthy, after an approved review) / local business directories / social media/ websites with <ins>relevant</ins> content (e.g. when you reference another website along with some of your content) / links pointing to your website from other websites
-  * e.g. links from non-profit or educational organizations can be quite trustworthy
+* web directories (selectively and trustworthy, after an approved review) / local business directories / social media/ websites with <ins>relevant</ins> content (e.g., when you reference another website along with some of your content) / links pointing to your website from other websites
+  * e.g., links from non-profit or educational organizations can be quite trustworthy
 
 **Link-building**: [moz link explorer for backlink checker](https://moz.com/link-explorer), and other tools like: [majestic.com](https://majestic.com/), [ahrefs.com](https://ahrefs.com/), [raven tools](https://raventools.com/), [semrush](https://www.semrush.com/)
 * you want **backlinks** with high page and domain authority
@@ -681,7 +681,7 @@ If your business organization is E-commerce, then other KPIs might be:
 In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
 * take, also, care of the mobile navigation of your website, e.g.: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
-* [Google business listing](https://www.google.com/business/) for enhancing local business SEO (e.g. to appear on maps locally)
+* [Google business listing](https://www.google.com/business/) for enhancing local business SEO (i.e. to appear on maps locally)
 
 ----
 
@@ -696,7 +696,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
-* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e., If a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
+* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. i.e. If a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
 ----
 
