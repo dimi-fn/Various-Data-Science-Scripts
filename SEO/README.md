@@ -279,7 +279,9 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries aforementioned. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
 Lastly, the data describing the images can be integrated into [CSV files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv) that are provided by both respective sources.
-* Ιn the csv directory, a [csv file provided by Moz.com](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv/moz) can additionally be found with regard to the query "Artificial Intelligence".
+* Ιn the csv directory, a [csv file provided by Moz.com](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv/moz) can additionally be found with regard to the query "Artificial Intelligence", and how Moz aggregates the keywords results and metrics.
+
+<br>
 
 ### Query: Data Science 
 <p align="center">
