@@ -7,6 +7,8 @@
 As [Seth Stephens-Davidowitz](http://sethsd.com/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+6+AnswerThePublic+Course%5D+Your+final+lesson%3F+%20-%202757567) has stated:
 "*Google searches are the most important dataset ever collected on the human psyche*". By that he means that, in the context of Big Data, and by collecting and analyzing data derived from Google searches, we can analyze -and even predict- people's behaviour: needs, trends, motivations, and the list goes on.
 
+-----
+
 ## Contents
 
 * [Acronyms](#acronyms)
