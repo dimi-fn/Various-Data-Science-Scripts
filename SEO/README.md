@@ -686,7 +686,7 @@ If your business organization is E-commerce, then other KPIs might be:
 
 <br>
 
-In E-commerce, it is even more necessary to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
+In E-commerce, it is even more imperative to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
 * take, also, care of the mobile navigation of your website, e.g.: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
 * [Google business listing](https://www.google.com/business/) for enhancing local business SEO (i.e. to appear on maps locally)
