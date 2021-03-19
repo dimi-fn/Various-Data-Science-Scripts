@@ -91,7 +91,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/zipfian_distrib_law/zipf.PNG" alt="Zipfian Distribution of words">
 </p>
 <p align="center">
-<span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Credits:</i> </font><a href="https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
+<span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Image Credits:</i> </font><a href="https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
 </p>
 
 
