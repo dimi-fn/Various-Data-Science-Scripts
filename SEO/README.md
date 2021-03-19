@@ -279,7 +279,7 @@ For example, if you sell cars then it would be quite hard for you to be ranked f
 The last graph (derived from [Google Trends](https://trends.google.com/trends/?geo=US)) illustrates the **search interest** rate with regard to the same three queries aforementioned. A value of 100 is the peak popularity for the term, a value of 50 means that the term is half as popular, and a score of 0 means that there was not enough data for this term.
 
 Lastly, the data describing the images can be integrated into [CSV files](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv) that are provided by both respective sources.
-* Ιn the csv directory, a [csv file provided by Moz.com](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv/moz) can additionally be found with regard to the query "Artificial Intelligence", and how Moz aggregates the keywords results and metrics.
+* Ιn the CSV directory, a [CSV file provided by Moz.com](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO/csv/moz) can additionally be found with regard to the query "Artificial Intelligence", and how Moz aggregates the keyword results and metrics.
 
 <br>
 
@@ -736,7 +736,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 | Content| Link |
 |------|------|
 | **Keywords Explorer** | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
-| **Search Volume** | [Moz explorer](https://moz.com/explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
+| **Search Volume** | [Moz Pro explorer](https://analytics.moz.com/pro/keyword-explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
 | **Measure Site's Search Traffic & Performance** | [Google Search Console](https://search.google.com/search-console/about) |
 |**SEO Performance Evaluation** | [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics) |
 |**Schema Markup - Microdata**| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
