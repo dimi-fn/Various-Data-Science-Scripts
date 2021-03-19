@@ -738,7 +738,7 @@ In E-commerce, it is even more necessary to take advantage of the [schema.org Mi
 
 | Content| Link |
 |------|------|
-| **Keywords Explorer** | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
+| **Keywords Explorer** | [Moz explorer](https://moz.com/explorer), [Answerthepublic](https://answerthepublic.com/), [Google Trends](https://trends.google.com/trends/?geo=US), [Wordstream](https://www.wordstream.com/keywords), [Pinterest Trends](https://trends.pinterest.com/?country=US), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Ubersuggest](https://neilpatel.com/ubersuggest/) |
 | **Search Volume** | [Moz Pro explorer](https://analytics.moz.com/pro/keyword-explorer), [Wordstream](https://www.wordstream.com/keywords), [Ahrefs](https://ahrefs.com/keywords-explorer), [Semrush](https://www.semrush.com/analytics/keywordmagic/start), [Google Trends](https://trends.google.com/trends/?geo=US) |
 | **Measure Site's Search Traffic & Performance** | [Google Search Console](https://search.google.com/search-console/about) |
 |**SEO Performance Evaluation** | [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics) |
