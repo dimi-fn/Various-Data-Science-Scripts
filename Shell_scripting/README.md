@@ -29,8 +29,6 @@
         * [Editors](#editors)
         * [logs/ users/ accounts/ passwords/ networks/ packets](#logs-users-accounts-passwords-networks-packets)
         * [Various](#various)
-
-
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 * [To Further Explore](#to-further-explore)
 
@@ -112,6 +110,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * `ls`
     * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
+    * show also hidden files (e.g. the .git file): `ls -a`
     * recursive output: `ls -R`
     * output with permissions and file types:
         * `ls -l`
