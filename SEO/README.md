@@ -538,6 +538,10 @@ Ways to leverage SEO from a technical perspective:
     * `Embedded or inline Microdata`
     * `RDFa` (Resource Description Framework in Attributes)
 
+
+* <i>**Link Gap Analysis**</i>: Discover websites with high authenticity that already point to your competitors, but not you. 
+  * [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect)
+
 ### Server-side   
 Serving up your website's pages fast and reliably => *quality experience*
 
@@ -747,7 +751,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 |**Schema Markup - Microdata**| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
 | **Robots.txt, Meta NoIndex, Meta NoFollow** | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
-| **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/)|
+| **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/) <hr> [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect) |
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
@@ -809,6 +813,9 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 [22] https://www.wordstream.com/blog/ws/2018/06/13/off-page-seo
 
 [23] https://www.gsqi.com/marketing-blog/hidden-seo-danger-wrong-header-response-code/
+
+[24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis?utm_campaign=092020-lecomm&utm_medium=email&_hsmi=95404738&_hsenc=p2ANqtz--Lzl64OPcXEWT2MOSL3OBoaUv-iBnQaZo5T7iP5fi0NL23uHUSonh2quq23va6WgtwegHAU2DOPwkCbWA09ssv0vUjdUbedMh1FhKz8mfuCBMqcU8&utm_source=hubspot)
+
 
 <i>And various other sources found on hyperlinks across the script.</i>
 
