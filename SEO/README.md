@@ -540,7 +540,7 @@ Ways to leverage SEO from a technical perspective:
 
 
 * <i>**Link Gap Analysis**</i>: Discover websites with high authenticity that already point to your competitors, but not you. 
-  * [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect)
+  * [Link Intersect: Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
 ### Server-side   
 Serving up your website's pages fast and reliably => *quality experience*
@@ -814,7 +814,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 [23] https://www.gsqi.com/marketing-blog/hidden-seo-danger-wrong-header-response-code/
 
-[24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis?utm_campaign=092020-lecomm&utm_medium=email&_hsmi=95404738&_hsenc=p2ANqtz--Lzl64OPcXEWT2MOSL3OBoaUv-iBnQaZo5T7iP5fi0NL23uHUSonh2quq23va6WgtwegHAU2DOPwkCbWA09ssv0vUjdUbedMh1FhKz8mfuCBMqcU8&utm_source=hubspot)
+[24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
 
 <i>And various other sources found on hyperlinks across the script.</i>
