@@ -1,4 +1,4 @@
-**Work on progress*
+**Work on progress* (I intend to update this repository while learning new content)
 
 ----
 
