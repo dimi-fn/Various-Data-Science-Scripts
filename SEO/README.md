@@ -542,6 +542,8 @@ Ways to leverage SEO from a technical perspective:
 * <i>**Link Gap Analysis**</i>: Discover websites with high authenticity that already point to your competitors, but not you. 
   * [Link Intersect: Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
+<br>
+
 ### Server-side   
 Serving up your website's pages fast and reliably => *quality experience*
 
