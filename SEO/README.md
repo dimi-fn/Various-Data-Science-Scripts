@@ -4,11 +4,11 @@
 
 # Search Engine Optimization (SEO) Handbook
 
-In simple terms, SEO comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
+**Definition**: In simple terms, SEO comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
 
-There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
+**Types**: There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
 
-The main advantages of organic SEO are that you don't have to pay for ads, and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting ready-to-buy users, however, it might not be a good long-term strategy move.
+**Comparison**: The main advantages of organic SEO are that you don't have to pay for ads, and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting "ready-to-buy" users, however, it might not be a good long-term strategy move.
 
 <br>
 
