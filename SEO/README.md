@@ -67,6 +67,7 @@ As [Seth Stephens-Davidowitz](http://sethsd.com/?utm_source=convertkit&utm_mediu
 |TF|Term Frequency|
 |TLD|Top Level Domains|
 
+-----
 
 # SEO in the context of Information Retrieval (IR)
 
@@ -206,6 +207,8 @@ Further research on Recommender System metrics may include: Mean Average Precisi
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads)
 
+----
+
 # Ranking Factors on Search Results
 
 Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity) section, and although search ranking algorithms change over time, it can be safely claimed that good ranking results align with **high quality** and **relevant information**. Hence, some of the most important ranking factors can be found aggregately and hierarchically on importance as followed:
@@ -222,6 +225,8 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 | **Social Metrics**| quantity and quality of links and sharings from social media|
 | **Domain-level Keyword Usage**| exact and partial keyword matches|
 | **Domain-level Keyword-Agnostic Features**| domain name length, Top Level Domains (TLD), HTTP responses|
+
+------
 
 # Keywords
 Understanding user's (commercial) `intent` (what users are looking for and how they search) is important for constructing the right keywords. 
