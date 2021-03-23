@@ -6,15 +6,11 @@
 
 SEO, in simple terms, comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
 
-<br>
-
 There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
-
-<br>
 
 The main advantages of organic SEO are that you don't have to pay for ads, and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting ready-to-buy users, however it might not be a good long-term strategy move.
 
-<br><br>
+<br>
 
 As [Seth Stephens-Davidowitz](http://sethsd.com/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+6+AnswerThePublic+Course%5D+Your+final+lesson%3F+%20-%202757567) has stated:
 "*Google searches are the most important dataset ever collected on the human psyche*". By that he meant that, in the context of Big Data and by collecting and analyzing data derived from Google searches, we can analyze -and even predict- people's behaviour, needs, trends, motivations, and the list goes on.
