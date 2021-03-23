@@ -97,14 +97,12 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 ## Zipfian Distribution - Stopwords - Stemming
 
-
 <p align="center">
-  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/zipfian_distrib_law/zipf.PNG" alt="Zipfian Distribution of words">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/zipfian_distrib_law/zipf's_law.PNG" alt="Zipfian Distribution of words">
 </p>
 <p align="center">
-<span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Image Credits:</i> </font><a href="https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
+<span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Image Credits:</i> </font><a href="https://slideplayer.com/slide/5690650/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
 </p>
-
 
 <br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that, it is meant that:
 
@@ -792,7 +790,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 [5] https://medium.com/@bloghands/5-serp-analysis-tools-that-help-you-get-on-page-one-92b9b4e4df3a#:~:text=SERP%20(Search%20Engine%20Results%20Page,ranking%20for%20a%20Google%20search.
 
-[6] https://eclecticlight.co/2015/07/11/zipfs-law-deep-and-meaningful/
+[6] https://blog.alexa.com/types-of-seo/
 
 [7] https://www.ranks.nl/stopwords
 
@@ -831,8 +829,6 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 [24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
 [25] https://searchengineland.com/guide/what-is-seo
-
-[26] https://blog.alexa.com/types-of-seo/
 
 
 <i>And various other sources found on hyperlinks across the script.</i>
