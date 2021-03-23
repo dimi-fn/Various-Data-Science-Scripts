@@ -1,0 +1,1 @@
+source for the photo not shown at his repo text ("zipf's law): https://slideplayer.com/slide/5690650/ 
