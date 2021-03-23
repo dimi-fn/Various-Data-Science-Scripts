@@ -4,11 +4,11 @@
 
 # Search Engine Optimization (SEO) Handbook
 
-SEO, in simple terms, comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
+In simple terms, SEO comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
 
 There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
 
-The main advantages of organic SEO are that you don't have to pay for ads, and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting ready-to-buy users, however it might not be a good long-term strategy move.
+The main advantages of organic SEO are that you don't have to pay for ads, and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting ready-to-buy users, however, it might not be a good long-term strategy move.
 
 <br>
 
@@ -212,6 +212,7 @@ Further research on Recommender System metrics may include: Mean Average Precisi
 # Organic Search vs. PPC
 
 * **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links pointing to your website, your domain authority, the relevance to the user's search query, and other organic ranking factors
+  * **Types**: On-Page SEO (e.g., keyword research, keyword optimization, content creation), Technical SEO (e.g., site speed, mobile-friendliness, site architecture, website's security), Off-Site SEO (e.g., build building, backlinks)
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads
 
@@ -764,7 +765,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 |**Schema Markup - Microdata**| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
 | **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
 | **Robots.txt, Meta NoIndex, Meta NoFollow** | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
-| **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/) <hr> [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect) |
+| **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/), [Alexa’s Competitor Backlink Checker](https://try.alexa.com/marketing-stack/competitor-backlink-checker) <hr> [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect) |
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
 | **Mobile Friendliness Checker** | [Test Mobile by Search Google](https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect) |
 | **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
@@ -830,6 +831,8 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 [24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
 [25] https://searchengineland.com/guide/what-is-seo
+
+[26] https://blog.alexa.com/types-of-seo/
 
 
 <i>And various other sources found on hyperlinks across the script.</i>
