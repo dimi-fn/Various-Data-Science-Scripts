@@ -4,7 +4,7 @@
 
 # Search Engine Optimization (SEO) Handbook
 
-**Definition**: In simple terms, SEO comprises of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
+**Definition**: In simple terms, SEO consists of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
 
 **Types**: There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
 
@@ -143,7 +143,7 @@ A tricky concept about *relevance* in IR is that `we want our document to have a
 
 **Relevance Levels**:
 
-Some of the main relevance level categories comprised of the: System, Topical, and the Cognitive relevance level (*Tefko Saracevic*):
+Some of the main relevance level categories comprise the: System, Topical, and the Cognitive relevance level (*Tefko Saracevic*):
 
 * **System relevance level**: the relationship between query and document
 
@@ -481,7 +481,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Header Response Code (HTTP statuses)
 * Loading time of website (page speed)
 * Mobile Friendliness
-* Quality of content and informativeness (to keep your content up-to-date)
+* Qualitative and informative content keeping it up-to-date
 * Internal Links
 
 <br>
