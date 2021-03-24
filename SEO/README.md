@@ -509,8 +509,8 @@ Focus on URL, title, description, headers, body text, and images:
 
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
-  * embrace *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
-    * You can use websites like [schema.org](https://schema.org/documents/gs.html) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
+  * use *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
+    * You can use websites like [schema.org](https://schema.org) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
 
 <br>
 
@@ -703,7 +703,7 @@ If your business organization is E-commerce, then other KPIs might be:
 
 <br>
 
-In E-commerce, it is even more imperative to take advantage of the [schema.org Microdata markup](https://schema.org/documents/gs.html) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
+In E-commerce, it is even more imperative to take advantage of the [schema.org Microdata markup](https://schema.org) at your website's code, [details here](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#optimizing-text--non-text-elements).
 * take, also, care of the mobile navigation of your website, e.g.: good search functionality, mobile-friendly UI/UX design, filters, swipeable photos, enabling voice search for queries
 
 * [Google business listing](https://www.google.com/business/) for enhancing local business SEO (i.e. to appear on maps locally)
@@ -813,7 +813,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 [17] https://developers.google.com/search/docs/advanced/sitemaps/overview
 
-[18] https://schema.org/documents/gs.html
+[18] https://schema.org
 
 [19] https://www.akamai.com/us/en/cdn/what-is-a-cdn.jsp
 
