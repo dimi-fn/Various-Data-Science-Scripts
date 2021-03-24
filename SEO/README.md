@@ -226,7 +226,7 @@ Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data
 | **Domain-Level & Link Authority Features** | quality of links to domain, domain-level PageRank |
 | **Page-Level Link Features**| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
 | **Page-Level Keywords & Content Features**| Term Weighting ( TF * IDF), topic modelling content score, content relevance|
-| **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness vs dublicate content|
+| **Page-Level Keyword Agnostic Features**| content length, load speed, readability, uniqueness vs duplicate content|
 | **Domain-level Brand Features**| offline usage of domain name/brand, mentions of domain name in news|
 | **Traffic & Query Data**| usage signals from browsers, clickstream, CTR of queries|
 | **Social Metrics**| quantity and quality of links and sharings from social media|
