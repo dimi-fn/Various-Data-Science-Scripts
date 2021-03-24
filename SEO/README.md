@@ -244,7 +244,7 @@ What keywords would the user have to type in order to find your specific web pag
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. e.g., if you sell cars, don't just focus on the keyword "car" (this is what everybody includes in the car websites). You should write about the specific brands you sell and other car attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. e.g., if you sell cars or bicycles, don't just focus on the keyword "car"/"bicycle" (this is what everybody includes in their car/bicycle websites anyway). You should write about the specific brands you sell as well as other car/bicycle attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
 
 <br>
 
@@ -279,7 +279,7 @@ Keyword research has to be conducted iteratively through the year, and *keyword 
 
 You should also focus on long-tail keywords, i.e. the descriptive keywords.
 
-For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not type only "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g., BMW black cars, sports fast cars, electric cars, cars for sale in Germany, red Ferrari in the Netherlands, etc. Focusing on those long-tail keywords might give you better probabilities of higher ranking than focusing on the very competitive query "car".
+For example, if you sell cars then it would be quite hard for you to be ranked first at search results when the user searches for "car". But users do not only type "cars" when they want to buy one. They also type many other queries (longer and more descriptive), e.g., BMW black cars, sports fast cars, electric cars, cars for sale in Germany, red Ferrari in the Netherlands, etc. Focusing on those long-tail keywords might give you better probabilities of higher ranking than focusing on the very competitive query "car".
 
 <br>
 
@@ -427,7 +427,6 @@ Lastly, the data describing the images can be integrated into [CSV files](https:
 <br>
 
 The above images can depict a range of analytics insights. One of the ways you can utilize them is by matching those keywords related to your product/services with the headlines of your articles on your website. However, you should be aware of the high competition of those popular keywords. Ideally, you would focus on keywords that have high search volume (the greener the dot the higher the search volume) with medium or low competition (i.e. the case in which users are looking for something that does not seem to be provided by many sellers).
-* * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
 
 -----
 
@@ -722,11 +721,15 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 * Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
-* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. i.e. If a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
+* If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e. if a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
 ----
 
 # Recommended Reading & Additional Research
+
+* [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
+
+* [Learn SEO from Google Developers, Documentation by Google Search Central](https://developers.google.com/search/docs)
 
 * [Beginner's Guide to SEO by Moz](https://moz.com/beginners-guide-to-seo)
 
@@ -734,11 +737,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 * [Link Explorer by Moz](https://moz.com/help/link-explorer?utm_campaign=092020-kwecomm&utm_medium=email&_hsmi=95404343&_hsenc=p2ANqtz-8DbmX5rwCWo95rHRGS_3BqRkIeFdmOjoxeJsqpvleA39qpYnox2oAu8d8BHNLkaUhhw51zT46MKMl_m6YJPck5wP8WtH1KAEnVd3zM2uqlvzvswA4&utm_source=hubspot)
 
-* [How Google Search Works (Google)](https://www.google.com/search/howsearchworks/)
-
 * [How to use AnswerThePublic](https://searchlistening.com/how-to-use-answerthepublic-com-become-an-expert-with-search-listening/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BLesson+1+AnswerThePublic.com+course%5D+Do+you+really+know+your+target+audience%3F%20-%202215116)
-
-* [Learn SEO from Google Developers, Documentation by Google Search Central](https://developers.google.com/search/docs)
 
 * [Information Architecture for SEO](https://moz.com/blog/information-architecture-for-seo-whiteboard-friday)
 
