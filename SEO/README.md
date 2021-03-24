@@ -8,7 +8,7 @@
 
 **Types**: There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
 
-**Comparison**: The main advantages of organic SEO are that you don't have to pay for ads and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting "ready-to-buy" users, however, it might not be a good long-term strategy move.
+**Comparison**: The main advantages of organic SEO are that you don't have to pay for ads and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results by attracting "ready-to-buy" users, however, it might not be a good long-term strategy move.
 
 <br>
 
@@ -510,7 +510,7 @@ Focus on URL, title, description, headers, body text, and images:
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
   * use *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
-    * You can use websites like [schema.org](https://schema.org) to enhance the schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
+    * You can use websites like [schema.org](https://schema.org) to enhance the schema of your mark up code, and then test the effectiveness of your code with e.g., the [Google Structured Data Testing Tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
 
 <br>
 
