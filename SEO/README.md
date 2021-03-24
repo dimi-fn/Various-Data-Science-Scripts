@@ -104,7 +104,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 <span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Image Credits:</i> </font><a href="https://slideplayer.com/slide/5690650/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
 </p>
 
-<br>Words are not evenly distributed across documents, and English and other languages follow a Zipfian distribution(https://en.wikipedia.org/wiki/Zipf%27s_law). By that, it is meant that:
+<br>Words are not evenly distributed across documents, and English and other languages follow a [Zipfian distribution](https://en.wikipedia.org/wiki/Zipf%27s_law). By that, it is meant that:
 
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
@@ -585,7 +585,7 @@ https://search.google.com/search-console/about
   * the removal lasts 6 months, hence after that period you should refresh the "removal" section
 
 ## Content Planning & Strategy
-It is about *planning*, *creating*, and *managing* a useful and usable content.
+It is about *planning*, *creating*, and *managing* useful and usable content.
 
 1. `Planning`: To whom customers you are referring to. You should target a specific portion of customers that might be interested in your product/services
    * [Persona Templates for customers' segmentation](https://offers.hubspot.com/persona-templates)
@@ -678,7 +678,7 @@ Links from external sources that point towards your website are perceived as con
 
 # SEO Performance Evaluation
 
-SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (**KPIs**)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *coversion rate* the number of times that this happens. (But first of all, you should define your business goals and KPIs).
+SEO effectiveness can be evaluated both from the traffic derived from the **organic search traffic** and the **business outcomes** after defining your business objectives and *Key Performance Indicators (**KPIs**)*, and with regard to your SEO strategies. For instance, you may designate as a *conversion action* the occurrence of your contact form being filled out and submitted by customers, and as a *conversion rate* the number of times that this happens. (But first of all, you should define your business goals and KPIs).
 
 <br>
 
@@ -760,7 +760,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 | **Measure Site's Search Traffic & Performance** | [Google Search Console](https://search.google.com/search-console/about) |
 |**SEO Performance Evaluation** | [Google Analytics 360](https://marketingplatform.google.com/about/), [Adobe Analytics](https://www.adobe.com/analytics/adobe-analytics.html), [Webtrends](https://www.webtrends.com/), [IBM Data Analytics](https://www.ibm.com/analytics) |
 |**Schema Markup - Microdata**| [schema.org documentation](https://schema.org/docs/gs.html), [Schema at Wordstream](https://www.wordstream.com/blog/ws/2014/03/20/schema-seo), [test your Schema at Google](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message), [JSON for Linking Data](https://json-ld.org/), [Guide to JSON-LD, microdata and schema.org](https://builtvisible.com/micro-data-schema-org-guide-generating-rich-snippets/) |
-| **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [xml-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
+| **Construct Sitemaps** | [sitemaps.org](https://www.sitemaps.org/index.html), [XML-sitemaps](https://www.xml-sitemaps.com/), [Code Google](https://code.google.com/archive/p/sitemap-generators/wikis/SitemapGenerators.wiki), [Best Practises for Sitemaps by Google](https://developers.google.com/search/blog/2014/10/best-practices-for-xml-sitemaps-rssatom) |
 | **Robots.txt, Meta NoIndex, Meta NoFollow** | * [robots.txt](http://www.robotstxt.org/) <hr> * [meta NoIndex](https://developers.google.com/search/docs/advanced/crawling/block-indexing),  [meta NoFollow](https://searchengineland.com/google-explains-the-noindex-nofollow-noarchive-nosnippet-meta-tags-10595)    | 
 | **Link Building** | [Moz Link Explorer for Backlink Checker](https://moz.com/link-explorer), [Majestic](https://majestic.com/), [Ahrefs](https://ahrefs.com/), [Raven tools](https://raventools.com/), [Semrush](https://www.semrush.com/), [Alexa’s Competitor Backlink Checker](https://try.alexa.com/marketing-stack/competitor-backlink-checker) <hr> [Link Intersect: Link Gap Analysis by Moz](https://analytics.moz.com/pro/link-explorer/link-intersect) |
 | **Page Speed** | [PageSpeed Insights by Google Dev.](https://developers.google.com/speed/pagespeed/insights/) |
