@@ -719,7 +719,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 * If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
 
-* Use a specific group of keywords that have a meaningful *search volume*, are *relevant*, and are not too competitive (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
+* You want to focus on keywords that are relevant to your content, that have high *search volume*, and keywords with medium or low competition (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
 * If a specific keyword is being aggressively bid on in Cost-Per-Click (CPC) markets, this is an indicator of how difficult it will be organically. I.e. if a keyword is being aggressively bid on, this means that significant competition from paid ads exists, and developing an alternative keyword might be necessary.
 
