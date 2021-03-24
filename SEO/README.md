@@ -221,7 +221,7 @@ Further research on Recommender System metrics may include: Mean Average Precisi
 Following the [Relevance & Authenticity](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#relevance--authenticity) section, and although search ranking algorithms change over time, it can be safely claimed that good ranking results align with **high quality** and **relevant information**. Hence, some of the most important ranking factors can be found aggregately and hierarchically on importance as followed:
 
 
-| `Ranking Factor` | `Description/Examples` |
+| `Ranking Factor` | `Description / Examples` |
 |---------------|----------------------|
 | **Domain-Level & Link Authority Features** | quality of links to domain, domain-level PageRank |
 | **Page-Level Link Features**| PageRank, TrustRank, quantity of link links, anchor text distribution, quality of link sources|
