@@ -4,11 +4,11 @@
 
 # Search Engine Optimization (SEO) Handbook
 
-**Definition**: In simple terms, SEO consists of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) in a high rank position, and so your potential customers/stakeholders can find you. 
+**Definition**: In simple terms, SEO consists of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) at a high-rank position, and so your potential customers/stakeholders can find you. 
 
 **Types**: There are two main SEO types: Organic (natural) SEO and Non-organic (paid / artificial) SEO. In the former case, you try to increase your organic search results by focusing on factors such as content creation and optimization, keyword research, link building, and meta-tag optimization. Whereas via non-organic SEO, you essentially pay for ads such that of Google's pay-per-click (PPC) advertising solution.
 
-**Comparison**: The main advantages of organic SEO are that you don't have to pay for ads, and that at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting "ready-to-buy" users, however, it might not be a good long-term strategy move.
+**Comparison**: The main advantages of organic SEO are that you don't have to pay for ads and at the same time you attract *relevant* users, i.e. users that are really trying to search for similar content, product, or services of yours. On the other hand, by PPC you can see instant results attracting "ready-to-buy" users, however, it might not be a good long-term strategy move.
 
 <br>
 
@@ -109,7 +109,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
     * **Stopwords** removal achieves <i><b>discrimination</b></i>: it is the removal of words that are common to most of the documents (words like "and", "are", "do", "am", "but")
-    * While stopwords removal emphasizes on discrimination, **stemming** emphasizes on document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g., information -> inform, political -> polit)
+    * While stopwords removal emphasizes discrimination, **stemming** emphasizes document's <i><b>description</b></i> ==> stemming algorithms help us achieve a common concept of the words that can take different forms, by adding all variants of the corresponding words to document descriptions (e.g., information -> inform, political -> polit)
 
 * A medium number of words appear <ins>each</ins> in a medium number of documents (`medium-frequency words`) 
   * These are the "**best**" words in the IR context ==> they represent some recognizable concept (satisfactory *description* level) that does not seem to be meaningless (satisfactory *discrimination* level)
@@ -131,7 +131,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 
 ## Relevance & Authenticity
-Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank** are: `relevance` and `authenticity`, i.e. if the website's results and content are relevant to query and if the website itself is authenticated.
+Two important topics that determine *search engine rankings* and *Search Engine Results Pages* (`SERPs`), and consequently a website's **PageRank** are: `relevance` and `authenticity`, i.e. if the website's results and content are relevant to query and if the website itself is authenticated.
 
 ### Relevance
 It is determined by various factors such as:
@@ -210,7 +210,7 @@ Further research on Recommender System metrics may include: Mean Average Precisi
 # Organic Search vs. PPC
 
 * **Organic search** (*natural search*) refers to unpaid search results which are generated based on: inbound links pointing to your website, your domain authority, the relevance to the user's search query, and other organic ranking factors
-  * **Types**: On-Page SEO (e.g., keyword research, keyword optimization, content creation), Technical SEO (e.g., site speed, mobile-friendliness, site architecture, website's security), Off-Site SEO (e.g., build building, backlinks)
+  * **Types**: On-Page SEO (e.g., keyword research, keyword optimization, content creation), Technical SEO (e.g., site speed, mobile-friendliness, site architecture, website's security), Off-Site SEO (e.g., link building, backlinks)
 
 * **Pay-per-click** advertising (*PPC*) generates paid search results, it belongs to *paid search marketing* approach, and one of its basic performance metrics is cost-per-click (CPC) evaluation. Examples: Google ads, Google Product Listing Ads, Google Shopping Ads, Bing Ads
 
@@ -248,7 +248,7 @@ Keywords *research plan* regarding: `search volume`, `relevance`, and `competiti
 
 <br>
 
-**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. i.e. it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type it to find your product.
+**2) Search volume**: The number of searches of a particular keyword per month. One tricky fact here is that on the one hand, although some specific keywords or groups of keywords might theoretically lead to your website successfully, they might not be popular queries from users. i.e. it does not matter if your website can be found by some specific query as long as this query is a "strange" query that nobody would really type to find your product.
 Tools for researching the **potential monthly search volume** of keywords: [moz explorer](https://moz.com/explorer), [wordstream](https://www.wordstream.com/keywords), [ahrefs](https://ahrefs.com/keywords-explorer), [semrush.com](https://www.semrush.com/analytics/keywordmagic/start), [google trends](https://trends.google.com/trends/?geo=US).
 
 <br>
@@ -265,7 +265,7 @@ For example, if for a group of keywords at moz.com the search volume is high but
 
 ## Keyword Research
 
-Keyword research has to be conducted iteratively through the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords.
+Keyword research has to be conducted iteratively throughout the year, and *keyword performance <b>evaluation</b>* comes at the end of each keyword research iteration. The only thing you cannot pre-define and predict is the conversion rate (success or not) of your keywords.
 
 **1) Brainstorming**: *What products/services do you offer?* ==> Do it from the customer's perspective (and not business's), think like a customer.
 
@@ -430,7 +430,7 @@ The above images can depict a range of analytics insights. One of the ways you c
 
 -----
 
-<br><br>
+<br>
 
 ## Keyword Distribution
 It is the procedure of how you will assign and distribute your specific keywords across your website's pages.
@@ -510,7 +510,7 @@ Focus on URL, title, description, headers, body text, and images:
 * Make search engines understand your <i>**images**</i>: while NLP focuses on text and search engines can take advantage of that, not much help is given to them regarding images (all they can "see" is pixels), video or audio clips, unless specified:   
   * improve your `"src"` and `"alt"` HTML attributes with reference to your *images*
   * use *structured data* with [*JSON-LD*](https://json-ld.org/) (JavaScript Object Notation for Linked Data) to mark up your code with a specific and rich range of metadata of specific content for *images, video, and audio*. In this way, you can optimize the descriptions closer to the keywords and phrases. Implementation of structured data allows you to display information about specific content, location, dates, pricing content, and more
-    * You can use websites like [schema.org](https://schema.org) to enhance your schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
+    * You can use websites like [schema.org](https://schema.org) to enhance the schema of your mark up code, and then test the effectiveness of your code with e.g., the [google structure data testing tool](https://search.google.com/test/rich-results?utm_campaign=sdtt&utm_medium=message)
 
 <br>
 
@@ -534,7 +534,7 @@ Ways to leverage SEO from a technical perspective:
 * Although every separate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different URL addresses to provide the same content</ins> because this would lead to *confusion* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
   * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
   indicate which is the primary URL for duplicate content across your website pages
-    * Another way to indicate that is directly via the *crawl URL parameters* section of the [Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+    * Another way to indicate that is via the *crawl URL parameters* section of the [Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g., to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g., when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
@@ -560,7 +560,7 @@ Serving up your website's pages fast and reliably => *quality experience*
 
 * <i>**Visibility**</i> of your website: physical `location` of the web server that hosts your website ==> loading time for visitors that are far away from that location
   * you want to geographically locate your web server to a place that would be relatively near to the majority of your clients
-    * if your clients are spread all-over the world relatively equally: use a web host that can distribute requests for your website pages globally
+    * if your clients are spread all over the world relatively equally: use a web host that can distribute requests for your website pages globally
       * You can use `Content Delivery Network (CDN)` which minimizes the loading time delays (*latency*) which are due to the physical distance between the server and users
 
 * <i>**Cashing**</i>: *Enable server-side cashing* to minimize the increased time load of the *database* workload. This would make the server and the database interact only once to generate the given pages (the server will "remember" the content for a period of time at a future and subsequent load request)
@@ -576,7 +576,7 @@ https://search.google.com/search-console/about
 
 * through the "*Search results*" you can view your *total clicks, total impressions, average clickthrough rate (CTR)*, and much more
 
-* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g., [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)), or from a non-technical perspective (e.g., [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant)
+* via the tools provided by the Google search console, you can reduce search engine crawl errors, address your SEO and [optimize your content](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content-optimization), by finding out various errors/bugs or non-optimal features that exist on your website. This can be achieved either from a technical perspective (e.g., [301 and 302 redirects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#content--links)) or from a non-technical perspective (e.g., [duplicate content](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content), block content, content no more relevant)
 
 * via the "`Sitemaps`" section, you can upload your XML site maps
 
