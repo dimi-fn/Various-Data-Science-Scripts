@@ -104,7 +104,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 <span><font size="-2"><i>Zipfian Distribution (Zipf's Law), Image Credits:</i> </font><a href="https://slideplayer.com/slide/5690650/" target="_blank"><font size="1.8">eclecticlight.co</font></a></span>
 </p>
 
-<br>Words are not evenly distributed across documents, and English and other languages follow a *Zipfian distribution*. By that, it is meant that:
+<br>Words are not evenly distributed across documents, and English and other languages follow a Zipfian distribution(https://en.wikipedia.org/wiki/Zipf%27s_law). By that, it is meant that:
 
 * A small number of words appear <ins>each</ins> in a lot of documents (`high-frequency words`)
   * This is where the so-called **stopword** list takes place: stopwords are useless in finding an individual document ==> they offer little *semantic* content
@@ -131,7 +131,7 @@ A successful SEO strategy can be achieved by optimizing both for the `search eng
 
 
 ## Relevance & Authenticity
-Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank** are: `relevance` and `authenticity`, i.e. if the results that websites produce are relevant and authenticated.
+Two important topics that determine *search engine rankings* and *Search Engine Resuts Pages* (`SERPs`), and consequently a website's **PageRank** are: `relevance` and `authenticity`, i.e. if the website's results and content are relevant to query and if the website itself is authenticated.
 
 ### Relevance
 It is determined by various factors such as:
@@ -164,7 +164,7 @@ Contributing factors include:
 ## Recommender Systems Evaluation Metrics
 ### PageRank
 
-PageRank measures how likely a surfer is to visit a web page:
+[PageRank algorithm](https://en.wikipedia.org/wiki/PageRank) measures how likely a surfer is to visit a web page:
 
 <p align="center">
   <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/SEO/img/pagerank.PNG" alt="Pagerank"/>
@@ -829,6 +829,10 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 [24] [Link Gap Analysis by Moz](https://moz.com/seo-competitor-analysis/link-gap-analysis)
 
 [25] https://searchengineland.com/guide/what-is-seo
+
+[26] https://en.wikipedia.org/wiki/PageRank
+
+[27] https://en.wikipedia.org/wiki/Zipf%27s_law
 
 
 <i>And various other sources found on hyperlinks across the script.</i>
