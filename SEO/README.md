@@ -717,7 +717,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 * If you have a high *impression rate* but low *click-through-rates (CTRs)* this means you are showing up at the search results but viewers don't click your website.
 
-* If search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
+* If the search volume is high and competition/difficulty is low, this means there is large potential traffic at the lowest levels of competition, i.e. demand is high and supply is low, a fact which may suggest a market opportunity.
 
 * You want to focus on keywords that are relevant to your content, that have high *search volume*, and keywords with medium or low competition (since it would be difficult for you to be discriminated against others if there is a lot of competition around those keywords).
 
