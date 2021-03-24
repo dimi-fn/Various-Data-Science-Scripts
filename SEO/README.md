@@ -474,7 +474,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Title tag of page
 * Headings (h1..h5)
 * Keyword Optimization
-* Eliminating duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
+* Eliminate duplicate content ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
 * Images (e.g., using good alt descriptions)
 * Meta tags and meta descriptions
 * URL (good descriptive URL but not too long)
@@ -501,7 +501,7 @@ Focus on URL, title, description, headers, body text, and images:
 
 * <i>**Metadata**</i>
   * *meta* <i>**title**</i> *tag* optimization
-    * make sure your <title_description> tag is successful (*"title" tag in HTML"*), and that it contains (some of) your target keywords for the best SEO results
+    * make sure your <title_description> tag is successful (the *"title"* tag in HTML), and that it contains (some of) your target keywords for the best SEO results
   * <i>**headers**</i>: HTML `h1` tag: give good descriptions (not very long or very short) that encompass your target keywords and your target content
       * Although this might not impact your rankings, optimizing the meta description can improve your current click-through rate since it is often used in search engine results listing
 
@@ -534,7 +534,7 @@ Ways to leverage SEO from a technical perspective:
 * Although every separate page of your website should have a <i>**unique URL**</i> (i.e. /main.html, /contact.html) to discriminate content, <ins>you do not want different URL addresses to provide the same content</ins> because this would lead to *confusion* for search engines and you might end up competing with yourself. This confusion can happen when we try to store *session ids* or *tracking parameters* in which case the URL can be different but the content remains exactly the same.
   * Use `link rel="canonical"` before href=" ", to resolve the issue on the occurrence of providing the same content but with different URL links. The `canonical tag` can be used to 
   indicate which is the primary URL for duplicate content across your website pages
-    * Another way to indicate that is directly via the *crawl URL parameters* section of the Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
+    * Another way to indicate that is directly via the *crawl URL parameters* section of the [Google Search Console](https://search.google.com/search-console/about), and also at [Bing Webmaster Tools](https://www.bing.com/webmasters/about)
 
 * <i>**Redirect issues**</i>: It happens when you use some content of your website to another location of your website, e.g., to another page of your website, however, this might not update directly the search engines. These kinds of issues might be either <ins>temporary</ins> or <ins>permanent</ins>, and you should use `redirect rules` after moving content across your web page:
   * Temporary redirections: e.g., when you want to display a temporary content for users to view while you are maintaining your website ==> use `302 (Temporary Redirect)` so that you tell the search engine not to take into consideration the content appearing now and which does not express you. Be careful as this might be interpreted as 301 (see below) if you keep that for too long
