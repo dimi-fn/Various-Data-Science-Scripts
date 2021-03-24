@@ -244,7 +244,7 @@ What keywords would the user have to type in order to find your specific web pag
 ## Keyword Attributes
 Keywords *research plan* regarding: `search volume`, `relevance`, and `competition`.
 
-**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. e.g., if you sell cars or bicycles, don't just focus on the keyword "car"/"bicycle" (this is what everybody includes in their car/bicycle websites anyway). You should write about the specific brands you sell as well as other car/bicycle attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
+**1) Relevance**: Relevant Keywords: Put yourself in the customers' shoes to discover their *intent* and understand their *customer behaviour*. In this way, you will find out which keywords might be relevant to your product/service. e.g., if you sell cars or bicycles, don't just focus on the keyword "car"/"bicycle" (this is what everybody would include in their car/bicycle websites anyway). You should write about the specific brands you sell as well as other car/bicycle attributes. Successfully targeted descriptive keywords will help rank your website higher than the generic ones.
 
 <br>
 
