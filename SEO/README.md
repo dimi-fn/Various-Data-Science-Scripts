@@ -1,4 +1,4 @@
-**Work on progress* (I intend to update this repository while learning new content)
+*<i>I might update this repository while learning new content</i>
 
 ----
 
