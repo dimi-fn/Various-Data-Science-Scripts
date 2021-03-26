@@ -476,6 +476,7 @@ The SEO procedures could generally be categorized into actions taken inside the 
 * Keyword Optimization
 * Handle duplicate content correctly ([Google Search Central](https://developers.google.com/search/docs/advanced/guidelines/duplicate-content))
 * Images (e.g., using good alt descriptions)
+  * Geotagging
 * Meta tags and meta descriptions
 * URL (good descriptive URL but not too long)
 * Header Response Code (HTTP statuses)
