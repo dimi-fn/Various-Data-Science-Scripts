@@ -55,9 +55,9 @@ Unix, Shell scripting, Bash, terminal.
 
 ------
 
-* [APIs](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs)
+* [API & Web Scraping](?????????)
 
-Notes on APIs.
+Notes on APIs and Web Scraping
 
 ------
 
