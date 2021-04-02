@@ -12,7 +12,21 @@
 
 * [GraphQL vs. REST](https://www.freecodecamp.org/news/graphql-vs-rest-benefits-and-code-example-comparisons/?fbclid=IwAR1774Zka3-m5T0RynSU_vxAQ2MFJfHVfu2UehfYCUcwR-a4rgaD2cazRec)
 
+## Web Scraping
+
+### Tools
+
+- Single uncomplicated pages: [Chrome Web Scraper](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
+
+- Single pages that require some interactivity: https://www.import.io/
+
+- Many pages: https://www.diffbot.com/
+
+
+
 ### Sources
+
+**APIs**
 
 [1] https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/
 
@@ -23,3 +37,7 @@
 [4] https://www.freecodecamp.org/news/learn-how-to-use-postman-to-test-apis/?fbclid=IwAR0ps6WF5bp9_YFxlHBejuJ_K1YUMf2iLJucWNmvKcoSjl-EqM7UKj80bgk
 
 [5] https://www.freecodecamp.org/news/graphql-vs-rest-benefits-and-code-example-comparisons/?fbclid=IwAR1774Zka3-m5T0RynSU_vxAQ2MFJfHVfu2UehfYCUcwR-a4rgaD2cazRec
+
+**Web Scraping**
+
+[1] https://bettermarketing.pub/how-i-scaled-freelance-content-gigs-to-40k-a-month-with-web-scaping-50fef269817
