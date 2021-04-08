@@ -769,7 +769,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 | **HTTP Status**  | [httpstatus.io](https://httpstatus.io/)|
 | **How to Segment your Customers** | [Persona Templates](https://offers.hubspot.com/persona-templates) |
 |**Search your Competitors' Keywords and other Attributes via their URL** | [Spyfu](https://www.spyfu.com/) |
-| **Miscellaneous**|  * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Image Optimization](https://ahrefs.com/blog/image-seo/) / [Automate Meta Descriptions](https://www.searchenginejournal.com/titles-meta-descriptions-automatically-python-javascript/360108/#close)<hr>* [Video Generation by Lumen5](https://lumen5.com/)<hr>* [Auto Transcribe - Speech to Text by AWS](https://aws.amazon.com/transcribe/)|
+| **Miscellaneous**| * [Identify Content Gaps with Google Question Hub](https://questionhub.withgoogle.com/) <hr> * [Content Research by Frase](https://www.frase.io/content/)<hr>* [Image Optimization](https://ahrefs.com/blog/image-seo/) / [Automate Meta Descriptions](https://www.searchenginejournal.com/titles-meta-descriptions-automatically-python-javascript/360108/#close)<hr>* [Video Generation by Lumen5](https://lumen5.com/)<hr>* [Auto Transcribe - Speech to Text by AWS](https://aws.amazon.com/transcribe/)|
 ----
 
 <br><p align="center">
