@@ -473,6 +473,8 @@ env USER=<your_username> node app.js
 * [overview of the filesystem disk space usage](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-df-command): `df` 
     *  `df -h` human readable form
 
+* `top`: similar to task manager in Windows
+
 --------------
 
 ### Paths
@@ -558,7 +560,7 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 ### Remote Connection
 
-Log in remotely into another linux machine, e.g.: `ssh user_name@104.25.111.22` will login to 104.25.111.22 with the username "user_name" 
+Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` will login to 104.25.111.22 with the username "user_name" 
 
 ----------------
 
