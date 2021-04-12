@@ -29,7 +29,7 @@
         * [Running Processes](#running-processes)
         * [Editors](#editors)
         * [logs/ users/ accounts/ passwords/ networks/ packets](#logs-users-accounts-passwords-networks-packets)
-        * [Various](#remote-connection)
+        * [Remote Connection](#remote-connection)
         * [Various](#various)
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 * [To Further Explore](#to-further-explore)
