@@ -5,6 +5,7 @@
         * [Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#commands)
         * [Hashbang](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hashbang)
 * [Bash Commands (Linux - MacOS - WSL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#bash-commands-linux---macos---wsl)
+    * [Intro](#intro)
     * [General](#general)
     * [Open](#open)
     * [Directories](#directories)
@@ -93,9 +94,20 @@ The above will tell the shell that this is a Bash script, and that it should be 
 
 # Bash Commands (Linux - MacOS - WSL)
 
+## Intro
+
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
 * `q` for exit | `h` for displaying the reference
 * `Ctrl+C` to stop indefinite executions, e.g. while using ping
+
+
+| Arguments | Description |
+|------|------|
+|  `.` | currently directory (e.g., ./my_project) |
+|  `..` | one folder up (cd .. (1 directory back), ../../my_project => this will move up 2 directories)  |
+| `/` | root of system| 
+| `~` | home directory (usually the path: /users/username). It moves back to folders with regard to this path by including it at the start of your path, e.g., ~/my_project|
+
 
 ## General
 
@@ -607,3 +619,5 @@ Allows for a process to live when the terminal gets killed: `nohup`
 [12] https://www.linkedin.com/learning/learning-bash-scripting-2013/
 
 [13] https://www.youtube.com/watch?v=s3ii48qYBxA&ab_channel=DistroTube
+
+[14] https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/
