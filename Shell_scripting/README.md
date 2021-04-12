@@ -17,7 +17,7 @@
     * [$ alias](#-alias)
     * [$ cat | less | tail](#-cat--less--tail)
     * [$ wc](#-wc)
-    * [$ grep](#-grep)
+    * [$ grep](#-grep--locate)
     * [$ diff](#-diff)
     * [$ echo | printf](#-echo--printf)
     * [$ chmod | chown | unmask](#-chmod--chown--unmask)
@@ -417,6 +417,7 @@ chmod followed by a space and a letter:
 Then by `+` or `-` you can add or remove a permission
 
 E.g. 
+* `chown this_user some_text.txt will make "this_user" the owner of "some_text.txt"`
 * `chmod a+r <filename>` means that [a]ll can now [r]ead 
 *  `chmod og-r <filename>` means that you removed (-) the [r]ead permission from [o]thers and [g]roup
 
