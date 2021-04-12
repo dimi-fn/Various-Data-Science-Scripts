@@ -29,6 +29,7 @@
         * [Running Processes](#running-processes)
         * [Editors](#editors)
         * [logs/ users/ accounts/ passwords/ networks/ packets](#logs-users-accounts-passwords-networks-packets)
+        * [Various](#remote-connection)
         * [Various](#various)
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
 * [To Further Explore](#to-further-explore)
@@ -195,6 +196,8 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * find **files** that exist in many directories: `find folder1 folder2 -name <file_name>`
     * use 'iname' for case-insensitive search: `find folder1 folder2 -iname <file_name>` 
+
+* `find /home/ -name some_text.txt `: find file named "some_text.txt" within the home directory and its subdirectories
 
 * find **directories** under current tree matching the searched directory: `find . -type d -name <dir_name>`
     * `type -f` for files
@@ -553,6 +556,12 @@ Allows for a process to live when the terminal gets killed: `nohup`
 
 ----------------
 
+### Remote Connection
+
+Log in remotely into another linux machine, e.g.: `ssh user_name@104.25.111.22` will login to 104.25.111.22 with the username "user_name" 
+
+----------------
+
 ### Various
 
 * `sort` ([examples](https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo#the-linux-sort-command))
@@ -626,3 +635,5 @@ Allows for a process to live when the terminal gets killed: `nohup`
 [13] https://www.youtube.com/watch?v=s3ii48qYBxA&ab_channel=DistroTube
 
 [14] https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/
+
+[15] https://www.freecodecamp.org/news/basic-linux-commands-bash-tips-you-should-know/
