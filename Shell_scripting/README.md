@@ -95,6 +95,7 @@ The above will tell the shell that this is a Bash script, and that it should be 
 
 Always use `man <command>` or `tldr <command>` for more information and options about the respective commands you want to use.
 * `q` for exit | `h` for displaying the reference
+* `Ctrl+C` to stop indefinite executions, e.g. while using ping
 
 ## General
 
