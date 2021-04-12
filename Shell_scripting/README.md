@@ -17,7 +17,7 @@
     * [$ alias](#-alias)
     * [$ cat | less | tail](#-cat--less--tail)
     * [$ wc](#-wc)
-    * [$ grep](#-grep--locate)
+    * [$ grep | locate](#-grep--locate)
     * [$ diff](#-diff)
     * [$ echo | printf](#-echo--printf)
     * [$ chmod | chown | unmask](#-chmod--chown--unmask)
