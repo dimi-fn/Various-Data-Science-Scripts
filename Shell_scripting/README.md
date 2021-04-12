@@ -344,9 +344,9 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 -----
 
-## $ grep
+## $ grep | locate
 
-It stands for "*global regular expression print*"
+**greb**: It stands for "*global regular expression print*"
 
 * e.g. `grep "ok" file1.txt` will print the word "ok" as many times it is found on "file1" (otherwise it will not print anything)
 
@@ -354,6 +354,10 @@ It stands for "*global regular expression print*"
     * run only 2 times: `ping -c 2 google.com`
         * grap content containing "bytes from": `ping -c 2 google.com | grep "bytes from"`
             * cut content, search for the [4]th [f]ield based on the "=" [d]elimeter to slice up lines based on that particular criteria `ping -c 2 google.com | grep "bytes from" | cut -d = -f 4` => this will give only the response time!
+
+<br>
+
+**locate**: `locate -i analysis*analyst` ==> will search for any file that contains the word "analysis" and "analyst" (the "-i" makes the search case-insensitive).
 
 ## $ diff
 
