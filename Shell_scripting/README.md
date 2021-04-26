@@ -113,6 +113,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 ## General
 
 * updates: `sudo apt-get update` | `sudo apt-get upgrade`
+    * enable the firewall: `sudo ufw enable`
 
 * `reboot` / `shutdown now` / `systemctl suspend` (like "sleep" on Windows)/ `systemctl hibernate`
 
@@ -639,3 +640,5 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 [14] https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/
 
 [15] https://www.freecodecamp.org/news/basic-linux-commands-bash-tips-you-should-know/
+
+[16] https://wiki.ubuntu.com/BasicSecurity
