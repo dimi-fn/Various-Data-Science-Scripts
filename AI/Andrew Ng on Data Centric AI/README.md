@@ -11,7 +11,7 @@ Source: https://www.youtube.com/watch?v=06-AZXmwHjo&ab_channel=DeepLearningAI
 
 # Model-centric vs Data-centric AI
 
-Basically, instead of trying to increase accuracy via a better model, go find better data (e.g. better label your data to avoid noise). This is because you can find a very good model via github and some good code snippet by e.g. stackoverflow, but this is not the case when it comes to **data** (which needs to be **customized** for your specific problem)
+Basically, instead of trying to increase accuracy via a better model, go find **better data** (e.g. better label your data to avoid noise). This is because you can find a very good model via GitHub and some good code snippets by e.g. StackOverflow, but this is not the case when it comes to data (which needs to be customized for your specific problem).
 
 <br>
 
@@ -58,7 +58,7 @@ Below:
 
 ----------------------
 
-# MlOps
+# MLOps
 
 AI Systems = Code + Data
 
@@ -68,9 +68,9 @@ AI Systems = Code + Data
   <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/ai_systems.PNG" alt="">
 </p>
 
-## MlOps vs DvOps
+## MLOps vs DevOps
 
-* The last figure in "traditional software" is about what <b>dvOps</b> do
+* The last figure in "traditional software" is about what <b>DevOps</b> do
 * MLOps are the 3 figures in "AI software"
 
 <p align="center">
