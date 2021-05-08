@@ -1,4 +1,4 @@
 # Artificial Intelligence
 
 
-* [Andrew Ng on Data Centric AI]()
+* [Andrew Ng on Data Centric AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI)
