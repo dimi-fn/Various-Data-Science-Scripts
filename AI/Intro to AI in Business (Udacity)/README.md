@@ -1,1 +1,1 @@
-https://colab.research.google.com/drive/1y7yVbk27UxiGXT7SErkW-VrzQwyFIEki?usp=sharing
+https://colab.research.google.com/drive/1y7yVbk27UxiGXT7SErkW-VrzQwyFIEki
