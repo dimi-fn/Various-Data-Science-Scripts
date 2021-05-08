@@ -43,7 +43,8 @@ How to set up a virtual environment and generate a `requirements.txt` file with 
 
 -----
 
-* [Machine & Deep Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Machine_%26_Deep_Learning)
+* [AI](????)
+    * Projects and topics on Machine & Deep Learning.
 
 ------
 
