@@ -1,4 +1,4 @@
-# Artificial Intelligence
+# Artificial Intelligence (AI)
 
 Topis and projects on Machine and Deep Learning.
 
@@ -13,3 +13,7 @@ Contents
     * Notes from Udacity
 
 * [NLP](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/NLP)
+
+-----
+
+## Notes
