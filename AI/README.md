@@ -16,4 +16,4 @@ Contents on directory
 
 * [NLP](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/NLP)
 
-* [TensorFlow]()
+* [TensorFlow](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/TensorFlow)
