@@ -15,3 +15,5 @@ Contents on directory
     * Notes derived from Udacity
 
 * [NLP](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/NLP)
+
+* [TensorFlow]()
