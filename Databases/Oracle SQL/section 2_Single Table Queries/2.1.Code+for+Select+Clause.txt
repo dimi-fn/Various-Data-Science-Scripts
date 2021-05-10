@@ -1,0 +1,31 @@
+SELECT * FROM EMP;
+
+
+--SELECT <column>
+--FROM <table>
+
+
+SELECT JOB
+FROM EMP;
+
+
+SELECT JOB, ENAME
+FROM EMP;
+
+
+SELECT *
+FROM EMP;
+
+
+SELECT JOB, ENAME
+FROM EMP;
+
+
+SELECT JOB from emp;
+
+
+SELECT DNAME, LOC from dept;
+
+
+SELECT distinct job from emp;
+

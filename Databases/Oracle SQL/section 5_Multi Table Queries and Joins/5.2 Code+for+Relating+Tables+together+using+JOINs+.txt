@@ -1,0 +1,63 @@
+SELECT * from emp
+where deptno = (select deptno from dept where loc = 'CHICAGO')
+
+
+SELECT * from emp
+
+
+SELECT * from dept
+
+
+SELECT *
+from emp, dept
+WHERE emp.deptno = dept.deptno
+
+
+SELECT *
+from emp, dept
+WHERE emp.deptno = dept.deptno
+and LOC = 'DALLAS'
+
+-- We can give aliances both to columns and tables!
+
+
+SELECT ename, job, sal
+from emp, dept
+WHERE emp.deptno = dept.deptno
+and dept.loc = 'DALLAS'
+
+
+SELECT emp.ename, emp.job, emp.sal
+from emp, dept
+WHERE deptno = deptno
+and dept.loc = 'DALLAS' -- column ambiguously defined
+
+
+SELECT ename as first_name, job, sal
+from emp, dept
+WHERE emp.deptno = dept.deptno
+and dept.loc = 'DALLAS'
+
+
+SELECT e.ename as first_name, job, sal
+from emp e, dept d
+WHERE e.deptno = d.deptno
+and loc = 'DALLAS'
+
+
+SELECT e.ename as first_name, job, sal, e.deptno
+from emp e, dept d
+WHERE e.deptno = d.deptno
+and loc = 'DALLAS'
+
+
+SELECT e.ename as first_name, job, sal, e.deptno
+from (select * from emp where job in ('MANAGER', 'CLERK')) e, (SELECT * from dept) d
+WHERE e.deptno = d.deptno
+and loc = 'DALLAS'
+
+-- Solution to Assignment at 18:05
+
+SELECT e.ename as first_name, job, sal, e.deptno
+from (select * from emp where job in ('MANAGER', 'CLERK')) e, (SELECT * from dept where loc = 'DALLAS') d
+WHERE e.deptno = d.deptno

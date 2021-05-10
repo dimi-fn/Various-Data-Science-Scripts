@@ -1,0 +1,20 @@
+CREATE SEQUENCE product_seq
+    MINVALUE 1
+    MAXVALUE 999999999999999999999999999
+    START WITH 1
+    INCREMENT BY 1
+    CACHE 20 --place in memory containing the next 20 values in the sequence
+
+
+SELECT product_seq.NEXTVAL FROM DUAL; 
+
+
+ALTER SEQUENCE product_seq
+    NOCACHE;
+
+
+INSERT INTO products
+(product_id, product_name)
+VALUES
+(product_seq.NEXTVAL, 'any old product')
+
