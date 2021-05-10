@@ -3,7 +3,7 @@
 Contents 
 =======================
 
-* [Bias vs. Variance]()
+* [Bias vs. Variance](#bias-vs-variance-trade-off)
 
 ------
 
