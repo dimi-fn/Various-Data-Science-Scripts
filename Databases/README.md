@@ -16,6 +16,10 @@ One of the main differences between SQL and NoSQL is that the former is a relati
 ----
 ### Sources
 
+*All possible code derived from the below sources belong to them.*
+
 [1] https://websitesetup.org/mysql-cheat-sheet/
 
 [2] https://www.linkedin.com/learning/python-essential-training-2018
+
+[3] [The Complete Oracle SQL Certification Course](https://www.udemy.com/course/the-complete-oracle-sql-certification-course/)
