@@ -13,7 +13,7 @@ One of the main differences between SQL and NoSQL is that the former is a relati
 
     * Various commands on SQL
 
-* [Oracle SQL](??????)    
+* [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL)    
 
 ----
 ### Sources
