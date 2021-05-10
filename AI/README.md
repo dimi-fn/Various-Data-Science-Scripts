@@ -17,4 +17,4 @@ Contents on directory
 
 * [TensorFlow](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/TensorFlow)
 
-* [Machine Learning with CS985 and Geron](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Hands_on_ML)
+* [Hands-on Machine Learning with Aurelien Geron](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Hands_on_ML)
