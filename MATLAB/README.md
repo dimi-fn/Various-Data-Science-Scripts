@@ -1,6 +1,9 @@
 # MATLAB
 
-* Use the Up arrow to see previous commands
+* Use the Up arrow to see previous commands, 
+    * `clear` to empty workspace / `clc` to empty the Command Window
+    * `load <filename.mat>` to load again the variables of the file
+        * load only 1 variable from a .mat file containing multiple variables: `load someFile x`
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
