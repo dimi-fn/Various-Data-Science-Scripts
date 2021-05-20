@@ -10,13 +10,13 @@
     * [Open](#open)
     * [Directories](#directories)
     * [Files](#file)
-    * [$ find](#-find)
     * [Compression](#compression)
         * [tar vs. zip vs. gz (gzip)](#tar-vs-zip-vs-gz-gzip)
     * [Hard vs Soft (Symbolic) Copy](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#hard-vs-soft-symbolic-copy)
     * [$ alias](#-alias)
     * [$ cat | less | tail](#-cat--less--tail)
     * [$ wc](#-wc)
+    * [$ find](#-find)
     * [$ grep | locate](#-grep--locate)
     * [$ diff](#-diff)
     * [$ echo | printf](#-echo--printf)
@@ -189,23 +189,6 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * open file: `xdg-open <filename>`
 
-------
-
-## $ find
-
-* find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
-
-* find **files** that exist in many directories: `find folder1 folder2 -name <file_name>`
-    * use 'iname' for case-insensitive search: `find folder1 folder2 -iname <file_name>` 
-
-* `find /home/ -name some_text.txt `: find file named "some_text.txt" within the home directory and its subdirectories
-
-* find **directories** under current tree matching the searched directory: `find . -type d -name <dir_name>`
-    * `type -f` for files
-    * `type-l` for symbolic (soft) links
-
-* find **directories** under current tree matching a name: `find . -type d -name <dirname>`
-
 ----
 
 ## Compression
@@ -346,7 +329,24 @@ e.g. print last 2 lines of a file: `tail -n 2 <filename>`
 
 * man or tldr for more
 
------
+------
+
+## $ find
+
+* find **files** based on extension: `find . -name '*.txt'` ==> It finds all the files under the current tree which have the **.txt** extension 
+
+* find **files** that exist in many directories: `find folder1 folder2 -name <file_name>`
+    * use 'iname' for case-insensitive search: `find folder1 folder2 -iname <file_name>` 
+
+* `find /home/ -name some_text.txt `: find file named "some_text.txt" within the home directory and its subdirectories
+
+* find **directories** under current tree matching the searched directory: `find . -type d -name <dir_name>`
+    * `type -f` for files
+    * `type-l` for symbolic (soft) links
+
+* find **directories** under current tree matching a name: `find . -type d -name <dirname>`
+
+------
 
 ## $ grep | locate
 
