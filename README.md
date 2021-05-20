@@ -87,7 +87,7 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 
 ------
 
-[MATLAB](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/MATLAB)
+* [MATLAB](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/MATLAB)
 
 ------
 
