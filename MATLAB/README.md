@@ -14,12 +14,15 @@
 * MATLAB does not rerun previous commands in the Command Window (you need to repeat the command for any variable changes)
 
 **Built-in constants**:
-pi (for π)
+* pi (for π)
+
+* `i` is an imaginary number, a built-in constant in MATLAB
 
 **Built-in functions**:
-`abs`, `eig` (eigenvalues), `sin` (sine)
+* `abs()`, `sqrt()` `eig()` (eigenvalues), `sin()` (sine)
 
 * Use parentheses to pass inputs to functions, e.g.: y = sin(x)
+
 
 
 -----
