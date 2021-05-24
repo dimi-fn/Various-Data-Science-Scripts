@@ -1,5 +1,14 @@
 # MATLAB
 
+Contents
+=======================
+
+* [Commands](#commands)
+* [Desktop & Editor](#desktop)
+------
+
+# Commands
+
 * Use the Up arrow to see previous commands, 
     * `clear` to empty workspace / `clc` to empty the Command Window
     * `load <filename.mat>` to load again the variables of the file
@@ -8,10 +17,13 @@
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
 * Save files: `save filename.mat`
+    * `.m` files are like .py files, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
 
 * If you add a semicolon to the end of a command, the result will not be displayed, however, the result of that command will be displayed in the Workspace window as usual.
 
 * MATLAB does not rerun previous commands in the Command Window (you need to repeat the command for any variable changes)
+
+* Use `format long` to display all decimal places
 
 **Built-in constants**:
 * pi (for π)
@@ -24,6 +36,7 @@
 * Use parentheses to pass inputs to functions, e.g.: y = sin(x)
 
 
+# Desktop & Editor
 
 -----
 
