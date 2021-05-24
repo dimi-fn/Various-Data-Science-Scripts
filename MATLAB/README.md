@@ -52,7 +52,7 @@ Contents
 
 -------
 
-# Vectors and Matrices
+# Vectors & Matrices
 
 
 
