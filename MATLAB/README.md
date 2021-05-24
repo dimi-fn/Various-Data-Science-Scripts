@@ -102,8 +102,17 @@ Contents
 
 # Indexing into and Modifying Arrays
 
+The **1st index position** starts at `1` (not 0 as in Python)
 
+* e.g. `x(3) = 5`, will index the 3rd position element and change its value to 5
 
+* extract a **range** of values, e.g. x=(2:4) (inclusive, inclusive)
+
+* if you want to extract a **specifix element from a matrix**, e.g. the 3rd element in the first row, then: x=(1,3) (== 1st row, 3rd column)
+
+* extract **all first row**: `x= (1:)`
+
+* extract **all first column**: `x(:,1)`
 
 
 
