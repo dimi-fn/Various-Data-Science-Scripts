@@ -4,12 +4,13 @@ Contents
 =======================
 
 * [Commands](#commands)
-* [Desktop & Editor](#desktop)
+* [Desktop & Editor](##desktop--editor)
+
 ------
 
 # Commands
 
-* Use the Up arrow to see previous commands, 
+* Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
     * `load <filename.mat>` to load again the variables of the file
         * load only one variable from a .mat file containing multiple variables: `load someFile x`
@@ -17,9 +18,9 @@ Contents
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
 * Save files: `save filename.mat`
-    * `.m` files are like .py files, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
+    * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
 
-* If you add a semicolon to the end of a command, the result will not be displayed, however, the result of that command will be displayed in the Workspace window as usual.
+* If you add a semicolon `;` to the end of a command, the result will not be displayed, however, the result of that command will be displayed in the Workspace window as usual.
 
 * MATLAB does not rerun previous commands in the Command Window (you need to repeat the command for any variable changes)
 
