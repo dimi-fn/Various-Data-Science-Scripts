@@ -7,6 +7,8 @@ Contents
 * [Desktop & Editor](#desktop--editor)
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
+    * [Array Creation Functions](#array-creation-functions)
+    
 
 -------
 
@@ -75,8 +77,20 @@ All MATLAB variables are arrays.
 * **evenly-row spaced vector**: `x = [1:4]` or `x= 1:4` or `x=[1,2,3,4]` | `:` is **inclusive** [inclusive, inclusive]
 
 * [**start** : `step` : **end**]: e.g. 1 to 10 with step 2 would be: `x =[1 : 2 : 10]` 
+    * *whereas in Python step would be at the end*
+
+* if you know the number of elements you want in a vector beforehand -> use `linspace(first,la1,1st,number_of_elements).`
+    * `x = linspace(0,10,5)` will give 0, 2,5, 5, 7.5, and 10 which gives a row vector 1x5
+    * use `transpose` to turn it into a column vector of 5x1: `x = x'` 
+
+* create a column vector using a single command by creating a row vector and then transposing it all on one line.
+    * `x = (4:2:10)` will give a column vector 1x4, with the elements: 4,6,8,10
 
 
+** Note: 
+ If `linspace` or `:` is used to create a vector, then brackets ("[]") are not needed
+
+## Array Creation Functions
 
 
 -------
