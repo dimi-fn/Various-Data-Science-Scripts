@@ -3,6 +3,7 @@
 Contents
 =======================
 
+* [MATLAB Documentation](#matlab-documentation)
 * [Commands](#commands)
 * [Desktop & Editor](#desktop--editor)
 * [Vectors & Matrices](#vectors--matrices)
@@ -14,6 +15,12 @@ Contents
 * [Function Calls](#function-calls)
 
 -------
+
+# MATLAB Documentation
+
+Either by the "?" button or in the command line type `doc <something to search>`, e.g doc randi
+
+------
 
 # Commands
 
@@ -151,7 +158,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * max function: `[xMax, idx] = max(x)`
 
-
+* use a tilde (`~`) to ignore specific outputs
 
 
 
