@@ -28,8 +28,9 @@ Either by the "?" button or in the command line type `doc <something to search>`
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
     * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
-        * load only one variable from a .mat file containing multiple variables: `load someFile x`
+        * load only one variable from a .mat file containing multiple variables: `load filename x`
         * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
+        * use `data.VariableName` to extract a specific variable (feature / table value / column value) from the table
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
@@ -203,6 +204,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * `xlim([xmin , xmax])` (or: xlim([xmin xmax])): focus on a specific area of interest in terms of range of values
     * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
+* In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
 
 
 
