@@ -67,8 +67,7 @@ All MATLAB variables are arrays.
     * column vector 2x1 `x = [5;9]` --> `arr = np.array([[5], [9]])` in Python 
 
 
-
-
+    * matrix of 2x3: `x= [1,3,5;2,4,6]` --> 1st row==[1,3,5], 2nd row==[2,4,6]
 
 
 
