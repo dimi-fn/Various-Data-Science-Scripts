@@ -160,8 +160,11 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * use a tilde (`~`) to ignore specific outputs
 
+------
 
+# Visualization
 
+* Two vectors of the same length can be plotted against each other using the plot function: `plot(x,y)`
 
 
 
