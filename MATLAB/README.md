@@ -4,7 +4,8 @@ Contents
 =======================
 
 * [Commands](#commands)
-* [Desktop & Editor](##desktop--editor)
+* [Desktop & Editor](#desktop--editor)
+* [Vectors & Matrices](#vector--matrices)
 
 ------
 
@@ -39,6 +40,16 @@ Contents
 
 # Desktop & Editor
 
+1) Current folder
+2) Command Window 
+3) Workspace
+
+* To organize all commands and their output: "New live script" in the toolstrip
+    * add "Code" or "Text" for description
+    * saving the live script will save the code, output, and descriptions
+    * you can click "workspace" to view variables in workspace gets minimized after commands execution
+
+# Vectors and Matrices
 -----
 
 ## Sources
