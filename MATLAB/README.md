@@ -29,6 +29,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
     * `clear` to empty workspace / `clc` to empty the Command Window
     * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
         * load only one variable from a .mat file containing multiple variables: `load someFile x`
+        * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
@@ -188,6 +189,13 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * to exit hold on -> `hold off`
 
 * When you plot a single vector by itself, MATLAB uses the vector values as the y-axis data and sets the x-axis data to range from 1 to n, where n is the number of elements in the vector
+
+* descriptions
+    * add title to graph: `title`("here is the plot's title")
+    * x-axis description: `xlabel("here is the x-label title")`
+    * y-axis description: `ylabel("here is the y-label title")`
+
+* add **legends**: `legend(" ", " ")`
 
 
 
