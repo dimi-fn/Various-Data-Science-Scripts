@@ -10,7 +10,7 @@ Contents
     * [Array Creation Functions](#array-creation-functions)
 * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
     * [Extracting Multiple Elements](#extracting-multiple-elements)
-    * [Changing Values in Arrays](#chaning-values-in-arrays)
+    * [Changing Values in Arrays](#changing-values-in-arrays)
 
 -------
 
