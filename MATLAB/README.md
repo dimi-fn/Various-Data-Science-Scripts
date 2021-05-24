@@ -5,7 +5,7 @@ Contents
 
 * [Commands](#commands)
 * [Desktop & Editor](#desktop--editor)
-* [Vectors & Matrices](#vector--matrices)
+* [Vectors & Matrices](#vectors--matrices)
 
 -------
 
