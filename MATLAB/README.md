@@ -163,6 +163,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * use a tilde (`~`) to ignore specific outputs
 
 * `fft(y)`: compute the discrete Fourier transform of a vector
+    * since that gives complex numbers as an output, you might want to: result = abs(fft(y)), to get the absolute value-magnitude
 
 ------
 
@@ -199,7 +200,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * add **legends**: `legend(" ", " ")`
 
-
+* `xlim([xmin xmax])`: focus on a specific area of interest in terms of range of values
+    * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
 
 
