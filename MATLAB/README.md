@@ -62,9 +62,9 @@ All MATLAB variables are arrays.
 * Arrays can be used to store related data in one variable.
 
 * Examples
-    * `x = 4` --> scalar, `arr = np.array(4)` in Python
-    * `x = [5 , 9]` or `x = [5 9]` --> `arr = np.array([5, 9])` in Python
-    * `x = [5;9]` --> `arr = np.array([[7], [9]])` in Python 
+    * scalar: `x = 4` --> `arr = np.array(4)` in Python
+    * row vector 1x2: `x = [5 , 9]` or `x = [5 9]` --> `arr = np.array([5, 9])` in Python
+    * column vector 2x1 `x = [5;9]` --> `arr = np.array([[5], [9]])` in Python 
 
 
 
