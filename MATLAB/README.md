@@ -13,6 +13,7 @@ Contents
     * [Extracting Multiple Elements](#extracting-multiple-elements)
     * [Changing Values in Arrays](#changing-values-in-arrays)
 * [Function Calls](#function-calls)
+* [Visualization](#visualization)
 
 -------
 
@@ -164,7 +165,29 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 # Visualization
 
+* [MATLAB plot gallery documentation](https://www.mathworks.com/products/matlab/plot-gallery.html)
+
 * Two vectors of the same length can be plotted against each other using the plot function: `plot(x,y)`
+
+* `plot(x, y, "LineSpec"), [Line Specification documentation](https://www.mathworks.com/help/matlab/ref/linespec.html) 
+    * e.g., plot(x,y,"r--o") will have a red (r) dashed (--) line with a circle (o) as a marker
+    
+* Use line width of specific value, e.g. `plot(x, "LineWidth", 4)` with print a line width of 4. [Line Properties](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html)
+
+
+* use *line specification* along with *line properties*, e.g.: `plot(x,y, "ro-","LineWidth", 3)`
+    * e.g. `plot(v1, v2, "ro-", "LineWidth", 4)` will plot the 2 vectors with red(r) cicle(o) markers, and the line width will be of 4
+
+* to plot one line on top of the other type `hold on`
+    *e.g.: 
+        * plot(x,y,"r--o")
+        * hold on
+        * plot(x,z, "r*"), (red star marker)
+        * hold on
+        * plot(x, w, "ks") (k for black, s for square marker)
+    * to exit hold on -> `hold off`
+
+* When you plot a single vector by itself, MATLAB uses the vector values as the y-axis data and sets the x-axis data to range from 1 to n, where n is the number of elements in the vector
 
 
 
