@@ -11,6 +11,7 @@ Contents
 * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
     * [Extracting Multiple Elements](#extracting-multiple-elements)
     * [Changing Values in Arrays](#changing-values-in-arrays)
+* [Function Calls](#function-calls)
 
 -------
 
@@ -140,9 +141,15 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * `*` : matrix multiplication
     * `.*`: elementwise multiplication, e.g. x = [3,4] * [5,6] will give Error using  * Incorrect dimensions for matrix multiplication." ==> x = [3,4] .* [5,6]
 
+------
 
+# Function Calls
 
+* matrix_size = size(data)
 
+* Create the variables x and y which respectively contain the number of rows and columns of the variable z: [x,y]= size(z)
+
+* max function: `[xMax, idx] = max(x)`
 
 
 
