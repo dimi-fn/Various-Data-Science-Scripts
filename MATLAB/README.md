@@ -200,7 +200,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * add **legends**: `legend(" ", " ")`
 
-* `xlim([xmin xmax])`: focus on a specific area of interest in terms of range of values
+* `xlim([xmin , xmax])` (or: xlim([xmin xmax])): focus on a specific area of interest in terms of range of values
     * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
 
