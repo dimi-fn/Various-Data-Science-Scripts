@@ -8,6 +8,7 @@ Contents
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
     * [Array Creation Functions](#array-creation-functions)
+    * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
     
 
 -------
@@ -91,6 +92,31 @@ All MATLAB variables are arrays.
  If `linspace` or `:` is used to create a vector, then brackets ("[]") are not needed
 
 ## Array Creation Functions
+
+* e.g., `x = rand(4)` will create a 4x4 matrix with random numbers
+* Specify number of rows/columns, e.g., `x = rand(3,2)` will create a 3x2 matrix with random numbers
+    * you can fill matrices containing only zeros or one using the `zeros()` and `ones()` functions respectively. E.g. `x = zeros(4,2)` will give a 4x2 matrix filled out with 0s
+
+
+* Get the **size of an array**: `size(x)`
+
+## Indexing into and Modifying Arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -------
