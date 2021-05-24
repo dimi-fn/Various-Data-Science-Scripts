@@ -132,7 +132,13 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 ## Changing Values in Arrays
 
-* e.g. add a scalar value of 1 to all elements of an array (vector): `x2= x1 + 1`
+* e.g. add a scalar value of 1 to all elements of an array (vector): `x2= x1 + 1;`
+
+* add vectors of the same size, e.g. `v3 = v1+v2;`
+
+* multiplication
+    * `*` : matrix multiplication
+    * `.*`: elementwise multiplication, e.g. x = [3,4] * [5,6] will give Error using  * Incorrect dimensions for matrix multiplication." ==> x = [3,4] .* [5,6]
 
 
 
