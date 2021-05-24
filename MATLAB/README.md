@@ -7,7 +7,7 @@ Contents
 * [Desktop & Editor](#desktop--editor)
 * [Vectors & Matrices](#vector--matrices)
 
-------
+-------
 
 # Commands
 
@@ -37,6 +37,7 @@ Contents
 
 * Use parentheses to pass inputs to functions, e.g.: y = sin(x)
 
+-------
 
 # Desktop & Editor
 
@@ -49,8 +50,14 @@ Contents
     * saving the live script will save the code, output, and descriptions
     * you can click "workspace" to view variables in workspace gets minimized after commands execution
 
+-------
+
 # Vectors and Matrices
------
+
+
+
+
+-------
 
 ## Sources
 
