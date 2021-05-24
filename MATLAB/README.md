@@ -6,6 +6,7 @@ Contents
 * [Commands](#commands)
 * [Desktop & Editor](#desktop--editor)
 * [Vectors & Matrices](#vectors--matrices)
+    * [Evenly-Spaced Vectors](#)
 
 -------
 
@@ -68,6 +69,9 @@ All MATLAB variables are arrays.
 
 
     * matrix of 2x3: `x= [1,3,5;2,4,6]` --> 1st row==[1,3,5], 2nd row==[2,4,6]
+
+## Evenly-Spaced Vectors
+    * evenly-row spaced vector: `x = [1:4]` or `x= 1:4` or `x=[1,2,3,4]` | `:` is **inclusive** [inclusive, inclusive]
 
 
 
