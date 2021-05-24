@@ -72,7 +72,9 @@ All MATLAB variables are arrays.
 
 ## Evenly-Spaced Vectors
 
-* evenly-row spaced vector: `x = [1:4]` or `x= 1:4` or `x=[1,2,3,4]` | `:` is **inclusive** [inclusive, inclusive]
+* **evenly-row spaced vector**: `x = [1:4]` or `x= 1:4` or `x=[1,2,3,4]` | `:` is **inclusive** [inclusive, inclusive]
+
+* [**start** : `step` : **end**]: e.g. 1 to 10 with step 2 would be: `x =[1 : 2 : 10]` 
 
 
 
