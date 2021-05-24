@@ -54,6 +54,22 @@ Contents
 
 # Vectors & Matrices
 
+All MATLAB variables are arrays. 
+* scalars (i.e., single number containing 1 row and 1 column)
+* matrices
+    * row vectors and column vectors
+
+* Arrays can be used to store related data in one variable.
+
+* Examples
+    * `x = 4` --> scalar, `arr = np.array(4)` in Python
+    * `x = [5 , 9]` or `x = [5 9]` --> `arr = np.array([5, 9])` in Python
+    * `x = [5;9]` --> `arr = np.array([[7], [9]])` in Python 
+
+
+
+
+
 
 
 
