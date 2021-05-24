@@ -173,7 +173,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * `plot(x, y, "LineSpec"), [Line Specification documentation](https://www.mathworks.com/help/matlab/ref/linespec.html) 
     * e.g., plot(x,y,"r--o") will have a red (r) dashed (--) line with a circle (o) as a marker
     
-* Use line width of specific value, e.g. `plot(x, "LineWidth", 4)` with print a line width of 4. [Line Properties](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html)
+* Use line width of specific value, e.g. `plot(x, "LineWidth", 4)` will print a line width of 4. [Line Properties](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html)
 
 
 * use *line specification* along with *line properties*, e.g.: `plot(x,y, "ro-","LineWidth", 3)`
