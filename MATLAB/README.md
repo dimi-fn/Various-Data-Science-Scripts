@@ -8,7 +8,7 @@ Contents
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
     * [Array Creation Functions](#array-creation-functions)
-    * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
+* [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
     
 
 -------
@@ -58,7 +58,7 @@ Contents
 
 # Vectors & Matrices
 
-All MATLAB variables are arrays. 
+**All MATLAB variables are arrays**. 
 * scalars (i.e., single number containing 1 row and 1 column)
 * matrices
     * row vectors and column vectors
@@ -85,7 +85,7 @@ All MATLAB variables are arrays.
     * use `transpose` to turn it into a column vector of 5x1: `x = x'` 
 
 * create a column vector using a single command by creating a row vector and then transposing it all on one line.
-    * `x = (4:2:10)` will give a column vector 1x4, with the elements: 4,6,8,10
+    * `x = (4:2:10)'` will give a column vector 4x1, with the elements: 4,6,8,10
 
 
 ** Note: 
@@ -100,7 +100,14 @@ All MATLAB variables are arrays.
 
 * Get the **size of an array**: `size(x)`
 
-## Indexing into and Modifying Arrays
+# Indexing into and Modifying Arrays
+
+
+
+
+
+
+
 
 
 
