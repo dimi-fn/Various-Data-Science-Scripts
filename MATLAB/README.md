@@ -9,7 +9,8 @@ Contents
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
     * [Array Creation Functions](#array-creation-functions)
 * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
-    
+    * [Extracting Multiple Elements](#extracting-multiple-elements)
+    * [Changing Values in Arrays](#chaning-values-in-arrays)
 
 -------
 
@@ -17,7 +18,7 @@ Contents
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
-    * `load <filename.mat>` to load again the variables of the file
+    * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
         * load only one variable from a .mat file containing multiple variables: `load someFile x`
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
@@ -60,7 +61,8 @@ Contents
 
 **All MATLAB variables are arrays**. 
 * scalars (i.e., single number containing 1 row and 1 column)
-* matrices
+* vectors (1D)
+* matrices (2D)
     * row vectors and column vectors
 
 * Arrays can be used to store related data in one variable.
@@ -100,7 +102,11 @@ Contents
 
 * Get the **size of an array**: `size(x)`
 
+------
+
 # Indexing into and Modifying Arrays
+
+*Vectors: x(idx), Matrices: x(row, col)*
 
 The **1st index position** starts at `1` (not 0 as in Python)
 
@@ -114,15 +120,19 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * extract **all first column**: `x(:,1)`
 
+* `end`: You can use the MATLAB keyword end as either a row or column index to reference the last element
+    * e.g. if data the filename, then: `x = data(end, 2)` will return the the element which is located in the last and in the 2nd column
+    * `x = data(end-1, 3)` will give the scalar located in the second to last row in the 3rd column
 
+## Extracting Multiple Elements
 
+* grab all elements located in the 4th column: `x= data(:, 4)`
 
+* grab all elements containing the last 3 columns: x = data(:, end-2:end)
 
+## Changing Values in Arrays
 
-
-
-
-
+* e.g. add a scalar value of 1 to all elements of an array (vector): `x2= x1 + 1`
 
 
 
