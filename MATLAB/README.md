@@ -93,7 +93,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
     * *whereas in Python step would be at the end*
 
 * if you know the number of elements you want in a vector beforehand -> use `linspace(first,la1,1st,number_of_elements).`
-    * `x = linspace(0,10,5)` will give 0, 2,5, 5, 7.5, and 10 which gives a row vector 1x5
+    * `x = linspace(0,10,5)` will give 0, 2.5, 5, 7.5, and 10 which gives a row vector 1x5
     * use `transpose` to turn it into a column vector of 5x1: `x = x'` 
 
 * create a column vector using a single command by creating a row vector and then transposing it all on one line.
@@ -162,6 +162,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * use a tilde (`~`) to ignore specific outputs
 
+* `fft(y)`: compute the discrete Fourier transform of a vector
+
 ------
 
 # Visualization
@@ -196,6 +198,13 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * y-axis description: `ylabel("here is the y-label title")`
 
 * add **legends**: `legend(" ", " ")`
+
+
+
+
+
+
+
 
 
 
