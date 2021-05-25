@@ -67,7 +67,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
     * e.g. you can sort values, and then use the "update code" functionality
 
 * you can **extract rows** by array indexing
-    * e.g. to extract the first 4 rows and assign that to a variable: `x= tableName(1:4, :) -->x will also be a table
+    * e.g. to extract the first 4 rows and assign that to a variable: `x= tableName(1:4, :)` -->x will also be a table
 
 **Note: *Single quotes create a character vector and double quotes create a string. In most cases, strings are preferable.*
 -------
