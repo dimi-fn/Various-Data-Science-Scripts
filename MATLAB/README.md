@@ -58,13 +58,16 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 ## Importing Data
 
-* You can import .mat, .jpg, .txt, and .csv file by the "import data" tool
+* You can import .mat, .jpg, .txt, and .csv files by the "import data" tool
     * csv files can be stored in various ways. Missing data will be displayed with orange colour
 
-* you can select column tables via `tableName.columnName`
+* you can select column tables (**features**) via `tableName.columnName`
 
 * you can interact with the table via the output table pane on the right
     * e.g. you can sort values, and then use the "update code" functionality
+
+* you can **extract rows** by array indexing
+    * e.g. to extract the first 4 rows and assign that to a variable: `x= tableName(1:4, :) -->x will also be a table
 
 **Note: *Single quotes create a character vector and double quotes create a string. In most cases, strings are preferable.*
 -------
