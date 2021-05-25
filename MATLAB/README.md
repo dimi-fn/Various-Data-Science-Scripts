@@ -32,6 +32,8 @@ Either by the "?" button or in the command line type `doc <something to search>`
         * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
         * use `data.VariableName` to extract a specific variable (feature / table value / column value) from the table
 
+* `which pathdef`: search path
+
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
 
 * Save files: `save filename.mat`
