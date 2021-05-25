@@ -5,6 +5,7 @@ Contents
 
 * [MATLAB Documentation](#matlab-documentation)
 * [Commands](#commands)
+    * [Importing Data](#importing-data)
 * [Desktop & Editor](#desktop--editor)
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
@@ -55,6 +56,17 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 * Use parentheses to pass inputs to functions, e.g.: y = sin(x)
 
+## Importing Data
+
+* You can import .mat, .jpg, .txt, and .csv file by the "import data" tool
+    * csv files can be stored in various ways. Missing data will be displayed with orange colour
+
+* you can select column tables via `tableName.columnName`
+
+* you can interact with the table via the output table pane on the right
+    * e.g. you can sort values, and then use the "update code" functionality
+
+**Note: *Single quotes create a character vector and double quotes create a string. In most cases, strings are preferable.*
 -------
 
 # Desktop & Editor
@@ -207,6 +219,15 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
 * In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
+
+
+
+
+
+
+
+
+
 
 
 
