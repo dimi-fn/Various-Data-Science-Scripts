@@ -32,7 +32,7 @@
         * [Remote Connection](#remote-connection)
         * [Various](#various)
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
-    * [find](#-find)
+    * [find](#find-windows)
 * [To Further Explore](#to-further-explore)
 
 ----
