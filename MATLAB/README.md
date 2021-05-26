@@ -171,8 +171,19 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * `*` : matrix multiplication
     * `.*`: elementwise multiplication, e.g. x = [3,4] * [5,6] will give Error using  * Incorrect dimensions for matrix multiplication." ==> x = [3,4] .* [5,6]
 
-
 ## Logical Indexing
+
+* True / False in MATLAB is expressed in 1 and 0 respectively
+* and: `&`, or: `|`
+    * e.g. x = v1(v1<8 & v1>4) will find values less than 8 and greater than 4
+
+* you can compare a vector or matrix to a single scalar value using relational operators
+    * e.g. [3 6 9] > 8 =>output=> 0 0 1
+
+* choose a **subset** of array via a logical array
+    e.g. : v2 = v1(v1>6) will assign to v2 all values for which v1>6 is true
+
+* replace values: e.g.: x(x==10) = 2, will replace all x values that are currently 10 into 2
 
 ------
 
