@@ -16,6 +16,7 @@ Contents
     * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
 * [Visualization](#visualization)
+* [Programming Constructs](#programming-constructs)
 
 -------
 
@@ -239,6 +240,17 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
 * In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
+
+------
+
+# Programming Constructs
+
+In MATLAB:
+
+* if .. end
+
+* loops:
+    * for .. end
 
 
 
