@@ -32,6 +32,7 @@
         * [Remote Connection](#remote-connection)
         * [Various](#various)
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
+    * [find](#-find)
 * [To Further Explore](#to-further-explore)
 
 ----
@@ -598,6 +599,10 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 * delete file: `del /f "filename"`
 
 * ip details: `ipconfig`
+
+## $find
+
+* `find /i "python" "C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
 
 -----
 
