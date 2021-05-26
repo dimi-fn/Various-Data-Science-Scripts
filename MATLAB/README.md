@@ -242,7 +242,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
 
 
-* use `pause()` function to animate the plots in conjunction with using `hold on`
+* use `pause()` function to animate the plots in conjunction with using `hold on` and `hold off`, example: 
    
         for idx= 1:5 
             hold on
