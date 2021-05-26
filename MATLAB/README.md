@@ -13,6 +13,7 @@ Contents
 * [Indexing into and Modifying Arrays](#indexing-into-and-modifying-arrays)
     * [Extracting Multiple Elements](#extracting-multiple-elements)
     * [Changing Values in Arrays](#changing-values-in-arrays)
+    * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
 * [Visualization](#visualization)
 
@@ -170,6 +171,9 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * `*` : matrix multiplication
     * `.*`: elementwise multiplication, e.g. x = [3,4] * [5,6] will give Error using  * Incorrect dimensions for matrix multiplication." ==> x = [3,4] .* [5,6]
 
+
+## Logical Indexing
+
 ------
 
 # Function Calls
@@ -220,7 +224,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * add **legends**: `legend(" ", " ")`
 
-* `xlim([xmin , xmax])` (or: xlim([xmin xmax])): focus on a specific area of interest in terms of range of values
+* focus on a specific area of interest in terms of range of values: `xlim([xmin , xmax])` or: xlim([xmin xmax])
     * after plot(x,y) you can use xlim for plotting specific areas of the graph
 
 * In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
