@@ -28,17 +28,19 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
-    * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
-        * load only one variable from a .mat file containing multiple variables: `load filename x`
-        * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
-        * use `data.VariableName` to extract a specific variable (feature / table value / column value) from the table
+    
+* `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
+    * load only one variable from a .mat file containing multiple variables: `load filename x`
+    * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
+    * use `data.VariableName` to extract a specific variable (feature / table value / column value) from the table
+
+* **saving**: 
+    * `save filename.mat`
+    * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
 
 * `which pathdef`: search path
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
-
-* Save files: `save filename.mat`
-    * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
 
 * If you add a semicolon `;` to the end of a command, the result will not be displayed, however, the result of that command will be displayed in the Workspace window as usual.
 
