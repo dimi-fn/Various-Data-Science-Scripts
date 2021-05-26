@@ -241,16 +241,29 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * In the right section of outputs, you can use the *output pane* to interact with specific values across the chart
 
+
+* use `pause()` function to animate the plots in conjunction with using `hold on`
+   
+        for idx= 1:5 
+            hold on
+            plot(idx, density(idx),"*")
+            hold off
+            pause(0.9)
+        end
+
+
 ------
 
 # Programming Constructs
 
 In MATLAB:
 
-* if .. end
+* if .. else .. elseif .. end (*In Python it would be if-elif-else with ":"*)
 
 * loops:
     * for .. end
+
+* Instead of for i=1 .. i<=3 -->in Matlab--> for i= 1:3
 
 
 
