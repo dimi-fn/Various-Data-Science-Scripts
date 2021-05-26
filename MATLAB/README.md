@@ -151,7 +151,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * extract **all first column**: `x(:,1)`
 
 * `end`: You can use the MATLAB keyword end as either a row or column index to reference the last element
-    * e.g. if data the filename, then: `x = data(end, 2)` will return the the element which is located in the last and in the 2nd column
+    * e.g. if data the filename, then: `x = data(end, 2)` will return the the element which is located in the last row and in the 2nd column
     * `x = data(end-1, 3)` will give the scalar located in the second to last row in the 3rd column
 
 ## Extracting Multiple Elements
@@ -193,7 +193,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * Two vectors of the same length can be plotted against each other using the plot function: `plot(x,y)`
 
-* `plot(x, y, "LineSpec"), [Line Specification documentation](https://www.mathworks.com/help/matlab/ref/linespec.html) 
+* `plot(x, y, "LineSpec")`, [Line Specification documentation](https://www.mathworks.com/help/matlab/ref/linespec.html) 
     * e.g., plot(x,y,"r--o") will have a red (r) dashed (--) line with a circle (o) as a marker
     
 * Use line width of specific value, e.g. `plot(x, "LineWidth", 4)` will print a line width of 4. [Line Properties](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.line-properties.html)
