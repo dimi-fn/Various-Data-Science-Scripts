@@ -30,6 +30,8 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
+
+* % This is a comment on Matlab code cell    
     
 * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
     * load only one variable from a .mat file containing multiple variables: `load filename x`
@@ -194,7 +196,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * Create the variables x and y which respectively contain the number of rows and columns of the variable z: [x,y]= size(z)
 
-* max function: `[xMax, idx] = max(x)`
+* max function: `[xMax, idx] = max(x)` (same for min())
+    * the second output is the index at which the max or min value occurrs
 
 * use a tilde (`~`) to ignore specific outputs
 
@@ -208,6 +211,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * [MATLAB plot gallery documentation](https://www.mathworks.com/products/matlab/plot-gallery.html)
 
 * Two vectors of the same length can be plotted against each other using the plot function: `plot(x,y)`
+    * use log scales for each axis: `loglog(x,y)`
 
 * `plot(x, y, "LineSpec")`, [Line Specification documentation](https://www.mathworks.com/help/matlab/ref/linespec.html) 
     * e.g., plot(x,y,"r--o") will have a red (r) dashed (--) line with a circle (o) as a marker
