@@ -15,7 +15,7 @@ Contents
     * [Changing Values in Arrays](#changing-values-in-arrays)
     * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
-* [Visualization](#visualization)
+* [Visualization - Plotting](#visualization-plotting)
 * [Programming Constructs](#programming-constructs)
 
 -------
@@ -203,7 +203,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 ------
 
-# Visualization
+# Visualization - Plotting
 
 * [MATLAB plot gallery documentation](https://www.mathworks.com/products/matlab/plot-gallery.html)
 
@@ -263,7 +263,7 @@ In MATLAB:
 * loops:
     * for .. end
 
-* Instead of for i=1 .. i<=3 -->in Matlab--> for i= 1:3
+* Instead of: for i=1 .. i<=3 -->in Matlab--> for i= 1:3
 
 
 
