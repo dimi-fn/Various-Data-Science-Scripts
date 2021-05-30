@@ -15,7 +15,7 @@ Contents
     * [Changing Values in Arrays](#changing-values-in-arrays)
     * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
-* [Visualization - Plotting](#visualization-plotting)
+* [Visualization - Plotting](#visualization---plotting)
 * [Programming Constructs](#programming-constructs)
 
 -------
