@@ -32,6 +32,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
     * `clear` to empty workspace / `clc` to empty the Command Window
 
 * % This is a comment on Matlab code cell    
+    * Matlab **markdown** https://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html
     
 * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
     * load only one variable from a .mat file containing multiple variables: `load filename x`
