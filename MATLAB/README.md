@@ -198,7 +198,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 * Create the variables x and y which respectively contain the number of rows and columns of the variable z: [x,y]= size(z)
 
 * max function: `[xMax, idx] = max(x)` (same for min())
-    * the second output is the index at which the max or min value occurs
+    * where xMax == the max value of x, idx == the index value that the max value will be assigned with
         * if you only max(a) and a is a 2D array of shape (x,y), then you will get the max value for every y column value, i.e. the shape result will be (1 , y)
 
 * use a tilde (`~`) to ignore specific outputs
@@ -270,6 +270,12 @@ In MATLAB:
     * for .. end
 
 * Instead of: for i=1 .. i<=3 -->in Matlab--> for i= 1:3
+
+* e.g. iterating through a 2D array "arr" of shape (x, 5), grabbing all column values separately and assign them to a variable called "column values"(which would be assigned 5 times since we have 5 columns): 
+
+        for index = (1:5)
+            column_values = `arr(:, index)
+        end
 
 
 
