@@ -289,6 +289,9 @@ In MATLAB:
             hold on
         end
         hold off
+        % starnames is an array of star names in spectra
+        %% otherwise it would be smth like legend("legend title")
+        legend(starnames)
 
 
 
