@@ -133,6 +133,13 @@ Either by the "?" button or in the command line type `doc <something to search>`
 * create a column vector using a single command by creating a row vector and then transposing it all on one line.
     * `x = (4:2:10)'` will give a column vector 4x1, with the elements: 4,6,8,10
 
+| Example          | Description    | 
+| ------------- |:-------------:| 
+| 2:5      | Create a vector from 2 to 5, spaced by 1, using the [colon (:)](https://www.mathworks.com/help/matlab/ref/colon.html) operator |     
+| 4:2:10      | Create a vector from 4 to 10, with a step of 2 | 
+| [linspace](https://www.mathworks.com/help/matlab/ref/linspace.html)1,20,5      | Create a vector with 5 elements, the values of which are evenly spaced from 1 to 20 | 
+
+<br>
 
 ** Note: 
  If `linspace` or `:` is used to create a vector, then brackets ("[]") are not needed
