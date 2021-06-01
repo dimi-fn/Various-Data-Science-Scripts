@@ -141,6 +141,14 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 <br>
 
+**Create Matrices**
+| Example          | Description    | 
+| ------------- |:-------------:| 
+| [rand](https://www.mathworks.com/help/matlab/ref/rand.html)(2)    | Create a square matrix with 3 rows and 3 columns |     
+| [zeros](https://www.mathworks.com/help/matlab/ref/zeros.html)(2,3)    | Create a rectangular matrix with 2 rows and 3 columns. |   
+
+<br>
+
 ** Note: 
  If `linspace` or `:` is used to create a vector, then brackets ("[]") are not needed
 
