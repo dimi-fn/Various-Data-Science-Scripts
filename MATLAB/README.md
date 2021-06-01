@@ -110,6 +110,15 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
     * matrix of 2x3: `x= [1,3,5;2,4,6]` --> 1st row==[1,3,5], 2nd row==[2,4,6]
 
+| Example          | Description    | 
+| ------------- |:-------------:| 
+| 3      | scalar |     
+| [3  5]  or [3,5]  | row vector |     
+| [3;5]      | column vector |     
+| [3 5 9 ; 0 2 4 ]     | matrix |     
+
+
+
 ## Evenly-Spaced Vectors
 
 * **evenly-row spaced vector**: `x = [1:4]` or `x= 1:4` or `x=[1,2,3,4]` | `:` is **inclusive** [inclusive, inclusive]
