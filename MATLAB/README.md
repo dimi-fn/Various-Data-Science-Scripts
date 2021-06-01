@@ -277,6 +277,19 @@ In MATLAB:
             column_values = `arr(:, index)
         end
 
+*from the Matlab academy mathworks exercise:*
+
+        for v= (1:7)
+            s = spectra(:, v);
+            if speed(v) <= 0 
+                loglog(lambda,s,"--")
+            else  
+            loglog(lambda,s, "LineWidth", 3)
+            end
+            hold on
+        end
+        hold off
+
 
 
 
