@@ -270,12 +270,13 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * to plot one line on top of the other type `hold on`
     *e.g.: 
-        * plot(x,y,"r--o")
-        * hold on
-        * plot(x,z, "r*"), (red star marker)
-        * hold on
-        * plot(x, w, "ks") (k for black, s for square marker)
-    * to exit hold on -> `hold off`
+
+        plot(x,y,"r--o")
+        hold on
+        plot(x,z, "r*"), (red star marker)
+        hold on
+        plot(x, w, "ks") (k for black, s for square marker)
+
 
 * When you plot a single vector by itself, MATLAB uses the vector values as the y-axis data and sets the x-axis data to range from 1 to n, where n is the number of elements in the vector
 
@@ -301,6 +302,20 @@ The **1st index position** starts at `1` (not 0 as in Python)
             pause(0.9)
         end
 
+<br>
+
+| Example          | Description    | 
+| ------------- |:-------------:| 
+| [plot](https://www.mathworks.com/help/matlab/ref/plot.html)(x,y, "ro-", "LineWidth", 6)    | Plot a red (r) dashed (--) line with a
+circle (o) marker, with a line width of 6 |     
+|  [hold](https://www.mathworks.com/help/matlab/ref/hold.html) on |  Add the next line to existing plot |
+| hold off |  Create a new axes for the next plotted line |
+|title("TitleName") | Add title description |
+| xlabel("x-label title")| title of x-axis |
+| ylabel("y-label title")| title of y-axis |
+
+
+<br>
 
 ------
 
