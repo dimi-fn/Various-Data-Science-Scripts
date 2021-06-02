@@ -167,7 +167,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
 | Example          | Description    | 
 | ------------- |:-------------:| 
 |  [1 1 ; 1 1]*[2 2 ; 2 2] => will give 4, 4, 4, 4 | [Matrix Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#btyv9yp-4)  |     
-| [1 1 ; 1 1].*[2 2 ; 2 2]   | [Element-wise Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#bu90xxy-1)   |
+| [1 1 ; 1 1].*[2 2 ; 2 2] => will give 2,2,2,2  | [Element-wise Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#bu90xxy-1)   |
 
 <br>
 
