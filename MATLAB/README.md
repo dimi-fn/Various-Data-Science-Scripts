@@ -183,6 +183,18 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * e.g. if data the filename, then: `x = data(end, 2)` will return the the element which is located in the last row and in the 2nd column
     * `x = data(end-1, 3)` will give the scalar located in the second to last row in the 3rd column
 
+| Example          | Description    | 
+| ------------- |:-------------:| 
+| M([end](https://www.mathworks.com/help/matlab/ref/end.html), 2)     | Access the element in the second column of the last row |     
+
+| M(3,:)    | Access the entire 3rd row |     
+
+| M(1:4,:) | Access all columns of the first four rows. |     
+
+| A(2) = 10| Change the value of the second element of the array to 10 |     
+
+<br>
+
 ## Extracting Multiple Elements
 
 * grab all elements located in the 4th column: `x= data(:, 4)`
