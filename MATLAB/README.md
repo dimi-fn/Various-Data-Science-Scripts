@@ -37,7 +37,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
 * `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
     * load only one variable from a .mat file containing multiple variables: `load filename x`
     * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
-    * use `data.VariableName` to extract a specific variable (feature / table value / column value) from the table
+    * use `data.VariableName` to extract a specific variable (feature / table value / column value) from a [table](https://www.mathworks.com/help/matlab/matlab_prog/access-data-in-a-table.html)
 
 * **saving**: 
     * `save filename.mat`
@@ -229,7 +229,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * e.g. [3 6 9] > 8 =>output=> 0 0 1
 
 * choose a **subset** of array via a logical array
-    e.g. : v2 = v1(v1>6) will assign to v2 all values for which v1>6 is true
+    * e.g. : v2 = v1(v1>6) will assign to v2 all values for which v1>6 is true
+    * x(x==10) = 20  => replace all values in x that are equal to 10 with the value 20
 
 * replace values: e.g.: x(x==10) = 2, will replace all x values that are currently 10 into 2
 
@@ -333,7 +334,7 @@ In MATLAB:
 * e.g. iterating through a 2D array "arr" of shape (x, 5), grabbing all column values separately and assign them to a variable called "column values"(which would be assigned 5 times since we have 5 columns): 
 
         for index = (1:5)
-            column_values = `arr(:, index)
+            column_values = arr(:, index)
         end
 
 *from the Matlab academy mathworks exercise:*
@@ -343,7 +344,7 @@ In MATLAB:
             if speed(v) <= 0 
                 loglog(lambda,s,"--")
             else  
-            loglog(lambda,s, "LineWidth", 3)
+                loglog(lambda,s, "LineWidth", 3)
             end
             hold on
         end
