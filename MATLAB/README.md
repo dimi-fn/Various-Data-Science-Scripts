@@ -22,7 +22,7 @@ Contents
 
 # MATLAB Documentation
 
-Either by the "?" button or in the command line type `doc <something to search>`, e.g doc randi
+Either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
 
 ------
 
@@ -160,6 +160,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
 
 
 * Get the **size of an array**: `size(x)`
+    * `[Xrow, Xcol] = size(X)` create two variables comprising the size of X
 
 <br>
 
@@ -167,7 +168,7 @@ Either by the "?" button or in the command line type `doc <something to search>`
 | Example          | Description    | 
 | ------------- |:-------------:| 
 |  [1 1 ; 1 1]*[2 2 ; 2 2] => will give 4, 4, 4, 4 | [Matrix Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#btyv9yp-4)  |     
-| [1 1 ; 1 1].*[2 2 ; 2 2] => will give 2,2,2,2  | [Element-wise Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#bu90xxy-1)   |
+| [1 1 ; 1 1].*[2 2 ; 2 2] => will give 2, 2, 2, 2  | [Element-wise Multiplication](https://www.mathworks.com/help/matlab/matlab_prog/array-vs-matrix-operations.html#bu90xxy-1)   |
 
 <br>
 
