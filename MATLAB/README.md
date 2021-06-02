@@ -186,11 +186,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 | Example          | Description    | 
 | ------------- |:-------------:| 
 | M([end](https://www.mathworks.com/help/matlab/ref/end.html), 2)     | Access the element in the second column of the last row |     
-
 | M(3,:)    | Access the entire 3rd row |     
-
 | M(1:4,:) | Access all columns of the first four rows. |     
-
 | A(2) = 10| Change the value of the second element of the array to 10 |     
 
 <br>
