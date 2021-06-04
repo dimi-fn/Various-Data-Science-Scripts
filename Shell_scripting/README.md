@@ -582,7 +582,9 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 # Windows Terminal Commands
 
-* `cd` / `cd ..` / `dir`
+* `help <command>`: like "man" command for linux
+
+* `cd` / `cd ..` / `dir` / `tree <dirname>`
     * change drive directory: `cd /d <another drive>:`
     * or just `<another drive>:`
 
