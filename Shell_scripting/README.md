@@ -602,7 +602,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 ## $find (Windows)
 
-* `find /i "python" "C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
+* `find /i "python" C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
 
 -----
 
