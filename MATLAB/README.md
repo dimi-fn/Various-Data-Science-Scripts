@@ -7,6 +7,7 @@ Contents
 * [Commands](#commands)
     * [Importing Data](#importing-data)
 * [Desktop & Editor](#desktop--editor)
+    * [Scripts & Live Scripts]()
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
     * [Array Creation Functions](#array-creation-functions)
@@ -89,6 +90,8 @@ Contents
 1) Current folder
 2) Command Window 
 3) Workspace
+
+## Scripts & Live Scripts
 
 * To organize all commands and their output: "New live script" in the toolstrip
     * add "Code" or "Text" for description
