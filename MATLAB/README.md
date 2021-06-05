@@ -45,6 +45,8 @@ Contents
     * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
     * use `data.VariableName` to extract a specific variable (feature / table value / column value) from a [table](https://www.mathworks.com/help/matlab/matlab_prog/access-data-in-a-table.html)
 
+*Note*: No need to initialize variables in MATLAB
+
 * **saving**: 
     * `save filename.mat`
     * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
@@ -257,8 +259,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * Create the variables x and y which respectively contain the number of rows and columns of the variable z: [x,y]= size(z)
 
-* max function: `[xMax, idx] = max(x)` (same for min())
-    * where xMax == the max value of x, idx == the index value that the max value will be assigned with
+* max function: `[maxVal, maxIdx] = max(x)` (same for min())
+    * where maxVal == the max value of x, Idx == the index value that the max value will be assigned with
         * if you only max(a) and a is a 2D array of shape (x,y), then you will get the max value for every y column value, i.e. the shape result will be (1 , y)
 
 * use a tilde (`~`) to ignore specific outputs
