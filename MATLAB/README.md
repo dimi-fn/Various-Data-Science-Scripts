@@ -20,7 +20,7 @@ Contents
 
 -------
 
-# MATLAB Documentation - Help - Docs
+# MATLAB Documentation / Help 
 
 * Either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
 
