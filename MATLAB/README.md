@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* [MATLAB Documentation](#matlab-documentation)
+* [MATLAB Documentation](#matlab-documentation--help)
 * [Commands](#commands)
     * [Importing Data](#importing-data)
 * [Desktop & Editor](#desktop--editor)
