@@ -7,7 +7,7 @@ Contents
 * [Commands](#commands)
     * [Importing Data](#importing-data)
 * [Desktop & Editor](#desktop--editor)
-    * [Scripts & Live Scripts]()
+    * [Scripts & Live Scripts](#scripts--live-scripts)
 * [Vectors & Matrices](#vectors--matrices)
     * [Evenly-Spaced Vectors](#evenly-spaced-vectors)
     * [Array Creation Functions](#array-creation-functions)
@@ -93,10 +93,14 @@ Contents
 
 ## Scripts & Live Scripts
 
-* To organize all commands and their output: "New live script" in the toolstrip
+* To organize all commands and their output: "New **live script**" in the toolstrip
     * add "Code" or "Text" for description
     * saving the live script will save the code, output, and descriptions
     * you can click "workspace" to view variables in workspace gets minimized after commands execution
+
+<br>
+
+* **Scripts**: 
 
 -------
 
