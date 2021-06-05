@@ -59,6 +59,10 @@ Contents
 
 * Use `format long` to display all decimal places
 
+**Note: *Single quotes create a character vector and double quotes create a string. In most cases, strings are preferable.*
+* x = ['1','2'] will give a character array '12'
+* y = ["1","2"] will give a 1x2 string array with entries "1" and "2"
+
 **Built-in constants**:
 * pi (for π)
 
@@ -82,7 +86,6 @@ Contents
 * you can **extract rows** by array indexing
     * e.g. to extract the first 4 rows and assign that to a variable: `x= tableName(1:4, :)` -->x will also be a table
 
-**Note: *Single quotes create a character vector and double quotes create a string. In most cases, strings are preferable.*
 -------
 
 # Desktop & Editor
@@ -100,7 +103,7 @@ Contents
 
 <br>
 
-* **Scripts**: 
+* **Scripts**: `.m files` containing commands executed in sequence
 
 -------
 
