@@ -20,9 +20,14 @@ Contents
 
 -------
 
-# MATLAB Documentation
+# MATLAB Documentation - Help - Docs
 
-Either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
+* Either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
+
+* `help`, `help sin`, `doc sin`
+    * search for a function with specific keywords`docsearch sin trigonometric` 
+
+
 
 ------
 
@@ -373,3 +378,5 @@ In MATLAB:
 ## Sources
 
 [1] https://matlabacademy.mathworks.com/
+
+[2] https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-057-introduction-to-matlab-january-iap-2019/lecture-notes/index.htm
