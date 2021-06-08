@@ -49,6 +49,9 @@ Contents
     * `clear workspace`
     * `clear classes`
 
+* Use `disp` to print messages while debugging functions as well as the given strings to command window
+    * e.g.: `disp('starting the loop')`
+
 * % This is a comment on Matlab code cell    
     * Matlab **markdown** https://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html
     
@@ -281,6 +284,9 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * `fft(y)`: compute the discrete Fourier transform of a vector
     * since that gives complex numbers as an output, you might want to: result = abs(fft(y)), to get the absolute value-magnitude
+
+* Use `disp` to print messages while debugging functions as well as the given strings to command window
+    * e.g.: `disp('starting the loop')`
 
 ------
 
