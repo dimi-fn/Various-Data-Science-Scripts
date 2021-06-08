@@ -31,6 +31,8 @@ Contents
 * `help plot` list of colors, markers, and line styles
     * `doc line_props` for a full list of properties that can be specified
     * `doc axis` axis modes
+    * `help hot` for list of colormaps
+    * `help surf` for more surface options
 * `help size` for **size**() options
 
 
@@ -327,9 +329,6 @@ The **1st index position** starts at `1` (not 0 as in Python)
             pause(0.9)
         end
 
-
-* 3D plot: e.g. `plot(x,y,z, 'k', 'LineWidth', 3);`
-
 * save figures in:
     * `.fig` preserves al information
     * `.bmp` uncompressed image
@@ -347,8 +346,33 @@ The **1st index position** starts at `1` (not 0 as in Python)
 | xlabel("x-label title")| title of x-axis |
 | ylabel("y-label title")| title of y-axis |
 
-
 <br>
+
+## 3D - Surfaces - Matrices
+
+* 3D plot: e.g. `plot(x,y,z, 'k', 'LineWidth', 3);`
+
+Any matrix can be visualized as an image
+* **imagesc** automatically scales the values to span the entire colormap
+
+
+                `imagesc(matrix)`
+                `colorbar`  % put colourbal
+
+
+* let X,Y,Z be matrices
+    * use `meshgrid`
+        * **surf** puts vertices at specified points in space x,y,z and connects all the vertices to make a surface, use meshgrid for that
+
+                x = -pi : 0.1 : pi;
+                y = -pi : 0.1 : pi;
+                [X,Y] = meshgrid(x,y);
+
+                Z = sin(X) .*cos(Y);
+
+                % plot
+                surf(X,Y,Z);
+
 
 ------
 
