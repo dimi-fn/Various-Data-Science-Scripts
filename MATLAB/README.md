@@ -433,10 +433,12 @@ In MATLAB:
         %% otherwise it would be smth like legend("legend title")
         legend(starnames)
 
-
 ## find
 
+* It returns indices of nonzero values, e.g.:
 
+        x = rand (1, 150);
+        indices = find(x>0.2 & x<0.6);
 
 
 
