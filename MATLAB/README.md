@@ -254,6 +254,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 ------
 
 # Function Calls
+* `function[x,y,z] = funName(input1, input2)` 
 
 * matrix_size = size(data)
 
