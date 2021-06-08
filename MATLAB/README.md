@@ -340,8 +340,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 | Example          | Description    | 
 | ------------- |:-------------:| 
-| [plot](https://www.mathworks.com/help/matlab/ref/plot.html)(x,y, "ro-", "LineWidth", 6)    | Plot a red (r) dashed (--) line with a
-circle (o) marker, with a line width of 6 |     
+| [plot](https://www.mathworks.com/help/matlab/ref/plot.html)(x,y, "ro-", "LineWidth", 6)    | Plot a red (r) dashed (--) line with a circle (o) marker, with a line width of 6 |     
 |  [hold](https://www.mathworks.com/help/matlab/ref/hold.html) on |  Add the next line to existing plot |
 | hold off |  Create a new axes for the next plotted line |
 |title("TitleName") | Add title description |
