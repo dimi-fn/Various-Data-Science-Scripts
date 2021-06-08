@@ -27,8 +27,11 @@ Contents
 
 * `help`, `help sin`, `doc sin`
     * search for a function with specific keywords`docsearch sin trigonometric` 
-* `help .` for detailed list of operators
-* `help size` for size() options
+* `help .` for detailed list of **operators**
+* `help plot` list of colors, markers, and line styles
+    * `doc line_props` for a full list of properties that can be specified
+    * `doc axis` axis modes
+* `help size` for **size**() options
 
 
 
@@ -295,9 +298,9 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
         plot(x,y,"r--o")
         hold on
-        plot(x,z, "r*"), (red star marker)
+        plot(x,z, "r*")     %(red star marker)
         hold on
-        plot(x, w, "ks") (k for black, s for square marker)
+        plot(x, w, "ks")    %k for black, s for square marker)
 
 
 * When you plot a single vector by itself, MATLAB uses the vector values as the y-axis data and sets the x-axis data to range from 1 to n, where n is the number of elements in the vector
@@ -323,6 +326,15 @@ The **1st index position** starts at `1` (not 0 as in Python)
             hold off
             pause(0.9)
         end
+
+
+* 3D plot: e.g. `plot(x,y,z, 'k', 'LineWidth', 3);`
+
+* save figures in:
+    * `.fig` preserves al information
+    * `.bmp` uncompressed image
+    * `.eps` high-quality scaleable format
+    * `.pdf` compressed image
 
 <br>
 
@@ -356,7 +368,16 @@ In MATLAB:
         end
 
 * loops:
-    * for .. end
+
+        for n= 1:100
+            commands
+        end
+
+        % while loop
+        %% use break to exit a loop
+        while condition
+            commands
+        end
 
 * Instead of: for i=1 .. i<=3 -->in Matlab--> for i= 1:3
 
