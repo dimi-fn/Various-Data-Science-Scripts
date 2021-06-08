@@ -27,6 +27,8 @@ Contents
 
 * `help`, `help sin`, `doc sin`
     * search for a function with specific keywords`docsearch sin trigonometric` 
+* `help .` for detailed list of operators
+* `help size` for size() options
 
 
 
@@ -178,6 +180,7 @@ Contents
 
 * Get the **size of an array**: `size(x)`
     * `[Xrow, Xcol] = size(X)` create two variables comprising the size of X
+    * `help size` for more
 
 <br>
 
@@ -343,6 +346,14 @@ circle (o) marker, with a line width of 6 |
 In MATLAB:
 
 * if .. else .. elseif .. end (*In Python it would be if-elif-else with ":"*)
+
+        if condition1
+            commands1
+        elseif condition2
+            commands2
+        else
+            commands3
+        end
 
 * loops:
     * for .. end
