@@ -17,6 +17,7 @@ Contents
     * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
 * [Visualization - Plotting](#visualization---plotting)
+    * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
 * [Programming Constructs](#programming-constructs)
 
 -------
