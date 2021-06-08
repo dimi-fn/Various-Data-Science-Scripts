@@ -160,9 +160,9 @@ Contents
 
 * if you know the number of elements you want in a vector beforehand -> use `linspace(first,la1,1st,number_of_elements).`
     * `x = linspace(0,10,5)` will give 0, 2.5, 5, 7.5, and 10 which gives a row vector 1x5
-    * use `transpose` to turn it into a column vector of 5x1: `x = x'` 
+    * use `transpose` to turn it into a column vector of 5x1: `x_transpose = x'` 
 
-* create a column vector using a single command by creating a row vector and then transposing it all on one line.
+* create a column vector using a single command by creating a row vector and then transpose it all on one line.
     * `x = (4:2:10)'` will give a column vector 4x1, with the elements: 4,6,8,10
 
 | Example          | Description    | 
@@ -254,6 +254,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 ## Logical Indexing
 
+
+* equal: `==` | not equal: `~=`
 * True / False in MATLAB is expressed in 1 and 0 respectively
 * and: `&`, or: `|`
     * e.g. x = v1(v1<8 & v1>4) will find values less than 8 and greater than 4
