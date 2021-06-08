@@ -19,6 +19,8 @@ Contents
 * [Visualization - Plotting](#visualization---plotting)
     * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
 * [Programming Constructs](#programming-constructs)
+    * [If - Loops](#if---loops)
+    * [find](#find)
 
 -------
 
@@ -44,6 +46,8 @@ Contents
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
+    * `clear workspace`
+    * `clear classes`
 
 * % This is a comment on Matlab code cell    
     * Matlab **markdown** https://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html
@@ -379,6 +383,8 @@ Any matrix can be visualized as an image
 
 # Programming Constructs
 
+## If - Loops
+
 In MATLAB:
 
 * if .. else .. elseif .. end (*In Python it would be if-elif-else with ":"*)
@@ -428,7 +434,7 @@ In MATLAB:
         legend(starnames)
 
 
-
+## find
 
 
 
