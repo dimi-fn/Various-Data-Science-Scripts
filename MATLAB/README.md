@@ -356,8 +356,8 @@ Any matrix can be visualized as an image
 * **imagesc** automatically scales the values to span the entire colormap
 
 
-                `imagesc(matrix)`
-                `colorbar`  % put colourbal
+        imagesc(matrix)
+        colorbar`  % put colourbal
 
 
 * let X,Y,Z be matrices
