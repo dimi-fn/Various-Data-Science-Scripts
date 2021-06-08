@@ -16,6 +16,7 @@ Contents
     * [Changing Values in Arrays](#changing-values-in-arrays)
     * [Logical Indexing](#logical-indexing)
 * [Function Calls](#function-calls)
+    * [Anonymous Functions](#anonymous-functions)
 * [Visualization - Plotting](#visualization---plotting)
     * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
 * [Programming Constructs](#programming-constructs)
@@ -289,6 +290,10 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 * Use `disp` to print messages while debugging functions as well as the given strings to command window
     * e.g.: `disp('starting the loop')`
+
+## Anonymous Functions
+
+`x = function( @(<input>) (<function to evaluate>), );`
 
 ------
 
