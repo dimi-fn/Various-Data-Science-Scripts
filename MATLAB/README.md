@@ -17,6 +17,7 @@ Contents
     * [Logical Indexing](#logical-indexing)
 * [Function](#functions)
     * [Anonymous Functions](#anonymous-functions)
+    * [Methods](#methods)
 * [Visualization - Plotting](#visualization---plotting)
     * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
 * [Programming Constructs](#programming-constructs)
@@ -294,6 +295,8 @@ The **1st index position** starts at `1` (not 0 as in Python)
 ## Anonymous Functions
 
 `x = function( @(<input>) (<function to evaluate>), );`
+
+## Methods
 
 ------
 
