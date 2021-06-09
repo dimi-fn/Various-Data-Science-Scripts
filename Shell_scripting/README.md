@@ -32,6 +32,7 @@
         * [Remote Connection](#remote-connection)
         * [Various](#various)
 * [Windows Terminal -Commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting#windows-terminal-commands)
+    * [Search Paths - Files](#search-paths--files)
     * [find](#find-windows)
 * [To Further Explore](#to-further-explore)
 
@@ -611,28 +612,15 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
     * `pushd <path>`
     * to delete mapped drives: first navigate to any other drive except the one to be deleted, then `net use /del <mappedDriveName>:`
 
-## $find (Windows)
-
-* `find /i "python" C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
-
-
+## Search Paths - Files
 
 * find the path of a file based on filename: `dir /s *foo*`, or based file extension: `dir /s *.txt`
     * /s lists every occurrence of the specified file name within the specified directory and all subdirectories.
         * `dir /b /s *foo*` to search under current directory tree
 
+## $find (Windows)
 
-
-
-
-
-
-
-
-
-
-
-
+* `find /i "python" C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
 
 -----
 
