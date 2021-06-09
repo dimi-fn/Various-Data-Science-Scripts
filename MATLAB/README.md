@@ -15,7 +15,7 @@ Contents
     * [Extracting Multiple Elements](#extracting-multiple-elements)
     * [Changing Values in Arrays](#changing-values-in-arrays)
     * [Logical Indexing](#logical-indexing)
-* [Function Calls](#function-calls)
+* [Function](#functions)
     * [Anonymous Functions](#anonymous-functions)
 * [Visualization - Plotting](#visualization---plotting)
     * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
@@ -272,7 +272,7 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 ------
 
-# Function Calls
+# Functions
 * `function[x,y,z] = funName(input1, input2)` 
 
 * matrix_size = size(data)
