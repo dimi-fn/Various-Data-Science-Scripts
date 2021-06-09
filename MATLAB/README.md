@@ -15,7 +15,7 @@ Contents
     * [Extracting Multiple Elements](#extracting-multiple-elements)
     * [Changing Values in Arrays](#changing-values-in-arrays)
     * [Logical Indexing](#logical-indexing)
-* [Function](#functions)
+* [Functions](#functions)
     * [Anonymous Functions](#anonymous-functions)
     * [Methods](#methods)
 * [Visualization - Plotting](#visualization---plotting)
