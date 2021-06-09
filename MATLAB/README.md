@@ -5,7 +5,7 @@ Contents
 
 * [MATLAB Documentation](#matlab-documentation--help)
 * [Commands](#commands)
-    * [Importing Data](#importing-data)
+    * [Import - Load Data](#import---load-data)
 * [Desktop & Editor](#desktop--editor)
     * [Scripts & Live Scripts](#scripts--live-scripts)
 * [Vectors & Matrices](#vectors--matrices)
@@ -23,6 +23,7 @@ Contents
 * [Programming Constructs](#programming-constructs)
     * [If - Loops](#if---loops)
     * [find](#find)
+    * [Data Structures](#data-structures)
 
 -------
 
@@ -40,8 +41,6 @@ Contents
     * `help surf` for more surface options
 * `help size` for **size**() options
 
-
-
 ------
 
 # Commands
@@ -57,17 +56,6 @@ Contents
 * % This is a comment on Matlab code cell    
     * Matlab **markdown** https://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html
     
-* `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
-    * load only one variable from a .mat file containing multiple variables: `load filename x`
-    * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
-    * use `data.VariableName` to extract a specific variable (feature / table value / column value) from a [table](https://www.mathworks.com/help/matlab/matlab_prog/access-data-in-a-table.html)
-
-*Note*: No need to initialize variables in MATLAB
-
-* **saving**: 
-    * `save filename.mat`
-    * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
-
 * `which pathdef`: search path
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
@@ -92,7 +80,7 @@ Contents
 
 * Use parentheses to pass inputs to functions, e.g.: y = sin(x)
 
-## Importing Data
+## Import - Load Data
 
 * You can import .mat, .jpg, .txt, and .csv files by the "import data" tool
     * csv files can be stored in various ways. Missing data will be displayed with orange colour
@@ -104,6 +92,37 @@ Contents
 
 * you can **extract rows** by array indexing
     * e.g. to extract the first 4 rows and assign that to a variable: `x= tableName(1:4, :)` -->x will also be a table
+
+* `load <filename.mat>` to load again the variables of the file, then type <filename> to print the matrix
+    * load only one variable from a .mat file containing multiple variables: `load filename x`
+    * use command `usage` under `load <filename.mat>` to see the matrix after loading the file
+    * use `data.VariableName` to extract a specific variable (feature / table value / column value) from a [table](https://www.mathworks.com/help/matlab/matlab_prog/access-data-in-a-table.html)
+
+*Note*: No need to initialize variables in MATLAB
+
+* **saving**: 
+    * `save filename.mat`
+    * `.m` files are like .py files in Python, whereas .mlx files (live scripts that contain the code, the output, and the formatted text together in the Live Editor) are like .ipynb files
+
+* use **importdata** to import data from files on hard drive
+    * `x = importdata('textFile.txt);`
+        * x will be a struct with
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -------
 
