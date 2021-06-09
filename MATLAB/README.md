@@ -53,8 +53,17 @@ Contents
 * Use `disp` to print messages while debugging functions as well as the given strings to command window
     * e.g.: `disp('starting the loop')`
 
+* Comments
 * % This is a comment on Matlab code cell    
     * Matlab **markdown** https://www.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html
+
+
+
+            %{
+            This is
+            a multiline comment
+            %}
+
     
 * `which pathdef`: search path
 
