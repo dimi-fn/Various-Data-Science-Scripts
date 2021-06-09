@@ -615,6 +615,25 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * `find /i "python" C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
 
+
+
+* find the path of a file based on filename: `dir /s *foo*`, or based file extension: `dir /s *.txt`
+    * /s lists every occurrence of the specified file name within the specified directory and all subdirectories.
+        * `dir /b /s *foo*` to search under current directory tree
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----
 
 # To Further Explore
