@@ -298,6 +298,11 @@ The **1st index position** starts at `1` (not 0 as in Python)
 
 ## Methods
 
+* Write functions in their own **files**
+    * e.g. myFunction should be in a file by itself, and the file should be called myFunction.m
+    * if there is more than one function per file, then only the 1st function will be accessible in other scripts
+    * [Mathworks: Create Functions in Files](https://www.mathworks.com/help/matlab/matlab_prog/create-functions-in-files.html)
+
 ------
 
 # Visualization - Plotting
@@ -355,6 +360,9 @@ The **1st index position** starts at `1` (not 0 as in Python)
     * `.bmp` uncompressed image
     * `.eps` high-quality scaleable format
     * `.pdf` compressed image
+
+
+* `help imread` for image supports
 
 <br>
 
@@ -455,6 +463,39 @@ In MATLAB:
 
         x = rand (1, 150);
         indices = find(x>0.2 & x<0.6);
+
+## Data Structures
+
+[Advanced Methods, MIT online](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-057-introduction-to-matlab-january-iap-2019/lecture-notes/MIT6_057IAP19_lec4.pdf)
+
+
+* `2D matrices`
+    * also n-dimensions (e.g. images)
+    * every element must be of the same type (int, doubles, characters etc)
+    * matrices with many zeros => sparse matrices
+
+* `Cell array`   
+    * like an array, but elements are allowed to have different type
+
+* `Structs` (structure arrays)
+    * grouping variable names and values into one structure (OOP in Matlab)
+        *  data type that groups related data using data containers called **fields**. Fields can be matrix, cell, and even other structs
+        * `help struct`
+    * they behave like dictionaries in Python
+
+            % create a struct
+            myStruct = struct('Name', {'Mary', 'Leo', 'John'}, ...
+                "Age", {27,35, 40})
+                
+            % view the 1st row
+            myStruct(1)
+
+            % view specific column value of that row
+            myStruct(1).Age 
+
+            % view column values of "Name"
+            myStruct.Name    
+
 
 
 
