@@ -54,7 +54,6 @@ Contents
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
-    * `clear workspace`
     * `clear classes`
 
 * Use [disp](https://www.mathworks.com/help/matlab/ref/disp.html)(X) to print messages while debugging functions as well as the given strings to command window
@@ -522,7 +521,9 @@ In MATLAB:
 
 ## MATLAB App Designer
 
-[Create desktop and web apps in MATLAB with GUI](https://www.mathworks.com/products/matlab/app-designer.html)
+* [Create desktop and web apps in MATLAB with GUI](https://www.mathworks.com/products/matlab/app-designer.html)
+
+* fileName.mlapp
 
 ------
 
