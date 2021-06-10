@@ -91,6 +91,8 @@ Contents
 
 ## Import - Load Data
 
+* [How to Import Data from Text Files Interactively in MATLAB ](https://www.youtube.com/watch?v=akV43a5hNfM&ab_channel=MATLAB)
+
 * You can import .mat, .jpg, .txt, and .csv files by the "import data" tool
     * csv files can be stored in various ways. Missing data will be displayed with orange colour
 
