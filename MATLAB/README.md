@@ -517,18 +517,9 @@ In MATLAB:
 
 ## Regular Expressions
 
-myStr = "this is a text to be searched";
-pat= '([\w-.])+@([\w-.])+‘;
+* [Regular Expressions - Mathworks](https://www.mathworks.com/help/matlab/matlab_prog/regular-expressions.html)
 
-
-
-
-
-
-
-
-
--------
+------
 
 ## Sources
 
