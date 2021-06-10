@@ -4,7 +4,7 @@ Contents
 =======================
 
 * [MATLAB Documentation](#matlab-documentation--help)
-* [Commands - Syntax](#commands---syntax)
+* [Commands - Syntax](#commands---basic-syntax)
     * [Import - Load Data](#import---load-data)
 * [Desktop & Editor](#desktop--editor)
     * [Scripts & Live Scripts](#scripts--live-scripts)
@@ -47,9 +47,9 @@ Contents
 
 ------
 
-# Commands - Syntax
+# Commands - Basic Syntax
 
-Semicolon (;) indicates end of statement. However, if you want to suppress and hide the MATLAB output for an expression, add a semicolon after the expression.
+[Semicolon (;) indicates end of statement. However, if you want to suppress and hide the MATLAB output for an expression, add a semicolon after the expression](https://www.tutorialspoint.com/matlab/matlab_syntax.htm).
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
@@ -75,8 +75,6 @@ Semicolon (;) indicates end of statement. However, if you want to suppress and h
 * `which pathdef`: search path
 
 * MATLAB variables are case sensitive. They should start with a letter and contain only letters, numbers, and underscores
-
-* If you add a semicolon `;` to the end of a command, the result will not be displayed, however, the result of that command will be displayed in the Workspace window as usual.
 
 * MATLAB does not rerun previous commands in the Command Window (you need to repeat the command for any variable changes)
 
