@@ -4,7 +4,7 @@ Contents
 =======================
 
 * [MATLAB Documentation](#matlab-documentation--help)
-* [Commands - Syntax](#commands---basic-syntax)
+* [Commands - Basic Syntax](#commands---basic-syntax)
     * [Import - Load Data](#import---load-data)
 * [Desktop & Editor](#desktop--editor)
     * [Scripts & Live Scripts](#scripts--live-scripts)
