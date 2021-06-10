@@ -4,7 +4,7 @@ Contents
 =======================
 
 * [MATLAB Documentation](#matlab-documentation--help)
-* [Commands](#commands)
+* [Commands - Syntax](#commands---syntax)
     * [Import - Load Data](#import---load-data)
 * [Desktop & Editor](#desktop--editor)
     * [Scripts & Live Scripts](#scripts--live-scripts)
@@ -21,9 +21,11 @@ Contents
 * [Visualization - Plotting](#visualization---plotting)
     * [3D - Surfaces - Matrices](#3d---surfaces---matrices)
 * [Programming Constructs](#programming-constructs)
+    * [Data Structures](#data-structures)
     * [If - Loops](#if---loops)
     * [find](#find)
-    * [Data Structures](#data-structures)
+    * [Regular Expressions](#regular-expressions)
+    
 
 -------
 
@@ -45,7 +47,9 @@ Contents
 
 ------
 
-# Commands
+# Commands - Syntax
+
+Semicolon (;) indicates end of statement. However, if you want to suppress and hide the MATLAB output for an expression, add a semicolon after the expression.
 
 * Use the Up arrow to see previous commands
     * `clear` to empty workspace / `clc` to empty the Command Window
@@ -54,6 +58,7 @@ Contents
 
 * Use [disp](https://www.mathworks.com/help/matlab/ref/disp.html)(X) to print messages while debugging functions as well as the given strings to command window
     * e.g.: `disp('starting the loop')`
+    * A = [10 100]; => then disp(A) will print out 10 100 without showing the "A" variable
 
 * Comments
 * % This is a comment on Matlab code cell    
@@ -423,6 +428,38 @@ Any matrix can be visualized as an image
 
 # Programming Constructs
 
+## Data Structures
+
+[Advanced Methods, MIT online](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-057-introduction-to-matlab-january-iap-2019/lecture-notes/MIT6_057IAP19_lec4.pdf)
+
+
+* `2D matrices`
+    * also n-dimensions (e.g. images)
+    * every element must be of the same type (int, doubles, characters etc)
+    * matrices with many zeros => sparse matrices
+
+* `Cell array`   
+    * like an array, but elements are allowed to have different type (suitable when you have mixed data)
+
+* `Structs` (structure arrays)
+    * grouping variable names and values into one structure (OOP in Matlab)
+        *  data type that groups related data using data containers called **fields**. Fields can be matrix, cell, and even other structs
+        * `help struct`
+    * they behave like dictionaries in Python
+
+            % create a struct
+            myStruct = struct('Name', {'Mary', 'Leo', 'John'}, ...
+                "Age", {27,35, 40})
+                
+            % view the 1st row
+            myStruct(1)
+
+            % view specific column value of that row
+            myStruct(1).Age 
+
+            % view column values of "Name"
+            myStruct.Name    
+
 ## If - Loops
 
 In MATLAB:
@@ -480,40 +517,10 @@ In MATLAB:
         x = rand (1, 150);
         indices = find(x>0.2 & x<0.6);
 
-## Data Structures
+## Regular Expressions
 
-[Advanced Methods, MIT online](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-057-introduction-to-matlab-january-iap-2019/lecture-notes/MIT6_057IAP19_lec4.pdf)
-
-
-* `2D matrices`
-    * also n-dimensions (e.g. images)
-    * every element must be of the same type (int, doubles, characters etc)
-    * matrices with many zeros => sparse matrices
-
-* `Cell array`   
-    * like an array, but elements are allowed to have different type (suitable when you have mixed data)
-
-* `Structs` (structure arrays)
-    * grouping variable names and values into one structure (OOP in Matlab)
-        *  data type that groups related data using data containers called **fields**. Fields can be matrix, cell, and even other structs
-        * `help struct`
-    * they behave like dictionaries in Python
-
-            % create a struct
-            myStruct = struct('Name', {'Mary', 'Leo', 'John'}, ...
-                "Age", {27,35, 40})
-                
-            % view the 1st row
-            myStruct(1)
-
-            % view specific column value of that row
-            myStruct(1).Age 
-
-            % view column values of "Name"
-            myStruct.Name    
-
-
-
+myStr = "this is a text to be searched";
+pat= '([\w-.])+@([\w-.])+‘;
 
 
 
