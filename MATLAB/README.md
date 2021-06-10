@@ -52,7 +52,7 @@ Contents
     * `clear workspace`
     * `clear classes`
 
-* Use `disp` to print messages while debugging functions as well as the given strings to command window
+* Use [disp](https://www.mathworks.com/help/matlab/ref/disp.html)(X) to print messages while debugging functions as well as the given strings to command window
     * e.g.: `disp('starting the loop')`
 
 * Comments
