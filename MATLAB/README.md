@@ -29,7 +29,9 @@ Contents
 
 # MATLAB Documentation / Help 
 
-* Either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
+* [Official Documentation](https://www.mathworks.com/help/matlab/)
+
+* Navigate to documentation via editor: either by the "?" button or in the command line type `doc <something to search>`, e.g. [doc](https://www.mathworks.com/help/matlab/ref/doc.html) randi
 
 * `help`, `help sin`, `doc sin`
     * search for a function with specific keywords`docsearch sin trigonometric` 
@@ -117,23 +119,7 @@ Contents
 
 * use **importdata** to import data from files on hard drive
     * `x = importdata('textFile.txt);`
-        * x will be a struct with
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        * x will be of type struct 
 
 -------
 
@@ -505,7 +491,7 @@ In MATLAB:
     * matrices with many zeros => sparse matrices
 
 * `Cell array`   
-    * like an array, but elements are allowed to have different type
+    * like an array, but elements are allowed to have different type (suitable when you have mixed data)
 
 * `Structs` (structure arrays)
     * grouping variable names and values into one structure (OOP in Matlab)
