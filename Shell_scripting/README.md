@@ -642,8 +642,11 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 ## Linux
 
+* [How to Encrypt and Decrypt Files With GPG on Linux](https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/)
+
 ## Windows
 
+* [Gpg4win](https://www.gpg4win.org/get-gpg4win.html)
 
 
 
