@@ -591,10 +591,10 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * clear terminal: `cls`
 
-* create folder/directory : `mkdir "directory name"`
-
-* create file: be at the path you want to create it, otherwise specify the path `type nul > filename.txt`
-    * write some text to the .txt file: `echo enter your text here > filename.txt`
+* create
+    * folder/directory : `mkdir "directory name"`
+    * file: be at the path you want to create it, otherwise specify the path `type nul > filename.txt`
+        * write some text to the .txt file: `echo enter your text here > filename.txt`
 
 * copy file to another path: `copy <fileName>` <to_pathDirectory>`
 
