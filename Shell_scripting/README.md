@@ -647,6 +647,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 ## Windows
 
 * [Gpg4win](https://www.gpg4win.org/get-gpg4win.html)
+    * [Install](https://gpg4win.de/doc/en/gpg4win-compendium_11.html)
 
 
 
