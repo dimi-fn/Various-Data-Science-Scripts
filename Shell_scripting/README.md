@@ -35,6 +35,9 @@
     * [Search Paths - Files](#search-paths---files)
     * [find](#find-windows)
 * [To Further Explore](#to-further-explore)
+* [Encryption](#encryption)
+    * [Linux](#linux)
+    * [Windows](#windows)
 
 ----
 
@@ -622,7 +625,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * `find /i "python" C:\Users\*.txt` will search for all txt files containing the string "python" which are located in the Users directories and subdirectories
 
------
+-------
 
 # To Further Explore
 
@@ -631,6 +634,37 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 * [Bash Reference Manual](https://tiswww.case.edu/php/chet/bash/bashref.html)
 
 * [learnshell.org](https://www.learnshell.org/)
+
+-------
+
+# Encryption
+
+
+## Linux
+
+## Windows
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 --------
 
