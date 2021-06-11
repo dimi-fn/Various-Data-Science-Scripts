@@ -26,6 +26,7 @@ Contents
     * [find](#find)
     * [Regular Expressions](#regular-expressions)
     * [MATLAB App Designer](#matlab-app-designer)
+* [Miscellaneous](#miscellaneous)
     
 
 -------
@@ -524,6 +525,14 @@ In MATLAB:
 * [Create desktop and web apps in MATLAB with GUI](https://www.mathworks.com/products/matlab/app-designer.html)
 
 * fileName.mlapp
+
+
+# Miscellaneous
+
+* Computer Vision
+    * [Computer Vision Toolbox](https://www.mathworks.com/help/vision/index.html)
+    * [OpenCV & MATLAB](https://www.mathworks.com/discovery/matlab-opencv.html)
+    * Object Detection: [Cascade Object Detector](https://www.mathworks.com/help/vision/ug/train-a-cascade-object-detector.html), [trainCascadeObjectDetector](https://www.mathworks.com/help/vision/ref/traincascadeobjectdetector.html)
 
 ------
 
