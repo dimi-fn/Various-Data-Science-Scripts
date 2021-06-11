@@ -529,10 +529,22 @@ In MATLAB:
 
 # Miscellaneous
 
+
+* [Statistics and Machine Learning Toolbox](https://www.mathworks.com/help/stats/index.html)
+
 * Computer Vision
     * [Computer Vision Toolbox](https://www.mathworks.com/help/vision/index.html)
     * [OpenCV & MATLAB](https://www.mathworks.com/discovery/matlab-opencv.html)
     * Object Detection: [Cascade Object Detector](https://www.mathworks.com/help/vision/ug/train-a-cascade-object-detector.html), [trainCascadeObjectDetector](https://www.mathworks.com/help/vision/ref/traincascadeobjectdetector.html)
+
+
+* Hardware Interface 
+    * **Low-level**:
+        * Interaction with lab equipment and micro-controllers (ideal for Digital Signal Processing (DSP) and not real-time systems due to communication overhead)
+        * link with the [serial port](https://www.mathworks.com/help/instrument/create-serial-port-object.html): `s= serial('com3)`
+        * `help serial`
+        * Communication Protocol - General Purpose Interface Bus (GPIB)
+    * **High-level**: [Connect MATLAB and Simulink to Hardware](https://www.mathworks.com/hardware-support/home.html)
 
 ------
 
