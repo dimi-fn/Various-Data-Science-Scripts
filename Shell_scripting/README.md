@@ -639,11 +639,11 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 # Encryption
 
-* Public Key Infrastructure
+* Public Key Infrastructure (PKI)
 
 * You create a **public** and a **private** key pair
-    * `public` key can be given to others so that data can be *encrypted* by them
-    * `private` key is used so that you can *decrypt* that data
+    * `public` key can be given to others so that data can be *encrypted* by them (can be accessible)
+    * `private` key is used so that you can *decrypt* that data (must be secret)
 
 ## Linux
 
@@ -653,6 +653,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * [Gpg4win](https://www.gpg4win.org/), [download](https://www.gpg4win.org/get-gpg4win.html)
     * [Install](https://gpg4win.de/doc/en/gpg4win-compendium_11.html)
+    * [Gpg4win Compendium](https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf)
 
 
 --------
