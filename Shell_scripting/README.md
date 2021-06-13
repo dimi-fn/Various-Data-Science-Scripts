@@ -640,14 +640,16 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 # Encryption
 
 * Public Key Infrastructure (PKI)
-
-* You create a **public** and a **private** key pair
-    * `public` key can be given to others so that data can be *encrypted* by them (can be accessible)
+* Asymmetric cryptography: you create a **public** and a **private** key pair (2 keys)
+    * `public` key can be given to others so that data can be *encrypted* by them (it is meant to be accessible)
     * `private` key is used so that you can *decrypt* that data (must be secret key)
+
+* PGP (Pretty Good Privacy) Encryption 
 
 ## Linux
 
 * GnuPG: [How to Encrypt and Decrypt Files With GPG on Linux](https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/)
+* GPA GNU privacy assistant -> graphical user interface that allows you to manage the public & private key pais
 
 ## Windows
 
