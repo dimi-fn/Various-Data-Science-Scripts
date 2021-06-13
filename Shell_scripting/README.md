@@ -696,7 +696,6 @@ Encryption Process:
     * by default you have the PGP message already copied from previous step    
     * navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair passphrase: now if you paste somewhere you will see the encrypted message/content (note: if the PGP message is not copied from previous step, then the "decrypt" icon will remain grayed out and cannot be selected)         
 
-
 --------
 
 ### Sources
