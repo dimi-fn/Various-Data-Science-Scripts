@@ -660,30 +660,15 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * `sudo gpa` to launch the GPA UI
 
+* GPA UI
+    * select "export keys" by right clicking, so that the PGP file containing the public key can be created (.asc file)
+    * select back up for back up
 
+* to encrypt someone else's file: GPA UI > keys > import keys > select the pgp file
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* to encrypt your data: GPA UI > windows > clipboard
+    * type your message to be encrypted > file > encrypt > select the public key (sign it if you want to) with regard to the key pair created earlier
+    * to decrypt it: file > decrypt
 
 ## Windows
 
