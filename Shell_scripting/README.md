@@ -639,6 +639,11 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 # Encryption
 
+* Public Key Infrastructure
+
+* You create a **public and a **private** key pair
+    * `public` key can be given to others so that data can be *encrypted* by them
+    * `private` key is used so that you can *decrypt* that data
 
 ## Linux
 
