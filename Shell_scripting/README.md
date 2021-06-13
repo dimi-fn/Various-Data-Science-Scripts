@@ -649,7 +649,41 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 ## Linux
 
 * GnuPG: [How to Encrypt and Decrypt Files With GPG on Linux](https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/)
-* GPA GNU privacy assistant -> graphical user interface that allows you to manage the public & private key pais
+* GPA GNU privacy assistant -> graphical user interface that allows you to manage the public & private key pairs
+
+        sudo apt-get install gnupg2 gpa
+
+
+* generate key:
+    * `gpg --full-generate-key` > select 1 (default for RSA and RSA) > type the maximum bits long for the RSA keysize > create passphrase
+        * if problems occur with regard to the graphical UI: `sudo apt install libcanberra-gtk-module libcanberra-gtk3-module`
+
+* `sudo gpa` to launch the GPA UI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Windows
 
@@ -662,9 +696,9 @@ Encryption Process:
 * Create a key pair:
     * kleopatra app/file/new key pair/create a personal OpenPGP key pair
         * advanced settings: select the maximum RSA value
-        * use a paraphrase
+        * use a passphrase
             * in the kleopatra app interface in the "certificates" section: right click> export key -> this will create a .asc file containing the public key (`"BEGIN PGP PUBLIC KEY BLOCK ... END PGP PUBLIC KEY BLOCK`")
-            * right click>export private key 
+            * right click>export private key (so you can keep a back up)
 
 * now you can start encypting data, but first you have to import the cerfificate based on the above key pair created:
     * kleopatra app interface/import certificate/select the .asc file containing the public key created above
@@ -673,7 +707,7 @@ Encryption Process:
 
 * to decrypt that data:  
     * by default you have the PGP message already copied from previous step    
-    * navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair paraphrase: now if you paste somewhere you will see the encrypted message/content (note: if the PGP message is not copied from previous step, then the "decrypt" icon will remain grayed out and cannot be selected)         
+    * navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair passphrase: now if you paste somewhere you will see the encrypted message/content (note: if the PGP message is not copied from previous step, then the "decrypt" icon will remain grayed out and cannot be selected)         
 
 
 --------
