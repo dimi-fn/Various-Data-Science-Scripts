@@ -670,6 +670,8 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
     * type your message to be encrypted > file > encrypt > select the public key (sign it if you want to) with regard to the key pair created earlier
     * to decrypt it: file > decrypt
 
+*Note*: if gpa does not launch when sudo gpa via terminal, then launch it manually via the applications menu > gpa
+
 ## Windows
 
 * [Gpg4win](https://www.gpg4win.org/), [download](https://www.gpg4win.org/get-gpg4win.html)
