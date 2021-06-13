@@ -657,6 +657,13 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
     * [Install](https://gpg4win.de/doc/en/gpg4win-compendium_11.html)
     * [Gpg4win Compendium](https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf)
 
+* Create a key pair:
+    * kleopatra app/file/new key pair/create a personal OpenPGP key pair
+        * advanced settings: select the maximum RSA value
+        * use a paraphrase
+            * in the kleopatra app: right click>export key -> this will create a .asc file containing the public key
+            * >export private key 
+
 
 --------
 
