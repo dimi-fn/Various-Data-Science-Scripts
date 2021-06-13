@@ -663,16 +663,17 @@ Encryption Process:
     * kleopatra app/file/new key pair/create a personal OpenPGP key pair
         * advanced settings: select the maximum RSA value
         * use a paraphrase
-            * in the kleopatra app: right click>export key -> this will create a .asc file containing the public key ("BEGIN PGP PUBLIC KEY BLOCK ... END PGP PUBLIC KEY BLOCK")
+            * in the kleopatra app interface in the "certificates" section: right click> export key -> this will create a .asc file containing the public key (`"BEGIN PGP PUBLIC KEY BLOCK ... END PGP PUBLIC KEY BLOCK`")
             * right click>export private key 
 
 * now you can start encypting data, but first you have to import the cerfificate based on the above key pair created:
-    * kleopatra/import certificate/select the .asc file containing the public key created above
+    * kleopatra app interface/import certificate/select the .asc file containing the public key created above
         * now you can begin encrypting data. E.g., create a txt, copy the content, go to kleopatra app icon > clipboard> right click > encrypt > add recipient (select the one respecting the relative key pair)
-            * now if you paste in another txt file you will see the message of type "BEGIN PGP MESSAGE ... BEGIN PGP MESSAGE"
+            * now if you paste in another txt file you will see the message of type "`BEGIN PGP MESSAGE ... BEGIN PGP MESSAGE`"
 
 * to decrypt that data:  
-    navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair paraphrase: now if you paste somewhere you will see the enctypted message/content          
+    * by default you have the PGP message already copied from previous step    
+    * navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair paraphrase: now if you paste somewhere you will see the encrypted message/content (if the PGP message is not copied from previous step, then the "decrypt" icon will remain grayed out and cannot be selected)         
 
 
 --------
