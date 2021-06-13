@@ -648,7 +648,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 ## Linux
 
-* GnuPG: [How to Encrypt and Decrypt Files With GPG on Linux](https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/)
+* GnuPG: [How to Encrypt and Decrypt Files With GPG on Linux](https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/), [The Complete PGP Encryption Tutorial | Gpg4win & GnuPG](https://www.youtube.com/watch?v=CEADq-B8KtI&ab_channel=HackerSploit)
 * GPA GNU privacy assistant -> graphical user interface that allows you to manage the public & private key pairs
 
         sudo apt-get install gnupg2 gpa
