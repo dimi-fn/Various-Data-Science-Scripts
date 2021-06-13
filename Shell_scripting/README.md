@@ -657,12 +657,22 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
     * [Install](https://gpg4win.de/doc/en/gpg4win-compendium_11.html)
     * [Gpg4win Compendium](https://files.gpg4win.org/doc/gpg4win-compendium-en.pdf)
 
+Encryption Process:
+
 * Create a key pair:
     * kleopatra app/file/new key pair/create a personal OpenPGP key pair
         * advanced settings: select the maximum RSA value
         * use a paraphrase
-            * in the kleopatra app: right click>export key -> this will create a .asc file containing the public key
-            * >export private key 
+            * in the kleopatra app: right click>export key -> this will create a .asc file containing the public key ("BEGIN PGP PUBLIC KEY BLOCK ... END PGP PUBLIC KEY BLOCK")
+            * right click>export private key 
+
+* now you can start encypting data, but first you have to import the cerfificate based on the above key pair created:
+    * kleopatra/import certificate/select the .asc file containing the public key created above
+        * now you can begin encrypting data. E.g., create a txt, copy the content, go to kleopatra app icon > clipboard> right click > encrypt > add recipient (select the one respecting the relative key pair)
+            * now if you paste in another txt file you will see the message of type "BEGIN PGP MESSAGE ... BEGIN PGP MESSAGE"
+
+* to decrypt that data:  
+    navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair paraphrase: now if you paste somewhere you will see the enctypted message/content          
 
 
 --------
