@@ -10,6 +10,7 @@ Contents
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
         * [Apps](#apps)
+    * [Data Modelling & Visualizations]()
     * [Miscellaneous](#miscellaneous)
 * [Sources](#sources)
 
@@ -53,6 +54,14 @@ There are two types:
 * Collection of dashboards and reports to deliver *key metrics* to PowerBI consumers
 
 * Although apps are interactive, consumers (and colleagues who have access to those) cannot edit them. However they do not need Pro licenses to access the apps.
+
+-----
+
+## Data Modelling & Visualizations
+
+
+
+
 
 
 -----
