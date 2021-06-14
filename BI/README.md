@@ -11,6 +11,7 @@ Contents
         * [Workspaces](#workspaces)
         * [Apps](#apps)
     * [Miscellaneous](#miscellaneous)
+* [Sources](#sources)
 
 ----
 
@@ -61,6 +62,7 @@ There are two types:
 * [Create a template app in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)
 
 
+------
 
 
 
@@ -88,6 +90,6 @@ There are two types:
 
 
 
-## Sources
+# Sources
 
 https://powerbi.microsoft.com/en-us/learning/
