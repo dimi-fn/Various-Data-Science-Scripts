@@ -36,7 +36,7 @@ Those are organized into **workspaces** and they are created on **capacities**
 
 `Capacities`: set of resources used to host and deliver the PowerBI content. They are either *shared* or *dedicated*
 * **Dedicated**: capacity is fully committed to a single customer. It requires a <i>subscription</i>
-* **Shared**: shared with other customers. This is the <i>default</i> type of capacity.
+* **Shared**: shared with other customers. By <i>default</i>, workspaces are created under this a shared capacity.
 
 
 
