@@ -91,6 +91,13 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 
 ------
 
+[BI]()
+
+* Business Intelligence: Microsoft PowerBI
+
+
+------
+
 * [SEO](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO)
 
 Search Engine Optimization (SEO) & Information Retrieval (IR)
