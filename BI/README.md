@@ -26,11 +26,11 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 ## Elements/Parts of Power BI
 
-1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly)
+1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly). Mostly useful for modeling and creating PowerBI reports.
     * It also includes a *Query Editor* which helps you transform data for visualizations
         * how to launch it: via PowerBI Desktop > Transform Data, or navigator window > Power Query Editor
         * [Using Power Query in Power BI Desktop](https://docs.microsoft.com/en-us/power-query/power-query-ui)
-2) Power BI `service`: online SaaS (Software as a Service)
+2) Power BI `service`: online SaaS (Software as a Service), i.e. the cloud-based service. Mostly useful for sharing and collaboration
 3) `Mobile apps`: available on phones and tablets
 
 ## Concepts
@@ -99,7 +99,7 @@ PowerBI Desktop > Report view:
 
 ### Filtering
 
-* Filtering only applies to reports, not to dashboards.
+* Filtering only applies to reports, not to dashboards
 
 * Filter pane contains filters that are added by the report designer
 
@@ -108,6 +108,30 @@ PowerBI Desktop > Report view:
     * *page*: applies to current page
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -----
 
@@ -118,32 +142,8 @@ PowerBI Desktop > Report view:
 * [AppSource](https://appsource.microsoft.com/en/marketplace/apps?product=power-bi-visuals)
 ------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Sources
 
-https://powerbi.microsoft.com/en-us/learning/
+[1] https://powerbi.microsoft.com/en-us/learning/
+
+[2] https://spreadsheeto.com/power-bi-desktop-vs-online/
