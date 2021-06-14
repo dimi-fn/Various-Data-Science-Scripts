@@ -5,7 +5,7 @@ Contents
 =======================
 
 * [Microsoft Power BI](#microsoft-power-bi)
-* [Elements/Parts of Power BI](#elements-of-power-bi)
+* [Elements/Parts of Power BI](##elementsparts-of-power-bi)
 * []()
 
 ----
