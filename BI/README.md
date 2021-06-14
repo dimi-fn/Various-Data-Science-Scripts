@@ -20,6 +20,8 @@ Contents
 
 # Microsoft Power BI
 
+Power BI is designed for self-service business intelligence and it is built on Azure Microsoft's cloud computing infrastructure and platform.
+
 ----- 
 
 ## Elements/Parts of Power BI
@@ -27,6 +29,7 @@ Contents
 1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly)
     * It also includes a *Query Editor* which helps you transform data for visualizations
         * how to launch it: via PowerBI Desktop > Transform Data, or navigator window > Power Query Editor
+        * [Using Power Query in Power BI Desktop](https://docs.microsoft.com/en-us/power-query/power-query-ui)
 2) Power BI `service`: online SaaS (Software as a Service)
 3) `Mobile apps`: available on phones and tablets
 
