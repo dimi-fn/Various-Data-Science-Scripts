@@ -25,6 +25,8 @@ Contents
 ## Elements/Parts of Power BI
 
 1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly)
+    * It also includes a *Query Editor* which helps you transform data for visualizations
+        * how to launch it: via PowerBI Desktop > Transform Data, or navigator window > Power Query Editor
 2) Power BI `service`: online SaaS (Software as a Service)
 3) `Mobile apps`: available on phones and tablets
 
@@ -94,7 +96,15 @@ PowerBI Desktop > Report view:
 
 ### Filtering
 
-Filtering only applies to reports, not to dashboards.
+* Filtering only applies to reports, not to dashboards.
+
+* Filter pane contains filters that are added by the report designer
+
+* Filter types:
+    * *report*: applies to all report
+    * *page*: applies to current page
+    * *visual*: applies to a single visual of the report page
+    * *drillthrough*: allows a more detailed exploration of a single visual
 
 -----
 
