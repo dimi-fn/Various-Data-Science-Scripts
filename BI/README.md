@@ -10,7 +10,7 @@ Contents
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
         * [Apps](#apps)
-    * [Data Modelling & Visualizations]()
+    * [Data Modelling & Visualizations](#data-modelling--visualizations)
     * [Miscellaneous](#miscellaneous)
 * [Sources](#sources)
 
