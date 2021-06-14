@@ -11,6 +11,8 @@ Contents
         * [Workspaces](#workspaces)
         * [Apps](#apps)
     * [Data Modelling & Visualizations](#data-modelling--visualizations)
+        * [Types of visualizations](#types-of-visualizations)
+        * [Filtering](#filtering)
     * [Miscellaneous](#miscellaneous)
 * [Sources](#sources)
 
@@ -59,10 +61,40 @@ There are two types:
 
 ## Data Modelling & Visualizations
 
+PowerBI Desktop > Report view:
 
+1) **Ribbon**: tasks with respect to reports and visualizations
 
+2) **Report view - Canvas**: visualizations
+* *Data view*: view data of report, check data types and validate data
+* *Model view*: set the relationship between tables or elements in order to run queries for related data across multiple tables
 
+3) **Pages tab**: bottom of the page. Select or add a report page
 
+4) **Visualizations pane**: Interact with visualizations, customize colours or axes, apply filters, drag fields, and etc.
+
+5) **Fields pane**: Query elements and filters can be dragged onto the Report view or dragged to the Filters area of the Visualizations pane
+
+<br>
+
+### Types of visualizations
+
+* Area charts
+* Bar and column charts
+* Pie charts
+    * donut charts
+    * gauge charts
+* KPIs
+* Line charts
+* Maps
+* Q&A visual
+* Tables
+* Treemaps
+* Waterfall charts
+
+### Filtering
+
+Filtering only applies to reports, not to dashboards.
 
 -----
 
@@ -70,7 +102,7 @@ There are two types:
 
 * [Create a template app in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)
 
-
+* [AppSource](https://appsource.microsoft.com/en/marketplace/apps?product=power-bi-visuals)
 ------
 
 
