@@ -1,6 +1,20 @@
 # BI - Business Intelligence
 
-## Microsoft Power BI
+----
+
+# Microsoft Power BI
+
+## Parts of Power BI
+
+
+
+
+
+
+
+
+
+
 
 
 
