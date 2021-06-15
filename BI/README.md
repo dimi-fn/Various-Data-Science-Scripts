@@ -5,6 +5,7 @@ Contents
 =======================
 
 * [Microsoft Power BI](#microsoft-power-bi)
+    * [Documentation & Courses](#documentation--courses)
     * [Elements/Parts of Power BI](##elementsparts-of-power-bi)
     * [Concepts](#concepts)
         * [Capacities](#capacities)
@@ -22,7 +23,13 @@ Contents
 
 Power BI is designed for self-service business intelligence, it is built on Azure Microsoft's cloud computing infrastructure and platform, and it can be used for powerful analysis and visualization.
 
+------
+
+## Documentation & Courses
+
 * [PowerBI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+
+* [MS courses](https://docs.microsoft.com/en-us/learn/browse/)
 
 ----- 
 
