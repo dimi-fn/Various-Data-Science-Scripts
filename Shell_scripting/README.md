@@ -684,6 +684,7 @@ Encryption Process:
     * kleopatra app/file/new key pair/create a personal OpenPGP key pair
         * advanced settings: select the maximum RSA value
         * use a passphrase
+        * while the key is created, you can move randomly your mouse and/or write something using your keyboard for greater entropy 
             * in the kleopatra app interface in the "certificates" section: right click> export key -> this will create a .asc file containing the public key (`"BEGIN PGP PUBLIC KEY BLOCK ... END PGP PUBLIC KEY BLOCK`")
             * right click>export private key (so you can keep a back up)
 
@@ -695,6 +696,20 @@ Encryption Process:
 * to decrypt that data:  
     * by default you have the PGP message already copied from previous step    
     * navigate again to kleopatra icon > right click > clipboard > decrypt > fill out the key pair passphrase: now if you paste somewhere you will see the encrypted message/content (note: if the PGP message is not copied from previous step, then the "decrypt" icon will remain grayed out and cannot be selected)         
+
+
+**Encrypt files**:
+
+[Encrypted files in Windows with GPG and Kleopatra](https://www.youtube.com/watch?v=QmE4LrBSChQ)
+
+* create a key pair as shown above (kleopatra > file > new key pair)
+
+* click "Signin/Encrypt" via kleopatra > choose the file to be encrypted > click "encrypt for me" and leave the rest unclicked > encrypt
+    * a .gpg file has now been created. Double-click  and use passphrase to unlock
+
+<b>
+
+[Back up - Transfer your Keys](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys)
 
 --------
 
