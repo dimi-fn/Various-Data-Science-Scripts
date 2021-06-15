@@ -36,12 +36,14 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 ## Usage - Applications
 
+Showcases:
+
 * create/view reports and dashboards
     * (*report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on)
 
 * use a Power BI phone app to monitor progress on a targeted variable
 
-
+* view inventory and manufacturing progress in a real-time dashboard in the service
 
 ------
 
