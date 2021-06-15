@@ -6,7 +6,7 @@ Contents
 
 * [Microsoft Power BI](#microsoft-power-bi)
     * [Documentation & Courses](#documentation--courses)
-    * [Usage - Applications](#usage-applications)
+    * [Usage - Applications](#usage---applications)
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Concepts](#concepts)
         * [Capacities](#capacities)
