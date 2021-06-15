@@ -92,8 +92,8 @@ PowerBI Desktop > Report view:
 * KPIs
 * Line charts
 * Maps
-* Q&A visual
-* Tables
+* Q&A viual
+* Tabless
 * Treemaps
 * Waterfall charts
 
