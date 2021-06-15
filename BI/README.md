@@ -6,6 +6,7 @@ Contents
 
 * [Microsoft Power BI](#microsoft-power-bi)
     * [Documentation & Courses](#documentation--courses)
+    * [Usage - Applications](#usage-applications)
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Concepts](#concepts)
         * [Capacities](#capacities)
@@ -31,7 +32,12 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 * [MS courses](https://docs.microsoft.com/en-us/learn/browse/)
 
------ 
+------
+
+## Usage - Applications
+
+
+------
 
 ## Elements/Parts of Power BI
 
