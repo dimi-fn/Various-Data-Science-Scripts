@@ -167,7 +167,7 @@ Power BI Desktop > Report view:
 
 ## Sources
 
-[1] [Main source: Microsoft Power BI](https://Power BI.microsoft.com/en-us/learning/)
+[1] [Main source: Microsoft Power BI](https://docs.microsoft.com/en-us/power-bi/)
 
 [2] https://spreadsheeto.com/power-bi-desktop-vs-online/
 
