@@ -22,6 +22,8 @@ Contents
 
 Power BI is designed for self-service business intelligence, it is built on Azure Microsoft's cloud computing infrastructure and platform, and it can be used for powerful analysis and visualization.
 
+* [PowerBI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+
 ----- 
 
 ## Elements/Parts of Power BI
