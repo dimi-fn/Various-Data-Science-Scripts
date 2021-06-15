@@ -16,7 +16,7 @@ Contents
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
     * [Miscellaneous](#miscellaneous)
-* [Sources](#sources)
+    * [Sources](#sources)
 
 ----
 
@@ -28,7 +28,7 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 ## Documentation & Courses
 
-* [PowerBI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+* [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 
 * [MS courses](https://docs.microsoft.com/en-us/learn/browse/)
 
@@ -36,21 +36,27 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 ## Usage - Applications
 
+* create/view reports and dashboards
+    * (*report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on)
+
+* use a Power BI phone app to monitor progress on a targeted variable
+
+
 
 ------
 
 ## Elements/Parts of Power BI
 
-1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly). Mostly useful for modeling and creating PowerBI reports.
+1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly). Mostly useful for modeling and creating Power BI reports.
     * It also includes a *Query Editor* which helps you transform data for visualizations
-        * how to launch it: via PowerBI Desktop > Transform Data, or navigator window > Power Query Editor
+        * how to launch it: via Power BI Desktop > Transform Data, or navigator window > Power Query Editor
         * [Using Power Query in Power BI Desktop](https://docs.microsoft.com/en-us/power-query/power-query-ui)
 2) Power BI `service`: online SaaS (Software as a Service), i.e. the cloud-based service. Mostly useful for sharing and collaboration
 3) `Mobile apps`: available on phones and tablets
 
 ## Concepts
 
-Building blocks of PowerBI:
+Building blocks of Power BI:
 * `datasets`
 * `reports`
 * `dashboards`
@@ -59,7 +65,7 @@ Those are organized into **workspaces** and they are created on **capacities**
 
 ### Capacities
 
-`Capacities`: set of resources used to host and deliver the PowerBI content. They are either *shared* or *dedicated*
+`Capacities`: set of resources used to host and deliver the Power BI content. They are either *shared* or *dedicated*
 * **Dedicated**: capacity is fully committed to a single customer. It requires a <u>subscription</u>
 * **Shared**: shared with other customers. By <u>default</u>, workspaces are created under this a shared capacity.
 
@@ -68,12 +74,12 @@ Those are organized into **workspaces** and they are created on **capacities**
 Staging areas and containers for datasets, reports, dashboards, and dataflows.
 
 There are two types:
-1) `My workspace`: personal workspace for any PowerBI customer to collaborate with your content. Only you have access to "my workspace".
-2) `Workspaces`: they are used to collaborate and share content with colleagues. Requirement: workspace members need PowerBI Pro licenses.
+1) `My workspace`: personal workspace for any Power BI customer to collaborate with your content. Only you have access to "my workspace".
+2) `Workspaces`: they are used to collaborate and share content with colleagues. Requirement: workspace members need Power BI Pro licenses.
 
 ### Apps
 
-* Collection of dashboards and reports to deliver *key metrics* to PowerBI consumers
+* Collection of dashboards and reports to deliver *key metrics* to Power BI consumers
 
 * Although apps are interactive, consumers (and colleagues who have access to those) cannot edit them. However they do not need Pro licenses to access the apps.
 
@@ -81,7 +87,7 @@ There are two types:
 
 ## Data Modelling & Visualizations
 
-PowerBI Desktop > Report view:
+Power BI Desktop > Report view:
 
 1) **Ribbon**: tasks with respect to reports and visualizations
 
@@ -157,8 +163,10 @@ PowerBI Desktop > Report view:
 * [AppSource](https://appsource.microsoft.com/en/marketplace/apps?product=power-bi-visuals)
 ------
 
-# Sources
+## Sources
 
-[1] https://powerbi.microsoft.com/en-us/learning/
+[1] [Main source: Microsoft Power BI](https://Power BI.microsoft.com/en-us/learning/)
 
 [2] https://spreadsheeto.com/power-bi-desktop-vs-online/
+
+[3] https://chartio.com/blog/dashboards-vs-reports-how-theyre-the-same-how-theyre-different/
