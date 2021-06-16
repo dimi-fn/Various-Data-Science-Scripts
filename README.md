@@ -91,7 +91,7 @@ Notes on Amazon Web Services, based on the [AWS Fundamentals Specialization](htt
 
 ------
 
-* [BI - Business Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI#bi---business-intelligence)
+* [BI - Business Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI_Business_Intelligence)
     * Microsoft Power BI
     
 ------
