@@ -70,18 +70,21 @@ Showcases:
 ## Concepts
 
 ### Building Blocks of Power BI 
-Building blocks of Power BI:
 
 * `datasets`
     * can be multiple datasets from multiple sources integrated into one, which can accept filtering, queries and etc.
     * Power BI built-in data connectors for connection to databases (e.g., Microsoft SQL Server Database, Azure/Oracle, etc)
+
 * `reports`
     * collection of visualizations that appear together on one or more pages
     * can be created in desktop & online
+
 * `dashboards`
     * quick overview of a collection of visuals
     * should be fit on a single page --> **canvas**, where you put the visuals
+
 * `visualizations` also called visuals
+
 * `tiles`
     * single visuals displayed on dashboards or reports
     * while creating the dashboard, you can customize the height, width, and position of the tiles
