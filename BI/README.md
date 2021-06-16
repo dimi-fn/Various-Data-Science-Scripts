@@ -79,7 +79,8 @@ Building blocks of Power BI:
     * should be fit on a single page --> **canvas**, where you put the visuals
 * `visualizations` also called visuals
 * `tiles`
-    * a tile is basically an individual visual (e.g. a chart) displayed on a dashboard
+    * single visuals displayed on dashboards or reports
+    * while creating the dashboard, you can customize the height, width, and position of the tiles
 
 <br>
 
