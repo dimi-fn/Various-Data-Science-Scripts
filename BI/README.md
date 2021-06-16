@@ -79,7 +79,7 @@ Showcases:
     * collection of visualizations that appear together on one or more pages
     * can be created in desktop & online
 
-* `dashboards`
+* `dashboards` files: **.pbix**
     * quick overview of a collection of visuals
     * should be fit on a single page --> **canvas**, where you put the visuals
 
@@ -147,6 +147,11 @@ Power BI Desktop > Report view:
 * Tabless
 * Treemaps
 * Waterfall charts
+
+<b>
+
+also:
+* [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
 
 ### Filtering
 
