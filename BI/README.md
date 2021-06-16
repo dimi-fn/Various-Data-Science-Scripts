@@ -8,6 +8,7 @@ Contents
     * [Documentation & Courses](#documentation--courses)
     * [Usage - Applications](#usage---applications)
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
+    * [Workflow](#workflow)
     * [Concepts](#concepts)
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
@@ -55,6 +56,13 @@ Showcases:
         * [Using Power Query in Power BI Desktop](https://docs.microsoft.com/en-us/power-query/power-query-ui)
 2) Power BI `service`: online SaaS (Software as a Service), i.e. the cloud-based service. Mostly useful for sharing and collaboration
 3) `Mobile apps`: available on phones and tablets
+
+## Workflow
+
+1) Fetch data to Power BI Desktop and create a report
+2) Publish to Power BI SaaS (Power BI online), create new visualizations and/or build dashboards
+3) Share dashboards with others and interact with shared dashboards
+4) Power BI Mobile apps can be used for no3 workflow
 
 ## Concepts
 
@@ -131,30 +139,6 @@ Power BI Desktop > Report view:
     * *page*: applies to current page
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 -----
 
