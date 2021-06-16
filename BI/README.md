@@ -59,19 +59,11 @@ Showcases:
 
 ## Documentation & Courses
 
-* [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
+[Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 
-* [MS courses](https://docs.microsoft.com/en-us/learn/browse/)
+[MS courses](https://docs.microsoft.com/en-us/learn/browse/)
 
-
-
-
-
-
-
-
-
-
+* [Quick Insights, Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
 
 -----
 
