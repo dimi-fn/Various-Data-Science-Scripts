@@ -40,7 +40,7 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 Showcases:
 
 * create/view reports and dashboards
-    * (*report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on)
+    * (*report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on and for a quick overview)
 
 * use a Power BI phone app to monitor progress on a targeted variable
 
@@ -54,7 +54,7 @@ Showcases:
     * It also includes a *Query Editor* which helps you transform data for visualizations
         * how to launch it: via Power BI Desktop > Transform Data, or navigator window > Power Query Editor
         * [Using Power Query in Power BI Desktop](https://docs.microsoft.com/en-us/power-query/power-query-ui)
-2) Power BI `service`: online SaaS (Software as a Service), i.e. the cloud-based service. Mostly useful for sharing and collaboration
+2) Power BI `service`: **online** SaaS (Software as a Service), i.e. the cloud-based service. Mostly useful for sharing and collaboration
 3) `Mobile apps`: available on phones and tablets
 
 ## Workflow
@@ -67,9 +67,21 @@ Showcases:
 ## Concepts
 
 Building blocks of Power BI:
+
 * `datasets`
+    * can be multiple datasets from multiple sources integrated into one, which can accept filtering, queries and etc.
+    * Power BI built-in data connectors for connection to databases (e.g., Microsoft SQL Server Database, Azure/Oracle, etc)
 * `reports`
+    * collection of visualizations that appear together on one or more pages
+    * can be created in desktop & online
 * `dashboards`
+    * quick overview of a collection of visuals
+    * should be fit on a single page --> **canvas**, where you put the visuals
+* `visualizations` also called visuals
+* `tiles`
+    * a tile is basically an individual visual (e.g. a chart) displayed on a dashboard
+
+<br>
 
 Those are organized into **workspaces** and they are created on **capacities**
 
