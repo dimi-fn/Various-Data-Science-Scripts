@@ -10,6 +10,7 @@ Contents
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Workflow](#workflow)
     * [Concepts](#concepts)
+        * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
         * [Apps](#apps)
@@ -64,8 +65,11 @@ Showcases:
 3) Share dashboards with others and interact with shared dashboards
 4) Power BI Mobile apps can be used for no3 workflow
 
+----
+
 ## Concepts
 
+### Building Blocks of Power BI 
 Building blocks of Power BI:
 
 * `datasets`
