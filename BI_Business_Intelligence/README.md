@@ -8,7 +8,7 @@ Contents
     * [Usage - Applications](#usage---applications)
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Workflow](#workflow)
-    * [Documentation & Courses](#documentation--courses)
+    * [Documentation & Courses - Various Links](#documentation--courses---various-links)
     * [Concepts](#concepts)
         * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
         * [Capacities](#capacities)
@@ -57,7 +57,7 @@ Showcases:
 3) Share dashboards with others and interact with shared dashboards
 4) Power BI Mobile apps can be used for no3 workflow
 
-## Documentation & Courses
+## Documentation & Courses - Various Links
 
 [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 
