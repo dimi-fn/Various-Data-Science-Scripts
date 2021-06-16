@@ -65,6 +65,8 @@ Showcases:
 
 * [Quick Insights, Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
 
+* [Sharing Methods](https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review)
+
 -----
 
 ## Concepts
