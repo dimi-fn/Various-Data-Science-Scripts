@@ -1,4 +1,4 @@
-# BI - Business Intelligence
+# Business Intelligence (BI)
 
 
 Contents
