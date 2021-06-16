@@ -107,6 +107,10 @@ There are two types:
 1) `My workspace`: personal workspace for any Power BI customer to collaborate with your content. Only you have access to "my workspace".
 2) `Workspaces`: they are used to collaborate and share content with colleagues. Requirement: workspace members need Power BI Pro licenses.
 
+<br>
+
+* [Create the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-create-the-new-workspaces)
+
 ### Apps
 
 * Collection of dashboards and reports to deliver *key metrics* to Power BI consumers
