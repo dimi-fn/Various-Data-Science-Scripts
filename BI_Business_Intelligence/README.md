@@ -244,7 +244,14 @@ You can get data from:
 
 ### Data Modeling
 
+* create relationships to create a logical connection between different data sources
+* Create a new field with calculated columns
 
+<b>
+
+* use `Model View` in Power BI Desktop to set the relationship between tables or elements
+    * `"Manage Relationships"` and create an *Entity Relationship Diagram* (ERD)
+        * **Cardinality** (1:1, 1:M, M:1, M:M), **Cross filter direction**: single or both, i.e. if you want to filter from both sides (both) or not (single)
 
 
 
