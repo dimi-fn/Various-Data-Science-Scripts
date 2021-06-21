@@ -18,6 +18,7 @@ Contents
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
     * [Import Data & Analysis](#import-data--analysis)
+        * [Getting Data](#getting-data)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -176,7 +177,7 @@ also:
 
 ## Import Data & Analysis
 
-
+### Getting Data
 
 -----
 
