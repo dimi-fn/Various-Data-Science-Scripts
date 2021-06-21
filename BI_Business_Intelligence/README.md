@@ -8,7 +8,7 @@ Contents
     * [Usage - Applications](#usage---applications)
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Workflow](#workflow)
-    * [Documentation & Courses - Various Links](#documentation--courses---various-links)
+    * [Documentation & Resources - Various Links](#documentation--resources---various-links)
     * [Concepts](#concepts)
         * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
         * [Capacities](#capacities)
@@ -61,7 +61,7 @@ Showcases:
 3) Share dashboards with others and interact with shared dashboards
 4) Power BI Mobile apps can be used for no3 workflow
 
-## Documentation & Courses - Various Links
+## Documentation & Resources - Various Links
 
 [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 
@@ -178,24 +178,6 @@ also:
 
 -------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Import Data & Analysis
 
 ### Getting Data
@@ -222,10 +204,6 @@ You can get data from:
 3. `Databases`
     * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark, Access database
 
-
-
-
-
 ### Analysis
 
 **Transform Data**:
@@ -242,16 +220,29 @@ You can get data from:
     * [Microsoft: Quick Insights](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
+
+
+
+
+
+
+
+
 ### Data Modeling
 
-* create relationships to create a logical connection between different data sources
-* Create a new field with calculated columns
+* create **relationships** to create a logical connection between different data sources
+* Create a new field with **calculated columns**
+    * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give combine the respective data with comma seperated
+* Create a measure to perform calculations on your data
+* Use a calculated table to create a relationship between two tables
 
 <b>
 
 * use `Model View` in Power BI Desktop to set the relationship between tables or elements
-    * `"Manage Relationships"` and create an *Entity Relationship Diagram* (ERD)
+    * Home tab > `"Manage Relationships"`: create an *Entity Relationship Diagram* (ERD)
         * **Cardinality** (1:1, 1:M, M:1, M:M), **Cross filter direction**: single or both, i.e. if you want to filter from both sides (both) or not (single)
+    * [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
+    * [Bi-directional relationship guidance](https://docs.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering)
 
 
 
