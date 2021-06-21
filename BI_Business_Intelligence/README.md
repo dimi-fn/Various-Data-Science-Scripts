@@ -188,8 +188,9 @@ You can get data from:
 2. `Local Files`
     * e.g.: excel, csv files, power BI desktop
 
-<br>
 When improting data from excel: first make it a table before inserting it into power BI (excel sheet>insert>table) so that power BI can understand the headers and columns
+
+<br>
 
 3. `Databases`
     * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark
