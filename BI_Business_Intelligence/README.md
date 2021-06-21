@@ -222,23 +222,19 @@ You can get data from:
 
 ### Data Modeling
 
-* create **relationships** to create a logical connection between different data sources
+* create `relationships`**` to create a logical connection between different data sources
 
-* Create a new field with **calculated columns** to establish a relationship between tables when no unique fields exist
+* Create a new field with `calculated columns` to establish a relationship between tables when no unique fields exist
     * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give a combination of the respective data, seperated by commas
     * the column which contains the combined data can then be used as a unique key to establish a relationship between the two tables
     
-* Create **measures** to perform calculations on data
+* Create `measures` to perform calculations on data
     * basically, they are similar to *calculated columns*, but here you apply functions and expressions to introduce new columns based on those <u>calculations</u>
     * Modeling > New Measure (Measure = "")
 
-
-
-
-
-
-
-* Use a calculated table to create a relationship between two tables
+* Create `calculated table` to create a relationship between two tables
+    * function within DAX: create data that you want them stored as part of the model rather than as part of a query
+    * Modeling > New Table --> NewTable = ()
 
 <b>
 
