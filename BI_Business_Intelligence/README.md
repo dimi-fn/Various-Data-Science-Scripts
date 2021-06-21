@@ -14,12 +14,13 @@ Contents
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
         * [Apps](#apps)
-    * [Data Modelling & Visualizations](#data-modelling--visualizations)
+    * [Data Visualization](#data-visualization)
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
     * [Import Data & Analysis](#import-data--analysis)
         * [Getting Data](#getting-data)
         * [Analysis](#analysis)
+        * [Data Modeling](#data-modeling)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -125,7 +126,7 @@ There are two types:
 
 -----
 
-## Data Modelling & Visualizations
+## Data Visualization
 
 Power BI Desktop > Report view:
 
@@ -241,7 +242,7 @@ You can get data from:
     * [Microsoft: Quick Insights](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
-
+### Data Modeling
 
 
 
