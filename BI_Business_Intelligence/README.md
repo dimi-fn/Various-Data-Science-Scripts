@@ -220,19 +220,13 @@ You can get data from:
     * [Microsoft: Quick Insights](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
-
-
-
-
-
-
-
-
 ### Data Modeling
 
 * create **relationships** to create a logical connection between different data sources
-* Create a new field with **calculated columns**
+
+* Create a new field with **calculated columns** to establish a relationship between tables when no unique fields exist
     * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give a combination of the respective data, seperated by commas
+    
 * Create a measure to perform calculations on your data
 * Use a calculated table to create a relationship between two tables
 
@@ -243,6 +237,22 @@ You can get data from:
         * **Cardinality** (1:1, 1:M, M:1, M:M), **Cross filter direction**: single or both, i.e. if you want to filter from both sides (both) or not (single)
     * [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
     * [Bi-directional relationship guidance](https://docs.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
