@@ -17,6 +17,7 @@ Contents
     * [Data Modelling & Visualizations](#data-modelling--visualizations)
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
+    * [Import Data & Analysis](#import-data---analysis)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -171,6 +172,11 @@ also:
     * *page*: applies to current page
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
+
+
+## Import Data & Analysis
+
+
 
 -----
 
