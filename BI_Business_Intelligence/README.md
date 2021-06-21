@@ -174,12 +174,30 @@ also:
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
 
+-------
 
 ## Import Data & Analysis
 
 ### Getting Data
 
------
+You can get data from:
+
+1. `Services` (apps from online services that you already use
+    * e.g.: github, google analytics, dynamics 365
+
+2. `Local Files`
+    * e.g.: excel, csv files, power BI desktop
+
+<br>
+When improting data from excel: first make it a table before inserting it into power BI (excel sheet>insert>table) so that power BI can understand the headers and columns
+
+3. `Databases`
+    * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark
+
+
+
+
+-------
 
 # Miscellaneous
 
