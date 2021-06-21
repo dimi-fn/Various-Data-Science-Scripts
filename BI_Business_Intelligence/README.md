@@ -229,7 +229,7 @@ You can get data from:
     * the column which contains the combined data can then be used as a unique key to establish a relationship between the two tables
     
 * Create **measures** to perform calculations on data
-    * basically, they are similar to *calculated columns*, but here you apply functions and expressions to introduce new columns based on those <i>calculations</i>
+    * basically, they are similar to *calculated columns*, but here you apply functions and expressions to introduce new columns based on those <u>calculations</u>
     * Modeling > New Measure (Measure = "")
 
 
