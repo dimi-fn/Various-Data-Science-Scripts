@@ -232,7 +232,7 @@ You can get data from:
 
 * create **relationships** to create a logical connection between different data sources
 * Create a new field with **calculated columns**
-    * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give combine the respective data with comma seperated
+    * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give a combination of the respective data, seperated by commas
 * Create a measure to perform calculations on your data
 * Use a calculated table to create a relationship between two tables
 
