@@ -19,6 +19,7 @@ Contents
         * [Filtering](#filtering)
     * [Import Data & Analysis](#import-data--analysis)
         * [Getting Data](#getting-data)
+        * [Analysis](#analysis)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -176,6 +177,24 @@ also:
 
 -------
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Import Data & Analysis
 
 ### Getting Data
@@ -186,14 +205,65 @@ You can get data from:
     * e.g.: github, google analytics, dynamics 365
 
 2. `Local Files`
-    * e.g.: excel, csv files, power BI desktop
+    * e.g.: excel, csv files, power BI desktop, OneDrive, SharePoint - Team Sites
 
-When improting data from excel: first make it a table before inserting it into power BI (excel sheet>insert>table) so that power BI can understand the headers and columns
+* you can sync by version controlling your files by using checkpoints    
+
+* You can also setup `Scheduled Refresh` to automatically connect right to the data source and get updates (e.g. when using workbooks in .xlsx or .xlsm)
+    * restrictions:  some features might be available only in later versions of Excel
+    * file should be less than 1 GB
+    * https://docs.microsoft.com/en-us/power-bi/connect-data/service-excel-workbook-files
+
+* When improting data from excel: first make it a table before inserting it into power BI (excel sheet>insert>table) so that power BI can understand the headers and columns
 
 <br>
 
 3. `Databases`
-    * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark
+    * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark, Access database
+
+
+
+
+
+### Analysis
+
+**Transform Data**:
+* Use Query Editor to transform data
+    * e.g. extract the day of the week from a set of dates using Power Query editor
+
+**Clean Data**:
+* Power Query Editor > Transpose data
+* you can also change data types, and apply various transformations (transpose, put rows into headers, use "Fill" to replace null values, pivot/unpivot columns)
+
+<br>
+
+* When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
+    * [Microsoft: Quick Insights](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
+    * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
