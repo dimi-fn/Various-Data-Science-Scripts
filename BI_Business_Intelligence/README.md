@@ -17,7 +17,7 @@ Contents
     * [Data Modelling & Visualizations](#data-modelling--visualizations)
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
-    * [Import Data & Analysis](#import-data---analysis)
+    * [Import Data & Analysis](#import-data--analysis)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
