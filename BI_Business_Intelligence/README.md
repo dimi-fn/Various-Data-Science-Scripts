@@ -226,8 +226,18 @@ You can get data from:
 
 * Create a new field with **calculated columns** to establish a relationship between tables when no unique fields exist
     * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give a combination of the respective data, seperated by commas
+    * the column which contains the combined data can then be used as a unique key to establish a relationship between the two tables
     
-* Create a measure to perform calculations on your data
+* Create **measures** to perform calculations on data
+    * basically, they are similar to *calculated columns*, but here you apply functions and expressions to introduce new columns based on those <i>calculations</i>
+    * Modeling > New Measure (Measure = "")
+
+
+
+
+
+
+
 * Use a calculated table to create a relationship between two tables
 
 <b>
@@ -235,8 +245,46 @@ You can get data from:
 * use `Model View` in Power BI Desktop to set the relationship between tables or elements
     * Home tab > `"Manage Relationships"`: create an *Entity Relationship Diagram* (ERD)
         * **Cardinality** (1:1, 1:M, M:1, M:M), **Cross filter direction**: single or both, i.e. if you want to filter from both sides (both) or not (single)
+
     * [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
     * [Bi-directional relationship guidance](https://docs.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
