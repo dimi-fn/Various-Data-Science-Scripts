@@ -21,6 +21,7 @@ Contents
     * [Data Visualization](#data-visualization)
         * [Types of visualizations](#types-of-visualizations)
         * [Filtering](#filtering)
+        * [Visuals](#visuals)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -244,6 +245,27 @@ also:
     * *page*: applies to current page
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
+
+### Visuals
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -------
 
