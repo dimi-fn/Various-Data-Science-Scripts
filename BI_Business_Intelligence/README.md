@@ -14,13 +14,13 @@ Contents
         * [Capacities](#capacities)
         * [Workspaces](#workspaces)
         * [Apps](#apps)
-    * [Data Visualization](#data-visualization)
-        * [Types of visualizations](#types-of-visualizations)
-        * [Filtering](#filtering)
     * [Import Data & Analysis](#import-data--analysis)
         * [Getting Data](#getting-data)
         * [Analysis](#analysis)
         * [Data Modeling](#data-modeling)
+    * [Data Visualization](#data-visualization)
+        * [Types of visualizations](#types-of-visualizations)
+        * [Filtering](#filtering)
     * [Miscellaneous](#miscellaneous)
     * [Sources](#sources)
 
@@ -126,58 +126,6 @@ There are two types:
 
 -----
 
-## Data Visualization
-
-Power BI Desktop > Report view:
-
-1) **Ribbon**: tasks with respect to reports and visualizations
-
-2) **Report view - Canvas**: visualizations
-* *Data view*: view data of report, check data types and validate data
-* *Model view*: set the relationship between tables or elements in order to run queries for related data across multiple tables
-
-3) **Pages tab**: bottom of the page. Select or add a report page
-
-4) **Visualizations pane**: Interact with visualizations, customize colours or axes, apply filters, drag fields, and etc.
-
-5) **Fields pane**: Query elements and filters can be dragged onto the Report view or dragged to the Filters area of the Visualizations pane
-
-<br>
-
-### Types of visualizations
-
-* Area charts
-* Bar and column charts
-* Pie charts
-    * donut charts
-    * gauge charts
-* KPIs
-* Line charts
-* Maps
-* Q&A viual
-* Tabless
-* Treemaps
-* Waterfall charts
-
-<b>
-
-also:
-* [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
-
-### Filtering
-
-* Filtering only applies to reports, not to dashboards
-
-* Filter pane contains filters that are added by the report designer
-
-* Filter types:
-    * *report*: applies to all report
-    * *page*: applies to current page
-    * *visual*: applies to a single visual of the report page
-    * *drillthrough*: allows a more detailed exploration of a single visual
-
--------
-
 ## Import Data & Analysis
 
 ### Getting Data
@@ -245,83 +193,60 @@ You can get data from:
     * [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-create-and-manage-relationships)
     * [Bi-directional relationship guidance](https://docs.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering)
 
+------
 
+## Data Visualization
 
+Power BI Desktop > Report view:
 
+1) **Ribbon**: tasks with respect to reports and visualizations
 
+2) **Report view - Canvas**: visualizations
+* *Data view*: view data of report, check data types and validate data
+* *Model view*: set the relationship between tables or elements in order to run queries for related data across multiple tables
 
+3) **Pages tab**: bottom of the page. Select or add a report page
 
+4) **Visualizations pane**: Interact with visualizations, customize colours or axes, apply filters, drag fields, and etc.
 
+5) **Fields pane**: Query elements and filters can be dragged onto the Report view or dragged to the Filters area of the Visualizations pane
 
+<br>
 
+### Types of visualizations
 
+* Area charts
+* Bar and column charts
+* Pie charts
+    * donut charts
+    * gauge charts
+* KPIs
+* Line charts
+* Maps
+* Q&A viual
+* Tabless
+* Treemaps
+* Waterfall charts
 
+<b>
 
+also:
+* [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
 
+### Filtering
 
+* Filtering only applies to reports, not to dashboards
 
+* Filter pane contains filters that are added by the report designer
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Filter types:
+    * *report*: applies to all report
+    * *page*: applies to current page
+    * *visual*: applies to a single visual of the report page
+    * *drillthrough*: allows a more detailed exploration of a single visual
 
 -------
+
 
 # Miscellaneous
 
