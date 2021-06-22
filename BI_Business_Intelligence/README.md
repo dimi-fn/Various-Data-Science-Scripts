@@ -9,6 +9,7 @@ Contents
     * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
     * [Workflow](#workflow)
     * [Documentation & Resources - Various Links](#documentation--resources---various-links)
+        * [SharePoint](#sharepoint)
     * [Concepts](#concepts)
         * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
         * [Capacities](#capacities)
@@ -73,11 +74,13 @@ Showcases:
 
     * [Sharing Methods](https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review)
 
+### Sharepoint
 
 * [Integrate Power BI reports in SharePoint Online](https://powerbi.microsoft.com/en-us/blog/integrate-power-bi-reports-in-sharepoint-online/)
     * Power BI online: file > embed in SharePoint -> copy the link
     * paste the link onto sharepoint (pages > new site page > add a new web part > powerbi > paste the link from above)
-    
+        * at sharepoint, the report will be fully interactive
+
 -----
 
 ## Concepts
