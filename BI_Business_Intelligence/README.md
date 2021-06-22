@@ -75,7 +75,9 @@ Showcases:
 
 
 * [Integrate Power BI reports in SharePoint Online](https://powerbi.microsoft.com/en-us/blog/integrate-power-bi-reports-in-sharepoint-online/)
-
+    * Power BI online: file > embed in SharePoint -> copy the link
+    * paste the link onto sharepoint (pages > new site page > add a new web part > powerbi > paste the link from above)
+    
 -----
 
 ## Concepts
