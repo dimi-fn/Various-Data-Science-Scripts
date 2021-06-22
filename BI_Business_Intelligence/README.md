@@ -73,6 +73,9 @@ Showcases:
 
     * [Sharing Methods](https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review)
 
+
+* [Integrate Power BI reports in SharePoint Online](https://powerbi.microsoft.com/en-us/blog/integrate-power-bi-reports-in-sharepoint-online/)
+
 -----
 
 ## Concepts
