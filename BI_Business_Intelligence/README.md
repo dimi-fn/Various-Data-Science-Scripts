@@ -179,7 +179,7 @@ You can get data from:
 
 ### Data Modeling
 
-* create `relationships`**` to create a logical connection between different data sources
+* create `relationships` to create a logical connection between different data sources
 
 * Create a new field with `calculated columns` to establish a relationship between tables when no unique fields exist
     * combine data using *"new column"*, use *DAX* (Data Analysis Expressions) language to apply a desired function, e.g. newColumn = data[column1] & ", " & data[column2] will give a combination of the respective data, seperated by commas
