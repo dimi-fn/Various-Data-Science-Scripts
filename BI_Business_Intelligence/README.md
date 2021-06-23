@@ -233,6 +233,8 @@ Power BI Desktop > Report view:
 * KPIs
 * Line charts
 * Maps
+    * bubble map: it places a bubble over a geographic point
+    * shape map: it shows the outline of the area that you want to visualize
 * Q&A viual
 * Tabless
 * Treemaps
