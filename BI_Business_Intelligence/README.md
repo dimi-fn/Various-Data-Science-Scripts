@@ -240,15 +240,6 @@ Power BI Desktop > Report view:
 * Treemaps
 * Waterfall charts
 
-<b>
-
-also:
-* [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
-
-**Compare 2 different measures**:
-* scatter, waterfall, and funnel charts
-    * "play axis": create animations based on the variable entered at play axis, e.g. animation based on time/date
-
 ### Filtering
 
 * Filtering only applies to reports, not to dashboards
@@ -263,6 +254,11 @@ also:
 
 ### Visuals
 
+* [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
+
+**Compare 2 different measures**:
+* scatter, waterfall, and funnel charts
+    * "play axis": create animations based on the variable entered at play axis, e.g. animation based on time/date
 
 
 
