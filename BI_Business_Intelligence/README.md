@@ -245,6 +245,9 @@ Power BI Desktop > Report view:
 also:
 * [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
 
+**Compare 2 different measures**:
+* scatter, waterfall, and funnel charts
+
 ### Filtering
 
 * Filtering only applies to reports, not to dashboards
