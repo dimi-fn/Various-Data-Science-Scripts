@@ -247,6 +247,7 @@ also:
 
 **Compare 2 different measures**:
 * scatter, waterfall, and funnel charts
+    * "play axis": create animations based on the variable entered at play axis, e.g. animation based on time/date
 
 ### Filtering
 
