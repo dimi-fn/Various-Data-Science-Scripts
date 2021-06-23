@@ -258,7 +258,13 @@ Power BI Desktop > Report view:
 
 **Compare 2 different measures**:
 * scatter, waterfall, and funnel charts
-    * "play axis": create animations based on the variable entered at play axis, e.g. animation based on time/date
+
+    * `scatter plots`: "*play axis*": create animations based on the variable entered at play axis, e.g. animation based on time/date
+
+    * `waterfalls`: show changes in a specific value over time
+        * Category and y Axis. Drag a time-based field, such as month/day, to the "category" bucket, and drag the value that you want to track to the y axis bucket. Time periods where an increase in value occurred are displayed in green by default, while periods with a decrease in value are displayed in red
+
+    * `Funnel charts`: typically used to show changes over a specific process or segment, such as a sales pipeline or website retention rate monitoring
 
 
 
