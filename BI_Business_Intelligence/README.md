@@ -187,21 +187,23 @@ You can get data from:
 
 When uploading a dataset or creating a report, you can also get `quick insights` (right-click the **report** file and choose "quick insights")
 * They are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
-* Specifically:
-    * `Category outliers (top/bottom)`
-    * `Change points in a time series`
-        * significant changes in trends in a time series of data
-    * `Correlation`
-    * `Low Variance`
-        * detects cases where data points for a dimension aren't far from the mean, i.e. when the variance is low
-    * `Majority (Major factors)`
-        * It finds cases where a majority of a total value can be attributed to a single factor when broken down by another dimension
-    * Outliers
-    * Overall trends in time series
-        * detection of upward or downward trends in time series data
-    * `Seasonality in time series`
-        * periodic patterns in time series data, such as weekly, monthly, or yearly seasonality
 
+* Specifically:  
+
+| Insight          | Description    | 
+| ------------- |:-------------:| 
+| `Category outliers (top/bottom)`      | scalar |             
+|`Change points in a time series`| Significant changes in trends in a time series of data|
+|`Correlation`||
+|`Low Variance`| It detects cases where data points for a dimension aren't far from the mean, i.e. when the variance is low|
+|`Majority (Major factors)`|It finds cases where a majority of a total value can be attributed to a single factor when broken down by another dimension|
+|`Outliers`||
+|`Overall trends in time series`||
+|`Outliers`|Detection of upward or downward trends in time series data|
+|`Seasonality in time series`||
+|`Outliers`|Periodic patterns in time series data, such as weekly, monthly, or yearly seasonality|
+
+<b>
 
 [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
 
