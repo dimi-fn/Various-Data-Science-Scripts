@@ -1,30 +1,34 @@
 # Business Intelligence (BI)
 
+[Microsoft Power BI](#microsoft-power-bi)
+
+------
 
 Contents
 =======================
 
 * [Microsoft Power BI](#microsoft-power-bi)
-    * [Usage - Applications](#usage---applications)
-    * [Elements/Parts of Power BI](#elementsparts-of-power-bi)
-    * [Workflow](#workflow)
-    * [Documentation & Resources - Various Links](#documentation--resources---various-links)
-        * [SharePoint](#sharepoint)
-    * [Concepts](#concepts)
-        * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
-        * [Capacities](#capacities)
-        * [Workspaces](#workspaces)
-        * [Apps](#apps)
-    * [Import Data & Analysis](#import-data--analysis)
-        * [Getting Data](#getting-data)
-        * [Analysis](#analysis)
-        * [Data Modeling](#data-modeling)
-    * [Data Visualization](#data-visualization)
-        * [Types of visualizations](#types-of-visualizations)
-        * [Filtering](#filtering)
-        * [Visuals](#visuals)
-    * [Miscellaneous](#miscellaneous)
-    * [Sources](#sources)
+* [Usage - Applications](#usage---applications)
+* [Elements/Parts of Power BI](#elementsparts-of-power-bi)
+* [Workflow](#workflow)
+* [Documentation & Resources - Various Links](#documentation--resources---various-links)
+    * [SharePoint](#sharepoint)
+* [Concepts](#concepts)
+    * [Building Blocks of Power BI ](#building-blocks-of-power-bi)
+    * [Capacities](#capacities)
+    * [Workspaces](#workspaces)
+    * [Apps](#apps)
+* [Import Data & Analysis](#import-data--analysis)
+    * [Getting Data](#getting-data)
+    * [Analysis](#analysis)
+        * [Quick Insights](#quick-insights)
+    * [Data Modeling](#data-modeling)
+* [Data Visualization](#data-visualization)
+    * [Types of visualizations](#types-of-visualizations)
+    * [Filtering](#filtering)
+    * [Visuals](#visuals)
+* [Miscellaneous](#miscellaneous)
+* [Sources](#sources)
 
 ----
 
@@ -34,7 +38,7 @@ Power BI is designed for self-service business intelligence, it is built on Azur
 
 ------
 
-## Usage - Applications
+# Usage - Applications
 
 Showcases:
 
@@ -48,7 +52,7 @@ Showcases:
 
 ------
 
-## Elements/Parts of Power BI
+# Elements/Parts of Power BI
 
 1) Power BI `Desktop`: Microsoft Windows desktop application, [download-install](https://docs.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop#download-power-bi-desktop-directly). Mostly useful for modeling and creating Power BI reports.
     * It also includes a *Query Editor* which helps you transform data for visualizations
@@ -61,14 +65,14 @@ Showcases:
 
 3) `Mobile apps`: available on phones and tablets
 
-## Workflow
+# Workflow
 
 1) Fetch data to Power BI Desktop and create a report
 2) Publish to Power BI SaaS (Power BI online), create new visualizations and/or build dashboards
 3) Share dashboards with others and interact with shared dashboards
 4) Power BI Mobile apps can be used for no3 workflow
 
-## Documentation & Resources - Various Links
+# Documentation & Resources - Various Links
 
 [Power BI Documentation](https://docs.microsoft.com/en-us/power-bi/)
 
@@ -79,7 +83,7 @@ Showcases:
 
     * [Sharing Methods](https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review)
 
-### Sharepoint
+## Sharepoint
 
 * [Integrate Power BI reports in SharePoint Online](https://powerbi.microsoft.com/en-us/blog/integrate-power-bi-reports-in-sharepoint-online/)
 * [How To Connect Power BI To SharePoint Online List | Refresh Power BI Datasets using Power Automate](https://www.youtube.com/watch?v=1YmyN8OFDp0&ab_channel=LernenTech)
@@ -89,9 +93,9 @@ Showcases:
 
 -----
 
-## Concepts
+# Concepts
 
-### Building Blocks of Power BI 
+## Building Blocks of Power BI 
 
 * `datasets`
     * can be multiple datasets from multiple sources integrated into one, which can accept filtering, queries and etc.
@@ -115,13 +119,13 @@ Showcases:
 
 Those are organized into **workspaces** and they are created on **capacities**
 
-### Capacities
+## Capacities
 
 `Capacities`: set of resources used to host and deliver the Power BI content. They are either *shared* or *dedicated*
 * **Dedicated**: capacity is fully committed to a single customer. It requires a <u>subscription</u>
 * **Shared**: shared with other customers. By <u>default</u>, workspaces are created under this a shared capacity.
 
-### Workspaces
+## Workspaces
 
 Staging areas and containers for datasets, reports, dashboards, and dataflows.
 
@@ -133,7 +137,7 @@ There are two types:
 
 * [Create the new workspaces in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-create-the-new-workspaces)
 
-### Apps
+## Apps
 
 * Collection of dashboards and reports to deliver *key metrics* to Power BI consumers
 
@@ -141,9 +145,9 @@ There are two types:
 
 -----
 
-## Import Data & Analysis
+# Import Data & Analysis
 
-### Getting Data
+## Getting Data
 
 You can get data from:
 
@@ -167,7 +171,7 @@ You can get data from:
 3. `Databases`
     * connect to databases, e.g. Azure SQL Database, SQL Server Analysis Services, Spark, Access database
 
-### Analysis
+## Analysis
 
 **Transform Data**:
 * Use Query Editor to transform data
@@ -179,12 +183,30 @@ You can get data from:
 
 <br>
 
-* When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
-    * They are about various machine learning analysis running on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
+### Quick Insights
+
+When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
+* They are about applying various algorithms on background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
+* Specifically:
+    * `Category outliers (top/bottom)`
+    * `Change points in a time series`
+        * significant changes in trends in a time series of data
+    * `Correlation`
+    * `Low Variance`
+        * detects cases where data points for a dimension aren't far from the mean, i.e. when the variance is low
+    * `Majority (Major factors)`
+        * It finds cases where a majority of a total value can be attributed to a single factor when broken down by another dimension
+    * Outliers
+    * Overall trends in time series
+        * detection of upward or downward trends in time series data
+    * `Seasonality in time series`
+        * periodic patterns in time series data, such as weekly, monthly, or yearly seasonality
+
+
     * [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
-### Data Modeling
+## Data Modeling
 
 * create `relationships` to create a logical connection between different data sources
 
@@ -211,7 +233,7 @@ You can get data from:
 
 ------
 
-## Data Visualization
+# Data Visualization
 
 Power BI Desktop > Report view:
 
@@ -229,7 +251,7 @@ Power BI Desktop > Report view:
 
 <br>
 
-### Types of visualizations
+## Types of visualizations
 
 * Area charts
 * Bar and column charts
@@ -246,7 +268,7 @@ Power BI Desktop > Report view:
 * Treemaps
 * Waterfall charts
 
-### Filtering
+## Filtering
 
 * Filtering only applies to reports, not to dashboards
 
@@ -258,7 +280,7 @@ Power BI Desktop > Report view:
     * *visual*: applies to a single visual of the report page
     * *drillthrough*: allows a more detailed exploration of a single visual
 
-### Visuals
+## Visuals
 
 * [key influencers visualizations](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#considerations-and-troubleshooting)
 
@@ -272,24 +294,6 @@ Power BI Desktop > Report view:
 
     * `Funnel charts`: typically used to show changes over a specific process or segment, such as a sales pipeline or website retention rate monitoring
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -------
 
 
@@ -300,7 +304,7 @@ Power BI Desktop > Report view:
 * [AppSource](https://appsource.microsoft.com/en/marketplace/apps?product=power-bi-visuals)
 ------
 
-## Sources
+# Sources
 
 [1] [Main source: Microsoft Power BI](https://docs.microsoft.com/en-us/power-bi/)
 
