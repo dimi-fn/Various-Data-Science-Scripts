@@ -188,11 +188,11 @@ You can get data from:
 When uploading a dataset or creating a report, you can also get `quick insights` (right-click the **report** file and choose "quick insights")
 * They are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
 
-* Specifically:  
+Specifically:  
 
 | Insight          | Description    | 
 | ------------- |:-------------:| 
-| `Category outliers (top/bottom)`      | scalar |             
+| `Category outliers (top/bottom)`      |  |             
 |`Change points in a time series`| Significant changes in trends in a time series of data|
 |`Correlation`||
 |`Low Variance`| It detects cases where data points for a dimension aren't far from the mean, i.e. when the variance is low|
