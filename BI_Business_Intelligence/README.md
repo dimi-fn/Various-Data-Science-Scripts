@@ -203,8 +203,8 @@ When uploading a dataset or creating a report, you can also get `quick insights`
         * periodic patterns in time series data, such as weekly, monthly, or yearly seasonality
 
 
-    * [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
-    * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
+* [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
+* [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
 ## Data Modeling
 
