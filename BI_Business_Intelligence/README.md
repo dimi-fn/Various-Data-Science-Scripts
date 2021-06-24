@@ -40,6 +40,7 @@ Showcases:
 
 * create/view reports and dashboards
     * (*report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on and for a quick overview)
+    * you can pin various reports onto one dashboard. Clicking upon a dashboard's visual will navigate you to the respective report where you might have created other reports/visuals as well
 
 * use a Power BI phone app to monitor progress on a targeted variable
 
