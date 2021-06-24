@@ -192,16 +192,16 @@ Specifically:
 
 | Insight          | Description    | 
 | ------------- |:-------------:| 
-| `Category outliers (top/bottom)`      |  |             
+| `Category outliers (top/bottom)`      | Highlights cases where one or two categories have much larger values than other categories|             
 |`Change points in a time series`| Significant changes in trends in a time series of data|
-|`Correlation`||
+|`Correlation`| Patter or trend detection of a measurement against a category or value|
 |`Low Variance`| It detects cases where data points for a dimension aren't far from the mean, i.e. when the variance is low|
 |`Majority (Major factors)`|It finds cases where a majority of a total value can be attributed to a single factor when broken down by another dimension|
-|`Outliers`||
-|`Overall trends in time series`||
-|`Outliers`|Detection of upward or downward trends in time series data|
-|`Seasonality in time series`||
-|`Outliers`|Periodic patterns in time series data, such as weekly, monthly, or yearly seasonality|
+|`Outliers`| Clustering model to find outliers in non-time series data|
+|`Overall trends in time series`|Detects upward or downward trends in time series data|
+|`Seasonality in time series`|Finds periodic patterns in time series data, such as weekly, monthly, or yearly seasonality|
+|`Steady share`|Highlights cases where there is a parent-child correlation between the share of a child value in relation to the overall value of the parent across a continuous variable|
+|`Time series outliers`|Detects when there are specific dates or times with values significantly different than the other date/time values|
 
 <b>
 
