@@ -185,9 +185,9 @@ You can get data from:
 
 ### Quick Insights
 
-Quick insights are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`.
+* Quick insights are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`.
 
-Right-click on a **report** file and choose "quick insights". You can further investigate a particular visual from the insights dashbaord by selecting the specific visual (focus mode) and click up and right "get insights" again
+* Right-click on a **report** file and choose "quick insights". You can further investigate a particular visual from the insights dashbaord by selecting the specific visual you're interested on (focus mode) and click on the up and right "get insights" button
 
 <br>
 
