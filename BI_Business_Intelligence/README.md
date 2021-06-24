@@ -190,8 +190,8 @@ When uploading a dataset or creating a report, you can also get `quick insights`
 
 Specifically:  
 
-| |Insight          | Description    | 
-| ------------- |:-------------:| : -----------------|
+| | Insight          | Description    | 
+| ------------- |-------------|-----------------|
 |1| `Category outliers (top/bottom)`      | Highlights cases where one or two categories have much larger values than other categories|             
 |2|`Change points in a time series`| Significant changes in trends in a time series of data|
 |3|`Correlation`| Patter or trend detection of a measurement against a category or value|
