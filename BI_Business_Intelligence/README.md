@@ -186,7 +186,7 @@ You can get data from:
 ### Quick Insights
 
 When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
-* They are about applying various algorithms on background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
+* They are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
 * Specifically:
     * `Category outliers (top/bottom)`
     * `Change points in a time series`
@@ -203,8 +203,8 @@ When uploading a dataset or creating a report, you can also get `quick insights`
         * periodic patterns in time series data, such as weekly, monthly, or yearly seasonality
 
 
-* [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
-* [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
+[Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
+[Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
 ## Data Modeling
 
