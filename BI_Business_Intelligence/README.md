@@ -75,7 +75,7 @@ Showcases:
 [MS courses](https://docs.microsoft.com/en-us/learn/browse/)
 
 * Various Links
-    * [Quick Insights, Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
+    * [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
 
     * [Sharing Methods](https://radacad.com/power-bi-sharing-methods-comparison-all-in-one-review)
 
@@ -180,7 +180,7 @@ You can get data from:
 <br>
 
 * When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
-    * [Microsoft: Quick Insights](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
+    * [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
 ### Data Modeling
