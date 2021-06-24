@@ -180,6 +180,7 @@ You can get data from:
 <br>
 
 * When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
+    * They are about various machine learning analysis running on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
     * [Types of insights supported by Power BI](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-insight-types)
     * [Apply insights in Power BI Desktop to explain fluctuations in visuals](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-insights)
 
