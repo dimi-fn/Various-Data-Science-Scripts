@@ -101,11 +101,11 @@ Showcases:
     * can be multiple datasets from multiple sources integrated into one, which can accept filtering, queries and etc.
     * Power BI built-in data connectors for connection to databases (e.g., Microsoft SQL Server Database, Azure/Oracle, etc)
 
-* `reports`
+* `reports` **.pbix**
     * collection of visualizations that appear together on one or more pages
     * can be created in desktop & online
 
-* `dashboards` files: **.pbix**
+* `dashboards` files: 
     * quick overview of a collection of visuals
     * should be fit on a single page --> **canvas**, where you put the visuals
 
@@ -185,7 +185,7 @@ You can get data from:
 
 ### Quick Insights
 
-When uploading a dataset or creating a report, you can also get `quick insights` (right-click the file and choose "quick insights")
+When uploading a dataset or creating a report, you can also get `quick insights` (right-click the **report** file and choose "quick insights")
 * They are about applying various algorithms on the background which can potentially give various insights with regard to: category `outliers`, `correlations`, "`majority`" (prevalence of variable categories across features), and `trends`
 * Specifically:
     * `Category outliers (top/bottom)`
