@@ -27,6 +27,7 @@ Contents
     * [Types of visualizations](#types-of-visualizations)
     * [Filtering](#filtering)
     * [Visuals](#visuals)
+    * [QA](#qa)
 * [Miscellaneous](#miscellaneous)
 * [Sources](#sources)
 
@@ -46,7 +47,7 @@ Showcases:
     * *report vs dashboard*: reports provide more pieces of information regarding the dashboard, i.e. reports include a more detailed collection of tables and charts, while dashboards are mostly used for monitoring what is going on and for a quick overview
 
     * To create a dashboard: being on a report page => choose pin to a dashboard. Every time you modify something on the report, the dashboard get automatically updated
-    
+
     * you can pin various reports onto one dashboard. Clicking upon a dashboard's visual will navigate you to the respective report where you might have created other reports/visuals as well
 
 * use a Power BI phone app to monitor progress on a targeted variable
@@ -302,6 +303,11 @@ Power BI Desktop > Report view:
         * Category and y Axis. Drag a time-based field, such as month/day, to the "category" bucket, and drag the value that you want to track to the y axis bucket. Time periods where an increase in value occurred are displayed in green by default, while periods with a decrease in value are displayed in red
 
     * `Funnel charts`: typically used to show changes over a specific process or segment, such as a sales pipeline or website retention rate monitoring
+
+
+## QA
+
+Ask question with natural language. It is enabled by default on dashboards. To view setting: homepage > workspace > dashboards > select your dashboard > click "..."settings > datasets > select the dashboard's dataset
 
 -------
 
