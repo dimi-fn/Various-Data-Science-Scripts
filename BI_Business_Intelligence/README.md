@@ -307,7 +307,9 @@ Power BI Desktop > Report view:
 
 ## QA
 
-Ask question with natural language. It is enabled by default on dashboards. To view setting: homepage > workspace > dashboards > select your dashboard > click "..."settings > datasets > select the dashboard's dataset
+Ask questions with natural language. It is enabled by default on dashboards. To view settings, go to: homepage > workspace > dashboards > select your dashboard > click "..."settings > datasets > select the dashboard's dataset
+
+[Create a visual with Power BI Q&A](https://docs.microsoft.com/en-us/power-bi/create-reports/power-bi-visualization-introduction-to-q-and-a)
 
 -------
 
