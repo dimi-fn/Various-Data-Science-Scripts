@@ -60,9 +60,9 @@ Unix, Shell scripting, Bash, terminal commands.
 
 ------
 
-* [API & Web Scraping](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs_%26_Web_Scraping)
-
-Notes on APIs and Web Scraping
+* APIs & Web Scraping
+    * []()
+    * []()
 
 ------
 
