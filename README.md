@@ -8,9 +8,9 @@ Due to a GitHub bug (issue [#3035](https://github.com/jupyter/notebook/issues/30
 Contents
 =======================
 
-* [Algorithms & Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures)
-    * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Algorithms)
-    * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms_Data_Structures/Data_Types_%26_Structures)
+* [Algorithms & Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures)
+    * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures/Algorithms)
+    * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures/Data_Types_%26_Structures)
 
 -----
 
