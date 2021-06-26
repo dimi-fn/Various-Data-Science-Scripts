@@ -90,8 +90,8 @@ Notes on Containers.
 
 ------
 
-* [BI - Business Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI_Business_Intelligence)
-    * Microsoft Power BI
+* [BI - Business Intelligence](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI%20-%20Business%20Intelligence)
+    * [Microsoft Power BI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI%20-%20Business%20Intelligence#microsoft-power-bi)
     
 ------
 
