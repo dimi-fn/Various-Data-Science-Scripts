@@ -101,7 +101,7 @@ Search Engine Optimization (SEO) & Information Retrieval (IR)
 
 -----
 
-* [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR_VR)
+* [AR/VR](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AR%20%26%20VR#augmented-reality-ar--virtual-reality-vr)
 
 Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
