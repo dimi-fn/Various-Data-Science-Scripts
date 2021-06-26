@@ -72,7 +72,9 @@ Notes on Containers.
 
 ------
 
-* [CI - CD](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/CI_CD)
+* [CI - CD](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/CI%20-%20CD)
+
+Continuous Integration (CI) - Continuous Deployment (CD)
 
 ------
 
