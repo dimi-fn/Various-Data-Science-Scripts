@@ -26,7 +26,7 @@ Demonstrating several concepts in functional programming with Python, such as: *
 
 -----
 
-* [Unit Testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit_testing)
+* [Unit Testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit%20Testing)
 
 Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some of those are coming from [CodinGame](https://www.codingame.com/) as well.
 
