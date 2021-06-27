@@ -54,7 +54,7 @@ How to set up a virtual environment and generate a `requirements.txt` file with 
 
 -----
 
-* [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell_scripting)
+* [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell%20Scripting)
 
 Unix, Shell scripting, Bash, terminal commands.
 
