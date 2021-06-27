@@ -39,7 +39,7 @@ How to set up a virtual environment and generate a `requirements.txt` file with 
 -----
 
 * [Maths - Statistics](??)
-    * [Mathematics]()
+    * [Mathematics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics#mathematics)
         * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics/Mathematics_for_ML)
 
 -----
