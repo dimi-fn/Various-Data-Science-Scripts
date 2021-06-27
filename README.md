@@ -20,7 +20,7 @@ Classes and objects, encapsulation, inheritance, polymorphism, and exceptions in
 
 ---
 
-* [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional_Programming)
+* [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional%20Programming)
 
 Demonstrating several concepts in functional programming with Python, such as: *args and **kwargs, iterators, generators, decorators, list comprehensions, and build-in functions.
 
