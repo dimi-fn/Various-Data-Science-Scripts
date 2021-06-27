@@ -83,7 +83,7 @@ Continuous Integration (CI) - Continuous Deployment (CD)
 
 -------
 
-* [Programming Languages](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr_Lang)
+* [Programming Languages](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Progr.%20Lang)
     * Python vs. JavaScript
 
 ------
