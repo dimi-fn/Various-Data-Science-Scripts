@@ -32,7 +32,7 @@ Solving problems via Unit Testing. The majority of the problem tasks are derived
 
 -----
 
-* [Virtual Environment](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env)
+* [Virtual Environment](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual%20Env)
 
 How to set up a virtual environment and generate a `requirements.txt` file with all the packages and dependencies installed.
 
