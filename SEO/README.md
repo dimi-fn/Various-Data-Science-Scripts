@@ -1,7 +1,3 @@
-*<i>I might update this repository while learning new content</i>
-
-----
-
 # Search Engine Optimization (SEO) Handbook
 
 **Definition**: In simple terms, SEO consists of the steps and processes undertaken so that the search visibility and ranking of your website by the search engines can be increased. In other words, you can use SEO so that your webpage can be shown up in the Search Engine Result Pages (SERPs) at a high-rank position, and so your potential customers/stakeholders can find you. 
