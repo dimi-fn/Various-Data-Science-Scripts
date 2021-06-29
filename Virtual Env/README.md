@@ -63,7 +63,7 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
 
 ## Set up on Linux
 
-Same rationale exists with that of the set up on Windows. Check the [requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements).
+Same rationale exists with that of the set up on Windows. Check the [requirements](#requirements).
 
 Main differences here are:
 - Instead of the directory "Scripts", **activate** the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the same example on that of windows type: 
