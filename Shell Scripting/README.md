@@ -2,7 +2,7 @@
 
 * [Shell Scripting](#shell-scripting)
     * [Bash](#bash)
-        * [Commands]#commands)
+        * [Commands](#commands)
         * [Hashbang](#hashbang)
 * [Bash Commands (Linux - MacOS - WSL)](#bash-commands-linux---macos---wsl)
     * [Intro](#intro)
