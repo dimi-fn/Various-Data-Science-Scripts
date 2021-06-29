@@ -14,7 +14,7 @@
 
 Several taks to be solved provided by [Codility](https://app.codility.com/programmers/) via unit testing. The problem details are described inside the respective subfolders and coding solutions.
 
-* [**Smallest_Positive_Number.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Codility/smallest_positive.py):  The smallest positive number which is not appeared in an array of numbers [[1](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing),[2](https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence)].
+* [Smallest_Positive_Number.py](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Codility/Smallest_Positive.py):  The smallest positive number which is not appeared in an array of numbers [[1](https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing), [2](https://stackoverflow.com/questions/51719848/find-the-smallest-positive-integer-that-does-not-occur-in-a-given-sequence)].
 
 
 * [**Password_Validation.py**](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Codility/Password_Validation.py): Creating a function for password validation.
