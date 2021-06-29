@@ -32,7 +32,7 @@ Subfolders:
 
 ### Time Complexity
 
-* [Perm_Missing_Element.py](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
+* [Perm_Missing_Element.py](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Codility/Time_Complexity/Perm_Missing_Element.py): Find the missing element in a given permutation.
 
 * [permutation_check.py](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Unit%20Testing/Codility/Counting_Elements/permutation_check.py): Check whether array A is a permutation [[8]](https://stackoverflow.com/questions/28178460/increasing-code-performance-of-codility).
 
