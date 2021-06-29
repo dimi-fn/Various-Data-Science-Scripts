@@ -313,7 +313,6 @@ Ask questions with natural language. It is enabled by default on dashboards. To 
 
 -------
 
-
 # Miscellaneous
 
 * [Create a template app in Power BI](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)
