@@ -1,15 +1,15 @@
 Contents
 =======================
 
-* [Reasons to Use Virtual Environment (venv)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#reasons-to-use-virtual-environment-venv)
-* [Requirements](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirements)
-* [Set up on Windows](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-windows)
-* [Set up on Linux](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#set-up-on-linux)
-* [requirements.txt](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#requirementstxt)
-    * [How to generate a requirements.txt for other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#how-to-generate-a-requirementstxt-for-other-developers)
-    * [How to install a requirements.txt file from other developers](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#how-to-install-a-requirementstxt-file-from-other-developers)
-* [General Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#general-notes)
-* [Sources](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual_Env#sources)
+* [Reasons to Use Virtual Environment (venv)](#reasons-to-use-virtual-environment-venv)
+* [Requirements](#requirements)
+* [Set up on Windows](#set-up-on-windows)
+* [Set up on Linux](#set-up-on-linux)
+* [requirements.txt](#requirementstxt)
+    * [How to generate a requirements.txt for other developers](#how-to-generate-a-requirementstxt-for-other-developers)
+    * [How to install a requirements.txt file from other developers](#how-to-install-a-requirementstxt-file-from-other-developers)
+* [General Notes](#general-notes)
+* [Sources](#sources)
 
 ## Reasons to Use Virtual Environment (venv)
 
