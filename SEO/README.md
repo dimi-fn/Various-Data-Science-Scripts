@@ -674,6 +674,11 @@ Links from external sources that point towards your website are perceived as con
 
 ## Featured Snippets on SERPs
 
+* [Google: Featured snippets and your website](https://developers.google.com/search/docs/advanced/appearance/featured-snippets)
+* [Ahrefs’ Study Of 2 Million Featured Snippets: 10 Important Takeaways](https://ahrefs.com/blog/featured-snippets-study/)
+* [How to Optimize for Google’s Featured Snippets](https://ahrefs.com/blog/find-featured-snippets/)
+* [How to Get a Google Featured Snippet for Your Website](https://www.hostpapa.ca/blog/marketing/how-to-get-a-google-featured-snippet-for-your-website/)
+
 ----
 
 # SEO Performance Evaluation
