@@ -44,6 +44,7 @@ As [Seth Stephens-Davidowitz](http://sethsd.com/?utm_source=convertkit&utm_mediu
   * [Content Planning & Strategy](#content-planning--strategy)
     * [Content Strategy](#content-strategy)
       * [Links Strategy](#links-strategy)
+  * [Featured Snippets on SERPs](#featured-snippets-on-serps)
 * [SEO Performance Evaluation](#seo-performance-evaluation)
   * [E-Commerce](#e-commerce)
 * [Rules of thumb](#rules-of-thumb)
@@ -670,6 +671,8 @@ Links from external sources that point towards your website are perceived as con
 * you want **backlinks** with high page and domain authority
   * you can examine the backlinks of other popular websites with similar content to you
   * by filling content gaps with your own content, you can build a series of websites network pointing at your website and referencing your product/services
+
+## Featured Snippets on SERPs
 
 ----
 
