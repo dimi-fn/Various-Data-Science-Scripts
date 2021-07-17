@@ -839,7 +839,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 [27] https://en.wikipedia.org/wiki/Zipf%27s_law
 
 
-<i>And various other sources found on hyperlinks across the script.</i>
+<i>And various other sources that can be found on hyperlinks across the script.</i>
 
 --------
 
