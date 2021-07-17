@@ -17,7 +17,7 @@ the class "Car" is created in the file called `car.py`, hence now `car` is a mod
 (`get_car_details.py`) with "`from car import Car`" command since we have car.py file (`from car`) and the name of the class was "Car" (`import Car`).
     
 ------------    
-### Sources
+### Useful Sources
 
 [1] https://www.w3schools.com/python/python_classes.asp
 

@@ -4,7 +4,7 @@ https://colab.research.google.com/drive/1iREPkOJqTVr8DpnUw6x9kexWshIXyAwX
 
 -----
 
-### Sources
+### Useful Sources
 [1] https://www.youtube.com/watch?v=ttiofs3n_hA&list=PLRD1Niz0lz1vPy6dwmGaEc5XGeKnGyMtA&ab_channel=CodewithAniaKub%C3%B3w
 
 [2] https://stackabuse.com/big-o-notation-and-algorithm-analysis-with-python-examples/

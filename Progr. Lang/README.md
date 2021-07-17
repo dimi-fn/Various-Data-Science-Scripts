@@ -25,10 +25,8 @@ Some of the main differences between Python and JavaScript:
 | def function_name(): | function function_name() {}|
 | class --> def __init__(self, arguments ) --> self.argument=argument  | class --> constructor(arguments) --> this.argument=argument |
 
-
-
 ----
 
-### Sources
+### Useful Sources
 
 [1] https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/?fbclid=IwAR0i8i0l0LxsAjIFlau_AC2Faq_yy63iE2uYEcmj4uiIoXLhK7TMegjn_dg

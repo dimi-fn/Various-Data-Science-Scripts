@@ -50,7 +50,7 @@ As [Seth Stephens-Davidowitz](http://sethsd.com/?utm_source=convertkit&utm_mediu
 * [Rules of thumb](#rules-of-thumb)
 * [Recommended Reading & Additional Research](#recommended-reading--additional-research)
 * [Appendix: Table of Useful Links](#appendix-table-of-useful-links)
-* [Sources](#sources)
+* [Useful Sources](#useful-sources)
 
 ----
 
@@ -782,7 +782,7 @@ In E-commerce, it is even more imperative to take advantage of the [schema.org M
 
 -----
 
-### Sources
+### Useful Sources
 
 [1] https://www.linkedin.com/learning/seo-foundations/
 

@@ -7,6 +7,7 @@
 * [Operations](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit%20Testing#operations)
 * Miscellaneous on Testing
     * [End-to-End Testing](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Unit%20Testing#end-to-end-testing)
+* [Useful Sources](#useful-sources)    
 
 -----
 
@@ -101,7 +102,7 @@ https://www.freecodecamp.org/news/end-to-end-testing-tutorial/?fbclid=IwAR0AjhwT
 
 ---------
 
-## Sources
+# Useful Sources
 
 [1] https://github.com/CoreyMSchafer/code_snippets/tree/master/Python-Unit-Testing
 

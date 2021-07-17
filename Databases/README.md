@@ -19,7 +19,7 @@ Contents
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL)    
 
 ----
-### Sources
+### Useful Sources
 
 *All possible code derived from the below sources belong to them.*
 

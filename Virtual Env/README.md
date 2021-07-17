@@ -9,7 +9,7 @@ Contents
     * [How to generate a requirements.txt for other developers](#how-to-generate-a-requirementstxt-for-other-developers)
     * [How to install a requirements.txt file from other developers](#how-to-install-a-requirementstxt-file-from-other-developers)
 * [General Notes](#general-notes)
-* [Sources](#sources)
+* [Useful Sources](#useful-sources)
 
 ## Reasons to Use Virtual Environment (venv)
 
@@ -123,10 +123,9 @@ After having created your project directory at which the venv will take place, t
     * Use "**pip list --local**" for the same use as "pip list" previously.
     * Use "**pip freeze --local**" for the same use as "pip freeze" previously.
 
-
 ------
 
-## Sources
+# Useful Sources
 
 [1] https://www.youtube.com/watch?v=APOPm01BVrk&ab_channel=CoreySchafer
 

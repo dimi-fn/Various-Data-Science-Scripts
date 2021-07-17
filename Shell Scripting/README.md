@@ -38,6 +38,7 @@
 * [Encryption](#encryption)
     * [Linux](#linux)
     * [Windows](#windows)
+* [Useful Sources](#useful-sources)    
 
 ----
 
@@ -713,7 +714,7 @@ Encryption Process:
 
 --------
 
-### Sources
+# Useful Sources
 
 [1] https://www.freecodecamp.org/news/the-linux-commands-handbook/?fbclid=IwAR0cqzksTg5lzwxMcjMTagSlSd0E0IUNj7KznpVxf1GsJr2kenys52Eaemo
 
