@@ -16,13 +16,13 @@ Contents
 
 * [Object-Oriented Programming (OOP)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/OOP)
 
-Classes and objects, encapsulation, inheritance, polymorphism, and exceptions in Python.
+Classes and objects, encapsulation, inheritance, polymorphism, and exception handling in Python.
 
 ---
 
 * [Functional Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Functional%20Programming)
 
-Demonstrating several concepts in functional programming with Python, such as: *args and **kwargs, iterators, generators, decorators, list comprehensions, and build-in functions.
+Demonstrating several concepts and practices in functional programming with Python, such as: functions, *args and **kwargs, iterators, generators, decorators, list comprehensions, and build-in functions.
 
 -----
 
