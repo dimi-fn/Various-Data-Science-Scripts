@@ -7,6 +7,7 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 * `*args - **kwargs`
 * `iterators - generators - decorators`
 * `def __init__(self, )`
+* `Functions`
 * ` List comprehensions`
 * **Functions**: `Lambda` / `Map` / `Reduce()` / `Zip`
 * `Recursive vs Iterative functions`
@@ -37,3 +38,5 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 [11] https://renanmf.com/the-python-guide-for-beginners/
 
 [12] https://docs.python.org/3/howto/functional.html
+
+[13] https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/
