@@ -12,6 +12,10 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 * **Functions**: `Lambda` / `Map` / `Reduce()` / `Zip`
 * `Recursive vs Iterative functions`
 
+<br>
+
+* Working with files (read-write files)
+
 
 ### Useful Sources
 
