@@ -2,7 +2,7 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 
 -----
 
-## Functional Programming
+## Functional Programming & more
 
 * `*args - **kwargs`
 * `iterators - generators - decorators`
