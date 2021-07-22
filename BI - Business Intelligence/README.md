@@ -147,6 +147,8 @@ There are two types:
 
 * Although apps are interactive, consumers (and colleagues who have access to those) cannot edit them. However they do not need Pro licenses to access the apps.
 
+* [Build a canvas app](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/3-build-canvas-app)
+
 -----
 
 # Import Data & Analysis
