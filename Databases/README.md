@@ -16,7 +16,13 @@ Contents
 
     * Various commands on SQL
 
-* [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL)    
+* Introduction to SQL - by Bobby Iliev
+    * [github](https://github.com/bobbyiliev/introduction-to-sql)
+    * [e-book](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/Intro%20to%20SQL__Boby_Iliev.pdf)
+
+* [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
+
+
 
 ----
 ### Useful Sources
