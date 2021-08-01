@@ -8,13 +8,13 @@ https://colab.research.google.com/drive/1rf4b0EglqpmpdWNwHJ8MrUHu-VC95KyF?usp=sh
 * `iterators - generators - decorators`
 * `def __init__(self, )`
 * `Functions`
-* ` List comprehensions`
+* `Dictionary & List comprehensions`
 * **Functions**: `Lambda` / `Map` / `Reduce()` / `Zip`
 * `Recursive vs Iterative functions`
 
 <br>
 
-* Working with files (read-write files)
+* `Working with files (read-write-delete files)`
 
 
 ### Useful Sources
