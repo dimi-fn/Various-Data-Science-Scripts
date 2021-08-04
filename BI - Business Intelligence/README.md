@@ -150,6 +150,7 @@ There are two types:
 * [Microsoft Power Apps](https://powerapps.microsoft.com/en-au/demo/?ocid=eml_pg202725_gdc_comm_ba&mkt_tok=MTU3LUdRRS0zODIAAAF-i69HWjJLKMsKUBucryyCsv2mOy39Iu0iVtxp27MyTfTPF52icYA5idZ1yECfgrNTY3iyYEkWpbb90zGYXRkYWNwgYdxjusDb1gUMcMzsNSe5472Y9PvA4gc)
 
 * [Build a canvas app](https://docs.microsoft.com/en-us/learn/modules/build-app-solution/3-build-canvas-app)
+    * [Overview of connectors for canvas apps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/connections-list)
 
 -----
 
