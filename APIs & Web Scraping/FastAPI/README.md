@@ -17,4 +17,10 @@ It is a modern, fast, and high-performance web framework for building APIs with 
     
         `pip install uvicorn`
 
-    
+--- 
+
+## Resources
+
+* https://fastapi.tiangolo.com/
+
+* https://www.youtube.com/watch?v=tLKKmouUams&ab_channel=freeCodeCamp.org
