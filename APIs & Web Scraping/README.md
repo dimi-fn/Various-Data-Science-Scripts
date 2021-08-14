@@ -7,8 +7,6 @@
 * [Fast API](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping/FastAPI)
     * Installation guide and a script file with an example project
 
-<br>
-
 * [Fetch API, Common API Requests](https://www.freecodecamp.org/news/fetch-api-cheatsheet/?fbclid=IwAR0bTl4GAVhbUqA768JJZ0_j6Jx-T9Cxo0LF7_X71QI1SH0Q1xg_CV9Wx40)
 
 * [Rest API](https://www.freecodecamp.org/news/benefits-of-rest/?fbclid=IwAR2LFsVI8WU2E0FuitlouBIi0xuX0J2yPyqM527qbJnQ8CSX-cjXUZBu55Y)
