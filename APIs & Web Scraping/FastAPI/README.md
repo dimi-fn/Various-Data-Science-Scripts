@@ -1,5 +1,5 @@
 # FastAPI
-It is a modern, fast, and high-performance web framework for building APIs with Python
+It is a modern, fast, and high-performance web framework for building APIs with Python.
 
 * [Fast API with Python](https://www.youtube.com/watch?v=tLKKmouUams&ab_channel=freeCodeCamp.org)
 
