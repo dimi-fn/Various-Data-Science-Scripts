@@ -1,9 +1,10 @@
-https://colab.research.google.com/drive/14fvV4towI_jA5cYneD4cOArsPU9bcxR8?usp=sharing
-
-
 ## Data_Types_&_Structures
 
-Investigating data types and data structures in programming with a focus on Python.
+[Shared colab notebook](https://colab.research.google.com/drive/14fvV4towI_jA5cYneD4cOArsPU9bcxR8?usp=sharing)
+
+[Data Structures with Python by codewithtomi.com](https://www.dropbox.com/s/bpof9qic77kjlfj/PYTHON%20DATA%20STRUCTURES%20%281%29.pdf?dl=0)
+
+----
 
 ### Useful Sources
 
