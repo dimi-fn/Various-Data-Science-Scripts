@@ -101,8 +101,4 @@ def create_car(car_id : int, car : Car ):
     cars[car_id] = car
     return cars[car_id]
 
-print(cars)
 
-'''Put Method: update something that already exists'''
-@app.put("/update-car/{car_id}")
-def update_car
