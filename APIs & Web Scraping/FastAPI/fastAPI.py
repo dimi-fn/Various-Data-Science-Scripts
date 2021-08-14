@@ -7,11 +7,10 @@ from typing import Optional #for displaying optional query parameters
 from pydantic import BaseModel
 from starlette.background import BackgroundTask # create request body with Post method
 
-
-
 # create instance of the FastAPI object
 app = FastAPI()
 
+# give some data
 cars = {
     1: {
         "brand" : "mercedes",
@@ -49,7 +48,7 @@ def index():
 # to activate the web server, run via terminal: uvicorn fastAPI:app --reload
 
 
-'''Path Parameters'''
+'''Get Method: Path Parameters'''
 @app.get("/get-car/{car_id}")
 # if Path is "None" then give a description
 # number should be greater (gt) than -1 and less than 3001
@@ -61,6 +60,7 @@ def get_car(car_id: int = Path(None, description= "Type below the correct ID of 
 
 # URL/<path parameter>/<value> --> e.g.: http://127.0.0.1:8000/get-car/-1 will give Error 422 "Unprocessable Entity" because we ask for numbers greater than lt=-1
 # URL/<path parameter>/<value> --> e.g.: http://127.0.0.1:8000/get-car/3001 will give Error 422 "Unprocessable Entity" because we ask for numbers less than lt=3001
+
 
 '''Query Parameter'''
 @app.get("/get-by-model")
@@ -86,13 +86,15 @@ def get_car(*, car_id:int, brand: Optional [str]=None, model: Optional[str]=None
     '''
     return cars[car_id]
 
+
 '''Request Body via BaseModel - Post Method'''
 class Car(BaseModel):
     brand: str
     model: str
     make_year: int
 
-# create Path with Post method
+
+'''Post Method: create Path with Post method'''
 @app.post("/create-car/{car_id}")
 def create_car(car_id : int, car : Car ):
     if car_id in cars:
@@ -101,21 +103,38 @@ def create_car(car_id : int, car : Car ):
     cars[car_id] = car
     return cars[car_id]
 
+
 '''Put Method: update something that already exists'''
 class UpdateCar(BaseModel):
     brand: Optional[str] = None
-    model: str = None
-    make_year: int = None
-
-
+    model: Optional[str] = None
+    make_year: Optional[int] = None
 
 @app.put("/update-car/{car_id}")
 def update_car(car_id:int, car:UpdateCar):
     if car_id not in cars:
         return {"Error":"This car id cannot be updated because it does not exist!"}
 
-    #if car.brand
+    # let unchanged variables by user as they previously already were (otherwise they will lose their value while updating the key)
+    if car.brand != None:
+        cars[car_id].brand = car.brand
+    
+    if car.model != None:
+        cars[car_id].model = car.model
+
+    if car.make_year != None:
+        cars[car_id].make_year = car.make_year
 
     #else
-    cars[car_id] = car
     return cars[car_id]
+
+
+'''Delete Method'''
+@app.delete("/delete-car/{car_id}")
+def delete_car(car_id:int):
+    if car_id not in cars:
+        return {"Error":"This car id cannot be deleted because it does not exist!"}
+
+    #else
+    del cars[car_id]
+    return {"Message" : "Car with id:{} successfully deleted!".format(car_id)}
