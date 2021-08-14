@@ -5,6 +5,7 @@
 * [Types, Specifications, Documentation](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 
 * [Fast API](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping/FastAPI)
+    * Installation guide and a script file with an example project
 
 <br>
 
