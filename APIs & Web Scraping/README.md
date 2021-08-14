@@ -6,7 +6,6 @@
 
 * [Fast API](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping/FastAPI)
 
-
 <br>
 
 * [Fetch API, Common API Requests](https://www.freecodecamp.org/news/fetch-api-cheatsheet/?fbclid=IwAR0bTl4GAVhbUqA768JJZ0_j6Jx-T9Cxo0LF7_X71QI1SH0Q1xg_CV9Wx40)
