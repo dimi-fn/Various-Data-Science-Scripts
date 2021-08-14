@@ -24,8 +24,10 @@ It is a modern, fast, and high-performance web framework for building APIs with 
 *Note: the script filename should be written without the .py suffix*      
 
 * After the above step, copy and navigate to the uvivorn URL adress given in the terminal
-        * `URL/docs` for displaying the current documentation of your FastAPI script
-        * `URL/<method>/<value>`
+        
+  * `URL/docs` for displaying the current documentation of your FastAPI script
+
+  * `URL/<method>/<value>`
 
 
 --- 
