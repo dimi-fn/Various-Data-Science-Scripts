@@ -42,5 +42,5 @@ def index():
 def get_car(car_id: int = Path(None, description= "Type below the correct ID of the car you want to view")):
     return cars[car_id]
 
-# `URL/<method>/<value>` --> e.g.: http://127.0.0.1:8000/get-car/1 will give the values of the car with key==1
-# `URL/<method>/<value>` --> e.g.: http://127.0.0.1:8000/get-car/10 will give "Internal Server Error" because no such value exists
+# URL/<path parameter>/<value> --> e.g.: http://127.0.0.1:8000/get-car/1 will give the values of the car with key==1
+# URL/<path parameter>/<value> --> e.g.: http://127.0.0.1:8000/get-car/10 will give "Internal Server Error" because no such value exists

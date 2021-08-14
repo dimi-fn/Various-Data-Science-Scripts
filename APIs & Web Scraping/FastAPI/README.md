@@ -27,7 +27,7 @@ It is a modern, fast, and high-performance web framework for building APIs with 
         
   * `URL/docs` for displaying the current documentation of your FastAPI script
 
-  * `URL/<method>/<value>`
+  * `URL/<path parameter>/<value>` to get a specific value from a method (path parameter)
 
 
 --- 
