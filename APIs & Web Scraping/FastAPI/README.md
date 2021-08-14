@@ -11,8 +11,10 @@ It is a modern, fast, and high-performance web framework for building APIs with 
 
 * Install fastapi: 
 
-               python -m pip install fastapi
+        python -m pip install fastapi
 
-* Install uvicorn for running the webserver: `pip install uvicorn`
+* Install uvicorn for running the webserver: 
+    
+        `pip install uvicorn`
 
     
