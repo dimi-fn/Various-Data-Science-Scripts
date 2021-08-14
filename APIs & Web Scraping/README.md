@@ -2,11 +2,9 @@
 
 [A collective list of free APIs for use in software and web development](https://github.com/public-apis/public-apis)
 
-<br>
-
 * [Types, Specifications, Documentation](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 
-* [Fast API]()
+* [Fast API](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping/FastAPI)
 
 
 <br>
