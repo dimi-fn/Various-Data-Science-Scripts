@@ -101,4 +101,21 @@ def create_car(car_id : int, car : Car ):
     cars[car_id] = car
     return cars[car_id]
 
+'''Put Method: update something that already exists'''
+class UpdateCar(BaseModel):
+    brand: Optional[str] = None
+    model: str = None
+    make_year: int = None
 
+
+
+@app.put("/update-car/{car_id}")
+def update_car(car_id:int, car:UpdateCar):
+    if car_id not in cars:
+        return {"Error":"This car id cannot be updated because it does not exist!"}
+
+    #if car.brand
+
+    #else
+    cars[car_id] = car
+    return cars[car_id]

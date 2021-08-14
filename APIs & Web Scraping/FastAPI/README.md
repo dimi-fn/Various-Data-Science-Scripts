@@ -29,6 +29,11 @@ It is a modern, fast, and high-performance web framework for building APIs with 
 
   * `URL/<path parameter>/<value>` to get a specific value from a method (path parameter)
 
+<br>
+
+| Error Code| Error Message| Error Description|
+|-------|----------------|------------|
+|test|test|test|
 
 --- 
 
