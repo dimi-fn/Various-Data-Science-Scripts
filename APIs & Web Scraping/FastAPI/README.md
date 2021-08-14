@@ -33,7 +33,7 @@ It is a modern, fast, and high-performance web framework for building APIs with 
 
 | Error Code| Error Message| Error Description|
 |-------|----------------|------------|
-| 500 | |Internal Server Error| Data does not exist|
+| 500 |Internal Server Error| Data does not exist|
 |422|Unprocessable Entity|Data is out of boundaries that we've set|
 
 --- 
