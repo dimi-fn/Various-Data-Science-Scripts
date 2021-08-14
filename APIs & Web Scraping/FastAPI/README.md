@@ -13,9 +13,20 @@ It is a modern, fast, and high-performance web framework for building APIs with 
 
         python -m pip install fastapi
 
-* Install uvicorn for running the webserver: 
+* Install uvicorn for running the web server: 
     
-        `pip install uvicorn`
+        pip install uvicorn
+
+* Activate the web server: via the terminal, navigate to the path that hosts the fastAPI python script, and run: 
+
+        uvicorn script_filename:app --reload
+
+*Note: the script filename should be written without the .py suffix*      
+
+* After the above step, copy and navigate to the uvivorn URL adress given in the terminal
+        * `URL/docs` for displaying the current documentation of your FastAPI script
+        * `URL/<method>/<value>`
+
 
 --- 
 
