@@ -6,7 +6,9 @@
 
 * [Types, Specifications, Documentation](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 
-* [Fast API with Python](https://www.youtube.com/watch?v=tLKKmouUams&ab_channel=freeCodeCamp.org)
+* Fast API
+    * [Fast API with Python](https://www.youtube.com/watch?v=tLKKmouUams&ab_channel=freeCodeCamp.org)
+    * [Fast API Cheat Sheet - by codewithtomi.com](https://www.dropbox.com/s/bw4lektx9x9467i/FastAPI%20Cheat%20Sheet.pdf?dl=0)
 
 * [Fetch API, Common API Requests](https://www.freecodecamp.org/news/fetch-api-cheatsheet/?fbclid=IwAR0bTl4GAVhbUqA768JJZ0_j6Jx-T9Cxo0LF7_X71QI1SH0Q1xg_CV9Wx40)
 
