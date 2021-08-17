@@ -337,3 +337,5 @@ Ask questions with natural language. It is enabled by default on dashboards. To 
 [2] https://spreadsheeto.com/power-bi-desktop-vs-online/
 
 [3] https://chartio.com/blog/dashboards-vs-reports-how-theyre-the-same-how-theyre-different/
+
+[4] https://docs.microsoft.com/en-us/learn/browse/?terms=power%20apps&resource_type=learning%20path
