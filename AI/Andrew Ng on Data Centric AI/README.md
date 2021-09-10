@@ -6,7 +6,8 @@ Source: https://www.youtube.com/watch?v=06-AZXmwHjo&ab_channel=DeepLearningAI
 ----------------
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/ai%20cycle.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/ai%20cycle.PNG" alt="">
+  
 </p>
 
 # Model-centric vs Data-centric AI
@@ -25,7 +26,7 @@ Basically, instead of trying to increase accuracy via a better model, go find **
 -----------------------
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/clean_noise.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/clean_noise.PNG" alt="">
 </p>
 
 ------
@@ -34,26 +35,26 @@ Below:
 * E.g. you have collected 500 training examples. You can either now increase accuracy by cleaning your existing dataset, or you can collect more data to achieve that
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/no_of_training_data.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/no_of_training_data.PNG" alt="">
 </p>
 
 ------
 
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/data_vs_model_centric.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/data_vs_model_centric.PNG" alt="">
 </p>
 
 
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/data_vs_model_centric2.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/data_vs_model_centric2.PNG" alt="">
 </p>
 
 
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/data_vs_model_centric3.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/data_vs_model_centric3.PNG" alt="">
 </p>
 
 ----------------------
@@ -65,7 +66,7 @@ AI Systems = Code + Data
 <br>
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/ai_systems.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/ai_systems.PNG" alt="">
 </p>
 
 ## MLOps vs DevOps
@@ -74,19 +75,19 @@ AI Systems = Code + Data
 * MLOps are the 3 figures in "AI software"
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/dvops_vs_mlops.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/dvops_vs_mlops.PNG" alt="">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/mlops_consistency.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/mlops_consistency.PNG" alt="">
 </p>
 
 <br>
 
 <p align="center">
-  <img src="https://github.com/dimi-fn/Online_Courses_Strath_et_etc/blob/master/Andrew%20on%20MLOps/img/big%20data_vs_good%20data.PNG" alt="">
+  <img src="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI/img/big%20data_vs_good%20data.PNG" alt="">
 </p>
 
 ----------------------------------------
