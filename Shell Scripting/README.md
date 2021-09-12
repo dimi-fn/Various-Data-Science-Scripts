@@ -614,7 +614,8 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 * access network path by creative a map drive
     * `pushd <path>`
-    * to delete mapped drives: first navigate to any other drive except the one to be deleted, then `net use /del <mappedDriveName>:`
+        * to delete mapped drives: first navigate to any other drive except the one to be deleted, then `net use /del <mappedDriveName>:`
+    * [or](https://superuser.com/a/52222), `net use X: \\SERVER\Share`
 
 ## Search Paths - Files
 
