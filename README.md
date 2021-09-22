@@ -24,7 +24,7 @@ Classes and objects, encapsulation, inheritance, polymorphism, and exception han
 
 Demonstrating several concepts and practices in functional programming with Python, such as: functions, *args and **kwargs, iterators, generators, decorators, list comprehensions, and build-in functions.
 
-Also: working with files.
+Also: working with files (read-write-delete files).
 
 -----
 
