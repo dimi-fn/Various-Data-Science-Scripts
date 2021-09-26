@@ -2,7 +2,7 @@
 
 Contents
 ========
-[Google_stock_price]()
+* [Google_stock_price](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Projects/Streamlit/Google_stock_price)
 
 
 -----
