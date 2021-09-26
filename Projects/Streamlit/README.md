@@ -11,4 +11,4 @@ Contents
 
 * To run apps hosted on streamlit:
 
-    streamlit run <app_name>.py
+        streamlit run <app_name>.py
