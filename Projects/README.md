@@ -1,9 +1,13 @@
 # Projects
 
-* [Streamlit]()
+* [Google Stock Price](https://github.com/dimi-fn/Google-Stock-Price)
 
-----
+* [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
 
-## Sources
+* [Emotion Recognition in Movie Synopses](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts)
 
-[1] https://www.youtube.com/watch?v=ZZ4B0QUHuNc&list=PLtqF5YXg7GLmCvTswG32NqQypOuYkPRUE&ab_channel=DataProfessor
+* [Kannada MNIST Digits Recognition](https://github.com/dimi-fn/Kannada-MNIST-Digits)
+
+* [Spotify Songs - Data Analysis](https://github.com/dimi-fn/Spotify-Songs)
+
+* [Google Play Store Apps](https://github.com/dimi-fn/Google-Play-Store-Apps)
