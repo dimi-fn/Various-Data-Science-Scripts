@@ -113,7 +113,5 @@ Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
 * [Projects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Projects)
 
-Various small projects.
-
 -----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
