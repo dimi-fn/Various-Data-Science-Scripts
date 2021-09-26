@@ -29,18 +29,20 @@ of a folder called: "venv_project", then cmd C:\Users\the path you choose\ -->ty
 
 2. Create your **virtual environment**: being in the above path, i.e. C:\Users\the path you have chosen\venv_project -->type--> "python -m venv your_venv_name"
 
-Let's suppose you want the name of your virtual environment to be called "venv1", then via cmd being at C:\Users\the path you have chosen\venv_project -->type--> 
+Let's suppose you want the name of your virtual environment to be called "venv", then via cmd being at C:\Users\the path you have chosen\venv_project -->type--> 
     
 
-    $ python -m venv venv1
+    $ python -m venv venv
+
+if you want the name of venv to be called something else, then you can customize it, e.g. <python -m venv venv1> 
 
 3. You will now have successfully created your virtual environment if you are seeing three folders named "**Include**", "**Lib**", "**Scripts**", and one "**pyenv.cfg**" file created inside the venv directory.
 
 - To **activate** your virtual environment: 
-    * navigate inside the project path (C:\Users\the path you have chosen\venv_project\venv1)
-    * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\venv_project\venv1\Scripts)
+    * navigate inside the project path (C:\Users\the path you have chosen\venv_project\venv)
+    * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\venv_project\venv\Scripts)
     * Type: `$ activate.bat`
-    * You will now notice the change in the start of your path in the cmd (it starts with "(venv1) C:\Users\..\"), and the virtual environment is now activated.
+    * You will now notice the change in the start of your path in the cmd (it starts with "(venv) C:\Users\..\"), and the virtual environment is now activated.
         
         * If you type "*where python*", the 1st will be the venv path.
         * If you type `$ pip list`, you will only see pips of the venv (**venv pips**), which would probably be "pip" and "setuptools". Notice that if you "pip list" outside your venv, then you will understand the difference by viewing the list of packages installed on your system installation of Python (**global pips**).
@@ -50,13 +52,13 @@ Let's suppose you want the name of your virtual environment to be called "venv1"
 
 * You can always make sure you are navigating in the venv environment by looking at the very left part of the path.
 
-* Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\venv_project\venv1\ --> pip install pandas). This will install pandas only in this virtual environment.
+* Suppose you type "pip install pandas", installing the pandas packages by being in your venv project (C:\Users\the path you have chosen\venv_project\venv\ --> pip install pandas). This will install pandas only in this virtual environment.
     * Now, if you "*pip list*" you will also see pandas installed (along with the two default pips).
     * If you "*pip freeze*", you will only see the pandas package, as this was the only pip executed in this virtual environment. Another difference is that the output of pip freeze generates the versions of the packages in the right format, which is useful later on for the *requirements.txt* file creation and extraction.
     * The above explains the main *difference between pip list and pip freeze*.
 
 - To **deactivate** your venv:
-    * `$ deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv1\Scripts\deactivate.bat)
+    * `$ deactivate.bat` (C:\Users\the path you have chosen\venv_project\venv\Scripts\deactivate.bat)
 
 - To **delete** your venv:
     * delete the directory with rmdir "venv_project" /s (being outside of that path in the terminal), or just delete the virtual environment folder manually.
@@ -68,7 +70,7 @@ Same rationale exists with that of the set up on Windows. Check the [requirement
 Main differences here are:
 - Instead of the directory "Scripts", **activate** the venv through the "bin" folder via the command: "source 'path to project'/'name of venv'/bin/activate, i.e. for the same example on that of windows type: 
 
-        $ source 'the path you have chosen'/venv_project/venv1/bin/activate
+        $ source 'the path you have chosen'/venv_project/venv/bin/activate
 
 - To **deactivate**: $ deactivate
 
@@ -79,7 +81,7 @@ Main differences here are:
 
 In order to **generate a requirements.txt file** which could potentially be used by other developers to run your project: 
 
-* Go to your venv project path, cd to Scripts: i.e. C:\Users\the path you have chosen\venv_project\venv1\Scripts
+* Go to your venv project path, cd to Scripts: i.e. C:\Users\the path you have chosen\venv_project\venv\Scripts
 * Check your installed-only for this project packages via: "`pip freeze`".
 * Extract those to a txt file via the command:
 
@@ -91,7 +93,7 @@ In order to **generate a requirements.txt file** which could potentially be used
 
 * You might want to transfer all packages and dependencies from one project to another project or machine automatically and not just manually. After creating a new venv to the new project/machine, if you do "pip freeze" you won't see any pip installed as expected (since you just created the venv).
 
-* paste the "requirements.txt" of the developer into the folder of your venv project, in its "Scripts" subfolder, i.e. at C:\Users\the path you have chosen\venv_project\venv1\Scripts
+* paste the "requirements.txt" of the developer into the folder of your venv project, in its "Scripts" subfolder, i.e. at C:\Users\the path you have chosen\venv_project\venv\Scripts
 
 * to **install the packages** cmd:
 
