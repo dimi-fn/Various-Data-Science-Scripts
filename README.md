@@ -110,4 +110,10 @@ Search Engine Optimization (SEO) & Information Retrieval (IR)
 Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
 -----
+
+* [Projects]()
+
+Various small projects.
+
+-----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
