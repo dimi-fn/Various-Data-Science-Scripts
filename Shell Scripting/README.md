@@ -609,6 +609,8 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
     * `rmdir ""` /s (if it has files inside)
 
 * delete file: `del /f "filename"`
+    * delete all files with a particular extension, e.g. all csv files: `del *.csv`
+    * delete multiple files: del file1 file2...
 
 * ip details: `ipconfig`
 
