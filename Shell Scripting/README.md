@@ -34,7 +34,7 @@
 * [Windows Terminal - Commands](#windows-terminal---commands)
     * [Search Paths - Files](#search-paths---files)
     * [find](#find-windows)
-* [To Further Explore](#to-further-explore)
+* [More on Bash Scripting](#more-on-bash-scripting)
 * [Encryption](#encryption)
     * [Linux](#linux)
     * [Windows](#windows)
@@ -632,7 +632,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 
 -------
 
-# To Further Explore
+# More on Bash Scripting
 
 * [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh)
 
