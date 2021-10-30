@@ -38,6 +38,7 @@
 * [Encryption](#encryption)
     * [Linux](#linux)
     * [Windows](#windows)
+* [Security]    
 * [Useful Sources](#useful-sources)    
 
 ----
@@ -714,6 +715,12 @@ Encryption Process:
 <b>
 
 [Back up - Transfer your Keys](https://gpgtools.tenderapp.com/kb/gpg-keychain-faq/backup-or-transfer-your-keys)
+
+--------
+
+# Security
+
+* [How to Secure Linux Servers with SE Linux](https://www.freecodecamp.org/news/securing-linux-servers-with-se-linux/)
 
 --------
 
