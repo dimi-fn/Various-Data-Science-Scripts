@@ -5,7 +5,7 @@
 * [Kubernetes vs. Docker, by Azure](https://azure.microsoft.com/en-us/topic/kubernetes-vs-docker/)
 
 * Docker
-    * [Free Introduction to Docker eBook](https://devdojo.com/bobbyiliev/free-introduction-to-docker-ebook), [](Intro to Docker - ebook by)
+    * [Free Introduction to Docker eBook](https://devdojo.com/bobbyiliev/free-introduction-to-docker-ebook), [Intro to Docker - Opensource ebook by Bobby Iliev](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Containers/introduction-to-docker-dark.pdf)
 
 ### Sources
 
