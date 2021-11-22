@@ -1,1 +1,1 @@
-[Shared Google Colab notebook for Usa cars dataset](https://colab.research.google.com/drive/1qGeJVONcew_HU1syw9Z-alHTSmL4rltZ)
+[Shared Google Colab notebook for: USA Cars dataset - Predicting the price of cars](https://colab.research.google.com/drive/1qGeJVONcew_HU1syw9Z-alHTSmL4rltZ)
