@@ -19,4 +19,4 @@ Contents on directory
 
 * [Hands-on Machine Learning with Aurelien Geron](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Hands_on_ML)
 
-* [Projects](??????????????????????????????)
+* [Projects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Projects)
