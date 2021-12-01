@@ -119,8 +119,12 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ## General
 
-* updates: `sudo apt-get update` | `sudo apt-get upgrade`
-    * enable the firewall: `sudo ufw enable`
+* updates: 
+    * `sudo apt-get update` 
+    * `sudo apt-get upgrade`
+    * `sudo apt-get dist-upgrade`
+        
+* enable the firewall: `sudo ufw enable`
 
 * `reboot` / `shutdown now` / `systemctl suspend` (like "sleep" on Windows)/ `systemctl hibernate`
 
