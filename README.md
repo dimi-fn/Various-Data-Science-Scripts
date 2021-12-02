@@ -85,7 +85,7 @@ Continuous Integration (CI) - Continuous Deployment (CD)
 
 -------
 
-* [Programming](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Programming)
+* [Programming (general)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Programming)
     * Regular Expressions in Python
     * Python vs. JavaScript
 
