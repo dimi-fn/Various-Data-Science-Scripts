@@ -123,10 +123,12 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * `sudo apt-get update` 
     * `sudo apt-get upgrade`
     * `sudo apt-get dist-upgrade`
+        * the three above commands into one: `sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade`
         
 * enable the firewall: `sudo ufw enable`
 
-* `reboot` / `shutdown now` / `systemctl suspend` (like "sleep" on Windows)/ `systemctl hibernate`
+* `reboot` / `shutdown now` / `systemctl suspend` (like the "sleep" mode on Windows)/ `systemctl hibernate`
+    * [suspend vs hibernate](https://askubuntu.com/questions/3369/what-is-the-difference-between-hibernate-and-suspend)
 
 * Ubuntu version: `lsb_release -a`
 
