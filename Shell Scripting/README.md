@@ -123,7 +123,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * `sudo apt-get update` 
     * `sudo apt-get upgrade`
     * `sudo apt-get dist-upgrade`
-        * the three above commands into one: `sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade`
+        * the three commands above into one: `sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade`
         
 * enable the firewall: `sudo ufw enable`
 
