@@ -52,7 +52,8 @@ How to set up a virtual environment and generate a `requirements.txt` file with 
 ------
 
 * [Web Development](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development)
-    * HTML, CSS, JavaScript
+    * [Responsive Web Design](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/Responsive%20Web%20Design) (HTML, CSS)
+    * [JavaScript]()
 
 ------
 
