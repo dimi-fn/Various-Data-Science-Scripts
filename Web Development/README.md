@@ -5,7 +5,7 @@ Keeping notes while learning web development modules based on the [freeCodeCamp]
 Contents
 =======================
 
-* [Responsive Web Design]()
+* [Responsive Web Design](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/Responsive%20Web%20Design)
     * HTML, CSS
 * [JavaScript]()
 
