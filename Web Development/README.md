@@ -1,12 +1,12 @@
 # Web Development
 
-Keeping notes while learning stuff on [freeCodeCamp](https://www.freecodecamp.org/)
+Keeping notes while learning web development modules based on the [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
 
 Contents
 =======================
 
-* [HTML](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/HTML)
-* [CSS]()
+* [Responsive Web Design]()
+    * HTML, CSS
 * [JavaScript]()
 
 ----
