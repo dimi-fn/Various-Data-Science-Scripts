@@ -6,7 +6,7 @@ Contents
 * [HTML](#html)
     * [HTML Tags](#html-tags)
     * [Images](#images)
-    * []()
+    * [Links](#links)
 * [CSS]()
 
 ----
@@ -34,3 +34,8 @@ E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="
 
 <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
 
+## Links
+
+Use the `a` *element* that points to a specific url
+
+E.g. this code: `<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>` will give this: <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
