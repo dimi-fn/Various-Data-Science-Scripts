@@ -5,7 +5,7 @@ Keeping notes while learning stuff on [freeCodeCamp](https://www.freecodecamp.or
 Contents
 =======================
 
-* [HTML]()
+* [HTML](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/HTML)
 * [CSS]()
 * [JavaScript]()
 
