@@ -1,6 +1,6 @@
 # Web Development
 
-Keeping notes while learning stuff on [freeCodeCamp](https://www.freecodecamp.org/learn/)
+Keeping notes while learning stuff on [freeCodeCamp](https://www.freecodecamp.org/)
 
 Contents
 =======================
