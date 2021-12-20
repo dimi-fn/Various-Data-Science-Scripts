@@ -10,6 +10,7 @@ Contents
         * [External Links](#external-links)
         * [Internal Links](#internal-links)
         * [More about Links](#more-about-links)
+    * [Lists](#lists)
 * [CSS]()
 
 ----
@@ -65,3 +66,7 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
 
+## Lists
+
+* unordered: `<ul>` element followed by `<li>` elements
+* ordered: `<ol>` element followed by `<li>` elements
