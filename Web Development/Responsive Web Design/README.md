@@ -59,5 +59,6 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 * Use the `target="_blank"` anchor tag attribute in the anchor tag to open the link to a new window tab.
 
 * Turn an **image into a link**: you can nest your image within an `a` element. E.g. this code: `<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>` will give the image below and you can click upon that:
+
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
 
