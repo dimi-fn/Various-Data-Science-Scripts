@@ -7,6 +7,9 @@ Contents
     * [HTML Tags](#html-tags)
     * [Images](#images)
     * [Links](#links)
+        * [External Links](#external-links)
+        * [Internal Links](#internal-links)
+        * [More about links](#more-about-links)
 * [CSS]()
 
 ----
@@ -36,6 +39,25 @@ E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="
 
 ## Links
 
-Use the `a` *element* that points to a specific url
+### External Links
 
-E.g. this code: `<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>` will give this: <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
+Use the `a` *anchor element* that points to a specific url (external link), and provide an anchor text alongside with that.
+* E.g. of an external link: `<a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>` will give this: <a href="https://www.freecodecamp.org">this links to freecodecamp.org</a>
+
+### Internal Links
+
+To create an internal link, you assign a link's `href` *attribute* to a hash symbol `#` plus the value of the *id attribute* for the element that you want to internally link to, usually further down the page. You then need to add the same id attribute to the element you are linking to. An id is an attribute that uniquely describes an element.
+* Example: 
+
+        <a href="#contacts-header">Contacts</a>
+        ...
+        <h2 id="contacts-header">Contacts</h2>
+
+
+### More about links
+
+* Use the `target="_blank"` anchor tag attribute in the anchor tag to open the link to a new window tab.
+
+* You can nest your image within an a element. E.g. this code: `<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>` will give the following:
+
+<a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
