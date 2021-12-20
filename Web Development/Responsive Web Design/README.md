@@ -26,7 +26,8 @@ Comments:
 * Use the `img` *element* and the `src` *attribute*
     * e.g. `<img src="https://www.freecatphotoapp.com/your-image.jpg">`
 
-* img elements must have an alt attribute. The text inside an `alt` *attribute* is used for screen readers to improve accessibility and is displayed if the image fails to load.   
+* img elements must have an `alt` *attribute*. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.  
+    * Ideally the alt attribute should not contain special characters unless needed
 
 
 E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">` will give the following:
