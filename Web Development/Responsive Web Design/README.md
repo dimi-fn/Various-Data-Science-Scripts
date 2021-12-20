@@ -11,6 +11,7 @@ Contents
         * [Internal Links](#internal-links)
         * [More about Links](#more-about-links)
     * [Lists](#lists)
+    * [Text Fields](#text-fields)
 * [CSS]()
 
 ----
@@ -70,3 +71,8 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 * unordered: `<ul>` element followed by `<li>` elements
 * ordered: `<ol>` element followed by `<li>` elements
+
+## Text Fields
+
+* `<input type="text"> `
+    * use `placeholder` for displaying a default text upon the text field
