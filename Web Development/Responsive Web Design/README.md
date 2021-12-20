@@ -31,13 +31,14 @@ Comments:
 
 * img elements must have an `alt` *attribute*. The text inside an alt attribute is used for screen readers to improve accessibility and is displayed if the image fails to load.  
     * Ideally the alt attribute should not contain special characters unless needed
+    * You can also use `title` to display a message when you hover over the image. [This is different from using the alt attribute](https://stackoverflow.com/questions/872389/html-img-tag-title-attribute-vs-alt-attribute)
 
 
-E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">` will give the following:
+E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">` will give the following:
 
-<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
+<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
 
-You can also title `title` to display a message when you hover over the image. [This is different from using the alt attribute](https://stackoverflow.com/questions/872389/html-img-tag-title-attribute-vs-alt-attribute)
+
 
 ## Links
 
