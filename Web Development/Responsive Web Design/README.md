@@ -37,6 +37,8 @@ E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="
 
 <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie.">
 
+You can also title `title` to display a message when you hover over the image. [This is different from using the alt attribute](https://stackoverflow.com/questions/872389/html-img-tag-title-attribute-vs-alt-attribute)
+
 ## Links
 
 ### External Links
