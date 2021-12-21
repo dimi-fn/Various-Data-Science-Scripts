@@ -3,79 +3,94 @@
 <!-- <html lang="en"> -->
 
     <head>
+
+        <title>Learn HTML!</title>
+    
+        <meta />
+
         <style>
         </style>
+    
     </head>
 
     <body>
 
-        <h1>A heading</h1>
-        <p>A paragraph.</p>
+        <div>
+            <h1>A heading</h1>
+            <p>A paragraph.</p>
+        </div>
         
-        <p>An image:</p>
-        <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
+        <div>
+            <p>An image:</p>
+            <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
+        </div>
 
         <hr>
 
         <!--        --------------Lists-----------------           -->
-        <h2>Lists</h2>
-        <ul>
-            <li>This is</li>
-            <li>an unordered list</li>
-        </ul>
+        <div>
+            <h2>Lists</h2>
+            <ul>
+                <li>This is</li>
+                <li>an unordered list</li>
+            </ul>
 
-        <ol>
-            <li>This is</li>
-            <li>an ordered list</li>
-        </ol>
+            <ol>
+                <li>This is</li>
+                <li>an ordered list</li>
+            </ol>
+        </div>
 
         <hr>
 
         <!--        --------------Input Forms-----------           -->
-        <h2>Input Forms</h2>
         
-            <h3>Text Fields</h3>
-            
-            <p>Simple text field:</p>
-            <input type="text">                
+        <div>
+            <h2>Input Forms</h2>
+                <h3>Text Fields</h3>
 
-            <p>Text field with placeholder:</p>
-            <input type="text" placeholder="with a placeholder text">
+                <p>Simple text field:</p>
+                <input type="text">                
 
-            <p>Text field with form action and a button for submit:</p>
-            <form action="/url-where-you-want-to-submit-form-data">
-                <input type="text" placeholder="placeholder and action">
-                <button type="submit">this button submits the form</button>
-            </form>
+                <p>Text field with placeholder:</p>
+                <input type="text" placeholder="with a placeholder text">
+
+                <p>Text field with form action and a button for submit:</p>
+                <form action="/url-where-you-want-to-submit-form-data">
+                    <input type="text" placeholder="placeholder and action">
+                    <button type="submit">this button submits the form</button>
+                </form>
+        <div>
 
         <hr>
 
         <!--        --------------Buttons-----------           -->
 
-            <h3>Buttons</h3>
-            
-            <p>Radio buttons:</p>
-            <label for="indoor"> 
-                <input id="indoor" type="radio" name="indoor-outdoor">indoor</label> 
-            <label for = "outdoor">
-                <input id="outdoor" type="radio" name="indoor-outdoor">indoor-outdoor</label>
+            <div>
+                <h3>Buttons</h3>    
+                
+                <p>Radio buttons:</p>
+                <label for="indoor"> 
+                    <input id="indoor" type="radio" name="indoor-outdoor">indoor</label> 
+                <label for = "outdoor">
+                    <input id="outdoor" type="radio" name="indoor-outdoor">indoor-outdoor</label>
 
-            <p>Checkbox buttons with <b>form action</b> and assigned <b>value</b> attributes:</p>                
-            <label for="dog">
-                <input id="dog" value="dog" type="checkbox" name="cat-dog">Dog
-            </label>
-            <label for="cat">
-                <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
-            </label>
+                <p>Checkbox buttons with <b>form action</b> and assigned <b>value</b> attributes:</p>                
+                <label for="dog">
+                    <input id="dog" value="dog" type="checkbox" name="cat-dog">Dog
+                </label>
+                <label for="cat">
+                    <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
+                </label>
 
-            <p>Checkbox buttons with <b>form action</b>, assigned <b>value</b> attributes, and a checkbox button checked by default:</p>                
-            <label for="dog">
-                <input id="dog" value="dog" type="checkbox" name="cat-dog" checked >Dog
-            </label>
-            <label for="cat">
-                <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
-            </label>
-
+                <p>Checkbox buttons with <b>form action</b>, assigned <b>value</b> attributes, and a checkbox button checked by default:</p>                
+                <label for="dog">
+                    <input id="dog" value="dog" type="checkbox" name="cat-dog" checked >Dog
+                </label>
+                <label for="cat">
+                    <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
+                </label>
+            </div>
         
     
 
