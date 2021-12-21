@@ -17,6 +17,7 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
+    * [Types of CSS Styles](#types-of-css-styles)
 
 ----
 
@@ -122,22 +123,34 @@ Types can be (type=""):
 
 # CSS
 
-Types of style:
+## Types of CSS Styles
+
 * `Inline` (not a good practice)
     * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
 
-* `Style block` at the head part
+* `Style block` at the head part by defining each element's style rule(s)
     * E.g.: style all h2 elements to be red:
 
             <style>
-            h2 {
-                color: red;
+                h2 {
+                    color: red;
+                }
+            </style>
+
+    * You can combine inline CSS with style blocks via CSS `classes`. E.g.
+
+            <style>
+                .blue-text {
+                color: blue;
             }
             </style>
 
 
+In the code above, a CSS class was created called blue-text within the style tag. You can then apply that class to an HTML element like this: 
 
+        <h2 class="blue-text">An h2 paragraph with a specified CSS class</h2>
 
+N.b.: in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
 
 * `External`
 
