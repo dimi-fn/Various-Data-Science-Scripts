@@ -13,6 +13,8 @@ Contents
         * [More about Links](#more-about-links)
     * [Lists](#lists)
     * [Input Forms](#input-forms)
+        * [Text Fields](#text-fields)
+        * [Buttons](#buttons)
 * [CSS]()
 
 ----
@@ -82,6 +84,8 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 ## Input Forms
 
+### Text Fields
+
 [HTML forms](https://www.w3schools.com/html/html_forms.asp) are used to collect user **input**, which is often sent to a server for processing by specifying an `action` attribute.
 
 * `<input type="text">`
@@ -91,14 +95,16 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
         <form action="https://www.freecatphotoapp.com/submit-cat-photo">
         <input type="text" placeholder="cat photo URL">
-        </form>
+        </form>  
 
-    * the above will give:
-    
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
-    <input type="text" placeholder="cat photo URL">
-    </form>      
+* For required text input field use: `<input type="text" required>`
 
+### Buttons
+
+* **Radio** buttons are a type of input.
+* Each of your radio buttons can be nested within its own `label` element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
+* All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+* It is considered best practice to set a `for` attribute on the label element, with a value that matches the value of the `id` attribute of the *input* element. This allows assistive technologies to create a linked relationship between the label and the related input element.
 
 
 -------    
