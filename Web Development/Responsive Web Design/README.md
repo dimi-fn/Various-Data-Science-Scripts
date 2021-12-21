@@ -82,7 +82,7 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 ## Input Forms
 
-[HTML forms](https://www.w3schools.com/html/html_forms.asp) are used to collect user input, which is often sent to a server for processing.
+[HTML forms](https://www.w3schools.com/html/html_forms.asp) are used to collect user **input**, which is often sent to a server for processing by specifying an `action` attribute.
 
 * `<input type="text"> `
     * use `placeholder` for displaying a default text upon the text field
