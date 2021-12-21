@@ -16,7 +16,7 @@ Contents
     * [Input Forms](#input-forms)
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
-* [CSS]()
+* [CSS](#css)
 
 ----
 
@@ -118,5 +118,27 @@ Types can be (type=""):
 * radio
 * checkbox
 
-
 -------    
+
+# CSS
+
+Types of style:
+* `Inline` (not a good practice)
+    * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
+
+* `Style block` at the head part
+    * E.g.: style all h2 elements to be red:
+
+            <style>
+            h2 {
+                color: red;
+            }
+            </style>
+
+
+
+
+
+* `External`
+
+* It is a good practice to end inline style declarations with a `;` 
