@@ -4,7 +4,7 @@ Contents
 =======================
 
 * [HTML](#html)
-    * [learn_html.html](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html)
+    * [learn_html.html](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html) & [html default paradigm design]()
     * [HTML Tags](#html-tags)
     * [Images](#images)
     * [Links](#links)
@@ -105,6 +105,12 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 * Each of your radio buttons can be nested within its own `label` element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
 * All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
 * It is considered best practice to set a `for` attribute on the label element, with a value that matches the value of the `id` attribute of the *input* element. This allows assistive technologies to create a linked relationship between the label and the related input element.
+
+<br>
+
+Types can be (type=""):
+* radio
+* checkbox
 
 
 -------    
