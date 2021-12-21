@@ -123,6 +123,17 @@ Types can be (type=""):
 
 # CSS
 
+* font-size
+* font-family
+    * the generic font families include monospace, serif and sans-serif
+        * when one font isn't available, you can tell the browser to "degrade" to another font.
+
+                p {
+                    font-family: Helvetica, sans-serif;
+                }
+
+    * [Google Fonts](https://fonts.google.com/)
+
 ## Types of CSS Styles
 
 * `Inline` (not a good practice)

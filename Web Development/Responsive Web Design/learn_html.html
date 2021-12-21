@@ -8,10 +8,24 @@
     
         <meta />
 
+        <!--  The below code is used at the h4 style block for importing the lobster font from google-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
         <style>
+
             .blue-text {
               color: blue;
             }
+
+            h3{
+                font-family: monospace;
+            }
+
+            h4{
+                
+                font-family: Lobster; 
+            }
+
         </style>
     
     </head>
@@ -110,6 +124,10 @@
         <p style="color: red;">This uses inline CSS, which is not a good practice.</p>
         
         <p class="blue-text">This is a paragraph using the <i>blue-text</i> CSS style block defined at the <i>head</i> section.
+
+        <h3>This is heading h3. By default it uses monospace "font-faminly" which is again assigned in the style block section of head HTML part.</h3>
+
+        <h4>This uses the lobster font faminly by google. This was achieved via the specified link above the style block, and then via the CSS block for h4</h4>
 
 
 
