@@ -17,6 +17,8 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
+    * [Text](#text)
+    * [Images](#images)
     * [Types of CSS](#types-of-css)
 
 ----
@@ -123,9 +125,11 @@ Types can be (type=""):
 
 # CSS
 
+## Text
+
 * font-size
 * font-family
-    * the generic font families include monospace, serif and sans-serif
+    * the **generic font families** include monospace, serif and sans-serif. The generic font family names are not case-sensitive and they don't need quotes because they are CSS keywords.
         * when one font isn't available, you can tell the browser to "degrade" to another font.
 
                 p {
@@ -133,6 +137,11 @@ Types can be (type=""):
                 }
 
     * [Google Fonts](https://fonts.google.com/)
+
+## Images 
+
+Properties:
+* `width` 
 
 ## Types of CSS
 
