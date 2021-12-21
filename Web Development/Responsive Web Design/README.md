@@ -131,9 +131,13 @@ Types can be (type=""):
 
 ## Classes & IDs
 
+**Classes**
+
 A `class` [is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size) that are specific to that class](https://skillcrush.com/blog/understanding-css-classes-vs-ids/).
 
 <br>
+
+**IDs**
 
 In addition to classes, each HTML element can also have an `id` **attribute**.
 * benefits of using id attributes: You can use an id to style a single element and later use them to select and modify specific elements with JavaScript.
