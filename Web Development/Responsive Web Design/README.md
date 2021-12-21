@@ -20,6 +20,9 @@ Contents
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS](#types-of-css)
+        * [Internal](#internal)
+        * [Style Block](#style-block)
+        * [External](#external)
 
 ----
 
@@ -149,12 +152,16 @@ Properties:
 
 ## Types of CSS
 
-* `Inline` (not a good practice)
+### Inline
+
+In general, it is not a good practice and it should be avoided
     * It is a good practice to end inline style declarations with a `;` 
     * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
     
-* `Style block` at the *head* section by defining each element's style rule(s)
-    * E.g.: style all h2 elements to be red:
+### Style Block
+
+`Style block` at the *head* section by defining each element's style rule(s)
+* E.g.: style all h2 elements to be red:
 
             <style>
                 h2 {
@@ -162,7 +169,7 @@ Properties:
                 }
             </style>
 
-    * You can combine inline CSS with style blocks via CSS `classes`. Classes allow you to use the same CSS styles on multiple HTML elements. E.g.:
+* You can combine inline CSS with style blocks via CSS `classes`. Classes allow you to use the same CSS styles on multiple HTML elements. E.g.:
 
             <style>
                 .blue-text {
@@ -180,5 +187,5 @@ N.b.: in your CSS style element, class names start with a period. In your HTML e
 N.b.: you can apply multiple classes to an element using its class attribute, by separating each class name with a space, e.g. `<img class="class1 class2">`
 
 
-* `External`
+### External
 
