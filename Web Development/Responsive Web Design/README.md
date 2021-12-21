@@ -23,9 +23,13 @@ Comments:
 
     <!-- this is a comment -->
 
+-------    
+
 ## HTML Tags
 * `main`, `header`, `footer`, `nav`, `video`, `article`, `section`, and others
     * `main`: The main HTML5 tag helps search engines and other developers find the main content of your website
+
+-------
 
 ## Images   
 
@@ -41,7 +45,7 @@ E.g. this code: `<img src="https://www.freecatphotoapp.com/your-image.jpg" alt="
 
 <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
 
-
+-------
 
 ## Links
 
@@ -59,7 +63,6 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
         ...
         <h2 id="contacts-header">Contacts</h2>
 
-
 ### More about Links
 
 * Use the `target="_blank"` anchor tag attribute in the anchor tag to open the link to a new window tab.
@@ -68,12 +71,18 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Three kittens running towards the camera."></a>
 
+-------
+
 ## Lists
 
 * unordered: `<ul>` element followed by `<li>` elements
 * ordered: `<ol>` element followed by `<li>` elements
 
+-------
+
 ## Text Fields
 
 * `<input type="text"> `
     * use `placeholder` for displaying a default text upon the text field
+
+-------    
