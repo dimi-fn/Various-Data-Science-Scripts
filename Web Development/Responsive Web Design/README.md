@@ -133,15 +133,31 @@ Types can be (type=""):
 
 **Classes**
 
+Way of reference: `.`, E.g.:
+
+    .blue-text {
+                color: blue;
+                }
+
 A `class` [is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size) that are specific to that class](https://skillcrush.com/blog/understanding-css-classes-vs-ids/).
+
 
 <br>
 
 **IDs**
 
+Way of reference: `#`. E.g.:
+
+    #an-element {
+    background-color: green;
+    }
+
 In addition to classes, each HTML element can also have an `id` **attribute**.
-* benefits of using id attributes: You can use an id to style a single element and later use them to select and modify specific elements with JavaScript.
-* for best practice, id attributes should be unique. Therefore, the same id attribute should not be assigned to more than one element.
+* benefits of using id attributes: You can use an id to style a single element and later use them to select and modify specific elements with JavaScript
+* for best practice, id attributes should be unique. Therefore, the same id attribute should not be assigned to more than one element
+* you can style id attributes using CSS in the same way as with classes
+    * however and as noted above, an id is not reusable and should only be applied to one element
+    * **an id has a higher specificity (importance) than a class** so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
 
 -----
 
