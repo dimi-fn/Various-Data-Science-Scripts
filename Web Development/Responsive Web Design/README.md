@@ -4,7 +4,7 @@ Contents
 =======================
 
 * [HTML](#html)
-    * [learn_html.html](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html) & [html default paradigm design]()
+    * [learn_html.html](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html) & [html default paradigm design](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/html_design.html)
     * [HTML Tags](#html-tags)
     * [Images](#images)
     * [Links](#links)
