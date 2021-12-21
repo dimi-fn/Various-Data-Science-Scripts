@@ -94,6 +94,7 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
         </form>
 
     * the above will give:
+    
     <form action="https://www.freecatphotoapp.com/submit-cat-photo">
     <input type="text" placeholder="cat photo URL">
     </form>      
