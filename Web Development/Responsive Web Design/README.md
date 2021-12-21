@@ -19,7 +19,7 @@ Contents
 * [CSS](#css)
     * [Text](#text)
     * [Images](#images)
-    * [Types of CSS](#types-of-css)
+    * [Types of CSS declaration](#types-of-css-declaration)
         * [Internal](#internal)
         * [Style Block](#style-block)
         * [External](#external)
@@ -128,6 +128,18 @@ Types can be (type=""):
 
 # CSS
 
+## Classes & IDs
+
+A `class` [is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size) that are specific to that class](https://skillcrush.com/blog/understanding-css-classes-vs-ids/).
+
+<br>
+
+In addition to classes, each HTML element can also have an `id` **attribute**.
+* benefits of using id attributes: You can use an id to style a single element and later use them to select and modify specific elements with JavaScript.
+* for best practice, id attributes should be unique. Therefore, the same id attribute should not be assigned to more than one element.
+
+-----
+
 ## Text
 
 * font-size
@@ -150,7 +162,7 @@ Properties:
 
 -----
 
-## Types of CSS
+## Types of CSS declaration
 
 ### Inline
 
@@ -178,7 +190,7 @@ In general, it is not a good practice and it should be avoided
             </style>
 
 
-In the code above, a CSS class was created called blue-text within the style tag. You can then apply that class to an HTML element like this: 
+In the code above, a CSS class called blue-text was created within the style tag. You can then apply that class to an HTML element like this: 
 
         <h2 class="blue-text">An h2 paragraph with a specified CSS class</h2>
 
