@@ -84,7 +84,20 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 [HTML forms](https://www.w3schools.com/html/html_forms.asp) are used to collect user **input**, which is often sent to a server for processing by specifying an `action` attribute.
 
-* `<input type="text"> `
+* `<input type="text">`
     * use `placeholder` for displaying a default text upon the text field
+
+* Example of input form with placeholder text and a form action:
+
+        <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <input type="text" placeholder="cat photo URL">
+        </form>
+
+    * the above will give:
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL">
+    </form>      
+
+
 
 -------    
