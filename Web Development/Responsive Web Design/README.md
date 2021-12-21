@@ -129,7 +129,7 @@ Types can be (type=""):
     * It is a good practice to end inline style declarations with a `;` 
     * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
     
-* `Style block` at the *head* part by defining each element's style rule(s)
+* `Style block` at the *head* section by defining each element's style rule(s)
     * E.g.: style all h2 elements to be red:
 
             <style>
