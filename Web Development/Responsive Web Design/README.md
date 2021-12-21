@@ -172,6 +172,7 @@ In the code above, a CSS class was created called blue-text within the style tag
         <h2 class="blue-text">An h2 paragraph with a specified CSS class</h2>
 
 N.b.: in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
+N.b.: you can apply multiple classes to an element using its class attribute, by separating each class name with a space, e.g. `<img class="class1 class2">`
 
 
 * `External`
