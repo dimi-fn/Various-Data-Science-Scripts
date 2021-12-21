@@ -5,6 +5,7 @@ Contents
 
 * [HTML](#html)
     * [learn_html.html](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html) & [html default paradigm design](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/html_design.html)
+    * [General](#general)
     * [HTML Tags](#html-tags)
     * [Images](#images)
     * [Links](#links)
@@ -21,9 +22,13 @@ Contents
 
 # HTML
 
-Comments: 
+## General
+
+* Comments: 
 
     <!-- this is a comment -->
+
+* The `div` element (division element) is a general purpose container for other elements.
 
 -------    
 
@@ -103,8 +108,9 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 * **Radio** buttons are a type of input.
 * Each of your radio buttons can be nested within its own `label` element. By wrapping an input element inside of a label element it will automatically associate the radio button input with the label element surrounding it.
-* All related radio buttons should have the same name attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
+* All related radio buttons should have the same `name` attribute to create a radio button group. By creating a radio group, selecting any single radio button will automatically deselect the other buttons within the same group ensuring only one answer is provided by the user.
 * It is considered best practice to set a `for` attribute on the label element, with a value that matches the value of the `id` attribute of the *input* element. This allows assistive technologies to create a linked relationship between the label and the related input element.
+* When a form gets **submitted**, the data is sent to the server and includes entries for the options selected. Inputs of type radio and checkbox report their values from the `value` attribute. If values is empty then its default value is `on` (which is not useful, and the value should always be specified)
 
 <br>
 
