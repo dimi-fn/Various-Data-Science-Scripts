@@ -12,7 +12,7 @@ Contents
         * [Internal Links](#internal-links)
         * [More about Links](#more-about-links)
     * [Lists](#lists)
-    * [Text Fields](#text-fields)
+    * [Input Forms](#input-forms)
 * [CSS]()
 
 ----
@@ -80,7 +80,9 @@ To create an internal link, you assign a link's `href` *attribute* to a hash sym
 
 -------
 
-## Text Fields
+## Input Forms
+
+[HTML forms](https://www.w3schools.com/html/html_forms.asp) are used to collect user input, which is often sent to a server for processing.
 
 * `<input type="text"> `
     * use `placeholder` for displaying a default text upon the text field
