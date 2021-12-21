@@ -17,7 +17,7 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
-    * [Types of CSS Styles](#types-of-css-styles)
+    * [Types of CSS](#types-of-css)
 
 ----
 
@@ -134,7 +134,7 @@ Types can be (type=""):
 
     * [Google Fonts](https://fonts.google.com/)
 
-## Types of CSS Styles
+## Types of CSS
 
 * `Inline` (not a good practice)
     * It is a good practice to end inline style declarations with a `;` 
