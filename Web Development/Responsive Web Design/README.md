@@ -138,10 +138,14 @@ Types can be (type=""):
 
     * [Google Fonts](https://fonts.google.com/)
 
+-----
+
 ## Images 
 
 Properties:
 * `width` 
+
+-----
 
 ## Types of CSS
 
