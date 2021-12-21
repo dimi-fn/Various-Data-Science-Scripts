@@ -126,9 +126,10 @@ Types can be (type=""):
 ## Types of CSS Styles
 
 * `Inline` (not a good practice)
+    * It is a good practice to end inline style declarations with a `;` 
     * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
-
-* `Style block` at the head part by defining each element's style rule(s)
+    
+* `Style block` at the *head* part by defining each element's style rule(s)
     * E.g.: style all h2 elements to be red:
 
             <style>
@@ -137,7 +138,7 @@ Types can be (type=""):
                 }
             </style>
 
-    * You can combine inline CSS with style blocks via CSS `classes`. E.g.
+    * You can combine inline CSS with style blocks via CSS `classes`. Classes allow you to use the same CSS styles on multiple HTML elements. E.g.:
 
             <style>
                 .blue-text {
@@ -152,6 +153,6 @@ In the code above, a CSS class was created called blue-text within the style tag
 
 N.b.: in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
 
+
 * `External`
 
-* It is a good practice to end inline style declarations with a `;` 
