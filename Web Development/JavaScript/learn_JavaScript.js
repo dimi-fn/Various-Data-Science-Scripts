@@ -15,6 +15,10 @@ console.log("this is JavaScript!");
 /* String concatenation */
 console.log('middle' + ' ' + 'space'); 
 
+/* String Interpolation */
+var x = "dogs";
+console.log(`I love ${x}`); // In python this would be: print("I love {}".format(x))
+
 /* Properties */
 console.log("hello".length);
 
@@ -30,13 +34,34 @@ console.log(Number.isInteger(2017))
 
 /* Variables */
 var x=5;
-console.log(x);
+console.log("the value of x is:", x);
 
-let y=6;
-console.log(y);
+let w=6;
+console.log(w);
 
 // undefined variable
 let price;
 console.log(price); // Output: undefined
 price = 350; // change the value of price
 console.log(price); // Output: 350
+
+// constant variable
+const myName = "James";
+console.log(myName);
+
+/* Operators */
+var x=1;
+x+=1
+console.log(x);
+
+x++ // x+=1 == x++
+console.log(x);
+
+
+/* Operators */
+var x = 1;
+var y = "dog";
+var z = true;
+console.log(`Type of "${x}" is: ${typeof x}`);
+console.log(`Type of "${y}" is: ${typeof y}`);
+console.log(`Type of "${z}" is: ${typeof z}`);
