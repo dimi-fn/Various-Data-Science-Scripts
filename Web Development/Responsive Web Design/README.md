@@ -24,7 +24,7 @@ Contents
         * [Internal](#internal)
         * [Style Block](#style-block)
         * [External](#external)
-    * [Padding - border - margin](#padding)
+    * [Padding - Border - Margin](#padding---border---margin)
 
 ----
 
@@ -228,4 +228,6 @@ Declaring your css preferences in a separate file of the type .css file
 
 -----
 
-## Padding - border - margin
+## Padding - Border - Margin
+
+Three important properties control the space that surrounds each HTML element: `padding`, `border`, and `margin`.
