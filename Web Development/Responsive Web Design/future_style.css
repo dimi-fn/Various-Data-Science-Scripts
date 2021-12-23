@@ -1,0 +1,13 @@
+/* 
+CSS for the form
+https://stackoverflow.com/a/4310005
+*/
+.container {
+    width: 600px;
+    clear: both;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }
