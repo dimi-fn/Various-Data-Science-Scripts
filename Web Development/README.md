@@ -16,3 +16,5 @@ Contents
 [1] https://www.freecodecamp.org/learn/
 
 [2] https://www.w3schools.com/
+
+[3] https://www.codecademy.com/learn/introduction-to-javascript
