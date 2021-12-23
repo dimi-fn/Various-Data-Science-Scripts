@@ -24,6 +24,7 @@ Contents
         * [Internal](#internal)
         * [Style Block](#style-block)
         * [External](#external)
+    * [Padding - border - margin](#padding)
 
 ----
 
@@ -157,7 +158,7 @@ In addition to classes, each HTML element can also have an `id` **attribute**.
 * for best practice, id attributes should be unique. Therefore, the same id attribute should not be assigned to more than one element
 * you can style id attributes using CSS in the same way as with classes
     * however and as noted above, an id is not reusable and should only be applied to one element
-    * **an id has a higher specificity (importance) than a class** so if both are applied to the same element and have conflicting styles, the styles of the id will be applied.
+    * **an id has a higher specificity (importance) than a class** so if both are applied to the same element and have conflicting styles, the styles of the id will be applied
 
 -----
 
@@ -222,3 +223,9 @@ N.b.: you can apply multiple classes to an element using its class attribute, by
 
 ### External
 
+Declaring your css preferences in a separate file of the type .css file
+
+
+-----
+
+## Padding - border - margin
