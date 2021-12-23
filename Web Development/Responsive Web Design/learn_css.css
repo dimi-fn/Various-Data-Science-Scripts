@@ -31,4 +31,29 @@
   }
 
 
-  /* */
+  /* Padding - Border - Margin */
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 30px;
+    margin: 80px;
+  }
