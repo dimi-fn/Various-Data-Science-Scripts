@@ -6,6 +6,7 @@ Contents
 * [Data Types](#data-types)
 * [Properties](#properties)
 * [Methods](#methods)
+* [Variables](#variables)
 
 
 -----
@@ -43,3 +44,10 @@ Methods are actions we can perform. We can call methods by appending an instance
 * a period (the dot operator)
 * the name of the method
 * opening and closing parentheses
+
+-----
+
+# Variables
+
+* [var vs let in JavaScript](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var)
+* if variable is declared without assigning a value, then the variable's value will be `undefined`
