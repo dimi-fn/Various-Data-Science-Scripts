@@ -160,3 +160,5 @@ const isWeekend = function(day){
     return area;
   };
   console.log(rectangle_Area(5,3));
+
+  

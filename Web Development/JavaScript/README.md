@@ -6,6 +6,7 @@ Contents
 * [learn_JavaScript.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/learn_JavaScript.js)
 * [Data Types](#data-types)
 * [Properties](#properties)
+    * [Arrays](#arrays)
 * [Methods](#methods)
 * [Variables](#variables)
 * [Operators](#operators)
@@ -17,7 +18,8 @@ Contents
     * [Arrow Functions](#arrow-functions)
         * [Concise Body Arrow Functions](#concise-body-arrow-functions)
 * [Blocks & Scope](#blocks--scope)
-
+    * [Scope Pollution](#score-pollution)
+* [Loops](#loops)
 -----
 
 # Data Types
@@ -44,6 +46,10 @@ E.g.
 
 * length
     * `console.log("hello".length);`
+
+## Arrays
+
+[Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
 
 -----
 
@@ -194,3 +200,51 @@ You can do:
 -------
 
 # Blocks & Scope
+
+https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet
+
+* A `block` is the code found inside a set of curly braces `{}`
+    * Blocks help us group one or more statements together and serve as an important structural marker for our code
+    * `Blocks` define the `scope` of variables
+
+<br>    
+
+`Scope` is the context in which our variables are declared. We think about scope in relation to blocks because variables can exist either outside of or within these blocks
+* In global scope, variables are declared `outside of blocks`. These variables are called `global variables`
+    * Because global variables are not bound inside a block, they can be accessed by any code in the program, including code in blocks
+
+<br>    
+
+When a variable is defined inside a block, it is only accessible to the code within the curly braces `{}`
+We say that variable has `block scope` because it is only accessible to the lines of code within that block.
+* these are `local variables`
+
+## Scope Pollution
+
+When you declare global variables, they go to the global namespace. The global namespace allows the variables to be accessible from anywhere in the program. These variables remain there until the program finishes which means our global namespace can fill up really quickly.
+
+`Scope pollution` is when we have too many global variables that exist in the global namespace, or when we reuse variables across different scopes
+* Scope pollution makes it difficult to keep track of our different variables and sets us up for potential accidents. For example, globally scoped variables can collide with other variables that are more locally scoped, causing unexpected behavior in our code
+
+<br>
+
+it’s best practice to not define variables in the global scope.
+
+
+## Loops
+
+In Python, e.g. this:
+
+    for i in range (0,4):
+        print(i)
+        i+=1 # prints 0,1,2,3
+
+
+In Javascript can be:
+
+    for (let counter = 0; counter < 4; counter++) {
+        console.log(counter);
+    }
+
+More at [loops.js]()    
+    
