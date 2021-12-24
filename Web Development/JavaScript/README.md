@@ -69,6 +69,6 @@ Methods are actions we can perform. We can call methods by appending an instance
             console.log('Turn off the lights!');
             }
 
-    is the same with the below one, using ternary operator instead:
+    is the same with the below one, using `ternary` operator instead:
 
         isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');   

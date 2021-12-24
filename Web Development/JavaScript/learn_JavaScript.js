@@ -68,7 +68,7 @@ console.log(`Type of "${y}" is: ${typeof y}`);
 console.log(`Type of "${z}" is: ${typeof z}`);
 
 
-/* if statements */
+/* conditions: if statements, switch */
 if (false) {
     console.log('The code in this block will not run.');
   } else {
@@ -85,7 +85,6 @@ if (false) {
 isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');
 
 // switch 
-
 let athleteFinalPosition = 'first place';
 
 switch(athleteFinalPosition){
@@ -98,7 +97,7 @@ switch(athleteFinalPosition){
   case 'third place':
     console.log('You get the bronze medal!');
     break;
-  default:
+  default: // it is like else:
     console.log('No medal awarded.');
     break;
 }
