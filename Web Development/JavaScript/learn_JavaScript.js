@@ -59,6 +59,7 @@ console.log(x);
 
 
 /* Operators */
+//typeof, in Python it would be type()
 var x = 1;
 var y = "dog";
 var z = true;
