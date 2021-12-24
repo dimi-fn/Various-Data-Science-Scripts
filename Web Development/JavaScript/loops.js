@@ -40,3 +40,37 @@ for (let i = 0; i < myArray.length; i++) {
     }
   }
 };
+
+// while loop
+// A for loop that prints 1, 2, and 3
+for (let counterOne = 1; counterOne < 4; counterOne++){
+    console.log(counterOne);
+  }
+   
+  // A while loop that prints 1, 2, and 3
+  let counterTwo = 1;
+  while (counterTwo < 4) {
+    console.log(counterTwo);
+    counterTwo++;
+  }
+
+// do..while (runs at least one time)  
+let countString = '';
+let i = 0;
+ 
+do {
+  countString = countString + i;
+  i++;
+} while (i < 5);
+ 
+console.log(countString);
+
+// break statement
+for (let i = 0; i < 99; i++) {
+    if (i > 2 ) {
+       break;
+    }
+    console.log('I am smaller than 2');
+  }
+   
+  console.log('Loop broke because I am the number 3');

@@ -246,5 +246,4 @@ In Javascript can be:
         console.log(counter);
     }
 
-More at [loops.js]()    
-    
+More at [loops.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js)    
