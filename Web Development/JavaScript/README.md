@@ -10,6 +10,7 @@ Contents
 * [Variables](#variables)
 * [Operators](#operators)
 * [Functions](#functions)
+    * [Parameters & Arguments](#functions--arguments)
 
 
 -----
@@ -95,3 +96,5 @@ In Python, the above would be:
         def printHi():
             return("Hi")
         printHi()  
+
+## Parameters & Arguments
