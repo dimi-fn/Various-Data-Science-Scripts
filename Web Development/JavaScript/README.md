@@ -16,7 +16,7 @@ Contents
     * [Function Expression](#function-expression)
     * [Arrow Functions](#arrow-functions)
         * [Concise Body Arrow Functions](#concise-body-arrow-functions)
-* [Blocks & Scope](#blocks---scope)
+* [Blocks & Scope](#blocks--scope)
 
 -----
 
