@@ -15,7 +15,7 @@ Some of the main differences between Python and JavaScript:
 | `dictionaries` | `no dictionaries`. But there are other ways|
 | floor division: 10//3 | Math.floor(10/3)|
 | `==` | `===`|
-| `!=` | `!===`|
+| `!=` | `!==`|
 | `and`, `or`, `not` | `&&`, `ll`, `!`|
 | type(x) | typeof(x)|
 | if - elif - else (with "()") | if - else if - else (with {})|
