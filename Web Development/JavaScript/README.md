@@ -20,6 +20,16 @@ Contents
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
 * [Loops](#loops)
+
+
+* Cheatsheets from codeacademy
+    * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
+    * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
+    * [Functions](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet) 
+    * [Scope](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet)
+    * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
+    * [Loops](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet)
+    * [Objects](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
 -----
 
 # Data Types
