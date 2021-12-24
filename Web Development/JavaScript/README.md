@@ -9,6 +9,7 @@ Contents
 * [Methods](#methods)
 * [Variables](#variables)
 * [Operators](#operators)
+* [Functions](#functions)
 
 
 -----
@@ -73,3 +74,24 @@ Methods are actions we can perform. We can call methods by appending an instance
     is the same with the below one, using `ternary` operator instead:
 
         isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');   
+
+-----
+
+# Functions
+
+A function declaration consists of:
+
+* The function keyword
+* The name of the function, or its `identifier`, followed by parentheses 
+* A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly brackets, `{ }`.
+
+        function printHi(){
+            console.log("Hi")
+        }
+        printHi();
+
+In Python, the above would be:
+
+        def printHi():
+            return("Hi")
+        printHi()  

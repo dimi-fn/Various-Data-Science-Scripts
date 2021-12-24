@@ -102,3 +102,15 @@ switch(athleteFinalPosition){
     break;
 }
 
+/* Functions */
+
+function printHi(){
+    console.log("Hi")
+}
+printHi();
+
+/* In Python it would be:
+def printHi():
+    return("Hi")
+printHi()  
+*/
