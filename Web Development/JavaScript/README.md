@@ -10,7 +10,7 @@ Contents
 * [Variables](#variables)
 * [Operators](#operators)
 * [Functions](#functions)
-    * [Parameters & Arguments](#functions---arguments)
+    * [Parameters & Arguments](#parameters--arguments)
 
 
 -----
