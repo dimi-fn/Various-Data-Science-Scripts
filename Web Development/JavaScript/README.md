@@ -3,6 +3,7 @@
 Contents
 =======================
 
+* [learn_JavaScript.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/learn_JavaScript.js)
 * [Data Types](#data-types)
 * [Properties](#properties)
 * [Methods](#methods)

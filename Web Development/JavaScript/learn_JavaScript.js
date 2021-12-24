@@ -68,7 +68,7 @@ console.log(`Type of "${y}" is: ${typeof y}`);
 console.log(`Type of "${z}" is: ${typeof z}`);
 
 
-/* conditions: if statements, switch */
+/* Conditionals: if statements, switch */
 if (false) {
     console.log('The code in this block will not run.');
   } else {
