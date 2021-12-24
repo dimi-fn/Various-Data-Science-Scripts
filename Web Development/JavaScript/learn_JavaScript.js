@@ -66,3 +66,11 @@ var z = true;
 console.log(`Type of "${x}" is: ${typeof x}`);
 console.log(`Type of "${y}" is: ${typeof y}`);
 console.log(`Type of "${z}" is: ${typeof z}`);
+
+
+// if statements
+if (false) {
+    console.log('The code in this block will not run.');
+  } else {
+    console.log('But the code in this block will!');
+  }

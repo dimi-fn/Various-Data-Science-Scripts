@@ -14,13 +14,15 @@ Some of the main differences between Python and JavaScript:
 | `tuple` exists | `no tuple`. But there are other ways |
 | `dictionaries` | `no dictionaries`. But there are other ways|
 | floor division: 10//3 | Math.floor(10/3)|
-| `==` | ``===``|
+| `==` | `===`|
+| `!=` | `!===`|
 | `and`, `or`, `not` | `&&`, `ll`, `!`|
 | type(x) | typeof(x)|
 | if - elif - else (with "()") | if - else if - else (with {})|
 | for i in range(n): () | for (var i=0; i<n; i++) {}|
 | for x in iterable: | for (var x of iterable) {}|
 |type(x) | typeof x|
+| x=5, print("x is: {}".format(x)) | var x=5;, console.log(`x is: ${x}`)|
 | def function_name(): | function function_name() {}|
 | class --> def __init__(self, arguments ) --> self.argument=argument  | class --> constructor(arguments) --> this.argument=argument |
 
