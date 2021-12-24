@@ -20,8 +20,6 @@ Contents
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
 * [Loops](#loops)
-
-
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
