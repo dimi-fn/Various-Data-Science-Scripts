@@ -9,7 +9,7 @@ Contents on directory
 
 * [Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Notes.md)
 
-* [Cheatsheets]()
+* [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Cheatsheets)
 
 * [Andrew Ng on Data Centric AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI)
 
