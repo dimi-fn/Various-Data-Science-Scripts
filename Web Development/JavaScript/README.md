@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* [learn_JavaScript.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/learn_JavaScript.js)
+* Coding files: [general](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/general.js), [conditionals](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/conditionals.js), [loops](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js), [functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/functions.js)
 * [Data Types](#data-types)
 * [Properties](#properties)
     * [Arrays](#arrays)
