@@ -238,8 +238,9 @@ When you declare global variables, they go to the global namespace. The global n
 
 it’s best practice to not define variables in the global scope.
 
+------
 
-## Loops
+# Loops
 
 In Python, e.g. this:
 
