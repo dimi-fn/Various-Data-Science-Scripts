@@ -185,7 +185,7 @@ Precision in the context of Information Retrieval:
 
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
   * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>
-  * You might prefer higher precision than recall, for instance, in legal and medical queries where there is a substantial need for high precision and correct results
+  * Precision = TP/(TP+FP), therefore, when you focus on having a small number of **False Positive** predictions then you aim at high precision (over a smaller recall)
 
 
 ### Recall
@@ -196,7 +196,7 @@ Recall in the context of Information Retrieval:
 
 * It tells us how **complete** the results are (*completeness* in terms of the given results).
   * A perfect recall score of 1 means that all relevant documents were retrieved, but <ins>it says nothing about how many irrelevant documents were also retrieved</ins>
-  * You might prefer higher recall than precision when there is a need for a plethora of information/documents/results retrieved even if some of them might be irrelevant to some extent. Example: YouTube recommendations, recommendations for online library collections and scientific articles
+  * Recall = TP/(TP+FN), therefore, when you focus on having a small number of **False Negative** predictions then you aim at high recall (over a smaller precision)
 
 <br><br>
 
