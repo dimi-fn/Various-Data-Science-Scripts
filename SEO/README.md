@@ -186,7 +186,7 @@ Precision in the context of Information Retrieval:
 * It tells us how **useful** the results are (*effectiveness* in terms of the given results).
   * A perfect precision score of 1 means that every result retrieved was relevant, but <ins>it says nothing about if all relevant documents were retrieved</ins>
   * Precision = TP/(TP+FP), therefore, when you focus on having a small number of **False Positive** predictions, then you aim at high precision (over a smaller recall)
-    * More preferable in e.g.: youtube recommendations and recommender systems in general (false negatives are less of a concern)
+    * More preferable in e.g.: spam email detection systems, youtube recommendations and recommender systems in general (false negatives are less of a concern)
 
 
 ### Recall
