@@ -4,10 +4,12 @@ Topis and projects on Machine and Deep Learning.
 
 ----
 
-Contents on directory
+Contents 
 =======================
 
 * [Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Notes.md)
+
+* [Deep Learning Interviews by Shlomo Kashani](https://arxiv.org/ftp/arxiv/papers/2201/2201.00650.pdf)
 
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Cheatsheets)
 
