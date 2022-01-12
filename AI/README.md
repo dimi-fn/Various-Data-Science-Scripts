@@ -9,7 +9,7 @@ Contents
 
 * [Notes](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Notes.md)
 
-* [Interviews]()    
+* [Interviews](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Interviews)    
 
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Cheatsheets)
 
