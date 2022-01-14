@@ -17,7 +17,7 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
-    * [Classes & IDs](#classes--ids)
+    * [CSS Selectors: Classes & IDs](#classes--ids)
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS declaration](#types-of-css-declaration)
@@ -130,7 +130,7 @@ Types can be (type=""):
 
 # CSS
 
-## Classes & IDs
+## CSS Selectors: Classes & IDs
 
 **Classes**
 
