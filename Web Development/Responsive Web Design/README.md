@@ -166,7 +166,7 @@ In addition to classes, each HTML element can also have an `id` **attribute**.
 
 ### Custom CSS
 
-You can also apply styling to elements by their attribute values. E.g. if you want apply specific CSS to all checkboxes then you could do something like 
+You can also apply styling to elements by their attribute values. E.g. if you want apply specific CSS to all checkboxes then you could do something like:
 
     [type='checkbox'] {
     margin: 20px 0px 20px 0px;
