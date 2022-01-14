@@ -223,18 +223,17 @@ N.b.: you can apply multiple classes to an element using its class attribute, by
 
 ### External
 
-Declaring your css preferences in a separate file of the type .css file
-
+Via external CSS, you declare your CSS preferences in a separate file of the type .css file
 
 -----
 
 ## Padding - Border - Margin
 
-Three important properties control the space that surrounds each HTML element: `padding`, `border`, and `margin`.
+Three important properties control the space that surrounds each HTML element: `padding`, `border`, and `margin`. [The CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 * An element's `padding` controls the amount of space between the element's content and its border.
     * 4 padding sides: padding-top, padding-right, padding-bottom, and padding-left 
     * however, instead of specifying all four padding sides you could just do something like this: `padding: 10px 20px 10px 20px;`
-        * those four values work like a clock: top, right, bottom, left, and will produce the exact same result as using the side-specific padding instructions
+        * those four values work like a clock: top, right, bottom, left, and they will produce the exact same result as using the side-specific padding instructions
 * An element's `margin` controls the amount of space between an element's border and surrounding elements.
     * 4 margin properties: margin-top, margin-right, margin-bottom, and margin-left
     * like padding, margins can be assigned likewise, e.g.: `margin: 10px 20px 10px 20px;`
