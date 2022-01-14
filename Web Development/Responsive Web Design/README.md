@@ -20,7 +20,6 @@ Contents
     * [CSS Selectors](#css-selectors)
         * [Classes & Ids](#classes--ids)
         * [Custom CSS](#custom-css)
-        * []()
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS declaration](#types-of-css-declaration)
