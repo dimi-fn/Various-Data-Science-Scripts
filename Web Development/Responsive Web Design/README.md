@@ -17,7 +17,10 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
-    * [CSS Selectors: Classes & IDs](#css-selectors-classes--ids)
+    * [CSS Selectors](#css-selectors)
+        * [Classes & Ids](#classes--ids)
+        * [Custom CSS](#custom-css)
+        * []()
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS declaration](#types-of-css-declaration)
@@ -130,7 +133,9 @@ Types can be (type=""):
 
 # CSS
 
-## CSS Selectors: Classes & IDs
+## CSS Selectors
+
+### Classes & IDs
 
 **Classes**
 
@@ -159,6 +164,14 @@ In addition to classes, each HTML element can also have an `id` **attribute**.
 * you can style id attributes using CSS in the same way as with classes
     * however and as noted above, an id is not reusable and should only be applied to one element
     * **an id has a higher specificity (importance) than a class** so if both are applied to the same element and have conflicting styles, the styles of the id will be applied
+
+### Custom CSS
+
+You can also apply styling to elements by their attribute values. E.g. if you want apply specific CSS to all checkboxes then you could do something like 
+
+    [type='checkbox'] {
+    margin: 20px 0px 20px 0px;
+    }
 
 -----
 
