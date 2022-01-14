@@ -189,8 +189,8 @@ Properties:
 ### Inline
 
 In general, it is not a good practice and it should be avoided
-    * It is a good practice to end inline style declarations with a `;` 
-    * E.g.: `<h2 style="color: red;">This is a red heading</h2>`
+* It is a good practice to end inline style declarations with a `;` 
+* E.g.: `<h2 style="color: red;">This is a red heading</h2>`
     
 ### Style Block
 
