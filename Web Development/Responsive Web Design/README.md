@@ -17,7 +17,7 @@ Contents
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
 * [CSS](#css)
-    * [CSS Selectors: Classes & IDs](#classes--ids)
+    * [CSS Selectors: Classes & IDs](#css-selectors-classes--ids)
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS declaration](#types-of-css-declaration)
