@@ -121,4 +121,8 @@ Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 * [Projects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Projects)
 
 -----
+
+* [Data Science Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data%20Science%20Cheatsheets)
+
+-----
 More details can be found on each folder respectively via their own readme files and/or coding notebooks/scripts.
