@@ -29,13 +29,16 @@ Contents
 * [Install Git](https://www.atlassian.com/git/tutorials/install-git#linux)
 
 * **Update**:
-
-* `sudo apt-get update`
-* `sudo apt-get install git`
+    * `sudo apt-get update`
+    * `sudo apt-get install git`
 
 ------
 
 # Set up & Configuration
+
+    git config --list
+    git config --global user.name "name"
+    git config --global user.email "email"
 
 
 
