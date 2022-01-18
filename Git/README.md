@@ -9,6 +9,7 @@ Contents
     * [Install & Update Git on Windows](#install--update-git-on-windows)
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
+* [Set up & Configuration](#set-up--configuration)
 
 ------
 
@@ -27,4 +28,14 @@ Contents
 
 * [Install Git](https://www.atlassian.com/git/tutorials/install-git#linux)
 
-* **Update:**
+* **Update**:
+
+* `sudo apt-get update`
+* `sudo apt-get install git`
+
+------
+
+# Set up & Configuration
+
+
+
