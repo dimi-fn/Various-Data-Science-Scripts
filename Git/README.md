@@ -8,6 +8,15 @@ Contents
 
 ----
 
+* [Windows](#windows)
+    * [Install Git](https://www.atlassian.com/git/tutorials/install-git#windows)
+    * [Update Git]()
+* [Linux](#linux)
+    * [Install Git](https://www.atlassian.com/git/tutorials/install-git#linux)
+    * [Update Git]()
+
+
+
 **Update git**: 
 * `git clone https://github.com/git/git`
 * windows: `git update-git-for-windows`
