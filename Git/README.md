@@ -16,12 +16,15 @@ Contents
 ## Install & Update Git on Windows
 * [Install](https://www.atlassian.com/git/tutorials/install-git#windows)
 
-**Update**: 
-* `git clone https://github.com/git/git`
-* windows: `git update-git-for-windows`
+* **Update via Git Bash**: 
+    * `git clone https://github.com/git/git`
+    * windows: `git update-git-for-windows`
 
 ------
 
 # Linux
 ## Install & Update Git on Linux
+
 * [Install Git](https://www.atlassian.com/git/tutorials/install-git#linux)
+
+* **Update:**
