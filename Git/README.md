@@ -9,7 +9,8 @@ Contents
     * [Install & Update Git on Windows](#install--update-git-on-windows)
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
-* [Set up & Configuration](#set-up--configuration)
+* [Set Up & Configuration](#set-up--configuration)
+* [Check Git Status](#check-git-status)
 
 ------
 
@@ -34,11 +35,17 @@ Contents
 
 ------
 
-# Set up & Configuration
+# Set Up & Configuration
 
     git config --list
     git config --global user.name "name"
     git config --global user.email "email"
 
+------
 
+# Check Git Status
+
+* `git log`: git history of current branch
+* `git log --oneline --graph`
+* `git status`: displays staged changes, unstaged changes and untracked files on working tree
 
