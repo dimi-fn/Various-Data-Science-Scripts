@@ -57,6 +57,10 @@ How to set up a virtual environment (venv) and generate a `requirements.txt` fil
 
 ------
 
+[Git]()
+
+------
+
 * [Databases](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases)
     * [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases#sql)
 
