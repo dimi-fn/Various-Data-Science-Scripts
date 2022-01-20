@@ -236,6 +236,7 @@ N.b.: in your CSS style element, class names start with a period. In your HTML e
 ### External
 
 Via external CSS, you declare your CSS preferences in a separate file of the type .css file. This is the most preferred way of styling because:
+
 * better readability of both the html and the css file which would be in a separate file (applying the *principle of separation of concerns*)
     * this makes the need of any style modification easier
 * the external stylesheet can be used on multiple html docs
