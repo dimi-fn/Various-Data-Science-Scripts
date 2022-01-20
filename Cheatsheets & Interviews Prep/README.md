@@ -11,5 +11,5 @@ Contents
 	* Artificial Intelligence
 		* [AI, Neural Networks, Machine Learning, Deep Learning & Big Data - by Fjodor van Veen](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Cheatsheet_AI_ML_Data_Science.pdf)
 * Interviews
-	* [Data Science Interview Questions, by InterviewBit](https://www.interviewbit.com/data-science-interview-questions/)
-	* [51 Essential Machine Learning Interview Questions and Answers, by Roger Huang](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
+	* [Data Science Interview Questions - by InterviewBit](https://www.interviewbit.com/data-science-interview-questions/)
+	* [51 Essential Machine Learning Interview Questions and Answers - by Roger Huang](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
