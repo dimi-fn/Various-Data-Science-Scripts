@@ -28,7 +28,7 @@ Contents
         * [External](#external)
     * [Padding - Border - Margin](#padding---border---margin)
     * [Length Unitis: Absolute & Relative Units](#length-unitis-absolute--relative-units)
-    
+    * [CSS Inheritance](##css-inheritance)
 
 ----
 
@@ -265,3 +265,34 @@ Three important properties control the space that surrounds each HTML element: `
 -----    
 
 ## Length Unitis: Absolute & Relative Units
+
+In addition to pixels (`px`) which tell the browser how to size or space an item, we can have:
+
+**Absolute length units**: physical units of length. E.g., `in` and `mm` refer to inches and millimeters respectively and they approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
+**Relative length units**, such as `em` or `rem`, are relative to another length value. E.g., em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
+    * there are several relative unit options that are tied to the size of the viewport.
+
+-----
+
+## CSS Inheritance    
+
+Inheritance controls what happens when no value is specified for a property on an element. **CSS properties** can be categorized in two types:
+* `inherited properties`, which by default are set to the [computed value](https://developer.mozilla.org/en-US/docs/Web/CSS/computed_value) of the parent element
+* `non-inherited properties`, which by default are set to [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value) of the property
+
+<br>
+
+Browsers read CSS **from top to bottom**, this means that e.g. if we have two classes regarding color in the style block, and if we apply both of the two classes to a text, then the text will get the color of the 2nd class assigned in the style block, hence it will override the color of the 1st class.
+
+E.g. if we have:
+
+    <style>
+        .red-text {color: red;}
+        .blue-text {color:blue;}
+    </style>
+    <body>
+        <h1 class="red-text blue-text">What is the colour?</h1>
+    </body>
+
+, then the colour applied with be blue. N.b. even if we had `class="blue-text red-text"`, then again the blue colour would get applied because what matters is the class order assignment in the style block
+    
