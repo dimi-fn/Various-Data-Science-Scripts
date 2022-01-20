@@ -11,8 +11,6 @@ Contents
 
 * [Interviews](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Interviews)    
 
-* [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Cheatsheets)
-
 * [Andrew Ng on Data Centric AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Andrew%20Ng%20on%20Data%20Centric%20AI)
 
 * [Introduction to AI in Business](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Intro%20to%20AI%20in%20Business%20(Udacity))
