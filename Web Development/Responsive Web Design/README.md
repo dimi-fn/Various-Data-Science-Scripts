@@ -144,8 +144,9 @@ Way of reference: `.`, E.g.:
                 color: blue;
                 }
 
-A `class` [is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size) that are specific to that class](https://skillcrush.com/blog/understanding-css-classes-vs-ids/).
+* A `class` [is a group of elements that are the same or similar. You can have as many elements as you want in a class. And each element can be the member of multiple classes. Every class has CSS attributes (like color and font-size) that are specific to that class](https://skillcrush.com/blog/understanding-css-classes-vs-ids/).
 
+* You can apply multiple classes to an element using its class attribute, by separating each class name with a space, e.g. `<img class="class1 class2">`
 
 <br>
 
@@ -187,6 +188,7 @@ You can also apply styling to elements by their attribute values. E.g. if you wa
                 }
 
     * [Google Fonts](https://fonts.google.com/)
+        * [Get Started with the Google Fonts API ](https://developers.google.com/fonts/docs/getting_started)
 
 -----
 
@@ -231,12 +233,17 @@ In the code above, a CSS class called blue-text was created within the style tag
 
 N.b.: in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.
 
-N.b.: you can apply multiple classes to an element using its class attribute, by separating each class name with a space, e.g. `<img class="class1 class2">`
-
-
 ### External
 
-Via external CSS, you declare your CSS preferences in a separate file of the type .css file
+Via external CSS, you declare your CSS preferences in a separate file of the type .css file. This is the most preferred way of styling because:
+* better readability of both the html and the css file which would be in a separate file (applying the *principle of separation of concerns*)
+    * this makes the need of any style modification easier
+* the external stylesheet can be used on multiple html docs
+* external stylesheets allow global changes to be applied easily on the entire html doc
+
+* [External CSS vs inline style performance difference?](https://stackoverflow.com/questions/8284365/external-css-vs-inline-style-performance-difference)
+* [Why should I use an external stylesheet instead of inline CSS?](https://discuss.codecademy.com/t/why-should-i-use-an-external-stylesheet-instead-of-inline-css/363588)
+
 
 -----
 
