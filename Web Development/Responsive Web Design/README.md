@@ -27,6 +27,7 @@ Contents
         * [Style Block](#style-block)
         * [External](#external)
     * [Padding - Border - Margin](#padding---border---margin)
+    * [Length Unitis: Absolute & Relative Units](#length-units-absolute--relative-units)
 
 ----
 
@@ -243,7 +244,6 @@ Via external CSS, you declare your CSS preferences in a separate file of the typ
 * [External CSS vs inline style performance difference?](https://stackoverflow.com/questions/8284365/external-css-vs-inline-style-performance-difference)
 * [Why should I use an external stylesheet instead of inline CSS?](https://discuss.codecademy.com/t/why-should-i-use-an-external-stylesheet-instead-of-inline-css/363588)
 
-
 -----
 
 ## Padding - Border - Margin
@@ -260,3 +260,7 @@ Three important properties control the space that surrounds each HTML element: `
         * https://www.w3schools.com/css/css_margin.asp
 * The CSS `border` properties allow you to specify the style, width, and color of an element's border.    
     * https://www.w3schools.com/css/css_border.asp
+
+-----    
+
+## Length Unitis: Absolute & Relative Units
