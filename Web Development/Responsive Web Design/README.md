@@ -236,12 +236,10 @@ N.b.: in your CSS style element, class names start with a period. In your HTML e
 ### External
 
 Via external CSS, you declare your CSS preferences in a separate file of the type .css file. This is the most preferred way of styling because:
-
-* better readability of both the html and the css file which would be in a separate file (applying the *principle of separation of concerns*)
-    * this makes the need of any style modification easier
-* the external stylesheet can be used on multiple html docs
-* external stylesheets allow global changes to be applied easily on the entire html doc
-
+* better readability of both the HTML and the CSS file which would be in a separate file (applying the principle of separation of concerns)
+    * this makes the need for any style modification easier
+* the external stylesheet can be used on multiple HTML docs
+* external stylesheets allow global changes to be applied easily on the entire HTML doc
 * [External CSS vs inline style performance difference?](https://stackoverflow.com/questions/8284365/external-css-vs-inline-style-performance-difference)
 * [Why should I use an external stylesheet instead of inline CSS?](https://discuss.codecademy.com/t/why-should-i-use-an-external-stylesheet-instead-of-inline-css/363588)
 
