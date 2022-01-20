@@ -126,7 +126,7 @@ Theoretical concepts, tools, and applications of Augmented and Virtual Reality.
 
 -----
 
-* [Cheatsheets & Interviews Prep.](??????????????)
+* [Cheatsheets & Interviews Prep.](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Cheatsheets%20%26%20Interviews%20Prep)
 
 Cheatsheets on various topics such as Data Science and Machine Learning as well as various sources for interview questions and preparation.
 
