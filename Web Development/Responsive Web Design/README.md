@@ -299,4 +299,10 @@ E.g. if we have:
 
 , then the colour applied with be blue. N.b. even if we had `class="blue-text red-text"`, then again the blue colour would get applied because what matters is the class order assignment in the style block
 
-* **Ids override classes**, hence, in our previous example if we add an id regarding the colour again, then the colour of that id would be applied
+* **Id declarations override class declarations**, hence, in our previous example if we add an id regarding the colour again, then the colour of that id would be applied
+
+* **inline CSS declarations overrides id declarations**
+
+* Priotity in CSS declarations: `inline CSS > id declaration > class declaration`
+
+E.g. `<h1 style="color: white;" id="blue-text" class="red-text blue-text">Hello World!</h1>`, where the id and class would have been declared in the head style section: the colour applied will be white, i.e. the inline CSS has priority
