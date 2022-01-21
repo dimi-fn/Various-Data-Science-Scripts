@@ -30,6 +30,7 @@ Contents
     * [Length Unitis: Absolute & Relative Units](#length-unitis-absolute--relative-units)
     * [CSS Inheritance](##css-inheritance)
     * [CSS Overriding](#css-overriding)
+    * [Colours](#colours)
 
 ----
 
@@ -312,3 +313,18 @@ E.g. `<h1 style="color: white;" id="blue-text" class="red-text blue-text">Hello 
         }
 
 * therefore, priority in CSS declarations: ` id/class with '!important' > inline CSS > id declaration > class declaration`
+
+-----
+
+## Colours
+
+Apart from explicitly declaring the colour by its name, there are other ways as well:
+* `Hexadecimals` (hex) numbers
+    * they are base 16 numbers, i.e. it uses 16 distinct symbols. Like decimals, the symbols 0-9 represent the values zero to nine. Then A,B,C,D,E,F represent the values 10 to 15. Altogether, 0 to F can represent a digit in hexadecimal, giving us a total of 16 possible values.
+        * The digit `0` is the lowest number in hex code, and represents a complete absence of color.
+        * The digit `F` is the highest number in hex code, and represents the maximum possible brightness.
+    * [Hexadecimal Number System](https://www.freecodecamp.org/news/hexadecimal-number-system/)
+    
+* Using `RGB` values, where instead of using 6 hexadecimal digits like you do with hex code, with RGB you specify the brightness of each color with a number between 0 and 255.
+    * E.g., the RGB value for black is: `rgb(0, 0, 0)`
+    * [What is The RGB Color Model](https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/#whatisthergbcolormodel)
