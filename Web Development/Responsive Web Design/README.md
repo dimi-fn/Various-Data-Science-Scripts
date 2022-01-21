@@ -303,6 +303,12 @@ E.g. if we have:
 
 * **inline CSS declarations overrides id declarations**
 
-* Priotity in CSS declarations: `inline CSS > id declaration > class declaration`
+E.g. `<h1 style="color: white;" id="blue-text" class="red-text blue-text">Hello World!</h1>`, where the id and class would have previously been declared in the head style section: the colour applied will be white, i.e. the inline CSS has priority
 
-E.g. `<h1 style="color: white;" id="blue-text" class="red-text blue-text">Hello World!</h1>`, where the id and class would have been declared in the head style section: the colour applied will be white, i.e. the inline CSS has priority
+* The only way to override the above sequence is by using `!important` during the id/class declaration. Then that would override everything else: e.g. the following class color will get applied even if an id or an inline CSS is assigned to an element:
+
+        .orange-text {
+            color: orange !important;
+        }
+
+* therefore, priority in CSS declarations: ` id/class with '!important' > inline CSS > id declaration > class declaration`
