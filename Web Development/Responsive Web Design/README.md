@@ -28,9 +28,10 @@ Contents
         * [External](#external)
     * [Padding - Border - Margin](#padding---border---margin)
     * [Length Unitis: Absolute & Relative Units](#length-unitis-absolute--relative-units)
-    * [CSS Inheritance](##css-inheritance)
+    * [CSS Inheritance](#css-inheritance)
     * [CSS Overriding](#css-overriding)
     * [Colours](#colours)
+    * [CSS Variables](#css-variables)
 
 ----
 
@@ -286,7 +287,7 @@ Inheritance controls what happens when no value is specified for a property on a
 
 -----
 
-* Browsers read CSS **from top to bottom**, this means that e.g. if we have two classes regarding color in the style block, and if we apply both of the two classes to a text, then the text will get the color of the 2nd class assigned in the style block, hence it will override the color of the 1st class.
+* Browsers read CSS **from top to bottom** (with the bottom element being the prevailing one!), this means that e.g. if we have two classes regarding color in the style block, and if we apply both of the two classes to a text, then the text will get the color of the 2nd class assigned in the style block, hence it will override the color of the 1st class.
 
 E.g. if we have:
 
@@ -328,3 +329,8 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
 * Using `RGB` values, where instead of using 6 hexadecimal digits like you do with hex code, with RGB you specify the brightness of each color with a number between 0 and 255.
     * E.g., the RGB value for black is: `rgb(0, 0, 0)`
     * [What is The RGB Color Model](https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/#whatisthergbcolormodel)
+
+-----
+
+## CSS Variables
+
