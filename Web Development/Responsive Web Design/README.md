@@ -279,9 +279,14 @@ In addition to pixels (`px`) which tell the browser how to size or space an item
 
 ## CSS Inheritance    
 
-Inheritance controls what happens when no value is specified for a property on an element. **CSS properties** can be categorized in two types:
-* `inherited properties`, which by default are set to the [computed value](https://developer.mozilla.org/en-US/docs/Web/CSS/computed_value) of the parent element
-* `non-inherited properties`, which by default are set to [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value) of the property
+Inheritance controls what happens when no value is specified for a property on an element. **CSS properties** can be categorized into two types:
+1. `inherited properties`, which by default are set to the [computed value](https://developer.mozilla.org/en-US/docs/Web/CSS/computed_value) of the parent element
+2. `non-inherited properties`, which by default are set to [initial value](https://developer.mozilla.org/en-US/docs/Web/CSS/initial_value) of the property
+
+<br>
+
+* CSS variables are inherited, just like ordinary properties. To make use of inheritance, CSS variables are often defined in the `:root element`.
+    * `:root` is a **pseudo-class** selector that matches the root element of the document, usually the html element. By creating your variables in :root, they will be available **globally** and can be accessed from any other selector in the style sheet.
 
 ## CSS Overriding
 
@@ -334,3 +339,27 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
 
 ## CSS Variables
 
+* CSS Variables can change many CSS style properties at once by changing only one value.
+
+* Way to declare a CSS variable, e.g.: `--variable-name: gray;`
+
+* After you create your CSS variable, you can assign its value to other CSS properties by referencing the variable's name, e.g.: `background: var(--variable-name);`
+
+* It is a good practise to attach a **fallback** value on CSS variables (in order to increase browser's compatibility as well as for debugging)
+    * e.g.: `background: var(--variable-name, black);` --> background now has two candidate colours, those being gray and black. If gray is not available then the fallback value will be applied.
+
+* In the code below, the variable --green-color will be applied. If it is not supported then the fallback value of red will be used instead. N.b., browsers read CSS **from top to bottom** (with the bottom element being the prevailing one!), that's why the browser will first try to assign the green colour
+
+        <style>
+        :root {
+            /* declare a CSS varibale called "--green-color" */
+            --green-color: green
+        }
+        .red-box {
+            background: red; /* the fallback value*/
+            background: var(--green-color);
+            height: 200px;
+            width:200px;
+        }
+        </style>
+        <div class="red-box"></div>    
