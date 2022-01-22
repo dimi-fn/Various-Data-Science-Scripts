@@ -339,7 +339,7 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
 
 ## CSS Variables
 
-* CSS Variables can change many CSS style properties at once by changing only one value.
+* CSS Variables can change many CSS style properties at once by changing only one value, and they can be [inherited](#CSS-inheritance)
 
 * Way to declare a CSS variable, e.g.: `--variable-name: gray;`
 
