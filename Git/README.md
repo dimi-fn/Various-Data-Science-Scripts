@@ -1,5 +1,7 @@
 # Git
 
+Version control with git.
+
 Contents
 =======================
 
