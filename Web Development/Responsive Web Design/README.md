@@ -32,6 +32,8 @@ Contents
     * [CSS Overriding](#css-overriding)
     * [Colours](#colours)
     * [CSS Variables](#css-variables)
+* [Applied Visual Design](#applied-visual-design)
+
 
 ----
 
@@ -363,3 +365,8 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
         }
         </style>
         <div class="red-box"></div>    
+
+-----
+
+# Applied Visual Design        
+
