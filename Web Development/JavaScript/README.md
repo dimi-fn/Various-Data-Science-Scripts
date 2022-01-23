@@ -57,7 +57,9 @@ E.g.
 
 ## Arrays
 
-[Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
+* Data structure used to store lists of data.
+
+* [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
 
 -----
 
