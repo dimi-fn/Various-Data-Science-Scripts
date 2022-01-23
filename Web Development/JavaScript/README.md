@@ -242,14 +242,13 @@ it’s best practice to not define variables in the global scope.
 
 # Loops
 
-In Python, e.g. this:
+In **Python**, e.g. this:
 
     for i in range (0,4):
         print(i)
         i+=1 # prints 0,1,2,3
 
-
-In Javascript can be:
+The equivalent in **Javascript** can be:
 
     for (let counter = 0; counter < 4; counter++) {
         console.log(counter);
