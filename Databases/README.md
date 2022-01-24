@@ -8,15 +8,17 @@ Contents
 ## SQL
 
 * [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
-
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/sqlite3)
     * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
         * Creating a `database interface` with `SQLlite`
+* [Cheatsheets on SQL](?????)
 
-* [SQL cheat sheet](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/sql_cheat_sheet.pdf) [1]
 
-    * Various commands on SQL
+
+    
+
+
 
 
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
@@ -25,7 +27,7 @@ Contents
     * Introduction to SQL - by Bobby Iliev
         * [github](https://github.com/bobbyiliev/introduction-to-sql)
         * [e-book](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/Intro%20to%20SQL__Boby_Iliev.pdf)
-    * [Learning SQL - by Stackoverflow](???)
+    * [Learning SQL - by Stackoverflow](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/Learning%20SQL%20-%20by%20Stackoverflow.pdf)
 
 
 ----
