@@ -12,7 +12,7 @@ Contents
     * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
         * Creating a `database interface` with `SQLlite`
-* [Cheatsheets on SQL](?????)
+* [Cheatsheets on SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
 
 
 
