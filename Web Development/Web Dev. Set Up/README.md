@@ -3,7 +3,7 @@
 Contents
 =======================
 
-[Chocolatey](#chocolatey)
+* [Chocolatey](#chocolatey)
 
 -----
 
