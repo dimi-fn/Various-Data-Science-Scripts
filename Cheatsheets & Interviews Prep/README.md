@@ -15,3 +15,4 @@ Contents
 * Interviews
 	* [Data Science Interview Questions - by InterviewBit](https://www.interviewbit.com/data-science-interview-questions/)
 	* [51 Essential Machine Learning Interview Questions and Answers - by Roger Huang](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
+	* [Over 100 Data Scientist Interview Questions and Answers - by Terence Shin](https://towardsdatascience.com/over-100-data-scientist-interview-questions-and-answers-c5a66186769a#e4e2)
