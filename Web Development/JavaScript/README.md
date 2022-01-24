@@ -58,6 +58,7 @@ E.g.
 ## Arrays
 
 * Data structure used to store lists of data.
+    * Arrays are mutable (the array values can be changed), ordered, stored data.
 
 * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
 
