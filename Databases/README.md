@@ -13,13 +13,13 @@ Contents
     * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
         * Creating a `database interface` with `SQLlite`
-* [Cheatsheets on SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
 * e-books
     * Introduction to SQL - by Bobby Iliev
         * [github](https://github.com/bobbyiliev/introduction-to-sql)
         * [e-book](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/Intro%20to%20SQL__Boby_Iliev.pdf)
     * [Learning SQL - by Stackoverflow](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/Learning%20SQL%20-%20by%20Stackoverflow.pdf)
+* [Cheatsheets on SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)    
 
 ----
 ### Useful Sources
