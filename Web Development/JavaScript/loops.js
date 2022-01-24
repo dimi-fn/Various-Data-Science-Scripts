@@ -1,18 +1,25 @@
 /* Loops */
 for (let counter = 0; counter < 4; counter++) {
     console.log(counter);
+    /* In python it would be:
+    for i in range (0,4):
+      print(i)
+      i+=1 # prints 0,1,2,3
+    */  
 }
-
-/* In python it would be
-for i in range (0,4):
-    print(i)
-    i+=1 # prints 0,1,2,3
-*/    
+console.log("\n");  
 
 //reverse loop
 for (let counter = 3; counter >= 0; counter--){
     console.log(counter);
+    /* In python it would be:
+    i=4
+    while i>=1:
+      i-=1
+      print(i)
+    */
   }
+console.log("\n");
 
 // iterate arrays
 const vacationSpots = ['Amsterdam', 'Copenhagen', 'Paris'];
