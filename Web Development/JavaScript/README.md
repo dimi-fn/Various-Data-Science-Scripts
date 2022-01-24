@@ -25,7 +25,7 @@ Contents
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
     * [Functions](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet) 
     * [Scope](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet)
-    * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
+    * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet), [more on arrays by MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
     * [Loops](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet)
     * [Objects](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
 -----
@@ -61,6 +61,13 @@ E.g.
     * Arrays are mutable (the array values can be changed), ordered, stored data.
 
 * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet)
+    * some of the built-in methods: 
+        * `.push()`: it adds new element in the end of array
+        * `.pop()`: it removes the last element
+        * `.shift()`: it removes the first element
+        * `.unshift()`: it introduces new element in the beginning of array. The previous array[0] now automatically becomes array[1]
+        *  `.join()`, `.slice()`, `.splice()`, `.concat()`
+        * [more array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 -----
 
