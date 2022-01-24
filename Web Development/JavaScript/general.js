@@ -57,7 +57,6 @@ console.log(x);
 x++ // x+=1 == x++
 console.log(x);
 
-
 /* Operators */
 //typeof, in Python it would be type()
 var x = 1;
@@ -66,3 +65,8 @@ var z = true;
 console.log(`Type of "${x}" is: ${typeof x}`);
 console.log(`Type of "${y}" is: ${typeof y}`);
 console.log(`Type of "${z}" is: ${typeof z}`);  
+
+/* Arrarys */
+let car_array = ["mercedes", "bmw", "audi"]
+console.log(`the array of cars is: ${car_array}`)
+console.log(`the first car in array is: ${car_array[0]}`)
