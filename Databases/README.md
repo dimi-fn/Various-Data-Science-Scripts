@@ -9,6 +9,7 @@ Contents
 
 * Tutorials
     * [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
+    * [Entity Relationship Diagram (ERD)(https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/sqlite3)
     * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
         * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
