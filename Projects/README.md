@@ -12,4 +12,4 @@
 
 * [Google Play Store Apps](https://github.com/dimi-fn/Google-Play-Store-Apps)
 
-* [USA Cars](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Projects)
+* [USA Cars Dataset - Predict the Car Prices](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Projects)
