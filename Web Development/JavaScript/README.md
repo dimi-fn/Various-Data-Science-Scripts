@@ -260,7 +260,7 @@ You can do:
 
 <br>
 
-* [Array iterations methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)
+* [Array iteration methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)
 
 -------
 
