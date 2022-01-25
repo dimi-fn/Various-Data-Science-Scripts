@@ -13,6 +13,7 @@ Contents
 * [Functions](#functions)
     * [Parameters & Arguments](#parameters--arguments)
     * [Default Parameters](#default-parameters)
+    * [Functions as Parameters](#functions-as-parameters)
     * [Helper Functions](#helper-functions)
     * [Function Expression](#function-expression)
     * [Arrow Functions](#arrow-functions)
@@ -153,8 +154,15 @@ Below for example, if a name is given (i.e. if an argument is passed into the fu
     greeting('Peter') // Output: Hello, Peter!
     greeting() // Output: Hello, stranger! 
 
-## Helper Functions
+## Functions as Parameters
+* We can pass functions into other functions as parameters
 
+* A **higher-order function** is a function that either accepts functions as parameters, returns a function, or both
+
+* `callback functions`: functions that are passed in as parameters into other functions
+    * when we pass a function in as an argument to another function, we don’t invoke it. Invoking the function would evaluate to the return value of that function call. With callbacks, we pass in the function itself by typing the function name *without the parentheses*
+
+## Helper Functions
 The **return** value of a function can be used into another function via `function declaration`. In this case, the latter function can be called a `helper function`.
 
 E.g.:
