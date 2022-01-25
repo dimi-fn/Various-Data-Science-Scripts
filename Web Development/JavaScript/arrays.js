@@ -40,3 +40,8 @@ delLastElement(someArray)
 print(someArray)  
 */
 
+
+// Nested Arrays
+nestedArr = [[1], [2,3]];
+console.log(nestedArr[1]) // output: [2,3]
+console.log(nestedArr[1][1]) // output: 3

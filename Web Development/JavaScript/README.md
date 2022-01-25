@@ -64,6 +64,7 @@ E.g.
     * some of the built-in methods: 
         * `.push()`: it adds new element in the end of array
         * `.pop()`: it removes the last element
+        * `.slice()`: it extracts a section (range) of the array
         * `.shift()`: it removes the first element
         * `.unshift()`: it introduces new element in the beginning of array. The previous array[0] now automatically becomes array[1]
         *  `.join()`, `.slice()`, `.splice()`, `.concat()`
