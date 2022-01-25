@@ -74,18 +74,3 @@ console.log(`Type of "${x}" is: ${typeof x}`);
 console.log(`Type of "${y}" is: ${typeof y}`);
 console.log(`Type of "${z}" is: ${typeof z}`);  
 
-/***************** Arrarys *****************/
-let car_array = ["mercedes", "bmw", "audi"];
-console.log(`the array of cars is: ${car_array}`);
-console.log(`the first car in array is: ${car_array[0]}`);
-console.log(`There are ${car_array.length} cars in this array`); // Python: len(car_array) 
-
-// .push(): add element to array
-car_array.push("ferrari", "ford")
-console.log(`the new array is now: ${car_array}`);
-
-// .pop(): remove last element of an array (it doesn't take any arguments, it just removes the last item)
-car_array.pop()
-
-// .slice()
-console.log(`The last two cars of the array are: $(car_array)`);
