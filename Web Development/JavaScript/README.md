@@ -19,6 +19,7 @@ Contents
     * [Function Expression](#function-expression)
     * [Arrow Functions](#arrow-functions)
         * [Concise Body Arrow Functions](#concise-body-arrow-functions)
+    * [Iterators](#iterators)
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
 * Cheatsheets from codeacademy
@@ -29,7 +30,7 @@ Contents
     * [Functions](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet) 
     * [Scope](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet)
     * [Objects](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
-    
+
 -----
 
 # Data Types
@@ -177,7 +178,7 @@ Below for example, if a name is given (i.e. if an argument is passed into the fu
 
 * A **higher-order function** is a function that either accepts functions as parameters, returns a function, or both
 
-* `callback functions`: functions that are passed in as parameters into other functions
+* `callback function`: a callback function is a function passed as an argument into another function
     * when we pass a function in as an argument to another function, we don’t invoke it. Invoking the function would evaluate to the return value of that function call. With callbacks, we pass in the function itself by typing the function name *without the parentheses*
 
 ## Helper Functions
@@ -197,7 +198,7 @@ E.g.:
 
 ## Function Expression    
 
-Another way to define a function is to use a function expression. To define a function inside an expression, we can use the function keyword. In a function expression, the function name is usually omitted. A function with no name is called an *anonymous* function. A function expression is often stored in a variable in order to refer to it.
+Another way to define a function is to use a function expression. To define a function inside an expression, we can use the function keyword. In a function expression, the function name is usually omitted. A function with no name is called `anonymous`. A function expression is often stored in a variable in order to refer to it.
 
 E.g.:
 
@@ -245,6 +246,21 @@ Instead of:
 You can do:
 
     const squareNum = num => num * num; // via callback
+
+-------
+
+## Iterators
+
+* `.forEach()` iterator method: it will execute the same code for each element of an array
+* `.map()`iterator method: it takes an argument of a callback function and returns a new array
+* `.filter()`: it returns an array of elements after filtering out certain elements from the initial array
+* `.findIndex()`: it returns the index of the first element that evaluates to true in the callback function.
+    * If there isn’t a single element in the array that satisfies the condition in the callback, then .findIndex() will return -1.
+* `.reduce()`: returns a single value after iterating through the elements of an array, thereby reducing the array
+
+<br>
+
+* [Array iterations methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods)
 
 -------
 
