@@ -111,11 +111,13 @@ Methods are actions we can perform. We can call methods by appending an instance
 
 # Functions
 
+In JavaScript, [functions]((https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) are first class objects. i.e. they have properties and methods.
+
 A function declaration consists of:
 
 * The function keyword
-* The name of the function, or its `identifier`, followed by parentheses 
-* A function body, or the block of statements required to perform a specific task, enclosed in the function’s curly brackets, `{ }`.
+* The name of the function (i.e. the `identifier`) followed by parentheses 
+* A function body (the block of statements required to perform a specific task) enclosed in the function’s curly brackets, `{ }`.
 
         function printHi(){
             console.log("Hi")
@@ -152,7 +154,7 @@ Below for example, if a name is given (i.e. if an argument is passed into the fu
 
 ## Helper Functions
 
-The return* value of a function can be used into another function via `function declaration`. In this case, the latter function can be called a `helper function`
+The **return** value of a function can be used into another function via `function declaration`. In this case, the latter function can be called a `helper function`.
 
 E.g.:
 
@@ -202,7 +204,7 @@ ES6 introduced arrow function syntax, a shorter way to write functions by using 
 * when 1 parameter:
     *  `const functionName = param1 => {};`
 
-* 2 or more parameters:
+* when 2 or more parameters:
     *  `const functionName = (param1, param2) => {};`
 
 E.g.:

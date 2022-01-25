@@ -66,8 +66,12 @@ rect_area = rectangle_area(5,3);
 console.log(rect_area);
 
 // arrow function:
-let rectangle_area_arrow = (width, height) => {
+var rectangle_area_arrow = (width, height) => {
   let rect_area = width * height;
   return rect_area;
 };
+console.log(rectangle_area_arrow(5,3));
+
+// consise body arrow function:
+var rectangle_area_arrow = (width, height) => width*height;
 console.log(rectangle_area_arrow(5,3));
