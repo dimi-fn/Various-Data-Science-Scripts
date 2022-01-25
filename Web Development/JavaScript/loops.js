@@ -9,7 +9,7 @@ for (let counter = 0; counter < 4; counter++) {
 }
 console.log("\n");  
 
-//reverse loop
+// reverse loop
 for (let counter = 3; counter >= 0; counter--){
     console.log(counter);
     /* In python it would be:
@@ -23,18 +23,15 @@ console.log("\n");
 
 // iterate arrays
 const vacationSpots = ['Amsterdam', 'Copenhagen', 'Paris'];
-
-// Write your code below
 for (let i = 0; i < vacationSpots.length; i++ ){
   console.log('I would love to visit ' + vacationSpots[i]);
 }
-
-/* 
+console.log("\n");
+/*
 In python:
-
 vacationSpots = ['Amsterdam', 'Copenhagen', 'Paris']
 for city in vacationSpots:
-    print(city)
+    print('I would love to visit {}'.format(city))
 */
 
 // nested loops
@@ -64,13 +61,12 @@ for (let counterOne = 1; counterOne < 4; counterOne++){
 // do..while (runs at least one time)  
 let countString = '';
 let i = 0;
- 
 do {
   countString = countString + i;
   i++;
 } while (i < 5);
- 
-console.log(countString);
+console.log(`the value of countString is: ${countString}`);
+console.log("\n");
 
 // break statement
 for (let i = 0; i < 99; i++) {
@@ -78,6 +74,13 @@ for (let i = 0; i < 99; i++) {
        break;
     }
     console.log('I am smaller than 2');
-  }
-   
+  }   
   console.log('Loop broke because I am the number 3');
+  /*
+  In Python:
+  for i in range(0,100):
+  print("I'm smaller than 2")
+  if i==2:
+    print("Loop broke because I am the number 3")
+    break
+  */
