@@ -31,7 +31,7 @@ print(rectangleArea(5,-1))
 var result = rectangleArea(5,-1);
 console.log(result);
 
-// Helper Functions ~ function declarations
+/******************* Helper Functions ~ function declarations *******************/
 function multiplyByNineFifths(number) {
     return number * (9/5);
     };
@@ -42,8 +42,7 @@ return multiplyByNineFifths(celsius) + 32;
 console.log(getFahrenheit(15)); // Returns 59
 console.log("\n");
 
-// Function Expressions
-
+/******************* Function Expressions *******************/
 const isWeekend = function(day){
     if (day==="Saturday" || day==="Sunday"){
       return "Yea! It is " + day + ", so it is weekend!";
@@ -51,14 +50,13 @@ const isWeekend = function(day){
       return "It is a weekday because it is " + day;
     }
   };
-  
   isWeekend("Tuesday")
   console.log(isWeekend('Tuesday'));
-
   isWeekend("Sunday")
   console.log(isWeekend('Sunday'));
+  console.log("\n");
 
-  // Arrow Functions
+  /******************* Arrow Functions *******************/
   const rectangle_Area = (width, height) => {
     let area = width * height;
     return area;
