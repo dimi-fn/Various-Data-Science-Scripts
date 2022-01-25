@@ -76,8 +76,7 @@ Unix, Shell scripting, Bash, terminal commands.
 ------
 
 * APIs & Web Scraping
-    * [APIs](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping#apis)
-    * [Web Scraping](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping#web-scraping)
+    * [APIs](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping#apis), [Web Scraping](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/APIs%20%26%20Web%20Scraping#web-scraping)
 
 ------
 
