@@ -4,7 +4,7 @@ function printHi(){
     console.log("Hi")
 }
 printHi();
-
+console.log("\n");
 /* In Python it would be:
 def printHi():
     return("Hi")
@@ -18,6 +18,14 @@ function rectangleArea(width, height) {
     return width * height;
   }
 console.log(rectangleArea(5,-1));
+console.log("\n");
+/* In Python:
+def rectangleArea(width, height):
+  if width<0 or height<0:
+    return 'You need positive integers to calculate area!'
+  return width*height
+print(rectangleArea(5,-1))  
+*/
 
 // you can also assign the function's result into a variable:
 var result = rectangleArea(5,-1);
@@ -31,8 +39,8 @@ function multiplyByNineFifths(number) {
 function getFahrenheit(celsius) {
 return multiplyByNineFifths(celsius) + 32;
 };
-
 console.log(getFahrenheit(15)); // Returns 59
+console.log("\n");
 
 // Function Expressions
 
