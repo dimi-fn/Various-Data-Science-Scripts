@@ -10,6 +10,7 @@ Contents
 * [Methods](#methods)
 * [Variables](#variables)
 * [Operators](#operators)
+* [Loops](#loops)
 * [Functions](#functions)
     * [Parameters & Arguments](#parameters--arguments)
     * [Default Parameters](#default-parameters)
@@ -20,7 +21,6 @@ Contents
         * [Concise Body Arrow Functions](#concise-body-arrow-functions)
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
-* [Loops](#loops)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -110,8 +110,25 @@ Methods are actions we can perform. We can call methods by appending an instance
 
 -----
 
-# Functions
+# Loops
 
+In **Python**, e.g. this:
+
+    for i in range (0,4):
+        print(i)
+        i+=1 # prints 0,1,2,3
+
+The equivalent in **Javascript** can be:
+
+    for (let counter = 0; counter < 4; counter++) {
+        console.log(counter);
+    }
+
+More at [loops.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js)    
+
+------
+
+# Functions
 In JavaScript, [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) are first class objects, i.e. they have properties and methods.
 * we can also pass functions into other functions as parameters
 
@@ -134,7 +151,7 @@ In Python, the above would be:
 
 ## Parameters & Arguments
 
-Functions receive inputs and they use the inputs to perform a task. When declaring a function, we can specify its `parameters`, which allow functions to accept inputs and perform a task using those inputs. Parameters are used as placeholders for information that will be passed to the function when it is called.
+Functions receive inputs and they use the inputs to perform a task. When declaring a function, we can specify its `parameters`, which allow functions to accept **inputs** and perform a task using those inputs. Parameters are used as placeholders for information that will be passed to the function when it is called.
 
     function functionName (parameters){
         inputs;
@@ -262,19 +279,3 @@ When you declare global variables, they go to the global namespace. The global n
 it’s best practice to not define variables in the global scope.
 
 ------
-
-# Loops
-
-In **Python**, e.g. this:
-
-    for i in range (0,4):
-        print(i)
-        i+=1 # prints 0,1,2,3
-
-The equivalent in **Javascript** can be:
-
-    for (let counter = 0; counter < 4; counter++) {
-        console.log(counter);
-    }
-
-More at [loops.js](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js)    
