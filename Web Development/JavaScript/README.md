@@ -218,7 +218,7 @@ Instead of:
 
 You can do:
 
-    const squareNum = num => num * num;
+    const squareNum = num => num * num; // via callback
 
 -------
 
