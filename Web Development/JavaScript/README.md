@@ -111,7 +111,8 @@ Methods are actions we can perform. We can call methods by appending an instance
 
 # Functions
 
-In JavaScript, [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) are first class objects. i.e. they have properties and methods.
+In JavaScript, [functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) are first class objects, i.e. they have properties and methods.
+* we can also pass functions into other functions as parameters
 
 A function declaration consists of:
 
