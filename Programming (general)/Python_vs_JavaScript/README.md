@@ -4,6 +4,7 @@ Some of the main differences between Python and JavaScript:
 
 | **Python**        | **JavaScript**    | 
 | ------------- |:-------------:| 
+|run file via terminal: $ python <filename.py> |run file via terminal: $ node <filename.js> |
 | back-end      | back-end & front-end | 
 | Numeric Data Types: `int`, `float`, `complex`     | Numeric Data Types: `Number`, `BigInt`    | 
 | Primitive Data Types (4): `int`, `float`, `bool`, `str`  | Primitive Data Types (6): `undefined`, `boolean`, `string`, `number`, `BigInt`, `Symbol`       | 
