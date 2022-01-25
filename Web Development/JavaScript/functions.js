@@ -57,8 +57,15 @@ const isWeekend = function(day){
   console.log("\n");
 
   /******************* Arrow Functions *******************/
-  const rectangle_Area = (width, height) => {
+  let rectangle_Area = (width, height) => {
     let area = width * height;
     return area;
   };
   console.log(rectangle_Area(5,3));
+
+  function rectangleArea(width, height){
+    let area=width*height;
+    return area;
+  }
+  rectangle_Area = rectangleArea(5,3);
+  console.log(rectangle_Area);
