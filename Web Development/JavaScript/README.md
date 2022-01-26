@@ -303,6 +303,8 @@ it’s best practice to not define variables in the global scope.
 
 # Objects
 
+[Coding file]()
+
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
 
