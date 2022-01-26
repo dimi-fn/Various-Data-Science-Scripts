@@ -253,6 +253,8 @@ You can do:
 
 ## Iterators
 
+[Coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/Iterators.js)
+
 Some of the iterator methods:
 
 * `.forEach()`: it executes the same code for each element of an array
@@ -303,7 +305,7 @@ it’s best practice to not define variables in the global scope.
 
 # Objects
 
-[Coding file]()
+[Coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/objects.js)
 
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
