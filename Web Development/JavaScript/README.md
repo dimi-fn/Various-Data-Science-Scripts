@@ -314,9 +314,11 @@ it’s best practice to not define variables in the global scope.
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
     * we have *key-value pairs*: 
-        * `key` (**identifier**)
+        * `key` (**identifier**, **property name**)
         * `key value`
             * the key-value pairs comprise the **properties** of the object literals
+
+*  Objects are **mutable** meaning we can update them after we create them            
 
 <br>
 
