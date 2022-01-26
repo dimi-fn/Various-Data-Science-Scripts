@@ -318,6 +318,7 @@ it’s best practice to not define variables in the global scope.
         * `key value`
             * the key-value pairs comprise the **properties** of the object literals
 
+
     let objectLiteral = {
         "first_key": "value_of_first_key",
         "second_key": "value_of_second_key"
