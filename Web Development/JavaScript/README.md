@@ -22,6 +22,7 @@ Contents
     * [Iterators](#iterators)
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
+* [Objects](#objects)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -299,3 +300,5 @@ When you declare global variables, they go to the global namespace. The global n
 it’s best practice to not define variables in the global scope.
 
 ------
+
+# Objects
