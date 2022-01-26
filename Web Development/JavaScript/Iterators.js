@@ -10,12 +10,12 @@ cars.forEach(function(carItem){
 console.log("\n")
 
 // 2nd way with arrow function
-//cars.forEach(carItem => console.log(carItem));
 cars.forEach(carItem => console.log(`This is a ${carItem} car`));
 
 // Iterator: .map()
 var carsUpper = cars.map(element => element.toUpperCase());
 console.log(carsUpper);
+console.log("\n")
 
 // Iterator: filter
 const randomNumbers = [375, 200, 3.14, 7, 13, 852];
@@ -47,6 +47,7 @@ const startsWithS = animals.findIndex(animal=>{
   return animal[0] === "s";
 });
 console.log(startsWithS);
+console.log("\n")
 
 /********* .reduce() *********/
 
