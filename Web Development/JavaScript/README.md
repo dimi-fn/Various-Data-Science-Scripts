@@ -311,6 +311,9 @@ it’s best practice to not define variables in the global scope.
 
 [Coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/objects_methods.js)
 
+<br>
+
+**Objects**
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
     * we have *key-value pairs*: 
@@ -326,3 +329,6 @@ it’s best practice to not define variables in the global scope.
     "first_key": "value_of_first_key",
     "second_key": "value_of_second_key"
     };
+
+**Methods**
+When the data stored on an object is a function we call that a *method*
