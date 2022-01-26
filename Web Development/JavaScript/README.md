@@ -302,3 +302,11 @@ it’s best practice to not define variables in the global scope.
 ------
 
 # Objects
+
+* Objects can be assigned to variables just like any JavaScript type
+* They are like dictionaries in Python
+
+        let objectLiteral = {
+            "first_key": "value_of_first_key",
+            "second_key": "value_of_second_key"
+        };
