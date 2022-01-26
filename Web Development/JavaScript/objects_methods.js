@@ -26,6 +26,8 @@ delete objectLiteral.second_key;
 console.log(objectLiteral);
 console.log("\n")
 
+
+
 /************* Methods **************/
 
 let printText1 = "This first variable can be invoked from the object created below via the methods of the object";
