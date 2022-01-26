@@ -251,12 +251,14 @@ You can do:
 
 ## Iterators
 
-* `.forEach()` iterator method: it will execute the same code for each element of an array
-* `.map()`iterator method: it takes an argument of a callback function and returns a new array
+Some of the iterator methods:
+
+* `.forEach()`: it executes the same code for each element of an array
+* `.map()`: it takes an argument of a callback function and returns a new array
 * `.filter()`: it returns an array of elements after filtering out certain elements from the initial array
 * `.findIndex()`: it returns the index of the first element that evaluates to true in the callback function.
     * If there isn’t a single element in the array that satisfies the condition in the callback, then .findIndex() will return -1.
-* `.reduce()`: returns a single value after iterating through the elements of an array, thereby reducing the array
+* `.reduce()`: it returns a single value after iterating through the elements of an array, thereby reducing the array
 
 <br>
 
