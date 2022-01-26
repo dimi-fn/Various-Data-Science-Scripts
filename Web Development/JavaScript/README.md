@@ -22,7 +22,7 @@ Contents
     * [Iterators](#iterators)
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
-* [Objects](#objects)
+* [Objects & Methods](#objects--methods)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -307,7 +307,7 @@ it’s best practice to not define variables in the global scope.
 
 ------
 
-# Objects
+# Objects & Methods
 
 [Coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/objects.js)
 
