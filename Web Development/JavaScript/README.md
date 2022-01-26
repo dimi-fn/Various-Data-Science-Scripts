@@ -331,6 +331,8 @@ it’s best practice to not define variables in the global scope.
     "second_key": "value_of_second_key"
     };
 
+*  an object might have another object as a property which in turn could have a property that’s an array of even more objects    
+
 **Methods**:
 
 * When the data stored on an object is a function we call that a *method*.
