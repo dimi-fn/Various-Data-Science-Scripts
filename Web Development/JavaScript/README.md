@@ -331,7 +331,17 @@ it’s best practice to not define variables in the global scope.
     "second_key": "value_of_second_key"
     };
 
-*  an object might have another object as a property which in turn could have a property that’s an array of even more objects    
+*  `nested objects`: an object might have another object as a property which in turn could have a property that’s an array of even more objects    
+
+<br>
+
+**Pass by Reference**:
+
+Objects are passed by reference
+* This means when we pass a variable assigned to an object into a function as an argument, the computer interprets the parameter name as pointing to the space in memory holding that object. As a result, functions which change object properties actually mutate the object permanently (even when the object is assigned to a const variable).
+
+
+------
 
 **Methods**:
 

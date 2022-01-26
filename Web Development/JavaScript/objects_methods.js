@@ -6,6 +6,7 @@ let objectLiteral = {
     };
 console.log(objectLiteral); 
 const keysOfObject = Object.keys(objectLiteral); // the keys (property names) of the object literal
+// objectLiteral["first_key"] or objectLiteral.first_key
 console.log(`The first key is: ${keysOfObject[0]} and its value is: ${objectLiteral["first_key"]}`) // access the first key and value
 console.log("\n")
 /* In Python:
@@ -25,6 +26,48 @@ print("The first key is: {} and its value is: {}".format(list_of_keys[0], python
 delete objectLiteral.second_key;
 console.log(objectLiteral);
 console.log("\n")
+
+// Nested Objects
+let nestedCarObjects = {
+    "cars": {
+        "production": ["mercedes", "bmw", "audi"],
+        "year": [2020, 2018, 2016]
+    },
+
+    "motorbikes": "yamaba"
+    };
+console.log(nestedCarObjects.cars.production[0]); // mercedes
+console.log("\n")
+
+
+/*** Pass by reference ***/
+
+// create a dicitonary
+let carObj = {
+    "production": "mercedes",
+    "year": 2020
+}
+console.log("The original carObj was:\n");
+console.log(carObj);
+console.log("\n");
+
+// create 2 example functions that can be used to alter the dictionary object
+let alterCarObj = obj => {
+    obj["production"] = "bmw"
+    obj.year = "2019"
+};
+
+let addToCarObj = obj =>{
+    obj["model"] = "random_model"
+};
+
+// call the functions with the carObj dictionary object in order to later apply the changes made
+alterCarObj(carObj)
+addToCarObj(carObj);
+// print the modified dictionary object
+console.log("The modified carObj now is:\n")
+console.log(carObj);
+console.log("\n");
 
 
 
