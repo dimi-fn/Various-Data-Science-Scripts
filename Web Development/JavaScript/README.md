@@ -317,12 +317,12 @@ it’s best practice to not define variables in the global scope.
 
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
-    * we have *key-value pairs*: 
+    * Objects store collections of key-value pairs:
         * `key` (**identifier**, **property name**)
         * `key value`
             * the key-value pairs comprise the **properties** of the object literals
-
-*  Objects are **mutable** meaning we can update them after we create them            
+* Hence, each key-value pair is a property, and when a property is a function it is known as a method
+*  Objects are **mutable** meaning we can update them after we create them, even when they are declared with const
 
 <br>
 
@@ -339,6 +339,11 @@ it’s best practice to not define variables in the global scope.
 
 Objects are passed by reference
 * This means when we pass a variable assigned to an object into a function as an argument, the computer interprets the parameter name as pointing to the space in memory holding that object. As a result, functions which change object properties actually mutate the object permanently (even when the object is assigned to a const variable).
+
+**Looping through Objects**:
+
+* [Iterating through objects with the for..in syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
+    * for...in will execute a given block of code for each property in an object
 
 
 ------
