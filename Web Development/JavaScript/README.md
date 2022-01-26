@@ -28,6 +28,7 @@ Contents
     * [Arrays](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-arrays/cheatsheet), [more on arrays by MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
     * [Loops](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet)
     * [Functions](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-functions/cheatsheet) 
+    * [Iterators](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet)
     * [Scope](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet)
     * [Objects](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
 
@@ -179,7 +180,7 @@ Below for example, if a name is given (i.e. if an argument is passed into the fu
 * A **higher-order function** is a function that either accepts functions as parameters, returns a function, or both
 
 * `callback function`: a callback function is a function passed as an argument into another function
-    * when we pass a function in as an argument to another function, we don’t invoke it. <ins>Invoking the function would evaluate to the return value of that function call</ins>. With callbacks, we pass in the function itself by typing the function name *without the parentheses*
+    * when we pass a function in as an argument to another function, we don’t invoke it. <ins>Invoking the function would evaluate to the return value of that function call</ins>. With **callbacks**, we pass in the function itself by typing the function name **without the parentheses**
 
 ## Helper Functions
 The **return** value of a function can be used into another function via `function declaration`. In this case, the latter function can be called a `helper function`.
