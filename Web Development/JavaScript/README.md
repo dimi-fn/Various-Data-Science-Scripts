@@ -313,7 +313,8 @@ it’s best practice to not define variables in the global scope.
 
 <br>
 
-**Objects**
+**Objects**:
+
 * Objects can be assigned to variables just like any JavaScript type
 * They are like dictionaries in Python
     * we have *key-value pairs*: 
@@ -330,5 +331,10 @@ it’s best practice to not define variables in the global scope.
     "second_key": "value_of_second_key"
     };
 
-**Methods**
-When the data stored on an object is a function we call that a *method*
+**Methods**:
+
+* When the data stored on an object is a function we call that a *method*.
+* A property is what an object has, while a method is what an object does. For example:
+    * `console.log()`:
+        * `console` is a global javascript object
+        * `.log` is a method of that object, i.e., it is about what that object (console) does
