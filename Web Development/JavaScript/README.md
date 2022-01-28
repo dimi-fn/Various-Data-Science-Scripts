@@ -22,6 +22,7 @@ Contents
 * [Blocks & Scope](#blocks--scope)
     * [Scope Pollution](#score-pollution)
 * [Objects & Methods](#objects--methods)
+    * [Advanced Objects](#advanced-objects)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -345,8 +346,12 @@ Methods are actions we can perform. We can call methods by appending an instance
 * the name of the method
 * opening and closing parentheses
 
-Hence, when the data stored on an object is a function we call that a *method*.
+Hence, when the data stored on an object is a function, we call that a *method*.
 * A property is what an object has, while a method is what an object does. For example:
     * `console.log()`:
         * `console` is a global javascript object
         * `.log` is a method of that object, i.e., it is about what that object (console) does
+
+------
+
+## Advanced Objects
