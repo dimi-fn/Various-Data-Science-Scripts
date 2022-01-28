@@ -91,6 +91,7 @@ personB.age = '40'; // Logs: You must assign a number to age
 console.log("\n")
 
 // example of both a getter and a setter
+// getter will grab the initial value of numOfSensors, setter will reassign it
 const robotC = {
     _model: 'XXXYYY',
     _energyLevel: 100,
@@ -112,7 +113,7 @@ const robotC = {
   };
   
   robotC.numOfSensors = 100;
-  console.log(robotC.numOfSensors);
+  console.log(robotC.numOfSensors); // 100
   
   
   

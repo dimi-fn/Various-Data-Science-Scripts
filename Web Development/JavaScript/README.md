@@ -25,6 +25,7 @@ Contents
     * [Advanced Objects](#advanced-objects)
         * [Privacy](#privacy)
         * [Getters & Setters](#getters--setters)
+        * [Factory Functions](#factory-functions)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -393,3 +394,8 @@ Setters reassign values of existing properties within an object. Like getter met
 * displaying a clear intention for how the object is supposed to be used
 
 N.b. It is still possible to reassign properties with `._variable`
+
+------
+
+### Fuctory Functions
+A factory function is a function that returns an object and can be reused to make multiple object instances. Factory functions can also have parameters allowing us to customize the object that gets returned.
