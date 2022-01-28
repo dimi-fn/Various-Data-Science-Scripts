@@ -7,7 +7,6 @@ Contents
 * [Data Types](#data-types)
 * [Properties](#properties)
     * [Arrays](#arrays)
-* [Methods](#methods)
 * [Variables](#variables)
 * [Operators](#operators)
 * [Loops](#loops)
@@ -76,15 +75,6 @@ E.g.
         * `.unshift()`: it introduces new element in the beginning of array. The previous array[0] now automatically becomes array[1]
         *  `.join()`, `.slice()`, `.splice()`, `.concat()`
         * [more array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-
------
-
-# Methods
-
-Methods are actions we can perform. We can call methods by appending an instance with:
-* a period (the dot operator)
-* the name of the method
-* opening and closing parentheses
 
 -----
 
@@ -346,12 +336,16 @@ Objects are passed by reference
 * [Iterating through objects with the for..in syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
     * for...in will execute a given block of code for each property in an object
 
-
 ------
 
 **Methods**:
 
-* When the data stored on an object is a function we call that a *method*.
+Methods are actions we can perform. We can call methods by appending an instance with:
+* a period (the dot operator)
+* the name of the method
+* opening and closing parentheses
+
+Hence, when the data stored on an object is a function we call that a *method*.
 * A property is what an object has, while a method is what an object does. For example:
     * `console.log()`:
         * `console` is a global javascript object
