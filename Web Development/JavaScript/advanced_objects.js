@@ -127,9 +127,30 @@ return {
     year: year,
     logCars() {
     console.log(`This is a ${brand} ${model} produced in ${year}`);
+    console.log("\n")
     } 
 }
 };
 
-const newCar = carFactory('mercedes', "C class", 2020)
+// call the newCar object as a result of calling carFactory with the needed arguments
+const newCar = carFactory('mercedes', "C class", 2020) 
 newCar.logCars(); // This is a mercedes C class produced in 2020
+// Similary, we can invoke again the carFactory function to log multiple cars
+
+// the same function above, but with the property value shorthand technique
+const carFactory2 = (brand, model, year) => {
+    // factory function with 3 parameters (brand, model, year) returning an object with 4 properties (brand, model, year, logCars())
+return { 
+    brand, 
+    model,
+    year,
+    logCars() {
+    console.log(`This is a ${brand} ${model} produced in ${year}, with property value shorthand`);
+    console.log("\n")
+    } 
+}
+};
+
+// call the newCar object as a result of calling carFactory2 with the needed arguments
+const newCar2 = carFactory2('mercedes', "C class", 2020) 
+newCar2.logCars(); // This is a mercedes C class produced in 2020

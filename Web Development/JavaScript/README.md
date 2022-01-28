@@ -399,3 +399,4 @@ N.b. It is still possible to reassign properties with `._variable`
 
 ### Factory Functions
 A factory function is a function that returns an object and can be *reused* to make *multiple* object *instances*. Factory functions can also have parameters allowing us to customize the object that gets returned (rememeber using `self` in classes via Python)
+* you can also use the technique of **property value shorthand**, which is a shortcut for assigning properties to variables, see the [respective coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/advanced_objects.js) for an example
