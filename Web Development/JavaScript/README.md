@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* Coding files: [general](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/general.js), [conditionals](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/conditionals.js), [arrays](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/arrays.js), [loops](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js), [functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/functions.js), [iterators](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/Iterators.js), [objects & methods](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/objects_methods.js)
+* Coding files: [general](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/general.js), [conditionals](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/conditionals.js), [arrays](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/arrays.js), [loops](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/loops.js), [functions](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/functions.js), [iterators](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/Iterators.js), [objects & methods](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/objects_methods.js), [advanced objects](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/advanced_objects.js)
 * [Data Types](#data-types)
 * [Properties](#properties)
     * [Arrays](#arrays)
@@ -23,6 +23,8 @@ Contents
     * [Scope Pollution](#score-pollution)
 * [Objects & Methods](#objects--methods)
     * [Advanced Objects](#advanced-objects)
+        * [Privacy](#privacy)
+        * [Getters & Setters](getters--setters)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -356,6 +358,8 @@ Hence, when the data stored on an object is a function, we call that a *method*.
 
 ## Advanced Objects
 
+[Coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/advanced_objects.js)
+
 Objects are collections of related data and functionality
 * That functionality can be stored via *methods* on *objects*
 
@@ -363,8 +367,11 @@ Avoid using *arrow functions* when using the `this` in a method
 * Arrow functions inherently bind, or tie, an already defined this value to the function itself that is not the calling object
 * [global objects](https://developer.mozilla.org/en-US/docs/Glossary/Global_object), [arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-<br>
+------
 
-**Privacy**:
+### Privacy
+The privacy with regard to accessing and updating object properties is about the idea that only certain properties should be mutable or able to change in value. In JavaScript, the *naming convention* `_` (underscore) is used before the name of a property to imply that the property should not be altered
 
-The privacy with regard to accessing and updating object properties is about the idea that only certain properties should be mutable or able to change in value. In JavaScript, the *naming convention* `_` (underscore) is used before the name of a property to imply that the property should not be altered.
+------
+
+### Getters & Setters
