@@ -34,14 +34,13 @@ let nestedCarObjects = {
         "year": [2020, 2018, 2016]
     },
 
-    "motorbikes": "yamaba"
+    "motorbikes": "yamaha"
     };
 console.log(nestedCarObjects.cars.production[0]); // mercedes
 console.log("\n")
 
 
 /*** Pass by reference ***/
-
 // create a dicitonary
 let carObj = {
     "production": "mercedes",
@@ -52,11 +51,13 @@ console.log(carObj);
 console.log("\n");
 
 // create 2 example functions that can be used to alter the dictionary object
+// this modifies the existing key-value pairs of carObj
 let alterCarObj = obj => {
     obj["production"] = "bmw"
     obj.year = "2019"
 };
 
+// this introduces a new key-value pair
 let addToCarObj = obj =>{
     obj["model"] = "random_model"
 };
@@ -73,8 +74,8 @@ console.log("\n");
 
 /************* Methods **************/
 
-let printText1 = "This first variable can be invoked from the object created below via the methods of the object";
-let printText2 = "This second variable can be invoked from the object created below via the methods of the object";
+let printText1 = "This first variable can be invoked from the object created below via the methods of the object 'objectPrintMessages'";
+let printText2 = "This second variable can be invoked from the object created below via the methods of the object 'objectPrintMessages'";
 
 let objectPrintMessages = {
     firstMessage(){
@@ -84,7 +85,7 @@ let objectPrintMessages = {
         console.log(printText2)
     },
     randomMessage(){
-        console.log("a random message")
+        console.log("This is a random message")
     }
 };
 // invoke the methods of the object objectPrintMessages

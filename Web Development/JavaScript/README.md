@@ -90,7 +90,8 @@ Methods are actions we can perform. We can call methods by appending an instance
 
 # Variables
 
-* [let vs var](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var)
+* [var vs let](https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var)
+* [let vs var vs const](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 * [let vs var vs const](https://ui.dev/var-let-const/#:~:text=Turns%20out%2C%20const%20is%20almost,it%20to%20a%20new%20value.)
 * `undefined`: if a variable is declared without a value, then the variable's value will automatically be assigned as undefined
 * `const`: constant variable, i.e. the variable's value cannot change
