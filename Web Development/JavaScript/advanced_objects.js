@@ -171,7 +171,6 @@ const robot_destructive = {
     }
   };
   
-
 // extract "energyLevel" in a classic way
 const energy_level = robot_destructive.energyLevel;
 console.log(energy_level);
