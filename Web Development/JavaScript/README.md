@@ -24,7 +24,7 @@ Contents
 * [Objects & Methods](#objects--methods)
     * [Advanced Objects](#advanced-objects)
         * [Privacy](#privacy)
-        * [Getters & Setters](getters--setters)
+        * [Getters & Setters](#getters--setters)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
