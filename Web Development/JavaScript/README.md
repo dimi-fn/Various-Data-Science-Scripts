@@ -400,9 +400,14 @@ N.b. It is still possible to reassign properties with `._variable`
 
 ### Factory Functions
 A factory function is a function that returns an object and can be *reused* to make *multiple* object *instances*. Factory functions can also have parameters allowing us to customize the object that gets returned (rememeber using `self` in classes via Python)
-* you can also use the technique of **property value shorthand**, which is a shortcut for assigning properties to variables, see the [respective coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/advanced_objects.js) for an example
-* you can also make use of the **destructured assignment**, i.e. by creating a variable with the name of an object’s key that is wrapped in curly braces { } and assign to it the object
+* you can also use the technique of `property value shorthand`, which is a shortcut for assigning properties to variables, see the [respective coding file](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/advanced_objects.js) for an example
+* you can also make use of the `destructured assignment`, i.e. by creating a variable with the name of an object’s key that is wrapped in curly braces { } and assign to it the object
 
 ------
 
 ### Built-in Methods
+
+The are available various object instance methods like:
+* `.hasOwnProperty()`, `.valueOf()`
+* [object classes: object instance documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods)
+    .e.g.: [.Object.keys()](), [.Object.entries()]()
