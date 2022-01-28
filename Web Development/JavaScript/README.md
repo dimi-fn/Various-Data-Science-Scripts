@@ -355,3 +355,16 @@ Hence, when the data stored on an object is a function, we call that a *method*.
 ------
 
 ## Advanced Objects
+
+Objects are collections of related data and functionality
+* That functionality can be stored via *methods* on *objects*
+
+Avoid using *arrow functions* when using the `this` in a method
+* Arrow functions inherently bind, or tie, an already defined this value to the function itself that is not the calling object
+* [global objects](https://developer.mozilla.org/en-US/docs/Glossary/Global_object), [arrow function expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+<br>
+
+**Privacy**:
+
+The privacy with regard to accessing and updating object properties is about the idea that only certain properties should be mutable or able to change in value. In JavaScript, the *naming convention* `_` (underscore) is used before the name of a property to imply that the property should not be altered.
