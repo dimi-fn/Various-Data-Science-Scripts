@@ -18,6 +18,7 @@ const carObject = {
   console.log("\n")
 
 
+
 /*** Privacy on object properties***/
 // via the naming convention "_"
 
@@ -31,7 +32,87 @@ const robot = {
   };
   
 // uncomment to see the difference
-// although energyLevel has '_' it is still possible to reassign it:
+// although energyLevel has '_' it is still possible to reassign it with "._":
 // robot._energyLevel = 200;
 
 robot.recharge();
+console.log("\n")
+
+
+
+/*** Getters & Setters ***/
+/* Getters */
+const person = {
+    _firstName: 'Peter',
+    _lastName: 'Doe',
+    get fullName() {
+      if (this._firstName && this._lastName){
+        return `${this._firstName} ${this._lastName}`;
+      } else {
+        return 'Missing a first name or a last name.';
+      }
+    }
+  }
+   
+// Call the getter method: 
+console.log(person.fullName); // 'Peter Doe'
+console.log("\n")
+
+// another example
+const roboT = {
+    _model: 'xxy',
+    _energyLevel: 100,
+    get energyLevel(){
+        if(typeof this._energyLevel === 'number') {
+            return 'The current energy level is ' + this._energyLevel
+        } else {
+            return "System malfunction: cannot retrieve energy level"
+        }
+    }
+};
+console.log(roboT.energyLevel);
+  
+  
+/* Setters */
+const personB = {
+    _age: 37,
+    set age(newAge){
+      if (typeof newAge === 'number'){
+        this._age = newAge;
+      } else {
+        console.log('You must assign a number to age');
+      }
+    }
+  };
+
+personB.age = 40; // personB._age = 40;
+console.log(personB._age); // Logs: 40
+personB.age = '40'; // Logs: You must assign a number to age  
+console.log("\n")
+
+// example of both a getter and a setter
+const robotC = {
+    _model: 'XXXYYY',
+    _energyLevel: 100,
+    _numOfSensors: 15,
+    get numOfSensors(){
+      if(typeof this._numOfSensors === 'number'){
+        return this._numOfSensors;
+      } else {
+        return 'Sensors are currently down.'
+      }
+    },
+    set numOfSensors(num) {
+      if (typeof num === 'number' && num >= 0){
+        this._numOfSensors = num;
+      } else {
+        console.log('Pass in a number that is greater than or equal to 0')
+      }   
+    } 
+  };
+  
+  robotC.numOfSensors = 100;
+  console.log(robotC.numOfSensors);
+  
+  
+  

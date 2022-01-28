@@ -375,3 +375,21 @@ The privacy with regard to accessing and updating object properties is about the
 ------
 
 ### Getters & Setters
+
+**Getters**: Getters are methods that get and return the internal properties of an object
+* they can perform an action on the data when getting a property
+* they can return different values using conditionals
+* in a getter, we can access the properties of the calling object using `this`.
+
+N.b. It is still possible to reassign properties with `._variable`
+
+<br>
+
+**Setters**:
+
+Setters reassign values of existing properties within an object. Like getter methods, there are similar advantages to using setter methods that include:
+* checking input
+* performing actions on properties
+* displaying a clear intention for how the object is supposed to be used
+
+N.b. It is still possible to reassign properties with `._variable`
