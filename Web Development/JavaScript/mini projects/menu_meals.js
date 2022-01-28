@@ -15,7 +15,7 @@ const menu = {
     get desserts(){
         return this._courses.desserts;
     },
-    set appetizers(appetizers){ // set appetizers(parameter), e.g. it could be set appetizers(data)
+    set appetizers(appetizers){ // set appetizers(parameter), e.g. it could be: set appetizers(data)
         this._courses.appetizers=appetizers;
     },
     set mains(mains){
@@ -41,6 +41,7 @@ const menu = {
         return this._courses[courseName].push(dish);
     },
     // getRandomDishFromCourse() method is applied inside the menu object having the courseName parameter
+    // this allows us to get a random dish from a course on the menu, which will be necessary for generating a random meal
     getRandomDishFromCourse(courseName){
         // retrieve the array of the given course's dished from the menu's _courses object and store it to 'dishes'
         const dishes = this._courses[courseName];
