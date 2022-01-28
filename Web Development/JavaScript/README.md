@@ -410,4 +410,4 @@ A factory function is a function that returns an object and can be *reused* to m
 The are available various object instance methods like:
 * `.hasOwnProperty()`, `.valueOf()`
 * [object classes: object instance documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods)
-    .e.g.: [.Object.keys()](), [.Object.entries()]()
+   * .e.g.: [.Object.keys()](), [.Object.entries()]()
