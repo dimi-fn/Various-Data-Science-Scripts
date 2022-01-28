@@ -137,6 +137,7 @@ const newCar = carFactory('mercedes', "C class", 2020)
 newCar.logCars(); // This is a mercedes C class produced in 2020
 // Similary, we can invoke again the carFactory function to log multiple cars
 
+/* property value shorthand */
 // the same function above, but with the property value shorthand technique
 const carFactory2 = (brand, model, year) => {
     // factory function with 3 parameters (brand, model, year) returning an object with 4 properties (brand, model, year, logCars())
@@ -154,3 +155,27 @@ return {
 // call the newCar object as a result of calling carFactory2 with the needed arguments
 const newCar2 = carFactory2('mercedes', "C class", 2020) 
 newCar2.logCars(); // This is a mercedes C class produced in 2020
+
+
+/* Destructured Assignment */ 
+const robot_destructive = {
+    model: 'XXXYYY',
+    energyLevel: 100,
+    functionality: {
+      beep() {
+        console.log('Beep Boop');
+      },
+      fireLaser() {
+        console.log('Pew Pew');
+      },
+    }
+  };
+  
+
+// extract "energyLevel" in a classic way
+const energy_level = robot_destructive.energyLevel;
+console.log(energy_level);
+
+// extract 'energyLevel' via Destructured Assignment technique
+const {energyLevel} = robot_destructive; 
+console.log(energyLevel);
