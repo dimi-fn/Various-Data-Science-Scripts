@@ -19,7 +19,7 @@ const carObject = {
 
 
 
-/*** Privacy on object properties***/
+/***************************** Privacy on object properties *****************************/
 // via the naming convention "_"
 
 const robot = {
