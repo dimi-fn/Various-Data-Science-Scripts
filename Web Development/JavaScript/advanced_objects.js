@@ -114,6 +114,22 @@ const robotC = {
   
   robotC.numOfSensors = 100;
   console.log(robotC.numOfSensors); // 100
+  console.log("\n")
   
   
-  
+
+/* Factory Functions*/
+const carFactory = (brand, model, year) => {
+    // factory function with 3 parameters (brand, model, year) returning an object with 4 properties (brand, model, year, logCars())
+return { 
+    brand: brand,
+    model: model, 
+    year: year,
+    logCars() {
+    console.log(`This is a ${brand} ${model} produced in ${year}`);
+    } 
+}
+};
+
+const newCar = carFactory('mercedes', "C class", 2020)
+newCar.logCars(); // This is a mercedes C class produced in 2020
