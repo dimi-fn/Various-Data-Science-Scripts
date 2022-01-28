@@ -40,7 +40,7 @@ console.log("\n")
 
 
 
-/*** Getters & Setters ***/
+/***************************** Getters & Setters *****************************/
 /* Getters */
 const person = {
     _firstName: 'Peter',
@@ -118,7 +118,7 @@ const robotC = {
   
   
 
-/* Factory Functions*/
+/***************************** Factory Functions *****************************/
 const carFactory = (brand, model, year) => {
     // factory function with 3 parameters (brand, model, year) returning an object with 4 properties (brand, model, year, logCars())
 return { 
