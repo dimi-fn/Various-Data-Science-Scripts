@@ -26,7 +26,7 @@ Contents
         * [Privacy](#privacy)
         * [Getters & Setters](#getters--setters)
         * [Factory Functions](#factory-functions)
-        * [Built-in Methods](#build-in-methods)
+        * [Built-in Methods](#built-in-methods)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
