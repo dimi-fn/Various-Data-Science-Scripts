@@ -15,3 +15,5 @@
 * [SEO Handbook](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#search-engine-optimization-seo-handbook)
 
 * [USA Cars Dataset - Predict the Car Prices](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Projects)
+
+* [Mini-projects using JavaScript](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/JavaScript/mini%20projects)
