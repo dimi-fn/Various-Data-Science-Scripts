@@ -19,7 +19,7 @@ Contents
 # Documentation
 
 * [Git doc](https://git-scm.com/)
-* [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/hello-world)
 
 -------
 
