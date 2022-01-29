@@ -114,7 +114,7 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 # Fork & Pull Request
 * `Fork the repo`
     * fork the repo from the owner's github repo page. This will automatically create a forked repo on your personal github
-* `Clone the forked repo` (i.e. now being at your personal github) so that you can apply the desired changes. One way you can do that is:
+* `Clone the forked repo` (i.e. the remote repo now hosted on your personal github) so that you can apply the desired changes. One way you can do that is:
     * grab the clone url: forked repo page > "Code" > "HTTPS" > copy the URL which ends with '.git'
     * in VS code: source control > clone > enter the URL > create workspace folder. Now you have a forked repo at your system
         * now you can apply the changes in the code. Commit the changes and push (these, as expected, will be applied in your forked repo)
