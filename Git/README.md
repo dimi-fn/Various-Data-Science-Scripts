@@ -66,5 +66,4 @@ Contents
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
 
 
-
-* [50 Git Commands You Should Know - by Fabio Pacific via freecodecamp](https://www.freecodecamp.org/news/git-cheat-sheet/?fbclid=IwAR3LGtnWpYV6xbM0yUKFVfFcfWIrEDJraf9h51ACtO4VmTEejz1nS-NTJsM)
+------
