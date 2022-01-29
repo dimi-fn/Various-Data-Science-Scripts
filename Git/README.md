@@ -12,7 +12,7 @@ Contents
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
-* [VS Code & Github](vs-code--github)
+* [VS Code & Github](#vs-code--github)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 
