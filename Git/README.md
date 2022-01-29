@@ -12,6 +12,7 @@ Contents
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
+* [VS Code & Github](vs-code--github)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 
@@ -27,7 +28,7 @@ Contents
 
 # Cheatsheets
 
-* [Basic git commands](https://www.dropbox.com/s/ubyvjp84cq42m5r/Git%20Cheat%20Sheet%20-%20Google%20Docs.pdf?dl=0)
+* [Git Cheatsheet by Github](https://training.github.com/downloads/github-git-cheat-sheet/)
 * [50 Git Commands You Should Know - by Fabio Pacific via freecodecamp](https://www.freecodecamp.org/news/git-cheat-sheet/?fbclid=IwAR3LGtnWpYV6xbM0yUKFVfFcfWIrEDJraf9h51ACtO4VmTEejz1nS-NTJsM)
 
 ------
@@ -69,8 +70,11 @@ Contents
 
 ------
 
-# Check Git Status
+# VS Code & Github
 
+------
+
+# Check Git Status
 * `git log`: git history of current branch
 * `git log --oneline --graph`
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
@@ -78,7 +82,6 @@ Contents
 ------
 
 # Fork & Pull Request
-
 * `Fork the repo`
     * fork the repo from the owner's github repo page. This will automatically create a forked repo on your personal github
 * `Clone the forked repo` (i.e. now being at your personal github) so that you can apply the desired changes. One way you can do that is:
