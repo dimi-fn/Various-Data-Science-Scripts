@@ -89,6 +89,19 @@ The are two ways to do that:
 2nd way: Integrate the two steps above into via VS Code (it prerequires that you have already linked your github on VS Code)
 * VS Code: Publish to Github
 
+<br>
+
+**Additional**:
+
+`.env.development`: Before you pubish to github (and after you have created a repo), you might need to create a .env.development file. This file type is used to define program information that is confidential. Confidential information such as database connection strings should not be pushed to GitHub.
+
+1. On the File menu, select New File
+2. Add the following the file: `CONNECTION_STRING=secret-that-should-not-be-pushed-to-github`
+3. On the File menu, select Save
+4. Save the file as .env.development.
+
+Next, when you are ready to publish on github, deselect the .env.development option from the selected files
+
 ------
 
 # Check Git Status
