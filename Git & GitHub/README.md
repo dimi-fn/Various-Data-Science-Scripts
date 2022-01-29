@@ -1,4 +1,4 @@
-# Git
+# Git & Github
 
 Version control with git.
 
