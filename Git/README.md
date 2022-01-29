@@ -13,6 +13,7 @@ Contents
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
 * [VS Code & Github](#vs-code--github)
+    * [Publish to GitHub from VS Code](#publist-to-github-from-vs-code)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 
@@ -71,6 +72,13 @@ Contents
 ------
 
 # VS Code & Github
+
+* Make sure you have the latest version of VS Code: select the Profile/accounts icon in the activity bar, then select Check for Updates
+* On VS Code, sign in with your github account via the account icon at the bottom of the activity bar
+* Extensions: intall "Github Pull Requests and Issues"
+* VScode: click on the 'Accounts' gear, from there you can turn on the github sync settings if you want to
+
+## Publish to GitHub from VS Code
 
 ------
 
