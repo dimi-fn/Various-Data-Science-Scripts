@@ -111,7 +111,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 | Arguments | Description |
 |------|------|
-|  `.` | currently directory (e.g., ./my_project) |
+|  `.` | current directory (e.g., ./my_project) |
 |  `..` | one folder up (cd .. (1 directory back), ../../my_project => this will move up 2 directories)  |
 | `/` | root of system| 
 | `~` | home directory (usually the path: /users/username). It moves back to folders with regard to this path by including it at the start of your path, e.g., ~/my_project|
