@@ -6,13 +6,21 @@ Contents
 =======================
 
 * Useful Links
+    * [Git doc](https://git-scm.com/)
     * [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* [Cheatsheets](#cheatsheets)    
 * [Windows](#windows)
     * [Install & Update Git on Windows](#install--update-git-on-windows)
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
 * [Check Git Status](#check-git-status)
+
+------
+
+# Cheatsheets
+
+* [50 Git Commands You Should Know - by Fabio Pacific via freecodecamp](https://www.freecodecamp.org/news/git-cheat-sheet/?fbclid=IwAR3LGtnWpYV6xbM0yUKFVfFcfWIrEDJraf9h51ACtO4VmTEejz1nS-NTJsM)
 
 ------
 
@@ -51,3 +59,6 @@ Contents
 * `git log --oneline --graph`
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
 
+
+
+* [50 Git Commands You Should Know - by Fabio Pacific via freecodecamp](https://www.freecodecamp.org/news/git-cheat-sheet/?fbclid=IwAR3LGtnWpYV6xbM0yUKFVfFcfWIrEDJraf9h51ACtO4VmTEejz1nS-NTJsM)
