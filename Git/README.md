@@ -5,9 +5,7 @@ Version control with git.
 Contents
 =======================
 
-* Useful Links
-    * [Git doc](https://git-scm.com/)
-    * [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/set-up-git)
+* [Documentation](#documentation)
 * [Cheatsheets](#cheatsheets)    
 * [Windows](#windows)
     * [Install & Update Git on Windows](#install--update-git-on-windows)
@@ -17,6 +15,13 @@ Contents
 * [Check Git Status](#check-git-status)
 
 ------
+
+# Documentation
+
+* [Git doc](https://git-scm.com/)
+* [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/set-up-git)
+
+-------
 
 # Cheatsheets
 
