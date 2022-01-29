@@ -48,8 +48,15 @@ Contents
 * [Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
 
 * **Update**:
-    * `sudo apt-get update`
-    * `sudo apt-get install git`
+
+* https://git-scm.com/download/linux
+* https://unix.stackexchange.com/a/170831
+    
+        sudo add-apt-repository ppa:git-core/ppa -y
+        sudo apt-get update
+        sudo apt-get install git -y
+        git --version
+
 
 ------
 
