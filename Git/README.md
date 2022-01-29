@@ -13,7 +13,7 @@ Contents
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
 * [VS Code & Github](#vs-code--github)
-    * [Publish to GitHub from VS Code](#publist-to-github-from-vs-code)
+    * [Publish to GitHub from VS Code](#publish-to-github-from-vs-code)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 
