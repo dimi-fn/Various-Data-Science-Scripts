@@ -6,6 +6,8 @@ Contents
 =======================
 
 * Cheatsheets
+	* Git
+		* [Cheatsheets about Git and version control](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git#cheatsheets)
 	* Data Science
 		* [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
 		* [Data Science Cheatsheet - Compiled by Maverick Lin](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Data_Science_Cheatsheet__Compiled%20by%20Maverick%20Lin.pdf)
