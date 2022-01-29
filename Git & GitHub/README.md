@@ -1,6 +1,6 @@
 # Git
 
-Version control with git and GitHub.
+Version control with git.
 
 Contents
 =======================
