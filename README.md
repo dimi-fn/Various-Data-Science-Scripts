@@ -58,7 +58,7 @@ How to set up a virtual environment (venv) and generate a `requirements.txt` fil
 
 ------
 
-[Git](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub)
+[Git & GitHub](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub)
 
 Version control with git and GitHub.
 
