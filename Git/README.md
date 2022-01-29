@@ -80,6 +80,15 @@ Contents
 
 ## Publish to GitHub from VS Code
 
+The are two ways to do that:
+
+1st way:
+* Github: Create your repo on github and copy the repo URL 
+* VS Code: initialize repo > commit > command palette > add remote repo > push (either from 'push' or via 'publish' at the bottom)
+
+2nd way: Integrate the two steps above into via VS Code (it prerequires that you have already linked your github on VS Code)
+* VS Code: Publish to Github
+
 ------
 
 # Check Git Status
