@@ -1,6 +1,7 @@
 # Git & Github
 
-Version control with git.
+Git is a free and open source version control system. 
+* Git is the tool that tracks the changes in your code, GitHub is a website where you host all of your Git repositories online (remotely on the website's cloud)
 
 Contents
 =======================
@@ -14,6 +15,7 @@ Contents
 * [Set Up & Configuration](#set-up--configuration)
 * [VS Code & Github](#vs-code--github)
     * [Publish to GitHub from VS Code](#publish-to-github-from-vs-code)
+* [Git Commands](#git-commands)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 
@@ -107,8 +109,18 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 
 ------
 
+# Git Commands
+
+* `clone`: bring a repo that is hosted somewhere like github into a folder (directory) on your local machine
+* `add`: track your files and changes in Git
+* `commit`: save your files in Git
+* `push`: upload Git commits remotely, e.g. on Github
+* `pull`: download changes from a remote repo to your local machine, i.e. the opposite of "push"
+
+------
+
 # Check Git Status
-* `git log`: git history of current branch
+* `git log`: git history of current branch (type "q" to exit)
 * `git log --oneline --graph`
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
 
