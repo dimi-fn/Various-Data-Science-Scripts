@@ -90,7 +90,7 @@ The are two ways to do that:
 2nd way: Integrate the two steps above into via VS Code (it prerequires that you have already linked your github on VS Code)
 * VS Code: Publish to Github
 
-<br>
+------
 
 **Additional**:
 
