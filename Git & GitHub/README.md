@@ -41,6 +41,7 @@ Contents
 * **Update via Git Bash**: 
     * `git clone https://github.com/git/git`
     * windows: `git update-git-for-windows`
+    * check git version: `git --version`
 
 ------
 
