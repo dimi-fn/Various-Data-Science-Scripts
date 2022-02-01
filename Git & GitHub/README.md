@@ -26,6 +26,7 @@ Contents
 * [Git doc](https://git-scm.com/)
 * [Hello Git - Github](https://docs.github.com/en/get-started/quickstart/hello-world)
 * [Introduction to GitHub in Visual Studio Code](https://docs.microsoft.com/en-us/learn/modules/introduction-to-github-visual-studio-code/)
+* [SSH protocol](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 
 -------
 
