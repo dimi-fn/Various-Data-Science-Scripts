@@ -92,8 +92,8 @@ The are two ways to do that:
 * VS Code: initialize repo > commit > command palette > add remote repo > push (either from 'push' or via 'publish' at the bottom)
 
 2nd way: 
-* Integrate the two steps above via VS Code (it prerequires that you have already linked your github on VS Code)
-    * VS Code: Publish to Github
+* Integrate the two steps above via VS Code (it prerequires that you have already linked your GitHub on VS Code)
+    * VS Code: Open foler > create a workspace directory > Initialize Repository > Publish to Github (there's no need to initialize the repo on GitHub, since this will automatically be created there)
 
 ------
 
