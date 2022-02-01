@@ -50,6 +50,8 @@ Contents
 # Linux
 ## Install & Update Git on Linux
 
+Git is most likely installed by default on linux (and mac) OS.
+
 * [Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
 
 * **Update**:
@@ -89,8 +91,9 @@ The are two ways to do that:
 * Github: Create your repo on github and copy the repo URL 
 * VS Code: initialize repo > commit > command palette > add remote repo > push (either from 'push' or via 'publish' at the bottom)
 
-2nd way: Integrate the two steps above into via VS Code (it prerequires that you have already linked your github on VS Code)
-* VS Code: Publish to Github
+2nd way: 
+* Integrate the two steps above via VS Code (it prerequires that you have already linked your github on VS Code)
+    * VS Code: Publish to Github
 
 ------
 
