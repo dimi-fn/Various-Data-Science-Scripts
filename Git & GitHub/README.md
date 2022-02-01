@@ -86,7 +86,7 @@ Git is most likely installed by default on linux (and mac) OS.
 
 ## Publish to GitHub from VS Code
 
-The are three ways to do that:
+The are four ways to do that:
 
 * 1st way: 
     * Github: Create your repo on github and copy the repo HTTPS URL 
