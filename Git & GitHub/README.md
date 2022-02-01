@@ -85,15 +85,17 @@ Git is most likely installed by default on linux (and mac) OS.
 
 ## Publish to GitHub from VS Code
 
-The are two ways to do that:
+The are three ways to do that:
 
-1st way:
+1st way: 
 * Github: Create your repo on github and copy the repo HTTPS URL 
-* VS Code: initialize repo > commit > command palette > add remote repo > push (either from 'push' or via 'publish' at the bottom)
+* VS Code: source control > open folder (to create a workspace directory) > (git bash, by being under your project directory:) git clone 'the_HTTPS_URL' > 'git add' or 'git add .' > 'git commit -m "your commit message"' > git push
 
-2nd way: 
-* Integrate the two steps above via VS Code (it prerequires that you have already linked your GitHub on VS Code)
-    * VS Code: source control > open foler (to create a workspace directory) > 'new file' to add e.g. your README.md file > Publish to Github and choose public or private repo and your selected files to upload (there's no need to initialize the repo on GitHub, since this will automatically be created there)
+2nd way (similar to the 1st way but without the terminal):
+* source control > open folder (to create a workspace directory) > (via source control) clone repository > paste the HTTPS repo URL > commit any changes through the CLI of VS Code and then push via the button in the bottom
+
+3rd way (integrate all steps above into one via VSCode - it prerequires that you have already linked your GitHub on VS Code): 
+    * VS Code: source control > open foler (to create a workspace directory) > 'new file' to add e.g. your README.md file > (source control:) publish to Github (there's no need to initialize the repo on GitHub, since this will automatically be created there)
 
 ------
 
