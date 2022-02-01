@@ -93,7 +93,7 @@ The are two ways to do that:
 
 2nd way: 
 * Integrate the two steps above via VS Code (it prerequires that you have already linked your GitHub on VS Code)
-    * VS Code: Open foler > create a workspace directory > Initialize Repository > Publish to Github (there's no need to initialize the repo on GitHub, since this will automatically be created there)
+    * VS Code: source control > open foler (to create a workspace directory) > add e.g. your README.md file > Initialize Repository > commit your changes (i.e. your README.md file) > Publish to Github and choose public or private repo (there's no need to initialize the repo on GitHub, since this will automatically be created there)
 
 ------
 
