@@ -159,5 +159,5 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 # Miscellaneous
 
 Git bash:
-    * copy with: Control + Insert
-    * paste with: Shift + Insert
+* copy with: Control + Insert
+* paste with: Shift + Insert
