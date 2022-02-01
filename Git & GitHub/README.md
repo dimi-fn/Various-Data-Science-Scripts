@@ -18,6 +18,7 @@ Contents
 * [Git Commands](#git-commands)
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
+* [Miscellaneous](#miscellaneous)
 
 ------
 
@@ -152,3 +153,11 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 Let's suppose you have already forked a repo, and then submitted a pull request. What if you want to submit another pull request at a later time point? By that time, the remote repo might have changed, and those changes would not have been applied to your forked repo which would remain outdated. Hence, in order to refresh those changes before you submit a new pull request, use `git fetch`
 
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
+
+-------
+
+# Miscellaneous
+
+Git bash:
+    * copy with: Control + Insert
+    * paste with: Shift + Insert
