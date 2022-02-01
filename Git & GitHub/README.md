@@ -158,6 +158,11 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 # Miscellaneous
 
-Git bash:
-* copy with: Control + Insert
-* paste with: Shift + Insert
+* Git bash:
+    * copy with: Control + Insert
+    * paste with: Shift + Insert
+
+* [various terminal commands](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell%20Scripting)    
+    * `ls -a` to also display hidden files, e.g. the .git file
+    * `.` means the current directory
+    * `..` means the parent dir of `.`, i.e. the directory that contains it
