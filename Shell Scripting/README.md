@@ -599,6 +599,7 @@ Log in remotely to another linux machine, e.g.: `ssh user_name@104.25.111.22` wi
 * `help <command>`: like "man" command for linux
 
 * `cd` / `cd ..` / `dir` / `tree <dirname>`
+    * `dir /ah` to also display hidden files (the equivalent of `ls -a`)
     * change drive directory: `cd /d <another drive>:`
     * or just `<another drive>:`
 
