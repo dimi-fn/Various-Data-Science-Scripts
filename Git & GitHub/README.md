@@ -96,7 +96,8 @@ The are four ways to do that:
             * 'git add' or 'git add .' > 'git commit -m "your commit message"' > git push
 
 * 2nd way (similar to the 1st way but without the terminal):
-    * source control: clone repository > paste the HTTPS repo URL > choose workspace directory > commit any potential changes through the CLI of VS Code > push via the button in the bottom
+    * Github: Create your repo on github and copy the repo HTTPS URL 
+    * source control: clone repository > paste the HTTPS repo URL > choose workspace directory > commit any potential changes through the CLI of VS Code > push via the publish button in the bottom
 
 * 3rd way (integrate all steps above into one via VS Code - it prerequires that you have already linked your GitHub on VS Code): 
     * VS Code: source control > open folder (to create a workspace directory) > 'new file' to add e.g. your README.md file > (source control:) publish to Github (there's no need to initialize the repo on GitHub since this will automatically be created there)
