@@ -203,8 +203,8 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 <br>
 
-    git push -d origin <branch-name> # delete branch remotely
     git branch -d <branch-name> # delete branch locally
+    git push -d origin <branch-name> # delete branch remotely    
 
 * `git diff <branch-name>`
     * display the difference between current branch and 'branch-name'
