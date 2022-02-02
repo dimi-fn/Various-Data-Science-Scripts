@@ -164,14 +164,16 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 * `Clone the forked repo` (i.e. the remote repo now hosted on your personal github) so that you can apply the desired changes. One way you can do that is:
     * grab the clone url: forked repo page > "Code" > "HTTPS" > copy the URL which ends with '.git'
     * in VS code: source control > clone > enter the URL > create workspace folder. Now you have a forked repo at your system
-        * now you can apply the changes in the code. Commit the changes and push (these, as expected, will be applied in your forked repo)
+        * now you can apply the changes in the code. Commit the changes and push (these, as expected, will be applied only on your forked repo)
 * `Submit pull request to the project owner`      
-    * navigate to the forked repo on github > new pull request > create a new pull request
+    * navigate to the forked repo hosted on your personal github account > new pull request > create a new pull request
         * you can verify that by visiting the pull requests section of the original associated project
 
 **Refresh changes from the remote (original) repository**
 
-Let's suppose you have already forked a repo, and then submitted a pull request. What if you want to submit another pull request at a later time point? By that time, the remote repo might have changed, and those changes would not have been applied to your forked repo which would remain outdated. Hence, in order to refresh those changes before you submit a new pull request, use `git fetch`
+Let's suppose you have already forked a repo, and then submitted a pull request. What if you want to submit another pull request at a later time point? By that time, the remote repo might have changed, and those changes would not have been applied to your forked repo which would remain outdated. Hence, in order to refresh those changes before you submit a new pull request
+
+1) use `git fetch` to refresh the changes 
 
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
 
