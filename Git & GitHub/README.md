@@ -148,6 +148,7 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 
 * write code
 * `git add` or `git add .` if more than one file (stage changes)
+    * when you do 'git add', you copy a file from the working directory into the staging area. An *index* file is created under the *hooks* folder of the .git hidden file
 * `git commit`: commit changes
 * `git push`: push changes remotely
 
