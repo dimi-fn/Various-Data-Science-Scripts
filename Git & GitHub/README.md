@@ -148,6 +148,7 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
     * To undo a commit:
         * `git checkout <commit-hash>`
     * `git commit -am <commit-message>`
+        * **a**: add | **m**: message
         * this integrates 'git add' and 'git commit -m "message"', but only for existing files that have been modified and not newly created ones
 * `git push`: push changes remotely
 
