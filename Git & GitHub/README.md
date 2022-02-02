@@ -192,27 +192,25 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
     * create a new branch
 
 * `git push --set-upstream origin <name-of-the-branch-you-created-just-earlier>`
-    * publish the new branch. This needs to done once per new branch. After this step, you can commit changes of this branch (with only 'git push') until merging with the master branch
+    * publish the new branch. This needs to done once per new branch. After this step, you can commit changes of this branch with only 'git push' until its merge with the master branch
 
 * `git branch -d <branch-name>`
     * delete a branch locally
 
 * `git push -d origin <branch-name>`
     * delete a branch remotely (on Github)
-        * this happens because via `git branch -d <branch-name>` the branch will be deleted locally, but it will remain on Github in the list of branches
+        * when you `git branch -d <branch-name>` the branch will be deleted locally but it will still remain on Github, therefore via `git push -d origin <branch-name>` you can delete the branch remotely as well
 
 <br>
 
     git push -d origin <branch-name> # delete branch remotely
     git branch -d <branch-name> # delete branch locally
 
-
-
 * `git diff <branch-name>`
     * display the difference between current branch and 'branch-name'
 
 * `git merge <branch-name>`
-    * having checked out and by being on your master branch, merge the master branch with the branch 'branch-name'
+    * under the master branch, merge the master branch with the branch 'branch-name'
 
 -------
 
