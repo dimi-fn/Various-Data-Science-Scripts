@@ -1,4 +1,4 @@
-# Git & Github
+# Git & GitHub
 
 Git is a free and open source version control system. 
 * Git is the tool that tracks the changes in your code, GitHub is a website where you host all of your Git repositories online (remotely on the website's cloud)
