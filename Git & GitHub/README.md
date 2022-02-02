@@ -186,11 +186,11 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
     * switch between branches
         * if you do that via git bash (and not e.g. via the command palette of VS Code) then VS Code will get automatically updated (see at the bottom left for the current branch)
 
-* `git checkout -b <name-0f-new-branch>`
+* `git checkout -b <name-of-new-branch>`
     * create a new branch
 
 * `git push --set-upstream origin <name-of-the-branch-you-created-just-earlier>`
-* publish the new branch. After this step, you can commit changes to this branch until merging with master branch
+    * publish the new branch. This needs to done once per new branch. After this step, you can commit changes of this branch (with only 'git push') until merging with the master branch
 
 * `git branch -d <branch-name>`
     * delete a branch locally
