@@ -107,7 +107,7 @@ The are four ways to do that:
 
 * 4th way
     * Github: Create an empty repo on github and copy the repo HTTPS URL 
-    *  VS Code: open folder (to create a workspace directory) or you can do that via your terminal > add any initial files, e.g. README.md > (git bash, navigate under current working directory:) 'git init' (this will create the .git hidden file) > 'git add' or 'git add .' if more than one file > git commit -m "your message" > git remote add origin "here paste the repo HTTPS URL" (via 'git remote -v' you can check you did that right) > git push --set-upstream origin master
+    *  VS Code: open folder (to create a workspace directory) or you can do that via your terminal > add any initial files, e.g. README.md > (git bash, navigate under current working directory:) 'git init' (this will create the **.git** hidden file) > 'git add' or 'git add .' if more than one file > git commit -m "your message" > git remote add origin "here paste the repo HTTPS URL" (via 'git remote -v' you can check you did that right) > git push --set-upstream origin master
 
 ------
 
@@ -151,7 +151,7 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 * `git add` or `git add file1 file2` or `git add .` to add all files (stage changes)
     * when you do 'git add', you copy a file from the working directory into the staging area. An *index* file is created under the *hooks* folder of the .git hidden file
 * `git commit`: commit changes
-    * when you 'git commit' then a new folder is created under the *objects* folder of the .git folder encompassing the git log hash. You can view the 7 out of the 40 letters and numbers of the hash in the commit terminal message
+    * when you 'git commit' then a new folder is created under the *objects* folder of the **.git** folder encompassing the git log hash. You can view the 7 out of the 40 letters and numbers of the hash in the commit terminal message
     * To undo a commit:
         * `git checkout here-type-the-commit-hash`
 * `git push`: push changes remotely
