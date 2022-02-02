@@ -159,6 +159,9 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 ------
 
 # Fork & Pull Request
+
+Pull request is a request to have your code pulled into another branch. Usually this code comes from a forked repo of the original repo (in which you made some changes)
+
 * `Fork the repo`
     * fork the repo from the owner's github repo page. This will automatically create a forked repo on your personal github
 * `Clone the forked repo` (i.e. the remote repo now hosted on your personal github) so that you can apply the desired changes. One way you can do that is:
@@ -181,7 +184,9 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 # Branching
 
-All changes across branches do not affect the master branch.
+* All changes across branches do not affect the master branch
+
+* It is recommended that you close a branch before opening a new branch
 
 Important commands:
 
@@ -214,7 +219,7 @@ Important commands:
     * display the difference between current branch and 'branch-name'
 
 * `git merge <branch-name>`
-    * under the master branch, merge the master branch with the branch 'branch-name'
+    * under the master branch, merge the master branch with the branch 'branch-name' (merging or patching)
         * you then need to `git push` in order to successfully apply the merge
 
 -------
