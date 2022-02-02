@@ -153,14 +153,14 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 
 # Check Git Status
 
-Files on Git may be:
-* **Modified**: the file has changed but is not committed 
-* **Staged**: The file has been added to the staging area (i.e. 'git add' has been used), but it has not been committed
-* **Committed**: The file has been stored in the Git database
-
 * `git log`: git history of current branch (type "q" to exit)
 * `git log --oneline --graph`
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
+
+Files on Git may be:
+* **Modified**: the file has changed but is not committed 
+* **Staged**: The file has been added to the staging area (i.e. 'git add' has been used), but it has not been committed
+* **Committed**: The file has been stored in the Git database (i.e. 'git commit -m "commit-message"' has been used)
 
 ------
 
