@@ -175,6 +175,6 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 # Useful Sources
 
-* [Documentation](#documentations)
+* [Documentation](#documentation)
 * [Cheatsheets](#cheatsheets)
 * https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org
