@@ -1,7 +1,7 @@
 # Git & GitHub
 
-Git is a free and open source version control system. 
-* Git is the tool that tracks the changes in your code, GitHub is a website where you host all of your Git repositories online (remotely on the website's cloud)
+Git is a free and open-source version control system. 
+* Git is the tool that tracks the changes in your code, whereas GitHub is a website where you host all of your Git repositories online (remotely on the website's cloud)
 
 Contents
 =======================
@@ -19,6 +19,7 @@ Contents
 * [Check Git Status](#check-git-status)
 * [Fork & Pull Request](#fork--pull-request)
 * [Miscellaneous](#miscellaneous)
+* [Useful Sources](#useful-sources)
 
 ------
 
@@ -169,3 +170,11 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
     * `ls -a` to also display hidden files, e.g. the .git file
     * `.` means the current directory
     * `..` means the parent dir of `.`, i.e. the directory that contains it
+
+------
+
+# Useful Sources
+
+* [Documentation](#documentations)
+* [Cheatsheets](#cheatsheets)
+* https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org
