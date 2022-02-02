@@ -19,6 +19,7 @@ Contents
 * [Git Commands](#git-commands)
 * [Git Workflow](#git-workflow)
 * [Fork & Pull Request](#fork--pull-request)
+* [Branching](#branching)
 * [Miscellaneous](#miscellaneous)
 * [Useful Sources](#useful-sources)
 
@@ -173,6 +174,41 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 Let's suppose you have already forked a repo, and then submitted a pull request. What if you want to submit another pull request at a later time point? By that time, the remote repo might have changed, and those changes would not have been applied to your forked repo which would remain outdated. Hence, in order to refresh those changes before you submit a new pull request, use `git fetch`
 
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
+
+-------
+
+* `git branch`
+    * view all branches
+
+* `git checkout`
+    * switch between branches
+        * if you do that via git bash (and not e.g. via the command palette of VS Code) then VS Code will get automatically updated (see at the bottom left for the current branch)
+
+* `git checkout -b <name-0f-new-branch>`
+    * create a new branch
+
+* `git push --set-upstream origin <name-of-the-branch-you-created-just-earlier>`
+* publish the new branch. After this step, you can commit changes to this branch until merging with master branch
+
+* `git branch -d <branch-name>`
+    * delete a branch locally
+
+* `git push -d origin <branch-name>`
+    * delete a branch remotely (on Github)
+        * this happens because via `git branch -d <branch-name>` the branch will be deleted locally, but it will remain on Github in the list of branches
+
+<br>
+
+    git push -d origin <branch-name> # delete branch remotely
+    git branch -d <branch-name> # delete branch locally
+
+
+
+* `git diff <branch-name>`
+    * display the difference between current branch and 'branch-name'
+
+* `git merge <branch-name>`
+    * having checked out and by being on your master branch, merge the master branch with the branch 'branch-name'
 
 -------
 
