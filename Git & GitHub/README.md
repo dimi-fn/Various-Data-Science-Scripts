@@ -146,7 +146,9 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 * `git commit`: commit changes
     * when you 'git commit' then a new folder is created under the *objects* folder of the **.git** folder encompassing the git log hash. You can view the 7 out of the 40 letters and numbers of the hash in the commit terminal message
     * To undo a commit:
-        * `git checkout here-type-the-commit-hash`
+        * `git checkout <commit-hash>`
+    * `git commit -am <commit-message>`
+        * this integrates 'git add' and 'git commit -m "message"', but only for existing files that have been modified and not newly created ones
 * `git push`: push changes remotely
 
 ------
