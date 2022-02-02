@@ -195,7 +195,7 @@ Important commands:
 * `git checkout -b <name-of-new-branch>`
     * create a new branch
 
-* `git push --set-upstream origin <name-of-the-branch-you-created-just-earlier>` or `git push -u origin <name-of-the-branch-you-created-just-earlier>` 
+* `git push --set-upstream origin <name-of-the-branch-you-created-just-earlier>` or `git push -u origin <name-of-the-branch-you-created-just-earlier>` (u == -set-upstream)
     * publish the new branch. This needs to done once per new branch. After this step, you can commit changes of this branch with only 'git push' until its merge with the master branch
 
 * `git branch -d <branch-name>`
