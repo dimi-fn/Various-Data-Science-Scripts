@@ -147,9 +147,12 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 Firstly, you have to synchronize your local repo with the remote repo hosted e.g. on GitHub.
 
 * write code
-* `git add` or `git add .` if more than one file (stage changes)
+* `git add` or `git add file1 file2` or `git add .` to add all files (stage changes)
     * when you do 'git add', you copy a file from the working directory into the staging area. An *index* file is created under the *hooks* folder of the .git hidden file
 * `git commit`: commit changes
+    * when you 'git commit' then a new folder is created under the *objects* folder of the .git folder encompassing the git log hash. You can view the 7 out of the 40 letters and numbers of the hash in the commit terminal message
+    * To undo a commit:
+        * `git checkout here-type-the-commit-hash`
 * `git push`: push changes remotely
 
 ------
