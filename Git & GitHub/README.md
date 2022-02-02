@@ -100,11 +100,11 @@ The are four ways to do that:
     * source control: clone repository > paste the HTTPS repo URL > choose workspace directory > commit any potential changes through the CLI of VS Code > push via the publish button in the bottom
 
 * 3rd way (integrate all steps above into one via VS Code - it prerequires that you have already linked your GitHub on VS Code): 
-    * VS Code: source control > open folder (to create a workspace directory) > 'new file' to add e.g. your README.md file > (source control:) publish to Github (there's no need to initialize the repo on GitHub since this will automatically be created there)
+    * VS Code: source control > open folder (to create a workspace directory) > 'new file' to add e.g. your README.md file > (source control:) publish to Github (there's no need to initialize the repo on GitHub since this will automatically be created there) > choose public/private repo and choose the files to be uploaded on GitHub
 
 * 4th way
     * Github: Create an empty repo on github and copy the repo HTTPS URL 
-    *  VS Code: open folder (to create a workspace directory) or you can do that via your terminal > add any initial files, e.g. README.md > (git bash, navigate under current working directory:) git init (this will create the .git hidden file) > git add > git commit -m "your message" > git remote add origin "here paste the repo HTTPS URL" (via 'git remote -v' you can check you did that right) > git push --set-upstream origin master
+    *  VS Code: open folder (to create a workspace directory) or you can do that via your terminal > add any initial files, e.g. README.md > (git bash, navigate under current working directory:) 'git init' or 'git init .' if more than one file (this will also create the .git hidden file) > git add > git commit -m "your message" > git remote add origin "here paste the repo HTTPS URL" (via 'git remote -v' you can check you did that right) > git push --set-upstream origin master
 
 ------
 
