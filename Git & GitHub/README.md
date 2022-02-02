@@ -211,6 +211,7 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 * `git merge <branch-name>`
     * under the master branch, merge the master branch with the branch 'branch-name'
+    * you then need to `git push` in order to successfully apply the merge
 
 -------
 
