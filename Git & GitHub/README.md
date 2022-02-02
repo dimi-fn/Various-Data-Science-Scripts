@@ -91,8 +91,10 @@ The are four ways to do that:
 
 * 1st way: 
     * Github: Create your repo on github and copy the repo HTTPS URL 
-    * VS Code: source control > open folder (to create a workspace directory) > (git bash, by being under your project directory:) git clone 'the_HTTPS_URL' > 'git add' or 'git add .' > 'git commit -m "your commit message"' > git push
-
+    * VS Code: source control > open folder (to create a workspace directory) > (git bash, by being under your project directory:) git clone 'the_HTTPS_URL'
+        * if you didn't create your README.md file from the 1st step:
+            * 'git add' or 'git add .' > 'git commit -m "your commit message"' > git push
+            
 * 2nd way (similar to the 1st way but without the terminal):
     * source control > open folder (to create a workspace directory) > (source control:) clone repository > paste the HTTPS repo URL > commit any changes through the CLI of VS Code and then push via the button in the bottom
 
