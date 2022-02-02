@@ -177,6 +177,8 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 -------
 
+# Branching
+
 * `git branch`
     * view all branches
 
