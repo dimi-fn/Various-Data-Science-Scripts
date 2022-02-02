@@ -181,6 +181,10 @@ Let's suppose you have already forked a repo, and then submitted a pull request.
 
 # Branching
 
+All changes across branches do not affect the master branch.
+
+Important commands:
+
 * `git branch`
     * view all branches
 
