@@ -15,8 +15,9 @@ Contents
 * [Set Up & Configuration](#set-up--configuration)
 * [VS Code & Github](#vs-code--github)
     * [Publish to GitHub from VS Code](#publish-to-github-from-vs-code)
-* [Git Commands](#git-commands)
 * [Check Git Status](#check-git-status)
+* [Git Commands](#git-commands)
+* [Git Workflow](#git-workflow)
 * [Fork & Pull Request](#fork--pull-request)
 * [Miscellaneous](#miscellaneous)
 * [Useful Sources](#useful-sources)
@@ -124,6 +125,13 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 
 ------
 
+# Check Git Status
+* `git log`: git history of current branch (type "q" to exit)
+* `git log --oneline --graph`
+* `git status`: displays staged changes, unstaged changes and untracked files on working tree
+
+------
+
 # Git Commands
 
 * `clone`: bring a repo that is hosted somewhere like github into a folder (directory) on your local machine
@@ -134,10 +142,14 @@ Next, when you are ready to publish on github, deselect the .env.development opt
 
 ------
 
-# Check Git Status
-* `git log`: git history of current branch (type "q" to exit)
-* `git log --oneline --graph`
-* `git status`: displays staged changes, unstaged changes and untracked files on working tree
+# Git Workflow
+
+Firstly, you have to synchronize your local repo with the remote repo hosted e.g. on GitHub.
+
+* write code
+* `git add` or `git add .` if more than one file (stage changes)
+* `git commit`: commit changes
+* `git push`: push changes remotely
 
 ------
 
