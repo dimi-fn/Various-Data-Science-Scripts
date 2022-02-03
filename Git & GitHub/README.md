@@ -18,7 +18,7 @@ Contents
 * [Git Commands](#git-commands)
 * [Git Workflow](#git-workflow)
 * [Check Git Status](#check-git-status)
-* [Undoing in Git](#undoing-in-git)
+* [Undoing & Corrections in Git](#undoing--corrections-in-git)
 * [Fork & Pull Request](#fork--pull-request)
 * [Branching](#branching)
 * [Miscellaneous](#miscellaneous)
@@ -168,7 +168,7 @@ Files on Git may be:
 
 ------
 
-# Undoing in Git
+# Undoing & Corrections in Git
 
 * `git checkout <filename>`
     * undo a modified file which neither has been staged nor committed (e.g. you saved some new code in a file but you want to undo that)
@@ -271,3 +271,4 @@ Important commands:
 * [Documentation](#documentation)
 * [Cheatsheets](#cheatsheets)
 * https://www.youtube.com/watch?v=RGOj5yH7evk&ab_channel=freeCodeCamp.org
+* https://www.youtube.com/watch?v=HVsySz-h9r4&list=PL-osiE80TeTuRUfjRe54Eea17-YfnOOAx&ab_channel=CoreySchafer
