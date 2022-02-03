@@ -18,7 +18,7 @@ Contents
 * [Git Commands](#git-commands)
 * [Git Workflow](#git-workflow)
 * [Check Git Status](#check-git-status)
-* [Undoing on Git](#undoing-on-git)
+* [Undoing in Git](#undoing-in-git)
 * [Fork & Pull Request](#fork--pull-request)
 * [Branching](#branching)
 * [Miscellaneous](#miscellaneous)
@@ -168,10 +168,22 @@ Files on Git may be:
 
 ------
 
-# Undoing on Git
+# Undoing in Git
 
-* `git reset` or `git reset <filename-that-I-want-to-unstage>`
+* `git checkout <filename>`
+    * undo a modified file which neither has been staged nor committed (e.g. you saved some new code in a file but you want to undo that)
+
+* `git reset` or `git reset <filename-of-specific-file-to-unstage>`
     * undo a staged change, i.e. and e.g. a file has been added via 'git add' and you want to undo that
+
+* `git commit --amend -m "new-commit-message"`    
+    * you previously did a commit with an undesired commit message. This command will amend that and it will replace the message. This means that no new commit will be created, it will just replace (amend) the right previous one, although the commit hash will change (not a good practice when working with others because it can cause problems with their repo regarding the git history)
+
+* `git reset HEAD~1`
+    * undo the very last commit (i.e. here 'git commit -m "message"' has already been used)
+
+* `git reset <hash>`
+    * 
 
 ------
 
