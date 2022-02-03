@@ -13,5 +13,5 @@ Contents
     * install Chocolatey
     * to ensure that installation was successful
         * on PowerShell run `choco`
-        * on Git Bash run `choco --help` 
+        * on Git Bash run `choco --help`, `choco --version`
     * upgrade Chocolatey before installing anything else via `choco upgrade chocolatey` on PowerShell on admin mode.
