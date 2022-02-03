@@ -172,7 +172,7 @@ Files on Git may be:
 # Undoing & Corrections in Git
 
 * `git checkout <filename>`
-    * undo a *modified* file which neither has been staged (i.e. 'git add') nor committed (i.e. 'git commit') (e.g. you saved some new code in a file but you want to undo that). This will automatically remove any piece of code you lastly wrote/modified
+    * undo a *modified* file which neither has been staged (i.e. via 'git add') nor committed (i.e. via 'git commit') (e.g. you saved some new code in a file but you want to undo that). This will automatically remove any piece of code you lastly wrote/modified
 
 * `git reset` or `git reset <filename>`
     * undo a *staged* change of a file, i.e. and e.g. a file has been added via 'git add' and you want to undo that
@@ -181,10 +181,10 @@ Files on Git may be:
     * *amend* a *commit message*: you previously did a commit with an undesired commit message. This command will amend that and it will replace the message. This means that no new commit will be created, it will just replace (amend) the right previous one, although the commit hash will change (not a good practice when working with others because it can cause problems with their repo regarding the git history)
 
 * `git reset HEAD~1`
-    * *undo* the very last *commit* (i.e. here 'git commit -m "message"' has already been used) from the git log, in the case where this commit has not been pushed remotely
+    * *undo* the very last *commit* (i.e. here 'git commit -m "message"' has already been used) from the *git log*, in the case where this commit has not been pushed remotely
 
 * `git reset <hash>`
-    * 
+    * similar to `git reset HEAD~1`, but go back after a certain commit based on the commit hash provided
 
 ------
 
