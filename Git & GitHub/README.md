@@ -223,7 +223,7 @@ Important commands:
 * `git branch`
     * view all branches
 
-* `git checkout`
+* `git checkout <branch-name>`
     * switch between branches
         * if you do that via git bash (and not e.g. via the command palette of VS Code) then VS Code will get automatically updated (see at the bottom left for the current branch)
 
