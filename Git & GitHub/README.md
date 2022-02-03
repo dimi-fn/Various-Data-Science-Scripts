@@ -18,6 +18,7 @@ Contents
 * [Git Commands](#git-commands)
 * [Git Workflow](#git-workflow)
 * [Check Git Status](#check-git-status)
+* [Undoing on Git](#undoing-on-git)
 * [Fork & Pull Request](#fork--pull-request)
 * [Branching](#branching)
 * [Miscellaneous](#miscellaneous)
@@ -164,6 +165,13 @@ Files on Git may be:
 * **Modified**: the file has changed but is not committed 
 * **Staged**: The file has been added to the staging area (i.e. 'git add' has been used), but it has not been committed
 * **Committed**: The file has been stored in the Git database (i.e. 'git commit -m "commit-message"' has been used)
+
+------
+
+# Undoing on Git
+
+* `git reset` or `git reset <filename-that-I-want-to-unstage>`
+    * undo a staged change, i.e. and e.g. a file has been added via 'git add' and you want to undo that
 
 ------
 
