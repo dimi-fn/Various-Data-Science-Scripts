@@ -158,6 +158,7 @@ Firstly, you have to synchronize your local repo with the remote repo hosted e.g
 # Check Git Status
 
 * `git log`: git history of current branch (type "q" to exit)
+    * `git log --stat`: also shows the files changed
 * `git log --oneline --graph`
 * `git status`: displays staged changes, unstaged changes and untracked files on working tree
 
