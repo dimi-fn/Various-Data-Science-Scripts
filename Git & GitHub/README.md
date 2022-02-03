@@ -228,7 +228,7 @@ Important commands:
     * display the difference between current branch and 'branch-name'
 
 * `git merge <branch-name>`
-    * under the master branch, merge the master branch with the branch 'branch-name' (merging or patching)
+    * merging or patching: e.g. if you finished working on a branch and you want to merge that to the master branch, then by being under the master branch type the command above. This can be done for the opposite scenario where you might want to update your feature branch with the master branch (and then keep working on the feature branch), in this case you would type 'git merge master' by being under the feature branch
         * you then need to `git push` in order to successfully apply the merge
 
 -------
