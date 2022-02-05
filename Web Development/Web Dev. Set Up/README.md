@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* Windows
+* [Windows](#windows)
     * [Node.js](#nodejs)
     * [Chocolatey](#chocolatey)
     * [pyenv](#pyenv)
