@@ -1,6 +1,6 @@
 # Business Intelligence (BI)
 
-[Microsoft Power BI](#microsoft-power-bi)
+* [Microsoft Power BI](#microsoft-power-bi)
 
 ------
 

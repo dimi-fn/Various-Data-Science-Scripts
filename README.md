@@ -108,7 +108,7 @@ Continuous Integration (CI) - Continuous Deployment (CD)
 ------
 
 * [Business Intelligence (BI)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Business%20Intelligence%20(BI))
-    * [Microsoft Power BI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/BI%20-%20Business%20Intelligence#microsoft-power-bi)
+    * [Microsoft Power BI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Business%20Intelligence%20(BI)#microsoft-power-bi)
     
 ------
 
