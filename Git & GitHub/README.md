@@ -13,6 +13,7 @@ Contents
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
+    * [SSH key](#ssh-key)
 * [VS Code & Github](#vs-code--github)
     * [Publish to GitHub from VS Code](#publish-to-github-from-vs-code)
 * [Git Commands](#git-commands)
@@ -79,6 +80,22 @@ Git is most likely installed by default on linux (and mac) OS.
     git config --list (or: git config -l)
     git config --global user.name "name"
     git config --global user.email "email"
+
+-----
+
+## SSH Key
+
+SSH stands for *Secure Shell* and it is a cryptographic protocol based on the concept of public-private keys. Via SSH, you establish a more secure connection when working with Github , and you also don't have to type your username/password all the time
+
+To set up your SSH key, open git bash and run:
+
+* `ssh-keygen`, and hit enter
+* hit two times 'enter' if you don't want to set up a passphrase (you will have to type it everythime you use a git command)
+* at C:\Users\<>\.ssh you will find
+    * **id_rsa**: this is your **private** key which you must not share with anyone else
+    * **id_rsa.pub**: this is your **public** key that you can safely share with others
+* now you can add your SSH key to Github. Again via git bash, navigate to C:\Users\<>\.ssh and run `cat id_rsa.pub` to copy the output
+* navigate to https://github.com/settings/keys and click 'new SSH key', give a title and paste the previous output
 
 ------
 
