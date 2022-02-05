@@ -140,7 +140,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * `ls`
     * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
-    * show also hidden files (e.g. the .git file): `ls -a`
+    * show also hidden files (e.g. the .git file): `ls -a`, `ls -all`, `ls -lah` 
     * recursive output: `ls -R`
     * output with permissions and file types:
         * `ls -l`
