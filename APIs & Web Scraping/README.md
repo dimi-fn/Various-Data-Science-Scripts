@@ -1,10 +1,17 @@
+# APIs & Web Scraping
+
+Contents
+=======================
+
+* [APIs](#Apis)
+* [Web Scraping](#web-scraping)
+
+-------
+
 # APIs
 
 * [Github: A collective list of free APIs for use in software and web development](https://github.com/public-apis/public-apis)
 * [Big Collection of Public APIs](https://any-api.com/)
-
-Contents
-=======================
 
 * [Types, Specifications, Documentation](https://www.freecodecamp.org/news/what-is-an-api-and-how-to-test-it/)
 
