@@ -137,6 +137,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 * Python version: `python3 --version`
 
 * `cd` / `cd ..` (change directory)
+    * `cd ~`: sends to home directory
 
 * `ls`
     * display all folders and subfolders and files in a tree diagram: `tree <dirname>` (first install `sudo apt install tree`)
