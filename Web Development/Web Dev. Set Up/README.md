@@ -67,6 +67,11 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 # Docker
 
+## Installation
+
+* [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
+    * test installation via command line: `$ docker run hello-world`
+
 
 ## Tutorials
 
