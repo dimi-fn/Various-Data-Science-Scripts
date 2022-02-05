@@ -20,6 +20,16 @@ Contents
 When you [install node.js](https://nodejs.org/en/download/), this will give you both node.js (node.js command prompt) and npm, and if you click on "automatic installation of additional tools" this will also install chocolatey. Confirm your node installation by running on Git Bash:
 * `node -v`, `npm -v`, `npx -v`
 
+**Upgrade**:
+
+For Windows, run PowerShell as Administrator and run:
+
+    Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+    npm install -g npm-windows-upgrade
+    npm-windows-upgrade
+
+, or download the latest installer package file by re-downloading node.js again.
+
 ------
 
 # Chocolatey
