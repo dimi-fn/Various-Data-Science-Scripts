@@ -3,13 +3,17 @@
 Contents
 =======================
 
-* [node.js](#nodejs)
-* [Chocolatey](#chocolatey)
+* Windows
+    * [Node.js](#nodejs)
+    * [Chocolatey](#chocolatey)
+    * [pyenv](#pyenv)
 
 
 -----
 
-# node.js
+# Windows
+
+## Node.js
 
 * `node.js` runtime is what your JavaScript code will understand in order to execute it and produce a result.
 
@@ -32,7 +36,7 @@ For Windows, run PowerShell as Administrator and run:
 
 ------
 
-# Chocolatey
+## Chocolatey
 
 * [Chocolatey](https://chocolatey.org/) is a popular open source package manager for Windows applications. It simplifies Windows software lifecycle management, ie.,from installation of a software to its upgrade and uninstallation.
     * before installing it:
@@ -42,3 +46,17 @@ For Windows, run PowerShell as Administrator and run:
         * on PowerShell run `choco`
         * on Git Bash run `choco --help`, `choco --version`
     * upgrade Chocolatey before installing anything else via `choco upgrade chocolatey` on PowerShell on admin mode.
+
+------
+
+### pyenv
+
+Pyenv is a tool so that you can have control of your Python versions by easily switch between different Python version (it can be helpful when collaborating across projects with other developers)
+
+**Download**:
+
+* Open Git bash on admin: `choco install pyenv-win`
+* confirm successful installation: on git bash run: `pyen --version`
+* `pyenv update` so that pyenv can update the list of the latest Python versions
+
+* [pyenv rehash](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
