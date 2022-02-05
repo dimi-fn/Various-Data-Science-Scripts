@@ -37,7 +37,7 @@ For Windows, run PowerShell as Administrator and run:
 * [Chocolatey](https://chocolatey.org/) is a popular open source package manager for Windows applications. It simplifies Windows software lifecycle management, ie.,from installation of a software to its upgrade and uninstallation.
     * before installing it:
         * open powershell in admin and run: `Get-ExecutionPolicy`. If it returns Restricted or Undefined run: `Set-ExecutionPolicy Unrestricted`
-    * install Chocolatey
+    * [install Chocolatey](https://chocolatey.org/install)
     * to ensure that installation was successful
         * on PowerShell run `choco`
         * on Git Bash run `choco --help`, `choco --version`
