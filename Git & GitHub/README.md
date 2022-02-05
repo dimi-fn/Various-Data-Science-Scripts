@@ -194,13 +194,13 @@ Pull request is a request to have your code pulled into another branch. Usually 
 
 * `Fork the repo`
     * fork the repo from the owner's github repo page. This will automatically create a forked repo on your personal github
-* `Clone the forked repo` (i.e. the remote repo now hosted on your personal github) so that you can apply the desired changes. One way you can do that is:
-    * grab the clone url: forked repo page > "Code" > "HTTPS" > copy the URL which ends with '.git'
-    * in VS code: source control > clone > enter the URL > create workspace folder. Now you have a forked repo at your system
-        * now you can apply the changes in the code. Commit the changes and push (these, as expected, will be applied only on your forked repo)
+* `Clone the forked repo` (i.e. the forked repo which is now hosted on your personal github) so that you can apply the desired changes. One way you can do that is:
+    * grab the URL: forked repo page > "Code" > "HTTPS" > copy the URL which ends with '.git'
+    * in VS code: source control > clone > enter the URL > create workspace folder. Now you have the forked repo locally as well
+        * you can now apply the changes in the code. Commit the changes and push (these, as expected, will be applied only on your forked repo)
 * `Submit pull request to the project owner`      
     * navigate to the forked repo hosted on your personal github account > new pull request > create a new pull request
-        * you can verify that by visiting the pull requests section of the original associated project
+        * you can verify that by visiting the pull requests section of the associated original repo
 
 **Refresh changes from the remote (original) repository**
 
