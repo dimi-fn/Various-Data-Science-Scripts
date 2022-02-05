@@ -55,13 +55,11 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 **Download**:
 
-* Open Git bash on admin: `choco install pyenv-win`
-* confirm successful installation: on git bash run: `pyen --version`
+* Open Git bash on admin: `$ choco install pyenv-win`
+* confirm successful installation: on git bash run: `$ pyen --version`
 * `$ pyenv update` so that pyenv can update the list of the latest Python versions
 * `$ pyenv install <latest stable Python version or any other desired version>`
 * `$ pyenv global <the version you used above>` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
 * `$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
 * confirm python version `$ python --version` and version number for `$ python -m pip --version`
 
-
-* [$ pyenv rehash](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
