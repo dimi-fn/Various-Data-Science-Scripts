@@ -8,6 +8,7 @@ Contents
     * [Chocolatey](#chocolatey)
     * [pyenv](#pyenv)
     * [Docker](#docker)
+        * [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl)
 
 -----
 
@@ -72,9 +73,17 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 * [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
     * test installation via command line: `$ docker run hello-world`
 
+------
+
+## Windows Subsystem Linux (WSL)   
+
+While downloading docker, you will be asked to [download the Linux kernel update package](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package). You can also [install on windows a linux distribution](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-6---install-your-linux-distribution-of-choice) of your choice and use a linux terminal to run commands.
+
+-------
 
 ## Tutorials
 
+* https://docs.docker.com/get-started/
 * [The Docker Handbook – 2021 Edition - by freecodecamp](https://www.freecodecamp.org/news/the-docker-handbook/)
 * [DevOps Engineering Course for Beginners - by freecodecamp](https://www.youtube.com/watch?v=j5Zsa_eOXeY&ab_channel=freeCodeCamp.org)
 * [From Docker Desktop to Deployment - by Travis Media](https://www.youtube.com/watch?v=i7ABlHngi1Q&ab_channel=TravisMedia)
