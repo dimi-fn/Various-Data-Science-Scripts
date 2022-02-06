@@ -223,10 +223,7 @@ Pull request is a request to have your code pulled into another branch. Usually 
 
 **Refresh changes from the remote (original) repository**
 
-Let's suppose you have already forked a repo, and then submitted a pull request. What if you want to submit another pull request at a later time point? By that time, the remote repo might have changed, and those changes would not have been applied to your forked repo which would remain outdated. Hence, in order to refresh those changes before you submit a new pull request
-
-1) use `git fetch` to refresh the changes 
-
+* [Update your forked repo based on the changes made at the original repo](https://stackoverflow.com/a/7244456/13834173)
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
 
 -------
