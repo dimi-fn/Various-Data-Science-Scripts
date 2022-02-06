@@ -57,7 +57,7 @@ Contents
 # Linux
 ## Install & Update Git on Linux
 
-Git is most likely installed by default on linux (and mac) OS.
+Git is most likely installed by default on linux (and mac) OS, run `git --version` to check if it exists, otherwise install with `sudo apt-get install git-core`
 
 * [Install Git on Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
 
