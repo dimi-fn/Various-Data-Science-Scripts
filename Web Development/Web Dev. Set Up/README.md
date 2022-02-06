@@ -16,8 +16,8 @@ Contents
 
 # The .bashrc file
 
+The .bashrc file is a bash shell script file in which you can put customized commands like aliases, 
 * [What is the .bashrc file](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
-    * It is a bash shell script file in which you can put customized commands like aliases
 
 * To set up your .bashrc file and create your aliases:
     * navigate to home directory: `cd ~`, i.e. navigate at C:\Users\"yourUser"
