@@ -17,8 +17,13 @@ Contents
 # The .bashrc file
 
 * [What is the .bashrc file](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
+    * It is a bash shell script file in which you can put customized commands like aliases
 
-* 
+* To set up your .bashrc file and create your aliases:
+    * navigate to home directory: `cd ~`, i.e. navigate at C:\Users\"yourUser"
+    * search if the .bashrc file exists, otherwise create with: `touch .bashrc` and open it
+    * create aliases in the form: `alias <my-customized-command>='<the-actual-command>` (n.b. in bash scripts there are no spaces between words), save the file and reload Git Bash so that the customized commands are activated
+
 
 -----
 
