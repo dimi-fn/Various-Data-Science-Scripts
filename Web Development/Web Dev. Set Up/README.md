@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* [The .bashrc file](#the-.bashrc-file)
+* [The .bashrc file](#the-bashrc-file)
 * [Windows](#windows)
     * [Node.js](#nodejs)
     * [Chocolatey](#chocolatey)
@@ -18,7 +18,7 @@ Contents
 
 * [What is the .bashrc file](https://unix.stackexchange.com/questions/129143/what-is-the-purpose-of-bashrc-and-how-does-it-work)
 
-*
+* 
 
 -----
 
