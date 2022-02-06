@@ -221,7 +221,7 @@ Pull request is a request to have your code pulled into another branch. Usually 
     * navigate to the forked repo hosted on your personal github account > new pull request > create a new pull request
         * you can verify that by visiting the pull requests section of the associated original repo
 
-**Refresh changes from the remote (original) repository**
+**Refresh changes from the remote (original) repository**:
 
 * [Update your forked repo based on the changes made at the original repo](https://stackoverflow.com/a/7244456/13834173)
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
