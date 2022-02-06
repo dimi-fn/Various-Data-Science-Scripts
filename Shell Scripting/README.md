@@ -148,6 +148,7 @@ Always use `man <command>` or `tldr <command>` for more information and options 
         * `ls -l <directory>`
 
 * the **manual page** of a command and guidance info for commands: `man <command>` e.g.: `$ man ls`
+    * if you are e.g. on a linux terminal via WSL on Windows, then to install man run `$ sudo apt install man` | [stackoverflow](https://stackoverflow.com/questions/53343801/how-do-i-get-the-man-command)
     * **quick guidance information** for commands: `tldr <command>`, e.g.: `$ tldr ls`
 
 
