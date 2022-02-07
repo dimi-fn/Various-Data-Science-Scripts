@@ -3,6 +3,7 @@
 Contents
 =======================
 
+* [Sync your VS Code Settings Between Multiple Devices](#syn-your-vs-code-settings-between-multiple-devices)
 * [The .bashrc file](#the-bashrc-file)
 * [Windows](#windows)
     * [Node.js](#nodejs)
@@ -12,6 +13,12 @@ Contents
         * [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
 
+
+-----
+
+# Sync your VS Code Settings Between Multiple Devices
+
+* https://www.freecodecamp.org/news/how-to-sync-vs-code-settings-between-multiple-devices-and-environments/
 
 -----
 
