@@ -97,7 +97,7 @@ To set up your SSH key, open Git Bash on Windows (the terminal on Linux) and run
 * now you can add your SSH key to Github. Again via git bash, navigate to C:/Users/<>/.ssh and run `cat id_rsa.pub` to display the output, and copy that
 * navigate to https://github.com/settings/keys and click 'new SSH key', give a title and paste the previous output
 * [test your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection) and you're good to go
-    * after verifying the fingerprint you should now also see a "known_hosts" file at C:/Users/<>/.ssh directory
+    * after verifying the fingerprint you should now also see a "known_hosts" file at the .ssh directory
     
 ------
 
