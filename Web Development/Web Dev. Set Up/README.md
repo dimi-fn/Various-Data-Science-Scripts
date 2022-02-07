@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* [Sync your VS Code Settings Between Multiple Devices](#syn-your-vs-code-settings-between-multiple-devices)
+* [Sync your VS Code Settings Between Multiple Devices](#sync-your-vs-code-settings-between-multiple-devices)
 * [The .bashrc file](#the-bashrc-file)
 * [Windows](#windows)
     * [Node.js](#nodejs)
