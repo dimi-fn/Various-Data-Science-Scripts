@@ -93,10 +93,8 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 ## Installation
 
-* [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
+* [Install Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
     * test installation via command line: `$ docker run hello-world`
-
-------
 
 ## Windows Subsystem Linux (WSL)   
 
@@ -105,8 +103,6 @@ While downloading docker, you will be asked to [download the Linux kernel update
 
 Access you file storage for Linux while being on WSL via Windows:
 * open your Linux terminal on Windows and run: `explorer.exe .` | [info](https://superuser.com/questions/1185033/what-is-the-home-directory-on-windows-subsystem-for-linux), [info](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#file-storage)
-
--------
 
 ## Tutorials
 
