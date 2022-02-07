@@ -13,7 +13,7 @@ Contents
 * [Linux](#linux)
     * [Install & Update Git on Linux](#install--update-git-on-linux)
 * [Set Up & Configuration](#set-up--configuration)
-    * [SSH key](#ssh-key)
+    * [SSH Key (Linux & Windows)](#ssh-key-linux--windows)
 * [VS Code & Github](#vs-code--github)
     * [Publish to GitHub from VS Code](#publish-to-github-from-vs-code)
 * [Git Commands](#git-commands)
