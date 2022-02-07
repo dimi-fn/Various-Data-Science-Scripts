@@ -224,6 +224,7 @@ Pull request is a request to have your code pulled into another branch. Usually 
 **Refresh changes from the remote (original) repository**:
 
 * [Getting changes from a remote repository](https://docs.github.com/en/get-started/using-git/getting-changes-from-a-remote-repository)
+* [Update your cloned repo](https://stackoverflow.com/questions/10815203/how-to-update-git-clone)
 * [Update your forked repo based on the changes made at the original repo](https://stackoverflow.com/a/7244456/13834173)
 
 -------
