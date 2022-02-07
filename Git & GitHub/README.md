@@ -91,7 +91,7 @@ To set up your SSH key, open Git Bash on Windows (the terminal on Linux) and run
 
 * `ssh-keygen`, and hit enter
 * hit two times 'enter' if you don't want to set up a passphrase (you will have to type it everythime you use a git command)
-* on Windows at C:/Users/<>/.ssh (linux: home/your_home/.ssh) you will find
+* on Windows at C:/Users/<>/.ssh (linux: home/your_home/.ssh) you will find:
     * **id_rsa**: this is your **private** key which you must not share with anyone else
     * **id_rsa.pub**: this is your **public** key that you can safely share with others
 * now you can add your SSH key to Github. Again via git bash, navigate to C:/Users/<>/.ssh and run `cat id_rsa.pub` to display the output, and copy that
