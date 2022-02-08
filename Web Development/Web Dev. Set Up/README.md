@@ -152,7 +152,8 @@ Access you file storage for Linux while being on WSL via Windows:
     * additional: `brew install openssl readline sqlite3 xz zlib`
 
 * add pyenv init to your shell 
-    * `echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.<your-shell-config-file>`
+    * find your config file; navigate home directory `cd ~`, `ls -lah`. Your shell config file should be one of: .zshrc, .bash_profile, .bashrc
+        * `echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.<put here your config file>`
 
 * [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 
