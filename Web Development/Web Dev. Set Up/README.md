@@ -94,7 +94,7 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 <h2 id="docker-windows">Docker</h2>
 
-## Installation
+<h3 id="install-docker-windows">Install</h2>
 
 * [Install Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
     * test installation via command line: `$ docker run hello-world`
@@ -129,5 +129,6 @@ Access you file storage for Linux while being on WSL via Windows:
 <h2 id="docker-linux">Docker</h2>
 
 
-<h3 id="installation-docker-linux">Installation</h3>
+<h3 id="install-docker-linux">Install</h2>
+
 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
