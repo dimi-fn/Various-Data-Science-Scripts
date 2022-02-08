@@ -8,11 +8,12 @@ Contents
 * [Windows](#windows)
     * [Node.js](#nodejs)
     * [Chocolatey](#chocolatey)
-    * [pyenv](#pyenv)
+    * [pyenv](#pyenv-windows)
     * [Docker](#docker-windows)
         * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
     * [Basic Setup & Various](#basic-setup--various)
+    * [pyenv](#pyenv-linux)
     * [Docker](#docker-linux)
         * [Install](#install-docker-linux)
 
@@ -77,9 +78,9 @@ For Windows, run PowerShell as Administrator and run:
 
 ------
 
-### pyenv
+<h2 id="pyenv-windows">pyenv</h2>
 
-Pyenv is a tool so that you can have control of your Python versions by easily switch between different Python version (it can be helpful when collaborating across projects with other developers)
+Pyenv is a tool so that you can easily install multiple versions and be able to switch between them (it can be quite helpful when collaborating across projects with other developers).
 
 **Download**:
 
@@ -88,7 +89,7 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 * `$ pyenv update` so that pyenv can update the list of the latest Python versions
 * `$ pyenv install <latest stable Python version or any other desired version>`
 * `$ pyenv global <the version you used above>` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
-* `$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
+* in home directory:`$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
 * confirm python version `$ python --version` and version number for `$ python -m pip --version`
 
 --------
@@ -140,8 +141,13 @@ Access you file storage for Linux while being on WSL via Windows:
 
 -------
 
-<h2 id="docker-linux">Docker</h2>
+<h2 id="pyenv-linux">pyenv</h2>
 
+* having installed brew from [basic setup & various](#basic-setup--various), run: `brew install pyenv`
+
+--------
+
+<h2 id="docker-linux">Docker</h2>
 
 <h3 id="install-docker-linux">Install</h2>
 
