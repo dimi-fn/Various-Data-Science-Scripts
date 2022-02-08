@@ -136,7 +136,7 @@ Access you file storage for Linux while being on WSL via Windows:
 * [Basic set up for git](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#linux)
 * [SSH key](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#ssh-key-linux--windows)
     * [more on SSH keys on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
-* [Install HomeBrew](https://brew.sh/)
+* [Install HomeBrew](https://brew.sh/), [How to Install Brew on Ubuntu](https://www.how2shout.com/linux/how-to-install-brew-ubuntu-20-04-lts-linux/)
     * [Homebrew installs the stuff you need that Linux or Apple didn't](https://formulae.brew.sh/formula/)    
 
 -------
@@ -144,6 +144,10 @@ Access you file storage for Linux while being on WSL via Windows:
 <h2 id="pyenv-linux">pyenv</h2>
 
 * having installed brew from [basic setup & various](#basic-setup--various), run: `brew install pyenv`
+    * additional: `brew install openssl readline sqlite3 xz zlib`
+
+* add pyenv init to your shell 
+    * `echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.<your-shell-config-file>`
 
 --------
 
