@@ -12,6 +12,7 @@ Contents
     * [Docker](#docker-windows)
         * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
+    * [Basic Setup & Various](#basic-setup--various)
     * [Docker](#docker-linux)
         * [Install](#install-docker-linux)
 
@@ -129,9 +130,13 @@ Access you file storage for Linux while being on WSL via Windows:
 
 # Linux
 
+## Basic Setup & Various
+
 * [Basic set up for git](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#linux)
 * [SSH key](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#ssh-key-linux--windows)
     * [more on SSH keys on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
+* [Install HomeBrew](https://brew.sh/)
+    * [Homebrew installs the stuff you need that Linux or Apple didn't](https://formulae.brew.sh/formula/)    
 
 -------
 
