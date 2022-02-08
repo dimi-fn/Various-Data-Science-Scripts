@@ -41,7 +41,7 @@ To set up your .bashrc file and create your aliases:
 
 # Windows
 
-## Node.js
+<h2 id="nodejs-windows">Node.js</h2>
 
 * `node.js` runtime is what your JavaScript code will understand in order to execute it and produce a result.
 
