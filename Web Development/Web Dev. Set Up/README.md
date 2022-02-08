@@ -9,9 +9,10 @@ Contents
     * [Node.js](#nodejs)
     * [Chocolatey](#chocolatey)
     * [pyenv](#pyenv)
-    * [Docker](#docker)
-        * [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
+    * [Docker](#docker-windows)
+        * [Installation](#installation) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
+    * [Docker](#docker-linux)
 
 
 -----
@@ -31,7 +32,6 @@ To set up your .bashrc file and create your aliases:
 * navigate to home directory: `cd ~`, i.e. navigate at C:\Users\"yourUser"
 * search if the .bashrc file exists, otherwise create with: `touch .bashrc` and open it
 * create aliases in the form: `alias <my-customized-command>='<the-actual-command>` (n.b. in bash scripts there are no spaces between words), save the file and reload Git Bash so that the customized commands are activated
-
 
 -----
 
@@ -89,7 +89,7 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 --------
 
-# Docker
+<h2 id="docker-windows">Docker</h2>
 
 ## Installation
 
@@ -120,3 +120,6 @@ Access you file storage for Linux while being on WSL via Windows:
 * [Basic set up for git](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#linux)
 * [SSH key](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#ssh-key-linux--windows)
     * [more on SSH keys on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
+
+
+<h2 id="docker-linux">Docker</h2>
