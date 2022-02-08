@@ -155,6 +155,7 @@ Access you file storage for Linux while being on WSL via Windows:
     * [install](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
     * [Verify Installation](https://github.com/nvm-sh/nvm/blob/master/README.md#verify-installation)
 * [Upgrade Node.js](https://phoenixnap.com/kb/update-node-js-version)
+* [Upgrade npm](https://stackoverflow.com/questions/23393707/how-to-update-npm)
     
 -------
 
