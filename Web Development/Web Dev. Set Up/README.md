@@ -10,10 +10,10 @@ Contents
     * [Chocolatey](#chocolatey)
     * [pyenv](#pyenv)
     * [Docker](#docker-windows)
-        * [Installation](#installation-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
+        * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
     * [Docker](#docker-linux)
-        * [Installation](#installation-docker-linux)
+        * [Install](#install-docker-linux)
 
 
 -----
@@ -44,7 +44,9 @@ To set up your .bashrc file and create your aliases:
 
 * `npm` package manager is a tool which allows you to install third party libraries, e.g. via `npm install <package-library>`
 
-<h3 id="installation-docker-windows">Installation</h2>
+### Install & Upgrade
+
+**Install**:
 
 When you [install node.js](https://nodejs.org/en/download/), this will give you both node.js (node.js command prompt) and npm, and if you click on "automatic installation of additional tools" this will also install chocolatey. Confirm your node installation by running on Git Bash:
 * `node -v`, `npm -v`, `npx -v`
@@ -127,5 +129,5 @@ Access you file storage for Linux while being on WSL via Windows:
 <h2 id="docker-linux">Docker</h2>
 
 
-<h3 id="installation-docker-linux">Installation</h2>
+<h3 id="installation-docker-linux">Installation</h3>
 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
