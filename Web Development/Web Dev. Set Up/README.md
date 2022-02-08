@@ -146,6 +146,4 @@ Access you file storage for Linux while being on WSL via Windows:
 
 * check version: `docker --version`
 
-**VS Code**:
-
- Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
+* **VS Code**: Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
