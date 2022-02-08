@@ -82,15 +82,20 @@ For Windows, run PowerShell as Administrator and run:
 
 Pyenv is a tool so that you can easily install multiple versions and be able to switch between them (it can be quite helpful when collaborating across projects with other developers).
 
-**Download**:
+### Download
 
 * Open Git bash on admin: `$ choco install pyenv-win`
 * confirm successful installation: on git bash run: `$ pyenv --version`
 * `$ pyenv update` so that pyenv can update the list of the latest Python versions
+* check installation by checking the list of all available python versions: `pyenv install --list`
 * `$ pyenv install <latest stable Python version or any other desired version>`
 * `$ pyenv global <the version you used above>` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
 * in home directory:`$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
 * confirm python version `$ python --version` and version number for `$ python -m pip --version`
+
+<br>
+
+* [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 
 --------
 
@@ -143,11 +148,13 @@ Access you file storage for Linux while being on WSL via Windows:
 
 <h2 id="pyenv-linux">pyenv</h2>
 
-* having installed brew from [basic setup & various](#basic-setup--various), run: `brew install pyenv`
+* having installed brew from [basic setup & various](#basic-setup--various), run: `brew install pyenv` | [How to install Pyenv on Ubuntu](https://medium.com/@marine.ss/installing-pyenv-on-ubuntu-20-04-c3a609a20aa2)
     * additional: `brew install openssl readline sqlite3 xz zlib`
 
 * add pyenv init to your shell 
     * `echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n eval "$(pyenv init -)"\nfi' >> ~/.<your-shell-config-file>`
+
+* [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 
 --------
 
