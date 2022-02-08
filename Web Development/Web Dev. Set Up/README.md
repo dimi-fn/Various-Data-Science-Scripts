@@ -145,3 +145,7 @@ Access you file storage for Linux while being on WSL via Windows:
 * [Upgrade Docker Engine](https://docs.docker.com/engine/install/ubuntu/#upgrade-docker-engine)
 
 * check version: `docker --version`
+
+**VS Code**:
+
+ Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
