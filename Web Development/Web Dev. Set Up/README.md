@@ -121,6 +121,7 @@ Access you file storage for Linux while being on WSL via Windows:
 **VS Code**:
 
  Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
+ * [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers#_create-a-devcontainerjson-file)
 
 
 ## Tutorials
@@ -170,3 +171,4 @@ Access you file storage for Linux while being on WSL via Windows:
 * check version: `docker --version`
 
 * **VS Code**: Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
+    * [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers#_create-a-devcontainerjson-file)
