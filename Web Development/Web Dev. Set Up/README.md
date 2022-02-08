@@ -152,7 +152,10 @@ Access you file storage for Linux while being on WSL via Windows:
 
 * [How To Install Node.js on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 
-
+* Install the Node Version Manager [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) 
+    * [install](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
+    * [Verify Installation](https://github.com/nvm-sh/nvm/blob/master/README.md#verify-installation)
+    
 -------
 
 <h2 id="pyenv-linux">pyenv</h2>
