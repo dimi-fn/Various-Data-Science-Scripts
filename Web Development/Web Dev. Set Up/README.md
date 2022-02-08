@@ -94,18 +94,27 @@ Pyenv is a tool so that you can have control of your Python versions by easily s
 
 <h2 id="docker-windows">Docker</h2>
 
+Docker is an open platform for developing, shipping, and running applications. [Docker overview](https://docs.docker.com/get-started/overview/)
+
 <h3 id="install-docker-windows">Install</h2>
 
 * [Install Docker Desktop for Windows](https://www.docker.com/products/docker-desktop)
     * test installation via command line: `$ docker run hello-world`
+    * check version: `docker --version`
 
 ## Windows Subsystem Linux (WSL)   
 
-While downloading docker, you will be asked to [download the Linux kernel update package](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package). You can also [install on Windows a Linux distribution](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-6---install-your-linux-distribution-of-choice) of your choice and use a Linux terminal to run commands.
+While downloading docker, you will be asked to [download the Linux kernel update package](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package). You can also [install on Windows a Linux distribution](https://docs.microsoft.com/en-us/windows/wsl/install-manual#step-6---install-your-linux-distribution-of-choice) of your choice and use a Linux terminal to run commands. Follow the [WSL installation guide](https://docs.microsoft.com/en-us/windows/wsl/install)
+* on PowerShell check the WSL version: `wsl -l -v`
 * [Best practices for setting up a WSL development environment](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password)
 
 Access you file storage for Linux while being on WSL via Windows:
 * open your Linux terminal on Windows and run: `explorer.exe .` | [info](https://superuser.com/questions/1185033/what-is-the-home-directory-on-windows-subsystem-for-linux), [info](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#file-storage)
+
+**VS Code**:
+
+ Download the extention "Remote - Containers" which lets you use a Docker container as a full-featured development environment.
+
 
 ## Tutorials
 
@@ -131,4 +140,8 @@ Access you file storage for Linux while being on WSL via Windows:
 
 <h3 id="install-docker-linux">Install</h2>
 
-[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+* [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+
+* [Upgrade Docker Engine](https://docs.docker.com/engine/install/ubuntu/#upgrade-docker-engine)
+
+* check version: `docker --version`
