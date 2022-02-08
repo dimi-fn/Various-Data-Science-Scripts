@@ -1,6 +1,6 @@
 # Web Development
 
-Keeping notes while learning web development modules based on the [freeCodeCamp](https://www.freecodecamp.org/) curriculum.
+Keeping notes and writing code while learning web development modules.
 
 Contents
 =======================
