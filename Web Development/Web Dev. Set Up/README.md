@@ -6,13 +6,14 @@ Contents
 * [Sync your VS Code Settings Between Multiple Devices](#sync-your-vs-code-settings-between-multiple-devices)
 * [The .bashrc file](#the-bashrc-file)
 * [Windows](#windows)
-    * [Node.js](#nodejs)
+    * [Node.js](#nodejs-windows)
     * [Chocolatey](#chocolatey)
     * [pyenv](#pyenv-windows)
     * [Docker](#docker-windows)
         * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
     * [Basic Setup & Various](#basic-setup--various)
+    * [Node.js](#nodejs-linux)
     * [pyenv](#pyenv-linux)
     * [Docker](#docker-linux)
         * [Install](#install-docker-linux)
@@ -144,6 +145,13 @@ Access you file storage for Linux while being on WSL via Windows:
     * [more on SSH keys on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1604)
 * [Install HomeBrew](https://brew.sh/), [How to Install Brew on Ubuntu](https://www.how2shout.com/linux/how-to-install-brew-ubuntu-20-04-lts-linux/)
     * [Homebrew installs the stuff you need that Linux or Apple didn't](https://formulae.brew.sh/formula/)    
+
+-------
+
+<h2 id="nodejs-linux">Node.js</h2>
+
+* [How To Install Node.js on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+
 
 -------
 
