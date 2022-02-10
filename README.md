@@ -72,7 +72,7 @@ Version control with git, GitHub, and VS Code.
 
 * [Shell Scripting](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Shell%20Scripting)
 
-Unix, Shell scripting, Bash, terminal commands.
+Shell scripting, Bash commands, Windows terminal commands, encryption.
 
 ------
 
