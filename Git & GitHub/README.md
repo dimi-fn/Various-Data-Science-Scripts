@@ -7,7 +7,7 @@ Contents
 =======================
 
 * [Documentation](#documentation)
-* [Cheatsheets](#cheatsheets)    
+* [Cheatsheets](#cheatsheets) | [e-books](#e--books)
 * [Windows](#windows)
     * [Install & Update Git on Windows](#install--update-git-on-windows)
 * [Linux](#linux)
@@ -42,6 +42,13 @@ Contents
 * [50 Git Commands You Should Know - by Fabio Pacific via freecodecamp](https://www.freecodecamp.org/news/git-cheat-sheet/?fbclid=IwAR3LGtnWpYV6xbM0yUKFVfFcfWIrEDJraf9h51ACtO4VmTEejz1nS-NTJsM)
 
 ------
+
+# e-books
+
+[Git Bobby Iliev]()
+
+
+-----
 
 # Windows
 ## Install & Update Git on Windows
