@@ -13,11 +13,11 @@ Contents
 		* [Data Science Cheatsheet - Compiled by Maverick Lin](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Data_Science_Cheatsheet__Compiled%20by%20Maverick%20Lin.pdf)
 		* [ML, DL, Python, R, SQL, Maths & Statistics - by Anushka Bajpai](https://medium.com/@anushkhabajpai/top-data-science-cheat-sheets-ml-dl-python-r-sql-maths-statistics-5239d4568225)
 	* Artificial Intelligence
-		* [Machine Learning Cheatsheet - by Rémi Canard]()
+		* [Machine Learning Cheatsheet - by Rémi Canard](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/ML_cheatsheet%20-%20by%20R%C3%A9mi%20Canard.pdf)
 		* [AI, Neural Networks, Machine Learning, Deep Learning & Big Data - by Fjodor van Veen](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Cheatsheet_AI_ML_Data_Science.pdf)
 * Interviews
 	* [Data Science Interview Questions - by InterviewBit](https://www.interviewbit.com/data-science-interview-questions/)
 	* [Over 100 Data Scientist Interview Questions and Answers - by Terence Shin](https://towardsdatascience.com/over-100-data-scientist-interview-questions-and-answers-c5a66186769a#e4e2)
-	* [Data Science Interview Questions & Answeres - by Steve Nouri]()
+	* [Data Science Interview Questions & Answeres - by Steve Nouri](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Data_Science_Interview_questions__Steve_Nouri.pdf)
 	* [51 Essential Machine Learning Interview Questions and Answers - by Roger Huang](https://www.springboard.com/blog/ai-machine-learning/machine-learning-interview-questions/)
 	
