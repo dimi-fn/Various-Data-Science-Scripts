@@ -44,6 +44,7 @@ Contents
     * [Linux](#linux)
     * [Windows](#windows)
 * [Security](#security)    
+* [e-books](#e-books)
 * [Useful Sources](#useful-sources)    
 
 ----
@@ -739,6 +740,12 @@ Encryption Process:
 # Security
 
 * [How to Secure Linux Servers with SE Linux](https://www.freecodecamp.org/news/securing-linux-servers-with-se-linux/)
+
+--------
+
+# e-books
+
+[Intro to Bash Scripting - by Bobby Iliev](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Shell%20Scripting/e-books/Intro_Bash__Bobby%20Iliev.pdf)
 
 --------
 
