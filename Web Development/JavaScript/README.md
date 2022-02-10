@@ -37,6 +37,7 @@ Contents
     * [Iterators](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-iterators/cheatsheet)
     * [Scope](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-scope/cheatsheet)
     * [Objects](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-objects/cheatsheet)
+* [Challenges with JavaScript][??]
 
 -----
 
