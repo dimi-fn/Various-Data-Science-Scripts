@@ -45,8 +45,7 @@ Contents
 
 # e-books
 
-[Git Bobby Iliev]()
-
+[Intro to Git & Github - by Bobby Iliev](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Git%20%26%20GitHub/eBooks/Git_Bobby%20Iliev.pdf)
 
 -----
 
