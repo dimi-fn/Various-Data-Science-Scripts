@@ -2,7 +2,7 @@
 
 Shell scripting, Bash commands, Windows terminal commands, encryption.
 
-# Contents
+Contents
 =======================
 
 * [Shell Scripting](#shell-scripting)
