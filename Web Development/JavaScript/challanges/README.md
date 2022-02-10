@@ -1,6 +1,6 @@
 # Challenges with JS
 
-Small problems-challenges with JavaScript
+Small problems-challenges solved with JavaScript
 
 * [Even number](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/challanges/even.js)
 * [How many even numbers in array](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/JavaScript/challanges/howManyevenNumbers.js)
