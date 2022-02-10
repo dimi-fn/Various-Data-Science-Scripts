@@ -7,7 +7,7 @@ Contents
 =======================
 
 * [Documentation](#documentation)
-* [Cheatsheets](#cheatsheets) | [e-books](#e--books)
+* [Cheatsheets](#cheatsheets) | [e-books](#e-books)
 * [Windows](#windows)
     * [Install & Update Git on Windows](#install--update-git-on-windows)
 * [Linux](#linux)
