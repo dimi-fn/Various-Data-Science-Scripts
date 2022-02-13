@@ -351,9 +351,8 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
 * After you create your CSS variable, you can assign its value to other CSS properties by referencing the variable's name, e.g.: `background: var(--variable-name);`
 
 * It is a good practise to attach a **fallback** value on CSS variables (in order to increase browser's compatibility as well as for debugging)
-    * e.g.: `background: var(--variable-name, black);` --> background now has two candidate colours, those being gray and black. If gray is not available then the fallback value will be applied.
 
-* In the code below, the variable --green-color will be applied. If it is not supported then the fallback value of red will be used instead. N.b., browsers read CSS **from top to bottom** (with the bottom element being the prevailing one!), that's why the browser will first try to assign the green colour
+* In the code below, the variable "--green-color" will be applied. If it is not supported then the fallback value of red will be used instead. N.b., browsers read CSS **from top to bottom** (with the bottom element being the prevailing one!), that's why the browser will first try to assign the green colour
 
         <style>
         :root {
