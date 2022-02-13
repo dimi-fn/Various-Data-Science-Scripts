@@ -44,7 +44,7 @@ Contents
 
 * Comments: 
 
-    <!-- this is a comment -->
+        <!-- this is a comment -->
 
 * The `div` element (division element) is a general purpose container for other elements.
 
