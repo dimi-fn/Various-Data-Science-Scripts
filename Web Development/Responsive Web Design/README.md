@@ -276,8 +276,8 @@ Three important properties control the space that surrounds each HTML element: `
 
 In addition to pixels (`px`) which tell the browser how to size or space an item, we can have:
 
-**Absolute length units**: physical units of length. E.g., `in` and `mm` refer to inches and millimeters respectively and they approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
-**Relative length units**, such as `em` or `rem`, are relative to another length value. E.g., em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
+* **Absolute length units**: physical units of length. E.g., `in` and `mm` refer to inches and millimeters respectively and they approximate the actual measurement on a screen, but there are some differences depending on a screen's resolution.
+* **Relative length units**, such as `em` or `rem`, are relative to another length value. E.g., em is based on the size of an element's font. If you use it to set the font-size property itself, it's relative to the parent's font-size.
     * there are several relative unit options that are tied to the size of the viewport.
 
 -----
