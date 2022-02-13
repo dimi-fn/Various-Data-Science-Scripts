@@ -58,6 +58,9 @@ Contents
         * [more info about the `<main>` tag - w3schools](https://www.w3schools.com/tags/tag_main.asp#:~:text=Definition%20and%20Usage&text=Note%3A%20There%20must%20not%20be,main%3E%20element%20in%20a%20document.)
         * [more info about the `<main>` tag - html.com](https://html.com/tags/main/#:~:text=HTML%205%20specification.-,Usage,footer%3E%20and%20its%20closing%20tag.)
 
+* with the advent of HTML5, these tags do not need a closing tag:
+    * `br`, `hr`, `img`        
+
 -------
 
 ## Images   
