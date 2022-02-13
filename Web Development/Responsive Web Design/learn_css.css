@@ -65,7 +65,7 @@
     margin: 80px;
   }
 
-  /* 
+  /* Custom CSS for chekboxes:
   the top margins of the checkboxes: 10px
   the bottom margins: 15px*/
   [type="checkbox"]{margin: 10px 0px 15px 0px;}
