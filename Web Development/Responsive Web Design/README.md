@@ -46,7 +46,9 @@ Contents
 
         <!-- this is a comment -->
 
-* The `div` element (division element) is a general purpose container for other elements.
+* The `div` tag (division element) is a general purpose container elements through which you can divide your content into sections.
+
+* The `span` tags are basically a way to add a CSS or JavaScript hook into a part of text or HTML
 
 -------    
 
