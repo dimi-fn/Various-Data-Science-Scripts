@@ -1,7 +1,6 @@
-/*
-https://www.w3schools.com/howto/howto_css_image_responsive.asp
-*/
+
 .responsive {
+  /* https://www.w3schools.com/howto/howto_css_image_responsive.asp */
   width: 100%;
   height: auto;
 }
@@ -22,11 +21,11 @@ https://www.w3schools.com/howto/howto_css_image_responsive.asp
       width: 100px;
   }
 
-  .thick-green-border{
+  .thick-green-rounded-border{
       border-color: green;
       border-width: 10px;
       border-style: solid;
-      border-radius: 10px;
+      border-radius: 50%;
       
   }
 

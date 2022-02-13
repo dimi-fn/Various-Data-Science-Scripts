@@ -87,7 +87,7 @@
             <label for="indoor"> 
                 <input id="indoor" type="radio" name="indoor-outdoor">indoor</label> 
             <label for = "outdoor">
-                <input id="outdoor" type="radio" name="indoor-outdoor">indoor-outdoor</label>
+                <input id="outdoor" type="radio" name="indoor-outdoor">outdoor</label>
 
             <p>Checkbox buttons with <b>form action</b> and assigned <b>value</b> attributes:</p>                
             <label for="dog">
@@ -105,7 +105,7 @@
                 <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
             </label>
 
-            <p>Checkbox buttons with <b>[attr=value]</b> CSS <i>selector</i> specified in the style head section</p>                
+            <p>Checkbox buttons with <b>[attr=value]</b> CSS <i>selector</i> specified with CSS</p>                
             <label for="dog">
                 <input id="dog" value="dog" type="checkbox" name="cat-dog" checked >Dog
             </label>
@@ -124,24 +124,24 @@
 
         <p style="color: red;">This uses inline CSS, which is not a good practice.</p>
         
-        <p class="blue-text">This is a paragraph using the <i>blue-text</i> CSS style block defined at the <i>head</i> section.
+        <p class="blue-text">This is a paragraph using the <i>blue-text</i> class assigned at the stylesheet file.</p>
 
-        <h3>This is heading h3. By default it uses monospace "font-faminly" which is again assigned in the style block section of head HTML part.</h3>
+        <h3>This is heading h3. By default it uses monospace "font-faminly" which is again assigned via the stylesheet file.</h3>
 
-        <h4>This uses the lobster font faminly by google. This was achieved via the specified link above the style block, and then via the CSS block for h4</h4>
+        <h4>This uses the lobster font family by Google. This was achieved via the specified link assigned at the head section of this HTML file, in conjunction with the CSS block for h4 at the stylesheet file</h4>
 
         <p>The same image used in the beginning, but now with a smaller width using the respective class specified at the style block section:</p>
         <img class="smaller-image" src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
 
-        <p>The same modified image above, but now with a border (width of 10px, green solid border with border radius of 10px) specified at the style block section:</p>
-        <img class="smaller-image thick-green-border" src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
+        <p>The same modified image above, but now with a border (width of 10px, green solid border with 50% border radius) specified at the style block section. The 50% border radius makes it a rounded image:</p>
+        <img class="smaller-image thick-green-rounded-border" src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
 
         <div class="background-red">
             <p>This div section has a<br>red background color<br>specified at the CSS block.<br>It will go on until the end of this div section.</p>
         </div>
 
         <div id="this-is-an-id">
-            <p>This div section has a<br>silver background color<br>specified at the CSS block.<br>but this time it was assigned via <b>id</b>, and not classes.</p>
+            <p>This div section has a<br>silver background color<br>specified at the CSS block.<br>but this time it was assigned with an <b>id</b> (not class) </p>
         </div>
 
         <hr>
@@ -154,7 +154,7 @@
         <div class="box yellow-box">
             <h5 class="box red-box">padding</h5>
             <h5 class="box blue-box">padding</h5>
-          </div>
+        </div>
 
 
           
