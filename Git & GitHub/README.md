@@ -211,6 +211,13 @@ Files on Git may be:
 * `git reset <hash>`
     * similar to `git reset HEAD~1`, but go back after a certain commit based on the commit hash provided
 
+
+<br>
+
+* [git revert](https://www.atlassian.com/git/tutorials/undoing-changes/git-revert)
+
+* [git revert vs checkout vs reset](https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset)
+
 ------
 
 # Fork & Pull Request
