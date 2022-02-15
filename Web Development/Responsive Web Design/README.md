@@ -24,7 +24,7 @@ Contents
     * [Text](#text)
     * [Images](#images)
     * [Types of CSS declaration](#types-of-css-declaration)
-        * [Internal](#internal)
+        * [Inline](#inline)
         * [Style Block](#style-block)
         * [External](#external)
     * [Padding - Border - Margin](#padding---border---margin)
