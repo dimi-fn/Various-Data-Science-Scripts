@@ -62,6 +62,8 @@ The first 6 (all data types apart from the object) are considered **primitive** 
 
 * `==` : equal - returns true if both sides are equal (does not check for data type) 
 * `===`: strict equal - returns true if both sides are equal and of same data type
+    * same rationale among `!=` and `!==`
+
 
 -----
 
