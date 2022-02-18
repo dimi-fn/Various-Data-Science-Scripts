@@ -282,6 +282,10 @@ Important commands:
     * merging or patching: e.g. if you finished working on a branch and you want to merge that to the master branch, then by being under the master branch type the command above. This can be done on the opposite scenario as well, where you might want to update your feature branch with the master branch (and then keep working on the feature branch), in this case you would type 'git merge master' by being under the feature branch
         * you then need to `git push` in order to successfully apply the merge remotely as well
 
+<br>        
+
+* [Learn Git Branching](https://learngitbranching.js.org/)
+
 -------
 
 # Miscellaneous
