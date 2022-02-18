@@ -248,6 +248,8 @@ Pull request is a request to have your code pulled into another branch. Usually 
 
 * It is recommended that you close a feature branch before opening a new branch (both locally and remotely)
 
+* It is a good practice to first commit your changes to your branch before switching into your main/master
+
 Important commands:
 
 * `git branch`
