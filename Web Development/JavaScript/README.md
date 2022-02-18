@@ -93,6 +93,14 @@ E.g.
 * `undefined`: if a variable is declared without a value, then the variable's value will automatically be assigned as undefined
 * `const`: constant variable, i.e. the variable's value cannot change
 
+<br>
+
+name | description | |
+--- | --- | --- | 
+var | Function or global scope. Does not have to be initialized to a value |
+let | Block scoped. Does not have to be initialized to a value |
+const | Block scoped. Must be initialized to a value. Cannot be reassigned |
+
 -----
 
 # Operators
