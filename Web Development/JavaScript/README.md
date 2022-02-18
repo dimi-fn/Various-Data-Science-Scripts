@@ -95,8 +95,8 @@ E.g.
 
 <br>
 
-name | description | |
---- | --- | --- | 
+name | description | 
+--- | --- | 
 var | Function or global scope. Does not have to be initialized to a value |
 let | Block scoped. Does not have to be initialized to a value |
 const | Block scoped. Must be initialized to a value. Cannot be reassigned |
