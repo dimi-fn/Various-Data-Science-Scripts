@@ -57,6 +57,12 @@ In JavaScript, there are seven fundamental data types:
 
 The first 6 (all data types apart from the object) are considered **primitive** data types
 
+
+ |  | 
+--- | --- | 
+== | equal - returns true if both sides are equal (does not check for data type) |
+===  |strict equal - returns true if both sides are equal and of same data type|
+
 -----
 
 # Properties
