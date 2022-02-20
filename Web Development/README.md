@@ -1,6 +1,6 @@
 # Web Development
 
-Keeping notes and writing code while learning web development modules.
+Keeping notes and writing code while learning web development.
 
 Contents
 =======================
