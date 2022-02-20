@@ -10,6 +10,7 @@ Contents
 -------
 
 TDD is the approach of writing tests with the purpose of passing them correctly.
+* [TDD by Agile Aliance](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 
 Tools & Frameworks:
 * [Jest](https://jestjs.io/), [Mocha](https://mochajs.org/), [Tape](https://github.com/substack/tape), [Jasmine](https://jasmine.github.io/)
