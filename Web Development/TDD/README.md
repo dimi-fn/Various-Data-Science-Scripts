@@ -37,6 +37,7 @@ Create your project folder. On git bash and by being under the project directory
 
 * `npm install jest --save-dev`    
     * this will generate a **pagkage-lock.json** file and a **node_modules** directory
+        * it is a good practice to put the **node_modules** directory to .gitignore
 
 * make a `/test` directory. There, create your file to be tested (in this example **fizzbuzz.js**), and the file that will test it, in this case **fizzbuzz.test.js**. I.e., the former file has the form of `<filename.js>` and the latter `<filename.test.js>`
     * e.g. in this example, create a function called 'fizzbuzz' at the fizzbuzz.js file:
@@ -48,3 +49,21 @@ Create your project folder. On git bash and by being under the project directory
     * after the fizzbuzz function, you have to export that as a module:
         * `module.exports = {fizzbuzz}`
     * Now, at the fizzbuzz.test.js file you can import the function and then test it    
+
+* In order to run the tests: navigate to the **package.json** file and mofify:
+
+        "scripts": {
+            "test": "jest --watch"
+        }
+
+
+In this way, Jest will automatically look for files with a **.test.js** extension and run as many as it finds.
+
+* In order to have a check on what percentage of your code has test coverage, modify again the **package.json** file:
+
+        "scripts": {
+        "test": "jest --watch --silent"
+        "coverage": "jest --coverage"
+        }
+
+* Finally, run `npm run coverage`
