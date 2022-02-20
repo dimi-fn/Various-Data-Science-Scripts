@@ -28,7 +28,7 @@ Tools & Frameworks:
 
 # Unit Testing with Jest
 
-Coding files: 
+Coding files: https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/TDD/testing_function
 
 Create your project folder. On git bash and by being under the project directory, run:
 
@@ -62,7 +62,7 @@ In this way, Jest will automatically look for files with a **.test.js** extensio
 * In order to have a check on what percentage of your code has test coverage, modify again the **package.json** file:
 
         "scripts": {
-        "test": "jest --watch --silent"
+        "test": "jest --watch --silent",
         "coverage": "jest --coverage"
         }
 
