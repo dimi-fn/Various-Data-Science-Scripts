@@ -11,7 +11,7 @@ const fizzbuzz = (n) => {
    else {
        return n;
    }
-   }
+   };
    
 // export the function to be tested as a module
 module.exports= {fizzbuzz};

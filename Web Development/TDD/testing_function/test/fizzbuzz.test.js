@@ -2,6 +2,7 @@
 * import the function to be tested
 * you put the file to be tested as a directory, hence fizzbuzz and not fizzbuzz.js
 */
+
 const myFunc = require('./fizzbuzz');
 
 describe("Fizzbuzz unit testing", () => {
@@ -22,4 +23,4 @@ describe("Fizzbuzz unit testing", () => {
         expect(myFunc.fizzbuzz(31)).toEqual(31);
     })
 
-})
+});
