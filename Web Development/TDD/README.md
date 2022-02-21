@@ -68,3 +68,4 @@ In this way, Jest will automatically look for files with a **.test.js** extensio
         }
 
 * Finally, run `npm run coverage`
+    * it is a good practice to put the **coverage** folder generated into the .gitignore file
