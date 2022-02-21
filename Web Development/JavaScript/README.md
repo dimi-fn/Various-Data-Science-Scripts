@@ -319,6 +319,13 @@ When you declare global variables, they go to the global namespace. The global n
 
 it’s best practice to not define variables in the global scope.
 
+<br>
+
+* [JavaScript Scope: An Easy Explanation - by https://www.humaneer.org/](https://www.humaneer.org/blog/javascript-scope-an-easy-explanation/)
+
+* [Understanding Variables, Scope, and Hoisting in JavaScript - by digitalocean.com](https://www.digitalocean.com/community/tutorials/understanding-variables-scope-hoisting-in-javascript)
+
+
 ------
 
 # Objects & Methods
