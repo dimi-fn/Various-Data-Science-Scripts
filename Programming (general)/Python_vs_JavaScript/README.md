@@ -1,5 +1,7 @@
 # Python vs JavaScript
 
+* [Python VS JavaScript – What are the Key Differences Between The Two Popular Programming Languages?](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
+
 Some of the main differences between Python and JavaScript:
 
 | **Python**        | **JavaScript**    | 
