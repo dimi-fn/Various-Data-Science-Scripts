@@ -7,6 +7,7 @@ const myFunc = require('./fizzbuzz');
 
 describe("Fizzbuzz unit testing", () => {
 
+    // either 'test' or 'it'
     test("test if number is muliple of 3 and 5 then return 'FizzBuzz'", ()=>{
         expect(myFunc.fizzbuzz(30)).toEqual("FizzBuzz");
     })

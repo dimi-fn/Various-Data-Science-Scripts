@@ -72,6 +72,6 @@ var rectangle_area_arrow = (width, height) => {
 };
 console.log(rectangle_area_arrow(5,3));
 
-// consise body arrow function:
+// concise body arrow function ('return') can be omitted:
 var rectangle_area_arrow = (width, height) => width*height;
 console.log(rectangle_area_arrow(5,3));
