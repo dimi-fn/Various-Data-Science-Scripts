@@ -102,4 +102,11 @@ for (const key in catData) {
   console.log(`${key}: ${catData[key]}`);
 };
 
+/* for each */
 
+let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+cats.forEach(catName => console.log(`This cat's name is ${catName}`));
+
+/* map -> can return a modified array */
+let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+cats.map(catName => catName.toUpperCase()); //=> ["ZELDA", "RUMBLE", "SAM", "FLORA"]
