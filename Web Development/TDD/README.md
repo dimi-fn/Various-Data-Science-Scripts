@@ -106,6 +106,6 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
     * this will generate the bundle.js file
     * having the terminal open with "npm run dev", this will handle all changes (adding of files and modifications) of your JS files automatically
 
-* Update your index.html, replace index.js with bundle.js
+* Update your index.html: replace index.js with bundle.js
 
 
