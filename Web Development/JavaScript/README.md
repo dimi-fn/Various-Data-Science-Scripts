@@ -128,6 +128,23 @@ const | Block scoped. Must be initialized to a value. Cannot be reassigned |
 
         isNightTime ? console.log('Turn on the lights!') : console.log('Turn off the lights!');   
 
+**Logical Operators**        
+
+* The Six Falsy Values in JavaScript:
+    * `undefined`
+    * `null`
+    * `NaN`
+    * `0`
+    * `""`
+    * `false`
+
+* AND:
+    * `&&`: it will first try to return the first falsy value. If none found, it will return the last truthy value.
+
+
+* OR:
+    * `||`: it will first try to return the first truthy value. If none found, it will return the last falsy value.
+
 -----
 
 # Loops

@@ -5,6 +5,7 @@ Contents
 
 * [Categories of TDD](#categories-of-tdd)
 * [Unit Testing with Jest](#unit-testing-with-jest)
+* [How to Generate the bundle.js File](#how-to-generate-the-bundlejs-file)
 
 
 -------
@@ -60,6 +61,8 @@ Create your project folder. On git bash and by being under the project directory
 
 In this way, Jest will automatically look for files with a **.test.js** extension and run as many as it finds.
 
+* `npm run test` for testing
+
 * In order to have a check on what percentage of your code has test coverage, modify again the **package.json** file:
 
         "scripts": {
@@ -69,3 +72,40 @@ In this way, Jest will automatically look for files with a **.test.js** extensio
 
 * Finally, run `npm run coverage`
     * it is a good practice to put the **coverage** folder generated into the .gitignore file
+
+-------
+
+# How to Generate the bundle.js File
+
+There are mainly two reasons you may want to bundle all your JS files into a `bundle.js` file:
+* every separate JS file creates an HTTP request to the browser, therefore it's not a good idea to have multiple JS files doing that
+* the require() function cannot be interpreted correctly by the browser without the suitable instructions generated in the bundle.js file
+
+* Currently you have the index.js file in the head section of the index.html with `<script defer src='index.js'></script>` (or before the end of the body without 'defer')
+* `npm init -y` (done previously for jest)
+(* `npm install jest --save-dev` (not required here, done previously for jest))
+( done previously for jest:
+
+        "scripts": {
+            "test": "jest --watch --silent",
+            "coverage": "jest --coverage"
+            }
+
+)
+
+* `npm install -D watchify concurrently`
+* Update "sciprts" at package.json (the first two lines are already there if jest had been used):
+
+        "scripts": {
+            "test": "jest --watch --silent",
+            "coverage": "jest --coverage",
+            "dev": "concurrently \"watchify ./index.js -o bundle.js\" \"python -m http.server\""
+        }
+
+* `npm run dev`      
+    * this will generate the bundle.js file
+    * having the terminal open with "npm run dev", this will handle all changes (adding of files and modifications) of your JS files automatically
+
+* Update your index.html, replace index.js with bundle.js
+
+

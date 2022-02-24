@@ -75,3 +75,35 @@ console.log(rectangle_area_arrow(5,3));
 // concise body arrow function ('return') can be omitted:
 var rectangle_area_arrow = (width, height) => width*height;
 console.log(rectangle_area_arrow(5,3));
+
+
+/********************** Recursion **************************/
+console.log("===============================")
+function getFizz(){
+  let random = Math.floor(Math.random() * 30);
+  console.log(random);
+  if (random % 3 === 0) {
+      console.log('Found a fizz!');
+  } else {
+      console.log('Hmm, keep trying...');
+      getFizz();
+  }
+}
+
+getFizz(); 
+
+
+/************************ Closures
+a closure gives you access to an outer function’s scope from an inner function
+****************/
+
+console.log("===============================")
+function funcClosure(multiplier){
+  return (x => x * multiplier)
+} // What does the funcClosure function return?
+
+const timesByEight = funcClosure(8) // What value has timesByEight been assigned here?
+const eightByThree = timesByEight(3) //=> 24
+
+const timesByTen = funcClosure(10) // What value has timesByTen been assigned here?
+const tenByThree = timesByTen(3) //=> 30
