@@ -81,17 +81,17 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
 * every separate JS file creates an HTTP request to the browser, therefore it's not a good idea to have multiple JS files doing that
 * the require() function cannot be interpreted correctly by the browser without the suitable instructions generated in the bundle.js file
 
+----
+
 * Currently you have the index.js file in the head section of the index.html with `<script defer src='index.js'></script>` (or before the end of the body without 'defer')
 * `npm init -y` (done previously for jest)
-(* `npm install jest --save-dev` (not required here, done previously for jest))
-( done previously for jest:
+(* `npm install jest --save-dev` (not required here, done previously for jest)
+(* update package.json - as done previously:)
 
         "scripts": {
             "test": "jest --watch --silent",
             "coverage": "jest --coverage"
             }
-
-)
 
 * `npm install -D watchify concurrently`
 * Update "sciprts" at package.json (the first two lines are already there if jest had been used):
