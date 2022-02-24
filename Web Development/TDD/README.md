@@ -85,8 +85,8 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
 
 * Currently you have the index.js file in the head section of the index.html with `<script defer src='index.js'></script>` (or before the end of the body without 'defer')
 * `npm init -y` (done previously for jest)
-(* `npm install jest --save-dev` (not required here, done previously for jest)
-(* update package.json - as done previously:)
+* `npm install jest --save-dev` (not required here, done previously for jest)
+* update package.json - as done previously:
 
         "scripts": {
             "test": "jest --watch --silent",
