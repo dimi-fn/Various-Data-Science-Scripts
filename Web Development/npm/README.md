@@ -6,4 +6,4 @@
     * `npm login`
     * to test that you have successfully logged in: `npm whoami`
 
-* https://github.com/dimi-fn/npm_test_publish_package
+* [How to Publish an NPM Package (Demo)](https://github.com/dimi-fn/how_to_publish_npm_package_demo)
