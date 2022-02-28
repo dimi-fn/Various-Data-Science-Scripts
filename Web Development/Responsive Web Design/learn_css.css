@@ -70,3 +70,11 @@
   the bottom margins: 15px*/
   [type="checkbox"]{margin: 10px 0px 15px 0px;}
 
+.p-bold{
+  font-weight: bold;
+}
+
+.hr-middle{
+  margin-left: 400px;
+  margin-right: 400px;
+}

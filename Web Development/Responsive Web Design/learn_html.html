@@ -32,7 +32,13 @@
         <div>
             <h1>A heading</h1>
             <p>A paragraph.</p>
-            <p>This is a quote using the blockquote cite tag: <blockquote cite = "https://www.amnh.org/exhibitions/einstein/time/a-matter-of-time#:~:text=In%20the%20Special%20Theory%20of,on%20your%20frame%20of%20reference.&text=The%20effect%20of%20time%20slowing,speeds%20approaching%20that%20of%20light.">Time is relative (by Einsten)</blockquote></p>
+            <p>Use the <span class="p-bold">blockquote</span> element for long quotations</p> 
+            <blockquote cite = "https://www.amnh.org/exhibitions/einstein/time/a-matter-of-time#:~:text=In%20the%20Special%20Theory%20of,on%20your%20frame%20of%20reference.&text=The%20effect%20of%20time%20slowing,speeds%20approaching%20that%20of%20light."><i>"Time is relative." (by Einstein)</i></blockquote>
+
+            <p>Use the <span class="p-bold">q</span> tag for short quotations:</p>
+            <q><i>Time is relevant (by Einstein)</i></q>
+            <hr class="hr-middle">
+
         </div>
         
         <div>
@@ -57,11 +63,10 @@
                 <li>an ordered list</li>
             </ol>
         </div>
-
         <hr>
+        <!--        --------------Lists-----------------           -->
 
-        <!--        --------------Input Forms-----------           -->
-        
+        <!--        --------------Input Forms-----------           -->       
         <div>
             <h2>Input Forms</h2>
                 <h3>Text Fields</h3>
@@ -72,34 +77,40 @@
                 <p>Text field with placeholder:</p>
                 <input type="text" placeholder="with a placeholder text">
 
-                <p>Text field with form action and a button for submit:</p>
+                <p>Text field with <span class="p-bold">form action and a button for submit</span>:</p>
                 <form action="/url-where-you-want-to-submit-form-data">
                     <input type="text">
                     <button type="submit">this button submits the form</button>
                 </form>
 
-                <br>
+                <hr class="hr-middle">
 
-                <p>A user input text field where a label is associated with an id inside the HTML code.
+                <p>A user input text field where a <span class="p-bold">label</span> is associated with an <span class="p-bold">id</span> inside the HTML code.
                     When you click upon "enter username" then this triggers the associated box because of the connection between the label
-                    and the id:</p>
+                    and the id. Also a <span class="p-bold">name</span> attribute can be used which can be used for server-side/back-end processing:</p>
                 <form>
                     <label for="username">enter username:</label>
-                    <input type="text" id="username">
-                    <br><p>label and id ==> "email":</p>
+                    <input type="text" id="username" name="email">
+
+                    <br><p class="p-bold">label and id ==> "email":</p>
+                    
                     <label for="email">enter email:</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email">
+                    
+                    <br>
+                    <hr class="hr-middle">
+                    <p class="p-bold">notice that by using id="password", your password cannot be seen indeed:</p>
+                    <label for="password">enter password:</label>
+                    <input type="password" id="password">
                 </form>
         <div>
-
         <hr>
-
+        <!--        --------------Input Forms-----------           -->       
+        
         <!--        --------------Buttons-----------           -->
-
         <div>
             <h3>Buttons</h3>    
-
-            <p>Radio buttons:</p>
+            <p>Radio buttons. When the <span class="p-bold">"name"</span>attribute is the same for all elements, then only one button can be checked, otherwise multiple ones:</p>
             <label for="indoor"> 
                 <input id="indoor" type="radio" name="indoor-outdoor">indoor</label> 
             <label for = "outdoor">
@@ -128,9 +139,52 @@
             <label for="cat">
                 <input id="cat" value="cat" type="checkbox" name="cat-dog">Cat
             </label>
+            <hr class="hr-middle">
+            <p>Below you can choose <span class=p-bold>only one</span> button because the <span class=p-bold>"name"</span> attribute is the same for all elements:</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="26-34" id="option-2">
+            <label for="option-2">26-24</label>
+            <input type="radio" name="age" value="35+" id="option-3">
+            <label for="option-3">35+</label>
+            <hr class="hr-middle">
+            <p>Below you can choose <span class=p-bold>multiple buttons</span> because the <span class=p-bold>"name"</span> attribute is different:</p>
+            <p>I love:</p>
+            <input type="radio" name="swimming" value="swimming" id="option-1">
+            <label for="option-1">Swimming</label>
+            <input type="radio" name="chess" value="chess" id="option-2">
+            <label for="option-2">Chess</label>
+            <input type="radio" name="football" value="footbal" id="option-3">
+            <label for="option-3">football</label>
         </div>
-
         <hr>
+        <!--        --------------Buttons-----------           -->
+
+        <!--        --------------Select Fields-----------           -->
+        <h2>Select fields:</h2>
+        <p>Using the <span class="p-bold">select</span> tag:</p>
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+                <option value="q1">What is your favourite colour?</option>
+                <option value="q2">In which city did you work for the first time?</option>
+                <option value="q3">What is the name of your first pet?</option>
+            </select>
+            <br><br>
+            <label for="answer">Answer:</label>
+            <input type="text" id="answer" name="answer">
+        <hr>
+        <!--        --------------Select Fields-----------           -->
+
+        <!--        --------------Text Area-----------           -->
+        <h2>Text area:</h2>
+            <label for="bio">Write your cover letter below:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your cover letter here...">
+            </textarea>
+            
+          
+           
+        <hr>
+        <!--        --------------Text Area-----------           -->
     
         <!--        ============================           -->
         <!--        --------------CSS-----------           -->
