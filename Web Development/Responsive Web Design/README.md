@@ -17,7 +17,9 @@ Contents
     * [Input Forms](#input-forms)
         * [Text Fields](#text-fields)
         * [Buttons](#buttons)
+    * [HTML Semantic Elements](#html-semantic-elements)
 * [CSS](#css)
+    * [Block vs Inline Level Elements](#block-vs-inline-level-elements)
     * [CSS Selectors](#css-selectors)
         * [Classes & Ids](#classes--ids)
         * [Custom CSS](#custom-css)
@@ -39,6 +41,8 @@ Contents
 ----
 
 # HTML
+
+## TODO
 
 ## General
 
@@ -143,9 +147,46 @@ Types can be (type=""):
 * radio
 * checkbox
 
+-------
+
+## HTML Semantic Elements
+
+* `<header>`: header of website (it contains e.g. the nav, title, etc)
+
+* `<main>`: main and unique content of a webpage (it ends before "footer")
+
+* `<section>`: defines a certain section of a webpage (e.g. a blog list, contact info)
+
+* `<article>`: defines some content that constructs an article (e.g. a blog post)
+
+* `<aside>`: defines some content related to something else (e.g. similar blogs)
+
+* `<footer>`: e.g. for copyright, contact form, etc
+
+
+
 -------    
 
 # CSS
+
+## Block vs Inline Level Elements
+
+**Block-level elements**: (they inherentely carry CSS of the type `display:block;`)
+    * A block-level element always starts on a new line, the browsers automatically add some space (a margin) before and after the element, and they always take up the full width available 
+    * Block-level elements have padding and margin *all around* the element
+        * `p`, `h1..6`, `div`, `ul`, `li`, `table`, `article`, `section` `blockquote`, and etc
+
+You don't want to put block-level elements inside inline elements (e.g. ), but the opposite is possible (e.g.)
+
+**Inline-level elements**: ((they inherentely carry CSS of the type `display:inline;`))
+    * An inline element does not start on a new line and it only takes up as much width as necessary
+    * Inline elements have padding and margin only to the *left* and *right* of the element (a solution can be: `display:inline-block;`, i.e. to make an inline
+    element act as a block-level element)
+    * `a`, `button`, `cite`, `img`, `label`, `script`, `select`, `textarea`
+
+https://www.w3schools.com/html/html_blocks.asp
+
+--------------
 
 ## CSS Selectors
 

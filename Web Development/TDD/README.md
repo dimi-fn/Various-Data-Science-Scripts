@@ -78,8 +78,9 @@ In this way, Jest will automatically look for files with a **.test.js** extensio
 # How to Generate the bundle.js File
 
 There are mainly two reasons you may want to bundle all your JS files into a `bundle.js` file:
-* every separate JS file creates an HTTP request to the browser, therefore it's not a good idea to have multiple JS files doing that
+* every separate JS file creates a unique HTTP request to the browser, therefore it's not a good idea to have multiple JS files doing that
 * the require() function cannot be interpreted correctly by the browser without the suitable instructions generated in the bundle.js file
+* even if you have only one JS file, then again it might be a good idea to extract a bundle.js file for that your JS can be interpreted correctly on the majority of browsers (in which ECMAScript is used, and bundle.js can transfer the required interoperability that the webpages require)
 
 ----
 

@@ -78,3 +78,20 @@
   margin-left: 400px;
   margin-right: 400px;
 }
+
+p.success{
+  color: green;
+}
+
+p.success.feedback{
+  text-decoration: underline;
+}
+
+div p span{ /* apply this css only to the span tags that are inside a p tag that are inside a div block */
+  color: red;
+}
+
+a[href*="google"]{ /* Attribute selector, anything that includes google */ 
+  color: orange;
+}
+

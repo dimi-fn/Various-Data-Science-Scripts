@@ -43,7 +43,7 @@
         
         <div>
             <p>An image:</p>
-            <img src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
+            <img class="responsive" src="https://www.freecatphotoapp.com/your-image.jpg" alt="A business cat wearing a necktie." title="A nice cat">
         </div>
 
         <p>This is the <a href="https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Web%20Development/Responsive%20Web%20Design/learn_html.html" target="_blank">link to the github repo of this HTML file</a>.</p>
@@ -218,6 +218,7 @@
 
         <hr>
 
+        <!-------------------------------------- Box Model ---------------------------------------------->
         <div>
             <h2>Padding - Border - Margin</h2>
             <p>An element's <b>padding</b> controls the amount of space between the element's content and its <b>border</b>.</p>
@@ -229,6 +230,28 @@
                 <h5 class="box blue-box">padding</h5>
             </div>
         </div>
+        <!-------------------------------------- (END) Box Model ---------------------------------------------->
+
+        <!-- Multiple Classes -->
+        <hr class="hr-middle">
+        <div>
+            <p class="success">This uses a class defined as: p.success={color: green;}</p>
+            <p class="success feedback">While this uses a class defined as p.success.feedback{text-decoration: underline;
+            } which applies underline in the previous class which already had a color of green<p>
+        </div>
+        <hr class="hr-middle">
+
+        <!-- Descendant selectors -->
+        <div>
+            <p>
+                <span>This p tag has red color via a descendant selector</span>
+            </p>
+        </div>
+
+        <!-- Attribute Selectors -->
+        <hr class="hr-middle">
+        <p>The anchor tag here uses an attribute selector: <a href="https://www.google.com/" target="_blank">link to google.com</a></p>
+        <hr class="hr-middle">
 
 
           
