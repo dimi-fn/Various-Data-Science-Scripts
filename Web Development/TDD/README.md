@@ -124,9 +124,10 @@ Navigate to the server dir:
 * `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
 
 * Update the package.json:
-	"start": "node server.js",
-	 "test": "jest --watch --silent",
-	 "coverage": "jest --coverage",
-	 "dev": "nodemon index.js"
+
+        "start": "node server.js",
+        "test": "jest --watch --silent",
+        "coverage": "jest --coverage",
+        "dev": "nodemon index.js"
 
 - `npm run start` (same as `npm start`)
