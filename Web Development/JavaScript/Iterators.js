@@ -1,7 +1,20 @@
-/********** Iterators **********/
+/***************************  Iterate Arrays *******************************************/
+let cats = ["Zelda", "Rumble", "Sam"];
 
+for (const catName of cats) {
+  console.log(`This cat's name is ${catName}`);
+};
+
+
+/***************************  Iterate Objects *******************************************/
+let catData = { name: "Zelda", age: 3, markings: "calico" };
+
+for (const key in catData) {
+  console.log(`${key}: ${catData[key]}`);
+};
+
+/***************************  forEach *******************************************/
 const cars = ["mercedes", "bmw", "audi", "ferrari"];
-
 // Iterator: .forEach()
 // 1st way
 cars.forEach(function(carItem){
@@ -17,7 +30,7 @@ var carsUpper = cars.map(element => element.toUpperCase());
 console.log(carsUpper);
 console.log("\n")
 
-// Iterator: filter
+/***************************  filter() *******************************************/
 const randomNumbers = [375, 200, 3.14, 7, 13, 852];
 const smallNumbers = randomNumbers.filter(num => {
     if (num<250){
@@ -34,7 +47,11 @@ const longFavoriteWords = favoriteWords.filter(word=> {
   })
 console.log(longFavoriteWords);
 
-// .findIndex()
+/***************************  some() *******************************************/
+let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+cats.some(catName => catName.endsWith("a")); //=> true
+
+/***************************  .findIndex() *******************************************/
 const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
 
 const foundAnimal = animals.findIndex(animal=>{
@@ -49,8 +66,7 @@ const startsWithS = animals.findIndex(animal=>{
 console.log(startsWithS);
 console.log("\n")
 
-/********* .reduce() *********/
-
+/***************************  reduce() *******************************************/
 const numbers = [10, 10, 10, 10];
 
 // 1st way
@@ -68,3 +84,12 @@ var accumulateSum = numbers.reduce((accumulator, currentValue)=>{
   return accumulator+currentValue;
 });
 console.log(accumulateSum);
+
+
+/***************************  map() *******************************************/
+/* map -> returns a modified array */
+let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+cats.map(catName => catName.toUpperCase()); //=> ["ZELDA", "RUMBLE", "SAM", "FLORA"]
+
+
+

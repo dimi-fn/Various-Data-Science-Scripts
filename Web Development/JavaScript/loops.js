@@ -84,29 +84,3 @@ for (let i = 0; i < 99; i++) {
     print("Loop broke because I am the number 3")
     break
   */
-
-
-/* Iterate Arrays*/
-
-let cats = ["Zelda", "Rumble", "Sam"];
-
-for (const catName of cats) {
-  console.log(`This cat's name is ${catName}`);
-};
-
-
-/* Iterate Objects */
-let catData = { name: "Zelda", age: 3, markings: "calico" };
-
-for (const key in catData) {
-  console.log(`${key}: ${catData[key]}`);
-};
-
-/* for each */
-
-let cats = ["Zelda", "Rumble", "Sam", "Flora"];
-cats.forEach(catName => console.log(`This cat's name is ${catName}`));
-
-/* map -> can return a modified array */
-let cats = ["Zelda", "Rumble", "Sam", "Flora"];
-cats.map(catName => catName.toUpperCase()); //=> ["ZELDA", "RUMBLE", "SAM", "FLORA"]

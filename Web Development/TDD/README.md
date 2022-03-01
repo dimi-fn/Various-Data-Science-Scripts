@@ -6,11 +6,12 @@ Contents
 * [Categories of TDD](#categories-of-tdd)
 * [Unit Testing with Jest](#unit-testing-with-jest)
 * [How to Generate the bundle.js File](#how-to-generate-the-bundlejs-file)
+* [Server](#server)
 
 
 -------
 
-TDD is the approach of writing tests with the purpose of passing them correctly.
+TDD is the approach of writing tests with the purpose of passing them correctly before the main code is even written.
 * [TDD by Agile Aliance](https://www.agilealliance.org/glossary/tdd/#q=~(infinite~false~filters~(postType~(~'page~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'tdd))~searchTerm~'~sort~false~sortDirection~'asc~page~1))
 
 Tools & Frameworks:
@@ -41,7 +42,7 @@ Create your project folder. On git bash and by being under the project directory
     * this will generate a **pagkage-lock.json** file and a **node_modules** directory
         * it is a good practice to put the **node_modules** directory to .gitignore
 
-* make a `/test` directory. There, create your file to be tested (in this example **fizzbuzz.js**), and the file that will test it, in this case **fizzbuzz.test.js**. I.e., the former file has the form of `<filename.js>` and the latter `<filename.test.js>`
+* make a `/test` directory. There, create your (spec.js) file to be tested (in this example **fizzbuzz.js**), and the file that will test it, in this case **fizzbuzz.test.js**. I.e., the former file has the form of `<filename.js>` and the latter `<filename.test.js>`
     * e.g. in this example, create a function called 'fizzbuzz' at the fizzbuzz.js file:
         * The fizzbuzz function receives a number as its argument
         * When the number is a multiple of 3 and 5, it returns (“FizzBuzz”)
@@ -63,7 +64,8 @@ In this way, Jest will automatically look for files with a **.test.js** extensio
 
 * `npm run test` for testing
 
-* In order to have a check on what percentage of your code has test coverage, modify again the **package.json** file:
+* In order to have a check on what percentage of your test coverage, modify again the **package.json** file:
+    * (test coverage is the percent of the degree to which the source code of a program is executed when a particular test suite is run)
 
         "scripts": {
         "test": "jest --watch --silent",
@@ -103,10 +105,28 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
             "dev": "concurrently \"watchify ./index.js -o bundle.js\" \"python -m http.server\""
         }
 
-* `npm run dev`      
-    * this will generate the bundle.js file
-    * having the terminal open with "npm run dev", this will handle all changes (adding of files and modifications) of your JS files automatically
+* `npm run dev` (on **client** directory only, server can run with 'npm start' and it does not require bundling to run)
+    * this will generate the bundle.js file, do that even if there is only one js file
+    * having the terminal open with "npm run dev", this will handle all changes (adding of files and/or modifications) of your JS files automatically
 
 * Update your index.html: replace index.js with bundle.js
+    * in the head section of index.html: `<script defer src='index.js'></script>` (or without 'defer' in the bottom before the end of the body)
 
+----------
 
+# Server
+
+Navigate to the server dir:
+
+* `npm init -y` (for npm package initialization)
+* `npm install` jest --save-dev  (for testing)
+* `npm install cors --save`
+* `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
+
+* Update the package.json:
+	"start": "node server.js",
+	 "test": "jest --watch --silent",
+	 "coverage": "jest --coverage",
+	 "dev": "nodemon index.js"
+
+- `npm run start` (same as `npm start`)

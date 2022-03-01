@@ -171,14 +171,14 @@ Types can be (type=""):
 
 ## Block vs Inline Level Elements
 
-**Block-level elements**: (they inherentely carry CSS of the type `display:block;`)
+* **Block-level elements**: (they inherentely carry CSS of the type `display:block;`)
     * A block-level element always starts on a new line, the browsers automatically add some space (a margin) before and after the element, and they always take up the full width available 
     * Block-level elements have padding and margin *all around* the element
         * `p`, `h1..6`, `div`, `ul`, `li`, `table`, `article`, `section` `blockquote`, and etc
 
-You don't want to put block-level elements inside inline elements (e.g. ), but the opposite is possible (e.g.)
+You don't want to put block-level elements inside inline elements, but the opposite is fine.
 
-**Inline-level elements**: ((they inherentely carry CSS of the type `display:inline;`))
+* **Inline-level elements**: (they inherentely carry CSS of the type `display:inline;`)
     * An inline element does not start on a new line and it only takes up as much width as necessary
     * Inline elements have padding and margin only to the *left* and *right* of the element (a solution can be: `display:inline-block;`, i.e. to make an inline
     element act as a block-level element)
