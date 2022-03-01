@@ -119,6 +119,7 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
 Navigate to the server dir:
 
 * `npm init -y` (for npm package initialization)
+* `npm install express` 
 * `npm install jest --save-dev`  (for testing)
 * `npm install cors --save` (cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options)
 * `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
@@ -137,6 +138,9 @@ Navigate to the server dir:
         const server = require("./server");
         server.listen(3000, () => console.log("Express Server starting on port 3000"));
 
- `node index.js` to run the server
+ * `node index.js` to run the server
     * "message: express server starting on port 3000" should be displayed on terminal
     * it can be accessed via browser at localhost:3000
+
+* to run tests on the server:
+    * `npm run dev`, `npm run coverage`
