@@ -212,6 +212,8 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 * open file: `xdg-open <filename>`
 
+* remove all txt files: `rm *.txt `
+
 ----
 
 ## Compression
