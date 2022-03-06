@@ -108,6 +108,7 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
 * `npm run dev` (on **client** directory only, server can run with 'npm start' and it does not require bundling to run)
     * this will generate the bundle.js file, do that even if there is only one js file
     * having the terminal open with "npm run dev", this will handle all changes (adding of files and/or modifications) of your JS files automatically
+    * this will run anything after "dev", in this case it was: `"dev": "concurrently \"watchify ./index.js -o bundle.js\" \"python -m http.server\""`
 
 * Update your index.html: replace index.js with bundle.js
     * in the head section of index.html: `<script defer src='index.js'></script>` (or without 'defer' in the bottom before the end of the body)
@@ -139,7 +140,7 @@ Navigate to the server dir:
         server.listen(3000, () => console.log("Express Server starting on port 3000"));
 
  * `node index.js` to run the server
-    * "message: express server starting on port 3000" should be displayed on terminal
+    * message: "Express Server starting on port 3000" should be displayed on terminal
     * it can be accessed via browser at localhost:3000
 
 * to run tests on the server:

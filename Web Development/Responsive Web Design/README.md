@@ -35,6 +35,7 @@ Contents
     * [CSS Overriding](#css-overriding)
     * [Colours](#colours)
     * [CSS Variables](#css-variables)
+    * [CSS Pseudo classes & Pseudo elements](#css-pseudo-classes---pseudo-elements)
 * [Applied Visual Design](#applied-visual-design)
 
 
@@ -413,6 +414,13 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
         }
         </style>
         <div class="red-box"></div>    
+
+-----
+
+# CSS Pseudo classes & Pseudo elements
+
+* [CSS Pseudo classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+* [CSS Pseudo elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
 
 -----
 
