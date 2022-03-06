@@ -297,6 +297,8 @@ Important commands:
 
 # Miscellaneous
 
+* [What you should with Git when you rename a repo on github](https://stackoverflow.com/questions/5751585/how-do-i-rename-a-repository-on-github)
+
 * Git bash:
     * copy with: Control + Insert
     * paste with: Shift + Insert
