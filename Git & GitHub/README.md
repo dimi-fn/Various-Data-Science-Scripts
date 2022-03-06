@@ -281,6 +281,10 @@ Important commands:
 * `git diff <branch-name>`
     * display the difference between current branch and 'branch-name'
 
+* [Pull changes of main/master into your branch](https://stackoverflow.com/questions/20101994/how-to-git-pull-from-master-into-the-development-branch)
+    * make regular pulls from main/master into your branch in order to avoid many conflicts later on   
+    * [git pull vs git fetch](https://stackoverflow.com/a/292359/13834173)
+
 * `git merge <branch-name>`
     * merging or patching: e.g. if you finished working on a branch and you want to merge that to the master branch, then by being under the master branch type the command above. This can be done on the opposite scenario as well, where you might want to update your feature branch with the master branch (and then keep working on the feature branch), in this case you would type 'git merge master' by being under the feature branch
         * you then need to `git push` in order to successfully apply the merge remotely as well
