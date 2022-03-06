@@ -28,6 +28,7 @@ Contents
         * [Getters & Setters](#getters--setters)
         * [Factory Functions](#factory-functions)
         * [Built-in Methods](#built-in-methods)
+* [Event Listeners](#event-listeners)
 * Cheatsheets from codeacademy
     * [Intro](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet)
     * [Conditionals](https://www.codecademy.com/learn/paths/introduction-to-javascript/tracks/introduction-to-javascript/modules/learn-javascript-control-flow/cheatsheet)
@@ -453,3 +454,21 @@ The are available various object instance methods like:
 * `.hasOwnProperty()`, `.valueOf()`
 * [object classes: object instance documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#Methods)
    * .e.g.: [.Object.keys()](), [.Object.entries()]()
+
+
+------
+
+# Event Listeners
+
+[Coding file - event listeners]()
+
+* Target the element --> Add an eventListener --> do something when that event happens (i.e. the action of the event)
+
+* capturing vs bumbling
+    * capturing: starts from outside to inside (e.g. from body > to parent > to child etc)
+    * bubbling: starts from inside to outside (e.g. from child to parent to body)
+        * bubbling is the *default* option when using eventListeners
+
+* useful additional parameters on addEventListeners:
+    * once, e.g. {once:true}
+    * capture, e.g. {capture:true}

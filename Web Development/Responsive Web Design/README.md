@@ -37,6 +37,7 @@ Contents
     * [CSS Variables](#css-variables)
     * [CSS Pseudo classes & Pseudo elements](#css-pseudo-classes--pseudo-elements)
 * [Applied Visual Design](#applied-visual-design)
+* [Extra Resources](#extra-resources)
 
 
 ----
@@ -426,3 +427,7 @@ Apart from explicitly declaring the colour by its name, there are other ways as 
 
 # Applied Visual Design        
 
+
+# Extra Resources
+
+* https://www.youtube.com/c/TheNetNinja/playlists
