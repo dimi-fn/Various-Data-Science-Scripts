@@ -23,6 +23,7 @@ Deploy the backend of your express app with Heroku:
         * at your [Heroku dashboard](https://dashboard.heroku.com/apps) create a new app
         * now via your cmd again, run: `heroku git:remote -a <project-name>` where "project-name" is the app name given at heroku dashboard
         * push your server to heroku: `git subtree push --prefix server heroku master` ("subtree" because you are in the root and not inside the server path)
+            * (if changes are made in the github repo in the future, then in order to update heroku run the two heroku git commands above)
 * change all your fetch requests coming from your front-end at index.js (that request data on the back-end) by replacing `http://localhost:3000/<endpoint>` with `https://<heroku-app-name>.herokuapp.com/<endpoint>`
 * you can make sure your backend works on heroku by checking one of your endpoints, e.g. `https://<heroku-app-name>.herokuapp.com/<endpoint>`
 
