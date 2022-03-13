@@ -122,6 +122,8 @@ Navigate to the server dir:
 * `npm init -y` (for npm package initialization)
 * `npm install express` 
 * `npm install jest --save-dev`  (for testing)
+* `npm install jest --save-dev`  (for testing)
+* `npm install jest supertest` (for testing apis with express.js)
 * `npm install cors --save` (cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options)
 * `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
 
@@ -144,4 +146,4 @@ Navigate to the server dir:
     * it can be accessed via browser at localhost:3000
 
 * to run tests on the server:
-    * `npm run dev`, `npm run coverage`
+    * `npm run test`, `npm run coverage`

@@ -5,14 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel>
     <link rel="stylesheet" href="event_listeners.css">
     <script defer src="event_listeners.js"></script>
 </head>
 <body>
 
     <div id="id1">
-        Div with id = "id1"
+        Div with id = "id1" will fire as many times as the number of clicks
+    </div>
+    <div id="id2">
+        Div with id = "id2" will fire as many times as the number of clicks
+    </div>
+    <div id="id3">
+        Div with id = "id3" will fire only once via the 'once' attribute (in an arrow function), or via the removeEventListener function
+    </div>
+    
+    <section id="id4">
+        Section with id = "id4". This eventlistener will fire the same callback function for the given type (here it is 'click') for the given selector (in this case 'section') anywhere in the document
+    </section>
+    <section id="id5">
+        Section with id= "id5". Here will happen the same with section of id4
+     </section>
+
+     <div id="id6">
+        Div with id = "id6". This will be replaced by some text upon clicking via .innerText
+    </div>
+    <div id="id7">
+        Div with id = "id7". This will append text via append()
+    </div>
+    <div id="id8">
+        Div with id = "id8". This will change background colour after clicking via .style.backgroundColor
     </div>
     
 </body>
