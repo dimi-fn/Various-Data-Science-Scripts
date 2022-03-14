@@ -1,5 +1,5 @@
 /***************************  Iterate Arrays *******************************************/
-let cats = ["Zelda", "Rumble", "Sam"];
+var cats = ["Zelda", "Rumble", "Sam"];
 
 for (const catName of cats) {
   console.log(`This cat's name is ${catName}`);
@@ -7,7 +7,7 @@ for (const catName of cats) {
 
 
 /***************************  Iterate Objects *******************************************/
-let catData = { name: "Zelda", age: 3, markings: "calico" };
+var catData = { name: "Zelda", age: 3, markings: "calico" };
 
 for (const key in catData) {
   console.log(`${key}: ${catData[key]}`);
@@ -48,7 +48,7 @@ const longFavoriteWords = favoriteWords.filter(word=> {
 console.log(longFavoriteWords);
 
 /***************************  some() *******************************************/
-let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+var cats = ["Zelda", "Rumble", "Sam", "Flora"];
 cats.some(catName => catName.endsWith("a")); //=> true
 
 /***************************  .findIndex() *******************************************/
@@ -67,7 +67,7 @@ console.log(startsWithS);
 console.log("\n")
 
 /***************************  reduce() *******************************************/
-const numbers = [10, 10, 10, 10];
+var numbers = [10, 10, 10, 10];
 
 // 1st way
 var accumulateSum = numbers.reduce(function(accumulator, currentValue){
@@ -88,8 +88,11 @@ console.log(accumulateSum);
 
 /***************************  map() *******************************************/
 /* map -> returns a modified array */
-let cats = ["Zelda", "Rumble", "Sam", "Flora"];
+var cats = ["Zelda", "Rumble", "Sam", "Flora"];
 cats.map(catName => catName.toUpperCase()); //=> ["ZELDA", "RUMBLE", "SAM", "FLORA"]
 
-
+/***************************  map() & filter() *******************************************/
+var numbers = [2,4,6,5,7,9];
+// map returns: [10,20,30,25,35,45], the filter() filters those and returns only the odd numbers:
+console.log(numbers.map(number=>number*5).filter(number=> number %2 ==1));
 
