@@ -17,18 +17,20 @@ The purpose of containerization is to create a re-producable environment across 
 * [Virtual Machines (VMs) vs Containers](https://www.atlassian.com/continuous-delivery/microservices/containers-vs-vms)
     * *The key differentiator between containers and VMs is that VMs virtualize an entire machine down to the hardware layers and containers only virtualize software layers above the operating system level.*
 
-
+<br>
 
 * `Image`: set of layers
 * `Container`: an instance of an image
     * You can have many running containers of the same image
 
-
-* Accessing your local data in a container
-    * via: volumes, bind mounts, tmpfs
-
 <br>
 
+* Accessing your local data in a container
+    * via: `volumes`, `bind mounts`, or `tmpfs` (temporary files)
+    * with detached mode (`-d`), or interactive mode (`-i`)
+        * [Detached mode means that a container runs in the background](https://stackoverflow.com/questions/34029680/docker-detached-mode)
+
+<br>
 
 **Commands**
 
@@ -46,10 +48,7 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker run <option> <image> <command>`||
 |`docker run -it --name <option> ubuntu bash` | enter in ubuntu OS with a specified name |
 |`docker pull`| e.g. docker pull node:version|
-|`docker exec <name-of-container> <bash command>` |send a command outside the container environment|
-
-
-
+|`docker exec <name-of-container> <bash command>` |execute some stuff in a container|
 
 
 

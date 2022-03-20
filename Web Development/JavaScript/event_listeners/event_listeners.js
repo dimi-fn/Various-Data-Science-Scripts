@@ -89,4 +89,10 @@ function changeBackColor(){
     div8.style.backgroundColor = "blue";
 }
 
+/****************************************** style (with arrow function) ******************/
+
+const div9 = document.getElementById("id9");
+div9.addEventListener("click", () => {
+    div9.style.backgroundColor="blue";
+})
 

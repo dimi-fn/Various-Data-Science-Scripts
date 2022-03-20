@@ -5,7 +5,6 @@ for (const catName of cats) {
   console.log(`This cat's name is ${catName}`);
 };
 
-
 /***************************  Iterate Objects *******************************************/
 var catData = { name: "Zelda", age: 3, markings: "calico" };
 
@@ -24,11 +23,6 @@ console.log("\n")
 
 // 2nd way with arrow function
 cars.forEach(carItem => console.log(`This is a ${carItem} car`));
-
-// Iterator: .map()
-var carsUpper = cars.map(element => element.toUpperCase());
-console.log(carsUpper);
-console.log("\n")
 
 /***************************  filter() *******************************************/
 const randomNumbers = [375, 200, 3.14, 7, 13, 852];
@@ -50,6 +44,11 @@ console.log(longFavoriteWords);
 /***************************  some() *******************************************/
 var cats = ["Zelda", "Rumble", "Sam", "Flora"];
 cats.some(catName => catName.endsWith("a")); //=> true
+
+/***************************  every() *******************************************/
+
+var cats = ["Zelda", "Rumble", "Sam", "Flora"];
+cats.every(catName => catName.endsWith("a")); //=> false
 
 /***************************  .findIndex() *******************************************/
 const animals = ['hippo', 'tiger', 'lion', 'seal', 'cheetah', 'monkey', 'salamander', 'elephant'];
