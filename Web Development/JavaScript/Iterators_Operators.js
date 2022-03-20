@@ -1,3 +1,7 @@
+/***************************************************** Iterators ********************************************************************************************/
+
+const { all } = require("express/lib/application");
+
 /***************************  Iterate Arrays *******************************************/
 var cats = ["Zelda", "Rumble", "Sam"];
 
@@ -95,3 +99,21 @@ var numbers = [2,4,6,5,7,9];
 // map returns: [10,20,30,25,35,45], the filter() filters those and returns only the odd numbers:
 console.log(numbers.map(number=>number*5).filter(number=> number %2 ==1));
 
+/***************************************************** Operators ********************************************************************************************/
+
+/***************************  spread operators *******************************************/
+// arrays
+let animals1= ["cat", "dog" , "rabbits"];
+let animals2 = ["lion", "wolf", "leopard", "tiger"];
+// using spread operator to print all animals into a single array:
+
+let allAnimals = [...animals1, ...animals2];
+console.log(allAnimals); //["cat", "dog" , "rabbits", "lion", "wolf", "leopard", "tiger"]
+
+/***************************  spread operators *******************************************/
+// objects
+let name = {firstName:"Peter", lastName:"Oboro"};
+let hobbies = { hobby1: "running", hobby2: "piano" }
+let myInfo = {...name, ...hobbies};
+// using spread operator to 'merge' the two objects into a sigle object
+console.log(myInfo); //{firstName:"Peter", lastName:"Oboro", hobby1: "running", hobby2: "piano"}
