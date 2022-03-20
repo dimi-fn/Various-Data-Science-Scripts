@@ -63,7 +63,7 @@ Version control with git, GitHub, and VS Code.
 ------
 
 * [Databases](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases)
-    * [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases#sql)
+    * SQL, NoSQL
 
 -----
 

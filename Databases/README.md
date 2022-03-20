@@ -1,11 +1,16 @@
 # Databases
 
-One of the main differences between SQL and NoSQL is that the former is a relational database architecture and it is in the form of tables, while the latter is in the form of key-value pairs.
+One of the main differences between SQL and NoSQL is that the former is a relational database architecture and it is in the form of tables, while the latter is in the form of key-value pairs with collections of documents (tables in SQL are collections in NoSQL)
 
 Contents
 =======================
+* [SQL](#sql)
+* [NoSQL](#nosql)
+    * [MongoDB](#mongodb)
 
-## SQL
+------
+
+# SQL
 
 * Tutorials
     * [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
@@ -19,13 +24,26 @@ Contents
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
 
 
-----
-### Useful Sources
+------
 
-*All possible code derived from the below sources belong to them.*
+# NoSQL
 
-[1] https://websitesetup.org/mysql-cheat-sheet/
+## MongoDB
 
-[2] https://www.linkedin.com/learning/python-essential-training-2018
+* [MongoDB commands - cheatsheet](https://www.mongodb.com/developer/quickstart/cheat-sheet/)
 
-[3] [The Complete Oracle SQL Certification Course](https://www.udemy.com/course/the-complete-oracle-sql-certification-course/)
+|Command|Description|
+|--------|---------|
+|  `show dbs` | display databases|
+|`show collections`| display collections|
+|`db.stats()`|display info about db|
+|******** |********|
+| `db.createCollection(<colleciton-name>)`| |
+|`use <db-name>`| switch database|
+|******** |********|
+|`db.collectioName.insertOne({})`||
+|`db.collectioName.insertMany({})`||
+|******** |********|
+| `db.collectioName.find({})`| like selecting in SQL|
+|`db.collectioName.find().sort({variable-name: -1})`| -1: descending order|
+|`db.collectioName.find().sort({<variable-name>: 1})`| 1: ascending order|
