@@ -50,7 +50,7 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker run <option> <image> <command>`||
 |`docker run -it --name <option> ubuntu bash` | enter in ubuntu OS with a specified name |
 |`docker pull`| e.g. docker pull node:version|
-| ************** | ***********************|
+| ************** | *********************** |
 |`docker exec <name-of-container> <bash command>` |execute some stuff in a container|
 |`docker exec -it <name-of-database> psql -U <POSTGRES_USER> <POSTGRES_DB>`| enter postgreSQL with docker|
 | ************** | *********************** |
