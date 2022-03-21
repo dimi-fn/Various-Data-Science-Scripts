@@ -5,6 +5,7 @@ One of the main differences between SQL and NoSQL is that the former is a relati
 Contents
 =======================
 * [SQL](#sql)
+    * [PostgreSQL](#postgresql)
 * [NoSQL](#nosql)
     * [MongoDB](#mongodb)
 
@@ -23,6 +24,17 @@ Contents
         * Creating a `database interface` with `SQLlite`
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
 
+
+-------
+
+## PostgreSQL
+
+After entering postgreSQL database with docker:
+
+|Command|Description|
+|--------|---------|
+| `\i code/<filename.sql>` ->| to execute code |
+| `\dt`| show tables|
 
 ------
 
