@@ -16,6 +16,7 @@ The purpose of containerization is to create a re-producable environment across 
 * [What is the difference between a Docker image and a container?](https://stackoverflow.com/questions/23735149/what-is-the-difference-between-a-docker-image-and-a-container)
 * [Virtual Machines (VMs) vs Containers](https://www.atlassian.com/continuous-delivery/microservices/containers-vs-vms)
     * *The key differentiator between containers and VMs is that VMs virtualize an entire machine down to the hardware layers and containers only virtualize software layers above the operating system level.*
+        * Containers have no host operating system, so they are independent of the device they run on
 
 <br>
 
@@ -36,6 +37,7 @@ The purpose of containerization is to create a re-producable environment across 
 
 |Command | Description|
 |-------|---------|
+| `docker --help`| |
 | `docker images` | display images|
 |`docker rmi <image-id>`| remove an image|
 |`docker ps`| display running containers|
@@ -49,6 +51,8 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker run -it --name <option> ubuntu bash` | enter in ubuntu OS with a specified name |
 |`docker pull`| e.g. docker pull node:version|
 |`docker exec <name-of-container> <bash command>` |execute some stuff in a container|
+| `docker-compose down --volumes --remove-orphans` | stop all running services and remove containers|
+|`docker volume prune --force` |removes volumes |
 
 
 
