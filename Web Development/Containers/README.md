@@ -55,8 +55,8 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker exec -it <name-of-database> psql -U <POSTGRES_USER> <POSTGRES_DB>`| enter postgreSQL with docker|
 | *********************** | *********************** |
 |`docker-compose up`| start container|
-| `docker-compose down --volumes --remove-orphans` | stop all running services and remove containers|
-|`docker-compose down -v` or `docker-compose down --volume`| stop container but keep the data in the database|
+| `docker-compose down`| stop container but maintain the data on the database|
+| `docker-compose down --volumes --remove-orphans` | stop and remove all artifacts |
 |`docker volume prune --force` |removes volumes |
 
 
