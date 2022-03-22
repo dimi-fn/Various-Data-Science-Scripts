@@ -57,7 +57,7 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker-compose up`| start container|
 | `docker-compose down`| stop container but maintain the data on the database|
 | `docker-compose down --volumes --remove-orphans` | stop and remove all artifacts |
-|`docker volume prune --force` |removes volumes |
+|`docker volume prune --force` |reclaim space from removing the volumes |
 
 
 ------
