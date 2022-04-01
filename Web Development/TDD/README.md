@@ -124,7 +124,7 @@ Navigate to the server dir:
 * `npm install jest --save-dev`  (for testing)
 * `npm install jest --save-dev`  (for testing)
 * `npm install jest supertest` (for testing apis with express.js)
-* `npm install cors --save` (cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options)
+* `npm install cors` (cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options)
 * `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
 
 * Update the package.json:

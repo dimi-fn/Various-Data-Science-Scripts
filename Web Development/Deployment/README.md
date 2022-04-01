@@ -14,7 +14,7 @@ Contents
 Deploy the backend of your express app with Heroku:
 
 * navigate inside the server directory and add a `Procfile`
-    * inside the Procfile add this code required for Heroku: `web: node server.js`, commit and push
+    * inside the Procfile add this code required for Heroku: `web: npm start`, commit and push
     * make sure you configured your server like this: `const port = process.env.PORT || 3000;`
 * Heroku
     * Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli)
