@@ -50,14 +50,22 @@ The purpose of containerization is to create a re-producable environment across 
 |`docker run <option> <image> <command>`||
 |`docker run -it --name <option> ubuntu bash` | enter in ubuntu OS with a specified name |
 |`docker pull`| e.g. docker pull node:version|
-| *********************** | *********************** |
+|  ***************************** |  ***************************** |
 |`docker exec <name-of-container> <bash command>` |execute some stuff in a container|
 |`docker exec -it <name-of-database> psql -U <POSTGRES_USER> <POSTGRES_DB>`| enter postgreSQL with docker|
-| *********************** | *********************** |
+|  ***************************** | ***************************** |
 |`docker-compose up`| start container|
 | `docker-compose down`| stop container but maintain the data on the database|
 | `docker-compose down --volumes --remove-orphans` | stop and remove all artifacts |
 |`docker volume prune --force` |reclaim space from removing the volumes |
+|  ***************************** | ***************************** |
+| `docker system df` |  analyze how much space Docker is using |
+| `docker system prune -a`| clean up as much as possible excluding components that are in use |
+|`docker system prune` | clean up most Docker resources but still keep tagged images |
+| `docker image prune`| Clean up unused and dangling images |
+|`docker image prune -a`|Clean up dangling images only|
+|`docker container prune`|Clean up stopped containers|
+|` docker volume prune`|Clean up unused volumes|
 
 
 ------
