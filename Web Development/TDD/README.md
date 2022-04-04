@@ -7,6 +7,7 @@ Contents
 * [Unit Testing with Jest](#unit-testing-with-jest)
 * [How to Generate the bundle.js File](#how-to-generate-the-bundlejs-file)
 * [Server](#server)
+* [Webpack Setup with React](#webpack-setup-with-react)
 
 
 -------
@@ -97,6 +98,7 @@ There are mainly two reasons you may want to bundle all your JS files into a `bu
             }
 
 * `npm install -D watchify concurrently`
+* browserify is similar to watchify
 * Update "sciprts" at package.json (the first two lines are already there if jest had been used):
 
         "scripts": {
@@ -122,8 +124,7 @@ Navigate to the server dir:
 * `npm init -y` (for npm package initialization)
 * `npm install express` 
 * `npm install jest --save-dev`  (for testing)
-* `npm install jest --save-dev`  (for testing)
-* `npm install jest supertest` (for testing apis with express.js)
+* `npm install jest supertest --save-dev` (for testing apis with express.js)
 * `npm install cors` (cors is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options)
 * `npm install nodemon --save-dev` (update changes when done from the server, so that you don't have to re-launch the server)   
 
@@ -147,3 +148,60 @@ Navigate to the server dir:
 
 * to run tests on the server:
     * `npm run test`, `npm run coverage`
+
+
+---------
+
+# Webpack Setup with React
+
+Reasons for bundling
+* bundling many JS files, i.e. reducing the http requests on browsers
+* handling more file types
+* automate additional tasks
+* generate helper filers
+
+## Folder Structure
+
+* `config` directory
+    * webpack giles
+* `public` directory
+    * index.html
+* `src` directory
+    * JS files
+* .babelrc     
+
+## Installations for webpack
+* `npm init -y`
+* `npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
+* Install loaders
+    * `npm i -D babel-loader style-loader css-loader`
+        * same as `npm install babel-loader style-loader css-loader --save-dev`
+* install Babel        
+    * `npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime @babel/preset-react`
+        * @babel/core: the core babel library
+        * @babel/preset-env: in order to target specific environments
+        * @babel/plugin-transform-runtime: handles regenerator runtime errors
+        * @babel/preset-react: use it if creating an app that uses React
+
+* At package.json:
+  
+        "scripts": {
+            "dev": "webpack serve --mode development --config config/webpack.config.dev.js",
+            "build": "webpack --config config/webpack.config.production.js"
+        },
+
+or if using webpack cli then:        
+
+        "scripts": {
+            "dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
+            "build": "webpack --config config/webpack.config.production.js"
+        },
+
+
+## Installations for React
+
+* `npm install react react-dom`
+
+----
+
+* `npm run dev` to run the dev script     
