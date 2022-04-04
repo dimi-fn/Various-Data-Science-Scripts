@@ -52,7 +52,7 @@ How to set up a virtual environment (venv) and generate a `requirements.txt` fil
 ------
 
 * [Web Development](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development)
-    * Responsive Web Design (HTML, CSS), JavaScript (TDD, npm, Deployment), Containers, Web Development set up, UI
+    * Responsive Web Design (HTML, CSS), JavaScript (TDD, npm, React, Deployment), Containers, Web Development set up, UI
 
 ------
 
