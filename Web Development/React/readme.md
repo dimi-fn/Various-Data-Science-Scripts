@@ -14,6 +14,10 @@ Contents
 # General
 
 * [React doc](https://reactjs.org/)
+    * React uses a syntax extension of JavaScript called JSX (JavaScript XML) that allows you to write HTML directly within JavaScript.
+    * because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The transpiler Babel is a popular tool for this process
+    * nested JSX must return a single element
+
 
 * [JSX](https://reactjs.org/docs/introducing-jsx.html)
     * JSX stands for JavaScript XML. JSX allows us to write HTML in React.
