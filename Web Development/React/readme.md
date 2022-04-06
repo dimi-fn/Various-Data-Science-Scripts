@@ -7,6 +7,7 @@ Contents
 * [State](#state)
 * [Eventing](#eventing)
 * [Hooks](#hooks)
+* [Props](#props)
 * [CSS with React](#css-with-react)
 * [Testing React](#testing-react)
 
@@ -85,12 +86,46 @@ Eventing: when the state gets updated as a reaction to an event (e.g. user's cli
 
 # Hooks
 
-Rules about hooks:
+**Rules about hooks**:
 * they start with '`Use`'
 * they are functions (cannot be used as class components)
-* hooks should not be inside conditions, e.g. inside if statements of various states
+* they should only be used inside functional component, not possible in class components
+* hooks should be called at top level and they should not be inside conditions, e.g. inside if statements of various states
     * because there might be a mismatch between states and then that hook will not be able to work
+* hooks should only be called from function components, i.e. not via regular js functions
 
+<br>
+
+**Kinds of hooks**:
+* `useState`
+    * in order to change variables based on actions
+* `useEffect`
+    * in order to handle side effects, i.e. in order to handle anything that affects something outside the executing function scope -e.g. a fetch request that updates the user's view
+    * useEffect requires:
+        * a callback function (for what to do)
+        * an array of dependencies, optional (for listening to changes)
+            * if the array is empty (`[]`) then the effect will run only once
+    * we can use many useEffects within one component        
+* `useRef`
+
+
+<br>
+
+* [useEffect example](https://codesandbox.io/s/useeffect-dependencies-4pu91?file=/src/App.js)
+* [countdown timer with useEffect](https://codesandbox.io/s/useeffect-countdown-w7ryj)
+
+-----------------
+
+# Props
+
+* React properties: it is about passing data between parent and child components
+    * parents can pass things to children, children cannot pass info neither to parent nor to other children 
+
+* passing props
+    * callbacks as props: we can also pass functions as props (since functions can be treated in the same way as any other data type in JS)
+* receiving props
+
+We can access the received properties in two ways depending on if the component is a functional or a class one.
 
 -----------------
 
