@@ -163,14 +163,20 @@ Reasons for bundling
 ## Folder Structure
 
 * `config` directory
-    * webpack giles
-* `public` directory
+    * webpack files
+* `public`: contains publicly accessible files
     * index.html
-* `src` directory
+* `src`: contains the source code of the app
     * JS files
 * .babelrc     
 
-## Installations for webpack
+## Webpack configuration
+
+* `webpack.config.js`
+* `webpack.config.dev.js`: extra info for dev environment
+* `webpack.config.production.js`: give instructions to webpack to build a production ready application
+
+## Installations for Webpack
 * `npm init -y`
 * `npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
 * Install loaders
@@ -205,3 +211,7 @@ or if using webpack cli then:
 ----
 
 * `npm run dev` to run the dev script     
+
+## Testing with React
+
+* [Testing with React]()
