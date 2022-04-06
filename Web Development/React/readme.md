@@ -35,7 +35,7 @@ Contents
 React is:
 * `declarative`: we tell React what we want and it will figure out how to do it, i.e. it is not imperative
 
------
+----------------
 
 # Components
 
@@ -52,7 +52,7 @@ Components are independent and reusable bits of code
 
 * [Controlled Components](https://reactjs.org/docs/forms.html#controlled-components)
 
------
+----------------
 
 # State
 
@@ -71,18 +71,19 @@ React functional components can save local state data via the `useState` hook
 
 * [React Reconciliation](https://reactjs.org/docs/reconciliation.html)
 
+----------------
+
 # Eventing    
 
 Eventing: when the state gets updated as a reaction to an event (e.g. user's clicking a 'like' button and counting the total number of likes)
     * events: e.g. `onClick`, `onHover`, `onSubmit`
     * as with the 'regular' event handlers, we can have access to the event itself
 
-
 <br>
 
 * [SyntheticEvent](https://reactjs.org/docs/events.html)
 
---------
+----------------
 
 # Hooks
 
