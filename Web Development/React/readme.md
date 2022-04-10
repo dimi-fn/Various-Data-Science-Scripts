@@ -119,7 +119,7 @@ Eventing: when the state gets updated as a reaction to an event (e.g. user's cli
 
 # Props
 
-* React properties: it is about passing data between parent and child components
+* React properties: they are about passing data between parent and child components
     * parents can pass things to children, children cannot pass info neither to parent nor to other children 
 
 * passing props

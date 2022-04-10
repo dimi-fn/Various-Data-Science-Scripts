@@ -206,12 +206,12 @@ or if using webpack cli then:
 
 ## Installations for React
 
-* `npm install react react-dom`
+* `npm install react react-dom react-router-dom`
 
 ----
 
 * `npm run dev` to run the dev script     
 
-## Testing with React
+### Testing with React
 
 * [Testing with React](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/React#testing-react)

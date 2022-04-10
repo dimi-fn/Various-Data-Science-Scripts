@@ -36,9 +36,9 @@ Deploy your front-end at Netlify.
 * On netlify, choose sites > add new site > import an existing project
     * search for your github repo and hit deploy
 * On netlify, find "site settings" > "build & deploy" > "build settings" and make the following changes:
-    * base directory: `client`
-    * publish directory: `client/`
-* On netlify: trigger deploy > deploy    
+    * base directory: `client` (if client is the filename hosting your client)
+    * publish directory: `client/` (if client is the filename hosting your client)
+* On netlify: deployes > rigger deploy > deploy    
     * By default, auto publishing is on, hence, any change coming from your front-end repo will reflect on your netlify app as well
 * Customize domain: site settings > domain management > domains > custom domains > options
 
