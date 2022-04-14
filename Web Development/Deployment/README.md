@@ -46,6 +46,20 @@ Deploy your front-end at Netlify.
 
 ## React
 
+Deploying the client on Netlify if using React and Webpack (case where there is no server or database):
+
+* package.json > scripts:
+    * `"build": "webpack --config config/webpack.config.production.js"`
+
+* Run `npm run build` to generate the *build* directory. Make sure it is located in the root project directory. Deploy that on GitHub
+
+* If using a favicon:
+    * put the favicon somewhere inside the *src*
+    * at webpack.config.js: https://stackoverflow.com/questions/37298215/add-favicon-with-react-and-webpack 
+
+* On Netlify
+    * base directory: leave it 'not set'
+    * publish directory: `/build`
 
 
 ---------
