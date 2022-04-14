@@ -7,7 +7,6 @@ Contents
 * [Unit Testing with Jest](#unit-testing-with-jest)
 * [How to Generate the bundle.js File](#how-to-generate-the-bundlejs-file)
 * [Server](#server)
-* [Webpack Setup with React](#webpack-setup-with-react)
 
 
 -------
@@ -150,68 +149,3 @@ Navigate to the server dir:
     * `npm run test`, `npm run coverage`
 
 
----------
-
-# Webpack Setup with React
-
-Reasons for bundling
-* bundling many JS files, i.e. reducing the http requests on browsers
-* handling more file types
-* automate additional tasks
-* generate helper filers
-
-## Folder Structure
-
-* `config` directory
-    * webpack files
-* `public`: contains publicly accessible files
-    * index.html
-* `src`: contains the source code of the app
-    * JS files
-* .babelrc     
-
-## Webpack configuration
-
-* `webpack.config.js`
-* `webpack.config.dev.js`: extra info for dev environment
-* `webpack.config.production.js`: give instructions to webpack to build a production ready application
-
-## Installations for Webpack
-* `npm init -y`
-* `npm install webpack webpack-cli webpack-dev-server html-webpack-plugin --save-dev`
-* Install loaders
-    * `npm i -D babel-loader style-loader css-loader`
-        * same as `npm install babel-loader style-loader css-loader --save-dev`
-* install Babel        
-    * `npm i -D @babel/core @babel/preset-env @babel/plugin-transform-runtime @babel/preset-react`
-        * @babel/core: the core babel library
-        * @babel/preset-env: in order to target specific environments
-        * @babel/plugin-transform-runtime: handles regenerator runtime errors
-        * @babel/preset-react: use it if creating an app that uses React
-
-* At package.json:
-  
-        "scripts": {
-            "dev": "webpack serve --mode development --config config/webpack.config.dev.js",
-            "build": "webpack --config config/webpack.config.production.js"
-        },
-
-or if using webpack cli then:        
-
-        "scripts": {
-            "dev": "webpack-cli serve --mode development --config config/webpack.config.dev.js",
-            "build": "webpack --config config/webpack.config.production.js"
-        },
-
-
-## Installations for React
-
-* `npm install react react-dom react-router-dom`
-
-----
-
-* `npm run dev` to run the dev script     
-
-### Testing with React
-
-* [Testing with React](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/React#testing-react)
