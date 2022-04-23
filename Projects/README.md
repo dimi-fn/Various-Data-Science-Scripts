@@ -1,6 +1,9 @@
 # Projects
 
-* [Google Stock Price](https://github.com/dimi-fn/Google-Stock-Price)
+* [GitHub Repos](https://github-repos.netlify.app/)
+     * https://github.com/dimi-fn/github-repo-page
+
+* [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
 
 * [Google Play Store Apps](https://github.com/dimi-fn/Google-Play-Store-Apps)
 
@@ -10,10 +13,10 @@
 
 * [Emotion Recognition in Movie Synopses](https://github.com/dimi-fn/Emotion-Recognition-in-Movie-Abstracts)
 
-* [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
-
 * [SEO Handbook](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/SEO#search-engine-optimization-seo-handbook)
 
 * [USA Cars Dataset - Predict the Car Prices](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Projects)
+
+* [Google Stock Price](https://github.com/dimi-fn/Google-Stock-Price)
 
 * [Mini-projects using JavaScript](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/JavaScript/mini%20projects)
