@@ -10,6 +10,7 @@ Contents
 * [Props](#props)
 * [CSS with React](#css-with-react)
 * [Testing React](#testing-react)
+* [Create a React App](#create-a-react-app)
 
 
 
@@ -161,3 +162,12 @@ We can access the received properties in two ways depending on if the component 
         "coverage": "jest --setupFilesAfterEnv ./src/test/setupTests.js --coverage --watchAll=false"
 
 * Create a folder called `__mocks__ ` with a `fileMock.js` and a `styleMock.js` file
+
+----
+
+# Create a React App
+
+* Create a client folder which will host your react app and navigate there
+* run `npm create-create-app .` or `npm create-create-app <your-react-name>`
+* run `npm start` to load your react app
+    * that method will handle webpack for you (you can use 'eject' to extract the webpack if you want though)
