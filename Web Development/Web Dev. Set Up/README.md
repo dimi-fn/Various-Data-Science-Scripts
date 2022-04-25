@@ -8,7 +8,7 @@ Contents
 * [Windows](#windows)
     * [Node.js](#nodejs-windows)
     * [Chocolatey](#chocolatey)
-    * [pyenv & pipenv](#pyenv-windows-pipenv)
+    * [pyenv & pipenv](#pyenv--pipenv)
     * [Docker](#docker-windows)
         * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
