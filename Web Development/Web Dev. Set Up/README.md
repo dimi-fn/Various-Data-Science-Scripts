@@ -99,8 +99,14 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
 <br>
 
 * [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+* [Pyenv in Windows](https://dev.to/dendihandian/pyenv-in-windows-4lpe)
 
+<br>
 
+* Install **pipenv**:
+    * run cmd with admin rights
+    * `pip install pipenv` (or `pip install pipenv`)
+    * `pipenv --version`
 
 --------
 
