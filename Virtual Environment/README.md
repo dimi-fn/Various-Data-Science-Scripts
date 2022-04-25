@@ -151,13 +151,14 @@ After having created your project directory at which the venv will take place, t
     * `pipenv install`: to install dependencies
         * this will create a **Pipfile.lock** file (like the package-lock.json file)
     * `pipenv install --dev pytest` to install pytest
+    * `pipenv install --dev pytest-cov` to install pytest coverage
 
 <br>
 
 * `Usage`:
     * `pipenv --venv` find out where the virtual environment is
     * `pipenv --where` find out where the project home is located
-    * `pipenv graph`: get a dependency graph
+    * `pipenv graph`: get a dependency graph of the top-level dependencies and their sub-dependencies
         * `pipenv graph --reverse`
     * `pipenv run <filename>`
     * `pipenv install <package>`
@@ -166,12 +167,14 @@ After having created your project directory at which the venv will take place, t
     * `pipenv uninstall --all` delete all installed packages from the virtual environment
         * `pipenv uninstall --all-dev` remove only the dev packages
 
-
+<br>
 
 * `Push to production`:
     * `pipenv lock`: this will update the Pipfile.lock file
     * `pipenv install --ignore-pipfile` to install the last successful environment recorded  
         * *This tells Pipenv to ignore the Pipfile for installation and use what’s in the Pipfile.lock*    
+
+<br>
 
 * `Package distributiion` ~ Other developers using your code:
     * `pipenv install --dev` this will install all the dependencies (both dev and non-dev)
