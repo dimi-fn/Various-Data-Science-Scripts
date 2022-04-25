@@ -93,7 +93,7 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
 * check installation by checking the list of all available python versions: `pyenv install --list`
 * `$ pyenv install <latest stable Python version or any other desired version to install>`
 * `$ pyenv global <the version you chose to install>` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-global)
-* in home directory:`$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash)
+* in home directory:`$ pyenv rehash` - [doc](https://github.com/pyenv/pyenv/blob/master/COMMANDS.md#pyenv-rehash) to update pyenv with the new settings
 * confirm python version `$ python --version` and version number for `$ python -m pip --version`
 * update pyenv: `pip install --upgrade pyenv-win`
     * [How to update pyenv](https://github.com/pyenv-win/pyenv-win#how-to-update-pyenv)
@@ -109,6 +109,10 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
     * run cmd with admin rights
     * `pip install pipenv` (or `pip install pipenv`)
     * `pipenv --version`
+
+<br>
+
+* [Edit environment variables on Windows](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 
 --------
 
