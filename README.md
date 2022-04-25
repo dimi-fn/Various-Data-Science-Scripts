@@ -36,7 +36,7 @@ Solving problems via Unit Testing. The majority of the problem tasks are derived
 
 * [Virtual Environment](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual%20Environment)
 
-How to set up a virtual environment (venv) and generate a `requirements.txt` file for the project packages and dependencies.
+How to set up a virtual environment with venv and pipenv for packaging and dependency management in Python.
 
 -----
 

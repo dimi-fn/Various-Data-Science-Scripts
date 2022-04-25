@@ -1,17 +1,25 @@
 # Virtual Environment
 
+How to set up a virtual environment with venv and pipenv for packaging and dependency management in Python.
+
 Contents
 =======================
 
-* [Reasons to Use Virtual Environment (venv)](#reasons-to-use-virtual-environment-venv)
-* [Requirements](#requirements)
-* [Set up on Windows](#set-up-on-windows)
-* [Set up on Linux](#set-up-on-linux)
-* [requirements.txt](#requirementstxt)
-    * [How to generate a requirements.txt for other developers](#how-to-generate-a-requirementstxt-for-other-developers)
-    * [How to install a requirements.txt file from other developers](#how-to-install-a-requirementstxt-file-from-other-developers)
-* [General Notes](#general-notes)
-* [Useful Sources](#useful-sources)
+* venv(#venv)
+    * [Reasons to Use Virtual Environment (venv)](#reasons-to-use-virtual-environment-venv)
+    * [Requirements](#requirements)
+    * [Set up on Windows](#set-up-on-windows)
+    * [Set up on Linux](#set-up-on-linux)
+    * [requirements.txt](#requirementstxt)
+        * [How to generate a requirements.txt for other developers](#how-to-generate-a-requirementstxt-for-other-developers)
+        * [How to install a requirements.txt file from other developers](#how-to-install-a-requirementstxt-file-from-other-developers)
+    * [General Notes](#general-notes)
+    * [Useful Sources](#useful-sources)
+* pipenv(#pipenv)    
+
+------- 
+
+# venv
 
 ## Reasons to Use Virtual Environment (venv)
 
@@ -127,6 +135,48 @@ After having created your project directory at which the venv will take place, t
     * Use "**pip list --local**" for the same use as "pip list" previously.
     * Use "**pip freeze --local**" for the same use as "pip freeze" previously.
 
+------------
+
+# pipenv
+
+* https://realpython.com/pipenv-guide/
+
+* you will have to have pipenv installed: `pip install pipenv`
+
+<br>
+
+* Project flow: create your project directory, and then:
+    * `pipenv shell`: to set up a virtual environment
+        * this will create a **Pipfile** (like the package.json in npm, and like the requirements.txt when using venv)
+    * `pipenv install`: to install dependencies
+        * this will create a **Pipfile.lock** file (like the package-lock.json file)
+    * `pipenv install --dev pytest` to install pytest
+
+<br>
+
+* Usage:
+    * `pipenv --venv` find out where the virtual environment is
+    * `pipenv --where` find out where the project home is located
+    * `pipenv graph`: get a dependency graph
+        * `pipenv graph --reverse`
+    * `pipenv run <filename>`
+    * `pipenv install <package>`
+        * `pipenv install --dev <package>` for installing as a dev dependency
+    * `pipenv uninstall <package>`
+    * `pipenv uninstall --all` delete all installed packages from the virtual environment
+        * `pipenv uninstall --all-dev` remove only the dev packages
+
+
+
+* Push to production:
+    * `pipenv lock`: this will update the Pipfile.lock file
+    * `pipenv install --ignore-pipfile` to install the last successful environment recorded  
+        * *This tells Pipenv to ignore the Pipfile for installation and use what’s in the Pipfile.lock*    
+
+* Other developers using your code:
+    * `pipenv install --dev` this will install all the dependencies (both dev and non-dev)
+
+
 ------
 
 # Useful Sources
@@ -142,3 +192,5 @@ After having created your project directory at which the venv will take place, t
 [5] https://docs.microsoft.com/en-us/visualstudio/python/selecting-a-python-environment-for-a-project?view=vs-2019#use-virtual-environments
 
 [6] https://blog.usejournal.com/why-and-how-to-make-a-requirements-txt-f329c685181e
+
+[7] https://realpython.com/pipenv-guide/
