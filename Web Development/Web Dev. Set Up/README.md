@@ -8,7 +8,7 @@ Contents
 * [Windows](#windows)
     * [Node.js](#nodejs-windows)
     * [Chocolatey](#chocolatey)
-    * [pyenv](#pyenv-windows)
+    * [pyenv & pipenv](#pyenv-windows-pipenv)
     * [Docker](#docker-windows)
         * [Install](#install-docker-windows) | [Windows Subsystem Linux (WSL)](#windows-subsystem-linux-wsl) | [Tutorials](#tutorials)
 * [Linux](#linux)
@@ -79,7 +79,9 @@ For Windows, run PowerShell as Administrator and run:
 
 ------
 
-<h2 id="pyenv-windows">pyenv</h2>
+<!-- <h2 id="pyenv-windows">pyenv</h2> -->
+
+## pyenv & pipenv
 
 Pyenv is a tool so that you can easily install multiple versions and be able to switch between them (it can be quite helpful when collaborating across projects with other developers).
 
