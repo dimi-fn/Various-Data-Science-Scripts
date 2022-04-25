@@ -145,7 +145,7 @@ After having created your project directory at which the venv will take place, t
 
 <br>
 
-* Project flow: create your project directory, and then:
+* `Project flow`: create your project directory, and then:
     * `pipenv shell`: to set up a virtual environment
         * this will create a **Pipfile** (like the package.json in npm, and like the requirements.txt when using venv)
     * `pipenv install`: to install dependencies
@@ -154,7 +154,7 @@ After having created your project directory at which the venv will take place, t
 
 <br>
 
-* Usage:
+* `Usage`:
     * `pipenv --venv` find out where the virtual environment is
     * `pipenv --where` find out where the project home is located
     * `pipenv graph`: get a dependency graph
@@ -168,12 +168,12 @@ After having created your project directory at which the venv will take place, t
 
 
 
-* Push to production:
+* `Push to production`:
     * `pipenv lock`: this will update the Pipfile.lock file
     * `pipenv install --ignore-pipfile` to install the last successful environment recorded  
         * *This tells Pipenv to ignore the Pipfile for installation and use what’s in the Pipfile.lock*    
 
-* Other developers using your code:
+* `Package distributiion` ~ Other developers using your code:
     * `pipenv install --dev` this will install all the dependencies (both dev and non-dev)
 
 
