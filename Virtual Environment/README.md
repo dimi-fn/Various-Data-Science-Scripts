@@ -5,7 +5,7 @@ How to set up a virtual environment with venv and pipenv for packaging and depen
 Contents
 =======================
 
-* venv(#venv)
+* [venv](#venv)
     * [Reasons to Use Virtual Environment (venv)](#reasons-to-use-virtual-environment-venv)
     * [Requirements](#requirements)
     * [Set up on Windows](#set-up-on-windows)
@@ -15,7 +15,7 @@ Contents
         * [How to install a requirements.txt file from other developers](#how-to-install-a-requirementstxt-file-from-other-developers)
     * [General Notes](#general-notes)
     * [Useful Sources](#useful-sources)
-* pipenv(#pipenv)    
+* [pipenv](#pipenv)    
 
 ------- 
 
