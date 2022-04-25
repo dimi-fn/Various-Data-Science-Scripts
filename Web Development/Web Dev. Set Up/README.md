@@ -85,7 +85,7 @@ For Windows, run PowerShell as Administrator and run:
 
 Pyenv is a tool so that you can easily install multiple versions and be able to switch between them (it can be quite helpful when collaborating across projects with other developers).
 
-### Download
+### Pyenv
 
 * Open Git bash on admin: `$ choco install pyenv-win`
 * confirm successful installation: on git bash run: `$ pyenv --version`
@@ -103,12 +103,13 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
 * [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
 * [Pyenv in Windows](https://dev.to/dendihandian/pyenv-in-windows-4lpe)
 
-<br>
+### Pipenv
 
 * Install **pipenv**:
     * run cmd with admin rights
     * `pip install pipenv` (or `pip install pipenv`)
     * `pipenv --version`
+* to upgrade pipenv: `pip install --upgrade pipenv` 
 
 <br>
 
