@@ -107,7 +107,7 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
 
 * Install **pipenv**:
     * run cmd with admin rights
-    * `pip install pipenv` (or `pip install pipenv`)
+    * `pip install pipenv`
     * `pipenv --version`
 * to upgrade pipenv: `pip install --upgrade pipenv` 
 * Usage:
