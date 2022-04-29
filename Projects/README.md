@@ -3,6 +3,8 @@
 * [GitHub Repos](https://github-repos.netlify.app/)
      * https://github.com/dimi-fn/github-repo-page
 
+* [Flask server mail app](https://github.com/dimi-fn/flask-mail-app)
+
 * [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
 
 * [Google Play Store Apps](https://github.com/dimi-fn/Google-Play-Store-Apps)
