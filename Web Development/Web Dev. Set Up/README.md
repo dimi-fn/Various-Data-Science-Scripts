@@ -114,6 +114,7 @@ Pyenv is a tool so that you can easily install multiple versions and be able to 
     * `pipenv install` to install packages
     * `pipenv install --dev` to install dev packages
     * `pipenv run dev` to run the dev commands from the Pipfile
+* [Setting a virtual environment with venv & pipenv](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual%20Environment)    
 
 <br>
 
