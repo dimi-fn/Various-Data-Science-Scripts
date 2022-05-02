@@ -139,6 +139,8 @@ After having created your project directory at which the venv will take place, t
 
 # pipenv
 
+* [pyenv & pipenv setup](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Web%20Development/Web%20Dev.%20Set%20Up#pyenv--pipenv)
+
 * https://realpython.com/pipenv-guide/
 
 * you will have to have pipenv installed: `pip install pipenv`
