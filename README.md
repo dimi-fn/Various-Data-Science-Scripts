@@ -11,6 +11,7 @@ Contents
 * [Algorithms & Data Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures)
     * [Algorithms](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures/Algorithms)
     * [Data Types & Structures](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures/Data_Types_%26_Structures)
+    * [Variable Scope](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Algorithms%20%26%20Data%20Structures/Variable_Scope)
 
 -----
 
