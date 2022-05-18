@@ -1,6 +1,6 @@
 # Projects
 
-* [GitHub Repos](https://github-repos.netlify.app/)
+* [GitHub Repos Search Page](https://github-repos.netlify.app/)
      * https://github.com/dimi-fn/github-repo-page
 
 * [Flask server mail app](https://github.com/dimi-fn/flask-mail-app)
