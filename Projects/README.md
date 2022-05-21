@@ -7,6 +7,8 @@
 
 * [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
 
+* [This repo: Various Data Science Scripts](https://github.com/dimi-fn/Various-Data-Science-Scripts)
+
 * [Google Play Store Apps](https://github.com/dimi-fn/Google-Play-Store-Apps)
 
 * [Kannada MNIST Digits Recognition](https://github.com/dimi-fn/Kannada-MNIST-Digits)
