@@ -140,6 +140,7 @@ While downloading docker, you will be asked to [download the Linux kernel update
 
 Access you file storage for Linux while being on WSL via Windows:
 * open your Linux terminal on Windows and run: `explorer.exe .` | [info](https://superuser.com/questions/1185033/what-is-the-home-directory-on-windows-subsystem-for-linux), [info](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#file-storage)
+* you can now access your ubuntu terminal on Windows, type 'ubuntu' on your search bar
 
 **VS Code**:
 
