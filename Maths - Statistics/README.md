@@ -9,4 +9,6 @@ Contents
 
 -------
 
-# Statistics    
+# Statistics  
+
+* [Statistics Cheatsheet by MIT](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Maths%20-%20Statistics/Statistics/Statistics_Cheatsheet_MIT.pdf)
