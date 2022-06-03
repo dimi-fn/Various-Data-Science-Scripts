@@ -11,8 +11,11 @@ Contents
 	* Data Science
 		* [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
 		* [Data Science Cheatsheet - Compiled by Maverick Lin](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Data_Science_Cheatsheet__Compiled%20by%20Maverick%20Lin.pdf)
+		* [Data Science Cheatsheet by aaronwangy](https://github.com/aaronwangy/Data-Science-Cheatsheet/blob/main/Data_Science_Cheatsheet.pdf)
+		* [Data Science Cheatsheet by ml874](https://github.com/ml874/Data-Science-Cheatsheet/blob/master/data-science-cheatsheet.pdf)
 		* [ML, DL, Python, R, SQL, Maths & Statistics - by Anushka Bajpai](https://medium.com/@anushkhabajpai/top-data-science-cheat-sheets-ml-dl-python-r-sql-maths-statistics-5239d4568225)
 	* Artificial Intelligence
+		* [ML Cheatsheet by Stanford](https://github.com/afshinea/stanford-cs-229-machine-learning/blob/master/en/super-cheatsheet-machine-learning.pdf)
 		* [Machine Learning Cheatsheet - by Rémi Canard](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/ML_cheatsheet%20-%20by%20R%C3%A9mi%20Canard.pdf)
 		* [AI, Neural Networks, Machine Learning, Deep Learning & Big Data - by Fjodor van Veen](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Cheatsheet_AI_ML_Data_Science.pdf)
 * Interviews
