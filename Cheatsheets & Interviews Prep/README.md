@@ -9,6 +9,7 @@ Contents
 	* Git
 		* [Cheatsheets about Git and version control](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#cheatsheets)
 	* Data Science
+		* [21 Cheat Sheets for Data Science Interviews - By Nate Rosidi, KDnuggets](https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html)
 		* [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
 		* [Data Science Cheatsheet - Compiled by Maverick Lin](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Cheatsheets%20%26%20Interviews%20Prep/Data_Science_Cheatsheet__Compiled%20by%20Maverick%20Lin.pdf)
 		* [Data Science Cheatsheet by aaronwangy](https://github.com/aaronwangy/Data-Science-Cheatsheet/blob/main/Data_Science_Cheatsheet.pdf)
