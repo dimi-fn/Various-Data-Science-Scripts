@@ -5,7 +5,8 @@
 
 * [Flask server mail app](https://github.com/dimi-fn/flask-mail-app)
 
-* [Personal Porfolio](https://github.com/dimi-fn/Portfolio)
+* [Personal Porfolio](https://dimi-fn.github.io/portfolio/)
+     * https://github.com/dimi-fn/portfolio
 
 * [This repo: Various Data Science Scripts](https://github.com/dimi-fn/Various-Data-Science-Scripts)
 
