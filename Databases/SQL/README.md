@@ -32,7 +32,7 @@ After entering postgreSQL database with docker:
 
 -----------------
 
-# SQL - Miscellaneous
+# SQL - Basics & Miscellaneous
 
 |What|Description|
 |--------|---------|
