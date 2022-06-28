@@ -16,10 +16,6 @@ Contents
     * [Entity Relationship Diagram (ERD)](https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
 * [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/e-books)
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)    
-* [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/sqlite3)
-    * https://colab.research.google.com/drive/16kEVgvauogGKEC8PJr-J23SNtGItpVg1?usp=sharing
-        * `Connect` | `Create` | `Insert` & `Commit` | `Read` | `Drop` | `Close`
-        * Creating a `database interface` with `SQLlite`
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
 
 
