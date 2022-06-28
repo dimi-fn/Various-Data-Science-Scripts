@@ -11,12 +11,10 @@ Contents
 
 --------
 
-* Tutorials
-    * [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
-    * [Entity Relationship Diagram (ERD)](https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
-* [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/e-books)
-* [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)    
-* [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Oracle%20SQL) 
+# Tutorials
+
+* [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
+* [Entity Relationship Diagram (ERD)](https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
 
 
 -------
