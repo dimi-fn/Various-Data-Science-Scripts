@@ -8,7 +8,7 @@ Contents
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
 * [Tutorials](#tutorials)
 * [PostgreSQL](#postgresql)
-* [SQL - Miscellaneous](#sql---miscellaneous)
+* [SQL - Basics & Miscellaneous](#sql---basics-miscellaneous)
 
 -------------------------
 
