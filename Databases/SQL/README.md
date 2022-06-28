@@ -2,12 +2,13 @@
 
 Contents
 =======================
-* [Tutorials](#tutorials)
 * [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/e-books)
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Cheatsheets)
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Oracle%20SQL)
-* [PostgreSQL](#postgresql)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
+* [Tutorials](#tutorials)
+* [PostgreSQL](#postgresql)
+* [SQL - Miscellaneous](#sql---miscellaneous)
 
 -------------------------
 
@@ -31,3 +32,4 @@ After entering postgreSQL database with docker:
 
 -----------------
 
+# SQL - Miscellaneous
