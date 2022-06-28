@@ -41,6 +41,8 @@ After entering postgreSQL database with docker:
     * design & create database tables
     * implement administrative tasks (e.g. user management, security, etc)
 
+<br>
+
 * SQL
     * Data Query Language (DQL)    
         * query the db (database)
