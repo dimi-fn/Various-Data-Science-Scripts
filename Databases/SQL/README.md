@@ -34,6 +34,13 @@ After entering postgreSQL database with docker:
 
 # SQL - Basics & Miscellaneous
 
+
+* In Relational Database Management Systems you can use SQL to
+    * proceed to CRUD operations
+    * create and manage databases
+    * design & create database tables
+    * perform administrative tasks (e.g. user management, security, etc)
+
 |What|Description|
 |--------|---------|
 | `primary key`| an attribute which uniquely identifies the row in a database |
