@@ -13,7 +13,7 @@ Contents
 
 * Tutorials
     * [The SQL Tutorial for Data Analysis by mode.com](https://mode.com/sql-tutorial/introduction-to-sql/)
-    * [Entity Relationship Diagram (ERD)(https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
+    * [Entity Relationship Diagram (ERD)](https://www.youtube.com/watch?v=QpdhBUYk7Kk&ab_channel=Lucidchart)
 * [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/e-books)
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)    
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/sqlite3)
