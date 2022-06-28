@@ -52,7 +52,7 @@ After entering postgreSQL database with docker:
         * control who has access to the db
         * manage permissions
     * Data Manipulation Language (DML)
-        * allows CRUD operations
+        * allows CRUD operations in the db
 
 <br>    
 
