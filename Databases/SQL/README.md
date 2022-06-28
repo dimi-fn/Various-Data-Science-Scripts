@@ -39,6 +39,6 @@ After entering postgreSQL database with docker:
 | `primary key`| an attribute which uniquely identifies the row in a database |
 |`surrogate key`|a key that has no mapping to anything in the real world|
 | `natural key`|e.g. social security number that can be used as a primary key (it has a mapping to something in the real world) |
-| `foreigh key`| * a foreigh key stores the primary key of a row in another database table * a table can have more than one foreign key |
+| `foreigh key`| * a foreigh key stores the primary key of a row in another database table<br>* a table can have more than one foreign key |
 | | |
 | | |
