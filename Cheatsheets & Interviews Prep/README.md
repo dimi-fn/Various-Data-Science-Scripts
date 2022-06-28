@@ -10,7 +10,8 @@ Contents
 	* Git
 		* [Cheatsheets about Git and version control](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Git%20%26%20GitHub#cheatsheets)
 	* Math/Statistics
-		* Statistics for Data Science - by Dharmaraj, [Part 1](https://medium.com/@draj0718/statistics-for-data-science-part-1-87eebc07698a), [Part 2](https://medium.com/@draj0718/statistics-for-data-science-part-2-ed532bc22ea4)		
+		* Statistics for Data Science - by Dharmaraj, [Part 1](https://medium.com/@draj0718/statistics-for-data-science-part-1-87eebc07698a), [Part 2](https://medium.com/@draj0718/statistics-for-data-science-part-2-ed532bc22ea4)	
+	* [Databases (SQL)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)			
 	* Data Science
 		* [21 Cheat Sheets for Data Science Interviews - By Nate Rosidi, KDnuggets](https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html)
 		* [SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/Cheatsheets)
