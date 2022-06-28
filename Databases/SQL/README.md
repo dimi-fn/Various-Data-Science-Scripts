@@ -19,7 +19,7 @@ Contents
 
 -------
 
-## PostgreSQL
+# PostgreSQL
 
 After entering postgreSQL database with docker:
 
