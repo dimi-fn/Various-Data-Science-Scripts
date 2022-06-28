@@ -41,6 +41,17 @@ After entering postgreSQL database with docker:
     * design & create database tables
     * implement administrative tasks (e.g. user management, security, etc)
 
+* SQL
+    * Data Query Language (DQL)    
+        * query the db (database)
+    * Data Definition Language (DDL)        
+        * define db schemas
+    * Data Control Language (DCL)
+        * control who has access to the db
+        * manage permissions
+    * Data Manipulation Language (DML)
+        * allows CRUD operations
+
 <br>    
 
 |What|Description|
