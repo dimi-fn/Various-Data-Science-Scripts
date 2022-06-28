@@ -9,7 +9,7 @@ Contents
 * [PostgreSQL](#postgresql)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
 
---------
+-------------------------
 
 # Tutorials
 
@@ -18,7 +18,7 @@ Contents
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Oracle%20SQL)
 
 
--------
+-----------------
 
 # PostgreSQL
 
@@ -29,5 +29,5 @@ After entering postgreSQL database with docker:
 | `\i code/<filename.sql>` ->| to execute code |
 | `\dt`| show tables|
 
-------
+-----------------
 
