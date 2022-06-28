@@ -33,3 +33,12 @@ After entering postgreSQL database with docker:
 -----------------
 
 # SQL - Miscellaneous
+
+|What|Description|
+|--------|---------|
+| `primary key`| an attribute which uniquely identifies the row in a database |
+|`surrogate key`|a key that has no mapping to anything in the real world|
+| `natural key`|e.g. social security number that can be used as a primary key (it has a mapping to something in the real world) |
+| `foreigh key`|a foreigh key stores the primary key of a row in another database table |
+| | |
+| | |
