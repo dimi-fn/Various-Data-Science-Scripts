@@ -39,7 +39,9 @@ After entering postgreSQL database with docker:
     * proceed to CRUD operations
     * create and manage databases
     * design & create database tables
-    * perform administrative tasks (e.g. user management, security, etc)
+    * implement administrative tasks (e.g. user management, security, etc)
+
+<br>    
 
 |What|Description|
 |--------|---------|
