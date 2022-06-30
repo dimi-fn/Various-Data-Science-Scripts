@@ -13,7 +13,7 @@ Contents
     * [General](#general)
     * [Data Types](#data-types)
     * [Keys](#keys)
-    * [Foreigh Keys Constraints](#foreign-keys-constraints)
+    * [Foreign Keys Constraints](#foreign-keys-constraints)
 
 
 -------------------------
@@ -87,7 +87,7 @@ After entering postgreSQL database with docker:
 
 -------
 
-# Foreigh Keys Constraints
+# Foreign Keys Constraints
 
 | ON UPDATE or ON DELETE | What it does | 
 |-----------------------|---------------|
