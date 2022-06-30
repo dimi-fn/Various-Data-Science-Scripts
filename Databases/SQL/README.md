@@ -4,11 +4,12 @@ Contents
 =======================
 * [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/e-books)
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Cheatsheets)
+* [Tutorials](#tutorials)
+* [SQL - Basics & Miscellaneous](#sql---basics--miscellaneous)
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Oracle%20SQL)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
-* [Tutorials](#tutorials)
 * [PostgreSQL](#postgresql)
-* [SQL - Basics & Miscellaneous](#sql---basics--miscellaneous)
+* [mySQL]()
 
 -------------------------
 
@@ -74,3 +75,7 @@ After entering postgreSQL database with docker:
 | `foreigh key`| * a foreigh key stores the primary key of a row in another database table<br>* a table can have more than one foreign key |
 |`composite key` | * a primary key consisted of two attributes (columns)<br>* there are cases when only two keys combined together can uniquely identify each row in the table |  
 | | |
+
+-------
+
+
