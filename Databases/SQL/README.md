@@ -56,6 +56,16 @@ After entering postgreSQL database with docker:
 
 <br>    
 
+* Main SQL data types:
+    * INT
+    * DECIMAL(length of number, length of decimal point)
+    * VARCHAR()
+    * BLOB (binary large number)
+    * DATE
+    * TIMESTAMP
+
+<br>    
+
 |What|Description|
 |--------|---------|
 | `primary key`| an attribute which uniquely identifies the row in a database |
