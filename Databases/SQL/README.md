@@ -9,7 +9,7 @@ Contents
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Oracle%20SQL)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
 * [PostgreSQL](#postgresql)
-* [mySQL]()
+* [mySQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/mySQL)
 
 -------------------------
 
