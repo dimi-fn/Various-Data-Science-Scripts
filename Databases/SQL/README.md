@@ -5,11 +5,16 @@ Contents
 * [e-books](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/e-books)
 * [Cheatsheets](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Cheatsheets)
 * [Tutorials](#tutorials)
-* [SQL - Basics & Miscellaneous](#sql---basics--miscellaneous)
 * [Oracle SQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/Oracle%20SQL)
 * [sqlite3](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/sqlite3)
 * [PostgreSQL](#postgresql)
 * [mySQL](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/mySQL)
+* [SQL - Basics & Miscellaneous](#sql---basics--miscellaneous)
+    * [General](#general)
+    * [Data Types](#data-types)
+    * [Keys](#keys)
+    * [Foreigh Keys Constraints](#foreign-keys-constraints)
+
 
 -------------------------
 
@@ -35,7 +40,8 @@ After entering postgreSQL database with docker:
 
 # SQL - Basics & Miscellaneous
 
-
+# General
+    
 * In Relational Database Management Systems you can use SQL to
     * proceed to CRUD operations
     * create and manage databases
@@ -54,9 +60,12 @@ After entering postgreSQL database with docker:
         * manage permissions
     * Data Manipulation Language (DML)
         * allows CRUD operations in the db
+  
 
-<br>    
+-------
 
+# Data Types
+    
 * Main SQL data types:
     * `INT`
     * `DECIMAL`(length of number, length of decimal point)
@@ -65,7 +74,7 @@ After entering postgreSQL database with docker:
     * `DATE`
     * `TIMESTAMP`
 
-<br>    
+# Keys   
 
 |What|Description|
 |--------|---------|
@@ -78,4 +87,18 @@ After entering postgreSQL database with docker:
 
 -------
 
+# Foreigh Keys Constraints
 
+| ON UPDATE or ON DELETE | What it does | 
+|-----------------------|---------------|
+| `NO ACTION`|The update or delete operations in the parent table will fail with an error |
+| `CASCADE`| The same action performed on the referenced values of the parent table will be reflected to the related values in the child table. For example, if the referenced value is deleted in the parent table, all related rows in the child table are also deleted|
+|`SET NULL`| All related values in the child table are set to NULL value|
+| `SET DEFAULT`| The related values in the child table with FOREIGN KEY columns will be set to its default value |
+
+
+-------
+
+# Useful Sources
+
+* https://www.sqlshack.com/commonly-used-sql-server-constraints-foreign-key-check-default/
