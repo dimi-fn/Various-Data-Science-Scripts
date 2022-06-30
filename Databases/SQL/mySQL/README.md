@@ -25,4 +25,4 @@ Contents
 
 The data and some of the queries are derived from [this](https://www.youtube.com/watch?v=HXV3zeQKqGY&ab_channel=freeCodeCamp.org) tutorial.
 
-* [Creating and populating the tables for the database to be queried](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/SQL/mySQL/init_db.sql). The tables look like [this]().
+* [Creating and populating the tables for the database to be queried](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/SQL/mySQL/init_db.sql). The tables look like [this](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/SQL/mySQL/database.PNG).
