@@ -26,8 +26,5 @@ Contents
 The data and some of the queries are derived from [this](https://www.youtube.com/watch?v=HXV3zeQKqGY&ab_channel=freeCodeCamp.org) tutorial.
 
 * [Creating and populating the tables for the database to be queried](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/SQL/mySQL/db_company/init_db.sql). The tables look like [this](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Databases/SQL/mySQL/db_company/database.PNG).
-* [query_1: select all data from all tables](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Databases/SQL/mySQL/db_company/queries)
-* [query_1: ]()
-* [query_1: ]()
-* [query_1: ]()
-* [query_1: ]()
+* [queries]()
+
