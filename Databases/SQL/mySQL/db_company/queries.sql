@@ -13,4 +13,10 @@ SELECT * FROM branch_supplier;
 SELECT * FROM employee 
 ORDER BY salary;
 
--- Find all employees ordered by sex 
+-- Find all employees ordered by sex and then by name
+select * from employee
+ORDER BY sex, first_name, last_name;
+
+-- Find the first 5 employees in the table of 'employees'
+select * from employee
+LIMIT 5;
