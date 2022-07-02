@@ -105,15 +105,81 @@ select total_sales FROM works_with;
 
 ------------------------------ JOINS ------------------------------
 
+----------------------------------------
+---- https://www.w3schools.com/sql/sql_join.asp
+-- * Join (inner join)
+-- * left join
+-- * right join
+-- * full outer join
+----------------------------------------
+
 ------ find all branches and the names of their managers
------- tables: branch, employee (PS: manager IDs coincides with the employee IDs)
+------ tables: branch, employee (PS: manager ID coincides with that of the employee ID)
 -- for the sake of the query:
 INSERT INTO branch values(4,'Buffalo', NULL, NULL);
 
 SELECT  branch.branch_id, employee.emp_id, employee.first_name, employee.last_name, branch.branch_name
 FROM employee
 JOIN branch --common column is branch_id, hence join will be made on this column
-WHERE employee.emp_id = branch.mgr_id;
+ON employee.emp_id = branch.mgr_id;
 
 
+------------------------------ Nested Queries ------------------------------
+
+---- In SQL, nested queries are executed from the bottom-up, i.e. firstly the nested query will be executed
+
+---- find all employee names that have sold over 30,000 to a single client
+-- 1st way
+select employee.emp_id, employee.first_name, employee.last_name, works_with.client_id, works_with.total_sales
+FROM employee
+JOIN works_with
+ON employee.emp_id=works_with.emp_id
+where total_sales>30000;
+
+-- However, the above does not give the unique employee names. If we want that then:
+select DISTINCT(employee.emp_id), employee.first_name, employee.last_name, works_with.client_id, works_with.total_sales
+FROM employee
+JOIN works_with
+ON employee.emp_id=works_with.emp_id
+where total_sales>30000
+GROUP BY employee.emp_id;
+
+-- 2nd way via nested query
+select employee.emp_id, employee.first_name, employee.last_name
+from employee
+where employee.emp_id IN (
+     select works_with.emp_id
+     from works_with
+     where works_with.total_sales>30000
+);
+
+-- find all clients who are handled by the branch that Michael Scott manages. Assume we know Michael's ID
+select client.client_name
+from client
+where client.branch_id=(
+     select branch.branch_id
+     from branch
+     where branch.mgr_id = 102
+);
+
+------------------------------ Triggers ------------------------------
+
+-- create a trigget_test table for displaying a message everytime a new employee is created in the employee table
+CREATE TABLE trigger_test(
+     message VARCHAR(100)
+);
+
+-- this can only be executed from the terminal, i.e. and e.g. the mySQL command line client
+DELIMETER $$ -- change the delimeter from ';' to something else, here it will be '$$'
+               -- that is because of the code: INSERT INTO trigger_test VALUES('added new employee');
+                    -- we want a loop there, however we need to change the delimeter otherwise it will only be executed one time
+
+CREATE 
+     TRIGGER my_trigger BEFORE INSERT
+     ON employee
+     FOR EACH ROW BEGIN 
+     INSERT INTO trigger_test VALUES('added new employee');
+     END$$ -- instead of END; --> END$$ 
+
+DELIMETER ;   --change the delimeter back to the default ';'
 
