@@ -44,7 +44,7 @@ SELECT COUNT(DISTINCT super_id) AS unique_supervisors FROM employee;
 
 -- find the number of female employees born after 1970
 SELECT count(emp_id) FROM employee
-where sex='F' AND birth_day>'1970-01-01';
+WHERE sex='F' AND birth_day>'1970-01-01';
 
 -- find the average salary of male employees
 SELECT AVG(salary) FROM employee
@@ -86,7 +86,7 @@ select * from employee WHERE birth_day LIKE '____-10%';
 select * from employee WHERE birth_day LIKE '____-10-____';
 
 -- find any clients who are schools
-select * from client where client_name LIKE '%school%';
+select * from client WHERE client_name LIKE '%school%';
 
 
 ------------------------------ Unions ------------------------------
@@ -134,32 +134,32 @@ select employee.emp_id, employee.first_name, employee.last_name, works_with.clie
 FROM employee
 JOIN works_with
 ON employee.emp_id=works_with.emp_id
-where total_sales>30000;
+WHERE total_sales>30000;
 
 -- However, the above does not give the unique employee names. If we want that then:
 select DISTINCT(employee.emp_id), employee.first_name, employee.last_name, works_with.client_id, works_with.total_sales
 FROM employee
 JOIN works_with
 ON employee.emp_id=works_with.emp_id
-where total_sales>30000
+WHERE total_sales>30000
 GROUP BY employee.emp_id;
 
 -- 2nd way via nested query
 select employee.emp_id, employee.first_name, employee.last_name
 from employee
-where employee.emp_id IN (
+WHERE employee.emp_id IN (
      select works_with.emp_id
      from works_with
-     where works_with.total_sales>30000
+     WHERE works_with.total_sales>30000
 );
 
 -- find all clients who are handled by the branch that Michael Scott manages. Assume we know Michael's ID
 select client.client_name
 from client
-where client.branch_id=(
+WHERE client.branch_id=(
      select branch.branch_id
      from branch
-     where branch.mgr_id = 102
+     WHERE branch.mgr_id = 102
 );
 
 ------------------------------ Triggers ------------------------------
