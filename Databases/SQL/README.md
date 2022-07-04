@@ -101,8 +101,8 @@ After entering postgreSQL database with docker:
 
 # ER Diagrams
 
-* Entity: an object we want to model and store information about
-    * An `entity` becomes a *table*, and the entity `attibutes` comprise the *columns* of that table. In this way, the `database schema` can be designed and created.
+* `Entity`: an object we want to model and store information about
+    * An `entity` becomes a *table*, and the entity `attibutes` comprise the *columns* of that table (the attributes are the properties of an entity). In this way, the `database schema` can be designed and created.
 * Relationships: 1:1, 1:M, M:1, M:M    
 
 -------

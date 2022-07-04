@@ -13,8 +13,10 @@ Contents
 
 |**Command**|**Description**|
 |--------|---------|
-| `show databases` | displays the existed databases |
+|`create database <db-name>`| create database|
 | `use database <db-name>`| use the desired database to query and edit|
+|`show tables`| show the tables of a particular database|
+| `show databases` | displays the existed databases |
 |  `drop database <db-name>`  |    delete a database|
 |    |    |
 
