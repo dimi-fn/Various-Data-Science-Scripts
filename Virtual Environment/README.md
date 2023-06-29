@@ -51,7 +51,7 @@ if you want the name of venv to be called something else, then you can customize
 - To **activate** your virtual environment: 
     * navigate inside the project path (C:\Users\the path you have chosen\venv_project\venv)
     * Navigate inside "Scripts", via cd Scripts (C:\Users\the path you have chosen\venv_project\venv\Scripts)
-    * Type: `$ activate.bat`
+    * Type: `$ activate.bat` or `source activate` if you are on git bash on Windows
     * You will now notice the change in the start of your path in the cmd (it starts with "(venv) C:\Users\..\"), and the virtual environment is now activated.
         
         * If you type "*where python*", the 1st will be the venv path.
