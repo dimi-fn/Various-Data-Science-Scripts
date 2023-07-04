@@ -4,9 +4,9 @@
 Contents
 =======================
 
-* Data Types(#data-types)
-* Distributions(#distributions)
-* Cheatsheets(#cheatsheets)
+* [Data Types](#data-types)
+* [Distributions](#distributions)
+* [Cheatsheets](#cheatsheets)
 
 -----------------------------------------------------------------------------------------------------------
 
