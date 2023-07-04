@@ -6,6 +6,7 @@ Contents
 
 * [Data Types](#data-types)
 * [Distributions](#distributions)
+* [Hypothesis Tests](#hypothesis-tests)
 * [Cheatsheets](#cheatsheets)
 
 -----------------------------------------------------------------------------------------------------------
@@ -41,6 +42,14 @@ Contents
 
 ----------------------------------------------------
 
+# Hypothesis Tests
+
+* Hypothesis Tests based on the data types of the dependent and independent variables:
+
+![]()
+
+
+----------------------------------------------------
 
 # Cheatsheets
 
