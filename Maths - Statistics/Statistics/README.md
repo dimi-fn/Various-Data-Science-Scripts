@@ -13,6 +13,25 @@ Contents
 
 # Data Types
 
+## Quantitative data (numeric data types)
+
+* `Discrete data`
+     * e.g., the number of students in a class, the number of employees in a compary
+* `Continuous` data
+     * e.g. The height of people, the speed of car
+
+## Qualitative data (categorical data types)     
+* `Nominal data` (they do not have any inherent order or numerical value associated with them)
+     * e.g., gender (woman, man, etc)
+     * e.g., hair colour (blonde, brown, etc)
+     * e.g., ethnicity (english, asian, etc)
+          * `Binomial data` (they specifically refer to a nominal variable that has only two categories or outcomes)
+               * e.g., true/false, Yes/No responses, success/failure
+* `Ordinal data`
+     * e.g., first, second, third, etc
+     * e.g., letter grades (a, b, c, etc)
+     * e.g., economic status (low, medium, etc)
+
 ----------------------------------------------------
 
 
