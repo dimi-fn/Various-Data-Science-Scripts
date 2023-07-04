@@ -46,7 +46,7 @@ Contents
 
 * Hypothesis Tests based on the data types of the dependent and independent variables:
 
-![]()
+![Hypothesis Tests based on the data types](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Maths%20-%20Statistics/Statistics/src/statistical_test_hypothesis_testing.jpg)
 
 
 ----------------------------------------------------
