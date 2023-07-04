@@ -41,9 +41,9 @@ How to set up a virtual environment with venv and pipenv for packaging and depen
 
 -----
 
-* [Maths - Statistics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics#mathematics--statistics)
-    * [Mathematics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics#mathematics)
-        * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics/Mathematics_for_ML)
+* [Maths - Statistics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics)
+    * [Mathematics for Machine Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics/Mathematics_for_ML)
+    * [Statistics](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics/Statistics)
 
 -----
 
