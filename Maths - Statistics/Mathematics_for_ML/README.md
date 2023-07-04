@@ -3,7 +3,7 @@
 Contents
 =======================
 
-* Mathematics for Machine Learning(#mathematics-for-machine-learning)
+* [Mathematics for Machine Learning](#mathematics-for-machine-learning)
 
 
 -----------------------------------------------------------------------------------------------------------
