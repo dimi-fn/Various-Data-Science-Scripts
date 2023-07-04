@@ -1,14 +1,14 @@
-# Mathematics
+# Mathematics for Machine Learning
 
 Contents
 =======================
 
-* [Mathematics for Machine Learning](#mathematics-for-machine-learning)
+* [Linear Algebra](#linear-algebra)
 
 
 -----------------------------------------------------------------------------------------------------------
 
-# Mathematics for Machine Learning
+# Linear Algebra
 
 Practicing  some code demonstrated during the ["Mathematics for Machine Learning: Linear Algebra" course on Coursera](https://www.coursera.org/learn/linear-algebra-machine-learning/home/welcome), with reference to:
 
