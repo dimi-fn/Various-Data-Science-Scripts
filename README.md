@@ -3,7 +3,9 @@ Due to a GitHub bug (issue [#3035](https://github.com/jupyter/notebook/issues/30
 
 # Various-Data-Science-Scripts
 
-**Purpose**: Practicing code along with some documentation of various programming concepts and foundations. This repository is actively maintained and developed.
+**Purpose**: 
+Creating a collection of coding scripts, notes, and mini-projects with reference to a series of Data Science, Web Development, programming concepts and foundations, and miscellaneous tech topics.
+This repository is actively maintained and developed.
 
 Contents
 =======================
