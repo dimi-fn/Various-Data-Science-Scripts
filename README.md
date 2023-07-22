@@ -35,6 +35,12 @@ Also: working with files (read-write-delete files).
 
 Solving problems via Unit Testing. The majority of the problem tasks are derived from the [Codility](https://www.codility.com/) [lessons](https://app.codility.com/programmers/lessons/1-iterations/), and some of those are coming from [CodinGame](https://www.codingame.com/) as well.
 
+
+-----
+
+* [Various Scripts](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Various%20Scripts)
+    * [Check if a JSON file is valid](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Various%20Scripts#check-if-a-json-file-is-valid)
+
 -----
 
 * [Virtual Environment](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Virtual%20Environment)
