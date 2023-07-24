@@ -15,7 +15,7 @@ def is_valid_json_file(file_name):
     return False
 
 if __name__ == "__main__":
-    # if uses hasn't given 2 arguments
+    # if user hasn't given 2 arguments
     if len(sys.argv) != 2:
         print("You didn't enter the right command. Run: python check_json_validity.py <your-json-filename>.json")
         sys.exit(1)
