@@ -20,7 +20,7 @@ if __name__ == "__main__":
         print("You didn't enter the right command. Run: python check_json_validity.py <your-json-filename>.json")
         sys.exit(1)
 
-    # the file_name is the second comand line argument
+    # the file_name is the second command line argument
     file_name = sys.argv[1]
 
     if is_valid_json_file(file_name):
