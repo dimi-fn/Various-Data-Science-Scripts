@@ -15,5 +15,5 @@ Contents
 * [NLP](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/NLP)
 * [TensorFlow](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/TensorFlow)
 * [Hands-on Machine Learning with Aurelien Geron](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Hands_on_ML)
-* [Prompt Engineering for Generative AI]()
+* [Prompt Engineering for Generative AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/prompt_eng_for_gen_ai.md)
 
