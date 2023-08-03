@@ -44,7 +44,7 @@ The are various techniques you can create prompts for Gen AI. The below are chat
 
 ---------
 
-4. `Prefix-Tuning``
+4. `Prefix-Tuning`
 
 **Description**: A specific prefix is added to the input text to guide the model's behavior and provide context for generating desired outputs.
 
