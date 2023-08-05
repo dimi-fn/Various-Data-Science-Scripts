@@ -4,13 +4,41 @@
 Contents
 =======================
 
+* [Descriptive vs Inferential Statistics](#descriptive-vs-inferential-statistics)
 * [Data Types](#data-types)
 * [Distributions](#distributions)
-* [Hypothesis Tests](#hypothesis-tests)
+* [Hypothesis Testing](#hypothesis-testing)
 * [Cheatsheets](#cheatsheets)
 
 -----------------------------------------------------------------------------------------------------------
 
+
+
+# Descriptive vs Inferential Statistics
+
+**Descriptive** statistics summarize the characteristics of a dataset.
+
+**Inferential** statistics allow you to test a hypothesis or assess whether your data is generalisable to the broader population.
+
+## Descriptive Statistics
+Descriptive statistics refer to methods used to summarize and describe the main features of a dataset. The primary goal of descriptive statistics is to provide a concise and meaningful overview of the data, without making inferences or generalizations beyond the observed data. Descriptive statistics are used to understand the characteristics of the dataset and to gain insights into its central tendency, dispersion, and distribution.
+
+* `Measures of central tendency`: Mean, median, and mode.
+* `Measures of dispersion`: Standard deviation, variance, range, interquartile range (IQR).
+* `Measures of distribution`: Skewness and kurtosis.
+* `Graphical representations`: Histograms, box plots, bar charts, scatter plots, etc.
+
+All in all, descriptive statistics are useful for summarizing data, identifying patterns, detecting outliers, and providing initial insights into the dataset.
+
+## Inferential Statistics
+Inferential statistics, also known as differential statistics, involve making inferences or generalizations about a population based on a sample of data. The primary goal of inferential statistics is to draw conclusions beyond the observed sample and to assess whether differences or relationships observed in the sample are likely to exist in the broader population.
+
+Inferential statistics use probability theory to estimate population parameters and test hypotheses. Key techniques include hypothesis testing, confidence intervals, and regression analysis. These methods help researchers determine whether observed differences or associations are statistically significant and not just due to random chance.
+
+<br>
+In summary, descriptive statistics focus on summarizing and describing the characteristics of a dataset, while inferential statistics deal with making inferences about populations based on sample data
+
+----------------------------------------------------
 
 # Data Types
 
@@ -42,7 +70,7 @@ Contents
 
 ----------------------------------------------------
 
-# Hypothesis Tests
+# Hypothesis Testing
 
 * Hypothesis Tests based on the data types of the dependent and independent variables:
 
