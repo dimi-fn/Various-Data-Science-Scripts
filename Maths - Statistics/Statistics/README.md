@@ -4,17 +4,18 @@
 Contents
 =======================
 
-* [Descriptive vs Inferential Statistics](#descriptive-vs-inferential-statistics)
+* [Descriptive vs. Inferential Statistics](#descriptive-vs.-inferential-statistics)
 * [Data Types](#data-types)
 * [Distributions](#distributions)
 * [Hypothesis Testing](#hypothesis-testing)
+* [Correlation vs. Causation](#correlation-vs.-causation)
 * [Cheatsheets](#cheatsheets)
 
 -----------------------------------------------------------------------------------------------------------
 
 
 
-# Descriptive vs Inferential Statistics
+# Descriptive vs. Inferential Statistics
 
 **Descriptive** statistics summarize the characteristics of a dataset.
 
@@ -23,8 +24,8 @@ Contents
 ## Descriptive Statistics
 Descriptive statistics refer to methods used to summarize and describe the main features of a dataset. The primary goal of descriptive statistics is to provide a concise and meaningful overview of the data, without making inferences or generalizations beyond the observed data. Descriptive statistics are used to understand the characteristics of the dataset and to gain insights into its central tendency, dispersion, and distribution.
 
-* `Measures of central tendency`: Mean, median, and mode.
-* `Measures of dispersion`: Standard deviation, variance, range, interquartile range (IQR).
+* `Measures of central tendency`: Mean, median, and mode
+* `Measures of dispersion`: Variance, standard deviation, range, interquartile range (IQR)
 * `Measures of distribution`: Skewness and kurtosis.
 * `Graphical representations`: Histograms, box plots, bar charts, scatter plots, etc.
 
@@ -74,6 +75,14 @@ Inferential statistics use probability theory to estimate population parameters 
 * Hypothesis Tests based on the data types of the dependent and independent variables:
 
 ![Hypothesis Tests based on the data types](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Maths%20-%20Statistics/Statistics/src/statistical_test_hypothesis_testing.jpg)
+
+
+----------------------------------------------------
+
+
+# Correlation vs. Causation
+
+* [Correlation vs. Causation: Why Correlation Does Not Imply Causation](https://dimi-fn.github.io/portfolio/blog/articles/correlation.html)
 
 
 ----------------------------------------------------
