@@ -4,11 +4,11 @@
 Contents
 =======================
 
-* [Descriptive vs. Inferential Statistics](#descriptive-vs.-inferential-statistics)
+* [Descriptive vs. Inferential Statistics](#descriptive-vs-inferential-statistics)
 * [Data Types](#data-types)
 * [Distributions](#distributions)
 * [Hypothesis Testing](#hypothesis-testing)
-* [Correlation vs. Causation](#correlation-vs.-causation)
+* [Correlation vs. Causation](#correlation-vs-causation)
 * [Cheatsheets](#cheatsheets)
 
 -----------------------------------------------------------------------------------------------------------
