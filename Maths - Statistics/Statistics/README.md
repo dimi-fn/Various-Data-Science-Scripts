@@ -35,8 +35,7 @@ Inferential statistics, also known as differential statistics, involve making in
 
 Inferential statistics use probability theory to estimate population parameters and test hypotheses. Key techniques include hypothesis testing, confidence intervals, and regression analysis. These methods help researchers determine whether observed differences or associations are statistically significant and not just due to random chance.
 
-<br><br><br><br>
-In summary, descriptive statistics focus on summarizing and describing the characteristics of a dataset, while inferential statistics deal with making inferences about populations based on sample data
+<br>In summary, descriptive statistics focus on summarizing and describing the characteristics of a dataset, while inferential statistics deal with making inferences about populations based on sample data
 
 ----------------------------------------------------
 
