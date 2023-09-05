@@ -35,6 +35,17 @@ In general, there are 3 types of ML:
 # Types of ML Algorithms
 
 ## Supervised Learning
+
+Algorithms that learn from input (x) examples to predict output (y) result
+
+| Input (x) | Output (y) | Application |
+|-----------|------------|-------------|
+| email   | spam? (0/1)   | spam filtering      |
+| audio  | text transcripts   | speech recognition   |
+| english   | spanish   | machine translation  |
+| ads, user info   | click? (0/1)   | online advertisting |
+
+
 ## Unsupervised Learning
 
 
