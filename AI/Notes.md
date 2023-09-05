@@ -24,7 +24,7 @@ In general, there are 3 types of ML:
 * supervised, unsupervised, semi-supervised, reinforcement learning
 
 2. Whether or not the ML model can learn incrementally or on the fly
-* `online learning` vs `batch learning``
+* `online learning` vs `batch learning`
 
 3. Whether the ML model works
 * by comparing new data points to known (`instance-based learning`)
