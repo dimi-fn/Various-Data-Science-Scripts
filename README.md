@@ -56,7 +56,7 @@ How to set up a virtual environment with venv and pipenv for packaging and depen
 -----
 
 * [AI](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI)
-    * Various projects and notes on Machine & Deep Learning topics.
+    * Various projects and notes on Machine & Deep Learning topics
 
 ------
 
