@@ -36,7 +36,14 @@ In general, there are 3 types of ML:
 
 ## Supervised Learning
 
-Algorithms that learn from input (x) examples to predict output (y) result (i.e. to implement x to y mappings), e.g. linear `regression`.
+Algorithms that perform supervised learning, learn from input (x) examples (the "right answers") to predict output (y) result (i.e., they implement x to y mappings), e.g. linear `regression`, `classification`.
+* Regression
+     * In regression, the objective is to predict a continuous variable as the output.
+     * There are infinitely many possible outputs
+* Classification
+     * In classification, the aim is to predict discrete categories/classes as the output.
+          * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
+     * There is a small number of possible outcomes
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
