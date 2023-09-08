@@ -36,7 +36,7 @@ In general, there are 3 types of ML:
 
 ## Supervised Learning
 
-Algorithms that learn from input (x) examples to predict output (y) result
+Algorithms that learn from input (x) examples to predict output (y) result (i.e. to implement x to y mappings), e.g. linear `regression`.
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
@@ -44,6 +44,7 @@ Algorithms that learn from input (x) examples to predict output (y) result
 | audio  | text transcripts   | speech recognition   |
 | english   | spanish   | machine translation  |
 | ads, user info   | click? (0/1)   | online advertisting |
+| image, radar info etc   | position of other cars   | self-driving car |
 
 
 ## Unsupervised Learning
