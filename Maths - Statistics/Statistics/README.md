@@ -64,9 +64,9 @@ mean. Whereas a small standard error means that they are clustered relatively ti
 ## Normal Distribution and CTL
 
 Because the sample means are distributed normally (based on the CTL), it is always true that:
-* we expect that 68% of all sample means will lie within one standard error of the population mean.
-* 95% of the sample means will lie within two standard errors of the population mean.
-* 99.7% of the sample means will lie within three standard errors of the population mean.
+* we expect that 68% of all sample means will lie within 1 standard error of the population mean.
+* 95% of the sample means will lie within 2 standard errors of the population mean.
+* 99.7% of the sample means will lie within 3 standard errors of the population mean.
 
 ----------------------------------------------------
 
