@@ -5,6 +5,9 @@ Contents
 =======================
 
 * [Descriptive vs. Inferential Statistics](#descriptive-vs-inferential-statistics)
+* [The Central Limit Theorem (CTL)](#the-central-limit-theorem-ctl)
+     * [Standard Error vs Standard Deviation](#standard-error-vs-standard-deviation)
+     * [Normal Distribution and CTL](#normal-distribution-and-ctl)
 * [Data Types](#data-types)
 * [Distributions](#distributions)
 * [Hypothesis Testing](#hypothesis-testing)
@@ -37,6 +40,33 @@ Inferential statistics, also known as differential statistics, involve making in
 Inferential statistics use probability theory to estimate population parameters and test hypotheses. Key techniques include hypothesis testing, confidence intervals, and regression analysis. These methods help researchers determine whether observed differences or associations are statistically significant and not just due to random chance.
 
 <br>In summary, descriptive statistics focus on summarizing and describing the characteristics of a dataset, while inferential statistics deal with making inferences about populations based on sample data
+
+----------------------------------------------------
+
+# The Central Limit Theorem (CTL)
+
+The Central Limit Theorem (CLT) states that when you take a large enough sample size from a population (regardless of the population's underlying distribution), the distribution of the sample means will be approximately normally distributed.
+
+In other words:
+1. Imagine you have a population with any shape of distribution (skewed, uniform, or any other shape).
+2. If you repeatedly take random samples of a certain size from this population and calculate the mean of each sample, the distribution of those sample means will tend to follow a normal (bell-shaped) curve as the sample size gets larger.
+3. This means that even if the original population doesn't follow a normal distribution, the distribution of sample means will become more and more like a normal distribution as you collect larger samples.
+
+The CLT is a key concept in hypothesis testing, confidence intervals, and many other statistical methods because it allows us to make certain assumptions and perform various statistical tests, even when we don't know the exact shape of the population distribution, as long as our sample size is sufficiently large.
+
+## Standard Error vs Standard Deviation
+
+* The `standard deviation` measures the dispersion in the underlying population.
+* The `standard error` measures the dispersion of the sample means (the standard error is the standard deviation of the sample means)
+* A large standard error means that the sample means are spread out widely around the population
+mean. Whereas a small standard error means that they are clustered relatively tightly
+
+## Normal Distribution and CTL
+
+Because the sample means are distributed normally (based on the CTL), it is always true that:
+* we expect that 68% of all sample means will lie within one standard error of the population mean.
+* 95% of the sample means will lie within two standard errors of the population mean.
+* 99.7% of the sample means will lie within three standard errors of the population mean.
 
 ----------------------------------------------------
 
