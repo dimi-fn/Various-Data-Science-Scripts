@@ -95,9 +95,6 @@ While in supervised learning the model learns from data labeled with the "right 
 | (x<sup>(2)</sup>, y<sup>(2)</sup>) | the 2nd feature (input) from the training set, the 2nd target (output) from the training set |
 
 
-| x   | input variable (feature) | 
-| x   | input variable (feature) | 
-
 
 -------------------------------------------------
 
