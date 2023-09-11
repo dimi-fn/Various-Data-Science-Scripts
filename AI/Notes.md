@@ -87,12 +87,13 @@ While in supervised learning the model learns from data labeled with the "right 
 
 | Symbol |  Description |
 |-----------|------------|
-| x   | input variable (feature) | 
-| y   | output variable (target) | 
+| x   | input variable (the input feature) | 
+| y   | output variable (the predicted target) | 
 | m   | number of training examples from training set | 
 | (x,y)   | single training example | 
 | (x<sup>(i)</sup>, y<sup>(i)</sup>) | i<sup>th</sup> training example |
 | (x<sup>(2)</sup>, y<sup>(2)</sup>) | the 2nd feature (input) from the training set, the 2nd target (output) from the training set |
+| f<sub>w,b</sub>(x) = wx+b   | | 
 
 
 
