@@ -10,7 +10,7 @@ Contents
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
-     * [Notation in ML](#notation-in-ml)
+     * [Common Notation in ML](#common-notation-in-ml)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ While in supervised learning the model learns from data labeled with the "right 
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
 
-## Notation in ML
+## Common Notation in ML
 
 | Symbol |  Description | Common Python Variables|
 |-----------|------------|----------------------|
@@ -93,7 +93,7 @@ While in supervised learning the model learns from data labeled with the "right 
 | **a**   | vector (bold) | |
 | x   | input variable (the input feature) | x_train|
 | y   | output variable (the predicted target) | y_train|
-| m   | number of training examples from training set | |
+| m   | number of training examples from training set | m|
 | w   | paremeter: weight |w |
 | b   | parameter: bias | b|
 | (x,y)   | single training example | |
