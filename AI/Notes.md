@@ -88,6 +88,12 @@ While in supervised learning the model learns from data labeled with the "right 
 | Symbol |  Description |
 |-----------|------------|
 | x   | input variable (feature) | 
+| y   | output variable (target) | 
+| m   | number of training examples from training set | 
+| (x,y)   | single training example | 
+| (x^(i), y^(i))   | i^th training example | 
+
+
 
 
 
