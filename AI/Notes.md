@@ -6,13 +6,18 @@ Contents
 * [Definition of ML](#definition-of-ml)
 * [Types of ML](#types-of-ml)
 * [Types of ML Algorithms](#types-of-ml-algorithms)
+     * [Supervised Learning](#supervised-learning)
+          * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
+     * [Unsupervised Learning](#unsupervised-learning)
+          * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
+     * [Notation in ML](#notation-in-ml)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
 
 # Definition of ML
 
-There are various definitions of Machine Learning, one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
+There are various definitions of Machine Learning (ML), one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
 
 -------------------------------------------------
 
@@ -36,14 +41,17 @@ In general, there are 3 types of ML:
 
 ## Supervised Learning
 
-Algorithms that perform supervised learning, learn from input (x) examples (the "right answers") to predict output (y) result (i.e., they implement x to y mappings), e.g. linear `regression`, `classification`.
-* Regression
-     * In regression, the objective is to predict a continuous variable as the output.
+Algorithms that perform supervised learning, learn from input (x) examples (the "right answers", the features) to predict output (y) result (the target variable) (i.e., they implement x to y mappings), e.g. linear **regression**, **classification**.
+
+### Types of Supervised Learning Algorithms
+
+* `Regression`
+     * In regression, the objective is to predict a continuous variable as the output variable
      * There are infinitely many possible outputs
-* Classification
+* `Classification`
      * In classification, the aim is to predict discrete categories/classes as the output.
           * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
-     * There is a small number of possible outcomes
+     * There is a small number of possible outcomes     
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
@@ -54,7 +62,33 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 | image, radar info etc   | position of other cars   | self-driving car |
 
 
+**Example problems**:
+* Given email labeled as spam/not spam, learn a spam filter (classification)
+* Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not (classification)
+
+
 ## Unsupervised Learning
+While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
+
+**Example problems**:
+* Given a set of news articles found on the web, group them into sets of articles about the same stories.
+* Given a database of customer data, automatically discover segments and group customers into different market segments.
+
+### Types of Unsupervised Learning Algorithms
+
+* `Clustering`
+     * Takes data without labels and tries to automatically group them into clusters
+* `Anomaly detection`     
+     * Finds unusual data points
+* `Dimensionality Reduction`     
+     * Compresses data using fewer numbers
+
+## Notation in ML
+
+|  | Symbol |  Description |
+|-----------|------------|
+| x   | input variable (feature) | 
+
 
 
 -------------------------------------------------
