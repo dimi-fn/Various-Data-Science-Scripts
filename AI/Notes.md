@@ -91,7 +91,7 @@ While in supervised learning the model learns from data labeled with the "right 
 | y   | output variable (target) | 
 | m   | number of training examples from training set | 
 | (x,y)   | single training example | 
-| (x<sup>i</sup>, y<sup>i</sup>) | i<sup>th</sup> training example |
+| (x<sup>(i)</sup>, y<sup>(i)</sup>) | i<sup>th</sup> training example |
 
 
 
