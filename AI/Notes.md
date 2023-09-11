@@ -92,10 +92,11 @@ While in supervised learning the model learns from data labeled with the "right 
 | m   | number of training examples from training set | 
 | (x,y)   | single training example | 
 | (x<sup>(i)</sup>, y<sup>(i)</sup>) | i<sup>th</sup> training example |
+| (x<sup>(2)</sup>, y<sup>(2)</sup>) | i<sup>t2</sup> training example |
 
 
-
-
+| x   | input variable (feature) | 
+| x   | input variable (feature) | 
 
 
 -------------------------------------------------
