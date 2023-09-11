@@ -85,7 +85,7 @@ While in supervised learning the model learns from data labeled with the "right 
 
 ## Notation in ML
 
-|  | Symbol |  Description |
+| Symbol |  Description |
 |-----------|------------|
 | x   | input variable (feature) | 
 
