@@ -107,11 +107,19 @@ While in supervised learning the model learns from data labeled with the "right 
 
 # Cost Function
 
-* The cost function tells us how well the model is performing so that we can improve it
+* The cost function tells us how well the model is performing so that we can improve it, in other words we far our target prediction is compared to the correct and real value
+     * in linear regression, the most used cost function is the squared error cost function
 * f<sub>w,b</sub>(x) = wx+b, where w,b parameters
      * w = weight (the slope of the function in the chart)
      * b = bias
+          * w and b are parameters of the model, adjusted as the model learns from the data. They are also referred to as `coefficients` or `weights`
 * In linear regression, we want to choose parameters w, b in such a way that the resulting linear function 'f' can effectively model and fit the given dataset.
+
+
+<br>
+
+Cost function in linear regression:
+
 
 -------------------------------------------------
 
