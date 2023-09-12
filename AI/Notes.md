@@ -11,13 +11,14 @@ Contents
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
+* [Cost Function](#cost-function)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
 
 # Definition of Machine Learning (ML)
 
-There are various definitions of Machine Learning (ML), one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
+There are various definitions of Machine Learning (ML), one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959).
 
 -------------------------------------------------
 
@@ -104,6 +105,15 @@ While in supervised learning the model learns from data labeled with the "right 
 
 -------------------------------------------------
 
+# Cost Function
+
+* The cost function tells us how well the model is performing so that we can improve it
+* f<sub>w,b</sub>(x) = wx+b, where w,b parameters
+     * w = weight (the slope of the function in the chart)
+     * b = bias
+* In linear regression, we want to choose parameters w, b in such a way that the resulting linear function 'f' can effectively model and fit the given dataset.
+
+-------------------------------------------------
 
 # Bias vs. Variance
 
