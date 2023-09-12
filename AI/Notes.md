@@ -107,7 +107,7 @@ While in supervised learning the model learns from data labeled with the "right 
 
 # Cost Function
 
-* The cost function tells us how well the model is performing so that we can improve it, in other words we far our target prediction is compared to the correct and real value
+* The cost function tells us how well the model is performing so that we can improve it, in other words we far our target predictions are (y predicted) compared to the correct and real value (y true)
      * in linear regression, the most used cost function is the squared error cost function
 * f<sub>w,b</sub>(x) = wx+b, where w,b parameters
      * w = weight (the slope of the function in the chart)
@@ -120,8 +120,10 @@ While in supervised learning the model learns from data labeled with the "right 
 
 Cost function in linear regression:
 
-![Cost](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/src/cost_function_linear_regression.PNG)
+![Cost function in linear regression](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/src/cost_function_linear_regression.PNG)
 
+* The goal is to find such parameter values w and b, that will **minimize the cost function** `J`
+ * When the cost is relatively small, closer to zero, it means the model fits the data better compared to other choices for w and b
 
 -------------------------------------------------
 
