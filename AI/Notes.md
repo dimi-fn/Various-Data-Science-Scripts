@@ -3,7 +3,7 @@
 Contents 
 =======================
 
-* [Definition of ML](#definition-of-ml)
+* [Definition of Machine Learning (ML)](#definition-of-machine-learning)
 * [Types of ML](#types-of-ml)
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
@@ -15,7 +15,7 @@ Contents
 
 --------------------------------------------------------------------------------------------------
 
-# Definition of ML
+# Definition of Machine Learning (ML)
 
 There are various definitions of Machine Learning (ML), one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959)
 
