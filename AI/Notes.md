@@ -120,6 +120,8 @@ While in supervised learning the model learns from data labeled with the "right 
 
 Cost function in linear regression:
 
+![Cost](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/src/cost_function_linear_regression.PNG)
+
 
 -------------------------------------------------
 
