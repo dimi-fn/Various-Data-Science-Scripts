@@ -3,7 +3,7 @@
 Contents 
 =======================
 
-* [Definition of Machine Learning (ML)](#definition-of-machine-learning)
+* [Definition of Machine Learning (ML)](#definition-of-machine-learning-ml)
 * [Types of ML](#types-of-ml)
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
