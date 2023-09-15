@@ -12,6 +12,7 @@ Contents
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
 * [Cost Function](#cost-function)
+* [Gradient Descent](#gradient-descent)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -124,6 +125,13 @@ Cost function in linear regression:
 
 * The goal is to find such parameter values w and b, that will **minimize the cost function** `J`
  * When the cost is relatively small, closer to zero, it means the model fits the data better compared to other choices for w and b
+
+-------------------------------------------------
+
+# Gradient Descent
+
+Gradient descent is an algorithm we can apply to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
+* Gradient descent will search for the `local minima`
 
 -------------------------------------------------
 
