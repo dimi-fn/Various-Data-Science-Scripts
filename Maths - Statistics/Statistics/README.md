@@ -6,7 +6,7 @@ Contents
 
 * [Descriptive vs. Inferential Statistics](#descriptive-vs-inferential-statistics)
 * [The Central Limit Theorem (CTL)](#the-central-limit-theorem-ctl)
-     * [Standard Error vs Standard Deviation](#standard-error-vs-standard-deviation)
+     * [Standard Deviation vs Standard Error](#standard-deviation-vs-standard-error)
      * [Normal Distribution and CTL](#normal-distribution-and-ctl)
 * [Data Types](#data-types)
 * [Distributions](#distributions)
@@ -50,11 +50,11 @@ The Central Limit Theorem (CLT) states that when you take a large enough sample 
 In other words:
 1. Imagine you have a population with any shape of distribution (skewed, uniform, or any other shape).
 2. If you repeatedly take random samples of a certain size from this population and calculate the mean of each sample, the distribution of those sample means will tend to follow a normal (bell-shaped) curve as the sample size gets larger.
-3. This means that even if the original population doesn't follow a normal distribution, the distribution of sample means will become more and more like a normal distribution as you collect larger samples.
+3. This means that even if the original population doesn't follow a normal distribution, the distribution of the sample means will become more and more like a normal distribution as you collect larger samples.
 
 The CLT is a key concept in hypothesis testing, confidence intervals, and many other statistical methods because it allows us to make certain assumptions and perform various statistical tests, even when we don't know the exact shape of the population distribution, as long as our sample size is sufficiently large.
 
-## Standard Error vs Standard Deviation
+## Standard Deviation vs Standard Error
 
 * The `standard deviation` measures the dispersion in the underlying population.
 * The `standard error` measures the dispersion of the sample means (the standard error is the standard deviation of the sample means)
