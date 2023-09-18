@@ -130,8 +130,15 @@ Cost function in linear regression:
 
 # Gradient Descent
 
-Gradient descent is an algorithm we can apply to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
-* Gradient descent will search for the `local minima`
+Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J
+We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
+* The Gradient descent algorithm will search for the `local minima`
+
+* w = w-(a * (d/dw) J(w,b)), where
+     * `a` is the learning rate that ranges between 0 and 1
+     * w,b: parameters 
+          * update them *simultaneously* and repeat until you reach the local minima
+     * d/dw J(w,b): derivative          
 
 -------------------------------------------------
 
