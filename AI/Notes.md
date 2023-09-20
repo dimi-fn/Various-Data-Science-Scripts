@@ -139,8 +139,12 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
           * when a is close to zero, you take very small steps towards the local minimum. On the contrary, when a is close to 1, then you take larger steps across the function line and in this latter case you may fail to converge because you might overpass the local minimum
                * with a fixed learning rate, you adjust the `a` to automatically take smaller steps when you start approaching the local minimum
      * `w`,`b`: **parameters** 
-          * update them *simultaneously* and repeat until you reach the local minima
+          * update them *simultaneously* and repeat until convergence, i.e. until you reach one local minimum
+               * when the cost function is the squared error cost, then there is always only one local minimum (global minimum)
      * `d/dw J(w,b)`: the **derivative** term
+
+
+* `Batch` gradient descent: each step of the gradient descent uses *all* the training examples for each update step
 
 -------------------------------------------------
 
