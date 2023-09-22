@@ -8,7 +8,7 @@ Contents
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
-               * [Linear Regression with multiple features](#linear-regression-with-multiple-features)
+               * [Multiple Linear Regression](#multiple-linear-regression)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
@@ -71,10 +71,13 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 * Given email labeled as spam/not spam, learn a spam filter (classification)
 * Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not (classification)
 
-#### Linear Regression with multiple features
+#### Multiple Linear Regression
+
+It is about applying linear regression when we have multiple features in the training set.
 
 
-* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b
+* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
+where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
 
 ## Unsupervised Learning
 While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
