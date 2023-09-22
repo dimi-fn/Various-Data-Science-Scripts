@@ -71,7 +71,7 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 * Given email labeled as spam/not spam, learn a spam filter (classification)
 * Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not (classification)
 
-### Linear Regression with multiple features
+#### Linear Regression with multiple features
 
 
 * f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b
