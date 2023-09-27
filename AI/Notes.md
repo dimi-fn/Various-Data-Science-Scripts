@@ -148,7 +148,7 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 * w = w-(a * (d/dw) J(w,b)), where
      * `a` is the **learning rate** that ranges between 0 and 1
-          * when a is close to zero, you take very small steps towards the local minimum. On the contrary, when a is close to 1, then you take larger steps across the function line and in this latter case you may fail to converge because you might overpass the local minimum
+          * when a is close to zero, you take very small steps towards the local minimum. On the contrary, when a is close to 1, then you take larger steps across the function line, and in this latter case, you may fail to converge because you might overpass the local minimum
                * with a fixed learning rate, you adjust the `a` to automatically take smaller steps when you start approaching the local minimum
      * `w`,`b`: **parameters** 
           * update them *simultaneously* and repeat until convergence, i.e. until you reach one local minimum
