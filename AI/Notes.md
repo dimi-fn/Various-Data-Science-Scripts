@@ -162,6 +162,11 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 # Vectorization
 
+Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices.
+* it is about the process of converting non-numeric data into a numerical format that they can be used by ML algorithms. 
+* Requirement for vectorization to work: input data has to be in a numerical form
+* The choice of vectorization technique depends on the nature of the data and the specific ML task. Effective vectorization can significantly impact the performance of a machine learning model.
+
 ```
 f = np.dot(w,x) + b
 ```
@@ -174,6 +179,14 @@ where:
 * The function above is a numpy function implementing a vectorized implementation of the dot product operation between two vectors, i.e. it implements the vectorized version of multipliying multiple pairs of parementers with their features (where that would look like: f = w[0]*x[0] + w[1] * x[1] +...+ b) so that it can run faster and more efficiently
 * The reason it is faster is because the `np.dot` function from **NumPy** uses *parallel hardware* for computing to accelerate ML Jobs
      * vectors == lists of numbers == NumPy arrays
+
+Examples where vectorization can be useful:      
+* `Text Data`: Natural language processing (NLP) tasks involve processing text data. Vectorization techniques like TF-IDF (Term Frequency-Inverse Document Frequency) or word embeddings (e.g., Word2Vec, GloVe) are used to convert words or documents into numerical vectors.
+* `Image Data`: Images are typically represented as pixel values. Convolutional Neural Networks (CNNs) and other image processing techniques convert images into numerical arrays or tensors, enabling machine learning models to work with them.
+* `Categorical Data`: Machine learning models often require categorical variables (e.g., gender, color, country) to be one-hot encoded or label-encoded, turning them into binary or numeric representations
+* `Time Series Data`: Time series data, such as stock prices or sensor readings, are usually transformed into numerical arrays where each element corresponds to a specific time point.
+* `Feature Extraction`: Feature engineering involves creating new features or representations of data that are more informative for a particular task. Feature extraction techniques can create numerical features from raw data.
+* `Dimensionality Reduction`: Techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbor Embedding (t-SNE) transform high-dimensional data into lower-dimensional representations, making it easier to analyze and model
 
 -------------------------------------------------
 
