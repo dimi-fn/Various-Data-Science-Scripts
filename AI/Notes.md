@@ -162,7 +162,16 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 # Vectorization
 
-f = np.dot(w,x) + b: numpy function implementing a vectorized implementation of the dot product operation between two vectors, i.e. it implements the vectorized version of multipliying multiple pairs of parementers with their features (where that would look like: f = w[0]*x[0] + w[1] * x[1] +...+ b)
+```
+f = np.dot(w,x) + b
+```
+
+where:
+* b: paremeter; bias
+* x: input variable (the input feature)
+* w: parameter: weight
+
+The function above is a numpy function implementing a vectorized implementation of the dot product operation between two vectors, i.e. it implements the vectorized version of multipliying multiple pairs of parementers with their features (where that would look like: f = w[0]*x[0] + w[1] * x[1] +...+ b)
 
 -------------------------------------------------
 
