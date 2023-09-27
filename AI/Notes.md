@@ -163,7 +163,7 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 # Vectorization
 
 ```
-f = np.dot(w,x) + b
+`f = np.dot(w,x) + b`
 ```
 
 where:
