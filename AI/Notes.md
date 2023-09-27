@@ -14,6 +14,7 @@ Contents
      * [Common Notation in ML](#common-notation-in-ml)
 * [Cost Function](#cost-function)
 * [Gradient Descent](#gradient-descent)
+* [Vectorization](#vectorization)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -74,6 +75,8 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 #### Multiple Linear Regression
 
 It is about applying linear regression when we have multiple features in the training set.
+
+
 
 
 * f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
@@ -154,6 +157,10 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 
 * `Batch` gradient descent: each step of the gradient descent uses *all* the training examples for each update step
+
+-------------------------------------------------
+
+# Vectorization
 
 -------------------------------------------------
 
