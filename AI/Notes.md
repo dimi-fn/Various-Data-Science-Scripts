@@ -162,7 +162,7 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 # Vectorization
 
-Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices.
+Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices (vectors are 1-dimensional array/list of numbers e.g. [1,2,3], whereas matrices are 2-dimensional array of numbers, e.g. [[1, 2], [3, 4], [5, 6]] --> rows and columns).
 * It is about the process of converting non-numeric data into a numerical format that they can be used by ML algorithms. 
 * Requirement for vectorization to work: input data has to be in a numerical form
 * The choice of vectorization technique depends on the nature of the data and the specific ML task. Effective vectorization can significantly impact the performance of a machine learning model.
