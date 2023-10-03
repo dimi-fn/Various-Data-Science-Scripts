@@ -162,7 +162,24 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 # Vectorization
 
-Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices (vectors are 1-dimensional array/list of numbers e.g. [1,2,3], whereas matrices are 2-dimensional array of numbers, e.g. [[1, 2], [3, 4], [5, 6]] --> rows and columns).
+Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices 
+* `Scalars`:
+     * **Definition**: A scalar is a single numerical value, without any direction, represented by a single number (e.g., 5, -2.3, 1000).
+     * **Dimensionality**: zero dimensions: scalars represent only magnitude or size
+     * **Examples**: Temperature, mass, speed, and time. E.g., 5 degrees Celsius is a scalar value representing temperature.
+* `Vectors` 
+     * **Definition**: A vector is a quantity that has both magnitude and direction, represented by an ordered list or array of numbers (e.g., [3, -1, 2]).
+     * **Dimensionality**: Vectors have one or more dimensions: they represent quantities in multi-dimensional space.
+     * **Examples**: Displacement, velocity, force, and electric field are examples of vector quantities. E.g., the velocity of an object is represented by a vector with components in the x, y, and z directions.
+* `Matrices` 
+     * **Definition**: A matrix is a 2-dimensional array of numbers, e.g. [[1, 2], [3, 4], [5, 6]], i.e. it has rows and columns.
+     * **Dimensionality**: Matrices have two dimensions (rows and columns): they are used for organizing and manipulating data in a grid-like structure.
+     * **Examples**:  commonly used to represent linear transformations and to solve linear equations.
+
+
+
+
+**Vectorization** is about:
 * It is about the process of converting non-numeric data into a numerical format that they can be used by ML algorithms. 
 * Requirement for vectorization to work: input data has to be in a numerical form
 * The choice of vectorization technique depends on the nature of the data and the specific ML task. Effective vectorization can significantly impact the performance of a machine learning model.
