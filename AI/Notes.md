@@ -216,7 +216,7 @@ Feature Engineering in Machine Learning might involve:
 
 * `Feature Scaling`
      * Feature scaling is a technique used to standardize or normalize the range of values in different features of the ML dataset. It typically involves transforming the data so that it falls within a specific range, e.g. between 0 and 1 or -1 and 1. 
-     * It ensures that all features contribute equally to the learning process. For example, in a housing dataset, the scale of a column that represents the number of bedrooms is very different compared to the scale of a column representing the size of the house in square feet.
+     * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
 
 -------------------------------------------------
 
