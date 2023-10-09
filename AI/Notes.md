@@ -16,7 +16,7 @@ Contents
 * [Gradient Descent](#gradient-descent)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
-     * [Feature Scaling](#feature-scaling)
+     * [Feature Engineering](#feature-engineering)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -210,8 +210,13 @@ Examples where vectorization can be useful:
 
 -------------------------------------------------
 
-## Feature Scaling
+## Feature Engineering
 
+Feature Engineering in Machine Learning might involve: 
+
+* `Feature Scaling`
+     * Feature scaling is a technique used to standardize or normalize the range of values in different features of the ML dataset. It typically involves transforming the data so that it falls within a specific range, e.g. between 0 and 1 or -1 and 1. 
+     * It ensures that all features contribute equally to the learning process. For example, in a housing dataset, the scale of a column that represents the number of bedrooms is very different compared to the scale of a column representing the size of the house in square feet.
 
 -------------------------------------------------
 
