@@ -14,7 +14,9 @@ Contents
      * [Common Notation in ML](#common-notation-in-ml)
 * [Cost Function](#cost-function)
 * [Gradient Descent](#gradient-descent)
-* [Vectorization](#vectorization)
+* [ML Techniques](#ml-techniques)
+     * [Vectorization](#vectorization)
+     * [Feature Scaling](#feature-scaling)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -160,7 +162,9 @@ We can apply gradient descent to try to minimize a wide range of cost functions,
 
 -------------------------------------------------
 
-# Vectorization
+# ML Techniques
+ 
+## Vectorization
 
 Vectorization is a useful technique in data preparation for the implementation of ML algorithms where data is represented as vectors or matrices 
 * `Scalars`:
@@ -203,6 +207,11 @@ Examples where vectorization can be useful:
 * `Time Series Data`: Time series data, such as stock prices or sensor readings, are usually transformed into numerical arrays where each element corresponds to a specific time point.
 * `Feature Extraction`: Feature engineering involves creating new features or representations of data that are more informative for a particular task. Feature extraction techniques can create numerical features from raw data.
 * `Dimensionality Reduction`: Techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbor Embedding (t-SNE) transform high-dimensional data into lower-dimensional representations, making it easier to analyze and model
+
+-------------------------------------------------
+
+## Feature Scaling
+
 
 -------------------------------------------------
 
