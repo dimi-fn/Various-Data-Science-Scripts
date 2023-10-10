@@ -218,8 +218,12 @@ Feature Engineering in Machine Learning might involve:
 * `Feature Scaling`
      * Feature scaling is a technique used to standardize or normalize the range of values in different features of the ML dataset. It typically involves transforming the data so that it falls within a specific range, e.g. between 0 and 1 or -1 and 1. 
      * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
+          * ways to rescale the features: 
+               * `standardization (z-score normalization)`
+               * `mean normalization`
+               * `divide features by their max values` and use that range of values instead
 * `Feature Extraction`    
-     * Feature extraction involves creating new features from existing column variables. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data.
+     * Feature extraction involves creating new features from existing column variables. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
           * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
 
 -------------------------------------------------
