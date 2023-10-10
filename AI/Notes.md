@@ -222,7 +222,7 @@ Feature Engineering in Machine Learning might involve:
                * `standardization (z-score normalization)`
                * `mean normalization`
                * `divide features by their max values` and use that range of values instead
-                    * as a rule of thumb, keep the range of your features between [0, 1] or [-1, 1]. You don't want the range to be too large e.g. [60, 1053] or too small e.g [0.001, 0.01]
+                    * as a rule of thumb, keep the range of your features between [0, 1] or [-1, 1]. You don't want the range to be too large e.g. [60, 1053], or too small e.g [0.001, 0.01]
 * `Feature Extraction`    
      * Feature extraction involves creating new features from existing column variables. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
           * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
