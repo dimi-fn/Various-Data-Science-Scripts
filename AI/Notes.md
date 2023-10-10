@@ -31,7 +31,7 @@ There are various definitions of Machine Learning (ML), one of those is that ML 
 
 In general, there are 3 types of ML:
 
-1. Based on human supervision:
+1. Based on `human supervision`:
 * supervised, unsupervised, semi-supervised, reinforcement learning
 
 2. Whether or not the ML model can learn incrementally or on the fly
@@ -58,6 +58,7 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
      * There are infinitely many possible outputs
 * `Classification`
      * In classification, the aim is to predict discrete categories/classes as the output.
+          * the data is already labelled and we want to predict the class of unlabelled data
           * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
      * There is a small number of possible outcomes     
 
@@ -217,6 +218,9 @@ Feature Engineering in Machine Learning might involve:
 * `Feature Scaling`
      * Feature scaling is a technique used to standardize or normalize the range of values in different features of the ML dataset. It typically involves transforming the data so that it falls within a specific range, e.g. between 0 and 1 or -1 and 1. 
      * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
+* `Feature extraction`    
+     * Feature extraction involves creating new features from existing column variables. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data.
+          * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
 
 -------------------------------------------------
 
