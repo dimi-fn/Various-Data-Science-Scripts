@@ -118,6 +118,9 @@ While in supervised learning the model learns from data labeled with the "right 
 | (x<sup>(2)</sup>, y<sup>(2)</sup>) | the 2nd feature (input), not the exponent, from the training set, the 2nd target (output) from the training set ||
 | f<sub>w,b</sub>(x) = wx+b = y, or simply f(x) = wx+b = y | function that takes `x` as input, and depending on the values of w and b, it will predict wx+b | |
 
+<br>
+
+attributes == features == predictors vs target variables == labels
 
 -------------------------------------------------
 
@@ -145,14 +148,13 @@ Cost function in linear regression:
 
 # Gradient Descent
 
-Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J
-We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
-* The Gradient descent algorithm will search for the `local minima`
+Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
+* The Gradient descent algorithm will search for the `local minima`, and by using Gradient Descent we want to find such parameters w, b, that will get us as close as possible to the global minimum.
 
 * w = w-(a * (d/dw) J(w,b)), where
-     * `a` is the **learning rate** that ranges between 0 and 1
+     * `a` is the **learning rate**, its usual range of values used are between 0 and 1
           * when a is close to zero, you take very small steps towards the local minimum. On the contrary, when a is close to 1, then you take larger steps across the function line, and in this latter case, you may fail to converge because you might overpass the local minimum
-               * with a fixed learning rate, you adjust the `a` to automatically take smaller steps when you start approaching the local minimum
+               * with a fixed learning rate, you adjust the **a** (in ascending order) to automatically take smaller steps when you start approaching the local minimum 
      * `w`,`b`: **parameters** 
           * update them *simultaneously* and repeat until convergence, i.e. until you reach one local minimum
                * when the cost function is the squared error cost, then there is always only one local minimum (global minimum)
