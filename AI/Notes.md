@@ -222,12 +222,15 @@ Feature Engineering in Machine Learning might involve:
      * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
           * ways to rescale the features: 
                * `standardization (z-score normalization)`
+                    * After a **z-score normalization** implementation, all features will have a mean of 0 and a standard deviation of 1. 
                * `mean normalization`
                * `divide features by their max values` and use that range of values instead
                     * as a rule of thumb, keep the range of your features between [0, 1] or [-1, 1]. You don't want the range to be too large e.g. [60, 1053], or too small e.g [0.001, 0.01]
 * `Feature Extraction`    
      * Feature extraction involves creating new features from existing column variables. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
           * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
+
+**Notes**: Feature engineering should be implemented not only in the training set but also in the test set for consistency and generalization. For instance, if you normalize the feature values in the training set, you should apply the same normalization to the test set. This ensures that the data presented in the test set maintains the same format as the training set (*consistency*). Additionally, this practice ensures that predictions made on the test set can be considered generalizable (*generalization*).
 
 -------------------------------------------------
 
