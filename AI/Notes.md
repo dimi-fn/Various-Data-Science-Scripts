@@ -9,6 +9,7 @@ Contents
      * [Supervised Learning](#supervised-learning)
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
                * [Multiple Linear Regression](#multiple-linear-regression)
+               * [Polynomial Regression](#polynomial-regression)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
@@ -80,7 +81,9 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 It is about applying linear regression when we have multiple features in the training set.
 
 
+#### Polynomial Regression
 
+While multiple linear regression assumes a linear relationship between the target variable and the input features, polynomial regression can capture more curved and nonlinear patterns in the data.
 
 * f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
 where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
