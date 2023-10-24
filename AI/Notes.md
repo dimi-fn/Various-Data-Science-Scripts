@@ -165,6 +165,8 @@ Gradient descent is an algorithm for finding values of parameters w and b that m
 
 * `Batch` gradient descent: each step of the gradient descent uses *all* the training examples for each update step
 
+* A good way to verify that gradient descent is working correctly is to look at the value of the cost function 𝐽(𝑤,𝑏) and check that it is decreasing with each step.
+
 -------------------------------------------------
 
 # ML Techniques
