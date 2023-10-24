@@ -80,13 +80,12 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 
 It is about applying linear regression when we have multiple features in the training set.
 
+* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
+where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
 
 #### Polynomial Regression
 
 While multiple linear regression assumes a linear relationship between the target variable and the input features, polynomial regression can capture more curved and nonlinear patterns in the data.
-
-* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
-where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
 
 ## Unsupervised Learning
 While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
