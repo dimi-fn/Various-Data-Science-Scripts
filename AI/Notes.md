@@ -30,7 +30,7 @@ There are various definitions of Machine Learning (ML), one of those is that ML 
 
 # Types of ML
 
-In general, there are 3 types of ML:
+In general, there are 3 types of Machine Learning:
 
 1. Based on `human supervision`:
 * supervised, unsupervised, semi-supervised, reinforcement learning
