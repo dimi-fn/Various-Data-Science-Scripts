@@ -8,7 +8,7 @@ Contents
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
-               * [Regression & Classification](regression--classification)
+               * [Regression & Classification](#regression--classification)
                * [Multiple Linear Regression](#multiple-linear-regression)
                * [Polynomial Regression](#polynomial-regression)
      * [Unsupervised Learning](#unsupervised-learning)
