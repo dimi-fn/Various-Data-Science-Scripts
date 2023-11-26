@@ -8,6 +8,7 @@ Contents
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
+               * [Regression & Classification](regression__classification)
                * [Multiple Linear Regression](#multiple-linear-regression)
                * [Polynomial Regression](#polynomial-regression)
      * [Unsupervised Learning](#unsupervised-learning)
@@ -51,6 +52,8 @@ In general, there are 3 types of Machine Learning:
 Algorithms that perform supervised learning, learn from input (x) examples (the "right answers", the features) to predict output (y) result (the target variable) (i.e., they implement x to y mappings), e.g. linear **regression**, **classification**.
 
 ### Types of Supervised Learning Algorithms
+
+#### Regression & Classification
 
 * `Regression`
      * In regression, the objective is to predict a continuous variable as the output variable
