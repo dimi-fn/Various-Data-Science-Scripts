@@ -125,12 +125,13 @@ Always use `man <command>` or `tldr <command>` for more information and options 
 
 ## General
 
-* updates: 
+* [updates](https://askubuntu.com/a/196777): 
     * `sudo apt-get update` 
     * `sudo apt-get upgrade`
         * `sudo apt-get update && sudo apt-get upgrade`
     * `sudo apt-get dist-upgrade`
         * [Does the same as "upgrade" but upgrades a package also when dependencies or sources are changed (something you want to avoid on servers without further testing)](https://askubuntu.com/a/639838)
+    * `sudo apt autoremove`
         
         
 * enable the firewall: `sudo ufw enable`
