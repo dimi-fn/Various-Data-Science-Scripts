@@ -132,6 +132,8 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * `sudo apt-get dist-upgrade`
         * [Does the same as "upgrade" but upgrades a package also when dependencies or sources are changed (something you want to avoid on servers without further testing)](https://askubuntu.com/a/639838)
     * `sudo apt autoremove`
+
+* reboot/shutdown: sudo reboot / sudo poweroff    
         
         
 * enable the firewall: `sudo ufw enable`
