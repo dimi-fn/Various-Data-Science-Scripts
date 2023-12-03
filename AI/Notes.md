@@ -66,6 +66,8 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
           * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
      * There is a small number of possible outcomes    
           * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
+          * `Logistic Regression`: The model's output is always in the range of 0 to 1, inclusive.
+               * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
