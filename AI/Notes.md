@@ -65,7 +65,7 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
           * the data is already labelled and we want to predict the class of unlabelled data
           * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
      * There is a small number of possible outcomes    
-          * **Binary classification** : the model outputs two possible classes (e.g., yes/no, true/false)
+          * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
