@@ -66,7 +66,7 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
           * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
      * There is a small number of possible outcomes    
           * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
-          * `Logistic Regression`: The model's output is always in the range of 0 to 1, inclusive.
+          * `Logistic Regression`: The model's output is always in the range (0, 1), exclusive
                * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
 
 | Input (x) | Output (y) | Application |
@@ -81,6 +81,9 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 **Example problems**:
 * Given email labeled as spam/not spam, learn a spam filter (classification)
 * Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not (classification)
+
+* `Sigmoid function` (`logistic function`): it is an activation function in ML (S shape) that transforms any number values between 0 and 1 in order to get output probabilities that express the probability that a particular output belongs to a particular class.
+     * In the sigmoid function, the variable z represents the input to the function. The function approaches 0 as z goes to large negative values and approaches 1 as z goes to large positive values.
 
 #### Multiple Linear Regression
 
