@@ -134,7 +134,20 @@ Always use `man <command>` or `tldr <command>` for more information and options 
     * `sudo apt autoremove`
 
 * reboot/shutdown: sudo reboot / sudo poweroff    
-        
+
+* [flush dns in ubuntu via terminal](https://askubuntu.com/questions/2219/how-do-i-clear-the-dns-cache) 
+
+* [Check for `antivirus` detection on Ubuntu system via terminal](https://askubuntu.com/questions/417429/how-can-i-scan-for-possible-viruses-on-my-ubuntu-system)
+
+```
+sudo apt update
+sudo apt install clamav
+sudo freshclam
+sudo clamscan -r /
+```
+
+
+---------
         
 * enable the firewall: `sudo ufw enable`
 
