@@ -95,6 +95,9 @@ While multiple linear regression assumes a linear relationship between the targe
 * Given email labeled as spam/not spam, learn a spam filter (classification)
 * Given a dataset of patients diagnosed as either having diabetes or not, learn to classify new patients as having diabetes or not (classification)
 
+-------
+
+**Useful terminologies**
 * `Sigmoid function` (`logistic function`): it is an activation function in ML (S shape) that transforms any number values between 0 and 1 in order to get output probabilities that express the probability that a particular output belongs to a particular class.
      * In the sigmoid function, the variable z represents the input to the function. The function approaches 0 as z goes to large negative values and approaches 1 as z goes to large positive values.
      * it is commonly used in binary classification problems to transform a linear combination of input features into probabilities
