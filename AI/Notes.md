@@ -8,9 +8,8 @@ Contents
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
-               * [Regression & Classification](#regression--classification)
-               * [Multiple Linear Regression](#multiple-linear-regression)
-               * [Polynomial Regression](#polynomial-regression)
+               * [Regression](#regression)
+               * [Classification](#classification)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
@@ -53,21 +52,35 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 
 ### Types of Supervised Learning Algorithms
 
-#### Regression & Classification
+#### Regression
 
-* `Regression`
-     * In regression, the objective is to predict a continuous variable as the output variable
-          * e.g. linear regression
-               * one example is linear regression with one variable (univariate linear regression)
-     * There are infinitely many possible outputs
-* `Classification`
-     * In classification, the aim is to predict discrete categories/classes as the output.
-          * the data is already labelled and we want to predict the class of unlabelled data
-          * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
-     * There is a small number of possible outcomes    
-          * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
-          * `Logistic Regression`: The model's output is always in the range (0, 1), exclusive
-               * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
+`Regression`
+* In regression, the objective is to predict a continuous variable as the output variable
+     * e.g. `linear regression`
+          * one example is linear regression with one variable (univariate linear regression)
+* There are infinitely many possible outputs
+
+`Multiple Linear Regression`
+
+It is about applying linear regression when we have multiple features in the training set.
+
+* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
+where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
+
+`Polynomial Regression`
+
+While multiple linear regression assumes a linear relationship between the target variable and the input features, polynomial regression can capture more curved and nonlinear patterns in the data.     
+
+#### Classification
+
+`Classification`
+* In classification, the aim is to predict discrete categories/classes as the output.
+     * the data is already labelled and we want to predict the class of unlabelled data
+     * e.g. true/false, 0/1, red/green/green, success/failure, happiness/angry/sad/
+* There is a small number of possible outcomes    
+     * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
+     * `Logistic Regression`: The model's output is always in the range (0, 1), exclusive
+          * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
@@ -84,17 +97,6 @@ Algorithms that perform supervised learning, learn from input (x) examples (the 
 
 * `Sigmoid function` (`logistic function`): it is an activation function in ML (S shape) that transforms any number values between 0 and 1 in order to get output probabilities that express the probability that a particular output belongs to a particular class.
      * In the sigmoid function, the variable z represents the input to the function. The function approaches 0 as z goes to large negative values and approaches 1 as z goes to large positive values.
-
-#### Multiple Linear Regression
-
-It is about applying linear regression when we have multiple features in the training set.
-
-* f<sub>w,b</sub>(x) = w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> +...+ w<sub>n</sub>x<sub>n</sub>+b,
-where the **vector of w** containing all w (feature) cases and the **b** are the model *paremeters*
-
-#### Polynomial Regression
-
-While multiple linear regression assumes a linear relationship between the target variable and the input features, polynomial regression can capture more curved and nonlinear patterns in the data.
 
 ## Unsupervised Learning
 While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
