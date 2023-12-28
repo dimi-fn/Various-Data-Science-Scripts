@@ -145,7 +145,7 @@ attributes == features == predictors vs target variables == labels
 
 # Cost Function
 
-* The cost function tells us how well the model is performing so that we can improve it, in other words we far our target predictions are (y predicted) compared to the correct and real value (y true)
+* The cost function tells us how well the model is performing so that we can improve it, or in other words and more specifically, it indicates how far the target predictions are (**y predicted**) compared to the correct and real values (**y true**)
      * in linear regression, the most used cost function is the squared error cost function
 * f<sub>w,b</sub>(x) = wx+b, where w,b parameters
      * w = weight (the slope of the function in the chart)
