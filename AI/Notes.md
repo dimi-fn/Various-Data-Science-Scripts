@@ -244,8 +244,9 @@ Examples where vectorization can be useful:
 
 ## Regularization
 
-* Regularization to reduce `overfitting`, where 
-     * Overfitting is a common issue in ML where the model might perform well on the training set but it may fail when faced new, unseen data. This is happening when the patterns and the noise in training set do not generalize well in the whole dataset, and the model learns only from the specific patterns and specific noise found in the underlying training part of the dataset.
+Regularization techniques can be used to tackle common problems in ML, e.g. to reduce overfitting
+
+* `Overfitting` is a common issue in ML where the model might perform well on the training set but it may fail when faced new, unseen data. This is happening when the patterns and the noise in the training set do not generalize well in the whole dataset, and the model learns only from the specific patterns and specific noise found in the underlying training part of the dataset.
 
 -------------------------------------------------
 
