@@ -18,6 +18,7 @@ Contents
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
      * [Feature Engineering](#feature-engineering)
+     * [Regularization](#regularization)
 * [Bias vs. Variance](#bias-vs-variance)
 
 --------------------------------------------------------------------------------------------------
@@ -238,6 +239,13 @@ Examples where vectorization can be useful:
 * `Time Series Data`: Time series data, such as stock prices or sensor readings, are usually transformed into numerical arrays where each element corresponds to a specific time point.
 * `Feature Extraction`: Feature engineering involves creating new features or representations of data that are more informative for a particular task. Feature extraction techniques can create numerical features from raw data.
 * `Dimensionality Reduction`: Techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbor Embedding (t-SNE) transform high-dimensional data into lower-dimensional representations, making it easier to analyze and model
+
+-------------------------------------------------
+
+## Regularization
+
+* Regularization to reduce `overfitting`, where 
+     * Overfitting is a common issue in ML where the model might perform well on the training set but it may fail when faced new, unseen data. This is happening when the patterns and the noise in training set do not generalize well in the whole dataset, and the model learns only from the specific patterns and specific noise found in the underlying training part of the dataset.
 
 -------------------------------------------------
 
