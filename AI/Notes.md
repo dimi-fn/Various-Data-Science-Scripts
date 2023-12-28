@@ -165,7 +165,7 @@ attributes == features == predictors vs target variables == labels
 
 --------
 
-`Cost function for logistic regression`: **logistic loss function**
+`Cost function for logistic regression`:
 In logistic regression, the cost function is the Cross-Entropy Loss (`Log Loss`), also known as the `logistic loss function`.
 
 The square root is not a good cost function in logistic regression because it doesn't exhibit the convex properties needed for efficient optimization, leading to multiple local minima and making it difficult to find the global minimum efficiently.
