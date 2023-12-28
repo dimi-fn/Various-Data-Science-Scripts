@@ -13,7 +13,7 @@ Contents
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
-* [Cost Function](#cost-function)
+* [Cost & Loss Function](#cost---loss-function)
 * [Gradient Descent](#gradient-descent)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
@@ -143,8 +143,9 @@ attributes == features == predictors vs target variables == labels
 
 -------------------------------------------------
 
-# Cost Function
+# Cost & Loss Function
 
+* In ML, the terms "`cost function`" and "`loss function`" are often used interchangeably, but their difference lies in the fact that the loss function is applied to individual data points and measures the error for each prediction, while the cost function is an aggregate measure of the overall model performance across the entire dataset. 
 * The cost function tells us how well the model is performing so that we can improve it, or in other words and more specifically, it indicates how far the target predictions are (**y predicted**) compared to the correct and real values (**y true**)
      * in linear regression, the most used cost function is the squared error cost function
 * f<sub>w,b</sub>(x) = wx+b, where w,b parameters
@@ -165,7 +166,7 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 
 
 ## Logistic Regression
-* In logistic regression, the cost function is the Cross-Entropy Loss (`Log Loss`), also known as the `logistic loss function`, which is more suitable for categorization task where the target is 0 or 1 rather than any number as in linear regression.
+* In logistic regression, the cost function is the Cross-Entropy Loss (`Log Loss`), also known as the `logistic loss function`, which is more suitable for the categorization task where the target is 0 or 1 rather than any number as in linear regression.
 * The square root is not a good cost function in logistic regression because it doesn't exhibit the convex properties needed for efficient optimization, leading to multiple local minima and making it difficult to find the global minimum efficiently. However, by using the loss function, the overall cost function will get convex, and hence, we can use the gradient descent to take us to the global minimum.
 * `Evaluation metrics`: The common evaluation metrics for logistic regression include Accuracy (the proportion of correctly classified instances), Precision, Recall, and F1 Score.
 
