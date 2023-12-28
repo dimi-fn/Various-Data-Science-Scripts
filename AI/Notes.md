@@ -156,12 +156,19 @@ attributes == features == predictors vs target variables == labels
 
 <br>
 
-Cost function in linear regression:
+`Cost function for linear regression`: The typical cost function for linear regression is the Mean Squared Error (`MSE`), with the Root Mean Squared Error (`RMSE`) being the common metric for evaluating the performance of a linear regression model.
 
 ![Cost function in linear regression](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/src/cost_function_linear_regression.PNG)
 
 * The goal is to find such parameter values w and b, that will **minimize the cost function** `J`
  * When the cost is relatively small, closer to zero, it means the model fits the data better compared to other choices for w and b
+
+--------
+
+`Cost function for logistic regression`: **logistic loss function**
+In logistic regression, the cost function is the Cross-Entropy Loss (`Log Loss`), also known as the `logistic loss function`.
+
+The square root is not a good cost function in logistic regression because it doesn't exhibit the convex properties needed for efficient optimization, leading to multiple local minima and making it difficult to find the global minimum efficiently.
 
 -------------------------------------------------
 
