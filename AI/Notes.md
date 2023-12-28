@@ -13,7 +13,7 @@ Contents
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
-* [Cost & Loss Function](#cost---loss-function)
+* [Cost & Loss Function](#cost--loss-function)
 * [Gradient Descent](#gradient-descent)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
