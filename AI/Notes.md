@@ -249,15 +249,19 @@ Regularization techniques can be used to tackle common problems in ML, e.g. to r
 * `Overfitting` is a common issue in ML where the model might perform well (or even very well) on the training set but may fail when it faces new, unseen data. This happens when the patterns and the noise in the training set do not generalize well in the whole dataset, and the model learns only from the specific patterns and noise found in the underlying training part of the dataset. Overfitting results in `high variance`, because the same model used across different but similar datasets might product highly variable predictions, i.e. and e.g. running the same model on a slightly different input value might give a very different output value. Possible solutions here is to remove noise by removing some of the features that might not help the model generilize well.
      * overfitting (too many input x features) --> high variance
           * solutions: 
-               * get more training data
+               * data cleaning and preprocessing
+               * increase the training data
                * feature selection & feature extraction: exclude non-useful features (that might bring noise), select (feature selection), or generate (feature extraction) the most important input features
                * apply regularization: in order to reduce the overfitting impact of some of the features  without having to eliminate them by reducing the size of the parameters that can be achieved by penalizing then (using the λ legularization parameter)
                     * when a model needs regularization, then if l=0, the model will overfit as previously (nothing has changed), and if l is a very big number, then conversely, the model will turn to have an underfitting problem instead (increasing the regularization parameter will decrease the size of the model parameters, but increasing the l too much, it will decrease the model parameters close to 0, turning the function to be equal only with the parameter b (bias))
 * `Underfitting` is the opposite of overfitting. It happens when a ML model is too simple to capture the underlying patterns in the training data. In other words, the model struggles to grasp the relationships between inputs and outputs, resulting in a poor fit to both the training set and new, unseen data. Typically, underfit models exhibit `high bias`; e.g., a simple linear function predicting housing prices may have high bias if it always predicts an increase in price as the house size increases, disregarding other relevant factors. In this case, we'd say that the model presents a high bias (preconception) in the relationship between the inputs (house size) and the output (price) where the model assumes that the house prices are going to be a completely linear function of the house sizes, i.e. it oversimplifies the relationship by assuming that the only factor influencing the price is the size of the house (in that case, adding more inputs, like the area zone of the house, would help reduce underfitting).
      * underfitting (too few input x features) --> high bias
-          * solutions: 
-               * 
-               * 
+          * solutions
+               * data cleaning and preprocessing
+               * increase the training data
+               * increase model complexity (e.g. instead of using a linear model, switch to e.g. decision tree or SVM, random forest, neural networks)
+               * feature engineering: transform existing features or add relevant features to better represent the underlying patterns of the data
+               * reduce regalurization
 
 -------------------------------------------------
 
