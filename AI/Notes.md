@@ -1,4 +1,4 @@
-# Notes on Machine Learning
+# Notes on Machine & Deep Learning
 
 Contents 
 =======================
@@ -299,6 +299,17 @@ Feature Engineering in Machine Learning might involve:
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
 There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
+
+-------------------------------------------------
+
+
+# Deep Learning
+
+* `Layers`: A layer is a grouping of neurons that takes as input the same or similar inputs and it produces the output layer. Neural networks are composed of layers stacked on top of each other, and each layer performs a specific type of computation. Each neuron in a layer is connected to every neuron in the adjacent layers. The strength of these connections, known as weights, is adjusted during the training process to enable the network to make accurate predictions or classifications. There are 3 main types of layers:
+     * Input Layer: The first layer that receives the input data. Each neuron in this layer represents a feature in the input data.
+     * Hidden Layers: Intermediate layers between the input and output layers where computations are performed. Each neuron in these layers processes information from the previous layer and passes it on to the next.
+     * Output Layer: The final layer that produces the network's output. The number of neurons in this layer depends on the type of problem (e.g., one neuron for binary classification, multiple neurons for multi-class classification).
+
 
 -------------------------------------------------
 
