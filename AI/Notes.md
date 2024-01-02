@@ -20,6 +20,7 @@ Contents
      * [Feature Engineering](#feature-engineering)
      * [Regularization](#regularization)
 * [Bias vs. Variance](#bias-vs-variance)
+* [Deep Learning](#deep-learning)
 
 --------------------------------------------------------------------------------------------------
 
@@ -301,7 +302,6 @@ Linear ML algorithms can often be trained fast (high bias <==> many assumptions)
 There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
 
 -------------------------------------------------
-
 
 # Deep Learning
 
