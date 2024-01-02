@@ -306,9 +306,12 @@ There is always a monotonic relationship between bias and variance. The former c
 # Deep Learning
 
 * `Layers`: A layer is a grouping of neurons that takes as input the same or similar inputs and it produces the output layer. Neural networks are composed of layers stacked on top of each other, and each layer performs a specific type of computation. Each neuron in a layer is connected to every neuron in the adjacent layers. The strength of these connections, known as weights, is adjusted during the training process to enable the network to make accurate predictions or classifications. There are 3 main types of layers:
-     * Input Layer: The first layer that receives the input data. Each neuron in this layer represents a feature in the input data.
-     * Hidden Layers: Intermediate layers between the input and output layers where computations are performed. Each neuron in these layers processes information from the previous layer and passes it on to the next.
+     * Input Layer: The first layer that receives the input data. Each neuron in this layer represents a feature in the input data, and hence the input layer turns to be a vector of input features.
+     * Hidden Layers: Intermediate layers between the input and output layers where computations are performed. Each hidden layer might carry a different number of neurons (input units), and each neuron processes information from the previous layer and passes it on to the next.
      * Output Layer: The final layer that produces the network's output. The number of neurons in this layer depends on the type of problem (e.g., one neuron for binary classification, multiple neurons for multi-class classification).
+          * the combination of the above is called '`multilayer perceptron`'
+* `Architecture of a neural network`     
+     * decision about: the number of hidden layers, the number of hidden units (neurons) per layer
 
 
 -------------------------------------------------
