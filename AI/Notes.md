@@ -21,6 +21,8 @@ Contents
      * [Regularization](#regularization)
 * [Bias vs. Variance](#bias-vs-variance)
 * [Deep Learning](#deep-learning)
+     * [Neural Network Layers](#neural-network-layers)
+     * [Forward & Backward Propagation](#forward--backward-propagation)
 
 --------------------------------------------------------------------------------------------------
 
@@ -305,6 +307,8 @@ There is always a monotonic relationship between bias and variance. The former c
 
 # Deep Learning
 
+## Neural Network Layers
+
 * `Layers`: A layer is a grouping of neurons that takes as input the same or similar inputs and it produces the output layer. Neural networks are composed of layers stacked on top of each other, and each layer performs a specific type of computation. Each neuron in a layer is connected to every neuron in the adjacent layers. The strength of these connections, known as weights, is adjusted during the training process to enable the network to make accurate predictions or classifications. There are 3 main types of layers:
      * `Input Layer` (layer 0): The first layer that receives the input data. Each neuron in this layer represents a feature in the input data, and hence the input layer turns to be a vector of input features.
      * `Hidden Layers` (layer 1, 2, and so on): Intermediate layers between the input and output layers where computations are performed. Each hidden layer might carry a different number of neurons (input units), and each neuron processes information from the previous layer and passes it on to the next, i.e. and e.g., the output of layer 1 becomes the input of layer 2, and so on.
@@ -315,7 +319,12 @@ There is always a monotonic relationship between bias and variance. The former c
      * decision about: the number of hidden layers, the number of hidden units (neurons) per layer
 
 
+## Forward & Backward Propagation
 
+Forward propagation is about making predictions, while backward propagation is about learning from those predictions and updating the network to make better predictions in the future. Both forward and backward propagation are essential, and they work together in an iterative process:
+
+* `Forward Propagation`: This is the process of passing input data through the network to obtain the predicted output. The input data is fed into the input layer, and it travels through each hidden layer until it reaches the output layer. Neurons in each layer perform weighted sums and apply activation functions to produce the output. The predicted output is then compared to the actual output to calculate the loss.
+* `Backward Propagation`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. 
 
 
 
