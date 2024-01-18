@@ -23,7 +23,7 @@ Contents
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Backward Propagation](#forward--backward-propagation)
-     * [Tensorflow](#tensors) 
+     * [Tensorflow](#tensorflow) 
 
 --------------------------------------------------------------------------------------------------
 
