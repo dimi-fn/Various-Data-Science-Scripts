@@ -23,7 +23,7 @@ Contents
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Backward Propagation](#forward--backward-propagation)
-     * [Tensors](#tensors) 
+     * [Tensorflow](#tensors) 
 
 --------------------------------------------------------------------------------------------------
 
@@ -327,13 +327,19 @@ Forward propagation is about making predictions, while backward propagation is a
 * `Forward Propagation`: This is the process of passing input data through the network to obtain the predicted output. The input data is fed into the input layer, and it travels through each hidden layer until it reaches the output layer. Neurons in each layer perform weighted sums and apply activation functions to produce the output. The predicted output is then compared to the actual output to calculate the loss.
 * `Backward Propagation`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. 
 
-## Tensors
+## Tensorflow
 
-In TensorFlow, a `tensor` is a data structure representing multi-dimensional arrays or matrices. These tensors can have different ranks, which correspond to the number of dimensions they possess.
+While Scikit-learn focuses on traditional ML algorithms (e.g. classification, regression, clustering, dimensionality reduction, model selection), TensorFlow is also an open-source ML library used to build and train ML models, particularly deep learning models.
+
+In TensorFlow, a `tensor` is a data structure representing multi-dimensional arrays or matrices. Tensors can have different ranks, which correspond to the number of dimensions they possess.
 * `Scalar` (rank 0): A single numerical value, e.g. 5
 * `Vector` (rank 1): An array of scalars, like a list of numbers, e.g. [2,3,4]
 * `Matrix` (rank 2): A 2D array of numbers arranged in the shape of rows and columns
+     * Tensors can easily be converted to numpy arrays via np.array()
 
+* `model.compile`(..)
+* `model.fit`(x,y)
+* `model.predict`(x_new)
 
 -------------------------------------------------
 
