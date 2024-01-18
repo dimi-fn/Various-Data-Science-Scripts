@@ -337,7 +337,9 @@ In TensorFlow, a `tensor` is a data structure representing multi-dimensional arr
 * `Matrix` (rank 2): A 2D array of numbers arranged in the shape of rows and columns
      * Tensors can easily be converted to numpy arrays via np.array()
 
+* normalize the data (tf.keras.layers.Normalization)
 * `model.Sequential`([layer_1, layer_2, ...])
+     * `model.summary()`: summary of the model
 * `model.compile`(..)
 * `model.fit`(x,y)
 * `model.predict`(x_new)
