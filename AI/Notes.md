@@ -337,12 +337,29 @@ In TensorFlow, a `tensor` is a data structure representing multi-dimensional arr
 * `Matrix` (rank 2): A 2D array of numbers arranged in the shape of rows and columns
      * Tensors can easily be converted to numpy arrays via np.array()
 
-* normalize the data (tf.keras.layers.Normalization)
-* `model.Sequential`([layer_1, layer_2, ...])
-     * `model.summary()`: summary of the model
-* `model.compile`(..)
-* `model.fit`(x,y)
-* `model.predict`(x_new)
+* `Step 1`
+     * Data preprocessing 
+          * data cleaning
+          * handling missing data
+          * data encoding
+               * converting categorical variables into numerical representations
+          * feature engineering
+               * creating new features or transforming existing ones to enhance the model's performance
+          * Data normalization/scaling: .g. normalize the data (tf.keras.layers.Normalization)
+* `Step 2`
+     * Specify the model
+          * `model.Sequential`([layer_1, layer_2, ...])
+          * `model.summary()`: summary of the model
+* `Step 3`
+     * Compile the model and specify the using loss function (i.e. the way of measurement of how far off the predicted output is from the actual or target output)
+     * `model.compile`(loss= )
+* `Step 4`
+     * Train the model
+     * `model.fit`(x,y, epochs= integer number)
+          * epochs in neural networks are like the steps that we need to decide for the learning algorithm to run (e.g. gradient descent) 
+* `Step 5`
+     * Make the model predictions
+     * `model.predict`(x_new)
 
 -------------------------------------------------
 
