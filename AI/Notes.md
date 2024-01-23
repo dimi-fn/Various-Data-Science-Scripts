@@ -351,7 +351,7 @@ In TensorFlow, a `tensor` is a data structure representing multi-dimensional arr
           * `model.Sequential`([layer_1, layer_2, ...])
           * `model.summary()`: summary of the model
 * `Step 3`
-     * Compile the model and specify the using loss function (i.e. the way of measurement of how far off the predicted output is from the actual or target output)
+     * Compile the model and specify the using loss function (i.e. the way of measurement of how far off the predicted output is from the actual output)
      * `model.compile`(loss= )
 * `Step 4`
      * Train the model
