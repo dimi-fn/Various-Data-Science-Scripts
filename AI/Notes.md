@@ -348,8 +348,16 @@ In TensorFlow, a `tensor` is a data structure representing multi-dimensional arr
           * Data normalization/scaling: .g. normalize the data (tf.keras.layers.Normalization)
 * `Step 2`
      * Specify the model
-          * `model.Sequential`([layer_1, layer_2, ...])
-          * `model.summary()`: summary of the model
+
+```
+import tensorflow as tf
+from tensorflow.keras import Sequential
+from tensorflow.keras.layers import Dense
+```
+
+* `model.Sequential`([layer_1, layer_2, ...])
+* `model.summary()`: summary of the model
+
 * `Step 3`
      * Compile the model and specify the using loss function (i.e. the way of measurement of how far off the predicted output is from the actual output)
      * `model.compile`(loss= )
