@@ -325,7 +325,7 @@ There is always a monotonic relationship between bias and variance. The former c
 Forward propagation is about making predictions, while backward propagation is about learning from those predictions and updating the network to make better predictions in the future. Both forward and backward propagation are essential, and they work together in an iterative process:
 
 * `Forward Propagation`: This is the process of passing input data through the network to obtain the predicted output. The input data is fed into the input layer, and it travels through each hidden layer until it reaches the output layer. Neurons in each layer perform weighted sums and apply activation functions to produce the output. The predicted output is then compared to the actual output to calculate the loss.
-* `Backward Propagation`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. 
+* `Backward Propagation (backpropagation)`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. In order words, via backpropagation we can compute the derivatives for Gradient Descent.
 
 ## Tensorflow
 
