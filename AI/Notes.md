@@ -314,7 +314,7 @@ There is always a monotonic relationship between bias and variance. The former c
      * `Input Layer` (layer 0): The first layer that receives the input data. Each neuron in this layer represents a feature in the input data, and hence the input layer turns to be a vector of input features.
      * `Hidden (Dense) Layers` (layer 1, 2, and so on): Intermediate layers between the input and output layers where computations are performed. Each hidden layer might carry a different number of neurons (input units), and each neuron processes information from the previous layer and passes it on to the next, i.e. and e.g., the output of layer 1 becomes the input of layer 2, and so on.
      * `Output Layer`: The final layer that produces the network's output. The number of neurons in this layer depends on the type of problem (e.g., one neuron for binary classification, multiple neurons for multi-class classification).
-          * the combination of the above is called '`multilayer perceptron`'
+          * the combination of the above is called '`multilayer perceptron (MLP)`', which is basically the neural network for supervised learning
           * when we say we have 4 input layers, then we implicitly mean we have 3 hidden (intermediate) layers and 1 output layer- the input layer, layer 0, is not counted
 * `Architecture of a neural network`     
      * decision about: the number of hidden layers, the number of hidden units (neurons) per layer
