@@ -102,13 +102,6 @@ While multiple linear regression assumes a linear relationship between the targe
 
 -------
 
-**Useful terminologies**
-* `Sigmoid function` (`logistic function`): it is an activation function in ML (S shape) that transforms any number values between 0 and 1 in order to get output probabilities that express the probability that a particular output belongs to a particular class.
-     * In the sigmoid function, the variable z represents the input to the function. The function approaches 0 as z goes to large negative values and approaches 1 as z goes to large positive values.
-     * it is commonly used in binary classification problems to transform a linear combination of input features into probabilities
-
-* The `decision boundary` represents the threshold at which a model makes predictions about the class to which a new input belongs. Instances on one side of the decision boundary are assigned to one class, while instances on the other side are assigned to a different class. The goal of a ML training model is to find the optimal decision boundary that minimizes classification errors and generalizes well to new unseen data.
-
 ## Unsupervised Learning
 While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
 
@@ -303,6 +296,19 @@ Feature Engineering in Machine Learning might involve:
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
 There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
+
+-------------------------------------------------
+
+# Activation Functions & Decision Boundaries
+
+* `Sigmoid function` (`logistic function`): it is an activation function in ML (S shape) that transforms any number values between 0 and 1 in order to get output probabilities that express the probability that a particular output belongs to a particular class.
+     * In the sigmoid function, the variable z represents the input to the function. The function approaches 0 as z goes to large negative values and approaches 1 as z goes to large positive values.
+     * it is commonly used in binary classification problems to transform a linear combination of input features into probabilities
+* In deep learning, one of the most common activation functions is `ReLU` (Rectified Linear Unit)    
+     * ReLU introduces non-linearity to the network, allowing it to learn complex patterns in the data (i.e. it can learn from non-linear relationships in the data)
+
+
+* The `decision boundary` represents the threshold at which a model makes predictions about the class to which a new input belongs. Instances on one side of the decision boundary are assigned to one class, while instances on the other side are assigned to a different class. The goal of a ML training model is to find the optimal decision boundary that minimizes classification errors and generalizes well to new unseen data.
 
 -------------------------------------------------
 
