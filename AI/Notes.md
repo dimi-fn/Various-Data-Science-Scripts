@@ -20,6 +20,7 @@ Contents
      * [Feature Engineering](#feature-engineering)
      * [Regularization](#regularization)
 * [Bias vs. Variance](#bias-vs-variance)
+* [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Backward Propagation](#forward--backward-propagation)
