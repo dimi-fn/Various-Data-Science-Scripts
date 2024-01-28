@@ -311,9 +311,10 @@ There is always a monotonic relationship between bias and variance. The former c
      * ReLU introduces non-linearity to the network, allowing it to learn complex patterns in the data (i.e. it can learn from non-linear relationships in the data)
 
 * Choosing activation functions
-     * Binary classification problem: sigmoid activation function
-     * Regression problem where output can take either negative or positive values: linear aggregation function
-     * Regression problem where output>=0: ReLU
+     * You can choose different activation functions across the different layers within the same neural network
+          * Binary classification problem: sigmoid activation function
+          * Regression problem where output can take either negative or positive values: linear aggregation function
+          * Regression problem where output>=0: ReLU
 
 
 ## Decision Boundaries
