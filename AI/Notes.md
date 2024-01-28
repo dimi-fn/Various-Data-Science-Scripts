@@ -310,6 +310,12 @@ There is always a monotonic relationship between bias and variance. The former c
 * In Deep Learning, apart from the sigmoid function, one common activation function is the linear activation function, but one of the most common activation functions is the `ReLU` (Rectified Linear Unit)    
      * ReLU introduces non-linearity to the network, allowing it to learn complex patterns in the data (i.e. it can learn from non-linear relationships in the data)
 
+* Choosing activation functions
+     * Binary classification problem: sigmoid activation function
+     * Regression problem where output can take either negative or positive values: linear aggregation function
+     * Regression problem where output>=0: ReLU
+
+
 ## Decision Boundaries
 
 * The `decision boundary` represents the threshold at which a model makes predictions about the class to which a new input belongs. Instances on one side of the decision boundary are assigned to one class, while instances on the other side are assigned to a different class. The goal of a ML training model is to find the optimal decision boundary that minimizes classification errors and generalizes well to new unseen data.
