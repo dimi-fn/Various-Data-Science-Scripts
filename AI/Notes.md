@@ -95,6 +95,11 @@ While multiple linear regression assumes a linear relationship between the targe
      * e.g., a document can be about "Science," "Technology," and "Environment" at the same time.
      * an emotion can be both tagged and classified as 'fear' and 'sadness' for a particular input instance
      * on the street at a specific timestamp, there could be a car, a bus, and a pedestrian at the same time.
+* A problem can be both a multilabel and multiclass classification problem
+     * example: collection of articles, and the goal is to classify them into both overarching topics (multiclass) and specific themes discussed in the articles (multilabel).
+          * Multiclass Aspect: Classes for overarching topics: "Technology," "Health," "Science," and "Business"
+          * Multilabel Aspect: Labels for specific themes: "Artificial Intelligence," "Marketing", "Climate Change," "Entrepreneurship" and "Mobile Technology"
+          * Each article can belong to one of the broader topics (multiclass), such as "Technology," while also addressing multiple specific themes (multilabel), like "Artificial Intelligence" and "Entrepreneurship" at the same time.
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
