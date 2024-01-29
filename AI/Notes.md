@@ -367,8 +367,7 @@ In TensorFlow, a `tensor` is a data structure representing multi-dimensional arr
           * feature engineering
                * creating new features or transforming existing ones to enhance the model's performance
           * Data normalization/scaling: .g. normalize the data (tf.keras.layers.Normalization)
-* `Step 2`
-     * Specify the model
+* `Step 2: Define the model`
 
 ```
 import tensorflow as tf
@@ -379,10 +378,10 @@ from tensorflow.keras.layers import Dense
 * `model.Sequential`([layer_1, layer_2, ...])
 * `model.summary()`: summary of the model
 
-* `Step 3`
-     * Compile the model and specify the using loss function (i.e. the way of measurement of how far off the predicted output is from the actual output)
+* `Step 3: compile the model`
+     * Compile the model and specify the loss function used (i.e. the way of measurement of how far off the predicted output is from the actual output)
      * `model.compile`(loss= )
-* `Step 4`
+* `Step 4: fit the model`
      * Train the model
      * `model.fit`(x,y, epochs= integer number)
           * epochs in neural networks are like the steps that we need to decide for the learning algorithm to run (e.g. gradient descent) 
