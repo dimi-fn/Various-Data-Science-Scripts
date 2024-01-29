@@ -87,10 +87,13 @@ While multiple linear regression assumes a linear relationship between the targe
      * **Binary classification**: the model outputs two possible classes (e.g., 0/1, no/yes, false/true)
      * `Logistic Regression`: The model's output is always in the range (0, 1), exclusive
           * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
-* `Multiclass Classification`: a classification problem where each input data point can belong to more than one class
+* `Multiclass Classification`: a classification problem where each input data point can belong to more than one class, e.g. predicting if an animal is dog, cat, dolphin etc
      * `Softmax` mathematical function is particularly useful in multiclass classification problems, where an input can belong to one of several classes. Using a softmax output layer helps in making the network's predictions more interpretable and suitable for decision-making based on probabilities.
           * used in conjunction with **loss = SparseCategoricalCrossentropy**
                * or **loss = SparseCategoricalCrossentropy(from_logits=True)** by using a linear (and not softmax) output layer for a more accurate implemtation of softmax
+* `Multi-label Classification`: In multilabel classification, each instance can be assigned to multiple classes or labels simultaneously.
+     * e.g., a document can be about "Science," "Technology," and "Environment" at the same time.
+     * an emotion can be both tagged and classified as 'fear' and 'sadness' for a particular input instance
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
@@ -385,7 +388,7 @@ from tensorflow.keras.layers import Dense
      * Train the model
      * `model.fit`(x,y, epochs= integer number)
           * epochs in neural networks are like the steps that we need to decide for the learning algorithm to run (e.g. gradient descent) 
-* `Step 5`
+* `Step 5: Make model prediction`
      * Make the model predictions
      * `model.predict`(x_new)
 
