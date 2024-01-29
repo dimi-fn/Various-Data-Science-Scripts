@@ -88,6 +88,7 @@ While multiple linear regression assumes a linear relationship between the targe
      * `Logistic Regression`: The model's output is always in the range (0, 1), exclusive
           * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
 * `Multiclass Classification`: a classification problem where each input data point can belong to more than one class
+     * `Softmax` mathematical function is particularly useful in multiclass classification problems, where an input can belong to one of several classes. It helps in making the network's predictions more interpretable and suitable for decision-making based on probabilities.
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
