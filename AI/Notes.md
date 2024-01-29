@@ -94,6 +94,7 @@ While multiple linear regression assumes a linear relationship between the targe
 * `Multi-label Classification`: In multilabel classification, each instance can be assigned to multiple classes or labels simultaneously.
      * e.g., a document can be about "Science," "Technology," and "Environment" at the same time.
      * an emotion can be both tagged and classified as 'fear' and 'sadness' for a particular input instance
+     * on the street at a specific timestamp, there could be a car, a bus, and a pedestrian at the same time.
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
