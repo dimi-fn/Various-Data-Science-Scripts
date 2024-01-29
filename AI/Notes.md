@@ -89,6 +89,7 @@ While multiple linear regression assumes a linear relationship between the targe
           * typically used for binary classification problems for predicting the probability of an instance belonging to a particular class 
 * `Multiclass Classification`: a classification problem where each input data point can belong to more than one class
      * `Softmax` mathematical function is particularly useful in multiclass classification problems, where an input can belong to one of several classes. Using a softmax output layer helps in making the network's predictions more interpretable and suitable for decision-making based on probabilities.
+          * used in conjunction with **loss=SparseCategoricalCrossentropy**
 
 | Input (x) | Output (y) | Application |
 |-----------|------------|-------------|
