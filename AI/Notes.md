@@ -14,7 +14,7 @@ Contents
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
 * [Cost & Loss Function](#cost--loss-function)
-* [Gradient Descent](#gradient-descent)
+* [Gradient Descent & Optimization Algorithms](#gradient-descent--optimization-algorithms)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
      * [Feature Engineering](#feature-engineering)
@@ -183,10 +183,9 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 * `Evaluation metrics`: The common evaluation metrics for logistic regression include Accuracy (the proportion of correctly classified instances), Precision, Recall, and F1 Score.
 
 -------------------------------------------------
-
-# Gradient Descent & 
-
 # Gradient Descent & Optimization Algorithms
+
+# Gradient Descent
 
 Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
 * The Gradient descent algorithm will search for the `local minima`, and by using Gradient Descent we want to find such parameters w, b, that will get us as close as possible to the global minimum.
