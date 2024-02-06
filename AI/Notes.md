@@ -23,7 +23,7 @@ Contents
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
-     * [Forward & Backward Propagation](#forward--backward-propagation)
+     * [Forward & Back Propagation](#forward--back-propagation)
      * [Tensorflow](#tensorflow) 
 
 --------------------------------------------------------------------------------------------------
@@ -198,6 +198,9 @@ Gradient descent is an algorithm for finding values of parameters w and b that m
           * update them *simultaneously* and repeat until convergence, i.e. until you reach one local minimum
                * when the cost function is the squared error cost, then there is always only one local minimum (global minimum)
      * `d/dw J(w,b)`: the **derivative** term
+          * A `derivative` measures how a function changes as its input changes. In ML, derivatives are used to find the slope (rate of change) of a function. This is useful for adjusting model parameters to minimize errors or improve performance during training.
+               * via the 'symbolic' derivative, you can find the value of the derivative at any input value 𝑤
+ .
 
 
 * `Batch` gradient descent: each step of the gradient descent uses *all* the training examples for each update step
@@ -348,20 +351,20 @@ There is always a monotonic relationship between bias and variance. The former c
 * `Layers`: A layer is a grouping of neurons that takes as input the same or similar inputs and it produces the output layer. Neural networks are composed of layers stacked on top of each other, and each layer performs a specific type of computation. Each neuron in a layer is connected to every neuron in the adjacent layers. The strength of these connections, known as weights, is adjusted during the training process to enable the network to make accurate predictions or classifications. There are 3 main types of layers:
      * `Input Layer` (layer 0): The first layer that receives the input data. Each neuron in this layer represents a feature in the input data, and hence the input layer turns to be a vector of input features.
      * `Hidden (Dense) Layers` (layer 1, 2, and so on): Intermediate layers between the input and output layers where computations are performed. Each hidden layer might carry a different number of neurons (input units), and each neuron processes information from the previous layer and passes it on to the next, i.e. and e.g., the output of layer 1 becomes the input of layer 2, and so on.
-          * Every neuron in the layer gets as its inputs all the activations from the previous layer
+          * Every neuron in a **dense** layer gets as its inputs all the activations from the previous layer
      * `Output Layer`: The final layer that produces the network's output. The number of neurons in this layer depends on the type of problem (e.g., one neuron for binary classification, multiple neurons for multi-class classification).
           * the combination of the above is called '`multilayer perceptron (MLP)`', which is basically the neural network for supervised learning
           * when we say we have 4 input layers, then we implicitly mean we have 3 hidden (intermediate) layers and 1 output layer- the input layer, layer 0, is not counted
 * `Architecture of a neural network`     
      * decision about: the number of hidden layers, the number of hidden units (neurons) per layer
+     * A `computation graph` is a visual representation of the mathematical operations (`nodes`) and their dependencies (`edges`) in a deep learning model. It shows how data flows through the network, from input to output, capturing the sequence of computations.
 
-
-## Forward & Backward Propagation
+## Forward & Back Propagation
 
 Forward propagation is about making predictions, while backward propagation is about learning from those predictions and updating the network to make better predictions in the future. Both forward and backward propagation are essential, and they work together in an iterative process:
 
 * `Forward Propagation`: This is the process of passing input data through the network to obtain the predicted output. The input data is fed into the input layer, and it travels through each hidden layer until it reaches the output layer. Neurons in each layer perform weighted sums and apply activation functions to produce the output. The predicted output is then compared to the actual output to calculate the loss.
-* `Backward Propagation (backpropagation)`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. In order words, via backpropagation we can compute the derivatives for Gradient Descent.
+* `Back Propagation`: This is the process of updating the weights of the neural network to minimize the difference between the predicted output and the actual output. It involves calculating the gradient of the loss with respect to the weights and adjusting the weights accordingly. This is done using optimization algorithms like Gradient Descent. In order words, via backpropagation we can compute the derivatives for Gradient Descent.
 
 ## Tensorflow
 
