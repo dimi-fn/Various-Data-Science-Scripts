@@ -185,7 +185,7 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 -------------------------------------------------
 # Gradient Descent & Optimization Algorithms
 
-# Gradient Descent
+## Gradient Descent
 
 Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
 * The Gradient descent algorithm will search for the `local minima`, and by using Gradient Descent we want to find such parameters w, b, that will get us as close as possible to the global minimum.
@@ -204,7 +204,7 @@ Gradient descent is an algorithm for finding values of parameters w and b that m
 
 * A good way to verify that gradient descent is working correctly is to look at the value of the cost function 𝐽(𝑤,𝑏) and check that it is decreasing with each step.
 
-# Adam Optimization Algorithm
+## Adam Optimization Algorithm
 
 Adam (short for Adaptive Moment Estimation) is an optimization algorithm commonly used in ML to efficiently update the parameters of a model during training. It adjusts the learning rates for each parameter individually based on their historical gradients and helps accelerate convergence.
 
@@ -348,6 +348,7 @@ There is always a monotonic relationship between bias and variance. The former c
 * `Layers`: A layer is a grouping of neurons that takes as input the same or similar inputs and it produces the output layer. Neural networks are composed of layers stacked on top of each other, and each layer performs a specific type of computation. Each neuron in a layer is connected to every neuron in the adjacent layers. The strength of these connections, known as weights, is adjusted during the training process to enable the network to make accurate predictions or classifications. There are 3 main types of layers:
      * `Input Layer` (layer 0): The first layer that receives the input data. Each neuron in this layer represents a feature in the input data, and hence the input layer turns to be a vector of input features.
      * `Hidden (Dense) Layers` (layer 1, 2, and so on): Intermediate layers between the input and output layers where computations are performed. Each hidden layer might carry a different number of neurons (input units), and each neuron processes information from the previous layer and passes it on to the next, i.e. and e.g., the output of layer 1 becomes the input of layer 2, and so on.
+          * Every neuron in the layer gets as its inputs all the activations from the previous layer
      * `Output Layer`: The final layer that produces the network's output. The number of neurons in this layer depends on the type of problem (e.g., one neuron for binary classification, multiple neurons for multi-class classification).
           * the combination of the above is called '`multilayer perceptron (MLP)`', which is basically the neural network for supervised learning
           * when we say we have 4 input layers, then we implicitly mean we have 3 hidden (intermediate) layers and 1 output layer- the input layer, layer 0, is not counted
