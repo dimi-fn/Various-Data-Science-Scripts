@@ -95,7 +95,7 @@ While multiple linear regression assumes a linear relationship between the targe
      * e.g., a document can be about "Science," "Technology," and "Environment" at the same time.
      * an emotion can be both tagged and classified as 'fear' and 'sadness' for a particular input instance
      * on the street at a specific timestamp, there could be a car, a bus, and a pedestrian at the same time.
-* A problem can be both a multilabel and multiclass classification problem
+* A problem can be both a multilabel and multiclass classification task
      * example: collection of articles, and the goal is to classify them into both overarching topics (multiclass) and specific themes discussed in the articles (multilabel).
           * Multiclass Aspect: Classes for overarching topics: "Technology," "Health," "Science," and "Business"
           * Multilabel Aspect: Labels for specific themes: "Artificial Intelligence," "Marketing", "Climate Change," "Entrepreneurship" and "Mobile Technology"
@@ -184,7 +184,9 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 
 -------------------------------------------------
 
-# Gradient Descent
+# Gradient Descent & 
+
+# Gradient Descent & Optimization Algorithms
 
 Gradient descent is an algorithm for finding values of parameters w and b that minimize the cost function J. We can apply gradient descent to try to minimize a wide range of cost functions, extending beyond the scope of linear regression functions where the cost function typically takes the form of a squared error cost function.
 * The Gradient descent algorithm will search for the `local minima`, and by using Gradient Descent we want to find such parameters w, b, that will get us as close as possible to the global minimum.
@@ -202,6 +204,10 @@ Gradient descent is an algorithm for finding values of parameters w and b that m
 * `Batch` gradient descent: each step of the gradient descent uses *all* the training examples for each update step
 
 * A good way to verify that gradient descent is working correctly is to look at the value of the cost function 𝐽(𝑤,𝑏) and check that it is decreasing with each step.
+
+# Adam Optimization Algorithm
+
+Adam (short for Adaptive Moment Estimation) is an optimization algorithm commonly used in ML to efficiently update the parameters of a model during training. It adjusts the learning rates for each parameter individually based on their historical gradients and helps accelerate convergence.
 
 -------------------------------------------------
 
