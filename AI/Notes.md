@@ -14,12 +14,12 @@ Contents
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
 * [Cost & Loss Function](#cost--loss-function)
+* [Bias vs. Variance](#bias-vs-variance)
 * [Gradient Descent & Optimization Algorithms](#gradient-descent--optimization-algorithms)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
      * [Feature Engineering](#feature-engineering)
      * [Regularization](#regularization)
-* [Bias vs. Variance](#bias-vs-variance)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
@@ -183,6 +183,23 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 * `Evaluation metrics`: The common evaluation metrics for logistic regression include Accuracy (the proportion of correctly classified instances), Precision, Recall, and F1 Score.
 
 -------------------------------------------------
+
+# Bias vs. Variance
+
+**Bias**: The assumptions taken by the model in order to predict the target function (mapping function)
+* Low Bias: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
+* High Bias: number of assumptions is large (e.g., Linear Regression, Logistic Regression)
+
+**Variance**: The amount of change in the mapping function when then training data changes
+* Low Variance: Amount of change is small (e.g., Linear Regression, Logistic Regression)
+* High Variance: Amount of change is large (e.g., Decision Trees, KNN, SVM)
+
+Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
+
+There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
+
+-------------------------------------------------
+
 # Gradient Descent & Optimization Algorithms
 
 ## Gradient Descent
@@ -303,23 +320,7 @@ Feature Engineering in Machine Learning might involve:
 
 **Notes**: Feature engineering should be implemented not only in the training set but also in the test set for **consistency** and **generalization**. For instance, if you normalize the feature values in the training set, you should apply the same normalization to the test set. This ensures that the data presented in the test set maintains the same format as the training set (*consistency*). Additionally, this practice ensures that predictions made on the test set can be considered generalizable (*generalization*).
 
--------------------------------------------------
-
-# Bias vs. Variance
-
-**Bias**: The assumptions taken by the model in order to predict the target function (mapping function)
-* Low Bias: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
-* High Bias: number of assumptions is large (e.g., Linear Regression, Logistic Regression)
-
-**Variance**: The amount of change in the mapping function when then training data changes
-* Low Variance: Amount of change is small (e.g., Linear Regression, Logistic Regression)
-* High Variance: Amount of change is large (e.g., Decision Trees, KNN, SVM)
-
-Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
-
-There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
-
--------------------------------------------------
+------------------------------------------------
 
 # Activation Functions & Decision Boundaries
 
