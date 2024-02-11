@@ -20,6 +20,7 @@ Contents
      * [Vectorization](#vectorization)
      * [Feature Engineering](#feature-engineering)
      * [Regularization](#regularization)
+* [Model Evaluation & Selection](#model-evaluation--selection)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
@@ -314,11 +315,24 @@ Feature Engineering in Machine Learning might involve:
                * `mean normalization`
                * `divide features by their max values` and use that range of values instead
                     * as a rule of thumb, keep the range of your features between [0, 1] or [-1, 1]. You don't want the range to be too large e.g. [60, 1053], or too small e.g [0.001, 0.01]
+          * note: when you the model on scaled values, you should also feed in the scaled training set instead of its raw values, by using the same scaling method used in the training set
 * `Feature Extraction`    
      * Feature extraction involves creating new features from existing column variables, by either transforming or combining the original features to create new ones. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
           * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
 
 **Notes**: Feature engineering should be implemented not only in the training set but also in the test set for **consistency** and **generalization**. For instance, if you normalize the feature values in the training set, you should apply the same normalization to the test set. This ensures that the data presented in the test set maintains the same format as the training set (*consistency*). Additionally, this practice ensures that predictions made on the test set can be considered generalizable (*generalization*).
+
+------------------------------------------------
+
+# Model Evaluation & Selection
+
+* Split the dataset into a training and a test set
+     * however, a better method is splitting the dataset into 3 parts: training part/cross validation part (development part)/ test set
+          * e.g. training set 60%, cross validation 20%, test set 20% of the dataset and you can evaluate and compute the cross validation error too
+          * Cross-validation provides a more reliable estimate of a model's performance by using different subsets of data for training and testing. This helps ensure that the evaluation is not overly dependent on a specific random split of data
+* Compute the test error to understand how well the ML model is performing on the test part of the dataset
+     * You can also compute the training error, although the test error would be more useful for judging how well the model can generalize to new data
+* When selecting a model, you want to choose one that performs well both on the training and cross validation set. It implies that it is able to learn the patterns from your training set without overfitting 
 
 ------------------------------------------------
 
