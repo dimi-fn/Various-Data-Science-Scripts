@@ -330,7 +330,7 @@ Feature Engineering in Machine Learning might involve:
      * however, a better method is splitting the dataset into 3 parts: training part/cross validation part (development part)/ test set
           * e.g. training set 60%, cross validation 20%, test set 20% of the dataset and you can evaluate and compute the cross validation error too
           * Cross-validation provides a more reliable estimate of a model's performance by using different subsets of data for training and testing. This helps ensure that the evaluation is not overly dependent on a specific random split of data
-* Compute the test error to understand how well the ML model is performing on the test part of the dataset
+* Compute the test error to report the model's generalization error and to understand how well the ML model is performing on the test part of the dataset
      * You can also compute the training error, although the test error would be more useful for judging how well the model can generalize to new data
 * When selecting a model, you want to choose one that performs well both on the training and cross validation set. It implies that it is able to learn the patterns from your training set without overfitting 
 
