@@ -187,17 +187,17 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 
 # Bias vs. Variance
 
-**Bias**: The assumptions taken by the model in order to predict the target function (mapping function)
-* Low Bias: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
-* High Bias: number of assumptions is large (e.g., Linear Regression, Logistic Regression)
+`Bias`: The assumptions taken by the model in order to predict the target function (mapping function)
+* **Low Bias**: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
+* **High Bias**: number of assumptions is large (e.g., Linear Regression, Logistic Regression) --> `underfit` (underfits the dataset)
 
-**Variance**: The amount of change in the mapping function when then training data changes
-* Low Variance: Amount of change is small (e.g., Linear Regression, Logistic Regression)
-* High Variance: Amount of change is large (e.g., Decision Trees, KNN, SVM)
+`Variance`: The amount of change in the mapping function when then training data changes
+* **Low Variance**: Amount of change is small (e.g., Linear Regression, Logistic Regression)
+* **High Variance**: Amount of change is large (e.g., Decision Trees, KNN, SVM) --> `overfit` (overfits the dataset)
 
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
-Hence there is a "bias-variance trade-off" relationship, i.e. bias cannot be reduced or increased without the opposite effect of variance, and vice versa.
+Ideally, we'd like to have both high bias and high variance, but there's always a "bias-variance trade-off" relationship found, i.e. bias cannot be reduced or increased without the opposite effect of variance, and vice versa.
 
 -------------------------------------------------
 
