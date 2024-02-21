@@ -197,7 +197,7 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
-There is always a monotonic relationship between bias and variance. The former cannot be reduced or increased without the opposite effect of the latter.
+Hence there is a "bias-variance trade-off" relationship, i.e. bias cannot be reduced or increased without the opposite effect of variance, and vice versa.
 
 -------------------------------------------------
 
