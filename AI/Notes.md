@@ -197,7 +197,7 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
-Ideally, we'd like to both low bias and variance, but there's always a "bias-variance trade-off" relationship found, i.e. bias cannot be reduced or increased without the opposite effect of variance, and vice versa. Since the ideal case is not feasible, we seek the situation where both bias and variance are somewhere in the middle. As a result, the goal is to achieve a balance between bias and variance to build a model that generalizes well to unseen data.
+Ideally, we'd like to have both low bias and variance, but there's always a "bias-variance trade-off" relationship found, i.e. bias cannot be reduced or increased without the opposite effect of variance, and vice versa. Since the ideal case is not feasible, we seek the situation where both bias and variance are somewhere in the middle. As a result, the goal is to achieve a balance between bias and variance to build a model that generalizes well to unseen data.
 * We want low bias: so that the model is flexible enough to capture the underlying patterns in the training data
 * We want low variance: so that the model is not too sensitive to the specific training data and can generalize well to new unseen data
 
