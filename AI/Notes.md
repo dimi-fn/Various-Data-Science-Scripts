@@ -201,6 +201,10 @@ Ideally, we'd like to have both low bias and variance, but there's always a "bia
 * We want low bias: so that the model is flexible enough to capture the underlying patterns in the training data
 * We want low variance: so that the model is not too sensitive to the specific training data and can generalize well to new unseen data
 
+Reminder that:
+* `Overfitting` the dataset: high variance and low bias
+* `Underfitting` the dataset: high bias and low variance
+
 -------------------------------------------------
 
 # Gradient Descent & Optimization Algorithms
