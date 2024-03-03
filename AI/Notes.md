@@ -190,10 +190,18 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 `Bias`: The assumptions taken by the model in order to predict the target function (mapping function)
 * **Low Bias**: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
 * **High Bias**: number of assumptions is large (e.g., Linear Regression, Logistic Regression) --> `underfit` (underfits the dataset) --> the model is not even doing well in the training set
+     * Solutions to fix the high variance problem:
+          * incorporate additional features
+          * try adding polynomial features
+          * try decreasing the regularization parameter λ
 
 `Variance`: The amount of change in the mapping function when then training data changes
 * **Low Variance**: Amount of change is small (e.g., Linear Regression, Logistic Regression)
 * **High Variance**: Amount of change is large (e.g., Decision Trees, KNN, SVM) --> `overfit` (overfits the dataset, i.e. the model is worse in the cross validation set than the training set (cross validation error >> training error), or in other words, the model is very good at the data that has seen, but not in the data that it hasn't seen)
+     * Solutions to fix the high variance problem: 
+          * get more training examples
+          * try smaller set of features
+          * try increasing the regularization parameter λ
 
 Linear ML algorithms can often be trained fast (high bias <==> many assumptions), however with the downside of less flexibility in that they may not respond correctly when training data alters (low variance). On the other, non-linear ML models will often respond well to a change of the training dataset (high variance), however, with the `trade-off` of low bias.
 
