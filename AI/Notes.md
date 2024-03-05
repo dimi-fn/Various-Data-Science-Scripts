@@ -22,7 +22,7 @@ Contents
      * [Regularization](#regularization)
 * [Model Evaluation & Selection](#model-evaluation--selection)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
-* [ML Development](#ml-development)
+* [ML Development](#ml-development--cycle)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Back Propagation](#forward--back-propagation)
