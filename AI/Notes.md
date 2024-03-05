@@ -22,7 +22,7 @@ Contents
      * [Regularization](#regularization)
 * [Model Evaluation & Selection](#model-evaluation--selection)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
-* [ML Development & Cycle](#ml-development--cycle)
+* [ML Development Process & Cycle](#ml-development-process--cycle)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Back Propagation](#forward--back-propagation)
@@ -374,7 +374,7 @@ Feature Engineering in Machine Learning might involve:
 
 -------------------------------------------------
 
-# ML Development & Cycle
+# ML Development Process & Cycle
 
 * Scope project
 * Collect data
@@ -391,7 +391,13 @@ Feature Engineering in Machine Learning might involve:
           * Supervised pre-training
           * Fine-tuning
 * Deploy in production
-     * You might need to go back to the 2nd step of collecting data
+     * You might need to go back to the 2nd step of collecting data and iterate again
+* MLOps (ML Operations)
+     * Ensure reliable and efficient predictions
+     * Scaling
+     * Logging
+     * System monitoring
+     * Model Updates     
 
 -------------------------------------------------
 
