@@ -22,6 +22,7 @@ Contents
      * [Regularization](#regularization)
 * [Model Evaluation & Selection](#model-evaluation--selection)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
+* [ML Development](#ml-development)
 * [Deep Learning](#deep-learning)
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Back Propagation](#forward--back-propagation)
@@ -370,6 +371,15 @@ Feature Engineering in Machine Learning might involve:
 ## Decision Boundaries
 
 * The `decision boundary` represents the threshold at which a model makes predictions about the class to which a new input belongs. Instances on one side of the decision boundary are assigned to one class, while instances on the other side are assigned to a different class. The goal of a ML training model is to find the optimal decision boundary that minimizes classification errors and generalizes well to new unseen data.
+
+-------------------------------------------------
+
+# ML Development
+
+* Choose architecture (model, data, etc.)
+* Iterative process loop 
+     * Train model
+     * Model diagnostics (bias, variance, and error analysis)
 
 -------------------------------------------------
 
