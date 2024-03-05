@@ -374,12 +374,24 @@ Feature Engineering in Machine Learning might involve:
 
 -------------------------------------------------
 
-# ML Development
+# ML Development & Cycle
 
+* Scope project
+* Collect data
 * Choose architecture (model, data, etc.)
 * Iterative process loop 
-     * Train model
-     * Model diagnostics (bias, variance, and error analysis)
+     * Train the model (training process)
+          * Conduct model diagnostics (bias, variance, and error analysis) & iterative improvement
+               * Error analysis in ML involves examining and understanding the mistakes made by a model to improve its performance. It includes identifying the types of errors (false positives, false negatives, etc.), analyzing patterns in misclassifications, and determining the root causes of inaccuracies. In this way we can make adjustments, refine the algorithm, or gather more relevant data to enhance overall accuracy and effectiveness. Essentially, error analysis helps fine-tune the ML model for better results.
+     * Adding data
+          * Data of the types where error analysis has indicated it might help
+          * Data augmentation
+               * Modifying an existing training example to create new training example (e.g. rotating the images that are the inputs of the training set)
+     * Transfer Learning
+          * Supervised pre-training
+          * Fine-tuning
+* Deploy in production
+     * You might need to go back to the 2nd step of collecting data
 
 -------------------------------------------------
 
