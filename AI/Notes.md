@@ -121,16 +121,16 @@ While multiple linear regression assumes a linear relationship between the targe
 
 ### Decision Trees
 
-Decision trees in machine learning are like flowcharts used for decision-making. They are a type of model that learns from data to make predictions or decisions. 
+Decision trees in ML are like flowcharts used for decision-making. They are a type of model that learns from data to make predictions or decisions. 
 * `Purity`
      * Definition: Purity measures how homogenous or pure a node is in terms of the target variable. A node is pure if all the data points within it belong to the same class or category.
-     * Example: In an email spam classification task, if a node contains only spam emails, it is considered pure. All the emails within that node belong to the same class (spam), indicating high purity.
+          * Example: In an email spam classification task, if a node contains only spam emails, it is considered pure. All the emails within that node belong to the same class (spam), indicating high purity.
 * `Impurity`
      * Definition: Impurity is the opposite of purity and reflects the level of mixture or heterogeneity in a node. Nodes with mixed classes have higher impurity.
-     * Example: In a movie genre classification task, if a node contains a mix of action and drama movies, it is considered impure. The node is heterogeneous, containing samples from different classes (action and drama).
+          * Example: In a movie genre classification task, if a node contains a mix of action and drama movies, it is considered impure. The node is heterogeneous, containing samples from different classes (action and drama).
 * `Entropy`
-     * Definition: Entropy is a measure of disorder or uncertainty in a set of data. In decision trees, it is used as a criterion to determine the best way to split nodes.
-     * Example: In a weather prediction task, if a node contains a mix of sunny, cloudy, and rainy days, it has high entropy. The node is more disorderly and uncertain because it includes samples from different classes (weather conditions).
+     * Definition: Entropy is a measure of disorder or uncertainty in a set of data (i.e. a measure of impurity). In decision trees, it is used as a criterion to determine the best way to split nodes.
+          * Example: In a weather prediction task, if a node contains a mix of sunny, cloudy, and rainy days, it has high entropy. The node is more disorderly and uncertain because it includes samples from different classes (weather conditions).
 
 -------
 
