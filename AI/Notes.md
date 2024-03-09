@@ -10,6 +10,7 @@ Contents
           * [Types of Supervised Learning Algorithms](#types-of-supervised-learning-algorithms)
                * [Regression](#regression)
                * [Classification](#classification)
+          * [Decision Trees](#decision-trees)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
      * [Common Notation in ML](#common-notation-in-ml)
@@ -118,6 +119,21 @@ While multiple linear regression assumes a linear relationship between the targe
 
 -------
 
+### Decision Trees
+
+Decision trees in machine learning are like flowcharts used for decision-making. They are a type of model that learns from data to make predictions or decisions. 
+* `Purity`
+     * Definition: Purity measures how homogenous or pure a node is in terms of the target variable. A node is pure if all the data points within it belong to the same class or category.
+     * Example: In an email spam classification task, if a node contains only spam emails, it is considered pure. All the emails within that node belong to the same class (spam), indicating high purity.
+* `Impurity`
+     * Definition: Impurity is the opposite of purity and reflects the level of mixture or heterogeneity in a node. Nodes with mixed classes have higher impurity.
+     * Example: In a movie genre classification task, if a node contains a mix of action and drama movies, it is considered impure. The node is heterogeneous, containing samples from different classes (action and drama).
+* `Entropy`
+     * Definition: Entropy is a measure of disorder or uncertainty in a set of data. In decision trees, it is used as a criterion to determine the best way to split nodes.
+     * Example: In a weather prediction task, if a node contains a mix of sunny, cloudy, and rainy days, it has high entropy. The node is more disorderly and uncertain because it includes samples from different classes (weather conditions).
+
+-------
+
 ## Unsupervised Learning
 While in supervised learning the model learns from data labeled with the "right answers" and comes with inputs **x** (features), in **unsupervised** learning the data comes only with inputs **x** without the **y** outputs, and we are trying to find out insteresting patterns structured in a particular dataset (without having existing labels in the dataset)
 
@@ -182,7 +198,11 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 ## Logistic Regression
 * In logistic regression, the cost function is the Cross-Entropy Loss (`Log Loss`), also known as the `logistic loss function`, which is more suitable for the categorization task where the target is 0 or 1 rather than any number as in linear regression.
 * The square root is not a good cost function in logistic regression because it doesn't exhibit the convex properties needed for efficient optimization, leading to multiple local minima and making it difficult to find the global minimum efficiently. However, by using the loss function, the overall cost function will get convex, and hence, we can use the gradient descent to take us to the global minimum.
-* `Evaluation metrics`: The common evaluation metrics for logistic regression include Accuracy (the proportion of correctly classified instances), Precision, Recall, and F1 Score.
+* `Evaluation metrics`: The common evaluation metrics for logistic regression include Accuracy (the proportion of correctly classified instances), Precision, Recall, and F1 Score (the harmonic mean of precision and recall).
+     * `Precision`: (true positives) / (total predicted positive)
+     * `Recall`: (true positives) / (total actual positive)
+          * `Precision and recall trade-off`: The tradeoff occurs because improving one metric often comes at the expense of the other. If you increase precision (be more selective in predicting positives), you might miss some actual positives, leading to a lower recall. Conversely, if you aim for higher recall (capture more actual positives), you might also get more false positives, reducing precision.
+               * Finding the right balance depends on the specific goals of your model and the consequences of false positives and false negatives in your application. Adjusting the model's threshold or using techniques like *precision-recall curves* can help strike an appropriate balance based on the priorities of your particular problem.
 
 -------------------------------------------------
 
@@ -342,9 +362,11 @@ Feature Engineering in Machine Learning might involve:
 # Model Evaluation & Selection
 
 * Split the dataset into a training and a test set
-     * however, a better method is splitting the dataset into 3 parts: training part/cross validation part (development part)/ test set
-          * e.g. training set 60%, cross validation 20%, test set 20% of the dataset and you can evaluate and compute the cross validation error too
-          * Cross-validation provides a more reliable estimate of a model's performance by using different subsets of data for training and testing. This helps ensure that the evaluation is not overly dependent on a specific random split of data
+     * Use the training data to fit the model parameters **w** and **b**
+     * Use the test data to evaluate the model on *new* data
+          * However, a better method is splitting the dataset into 3 parts: training part/cross validation part (development part)/ test set, where the cross validation data is used to tune other model parameters like degree of polynomial, regularization or the architecture of a neural network.
+               * e.g. training set 60%, cross validation 20%, test set 20% of the dataset and you can evaluate and compute the cross validation error too
+               * Cross-validation provides a more reliable estimate of a model's performance by using different subsets of data for training and testing. This helps ensure that the evaluation is not overly dependent on a specific random split of data
 * Compute the test error to report the model's generalization error and to understand how well the ML model is performing on the test part of the dataset
      * You can also compute the training error, although the test error would be more useful for judging how well the model can generalize to new data
 * When selecting a model, you want to choose one that performs well both on the training and cross validation set. It implies that it is able to learn the patterns from your training set without overfitting 
@@ -376,13 +398,14 @@ Feature Engineering in Machine Learning might involve:
 
 # ML Development Process & Cycle
 
-* Scope project
-* Collect data
+* `Scope project`
+* `Collect data`
 * Choose architecture (model, data, etc.)
 * Iterative process loop 
-     * Train the model (training process)
+     * `Train model` (training process)
           * Conduct model diagnostics (bias, variance, and error analysis) & iterative improvement
                * Error analysis in ML involves examining and understanding the mistakes made by a model to improve its performance. It includes identifying the types of errors (false positives, false negatives, etc.), analyzing patterns in misclassifications, and determining the root causes of inaccuracies. In this way we can make adjustments, refine the algorithm, or gather more relevant data to enhance overall accuracy and effectiveness. Essentially, error analysis helps fine-tune the ML model for better results.
+          * Audit the model for fairness, bias, and ethis (if and where applicable)
      * Adding data
           * Data of the types where error analysis has indicated it might help
           * Data augmentation
@@ -390,7 +413,7 @@ Feature Engineering in Machine Learning might involve:
      * Transfer Learning
           * Supervised pre-training
           * Fine-tuning
-* Deploy in production
+* `Deploy in production`
      * You might need to go back to the 2nd step of collecting data and iterate again
 * MLOps (ML Operations)
      * Ensure reliable and efficient predictions
