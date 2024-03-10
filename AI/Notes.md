@@ -172,9 +172,15 @@ While in supervised learning the model learns from data labeled with the "right 
      * Takes data without labels and tries to automatically group them into clusters
           * Application examples: grouping similar news, market segmentation
      * K-means is a simple and widely used clustering algorithm in ML
-          * K-means is commonly used in customer segmentation, image compression, and data preprocessing for other machine learning algorithms.
+          * Application examples: customer segmentation, image compression, and data preprocessing for other machine learning algorithms.
 * `Anomaly detection`     
      * Finds unusual data points
+     * More specifically, it is the process of identifying patterns or instances that deviate.significantly from the expected or normal behavior in a dataset. The goal is to detect rare events or unusual patterns that may indicate potential issues, fraud, errors, or outliers. Any data point or pattern that significantly differs from the learned normal behavior is flagged as an anomaly (e.g using statistical measures to identify data points that deviate significantly from the mean or follow a different distribution)
+          * Application examples: 
+               * Fraud Detection: Detecting unusual financial transactions that may indicate fraudulent activity.
+               * Manufacturing Quality Control: Detecting defective products on a production line by identifying anomalies in measurements.
+               * Predictive Maintenance: Identifying anomalies in equipment sensor data to predict and prevent mechanical failures.
+               * Network security, health monitoring
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
 
