@@ -14,6 +14,7 @@ Contents
           * [Decision Trees](#decision-trees)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
+     * [Reinforcement Learning](#reinforcement-learning)
 * [Cost & Loss Function](#cost--loss-function)
 * [Bias vs. Variance](#bias-vs-variance)
 * [Gradient Descent & Optimization Algorithms](#gradient-descent--optimization-algorithms)
@@ -169,10 +170,21 @@ While in supervised learning the model learns from data labeled with the "right 
 
 * `Clustering`
      * Takes data without labels and tries to automatically group them into clusters
+          * Application examples: grouping similar news, market segmentation
+     * K-means is a simple and widely used clustering algorithm in ML
+          * K-means is commonly used in customer segmentation, image compression, and data preprocessing for other machine learning algorithms.
 * `Anomaly detection`     
      * Finds unusual data points
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
+
+-------------------------------------------------
+
+# Reinforcement Learning    
+
+* Reinforcement learning is a type of learning where an agent interacts with an environment and learns to make decisions by receiving feedback in the form of rewards or punishments
+* The agent takes actions in the environment, and based on the outcomes of those actions, it adjusts its behavior to maximize cumulative rewards over time.
+* Reinforcement learning involves learning from trial and error, exploration, and optimization of a policy that maps states to actions.
 
 -------------------------------------------------
 
