@@ -4,6 +4,7 @@ Contents
 =======================
 
 * [Definition of Machine Learning (ML)](#definition-of-machine-learning-ml)
+* [Common Notation in ML](#common-notation-in-ml)
 * [Types of ML](#types-of-ml)
 * [Types of ML Algorithms](#types-of-ml-algorithms)
      * [Supervised Learning](#supervised-learning)
@@ -13,7 +14,6 @@ Contents
           * [Decision Trees](#decision-trees)
      * [Unsupervised Learning](#unsupervised-learning)
           * [Types of Unsupervised Learning Algorithms](#types-of-usupervised-learning-algorithms)
-     * [Common Notation in ML](#common-notation-in-ml)
 * [Cost & Loss Function](#cost--loss-function)
 * [Bias vs. Variance](#bias-vs-variance)
 * [Gradient Descent & Optimization Algorithms](#gradient-descent--optimization-algorithms)
@@ -36,6 +36,27 @@ Contents
 There are various definitions of Machine Learning (ML), one of those is that ML is considered a "Field of study that gives computers the ability to learn without being explicitly programmed" (Arthur Samuel, 1959).
 
 -------------------------------------------------
+
+# Common Notation in ML
+
+| Symbol |  Description | Common Python Variables|
+|-----------|------------|----------------------|
+| a   | scalar (non bold) | |
+| **a**   | vector (bold) | |
+| x   | input variable (the input feature) | x_train|
+| y   | output variable (the predicted target) | y_train|
+| m   | number of training examples from training set | m|
+| n   | number of features in the training set | |
+| w   | paremeter: weight |w |
+| b   | parameter: bias | b|
+| (x,y)   | single training example | |
+| (x<sup>(i)</sup>, y<sup>(i)</sup>) | i<sup>th</sup> training example | x_i, y_i |
+| (x<sup>(2)</sup>, y<sup>(2)</sup>) | the 2nd feature (input), not the exponent, from the training set, the 2nd target (output) from the training set ||
+| f<sub>w,b</sub>(x) = wx+b = y, or simply f(x) = wx+b = y | function that takes `x` as input, and depending on the values of w and b, it will predict wx+b | |
+
+<br>
+
+attributes == features == predictors vs target variables == labels
 
 # Types of ML
 
@@ -122,6 +143,7 @@ While multiple linear regression assumes a linear relationship between the targe
 ### Decision Trees
 
 Decision trees in ML are like flowcharts used for decision-making. They are a type of model that learns from data to make predictions or decisions. 
+Decision trees work well on tabular (structured) data in ML (not unstructured, like images, audio, or text), however, in neural networks, they work well on all types of data.
 * `Purity`
      * Definition: Purity measures how homogenous or pure a node is in terms of the target variable. A node is pure if all the data points within it belong to the same class or category.
           * Example: In an email spam classification task, if a node contains only spam emails, it is considered pure. All the emails within that node belong to the same class (spam), indicating high purity.
@@ -129,8 +151,10 @@ Decision trees in ML are like flowcharts used for decision-making. They are a ty
      * Definition: Impurity is the opposite of purity and reflects the level of mixture or heterogeneity in a node. Nodes with mixed classes have higher impurity.
           * Example: In a movie genre classification task, if a node contains a mix of action and drama movies, it is considered impure. The node is heterogeneous, containing samples from different classes (action and drama).
 * `Entropy`
-     * Definition: Entropy is a measure of disorder or uncertainty in a set of data (i.e. a measure of impurity). In decision trees, it is used as a criterion to determine the best way to split nodes.
+     * Definition: Entropy is a measure of disorder or uncertainty in a set of data (i.e. a **measure of impurity**). In decision trees, it is used as a criterion to determine the best way to split nodes.
           * Example: In a weather prediction task, if a node contains a mix of sunny, cloudy, and rainy days, it has high entropy. The node is more disorderly and uncertain because it includes samples from different classes (weather conditions).
+* `Information gain`: Information gain in decision trees is a measure used to determine the effectiveness of a particular attribute in splitting the data into classes. It helps the algorithm decide which feature to choose at each node to create the most useful and efficient splits.
+* `Tree ensembles`: Models that combine multiple individual decision trees to improve predictive performance and robustness. The 2 most common types of tree ensembles are *Random Forests* and *Gradient Boosted Trees* (XGBoost for efficient implementation of gradient boosting)
 
 -------
 
@@ -149,27 +173,6 @@ While in supervised learning the model learns from data labeled with the "right 
      * Finds unusual data points
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
-
-## Common Notation in ML
-
-| Symbol |  Description | Common Python Variables|
-|-----------|------------|----------------------|
-| a   | scalar (non bold) | |
-| **a**   | vector (bold) | |
-| x   | input variable (the input feature) | x_train|
-| y   | output variable (the predicted target) | y_train|
-| m   | number of training examples from training set | m|
-| n   | number of features in the training set | |
-| w   | paremeter: weight |w |
-| b   | parameter: bias | b|
-| (x,y)   | single training example | |
-| (x<sup>(i)</sup>, y<sup>(i)</sup>) | i<sup>th</sup> training example | x_i, y_i |
-| (x<sup>(2)</sup>, y<sup>(2)</sup>) | the 2nd feature (input), not the exponent, from the training set, the 2nd target (output) from the training set ||
-| f<sub>w,b</sub>(x) = wx+b = y, or simply f(x) = wx+b = y | function that takes `x` as input, and depending on the values of w and b, it will predict wx+b | |
-
-<br>
-
-attributes == features == predictors vs target variables == labels
 
 -------------------------------------------------
 
