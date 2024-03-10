@@ -181,6 +181,7 @@ While in supervised learning the model learns from data labeled with the "right 
                * Manufacturing Quality Control: Detecting defective products on a production line by identifying anomalies in measurements.
                * Predictive Maintenance: Identifying anomalies in equipment sensor data to predict and prevent mechanical failures.
                * Network security, health monitoring
+     * Anomaly detection vs Supervised learning: Use supervised learning when you have labeled data and want to make predictions on new instances. Use anomaly detection when your emphasis is on finding rare or abnormal patterns in the absence of labeled anomalies
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
 
