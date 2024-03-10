@@ -184,6 +184,8 @@ While in supervised learning the model learns from data labeled with the "right 
      * Anomaly detection vs Supervised learning: Use supervised learning when you have labeled data and want to make predictions on new instances. Use anomaly detection when your emphasis is on finding rare or abnormal patterns in the absence of labeled anomalies
 * `Dimensionality Reduction`     
      * Compresses data using fewer numbers
+     * **Principal Component Analysis** (**PCA**) is commonly used for dimensionality reduction and feature extraction in various applications, such as data visualization and noise reduction.
+          * In PCA, the algorithm identifies the principal components in the data, which are the directions in which the data varies the most. It doesn't rely on labeled output data; instead, it focuses on finding patterns and reducing the dimensionality of the feature space
 
 -------------------------------------------------
 
