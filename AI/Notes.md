@@ -191,9 +191,22 @@ While in supervised learning the model learns from data labeled with the "right 
 
 # Reinforcement Learning    
 
-* Reinforcement learning is a type of learning where an agent interacts with an environment and learns to make decisions by receiving feedback in the form of rewards or punishments
-* The agent takes actions in the environment, and based on the outcomes of those actions, it adjusts its behavior to maximize cumulative rewards over time.
+* Reinforcement learning (RL) is a type of learning where an **agent** interacts with an environment and learns to make decisions by receiving feedback in the form of rewards or punishments
+* The agent takes **actions** in the environment, and based on the outcomes of those actions, it adjusts its behavior to maximize cumulative **rewards** over time.
 * Reinforcement learning involves learning from trial and error, exploration, and optimization of a policy that maps states to actions.
+     * `Actions` represent the decisions or moves that an agent can take in a given environment
+          * Role: The agent chooses actions to transition from one state to another and influences the outcomes or rewards it receives.
+          * Example: In a game of chess, possible actions for an agent might include moving a specific chess piece to a valid position.
+     * `State`: The state describes the current situation or configuration of the environment.
+          Role: It captures all relevant information needed for decision-making at a given time.
+          Example: In a robotic navigation task, the state might include the robot's current position, orientation, and the positions of obstacles.
+* The **Bellman equation** in reinforcement learning is a fundamental concept that describes the relationship between the value of a state or state-action pair and the expected future rewards.
+* The goal of RC is to find a `policy` (π) that tells you what action to take in every state so as to maximize the return
+* Application examples: 
+     * Autonomous Vehicles: Self-Driving Cars: RL is used to train autonomous vehicles to make decisions in dynamic traffic scenarios.
+     * Recommendation Systems: Content Recommendations: RL is used in recommendation systems to provide personalized content recommendations based on user interactions.
+     * Robotic Control: RL is applied to teach robots how to perform tasks like grasping objects, walking, and navigating in real-world environments.
+     * Game playing, financial trading, healthcare, resource management, and other applications.
 
 -------------------------------------------------
 
