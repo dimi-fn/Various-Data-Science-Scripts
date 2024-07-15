@@ -18,10 +18,13 @@ Contents
 * [Cost & Loss Function](#cost--loss-function)
 * [Bias vs. Variance](#bias-vs-variance)
 * [Gradient Descent & Optimization Algorithms](#gradient-descent--optimization-algorithms)
+* [Data Pre-processing](#data-pre--processing)
 * [ML Techniques](#ml-techniques)
      * [Vectorization](#vectorization)
-     * [Feature Engineering](#feature-engineering)
      * [Regularization](#regularization)
+     * [Data preprocessing](#data-preprocessing)
+          * [Data Cleaning](#data-cleaning)
+          * [Data Engineering](#data-engineering)
 * [Model Evaluation & Selection](#model-evaluation--selection)
 * [Activation Functions & Decision Boundaries](#activation-functions--decision-boundaries)
 * [ML Development Process & Cycle](#ml-development-process--cycle)
@@ -303,6 +306,12 @@ Adam (short for Adaptive Moment Estimation) is an optimization algorithm commonl
 
 -------------------------------------------------
 
+# Data Pre-processing
+
+
+
+-------------------------------------------------
+
 # ML Techniques
  
 ## Vectorization
@@ -374,23 +383,41 @@ Regularization techniques can be used to tackle common problems in ML, e.g. to r
 
 -------------------------------------------------
 
-## Feature Engineering
+## Data Preprocessing
 
-Feature Engineering in Machine Learning might involve: 
+### Data Cleaning
+* `Remove duplicates`
+     * Identify and remove duplicate rows to avoid redundant data.
+* `Handle missing values`
+     * Fill missing values with appropriate substitutes (mean, median, mode, or a placeholder).
+     * Alternatively, remove rows or columns with too many missing values.     
+* `Correct errors`
+     * Fix typos, inconsistent formatting, incorrect data entries.  
+* `Standardize data types`
+     * Ensure all columns have the correct data types (e.g., integers, floats, dates, etc).        
+* `Outliers`
+     * Identify and handle outliers that could skew the data analysis.
 
-* `Feature Scaling`
-     * Feature scaling is a technique used to standardize or normalize the range of values in different features of the ML dataset. It typically involves transforming the data so that it falls within a specific range, e.g. between 0 and 1 or -1 and 1. 
-     * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
-          * ways to rescale the features: 
-               * `standardization (z-score normalization)`
-                    * After a **z-score normalization** implementation, all features will have a mean of 0 and a standard deviation of 1. 
-               * `mean normalization`
-               * `divide features by their max values` and use that range of values instead
-                    * as a rule of thumb, keep the range of your features between [0, 1] or [-1, 1]. You don't want the range to be too large e.g. [60, 1053], or too small e.g [0.001, 0.01]
-          * note: when you the model on scaled values, you should also feed in the scaled training set instead of its raw values, by using the same scaling method used in the training set
-* `Feature Extraction`    
-     * Feature extraction involves creating new features from existing column variables, by either transforming or combining the original features to create new ones. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
-          * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
+### Data Engineering 
+* `Encode categorical variables`
+     * Convert categorical variables into numerical format using techniques like one-hot encoding or label encoding.                    
+* `Feature Engineering`
+     * `Feature scaling`
+          * Normalize or standardize features to ensure they are on the same scale.    
+               * **Normalization**: Scales data to fit within a specific range, usually  between 0 and 1 or -1 and 1.
+                    * It ensures that all features contribute equally to the learning process, meaning that all features have comparable value ranges. For instance, in a housing dataset, the scale of a column representing the number of bedrooms can be significantly different from the scale of a column representing the size of the house in square feet, hence we want to rescale them suitably.
+                         * Example: If you have exam scores ranging from 0 to 100, you might normalize them to be between 0 and 1 for a machine learning algorithm that needs data in this range.
+               * **Standardization**: Transforms data so that it has a mean of 0 and a standard deviation of 1.
+                    * Example: If you have heights of people measured in centimeters, standardizing them helps if you need the data to have a consistent scale and eliminate units' effect.
+                         * Normalization is ideal when you need data within a specific range and want to preserve the relative scale.
+                         * Standardization is better when you need data with a consistent scale and zero mean, particularly for algorithms that assume a normal distribution or require data centered around zero.
+     * `Feature extraction`    
+          * Feature extraction involves creating new features from existing column variables, by either transforming or combining the original features to create new ones. These new features may either replace the original ones during machine learning model training or be added to the dataset to enhance the model's understanding of the data (acting as better predictors in the model from the existing ones).
+               * E.g. a car's mileage may exhibit a strong correlation with its age. In such a scenario, you can introduce a new feature, like a "wear and tear" variable, into the dataset. This additional feature has the potential to enhance the model's understanding and improve its performance in generating more accurate output results.
+     * `Feature selection`
+          * Select relevant features and remove irrelevant or redundant ones to improve model performance.
+* `Data splitting`
+     * Split the data into training, validation, and test sets to evaluate the model's performance.
 
 **Notes**: Feature engineering should be implemented not only in the training set but also in the test set for **consistency** and **generalization**. For instance, if you normalize the feature values in the training set, you should apply the same normalization to the test set. This ensures that the data presented in the test set maintains the same format as the training set (*consistency*). Additionally, this practice ensures that predictions made on the test set can be considered generalizable (*generalization*).
 
