@@ -1,6 +1,8 @@
 ## Data_Types_&_Structures
 
-[Shared colab notebook](https://colab.research.google.com/drive/14fvV4towI_jA5cYneD4cOArsPU9bcxR8?usp=sharing)
+[Shared colab notebook](https://colab.research.google.com/drive/1D3aEMyAyA3lp1rbxjQ5irMSGbARUPELm)
+
+* [Statistics/Data Types](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Maths%20-%20Statistics/Statistics#data-types)
 
 [Data Structures with Python by codewithtomi.com](https://www.dropbox.com/s/bpof9qic77kjlfj/PYTHON%20DATA%20STRUCTURES%20%281%29.pdf?dl=0)
 
