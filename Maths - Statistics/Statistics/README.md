@@ -72,7 +72,7 @@ Because the sample means are distributed normally (based on the CTL), it is alwa
 
 # Data Types
 
-## Quantitative data (numeric data types)
+## Quantitative data (numerical data types)
 
 * `Discrete data`
      * e.g., the number of students in a class, the number of employees in a compary
