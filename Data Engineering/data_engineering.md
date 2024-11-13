@@ -281,4 +281,4 @@ Key components include:
 -----------------------------------------------------------------------
 
 # Evaluation of Data Observability Tools
-* https://www.dataengineeringweekly.com/p/evaluating-data-observability-tools?publication_id=73271&post_id=149037505&isFreemail=true&r=i0gax&triedRedirect=true&utm_source=substack&utm_medium=email
+* [Evaluating Data Observability Tools: A Comprehensive Guide](https://www.dataengineeringweekly.com/p/evaluating-data-observability-tools?publication_id=73271&post_id=149037505&isFreemail=true&r=i0gax&triedRedirect=true&utm_source=substack&utm_medium=email)
