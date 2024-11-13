@@ -17,6 +17,12 @@ Contents
 
 -----
 
+* [Data Engineering](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Data%20Engineering/data_engineering.md)
+
+Data lakehouse architecture, pipelines, data modeling
+
+-----
+
 * [Object-Oriented Programming (OOP)](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/OOP)
 
 Classes and objects, encapsulation, inheritance, polymorphism, and exception handling in Python.
