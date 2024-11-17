@@ -6,7 +6,7 @@ Topis and projects on Machine and Deep Learning.
 Contents 
 =======================
 
-* [Notes on Machine & Deep Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Notes.md)
+* [Notes on Machine & Deep Learning](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/ai_notes.md)
 * [Projects](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Projects)
 * [Interviews](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/AI/Interviews)    
 * [Data Cleaning & Preparation for ML - by Data Science Infinity](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/AI/Resources/Data_prep_cleaning_for_ML.pdf)
