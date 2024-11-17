@@ -251,7 +251,7 @@ The typical cost function for linear regression is the Mean Squared Error (`MSE`
 `Bias`: The assumptions taken by the model in order to predict the target function (mapping function)
 * **Low Bias**: number of assumptions is small (e.g., Decision Trees, KNN, SVM)
 * **High Bias**: number of assumptions is large (e.g., Linear Regression, Logistic Regression) --> `underfit` (underfits the dataset) --> the model is not even doing well in the training set
-     * Solutions to fix the high variance problem:
+     * Solutions to fix the high bias problem:
           * incorporate additional features
           * try adding polynomial features
           * try decreasing the regularization parameter λ
