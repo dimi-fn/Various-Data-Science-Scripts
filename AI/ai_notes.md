@@ -556,10 +556,6 @@ from tensorflow.keras.layers import Dense
 
 # Time Series Analysis & Forecasting
 
-* `Seasonality`
-* `Trends`
-* `Noise`
-
 `Predictability of an event or a value`
 * **Understanding of contributing factors**
 * **Availability of historical data**
@@ -571,6 +567,59 @@ from tensorflow.keras.layers import Dense
 * **Continuity of past patterns on trends**
      * Market trends, seasonal changes, and consistent consumer behaviors
 
+# Pumpkin Carriage Framework
+* `Trends`
+     * overall direction in which the date is heading over a long period of time
+* `Seasonality`
+     * what seasonality do the repeating patterns follow at regular intervals? 
+          * e.g., daily, weekly, monthly
+               * specific day(s) of week?
+               * specific month(s) of the year?
+* `Cycle`
+     * the flow of data that doesn't follow a strict timetable
+          * e.g. economic cycles with periods of economic growth followed by recessions
+* `Noise` (Irregular)
+     * unpredictable parts
+          * e.g. new law/regulations
+
+
+# Time Series Analysis Methods
+* Additive Decomposition
+* Multiplicative Decomposition
+
+# Time Series Analysis Methods
+
+## Additive Decomposition
+- **Additive decomposition** assumes that the time series can be expressed as the sum of its components:
+  \[
+  Y_t = T_t + S_t + E_t
+  \]
+  Where:
+  - \( Y_t \) is the observed time series value at time \( t \).
+  - \( T_t \) is the **trend** component, representing the long-term progression in the data.
+  - \( S_t \) is the **seasonal** component, capturing repeating fluctuations or cycles at regular intervals (e.g., yearly, monthly).
+  - \( E_t \) is the **error** or **residual** component, representing random noise or irregularities.
+
+- **Use Case**: This method is suitable when the seasonal fluctuations are roughly constant over time, and the trend does not multiply or interact with seasonal patterns.
+
+## Multiplicative Decomposition
+- **Multiplicative decomposition** assumes that the time series is the product of its components:
+  \[
+  Y_t = T_t \times S_t \times E_t
+  \]
+  Where:
+  - \( Y_t \) is the observed time series value at time \( t \).
+  - \( T_t \) is the **trend** component.
+  - \( S_t \) is the **seasonal** component.
+  - \( E_t \) is the **error** or **residual** component.
+
+- **Use Case**: This method is appropriate when the seasonal fluctuations increase or decrease proportionally with the trend, i.e., when the magnitude of seasonal variations grows as the trend increases (e.g., sales growth during peak seasons).
+
+---
+
+### Summary:
+- **Additive Decomposition** is used when the components are independent and sum up to form the observed series.
+- **Multiplicative Decomposition** is used when the components interact, with the trend and seasonal components multiplying each other.
 
 -------------------------------------------------
 
