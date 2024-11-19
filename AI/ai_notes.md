@@ -556,7 +556,20 @@ from tensorflow.keras.layers import Dense
 
 # Time Series Analysis & Forecasting
 
+* `Seasonality`
+* `Trends`
+* `Noise`
 
+`Predictability of an event or a value`
+* **Understanding of contributing factors**
+* **Availability of historical data**
+* **The influence of predictions on outcomes**
+
+`Key Conditions for effective Time Series Forecasting`
+* **Sufficient historical data**
+     * sales data, weather records, and financial performance
+* **Continuity of past patterns on trends**
+     * Market trends, seasonal changes, and consistent consumer behaviors
 
 
 -------------------------------------------------
