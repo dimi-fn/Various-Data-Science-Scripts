@@ -32,6 +32,7 @@ Contents
      * [Neural Network Layers](#neural-network-layers)
      * [Forward & Back Propagation](#forward--back-propagation)
      * [Tensorflow](#tensorflow) 
+* [Time Series Analysis & Forecasting](#time-series-analysis--forecasting)
 
 --------------------------------------------------------------------------------------------------
 
@@ -553,7 +554,15 @@ from tensorflow.keras.layers import Dense
 
 -------------------------------------------------
 
+# Time Series Analysis & Forecasting
+
+
+
+
+-------------------------------------------------
+
 Sources
 
 * [1] [Gentle Introduction to the Bias-Variance Trade-Off in Machine Learning - Jason Brownlee](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)
 * [2] [Machine Learning Specialization - by Andrew Ng](https://www.deeplearning.ai/courses/machine-learning-specialization/)
+
