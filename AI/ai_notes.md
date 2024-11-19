@@ -567,7 +567,7 @@ from tensorflow.keras.layers import Dense
 * **Continuity of past patterns on trends**
      * Market trends, seasonal changes, and consistent consumer behaviors
 
-# Pumpkin Carriage Framework
+## Pumpkin Carriage Framework
 * `Trends`
      * overall direction in which the date is heading over a long period of time
 * `Seasonality`
@@ -582,14 +582,11 @@ from tensorflow.keras.layers import Dense
      * unpredictable parts
           * e.g. new law/regulations
 
+-------------------------------
 
-# Time Series Analysis Methods
-* Additive Decomposition
-* Multiplicative Decomposition
+## Time Series Analysis Methods
 
-# Time Series Analysis Methods
-
-## Additive Decomposition
+### Additive Decomposition
 - **Additive decomposition** assumes that the time series can be expressed as the sum of its components:
   \[
   Y_t = T_t + S_t + E_t
@@ -602,7 +599,7 @@ from tensorflow.keras.layers import Dense
 
 - **Use Case**: This method is suitable when the seasonal fluctuations are roughly constant over time, and the trend does not multiply or interact with seasonal patterns.
 
-## Multiplicative Decomposition
+### Multiplicative Decomposition
 - **Multiplicative decomposition** assumes that the time series is the product of its components:
   \[
   Y_t = T_t \times S_t \times E_t
@@ -615,11 +612,11 @@ from tensorflow.keras.layers import Dense
 
 - **Use Case**: This method is appropriate when the seasonal fluctuations increase or decrease proportionally with the trend, i.e., when the magnitude of seasonal variations grows as the trend increases (e.g., sales growth during peak seasons).
 
----
+<br>
 
-### Summary:
-- **Additive Decomposition** is used when the components are independent and sum up to form the observed series.
-- **Multiplicative Decomposition** is used when the components interact, with the trend and seasonal components multiplying each other.
+`Summary`
+*  **Additive Decomposition** is used when the components are independent and sum up to form the observed series.
+* **Multiplicative Decomposition** is used when the components interact, with the trend and seasonal components multiplying each other.
 
 -------------------------------------------------
 
