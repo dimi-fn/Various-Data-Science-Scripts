@@ -620,6 +620,28 @@ from tensorflow.keras.layers import Dense
 
 -------------------------------------------------
 
+## Autocorrelation & Partial Autocorrelation for time series analysis
+
+## Stationarity vs non-Stationarity
+Stationarity and non-stationarity are concepts in time series analysis that describe the behavior of a dataset over time.
+
+### Stationarity
+* A time series is stationary if its statistical properties, like mean, variance, and autocorrelation, remain constant over time.
+* It looks stable and doesn't have trends or seasonal effects. For example, a series that fluctuates around a constant value is stationary.
+
+Example:
+If you record daily temperature deviations (how far it is from the average temperature) for a stable climate, the deviations might hover around 0, making the series stationary.
+
+### Non-Stationarity
+* A time series is non-stationary if its statistical properties change over time. This could be due to:
+     * Trends: A steady increase or decrease over time.
+     * Seasonality: Repeating patterns or cycles (e.g., monthly sales spikes).
+     * Changing variance: The fluctuations grow or shrink over time.
+Example:
+If you record daily average temperatures over a decade, a warming trend due to climate change would make the series non-stationary.
+
+-------------------------------------------------
+
 Sources
 
 * [1] [Gentle Introduction to the Bias-Variance Trade-Off in Machine Learning - Jason Brownlee](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)
