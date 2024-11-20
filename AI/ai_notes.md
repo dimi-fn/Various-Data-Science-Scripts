@@ -621,6 +621,22 @@ from tensorflow.keras.layers import Dense
 -------------------------------------------------
 
 ## Autocorrelation & Partial Autocorrelation for time series analysis
+* `Autocorrelation`
+     * **What it means**: Autocorrelation measures how a time series is related to its past values. For example, it tells you if today's temperature is related to yesterday's or last week's temperature.
+     * **Why it's useful**: It helps identify patterns like trends or seasonality (e.g., sales go up every December).
+     * **How it's visualized**: Using an Autocorrelation Function (ACF) plot, where each bar shows the correlation of the series with its past values at different time lags.
+
+* `Partial Autocorrelation`
+     * **What it means**: Partial autocorrelation focuses on the direct relationship between a time series and its past values, removing the effects of intermediate lags. For example:
+          * If today's sales are related to sales two days ago but not yesterday, partial autocorrelation isolates that direct relationship.
+     * **Why it's useful**: It helps determine the order of an AR (AutoRegressive) model by identifying which lags are most relevant.
+     * **How it's visualized**: Using a Partial Autocorrelation Function (PACF) plot, where each bar represents the partial correlation at a specific lag.
+
+`Key Differences`
+* ACF shows all correlations (direct and indirect) for each lag.
+* PACF shows only the direct effect of a lag after removing the influence of earlier lags.     
+
+-------------------------------------------------
 
 ## Stationarity vs non-Stationarity
 Stationarity and non-stationarity are concepts in time series analysis that describe the behavior of a dataset over time.
