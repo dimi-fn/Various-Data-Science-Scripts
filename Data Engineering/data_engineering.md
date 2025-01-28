@@ -112,7 +112,7 @@ C. `Data Security and Governance:`
 
 ### Best Practices for Optimizing Data Processing Jobs
 * `Partitioning`: Break large datasets into smaller chunks for parallel processing.
-* `Efficient` File Formats: Use optimized formats like Parquet or ORC for faster read/write operations.
+* `Efficient File Formats`: Use optimized formats like Parquet or ORC for faster read/write operations.
 * `Indexing`: Create indexes on frequently queried columns.
 * `Push Down Filters`: Apply filters at the source to reduce data transfer.
 * `Caching`: Cache intermediate results to avoid redundant computations.
