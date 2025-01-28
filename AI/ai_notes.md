@@ -33,7 +33,9 @@ Contents
      * [Forward & Back Propagation](#forward--back-propagation)
      * [Tensorflow](#tensorflow) 
 * [Time Series Analysis & Forecasting](#time-series-analysis--forecasting)
-
+     * [Pumpkin Carriage Framework](#pumpkin-carriage-framework)
+     * [Time Series Analysis Methods](#time-series-analysis-methods)
+     
 --------------------------------------------------------------------------------------------------
 
 # Definition of Machine Learning (ML)
@@ -620,7 +622,7 @@ from tensorflow.keras.layers import Dense
 
 -------------------------------------------------
 
-## Autocorrelation & Partial Autocorrelation for time series analysis
+### Autocorrelation & Partial Autocorrelation for time series analysis
 * `Autocorrelation`
      * **What it means**: Autocorrelation measures how a time series is related to its past values. For example, it tells you if today's temperature is related to yesterday's or last week's temperature.
      * **Why it's useful**: It helps identify patterns like trends or seasonality (e.g., sales go up every December).
@@ -638,17 +640,17 @@ from tensorflow.keras.layers import Dense
 
 -------------------------------------------------
 
-## Stationarity vs non-Stationarity
+### Stationarity vs non-Stationarity
 Stationarity and non-stationarity are concepts in time series analysis that describe the behavior of a dataset over time.
 
-### Stationarity
+#### Stationarity
 * A time series is stationary if its statistical properties, like mean, variance, and autocorrelation, remain constant over time.
 * It looks stable and doesn't have trends or seasonal effects. For example, a series that fluctuates around a constant value is stationary.
 
 Example:
 If you record daily temperature deviations (how far it is from the average temperature) for a stable climate, the deviations might hover around 0, making the series stationary.
 
-### Non-Stationarity
+#### Non-Stationarity
 * A time series is non-stationary if its statistical properties change over time. This could be due to:
      * Trends: A steady increase or decrease over time.
      * Seasonality: Repeating patterns or cycles (e.g., monthly sales spikes).
