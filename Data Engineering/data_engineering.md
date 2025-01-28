@@ -6,6 +6,7 @@ Contents
 * [Best Practises](#best-practices)
    * [Data Pipelines](#data-pipelines)
       * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-data-retention-and-storage-in-etl-platforms)
+      * [Future-Proof Your Data Pipelines](#)
    * [Code](#best-practices-in-general-code)
 * [Data Lakehouse Architecture](#data-lakehouse-architecture)
 * [Shuffling in ETL and Distributed Systems](#shuffling-in-etl-and-distributed-systems)
@@ -106,6 +107,9 @@ C. `Data Security and Governance:`
 * **Data Masking and Anonymization**:
    * If you're handling personally identifiable information (PII), apply anonymization or masking techniques to protect sensitive data.
    * This is especially important when sharing or retaining data for reporting or analytics purposes while complying with regulations like GDPR.
+
+### Future-Proof Your Data Pipelines
+* [How To Future-Proof Your Data Pipelines](https://www.ascend.io/blog/how-to-future-proof-your-data-pipelines/)
 
 ## Best Practices in General Code
 
