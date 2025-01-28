@@ -5,7 +5,7 @@ Contents
 ========================
 * [Best Practises](#best-practices)
    * [Data Pipelines](#data-pipelines)
-      * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-optimizing-data-processing-jobs)
+      * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-data-retention-and-storage-in-etl-platforms)
       * [Future-Proof Your Data Pipelines](#future-proof-your-data-pipelines)
       * [Best Practices for Optimizing Data Processing Jobs](#best-practices-for-optimizing-data-processing-jobs)
    * [Code](#best-practices-in-general-code)
