@@ -7,7 +7,7 @@ Contents
    * [Data Pipelines](#data-pipelines)
       * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-optimizing-data-processing-jobs)
       * [Future-Proof Your Data Pipelines](#future-proof-your-data-pipelines)
-      * [Best Practices for Optimizing Data Processing Jobs](#)
+      * [Best Practices for Optimizing Data Processing Jobs](#best-practices-for-optimizing-data-processing-jobs)
    * [Code](#best-practices-in-general-code)
 * [Data Lakehouse Architecture](#data-lakehouse-architecture)
 * [Shuffling in ETL and Distributed Systems](#shuffling-in-etl-and-distributed-systems)
