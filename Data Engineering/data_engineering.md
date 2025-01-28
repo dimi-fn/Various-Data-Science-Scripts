@@ -7,6 +7,7 @@ Contents
    * [Data Pipelines](#data-pipelines)
       * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-data-retention-and-storage-in-etl-platforms)
       * [Future-Proof Your Data Pipelines](#future-proof-your-data-pipelines)
+      * [Best Practices for Optimizing Data Processing Jobs](#)
    * [Code](#best-practices-in-general-code)
 * [Data Lakehouse Architecture](#data-lakehouse-architecture)
 * [Shuffling in ETL and Distributed Systems](#shuffling-in-etl-and-distributed-systems)
@@ -107,6 +108,19 @@ C. `Data Security and Governance:`
 * **Data Masking and Anonymization**:
    * If you're handling personally identifiable information (PII), apply anonymization or masking techniques to protect sensitive data.
    * This is especially important when sharing or retaining data for reporting or analytics purposes while complying with regulations like GDPR.
+
+
+### Best Practices for Optimizing Data Processing Jobs
+* `Partitioning`: Break large datasets into smaller chunks for parallel processing.
+* `Efficient` File Formats: Use optimized formats like Parquet or ORC for faster read/write operations.
+* `Indexing`: Create indexes on frequently queried columns.
+* `Push Down Filters`: Apply filters at the source to reduce data transfer.
+* `Caching`: Cache intermediate results to avoid redundant computations.
+* `Resource Allocation`: Right-size cluster resources (CPU, memory) for job needs.
+* `Code Optimization`: Minimize joins, shuffles, and unnecessary computations.
+* `Monitoring`: Use tools like Spark UI or Datadog to track and optimize performance bottlenecks.
+* `Compression`: Compress data to reduce storage and transfer costs.
+* `Incremental Processing`: Process only new or updated data.
 
 ### Future-Proof Your Data Pipelines
 * [How To Future-Proof Your Data Pipelines](https://www.ascend.io/blog/how-to-future-proof-your-data-pipelines/)
