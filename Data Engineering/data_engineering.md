@@ -15,6 +15,7 @@ Contents
 * [Joins](#joins)
 * [Data Modeling](#data-modeling)
 * [Evaluation of Data Observability Tools](#evaluation-of-data-observability-tools)
+* [The 3Vs in Big Data](#)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -368,3 +369,13 @@ Key components include:
 
 # Evaluation of Data Observability Tools
 * [Evaluating Data Observability Tools: A Comprehensive Guide](https://www.dataengineeringweekly.com/p/evaluating-data-observability-tools?publication_id=73271&post_id=149037505&isFreemail=true&r=i0gax&triedRedirect=true&utm_source=substack&utm_medium=email)
+
+-----------------------------------------------------------------------
+
+# The 3Vs in Big Data
+
+| Aspect |  Description | Example | Key Challenge |
+|-----------|------------|----------------------|------|
+| `Volume`  | The scale of data (amount) | Terabytes of web logs, petabytes of videos| Storing and processing large datasets|
+| `Velocity`  | The speed of data flow and processing  | Real-time IoT sensor data, stock transactions | Processing and analyzing data in real-time |
+| `Variety`  | The diversity of data formats and types  | JSON logs, images, relational tables | Integrating, analyzing, and storing diverse data |
