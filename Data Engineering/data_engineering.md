@@ -15,7 +15,7 @@ Contents
 * [Joins](#joins)
 * [Data Modeling](#data-modeling)
 * [Evaluation of Data Observability Tools](#evaluation-of-data-observability-tools)
-* [The 3Vs in Big Data](#)
+* [The 3Vs in Big Data](#the-3vs-in-big-data)
 
 ------------------------------------------------------------------------------------------------------------------
 
