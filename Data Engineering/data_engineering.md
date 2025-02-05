@@ -9,6 +9,7 @@ Contents
       * [Future-Proof Your Data Pipelines](#future-proof-your-data-pipelines)      
       * [Best Practices for Optimizing Data Processing Jobs](#best-practices-for-optimizing-data-processing-jobs)
       * [Best Practices for Scalable Data Pipelines](#best-practices-for-scalable-data-pipelines)
+      * [Best Practices for API Calls](#best-practices-for-api-calls)
    * [Code](#best-practices-in-general-code)
 * [Data Lakehouse Architecture](#data-lakehouse-architecture)
 * [Shuffling in ETL and Distributed Systems](#shuffling-in-etl-and-distributed-systems)
@@ -193,6 +194,34 @@ Use monitoring tools to detect and respond to failures quickly.
 16. `Security and Compliance`
 * Implement scalable access control policies using roles and permissions.
 * Ensure pipelines comply with data regulations (e.g., GDPR, HIPAA).
+
+## Best Practices for API Calls
+`When parsing data from an API, here are some high-level best practices to ensure efficiency, maintainability, and reliability:`
+1. `Understand the API Documentation`
+Review the API documentation to understand the available endpoints, request/response formats, authentication methods, rate limits, and error handling guidelines.
+2. `Use Robust Error Handling`
+Handle different HTTP response codes (e.g., 200 OK, 404 Not Found, 500 Internal Server Error).
+Implement retries for transient errors (e.g., timeouts or server unavailability).
+Ensure graceful error handling for malformed or unexpected API responses.
+3. `Implement Pagination and Rate Limiting`
+Many APIs return data in pages, so make sure to handle pagination properly (e.g., using page or offset parameters).
+Be mindful of API rate limits to avoid hitting throttling or bans. Implement backoff strategies (e.g., exponential backoff) when necessary.
+4. `Use Caching for Repeated Requests`
+Cache the API responses where appropriate to avoid unnecessary repeated requests. This can improve performance and reduce load on the API.
+Use cache expiration strategies to ensure the data stays fresh (e.g., ETags, Last-Modified).
+5. Parse Responses Efficiently
+Ensure that the API responses are parsed in a memory-efficient way, especially when dealing with large datasets (e.g., using streaming parsing instead of loading the entire response into memory).
+Validate the response structure to ensure it matches expected formats, and handle any discrepancies gracefully.
+6. Be Mindful of `Security`
+Secure API keys and authentication credentials (e.g., use `environment variables` or a secrets manager, not hard-code them).
+Use HTTPS for encrypted communication and avoid sending sensitive information in URLs (e.g., API keys or passwords).
+7. Rate-Limited or Batch Requests
+If an API allows batch processing (e.g., sending multiple requests in a single call), use it to reduce the number of requests and optimize performance.
+9. Respect API Terms of Service
+Always respect the API's terms of service regarding usage, rate limits, data usage, and any other restrictions to avoid penalties.
+10. Monitoring and Logging
+Implement proper logging and monitoring to track API usage, errors, and performance. This helps in debugging and identifying potential issues early.
+By adhering to these best practices, you can ensure that your API parsing is efficient, secure, and maintainable, even as the data or complexity scales.
 
 ## Best Practices in General Code
 
