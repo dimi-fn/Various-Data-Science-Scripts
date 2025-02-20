@@ -92,6 +92,7 @@ AS SELECT * FROM raw_sales;
    * Speeds up filtering and grouping queries
    * Improves compression and storage efficiency
    * Works well when query patterns involve multiple columns
+      * However, the benefits may become apparent only when the table or partition is > 1GB
 
 -------------------------------------------------------------------
 
