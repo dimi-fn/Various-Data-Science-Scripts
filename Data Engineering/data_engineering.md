@@ -3,6 +3,7 @@
 
 Contents
 ========================
+* [Data Engineering Foundations](#data-engineering-foundations)
 * [Best Practises](#best-practices)
    * [Data Pipelines](#data-pipelines)
       * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-data-retention-and-storage-in-etl-platforms)
@@ -19,6 +20,32 @@ Contents
 * [The 3Vs in Big Data](#the-3vs-in-big-data)
 
 ------------------------------------------------------------------------------------------------------------------
+
+# Data Engineering Foundations
+
+* `Segmentation of Tools`
+1) `Storage`: databases
+   * SQL vs. NoSQL
+2) `Processing Frameworks`
+   * For data cleaning, aggregation, clustering, batch and stream processing
+      * Spark, Hive, Flink and Kafka
+3) `Automation`: Scheduling
+   * In order to set up and manage workflows
+   * Plan jobs with specific intervals
+   * Resolve dependency requirements of jobs
+      * Scheduling: Airflow, Oozie, Luigi
+
+<br>
+
+* `Data`
+   * **Structured data**
+      * relational databases
+   * **Semi-structured data**
+      * e.g. JSON files of the format {"key":"value"}
+   * **Unstructured data**
+      * Video, images, text files
+
+-------------------------------------------------------------------
 
 # Best Practices 
 ## Data Pipelines
