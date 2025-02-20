@@ -4,6 +4,7 @@
 Contents
 ========================
 * [Data Engineering Foundations](#data-engineering-foundations)
+* [Partitioning & Clustering](#partitioning--clustering)
 * [Best Practises](#best-practices)
    * [Data Pipelines](#data-pipelines)
       * [Best Practices for Data Retention and Storage in ETL Platforms](#best-practices-for-data-retention-and-storage-in-etl-platforms)
@@ -44,6 +45,53 @@ Contents
       * e.g. JSON files of the format {"key":"value"}
    * **Unstructured data**
       * Video, images, text files
+
+-------------------------------------------------------------------
+
+# Partitioning & Clustering
+
+## Partitioning
+Partitioning divides a large table into smaller, more manageable segments (partitions) based on a specific column, such as date, region, or category. Queries can then scan only the relevant partitions instead of the entire table, improving performance and reducing costs.
+
+<br>
+
+`Types of Partitioning`:
+* Time-based partitioning (e.g., created_at or event_date)
+* Integer-range partitioning (e.g., customer_id in ranges like 1-1000, 1001-2000)
+* Column-based partitioning (e.g., country_code)
+* Manually-defined partitions (static partitioning based on business logic)
+
+
+```
+CREATE TABLE sales_data  
+PARTITION BY DATE(order_date)  
+AS SELECT * FROM raw_sales
+```
+
+* **Benefits**:
+   * Faster queries (only scans relevant partitions)
+   * Reduced storage and cost (querying fewer rows)
+   * Efficient data pruning
+
+## Clustering
+Clustering organizes data within each partition by sorting it based on one or more columns. This helps optimize queries that filter or group by those columns, reducing scan times even further.
+
+**Example Use Case**:
+A sales table partitioned by order_date can be clustered by customer_id, product_category to speed up customer- or product-specific queries.
+
+**Example in BigQuery**:
+
+```
+CREATE TABLE sales_data  
+PARTITION BY DATE(order_date)  
+CLUSTER BY customer_id, product_category  
+AS SELECT * FROM raw_sales;
+```
+
+* **Benefits**:
+   * Speeds up filtering and grouping queries
+   * Improves compression and storage efficiency
+   * Works well when query patterns involve multiple columns
 
 -------------------------------------------------------------------
 
