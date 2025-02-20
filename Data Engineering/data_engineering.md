@@ -24,16 +24,16 @@ Contents
 # Data Engineering Foundations
 
 * `Segmentation of Tools`
-1) `Storage`: databases
+1) `Storage`: **databases**
    * SQL vs. NoSQL
 2) `Processing Frameworks`
    * For data cleaning, aggregation, clustering, batch and stream processing
       * Spark, Hive, Flink and Kafka
-3) `Automation`: Scheduling
+3) `Automation`: **Scheduling**
    * In order to set up and manage workflows
    * Plan jobs with specific intervals
    * Resolve dependency requirements of jobs
-      * Scheduling: Airflow, Oozie, Luigi
+      * Scheduling: Airflow (Apache Airflow), Oozie, Luigi
 
 <br>
 
