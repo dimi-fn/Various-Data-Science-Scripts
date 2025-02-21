@@ -56,7 +56,7 @@ Partitioning divides a large table into smaller, more manageable segments (parti
 <br>
 
 `Types of Partitioning`:
-* Time-based partitioning (e.g., created_at or event_date)
+* Time-based partitioning (ingestion time partitioning; based on when a particular record was added to the table) (e.g., created_at or event_date)
 * Integer-range partitioning (e.g., customer_id in ranges like 1-1000, 1001-2000)
 * Column-based partitioning (e.g., country_code)
 * Manually-defined partitions (static partitioning based on business logic)
@@ -74,7 +74,7 @@ AS SELECT * FROM raw_sales
    * Efficient data pruning
 
 ## Clustering
-Clustering organizes data within each partition by sorting it based on one or more columns. This helps optimize queries that filter or group by those columns, reducing scan times even further.
+Clustering organizes data within each partition by sorting it based on one or more columns. This helps optimize queries that filter or group by those columns, reducing scan times even further (the clustering field value can also be of text data type, which is not allowed in partitioning).
 
 **Example Use Case**:
 A sales table partitioned by order_date can be clustered by customer_id, product_category to speed up customer- or product-specific queries.
