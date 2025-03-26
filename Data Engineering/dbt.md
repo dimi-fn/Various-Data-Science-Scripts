@@ -12,10 +12,7 @@ Contents
 -------------------------------------------------------------------------------
 
 
-* DBT is the 'Transform' part of the ELT process, and can connect direcly to your data platform to model data.
-
-
-
+* DBT is the 'Transform' part of the ETL/ELT process, and it can connect direcly to your data platform to model data.
 
 
 # DBT Resources
