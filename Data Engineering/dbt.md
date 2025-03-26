@@ -31,8 +31,8 @@ Contents
 | `dbt run`   | It will execute the project based on the target value specified in the profiles.yml file. |   |
 | `dbt run --profiles-dir .`   | This tells dbt to look for the profiles.yml in the current directory. |   |
 | `dbt run --profiles-dir . --target <dev/prod>`   | This tells dbt to look for the profiles.yml in the current directory and execute the specified target |   |
-| `dbt run --profiles-dir . --target prod --models fact_mql_event` | This command will only execute the model 'fact_mql_event' targeting the prod environment  |   |
-| `dbt run --select models/salesforce/*` | This will run only the models located in the models/salesforce/ directory. |   |
+| `dbt run --profiles-dir . --target prod --models model_1.sql` | This command will only execute the model model_1.sql targeting the prod environment  |   |
+| `dbt run --select models/analytics/*` | This will run only the models located in the models/analytics/ directory. |   |
 | `dbt compile --profiles-dir .`  |  Compiles DBT project's SQL files without actually running the queries |   |
 | `dbt debug`   | It checks the installation, verifies database connections, validates configurations in profiles.yml and dbt_project.yml, and ensures that all environment variables are properly set. It helps identify and resolve common setup issues in your DBT environment. |   |
 | `dbt debug --profiles-dir .`   |  |   |
