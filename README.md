@@ -17,10 +17,10 @@ Contents
 
 -----
 
-* Data Engineering
-    * Data Engineering - General
+* [Data Engineering](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data%20Engineering)
+    * [Data Engineering - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Data%20Engineering/data_engineering.md)
         * Data lakehouse architecture, pipelines, data modeling
-    * DBT
+    * [DBT](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Data%20Engineering/dbt.md)
 
 -----
 
