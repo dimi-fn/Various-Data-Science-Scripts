@@ -4,4 +4,4 @@ Contents
 =======================
 
 * [Data Engineering - General](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Data%20Engineering/data_engineering.md)
-* [DBT](https://github.com/dimi-fn/Various-Data-Science-Scripts/tree/main/Data%20Engineering)
+* [DBT](https://github.com/dimi-fn/Various-Data-Science-Scripts/blob/main/Data%20Engineering/dbt.md)
