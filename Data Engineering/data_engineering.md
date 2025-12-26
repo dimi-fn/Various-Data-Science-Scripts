@@ -19,6 +19,7 @@ Contents
 * [Data Modeling](#data-modeling)
 * [Evaluation of Data Observability Tools](#evaluation-of-data-observability-tools)
 * [The 3Vs in Big Data](#the-3vs-in-big-data)
+* [Agent Engineering](#agent-engineering)
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -484,3 +485,30 @@ Key components include:
 | `Volume`  | The scale of data (amount) | Terabytes of web logs, petabytes of videos| Storing and processing large datasets|
 | `Velocity`  | The speed of data flow and processing  | Real-time IoT sensor data, stock transactions | Processing and analyzing data in real-time |
 | `Variety`  | The diversity of data formats and types  | JSON logs, images, relational tables | Integrating, analyzing, and storing diverse data |
+
+-----------------------------------------------------------------------
+
+# Agent Engineering
+* How do we architect a system where AI reliably executes complex workflows
+   * might be thought as software components that require a specialized kind of engineering
+* `Context Engineering` (for AI Engineering)
+   * From **model** capacity to **context** management and context relevance
+   * Agent is as smart as the context that has been fed to
+   * Engineered systems with (pipeline) orchestration, state management, and error management
+      * prompt chaining, routing, parallelization
+* `Model Context Protocol` (MCP)   
+   * software via which the LLM can smoothly be connected to a database or API 
+   * it like the mode6rn USB-C for Agents
+   * solved interoperability but may introduce new cyber attacks
+
+
+## Evaluation & Testing/QA in Agent Enginerring
+* Era from Test-Driven Development (TDD) to Evaluation-Driven Development (EDD)
+   * you cannot optimize what you cannot measure
+      * you are not promt engineering until you have one or metrics indicating if the changes you made made the system better or worse
+   * scalability, relativity, reliability
+   * 
+
+
+
+
